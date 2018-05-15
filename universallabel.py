@@ -5,7 +5,7 @@ from cl_errors import errors as err
 
 PRICES_FILE = "BEST_PRICE_1H.csv"
 FULL_OUTPUT = True
-JOB_NAME = "NCD6"
+JOB_NAME = "NCDA8"
 OUTPUT_FILE = JOB_NAME + ".txt"
 WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
@@ -527,7 +527,7 @@ class Task:
                     if not optimal_scheme[0].success:
                         self.output("Scheme can not be optimized")
 
-                    elif checked_schemes == []:
+                    elif not scheme_found:
                         best_scheme = optimal_scheme
                         best_scheme_patterns = copy.copy(scheme)
                         best_blocks = blocks
@@ -641,7 +641,9 @@ class Task:
                 new_number = len(self.results[type[1]])
                 number_of_schemes *= new_number
             self.product_schemes += number_of_schemes
-        self.output("{} product types calculated".format(len(self.products)))
+        self.output("{} product types calculated:".format(len(self.products)))
+        for product in self.products:
+            self.output(str(product))
         self.output("{} total labeling schemes to check".format(self.product_schemes))
 
     def find_blocks(self):
@@ -738,7 +740,7 @@ block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
 
 
 def main():
-    task4.find_scheme()
+    task5.find_scheme()
     # block_find.find()
 
 if __name__ == "__main__":
