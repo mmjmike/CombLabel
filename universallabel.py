@@ -529,7 +529,7 @@ class Task:
                     if not optimal_scheme[0].success:
                         self.output("Scheme can not be optimized")
 
-                    elif checked_schemes == []:
+                    elif not scheme_found:
                         best_scheme = optimal_scheme
                         best_scheme_patterns = copy.copy(scheme)
                         best_blocks = blocks
@@ -643,7 +643,9 @@ class Task:
                 new_number = len(self.results[type[1]])
                 number_of_schemes *= new_number
             self.product_schemes += number_of_schemes
-        self.output("{} product types calculated".format(len(self.products)))
+        self.output("{} product types calculated:".format(len(self.products)))
+        for product in self.products:
+            self.output(str(product))
         self.output("{} total labeling schemes to check".format(self.product_schemes))
 
     def find_blocks(self):
