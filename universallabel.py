@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import copy
 from scipy.optimize import linprog
 from cl_errors import errors as err
@@ -5,7 +7,7 @@ from cl_errors import errors as err
 
 PRICES_FILE = "BEST_PRICE_1H.csv"
 FULL_OUTPUT = True
-JOB_NAME = "NCD6"
+JOB_NAME = "TSF12-2"
 OUTPUT_FILE = JOB_NAME + ".txt"
 WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
@@ -738,7 +740,7 @@ block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
 
 
 def main():
-    task4.find_scheme()
+    task6.find_scheme()
     # block_find.find()
 
 if __name__ == "__main__":
