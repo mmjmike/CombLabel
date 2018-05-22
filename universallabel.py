@@ -7,7 +7,7 @@ from cl_errors import errors as err
 
 PRICES_FILE = "BEST_PRICE_1H.csv"
 FULL_OUTPUT = True
-JOB_NAME = "TSF12-2"
+JOB_NAME = "TSF12-dubinnyi"
 OUTPUT_FILE = JOB_NAME + ".txt"
 WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
@@ -501,6 +501,10 @@ class Task:
         self.all_blocks = []
         self.product_schemes = 0
         self.first_output = True
+        self.out_stream=open(OUTPUT_FILE, "w")
+
+    def __delete__(self):
+        self.out_stream.close()
 
     def find_scheme(self):
         self.find_blocks()
@@ -690,10 +694,10 @@ class Task:
             print(text)
 
     def write_to_file(self, filename, output, mode='w'):
-        f = open(filename, mode)
-        f.write(output)
-        f.flush()
-        f.close()
+        #f = open(filename, mode)
+        self.output_stream.write(output)
+        self.output_stream.flush()
+        #f.close()
 
 
 typeX = LabelType("X", "000")
