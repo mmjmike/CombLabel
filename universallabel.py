@@ -3,11 +3,12 @@
 import copy
 from scipy.optimize import linprog
 from cl_errors import errors as err
+import time
 
 
 PRICES_FILE = "BEST_PRICE_1H.csv"
 FULL_OUTPUT = True
-JOB_NAME = "TSF12-2"
+JOB_NAME = "NC2-8-8"
 OUTPUT_FILE = JOB_NAME + ".txt"
 WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
@@ -294,10 +295,18 @@ class BlockFinder:
         self.result = {}
         self.results_found = 0
         self.output = ''
+        self.iterator = 0
+        self.timer=time.time()
         # print(self.patterns)
 
     def find(self):
         while True:
+            self.iterator+=1
+            if self.iterator % 10000 == 0:
+              out="{:>7} {:>6d}sec depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
+              for d in range (self.depth):
+                out+=" {:>3}/{:<3}".format(self.counter[d],len(self.patterns[d]))
+              print(out)
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + 1 == len(patterns):
                 break
@@ -332,6 +341,8 @@ class BlockFinder:
                 # print(next_patterns, self.depth)
                 self.counter.append(0)
                 self.depth += 1
+        out="FindBlocks finished after {} iterations".format(self.iterator)
+        print(out)
         self.write_result()
         self.scheme.sort()
 
@@ -501,6 +512,10 @@ class Task:
         self.all_blocks = []
         self.product_schemes = 0
         self.first_output = True
+        self.output_stream = open(OUTPUT_FILE, "w")
+
+    def __delete__(self):
+        self.output_stream.close()
 
     def find_scheme(self):
         self.find_blocks()
@@ -654,8 +669,10 @@ class Task:
         self.results = {}
         self.types = []
         blocks_total = 0
+        t0 = time.time()
         for i in range(self.max_block_size):
             self.output("Search in {} samples:".format(i+1))
+            self.output("Time in find_blocks: {} seconds\n".format(str(time.time()-t0)))
             block_finder = BlockFinder(self.ncs.label_types, i+1, self.ncs, min_depth)
             block_finder.find()
             result = block_finder.result
@@ -690,10 +707,10 @@ class Task:
             print(text)
 
     def write_to_file(self, filename, output, mode='w'):
-        f = open(filename, mode)
-        f.write(output)
-        f.flush()
-        f.close()
+        #f = open(filename, mode)
+        self.output_stream.write(output)
+        self.output_stream.flush()
+        #f.close()
 
 
 typeX = LabelType("X", "000")
@@ -733,6 +750,7 @@ RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                   "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
 
 task1 = Task(NC2, RES_TYPES_LIST, 9, 5)
+task18 = Task(NC2, RES_TYPES_LIST, 8, 8)
 task2 = Task(NCD2, RES_TYPES_LIST, 7, 4)
 task3 = Task(NCD4, RES_TYPES_LIST, 6, 3)
 task4 = Task(NCD6, RES_TYPES_LIST, 5, 3)
@@ -742,7 +760,7 @@ block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
 
 
 def main():
-    task6.find_scheme()
+    task18.find_scheme()
     # block_find.find()
 
 if __name__ == "__main__":
