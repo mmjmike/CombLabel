@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import copy
+import sys
 from scipy.optimize import linprog
 from cl_errors import errors as err
 import time
@@ -165,6 +166,7 @@ class Scheme:
         for pattern in self.patterns:
             output += "\n" + pattern
         print(output)
+        sys.stdout.flush()
 
     def size(self):
         return len(self.patterns)
@@ -206,6 +208,7 @@ class Spectrum:
 
         else:
             print("Error")
+            sys.stdout.flush()
             return 0
 
 
@@ -300,13 +303,18 @@ class BlockFinder:
         # print(self.patterns)
 
     def find(self):
+        out="BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
+        out+="BlockFinder: samples={} min_depth={}\n".format(self.samples,self.min_depth)
+        print(out)
+        sys.stdout.flush()
         while True:
             self.iterator+=1
             if self.iterator % 10000 == 0:
-              out="{:>7} {:>6d}sec depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
+              out="{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
               for d in range (self.depth):
                 out+=" {:>3}/{:<3}".format(self.counter[d],len(self.patterns[d]))
               print(out)
+              sys.stdout.flush()
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + 1 == len(patterns):
                 break
@@ -341,8 +349,11 @@ class BlockFinder:
                 # print(next_patterns, self.depth)
                 self.counter.append(0)
                 self.depth += 1
-        out="FindBlocks finished after {} iterations".format(self.iterator)
+        out="FindBlocks finished after {} iterations\n".format(self.iterator)
+        out+="FindBlocks: Evaluation time was {} seconds\n".format(timt.time()-self.timer)
+        out+="FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         print(out)
+        sys.stdout.flush()
         self.write_result()
         self.scheme.sort()
 
@@ -757,11 +768,12 @@ task4 = Task(NCD6, RES_TYPES_LIST, 5, 3)
 task5 = Task(NCDA8, RES_TYPES_LIST, 4, 3)
 task6 = Task(TSF12, RES_TYPES_LIST, 4, 2)
 block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
+block_find8_20 = BlockFinder([typeN, typeC], 8, NC2, 20)
 
 
 def main():
-    task18.find_scheme()
-    # block_find.find()
+    #task18.find_scheme()
+    block_find8_20.find()
 
 if __name__ == "__main__":
     main()
