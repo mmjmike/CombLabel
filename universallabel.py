@@ -312,18 +312,18 @@ class BlockFinder:
         # print(self.patterns)
 
     def find(self):
-        out="BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
-        out+="BlockFinder: samples={} min_depth={}\n".format(self.samples,self.min_depth)
+        out = "BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
+        out += "BlockFinder: samples={} min_depth={}\n".format(self.samples,self.min_depth)
         print(out)
         sys.stdout.flush()
         while True:
-            self.iterator+=1
+            self.iterator += 1
             if self.iterator % 10000 == 0:
-              out="{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
-              for d in range (self.depth):
-                out+=" {:>3}/{:<3}".format(self.counter[d],len(self.patterns[d]))
-              print(out)
-              sys.stdout.flush()
+                out = "{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
+                for d in range (self.depth):
+                    out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]))
+                print(out)
+                sys.stdout.flush()
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + 1 == len(patterns):
                 break
@@ -333,7 +333,7 @@ class BlockFinder:
             start_point = 1 + self.counter[self.depth]
             patterns_left = len(patterns) - start_point
             # print(patterns_left, self.depth)
-            if patterns_left == 0:
+            if patterns_left == 0 or patterns_left < self.min_depth - self.depth - 1:
                 if len(self.scheme.patterns) >= self.min_depth:
                     self.save_result()
                     # self.scheme.output()
@@ -358,16 +358,18 @@ class BlockFinder:
                 # print(next_patterns, self.depth)
                 self.counter.append(0)
                 self.depth += 1
+            if self.depth > self.max_depth:
+                self.max_depth = self.depth
+                if BLOCK_FIND:
+                    print("New max depth: {}".format(self.max_depth))
 
-        out="FindBlocks finished after {} iterations\n".format(self.iterator)
-        out+="FindBlocks: Evaluation time was {} seconds\n".format(timt.time()-self.timer)
-        out+="FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
+
+        out = "FindBlocks finished after {} iterations\n".format(self.iterator)
+        out += "FindBlocks: Evaluation time was {} seconds\n".format(timt.time()-self.timer)
+        out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         print(out)
         sys.stdout.flush()
-        if self.depth > self.max_depth:
-            self.max_depth = self.depth
-            if BLOCK_FIND:
-                print("New max depth: {}".format(self.max_depth))
+
         self.write_result()
         self.scheme.sort()
 
