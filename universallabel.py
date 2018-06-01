@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 
 import copy
+
 import sys
+
+import argparse
+
 from scipy.optimize import linprog
 from cl_errors import errors as err
 import time
@@ -9,11 +13,22 @@ import time
 
 PRICES_FILE = "BEST_PRICE_1H.csv"
 FULL_OUTPUT = True
+
 JOB_NAME = "NC2-8-8"
+
 OUTPUT_FILE = JOB_NAME + ".txt"
 WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
+CONFIG_FILE = "UCSL.task"
+RESULT_FILE = JOB_NAME + "_results.txt"
+BLOCK_FIND = True
 
+# parser = argparse.ArgumentParser()
+# parser.add_argument("config", default=CONFIG_FILE, help='Specify the config file')
+# # parser.add_argument('--check', '-c', default='-', help='Check solution in the specified file')
+# # parser.add_argument('--number', '-n', default=1, help='The number of solution to be checked in the specified file')
+# # parser.add_argument('--samples', '-s', default=1, help='The number of samples to start with')
+# args = parser.parse_args()
 
 class Scheme:
 
@@ -300,6 +315,8 @@ class BlockFinder:
         self.output = ''
         self.iterator = 0
         self.timer=time.time()
+        self.max_depth = 0
+
         # print(self.patterns)
 
     def find(self):
@@ -349,11 +366,16 @@ class BlockFinder:
                 # print(next_patterns, self.depth)
                 self.counter.append(0)
                 self.depth += 1
+
         out="FindBlocks finished after {} iterations\n".format(self.iterator)
         out+="FindBlocks: Evaluation time was {} seconds\n".format(timt.time()-self.timer)
         out+="FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         print(out)
         sys.stdout.flush()
+        if self.depth > self.max_depth:
+            self.max_depth = self.depth
+            if BLOCK_FIND:
+                print("New max depth: {}".format(self.max_depth))
         self.write_result()
         self.scheme.sort()
 
@@ -401,6 +423,8 @@ class BlockFinder:
                 # print("Output:")
                 scheme.sort()
                 self.output += '{} {}\n'.format(depth, scheme)
+                if BLOCK_FIND:
+                    print(self.output)
 
 
 class PriceOptimizer:
@@ -511,7 +535,7 @@ class PriceOptimizer:
 class Task:
 
     def __init__(self, ncs, aa_list, max_samples, max_block_size):
-        self.ncs = ncs
+        self.ncs = 0
         self.residues = aa_list
         self.aa_number = len(aa_list)
         self.max_samples = max_samples
@@ -527,6 +551,118 @@ class Task:
 
     def __delete__(self):
         self.output_stream.close()
+
+    # def read_config(self, config_file):
+    #     try:
+    #         lines = self.get_lines_from_file(config_file)
+    #     except err.ReadLinesError as e:
+    #         raise err.ReadConfigError(msg="ERROR! Config file '" + e.filename + "' not found")
+    #     parameters = {}
+    #     for line in lines:
+    #         split_comment = line.split("#")[0]
+    #         split_line = split_comment.split()
+    #         try:
+    #             parameters[split_line[0]] = split_line[1:]
+    #         except IndexError:
+    #             pass
+    #
+    #     try:
+    #         job_name = parameters["job_name"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Job name is not specified in the config file")
+    #     if job_name == []:
+    #         raise err.ReadConfigError(msg="ERROR! Job name is not specified in the config file")
+    #     self.name = job_name[0]
+    #
+    #     try:
+    #         spec_vec = parameters["spectra_types"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Spectra types are not specified in the config file")
+    #     if spec_vec == []:
+    #         raise err.ReadConfigError(msg="ERROR! Spectra types are not specified in the config file")
+    #     try:
+    #         self.read_spec_vec(spec_vec)
+    #     except err.ReadConfigError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+    #
+    #     try:
+    #         aa_list = parameters["aa_list"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Amino-acid types are not specified in the config file")
+    #     if aa_list == []:
+    #         raise err.ReadConfigError(msg="ERROR! Amino-acid types are not specified in the config file")
+    #     try:
+    #         self.read_aa_list(aa_list)
+    #     except err.ReadConfigError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+    #
+    #     try:
+    #         max_block_size = parameters["max_block_size"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Max block size is not specified in the config file")
+    #     if max_block_size == []:
+    #         raise err.ReadConfigError(msg="ERROR! Max block size is not specified in the config file")
+    #     try:
+    #         self.set_block_size(max_block_size[0])
+    #     except err.ReadConfigError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+    #
+    #     try:
+    #         lab_vec = parameters["labeling_types"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Labeling types are not specified in the config file")
+    #     if lab_vec == []:
+    #         raise err.ReadConfigError(msg="ERROR! Labeling types are not specified in the config file")
+    #     try:
+    #         self.read_label_vec(lab_vec)
+    #     except err.ReadConfigError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+    #
+    #     try:
+    #         self.make_coding_table()
+    #     except err.LabelPowerError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+    #
+    #     try:
+    #         stock_file = parameters["stock_file"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Stock file is not specified in the config file")
+    #     if stock_file == []:
+    #         raise err.ReadConfigError(msg="ERROR! Stock file is not specified in the config file")
+    #     try:
+    #         self.read_stock(stock_file[0])
+    #     except err.ReadConfigError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+    #
+    #     self.coding_table.recalculate_coding_table()
+    #
+    #     try:
+    #         price_file = parameters["prices_file"]
+    #     except KeyError:
+    #         raise err.ReadConfigError(msg="ERROR! Price file is not specified in the config file")
+    #     if price_file == []:
+    #         raise err.ReadConfigError(msg="ERROR! Price file is not specified in the config file")
+    #     try:
+    #         self.read_prices(price_file[0])
+    #     except err.ReadConfigError as e:
+    #         raise err.ReadConfigError(msg=e.msg)
+
+
+
+
+    def get_lines_from_file(self, filename):
+        try:
+            f = open(filename, 'r', encoding='UTF-8')
+            lines = f.readlines()
+            f.close()
+        except IOError:
+            raise err.ReadLinesError(filename)
+        new_lines = []
+        for line in lines:
+            curr_line = line.rstrip()
+            if curr_line:
+                new_lines.append(curr_line)
+        return new_lines
 
     def find_scheme(self):
         self.find_blocks()
@@ -544,7 +680,7 @@ class Task:
                 scheme = self.all_schemes[i]
                 scheme.sort()
                 blocks = self.all_blocks[i]
-                self.output("\n{} scheme. Consists of following blocks: ".format(checked_number+1))
+                self.output("------------------------------------\n{} scheme. Consists of following blocks: ".format(checked_number+1))
                 for block in blocks:
                     self.output(str(block))
                 self.output("\nScheme itself:")
@@ -554,16 +690,20 @@ class Task:
                     # if impossible to use due to lack in the stock, skip
                     if not optimal_scheme[0].success:
                         self.output("Scheme can not be optimized")
-
-                    elif not scheme_found:
-                        best_scheme = optimal_scheme
-                        best_scheme_patterns = copy.copy(scheme)
-                        best_blocks = blocks
-                        scheme_found = True
-                    elif optimal_scheme[0].fun < best_scheme[0].fun:
-                        best_scheme = optimal_scheme
-                        best_scheme_patterns = copy.copy(scheme)
-                        best_blocks = blocks
+                    else:
+                        label_dict = self.get_scheme_from_linprog(optimal_scheme, scheme)
+                        self.output("\nScheme was successfully optimized:")
+                        self.output_best_scheme(label_dict, scheme.samples, final=False)
+                        self.output("Scheme price: {}".format(optimal_scheme[0].fun))
+                        if not scheme_found:
+                            best_scheme = optimal_scheme
+                            best_scheme_patterns = copy.copy(scheme)
+                            best_blocks = blocks
+                            scheme_found = True
+                        elif optimal_scheme[0].fun < best_scheme[0].fun:
+                            best_scheme = optimal_scheme
+                            best_scheme_patterns = copy.copy(scheme)
+                            best_blocks = blocks
                     checked_schemes.append(scheme.simplified)
                 else:
                     self.output("Equivalent scheme was already checked")
@@ -581,6 +721,7 @@ class Task:
             self.output_best_scheme(label_dict, samples, best_blocks)
         else:
             self.output("No schemes were found...")
+        self.output("________________________\nCalculation finished!")
 
     def get_scheme_from_linprog(self, best_scheme, scheme_patterns):
         simple_patterns = best_scheme[1]
@@ -607,16 +748,20 @@ class Task:
                             break
         return scheme
 
-    def output_best_scheme(self, scheme, samples, blocks):
-        output = '\nBest scheme:\n[solution]\nRes'
+    def output_best_scheme(self, scheme, samples, blocks="", final=True):
+        output = ""
+        if final:
+            output += '________________________\nBest scheme:\n[solution]'
+        output += "\nRes"
         for i in range(samples):
             output += ",S{}".format(i + 1)
         output += "\n"
         for res in self.residues:
-            output += "{}: {}\n".format(res, scheme[res])
-        output += "\nBlocks used for this scheme"
-        for block in blocks:
-            output += str(block) + "\n"
+            output += "{}, {}\n".format(res, scheme[res])
+        if blocks:
+            output += "\nBlocks used for this scheme"
+            for block in blocks:
+                output += str(block) + "\n"
         self.output(output)
 
     def obtain_scheme(self, product, schemes, block_list, depth=0):
@@ -669,9 +814,8 @@ class Task:
                 new_number = len(self.results[type[1]])
                 number_of_schemes *= new_number
             self.product_schemes += number_of_schemes
+            self.output(str(list_of_types) + ": {} scheme(s)".format(number_of_schemes))
         self.output("{} product types calculated:".format(len(self.products)))
-        for product in self.products:
-            self.output(str(product))
         self.output("{} total labeling schemes to check".format(self.product_schemes))
 
     def find_blocks(self):
@@ -707,21 +851,185 @@ class Task:
             output += self.results[key] + "\n"
         self.output(output)
 
-    def output(self, text):
+    def output(self, text, result=False):
         mode = 'a'
         if self.first_output:
             mode = 'w'
             self.first_output = False
         if WRITE_TO_FILE:
             self.write_to_file(OUTPUT_FILE, text + "\n", mode=mode)
+        if result:
+            self.write_to_file(RESULT_FILE, text + "\n", mode=mode)
         if WRITE_TO_CONSOLE:
             print(text)
 
     def write_to_file(self, filename, output, mode='w'):
+
         #f = open(filename, mode)
         self.output_stream.write(output)
         self.output_stream.flush()
         #f.close()
+
+
+
+# class Stock:
+#     '''
+# Stock object
+#
+# Contains the amino acid stock
+# and also prices for each type of labeling
+# '''
+#
+#     def __init__(self, task):
+#         self.task = task
+#         self.label_dict = {}
+#         self.label_options = {}
+#         self.label_num_dict = {}
+#         self.price_dict = {}
+#         self.usage = {}
+#         self.label_types = []
+#         self.price_label_types = []
+#         for res in self.task.res_types:
+#             self.usage.update({res: 1})
+#
+#     def read_stock(self, lines):
+#         d = []
+#         first_entry = True
+#         row_len = 0
+#         for line in lines:
+#             if line[0] != "#" and line != "":
+#                 s = [x.strip() for x in line.split(",")]
+#                 if first_entry:
+#                     row_len = len(s)
+#                     first_entry = False
+#                 elif len(s) != row_len:
+#                     message = "ERROR in stock file!\nThe lenths of rows are not equal"
+#                     raise err.ReadConfigError(msg=message)
+#                 d.append(s)
+#
+#         try:
+#             self.label_types = d[0][1:]
+#             for label_type in self.label_types:
+#                 if label_type not in self.task.label_types:
+#                     raise err.ReadConfigError(msg="ERROR! Wrong labeling type in stock file.")
+#             for i in range(len(d) - 1):
+#                 res_name = d[i + 1][0]
+#                 if res_name in self.task.res_types:
+#                     res = res_name
+#                 elif res_name.upper() in [r.upper() for r in self.task.res_types_3]:
+#                     res = self.task.to_one_letter_code[res_name]
+#                 else:
+#                     raise err.ReadConfigError(msg="ERROR! Wrong residue name in stock file.")
+#                 self.label_dict.update({res: ''.join(d[i + 1][1:])})
+#             self._generate_label_options()
+#         except IndexError:
+#             raise err.ReadConfigError(msg="ERROR in stock file.\nPlease check the length of each row.\nUse comma as separator")
+#         except err.ReadConfigError as e:
+#             raise err.ReadConfigError(msg=e.msg)
+#
+#     def read_from_table(self, table):
+#         #self.label_types = ['X', 'N', 'C', 'D']
+#         for i in range(len(self.task.res_types)):
+#             res = self.task.res_types[i]
+#             table_part = [table[j][i] for j in range(len(table))]
+#             self.label_dict.update({res: ''.join(["1" if cell else "0" for cell in table_part])})
+#         self._generate_label_options()
+#
+#     def read_prices_from_table(self, table):
+#         pass
+#
+#     def _generate_label_options(self):
+#         for residue in self.task.res_types:
+#             if residue in self.label_dict:
+#                 stock_to_change = self.label_dict[residue]
+#                 option = []
+#                 ## Labeling types are in preferred order,
+#                 ##but due to success with this software the order doesn't matter.
+#                 for label in self.task.label_types:
+#                     if label in self.label_types and label in self.task.coding_table.label_types_list:
+#                         label_index = self.label_types.index(label)
+#                         if stock_to_change[label_index] == '1':
+#                             option.append(label)
+#                 label_num_dict = {}
+#                 for i in range(len(option)):
+#                     label = option[i]
+#                     label_num_dict[label] = i
+#                 self.label_options.update({residue: option})
+#                 self.label_num_dict.update({residue: label_num_dict})
+#
+#     def read_prices(self, lines):
+#         d = []
+#         for line in lines:
+#             a = line[0]
+#             if line[0] != "#" and line != "":
+#                 s = [x.strip() for x in line.split(",")]
+#                 d.append(s)
+#         self.price_label_types = d[0][1:]
+#         for label in self.label_types:
+#             if label not in self.price_label_types:
+#                 raise err.ReadConfigError(msg="ERROR! Prices are not specified for '" + label + "' label type")
+#
+#         # ADD check if file format is correct
+#         try:
+#             for i in range(len(d) - 1):
+#                 curr_dict = {}
+#                 for j in range(len(self.price_label_types)):
+#                     try:
+#                         price = float(d[i + 1][j + 1])
+#                     except ValueError:
+#                         raise err.ReadConfigError(msg="ERROR! Price must be set in digits\nPlease check price file (row {}; col {})".format(i+2, j+2))
+#                     curr_dict.update({self.price_label_types[j]: price})
+#                 res_name = d[i + 1][0]
+#                 if res_name in self.task.res_types:
+#                     residue_type = res_name
+#                 elif res_name.upper() in [r.upper() for r in self.task.res_types_3]:
+#                     residue_type = self.task.to_one_letter_code[res_name]
+#                 else:
+#                     raise err.ReadConfigError(msg="ERROR! Wrong residue name in price file.")
+#                 for label_type in self.label_options[residue_type]:
+#                     if curr_dict[label_type] < 0:
+#                         raise err.ReadConfigError(msg="ERROR! Price is not specified or negative for '"
+#                               + residue_type + "'-residue's '"
+#                               + label_type + "' label type")
+#                 self.price_dict.update({residue_type: curr_dict})
+#         except IndexError:
+#             raise err.ReadConfigError(msg="ERROR in price file.\nPlease check the length of each row.\nUse comma as separator")
+#         for res in self.label_options:
+#             for option in self.label_options[res]:
+#                 try:
+#                     self.price_dict[res][option]
+#                 except KeyError:
+#                     raise err.ReadConfigError(msg="ERROR in price file.\n"
+#                                                   "Price is not specified for {} label "
+#                                                   "option of {}".format(option, self.task.to_three_letter_code[res]))
+#
+#     def write_to_file(self, filename, mode='w'):
+#
+#         #ADD check if file exists
+#
+#         f = open(filename, mode)
+#         f.write('Res\t' + '\t'.join(self.task.label_types) + '\n')
+#         for residue in self.task.res_types:
+#             line = residue
+#             for label in self.task.label_types:
+#                 line += '\t'
+#                 if residue in self.price_dict:
+#                     line += str(self.price_dict[residue][label])
+#                 else:
+#                     line += '0'
+#             line += '\n'
+#             f.write(line)
+#         f.flush()
+#         f.close()
+#
+#     def log_print(self):
+#         i = 1
+#         for key in self.label_dict:
+#             self.task.logfile.write (str(i) + "." + key + ":" + self.label_dict[key])
+#             i += 1
+#         self.task.logfile.write("\n")
+#         self.task.logfile.flush()
+
 
 
 typeX = LabelType("X", "000")
@@ -774,6 +1082,7 @@ block_find8_20 = BlockFinder([typeN, typeC], 8, NC2, 20)
 def main():
     #task18.find_scheme()
     block_find8_20.find()
+
 
 if __name__ == "__main__":
     main()
