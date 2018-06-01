@@ -363,7 +363,10 @@ class BlockFinder:
             if self.depth > self.max_depth:
                 self.max_depth = self.depth
                 if LOG_BLOCK_FIND:
-                    print("New max depth: {}".format(self.max_depth))
+                    out ="{:>8} {:>6d} sec ".format(self.iterator, int(time.time() - self.timer))
+                    out+= " max={:<2} depth={:<2}".format(self.max_depth, self.depth)
+                    out+=" NEW MAX DEPTH REACHED: {}".format(self.max_depth)
+                    print(out)
                     sys.stdout.flush()
 
 
