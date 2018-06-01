@@ -13,22 +13,14 @@ import time
 
 PRICES_FILE = "BEST_PRICE_1H.csv"
 FULL_OUTPUT = True
-
-JOB_NAME = "NC2-8-8"
-
+JOB_NAME = "NC2_7-20_V180106"
 OUTPUT_FILE = JOB_NAME + ".txt"
 WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
 CONFIG_FILE = "UCSL.task"
 RESULT_FILE = JOB_NAME + "_results.txt"
-BLOCK_FIND = True
+LOG_BLOCK_FIND = True
 
-# parser = argparse.ArgumentParser()
-# parser.add_argument("config", default=CONFIG_FILE, help='Specify the config file')
-# # parser.add_argument('--check', '-c', default='-', help='Check solution in the specified file')
-# # parser.add_argument('--number', '-n', default=1, help='The number of solution to be checked in the specified file')
-# # parser.add_argument('--samples', '-s', default=1, help='The number of samples to start with')
-# args = parser.parse_args()
 
 class Scheme:
 
@@ -320,14 +312,16 @@ class BlockFinder:
         # print(self.patterns)
 
     def find(self):
-        out = "BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
-        out += "BlockFinder: samples={} min_depth={}\n".format(self.samples,self.min_depth)
-        print(out)
-        sys.stdout.flush()
+        if LOG_BLOCK_FIND:
+            out = "BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
+            out += "BlockFinder: samples={} min_depth={}\n".format(self.samples,self.min_depth)
+            print(out)
+            sys.stdout.flush()
         while True:
             self.iterator += 1
-            if self.iterator % 10000 == 0:
-                out = "{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
+            if LOG_BLOCK_FIND and self.iterator % 10000 == 0:
+                out = "{:>8} {:>6d} sec ".format(self.iterator, int(time.time()-self.timer))
+                out+=" max={:<2} depth={:<2}".format(self.max_depth, self.depth)
                 for d in range (self.depth):
                     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]))
                 print(out)
@@ -346,13 +340,16 @@ class BlockFinder:
                     self.save_result()
                     # self.scheme.output()
                 self.depth -= 1
-                self.patterns.pop()
-                self.counter.pop()
-                self.counter[-1] += 1
-                self.back_up_schemes.pop()
-                self.scheme = self.back_up_schemes[-1].copy()
-                self.back_up_schemes.pop()
-                continue
+                if self.depth < 0:
+                   break
+                else:
+                   self.patterns.pop()
+                   self.counter.pop()
+                   self.counter[-1] += 1
+                   self.back_up_schemes.pop()
+                   self.scheme = self.back_up_schemes[-1].copy()
+                   self.back_up_schemes.pop()
+                   continue
             for i in range(patterns_left):
                 if self.scheme.try_pattern(patterns[i+start_point]):
                     next_patterns.append(patterns[i+start_point])
@@ -368,12 +365,17 @@ class BlockFinder:
                 self.depth += 1
             if self.depth > self.max_depth:
                 self.max_depth = self.depth
-                if BLOCK_FIND:
-                    print("New max depth: {}".format(self.max_depth))
+                if LOG_BLOCK_FIND:
+                    out ="{:>8} {:>6d} sec ".format(self.iterator, int(time.time() - self.timer))
+                    out+= " max={:<2} depth={:<2}".format(self.max_depth, self.depth)
+                    out+=" NEW MAX DEPTH REACHED: {}".format(self.max_depth)
+                    print(out)
+                    sys.stdout.flush()
+
 
 
         out = "FindBlocks finished after {} iterations\n".format(self.iterator)
-        out += "FindBlocks: Evaluation time was {} seconds\n".format(timt.time()-self.timer)
+        out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time()-self.timer)
         out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         print(out)
         sys.stdout.flush()
@@ -425,7 +427,7 @@ class BlockFinder:
                 # print("Output:")
                 scheme.sort()
                 self.output += '{} {}\n'.format(depth, scheme)
-                if BLOCK_FIND:
+                if LOG_BLOCK_FIND:
                     print(self.output)
 
 
@@ -537,7 +539,7 @@ class PriceOptimizer:
 class Task:
 
     def __init__(self, ncs, aa_list, max_samples, max_block_size):
-        self.ncs = 0
+        self.ncs = ncs
         self.residues = aa_list
         self.aa_number = len(aa_list)
         self.max_samples = max_samples
@@ -1071,6 +1073,7 @@ RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                   "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
 
 task1 = Task(NC2, RES_TYPES_LIST, 9, 5)
+task17 = Task(NC2, RES_TYPES_LIST, 7, 7)
 task18 = Task(NC2, RES_TYPES_LIST, 8, 8)
 task2 = Task(NCD2, RES_TYPES_LIST, 7, 4)
 task3 = Task(NCD4, RES_TYPES_LIST, 6, 3)
@@ -1079,11 +1082,12 @@ task5 = Task(NCDA8, RES_TYPES_LIST, 4, 3)
 task6 = Task(TSF12, RES_TYPES_LIST, 4, 2)
 block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
 block_find8_20 = BlockFinder([typeN, typeC], 8, NC2, 20)
+block_find7_20 = BlockFinder([typeN, typeC], 7, NC2, 20)
 
 
 def main():
-    #task18.find_scheme()
-    block_find8_20.find()
+    task17.find_scheme()
+    #block_find8_20.find()
 
 
 if __name__ == "__main__":
