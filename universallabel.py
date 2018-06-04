@@ -21,13 +21,17 @@ WRITE_TO_FILE = True
 WRITE_TO_CONSOLE = True
 CONFIG_FILE = "UCSL.task"
 RESULT_FILE = JOB_NAME + "_results.txt"
-BLOCK_FIND = True
+BLOCK_FIND = False
 
 # parser = argparse.ArgumentParser()
 # parser.add_argument("config", default=CONFIG_FILE, help='Specify the config file')
-# # parser.add_argument('--check', '-c', default='-', help='Check solution in the specified file')
-# # parser.add_argument('--number', '-n', default=1, help='The number of solution to be checked in the specified file')
-# # parser.add_argument('--samples', '-s', default=1, help='The number of samples to start with')
+# parser.add_argument('--samples', '-s', default=1, help='The number of samples to start with')
+# parser.add_argument('--ncs', '-n', default='NC2', help='The number of samples to start with')
+# parser.add_argument('--max_block_size', '-m', default=5, help='The number of samples to start with')
+# parser.add_argument('--job_name', '-j', default='Default_job_name', help='The number of samples to start with')
+# parser.add_argument('--max_samples', '-s', default=9, help='The number of samples to start with')
+# parser.add_argument('--stock', '-t', default='Default_stock.txt', help='The number of samples to start with')
+# parser.add_argument('--price_table', '-p', default='BEST_PRICE_1H.txt', help='The number of samples to start with')
 # args = parser.parse_args()
 
 class Scheme:
@@ -232,6 +236,17 @@ class NCS:
     TYPES = ("X", "N", "C", "D", "A", "S", "T", "F")
     NITRO_TYPES = ("N", "D", "S", "T")  # labeling types with 15N
     CARBON_TYPES = ("C", "D", "A", "S", "T", "F")  # labeling types with 13C
+    PROLINE_SUBSTITUTE = {
+        "X": "X",
+        "N": "X",
+        "C": "C",
+        "D": "F",
+        "F": "F",
+        "T": "A",
+        "A": "A",
+        "S": "C"
+    }
+
 
     def __init__(self, spectra_list, label_types):
         self.spec_list = spectra_list
@@ -244,6 +259,22 @@ class NCS:
         self.label_power = {}
         self.spectra_numbers = []
         self._make_coding_table()
+        self.to_one_letter_code = {
+            "Ala": "A", "Cys": "C",
+            "Asp": "D", "Glu": "E",
+            "Phe": "F", "Gly": "G",
+            "His": "H", "Ile": "I",
+            "Lys": "K", "Leu": "L",
+            "Met": "M", "Asn": "N",
+            "Pro": "P", "Gln": "Q",
+            "Arg": "R", "Ser": "S",
+            "Thr": "T", "Val": "V",
+            "Trp": "W", "Tyr": "Y"
+        }
+        self.to_three_letter_code = {}
+        for code3 in self.to_one_letter_code:
+            code1 = self.to_one_letter_code[code3]
+            self.to_three_letter_code[code1] = code3
 
     def _make_coding_table(self):
 
@@ -328,12 +359,12 @@ class BlockFinder:
             self.iterator += 1
             if self.iterator % 10000 == 0:
                 out = "{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
-                for d in range (self.depth):
-                    out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]))
+                for d in range(self.depth):
+                    out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
                 print(out)
                 sys.stdout.flush()
             patterns = self.patterns[self.depth]
-            if self.depth == 0 and self.counter[0] + 1 == len(patterns):
+            if self.depth == 0 and self.counter[0] + self.min_depth + 1 > len(patterns):
                 break
             self.back_up_schemes.append(self.scheme.copy())
             self.scheme.add_pattern(patterns[self.counter[self.depth]])
@@ -348,6 +379,8 @@ class BlockFinder:
                 self.depth -= 1
                 self.patterns.pop()
                 self.counter.pop()
+                if len(self.counter) == 0:
+                    print("Fail")
                 self.counter[-1] += 1
                 self.back_up_schemes.pop()
                 self.scheme = self.back_up_schemes[-1].copy()
@@ -373,7 +406,7 @@ class BlockFinder:
 
 
         out = "FindBlocks finished after {} iterations\n".format(self.iterator)
-        out += "FindBlocks: Evaluation time was {} seconds\n".format(timt.time()-self.timer)
+        out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time()-self.timer)
         out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         print(out)
         sys.stdout.flush()
@@ -537,8 +570,12 @@ class PriceOptimizer:
 class Task:
 
     def __init__(self, ncs, aa_list, max_samples, max_block_size):
-        self.ncs = 0
+        self.ncs = ncs
         self.residues = aa_list
+        self.three_letter_residues = []
+        for res in self.residues:
+            self.three_letter_residues.append(self.ncs.to_three_letter_code[res])
+        self.three_letter_residues.sort()
         self.aa_number = len(aa_list)
         self.max_samples = max_samples
         self.max_block_size = max_block_size
@@ -735,7 +772,7 @@ class Task:
         patterns = list(scheme_patterns.patterns)
         skip = 0
         for i in range(self.aa_number):
-            res = self.residues[i]
+            res = self.ncs.to_one_letter_code[self.three_letter_residues[i]]
             for j in range(simple_patterns_num):
                 if price_sheet[i][j] < 0:
                     skip += 1
@@ -744,11 +781,20 @@ class Task:
                     simple_pattern = simple_patterns[j]
                     for k in range(len(patterns)):
                         pattern = patterns[k]
+
                         if scheme_patterns.simplify_pattern(pattern) == simple_pattern:
-                            scheme[res] = ",".join(list(pattern))
+                            if res == "P":
+                                pattern = self.substitute_pro(pattern)
+                            scheme[res] = ", ".join(list(pattern))
                             patterns.pop(k)
                             break
         return scheme
+
+    def substitute_pro(self, pattern):
+        new_pattern = ""
+        for char in pattern:
+            new_pattern += self.ncs.PROLINE_SUBSTITUTE[char]
+        return new_pattern
 
     def output_best_scheme(self, scheme, samples, blocks="", final=True):
         output = ""
@@ -758,8 +804,8 @@ class Task:
         for i in range(samples):
             output += ",S{}".format(i + 1)
         output += "\n"
-        for res in self.residues:
-            output += "{}, {}\n".format(res, scheme[res])
+        for res in self.three_letter_residues:
+            output += "{}, {}\n".format(res, scheme[self.ncs.to_one_letter_code[res]])
         if blocks:
             output += "\nBlocks used for this scheme"
             for block in blocks:
@@ -846,6 +892,7 @@ class Task:
                 min_depth += 1
         self.output("{} elementary blocks found\n".format(blocks_total))
 
+
     def print_blocks(self):
         output = ''
         for key in self.results:
@@ -871,6 +918,14 @@ class Task:
         self.output_stream.write(output)
         self.output_stream.flush()
         #f.close()
+
+
+class TaskReader:
+
+    def __init__(self, args):
+        self.args = args
+
+
 
 
 
@@ -1071,7 +1126,7 @@ RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                   "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
 
 task1 = Task(NC2, RES_TYPES_LIST, 9, 5)
-task18 = Task(NC2, RES_TYPES_LIST, 8, 8)
+
 task2 = Task(NCD2, RES_TYPES_LIST, 7, 4)
 task3 = Task(NCD4, RES_TYPES_LIST, 6, 3)
 task4 = Task(NCD6, RES_TYPES_LIST, 5, 3)
@@ -1079,12 +1134,15 @@ task5 = Task(NCDA8, RES_TYPES_LIST, 4, 3)
 task6 = Task(TSF12, RES_TYPES_LIST, 4, 2)
 block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
 block_find8_20 = BlockFinder([typeN, typeC], 8, NC2, 20)
-
+test_task = Task(NC2, RES_TYPES_LIST, 9, 5)
 
 def main():
-    #task18.find_scheme()
-    block_find8_20.find()
+    test_task.find_scheme()
+    # block_find8_20.find()
 
+
+    # task_reader = TaskReader(args)
+    # task_reader.run_task()
 
 if __name__ == "__main__":
     main()

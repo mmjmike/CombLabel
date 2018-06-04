@@ -3,8 +3,8 @@ stock_file LabelStore_Maslennikov.txt
 prices_file BEST_PRICE_1H.csv
 max_block_size 5
 
-#Amino-acid list A C D E F G H I K L M N P Q R S T V W Y
-aa_list          1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+#Amino-acid list
+aa_list          A C D E F G H I K L M N P Q R S T V W Y
 
 #Please, specify the use of all 8 labeling types by '1' or '0'.
 #You can see the description in ...
