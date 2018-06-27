@@ -1,5 +1,6 @@
 import sys
 import copy
+from .constants import Constants
 
 
 class Scheme:
@@ -64,9 +65,9 @@ class Scheme:
         for i in range(len(pattern1)):
             type1 = pattern1[i]
             type2 = pattern2[i]
-            if self.ncs.TYPES.index(type1) > self.ncs.TYPES.index(type2):
+            if Constants.TYPES.index(type1) > Constants.TYPES.index(type2):
                 return True
-            if self.ncs.TYPES.index(type1) < self.ncs.TYPES.index(type2):
+            if Constants.TYPES.index(type1) < Constants.TYPES.index(type2):
                 return False
         return True
 
@@ -115,10 +116,10 @@ class Scheme:
                 self.simplified.update({simple_pattern: 1})
 
     def simplify_pattern(self, pattern):
-        simple_form = [0 for _ in range(len(self.ncs.TYPES))]
+        simple_form = [0 for _ in range(len(Constants.TYPES))]
         for label in pattern:
-            for i in range(len(self.ncs.TYPES)):
-                if self.ncs.TYPES[i] == label:
+            for i in range(len(Constants.TYPES)):
+                if Constants.TYPES[i] == label:
                     simple_form[i] += 1
                     continue
         result = "".join([str(a) for a in simple_form])
@@ -219,11 +220,16 @@ class Product:
         self.counters = [0 for block_type in self.product_list]
         return self
 
+    def __str__(self):
+        return str(self.product_list)
+
 
 class BestScheme:
 
-    def __init__(self, scheme, blocks, price, label_dict):
+    def __init__(self, scheme, blocks, price, label_dict, residues):
         self.scheme = scheme
         self.blocks = blocks
         self.price = price
         self.label_dict = label_dict
+        self.samples = scheme.samples
+        self.residues = residues

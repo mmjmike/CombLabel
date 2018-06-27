@@ -1,3 +1,10 @@
+class LabelType:
+
+    def __init__(self, name, isotopes):
+        self.name = name
+        self.isotopes = isotopes
+
+
 class Spectrum:
 
     def __init__(self, name):
@@ -33,6 +40,8 @@ class Spectrum:
 
 
 class NCS:
+
+    NITRO_TYPES = ("N", "D", "S", "T")  # labeling types with 15N
 
     def __init__(self, name, spectra_list, label_types):
         self.name = name
@@ -93,14 +102,8 @@ class NCS:
         return power >= min_power
 
 
-class LabelType:
-
-    def __init__(self, name, isotopes):
-        self.name = name
-        self.isotopes = isotopes
-
-
 class Constants:
+
     typeX = LabelType("X", "000")
     typeN = LabelType("N", "100")
     typeC = LabelType("C", "001")
@@ -113,7 +116,7 @@ class Constants:
     TYPES_NAMES = [label_type.name for label_type in BASIC_TYPES]
 
     TYPES = ("X", "N", "C", "D", "A", "T", "S", "F")
-    NITRO_TYPES = ("N", "D", "S", "T")  # labeling types with 15N
+
     CARBON_TYPES = ("C", "D", "A", "S", "T", "F")  # labeling types with 13C
 
     HSQC = Spectrum("HSQC")
@@ -125,27 +128,6 @@ class Constants:
     HNCACO = Spectrum("HNCACO")
 
     basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO)
-
-    NC2 = NCS("NC2", [HSQC, HNCO],
-              [typeX, typeN, typeC])
-    NCD2 = NCS("NCD2", [HSQC, HNCO],
-               [typeX, typeN, typeC, typeD])
-    NCD4 = NCS("NCD4", [HSQC, HNCO, HNCA],
-               [typeX, typeN, typeC, typeD])
-    NCD6 = NCS("NCD6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
-               [typeX, typeN, typeC, typeD])
-    NCDA8 = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
-                [typeX, typeN, typeC, typeD, typeA])
-    TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
-                [typeX, typeN, typeC, typeD, typeA, typeT, typeS, typeF])
-    XND2 = NCS("XND2", [HSQC, HNCO],
-              [typeX, typeN, typeD])
-    XND4 = NCS("XND4", [HSQC, HNCO, HNCA],
-               [typeX, typeN, typeD])
-
-    LIST_OF_NCS = [NC2, NCD2, NCD4, NCD6, NCDA8, TSF12, XND2, XND4]
-
-    NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
 
     RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                       "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
@@ -180,7 +162,26 @@ class Constants:
         "S": "C"
     }
 
+    NC2 = NCS("NC2", [HSQC, HNCO],
+              [typeX, typeN, typeC])
+    NCD2 = NCS("NCD2", [HSQC, HNCO],
+               [typeX, typeN, typeC, typeD])
+    NCD4 = NCS("NCD4", [HSQC, HNCO, HNCA],
+               [typeX, typeN, typeC, typeD])
+    NCD6 = NCS("NCD6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+               [typeX, typeN, typeC, typeD])
+    NCDA8 = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
+                [typeX, typeN, typeC, typeD, typeA])
+    TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+                [typeX, typeN, typeC, typeD, typeA, typeT, typeS, typeF])
+    XND2 = NCS("XND2", [HSQC, HNCO],
+               [typeX, typeN, typeD])
+    XND4 = NCS("XND4", [HSQC, HNCO, HNCA],
+               [typeX, typeN, typeD])
+
+    LIST_OF_NCS = [NC2, NCD2, NCD4, NCD6, NCDA8, TSF12, XND2, XND4]
+
+    NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
+
     def __init__(self):
         pass
-
-

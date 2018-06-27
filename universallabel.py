@@ -2,6 +2,7 @@
 
 import copy
 import sys
+import datetime
 import argparse
 from scipy.optimize import linprog
 from cl_errors import errors as err
@@ -11,21 +12,24 @@ from classes.search_objects import Scheme, Product, BestScheme
 import time
 import concurrent.futures
 import multiprocessing
+import random
 
 
-PRICES_FILE = "BEST_PRICE_1H.csv"
-FULL_OUTPUT = True
-
-JOB_NAME = "NC2-8-8"
-
-OUTPUT_FILE = JOB_NAME + ".txt"
-WRITE_TO_FILE = True
-WRITE_TO_CONSOLE = True
-CONFIG_FILE = "UCSL.task"
-RESULT_FILE = JOB_NAME + "_results.txt"
-BLOCK_FIND = False
-
-
+VERSION = "1.0.0"
+CITATION = '''
+#############################################################################
+#                                                                           #
+#        UCSL (Versioon {})- Calculation of Universal                       #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article^  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+'''.format(VERSION)
 
 
 
@@ -33,11 +37,14 @@ class BlockFinder:
 
     def __init__(self, types, samples, ncs, min_depth, block_finder_mode, outputer=None):
         self.types = types
+        # self.types_in_order()
         self.samples = samples
         self.ncs = ncs
         self.min_depth = min_depth
         self.scheme = Scheme("1", self.ncs, samples, [])
-        self.patterns = [list(self.generate_patterns(self.samples))]
+        self.patterns = [self.generate_patterns(self.samples)]
+        # random.shuffle(self.patterns)
+        # print(self.patterns)
         self.depth = 0
         self.counter = [0]
         self.back_up_schemes = []
@@ -53,29 +60,40 @@ class BlockFinder:
         # print(self.patterns)
 
     def find(self):
+        if self.min_depth == 1:
+            return
         self.timer = time.time()
+
+
         out = "BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         out += "BlockFinder: samples={} min_depth={}\n".format(self.samples, self.min_depth)
-        self.outputer.write_data(out, files="l")
+        self.outputer.write_data(out, files="lc")
+
+
+
+
         while True:
             self.iterator += 1
+
             if self.block_finder_mode and self.iterator % 10000 == 0:
                 out = "{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
                 for d in range(self.depth):
                     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
                     self.outputer.write_data(out, files="l")
+
             patterns = self.patterns[self.depth]
-            if self.depth == 0 and self.counter[0] + self.min_depth + 1 > len(patterns):
+            if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):
                 break
             self.back_up_schemes.append(self.scheme.copy())
             self.scheme.add_pattern(patterns[self.counter[self.depth]])
+            if len(self.scheme.patterns) >= self.min_depth:
+                self.save_result()
             next_patterns = []
             start_point = 1 + self.counter[self.depth]
             patterns_left = len(patterns) - start_point
-            # print(patterns_left, self.depth)
+
+
             if patterns_left == 0 or patterns_left < self.min_depth - self.depth - 1:
-                if len(self.scheme.patterns) >= self.min_depth:
-                    self.save_result()
                     # self.scheme.output()
                 self.depth -= 1
                 self.patterns.pop()
@@ -87,9 +105,13 @@ class BlockFinder:
                 self.scheme = self.back_up_schemes[-1].copy()
                 self.back_up_schemes.pop()
                 continue
+
+
             for i in range(patterns_left):
                 if self.scheme.try_pattern(patterns[i+start_point]):
                     next_patterns.append(patterns[i+start_point])
+
+
             if next_patterns == []:
                 self.scheme = self.back_up_schemes[self.depth].copy()
                 self.back_up_schemes.pop()
@@ -99,67 +121,66 @@ class BlockFinder:
                 # print(next_patterns, self.depth)
                 self.counter.append(0)
                 self.depth += 1
+
+
             if self.depth > self.max_depth:
                 self.max_depth = self.depth
                 if self.block_finder_mode:
-                    out += "New max depth: {}".format(self.max_depth)
+                    out = "New max depth: {}".format(self.max_depth)
                     self.outputer.write_data(out, files="l")
-
-        if self.block_finder_mode:
-            out = "FindBlocks finished after {} iterations\n".format(self.iterator)
-            out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time()-self.timer)
-            out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
-            self.outputer.write_data(out, files="l")
-
         self.write_result()
-        self.scheme.sort()
 
     def generate_patterns(self, samples, top=True):
         if samples == 0:
-            new_set = set()
-            new_set.add("")
+            new_set = [""]
             return new_set
         current_set = self.generate_patterns(samples - 1, top=False)
-        new_set = set()
+        new_set = []
         for item in current_set:
             for option in self.types:
                 new_pattern = item + option.name
                 if top:
                     if self.ncs.check_power(new_pattern, self.min_depth):
-                        new_set.add(new_pattern)
+                        new_set.append(new_pattern)
                 else:
-                    new_set.add(new_pattern)
+                    new_set.append(new_pattern)
         return new_set
 
     def save_result(self):
         depth_of_scheme = self.scheme.size()
+        new_scheme = self.scheme.copy()
+        new_scheme.sort()
         if depth_of_scheme in self.result:
             equal = False
             for scheme in self.result[depth_of_scheme]:
-                if self.scheme == scheme:
+                if new_scheme == scheme:
                     equal = True
             if not equal:
-                self.result[depth_of_scheme].append(self.scheme.copy())
+                self.result[depth_of_scheme].append(new_scheme)
                 self.results_found += 1
-                # print ("Elementary blocks found: ", self.results_found)
-
-                    # print("Saved:")
-                    # print(self.scheme.simplified)
-                    # print(scheme.simplified)
-                    #
-                    # print(self.scheme)
+                output = "\n[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns))\
+                         + str(new_scheme)
+                self.outputer.write_data(output, files="le")
         else:
-            self.result.update({depth_of_scheme: [self.scheme.copy()]})
+            self.result.update({depth_of_scheme: [new_scheme]})
+            output = "\n[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns)) \
+                     + str(new_scheme)
+            self.outputer.write_data(output, files="le")
 
     def write_result(self):
-        self.output = ''
-        for depth in self.result:
-            for scheme in self.result[depth]:
-                # print("Output:")
-                scheme.sort()
-                self.output += '{} {}\n'.format(depth, scheme)
-                if BLOCK_FIND:
-                    print(self.output)
+        if self.block_finder_mode:
+            out = "FindBlocks finished after {} iterations\n".format(self.iterator)
+            out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time()-self.timer)
+            out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
+            self.outputer.write_data(out, files="lc")
+        # self.output = ''
+        #
+        # for depth in self.result:
+        #     for scheme in self.result[depth]:
+        #         # print("Output:")
+        #         scheme.sort()
+        #         self.output += '{} {}\n'.format(depth, scheme)
+        #         if BLOCK_FIND:
 
 
 class PriceOptimizer:
@@ -213,14 +234,14 @@ class PriceOptimizer:
         if self.success:
             self.uncode_scheme(x_coords)
 
-    def uncode_scheme(self, x_coords):
+    def uncode_scheme(self, x_coords, ):
         self.scheme.sort()
         primary_dict = {}
         label_dict = {}
         residues = []
 
-        for i in range(len(x)):
-            if x[i] == 1:
+        for i in range(len(x_coords)):
+            if self.result.x[i] == 1:
                 res = self.aa_list[x_coords[i][0]]
                 res = Constants.TO_THREE_LETTER_CODE[res]
                 residues.append(res)
@@ -239,7 +260,7 @@ class PriceOptimizer:
                     label_dict.update({res: pattern})
                     patterns.pop(i)
                     break
-        self.best_scheme = BestScheme(self.scheme, self.blocks, self.result.fun, label_dict)
+        self.best_scheme = BestScheme(self.scheme, self.blocks, self.result.fun, label_dict, residues)
 
     def substitute_pro(self, pattern):
         new_pattern = ""
@@ -252,7 +273,7 @@ class PriceOptimizer:
         for i in range(len(pattern)):
             label = pattern[i]
             number = int(label)
-            label_type = self.ncs.TYPES[i]
+            label_type = Constants.TYPES[i]
             if aa == "P":
                 label_type = Constants.PROLINE_SUBSTITUTE[label_type]
             curr_price = self.prices[aa][label_type] * number
@@ -280,7 +301,7 @@ class Task:
         self.outputer = outputer
         self.three_letter_residues = []
         for res in self.residues:
-            self.three_letter_residues.append(self.ncs.to_three_letter_code[res])
+            self.three_letter_residues.append(Constants.TO_THREE_LETTER_CODE[res])
         self.three_letter_residues.sort()
         self.aa_number = len(self.residues)
 
@@ -290,8 +311,7 @@ class Task:
         self.product_lists = []
         self.all_schemes = []
         self.best_scheme = None
-
-        self.product_schemes = 0
+        self.schemes_total = 0
         self.scheme_optimized = False
         self.products_found = False
         self.first_output = True
@@ -321,24 +341,41 @@ class Task:
     def find_best_scheme(self):
         checked_schemes = []
         checked_number = 0
+        schemes = 1
         scheme_found = False
         best_scheme = None
         price_optimizer = PriceOptimizer(self.ncs, self.price_table, self.residues)
         for product in self.products:
+            output = "Checking schemes for product {}. Total {} schemes".format(str(product), len(product))
+            self.outputer.write_data(output, files="cl")
             for scheme in product:
                 curr_blocks = product.last_blocks
+                output = "---------\nChecking scheme {}/{}".format(schemes, self.schemes_total)
+                self.outputer.write_data(output, files="cl")
+                output = "{}\nScheme consists of following blocks:".format(str(scheme))
+                for block in curr_blocks:
+                    output += "\n" + str(block)
+                self.outputer.write_data(output, files="l")
                 if not self.scheme_checked(scheme, checked_schemes):
                     price_optimizer.minimize_price(scheme, curr_blocks)
                     if not price_optimizer.success:
-                        # signal that scheme can not be optimized
-                        pass
+                        output = "Scheme can not be optimized"
+                        self.outputer.write_data(output, files="cl")
                     elif not scheme_found or best_scheme.price > price_optimizer.best_scheme.price:
                         best_scheme = price_optimizer.best_scheme
                         scheme_found = True
+                        output = "New best price: {}".format(best_scheme.price)
+                        self.outputer.write_data(output, files="cl")
                     checked_schemes.append(scheme.simplified)
                     checked_number += 1
+                else:
+                    output = "Equivalent scheme was already checked"
+                    self.outputer.write_data(output, files="cl")
+                schemes += 1
         self.scheme_optimized = scheme_found
         self.best_scheme = best_scheme
+
+
         #     self.all_schemes = []
         #     self.obtain_scheme(product, [Scheme("", self.ncs, 0, [""])], [[]])
         #     self.output("\nChecking product: {}".format(product))
@@ -392,29 +429,33 @@ class Task:
 
     def run(self):
         if self.block_finder_mode:
-            block_finder = BlockFinder(self.ncs.label_types, self.block_samples, self.ncs, self.block_min_depth)
+            block_finder = BlockFinder(self.ncs.label_types, self.block_samples, self.ncs, self.block_min_depth, self.block_finder_mode, outputer=self.outputer)
             block_finder.find()
             self.output_blockfinder(block_finder)
         else:
             if self.calculate_blocks:
+                output = "[NCS = {}]".format(self.ncs.name)
+                self.outputer.write_data(output, files="lce")
                 self.find_blocks()
-                self.clear_redundant_blocks()
-                self.outputer.write_blocks(self.all_blocks)
+
+                self.outputer.write_blocks(self.all_blocks, self.ncs)
             elif not self.only_blocks:
                 self.read_blocks()
+                self.clear_redundant_blocks()
             if self.only_blocks:
                 return
-            self.output("Calculating all possible product types")
+            # self.output("Calculating all possible product types")
 
             self.scheme_optimized = False
             max_samples = 1
             while not self.scheme_optimized:
                 self.find_products(max_samples)
                 if self.products_found:
-                    self.output_product_stats()
+                    self.outputer.write_products(self.products)
                     self.find_best_scheme()
                 max_samples += 1
             self.outputer.write_best_scheme(self.best_scheme)
+        self.finish_output()
 
     # def get_scheme_from_linprog(self, best_scheme, scheme_patterns):
     #     simple_patterns = best_scheme[1]
@@ -444,22 +485,6 @@ class Task:
     #                         break
     #     return scheme
 
-    def output_best_scheme(self, scheme, samples, blocks="", final=True):
-        output = ""
-        if final:
-            output += '________________________\nBest scheme:\n[solution]'
-        output += "\nRes"
-        for i in range(samples):
-            output += ",S{}".format(i + 1)
-        output += "\n"
-        for res in self.three_letter_residues:
-            output += "{}, {}\n".format(res, scheme[self.ncs.to_one_letter_code[res]])
-        if blocks:
-            output += "\nBlocks used for this scheme"
-            for block in blocks:
-                output += str(block) + "\n"
-        self.output(output)
-
     def obtain_scheme(self, product, schemes, block_list, depth=0):
         if depth >= len(product):
             self.all_schemes = schemes
@@ -488,7 +513,7 @@ class Task:
             if size >= self.aa_number and samples == max_samples:
                 self.product_lists.append(new_list_of_types)
             else:
-                self.add_block_to_product(new_list_of_types, size, samples)
+                self.add_block_to_product(new_list_of_types, size, samples, max_samples)
 
     def block_types_in_order(self, type_1, type_2):
         if type_2[0] > type_1[0]:
@@ -508,24 +533,13 @@ class Task:
             self.products.append(Product(self.all_blocks, list_of_block_types))
         if len(self.products) > 0:
             self.products_found = True
-
-    def output_product_stats(self):
-        self.product_schemes = 0
-        for list_of_block_types in self.product_lists:
-            number_of_schemes = 1
-            for block_type in list_of_block_types:
-                new_number = len(self.results[block_type[1]])
-                number_of_schemes *= new_number
-            self.product_schemes += number_of_schemes
-            self.output(str(list_of_block_types) + ": {} scheme(s)".format(number_of_schemes))
-        self.output("{} product types calculated:".format(len(self.products)))
-        self.output("{} total labeling schemes to check".format(self.product_schemes))
+        self.schemes_total = sum([len(product) for product in self.products])
 
     def make_block_types_list(self):
         self.block_types = []
         for samples_n in self.all_blocks:
             for patterns_n in self.all_blocks[samples_n]:
-                self.block_types.append(tuple(samples_n, patterns_n))
+                self.block_types.append((samples_n, patterns_n))
 
     def find_blocks(self):
         # self.output("Search for elementary blocks with max {} samples".format(self.max_block_size))
@@ -534,10 +548,10 @@ class Task:
         for i in range(self.max_block_size):
             # self.output("Search in {} samples:".format(i+1))
             # self.output("Time in find_blocks: {} seconds\n".format(str(time.time()-t0)))
-            block_finder = BlockFinder(self.ncs.label_types, i+1, self.ncs, min_depth)
+            block_finder = BlockFinder(self.ncs.label_types, i+1, self.ncs, min_depth, self.block_finder_mode, outputer=self.outputer)
             block_finder.find()
             result = block_finder.result
-            self.all_blocks.update({i: result})
+            self.all_blocks.update({i+1: result})
             if result:
                 min_depth = max(result) + 1
             else:
@@ -574,7 +588,7 @@ class Task:
                 for block in self.all_blocks[samples_num][pattern_num]:
                     block_good = True
                     for good_block in good_blocks:
-                        if block.is_subset_of(good_block):
+                        if block.is_subset_of(good_block.simplified):
                             block_good = False
                             break
                     if block_good:
@@ -587,6 +601,11 @@ class Task:
 
     def read_blocks(self):
         pass
+
+    def finish_output(self):
+        output = datetime.datetime.now().strftime('-----\nCalculation finished at %Y-%m-%d %H:%M:%S!')
+        self.outputer.write_data(output, files="cl")
+        self.outputer.close_files()
 
     def output(self, text, result=False):
         mode = 'a'
@@ -779,7 +798,7 @@ def read_args():
     parser.add_argument("--config", "-c", help='Specify the config file', type=str)
     # parser.add_argument('--samples', '-s', help='Maximum number of samples to start with', type=int, choise=range(1,10))
     parser.add_argument('--ncs', '-n', default='NC2', help='NMR Coding System (NCS)', type=str)
-    parser.add_argument('--max_block_size', '-m', help='Maximum size of elementary blocks (in samples)', type=int, choise=range(1,9))
+    parser.add_argument('--max_block_size', '-m', help='Maximum size of elementary blocks (in samples)', type=int, choices=range(1,9))
     parser.add_argument('--job_name', '-j', default='Default_task', help='Job name', type=str)
     parser.add_argument('--stock', '-t', help='Input stock file', type=str)
     parser.add_argument('--blocks', '-b', help='Input blocks file', type=str)
@@ -797,16 +816,7 @@ def read_args():
 
 
 constants = Constants()
-task1 = Task(NC2, RES_TYPES_LIST, 9, 5)
 
-task2 = Task(NCD2, RES_TYPES_LIST, 7, 4)
-task3 = Task(NCD4, RES_TYPES_LIST, 6, 3)
-task4 = Task(NCD6, RES_TYPES_LIST, 5, 3)
-task5 = Task(NCDA8, RES_TYPES_LIST, 4, 3)
-task6 = Task(TSF12, RES_TYPES_LIST, 4, 2)
-block_find = BlockFinder([typeX, typeN, typeC], 1, NC2, 1)
-block_find8_20 = BlockFinder([typeN, typeC], 8, NC2, 20)
-test_task = Task(NC2, RES_TYPES_LIST, 9, 5)
 
 
 def main():
@@ -815,7 +825,8 @@ def main():
     task_reader = TaskReader(args)
     outputer = Outputer(task_reader.output_parameters)
     outputer.open_files()
-    task = Task(task_reader.task_parameters)
+    outputer.write_data(files="cle")
+    task = Task(task_reader.task_parameters, outputer)
     task.run()
 
 if __name__ == "__main__":

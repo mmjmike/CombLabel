@@ -19,8 +19,9 @@ class Outputer:
         self.blocks_filename = self.job_name + "_elb.txt"
         self.scheme_filename = self.job_name + "_scheme.txt"
         self.products_filename = self.job_name + "_products.txt"
-        self.open_files()
         self.opened_files = {}
+        self.open_files()
+        self.first_products = True
 
     def set_verbose(self):
         self.verbose = True
@@ -42,33 +43,54 @@ class Outputer:
     def write_data(self, output, files="l"):
         types = list(files)
         if "l" in types and "l" in self.opened_files:
-            self.opened_files["l"].write(output)
+            timestamp = datetime.datetime.now().strftime('[%Y-%m-%d_%H:%M:%S]')
+            self.opened_files["l"].write(timestamp + "\n" + output)
             self.opened_files["l"].flush()
         if "e" in types and "e" in self.opened_files:
             self.opened_files["e"].write(output)
             self.opened_files["e"].flush()
-        if "p" in types and "p" in self.opened_files:
-            self.opened_files["p"].write(output)
-            self.opened_files["p"].flush()
-        if "s" in types and "s" in self.opened_files:
-            self.opened_files["s"].write(output)
-            self.opened_files["s"].flush()
-        if "c" in types and self.verbose:
-            print(output)
+        if not self.silent:
+            if "c" in types or self.verbose:
+                print(output)
 
     def close_files(self):
         for key in self.opened_files:
             self.opened_files[key].close()
 
-    def write_best_sheme(self, scheme):
-        pass
+    def write_best_scheme(self, best_scheme):
+        output = '________________________\nBest scheme:\n[solution]'
+        output += "\nRes"
+        for i in range(best_scheme.samples):
+            output += ",S{}".format(i + 1)
+        output += "\n"
+        for res in best_scheme.residues:
+            output += res + ", " + ", ".join(list(best_scheme.label_dict[res])) + "\n"
+        output += "\nBlocks used for this scheme:"
+        for block in best_scheme.blocks:
+            output += str(block) + "\n"
+        with open(self.job_name + "_best_scheme.txt", mode="w") as f:
+            f.write(output)
+        self.write_data(output, files="cl")
 
     def write_products(self, products):
-        pass
+        product_schemes = 0
+        output = ""
+        for product in products:
+            output += str(product) + ": {} scheme(s)\n".format(len(product))
+            product_schemes += len(product)
+        output += "{} product types calculated:\n".format(len(products))
+        output += "{} total labeling schemes to check\n".format(product_schemes)
 
-    def write_elb(self, blocks):
-        pass
+        mode = "a"
+        if self.first_products:
+            mode = "w"
+            self.first_products = False
+        with open(self.job_name + "_products.txt", mode=mode) as f:
+            f.write(output)
+        self.write_data(output, files="cl")
 
+    def write_blocks(self, blocks, ncs):
+        pass
 
 
 
@@ -84,6 +106,8 @@ class TaskReader:
         except AttributeError:
             pass
         except FileNotFoundError:
+            pass
+        except TypeError:
             pass
         else:
             self.config_exists = True
@@ -203,14 +227,14 @@ class TaskReader:
             if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
                 msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, prices_file)
                 return [False, msg, prices]
-            self.prices.update({residue_type: curr_dict})
+            prices.update({residue_type: curr_dict})
         return [True, msg, prices]
 
     def check_stock_file(self, stock_file):
         try:
             f = open(stock_file, "r")
             f.close()
-        except FileNotFoundError:
+        except (FileNotFoundError, TypeError):
             return False
         return self.read_stock(stock_file)[0]
 
@@ -278,9 +302,9 @@ class TaskReader:
         try:
             f = open(block_file, "r")
             f.close()
-        except FileNotFoundError:
+        except (FileNotFoundError, TypeError):
             return False
-        return self.read_blocks(block_file)[0]
+        return self.read_block_file(block_file)[0]
 
     def read_block_file(self, block_file):
         lines = self.read_lines(block_file)
@@ -312,16 +336,19 @@ class TaskReader:
                 numbers = re.findall(r'\d+', lines[i])
                 samples_num = int(numbers[0])
                 patterns_num = int(numbers[1])
-                patterns = []
+                patterns = lines[i+1:i+1+patterns_num]
                 good_block = True
-                for j in range(patterns_num):
-                    i += 1
-                    pattern = lines[i].strip()
+                for pattern in patterns:
                     if len(pattern) != samples_num:
                         msg = "Warning! The number of samples in block {} doesn't match " \
-                              "\nwith specified value in blocks file {}.".format(blocks_num, block_file)
+                              "\nwith specified value in blocks file '{}'.".format(blocks_num, block_file)
                         good_block = False
-                        # return [False, msg, blocks]
+                    for label_type in pattern:
+                        if label_type not in Constants.TYPES:
+                            msg = "Warning! Unknown labeling type '{}' used in block {}" \
+                                  "\n in blocks file '{}'.".format(label_type, blocks_num, block_file)
+                            good_block = False
+                            break
                 if good_block:
                     block = Scheme("", ncs, samples_num, patterns)
                     if samples_num not in blocks:
@@ -331,6 +358,7 @@ class TaskReader:
                             blocks[samples_num].update({patterns_num: [block]})
                         else:
                             blocks[samples_num][patterns_num].append(block)
+                i += 1 + patterns_num
             else:
                 i += 1
         return [NCS_found, msg, blocks]
@@ -385,12 +413,13 @@ class TaskReader:
                     blocks_file = self.parameters_read["blocks"][4]
                 if self.parameters_read["blocks"][3]:
                     blocks_file = self.parameters_read["blocks"][5]
-                self.blocks = self.read_blocks(blocks_file)[2]
+                self.blocks = self.read_block_file(blocks_file)[2]
             if not self.only_blocks:
                 if self.parameters_read["price_table"][1]:
                     prices_file = self.parameters_read["price_table"][4]
                 if self.parameters_read["price_table"][3]:
                     prices_file = self.parameters_read["price_table"][5]
+
                 self.prices = self.read_prices(prices_file)[2]
 
                 self.read_aa_list()
@@ -549,12 +578,12 @@ class TaskReader:
 
         try:
             blocks = self.args.blocks
-            self.parameters_read["blocks"][-2] = blocks
-            self.parameters_read["blocks"][2] = True
+            if blocks:
+                self.parameters_read["blocks"][-2] = blocks
+                self.parameters_read["blocks"][2] = True
+                self.calculate_blocks = False
         except AttributeError:
             pass
-        else:
-            self.calculate_blocks = False
 
         try:
             price_table = self.args.price_table
@@ -576,6 +605,8 @@ class TaskReader:
             self.block_samples = self.args.block_finder_mode[0]
             self.block_min_depth = self.args.block_finder_mode[1]
         except AttributeError:
+            pass
+        except TypeError:
             pass
         else:
             self.block_finder_mode = True
@@ -668,14 +699,14 @@ class TaskReader:
     def read_blocks(self, filename):
         lines = self.read_lines(filename)
         NCS_read = False
-        ncs = NC2
+        ncs = Constants.NC2
         i = 0
         while i < len(lines):
             line = lines[i].strip()
             if not NCS_read:
                 if line[0] == "NCS":
                     ncs_name = line[1]
-                    for each_ncs in LIST_OF_NCS:
+                    for each_ncs in Constants.LIST_OF_NCS:
                         if each_ncs.name == ncs_name:
                             ncs = each_ncs
                             NCS_read = True
