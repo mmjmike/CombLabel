@@ -1,0 +1,2845 @@
+[2018-06-27_18:18:20]
+
+#############################################################################
+#                                                                           #
+#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article:  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+[2018-06-27_18:18:20]
+[NCS = NCD6][2018-06-27_18:18:20]
+Searching for elementary blocks(ELB)[2018-06-27_18:18:20]
+BlockFinder.find() started at 27-06-2018 15:18:20
+BlockFinder: samples=1 min_depth=2
+[2018-06-27_18:18:20]
+
+[ELB samples = 1 patterns = 2]
+N
+D[2018-06-27_18:18:20]
+BlockFinder.find() started at 27-06-2018 15:18:20
+BlockFinder: samples=2 min_depth=3
+[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+XN
+CD
+DC[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+XD
+CN
+DC[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+NN
+ND
+DN[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DN
+DD[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+NN
+ND
+DD[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+NN
+CD
+DC[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+NC
+CN
+DD[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+NC
+CD
+DN[2018-06-27_18:18:20]
+
+[ELB samples = 2 patterns = 3]
+ND
+DN
+DD[2018-06-27_18:18:20]
+BlockFinder.find() started at 27-06-2018 15:18:20
+BlockFinder: samples=3 min_depth=5
+[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDN
+CDD
+DCN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDN
+CDD
+DCN
+DCD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDN
+CDD
+DCD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDN
+DCN
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDD
+DCD
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+CDN
+DNC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+CDN
+DNC
+DCN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+CDN
+DNC
+DCD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+CDN
+DCD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNC
+DCD
+DDX[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNC
+DCD
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+DNC
+DDX[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+DNC
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+DCD
+DDX[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+DCD
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+XDD
+CND
+DCD
+DDC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDN
+CDD
+DCN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+CDD
+DCN
+DCD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDN
+CDD
+DCD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDN
+DCN
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDD
+DCD
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+NDC
+CND
+CDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 7]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 7]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CND
+CDN
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CND
+DNC
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+NDC
+CND
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+NDC
+CND
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+NDC
+CDD
+DNC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CDD
+DNC
+DCN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CDD
+DNC
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+NDC
+CDD
+DND[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CDD
+DND
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+NDC
+DND
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+CND
+DDN
+DDD[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+CDD
+DND
+DCN
+DDC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+CDD
+DND
+DDN[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+CDD
+DND
+DDC[2018-06-27_18:18:20]
+
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+CDD
+DCN
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CNN
+CDD
+DNC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+CDD
+DNC
+DCN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+CDD
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CNN
+CDD
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+CDD
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CNN
+DNC
+DCN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+DNC
+DCN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CNN
+DNC
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CDD
+DXN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DXN
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CDD
+DNN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DNN
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CDD
+DNC
+DCN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CDD
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+CDD
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDN
+DNC
+DCN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+CDN
+DNC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+XDD
+CNN
+CDN
+DNC
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+CDN
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+DNC
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+DNC
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNX
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNN
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNC
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDN
+CDD
+DCN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+CDD
+DCN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDN
+CDD
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDN
+DCN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDD
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CNN
+CDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+CDD
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CNN
+CDD
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CNN
+CDD
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+CDD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+CDD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CNN
+DNC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+DNC
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+DNC
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CNN
+DNC
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CNN
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CNN
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CNN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDN
+DNN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDN
+DNN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDN
+DNN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDN
+DNC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDN
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDN
+DNC
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDD
+DNN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDD
+DNN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDD
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CDD
+DNC
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 7]
+XND
+NCN
+NDC
+CDD
+DNC
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDD
+DNC
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDD
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDD
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDD
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+CDD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+DNN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+NDC
+DNC
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CNN
+CDD
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+CNN
+CDD
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+CNN
+CDD
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+CNN
+CDD
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CNN
+CDD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CNN
+CDD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CNN
+DDN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CDD
+DNN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+CDD
+DNN
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CDD
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CDD
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CDD
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDN
+CDD
+DNN
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+CDD
+DNN
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDN
+CDD
+DNC
+DCN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDN
+CDD
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDN
+CDD
+DCD
+DDC[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDN
+DNC
+DCN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDN
+DNC
+DCN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NDC
+CDN
+DNC
+DCN
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDN
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDN
+DNC
+DDD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DNX
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DNN
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DNC
+DCD[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NDC
+CDD
+DNC
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 6]
+XND
+NDC
+CDD
+DNC
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DNC
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DCD
+DDX[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DCD
+DDN[2018-06-27_18:18:21]
+
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+CNN
+DNC
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+CDN
+DNC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+CDN
+DNC
+DCN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+CDN
+DNC
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+CDN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNC
+DCD
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNC
+DCD
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+DNC
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+DNC
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+DCD
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+DCD
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNN
+CND
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CNN
+DXD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CNN
+DND[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DND
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DND
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CNN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CND
+CDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CND
+CDN
+DNN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 7]
+XDD
+NNC
+NCN
+CND
+CDN
+DNN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+CDN
+DNN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CND
+CDN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 7]
+XDD
+NNC
+NCN
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CND
+DNN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CND
+DNN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 7]
+XDD
+NNC
+NCN
+CND
+DNN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CND
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CND
+DCD
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CND
+DCD
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CND
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CND
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+CND
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DXD
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DXD
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DXD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DNN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+DNN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DND
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DND
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+NCN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+CDN
+DNN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+CND
+CDN
+DNN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 7]
+XDD
+NNC
+CND
+CDN
+DNN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+CDN
+DCN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+CND
+CDN
+DCN
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+CDN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DNN
+DCD[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+CND
+DNN
+DCD
+DDC[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DNN
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DNN
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DCD
+DDX[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DCD
+DDN[2018-06-27_18:18:22]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DCD
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CDN
+DXD
+DCN[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+CDN
+DXD
+DCN
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CDN
+DND
+DCN[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+CDN
+DND
+DCN
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+DNN
+DCD
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+CDN
+DNN
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+CDN
+DNC
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 6]
+XDD
+CND
+CDN
+DNN
+DCD
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+CND
+CDN
+DNC
+DCN[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+CND
+CDN
+DNC
+DCD[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+CND
+DNN
+DCD
+DDC[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+CND
+DNC
+DCD
+DDX[2018-06-27_18:18:23]
+
+[ELB samples = 3 patterns = 5]
+XDD
+CND
+DNC
+DCD
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+NDN
+NDD
+DNN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+NDN
+NDD
+DNN
+DND[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 7]
+NNN
+NND
+NDN
+NDD
+DNN
+DND
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 8]
+NNN
+NND
+NDN
+NDD
+DNN
+DND
+DDN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 7]
+NNN
+NND
+NDN
+NDD
+DNN
+DND
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+NDN
+NDD
+DNN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+NDN
+NDD
+DND[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+NDN
+NDD
+DND
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 7]
+NNN
+NND
+NDN
+NDD
+DND
+DDN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+NDN
+NDD
+DND
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+NDN
+NDD
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+NDN
+DNN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+NDD
+DND
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+NDD
+DND
+DDN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+NDD
+DND
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDN
+CDD
+DCN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDN
+CDD
+DCN
+DCD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDN
+CDD
+DCD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDN
+DCN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDD
+DCD
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+CND
+CDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 7]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 7]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CND
+CDN
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CND
+DNC
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+CND
+DDN[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+CND
+DDD[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+CDD
+DNC[2018-06-27_18:18:24]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CDD
+DNC
+DCN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CDD
+DNC
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+CDD
+DND[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CDD
+DND
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+DND
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+NDC
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+CND
+DDN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+CDD
+DND
+DCN
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+CDD
+DND
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+CDD
+DND
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNN
+NDD
+DND
+DDN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CNN
+DND[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CNN
+DND
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CNN
+DND
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CND
+CDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CND
+CDN
+DNN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 7]
+NNC
+NCN
+NDD
+CND
+CDN
+DNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+CDN
+DNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CND
+CDN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 7]
+NNC
+NCN
+NDD
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CND
+DNN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CND
+DNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 7]
+NNC
+NCN
+NDD
+CND
+DNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CND
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CND
+DCD
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CND
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CND
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+DNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DNN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+DNC
+DCN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DNC
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DND
+DDN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DND
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CNN
+CDD
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CNN
+CDD
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CND
+CDN
+DNN[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CND
+CDN
+DNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 7]
+NNC
+NCN
+CND
+CDN
+DNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CND
+CDN
+DNN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CND
+CDN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CND
+CDN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CND
+CDN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CND
+DNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CND
+DNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CND
+DNN
+DDD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CND
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CDD
+DNN
+DCD[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CDD
+DNN
+DCD
+DDC[2018-06-27_18:18:25]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+CDD
+DCD
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CND
+DNN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CND
+DNN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CND
+DNN
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CND
+DCN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CND
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CND
+DCN
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CND
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CND
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CDD
+DNN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CDD
+DNN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CDD
+DND[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CDD
+DND
+DCN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 7]
+NNC
+NCD
+NDN
+CDD
+DND
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CDD
+DND
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CDD
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+CDD
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+DNN
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+DNC
+DDN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+DND
+DDN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CND
+CDN
+DCN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+CND
+CDN
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+CND
+CDN
+DCN
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CND
+CDN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CND
+CDN
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CDN
+DND
+DCN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+CDN
+DND
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CDN
+DND
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+CDD
+DND
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CDD
+DND
+DDN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CDD
+DND
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+CDD
+DCN
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NDN
+CDD
+DNN
+DCD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NDN
+CDD
+DNN
+DCD
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NDN
+CDD
+DND
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NDN
+CDD
+DCD
+DDC[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NDC
+CDN
+DND
+DDD[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 5]
+NNC
+NDD
+CDN
+DND
+DCN[2018-06-27_18:18:26]
+
+[ELB samples = 3 patterns = 6]
+NNC
+NDD
+CDN
+DND
+DCN
+DDC[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+NDD
+DNN
+DND[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+NDD
+DNN
+DND
+DDN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 7]
+NND
+NDN
+NDD
+DNN
+DND
+DDN
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+NDD
+DNN
+DND
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+NDD
+DNN
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+NDD
+DND
+DDN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+NDD
+DND
+DDN
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+NDD
+DND
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+CDD
+DNN
+DCD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+CDD
+DNN
+DCD
+DDC[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+CDD
+DNC
+DCN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+CDD
+DNC
+DCD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+CDD
+DCD
+DDC[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+DNC
+DCN
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+DNC
+DCD
+DDN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+CDN
+DNC
+DCN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 6]
+NND
+NDC
+CDN
+DNC
+DCN
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+CDN
+DNC
+DCD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+CDN
+DNC
+DDD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+CDD
+DNC
+DCD[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 6]
+NND
+NDC
+CDD
+DNC
+DCD
+DDN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+CDD
+DNC
+DDN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+CDD
+DCD
+DDN[2018-06-27_18:18:27]
+
+[ELB samples = 3 patterns = 5]
+NND
+NDD
+DND
+DDN
+DDD[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+NDC
+CND
+CDN
+DNC[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 6]
+NCD
+NDC
+CND
+CDN
+DNC
+DCN[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 7]
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDD[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 6]
+NCD
+NDC
+CND
+CDN
+DNC
+DDD[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+NDC
+CND
+CDN
+DDD[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+NDC
+CND
+DNC
+DDN[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+NDC
+CDD
+DNC
+DCN[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+NDC
+CDD
+DNC
+DDN[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+NDC
+CDD
+DND
+DDN[2018-06-27_18:18:28]
+
+[ELB samples = 3 patterns = 5]
+NCD
+CDD
+DND
+DCN
+DDC

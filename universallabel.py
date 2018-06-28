@@ -19,11 +19,11 @@ VERSION = "1.0.0"
 CITATION = '''
 #############################################################################
 #                                                                           #
-#        UCSL (Versioon {})- Calculation of Universal                       #
+#        UCSL (Version {})- Calculation of Universal                     #
 #        Combinatorial Labeling Schemes for Fast NMR Protein                #
 #        Assignment.                                                        #
 #                                                                           #
-#        In case of using for scientific purpose, please cite our article^  #
+#        In case of using for scientific purpose, please cite our article:  #
 #                                                                           #
 #                                                                           #
 #                                                                           #
@@ -61,15 +61,13 @@ class BlockFinder:
 
     def find(self):
         if self.min_depth == 1:
-            return
+            self.min_depth = 2
         self.timer = time.time()
 
 
         out = "BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
         out += "BlockFinder: samples={} min_depth={}\n".format(self.samples, self.min_depth)
         self.outputer.write_data(out, files="lc")
-
-
 
 
         while True:
@@ -276,7 +274,9 @@ class PriceOptimizer:
             label_type = Constants.TYPES[i]
             if aa == "P":
                 label_type = Constants.PROLINE_SUBSTITUTE[label_type]
-            curr_price = self.prices[aa][label_type] * number
+            curr_price = 0
+            if number:
+                curr_price = self.prices[aa][label_type] * number
             if curr_price < 0:
                 return -1
             price += curr_price
@@ -315,9 +315,6 @@ class Task:
         self.scheme_optimized = False
         self.products_found = False
         self.first_output = True
-
-        self.output_stream = open(OUTPUT_FILE, "w")
-        self.logfile = open(JOB_NAME+".log", "w")
         self.cpu_count = multiprocessing.cpu_count()
 
     def __delete__(self):
@@ -346,7 +343,7 @@ class Task:
         best_scheme = None
         price_optimizer = PriceOptimizer(self.ncs, self.price_table, self.residues)
         for product in self.products:
-            output = "Checking schemes for product {}. Total {} schemes".format(str(product), len(product))
+            output = "------------\nChecking schemes for product {}. Total {} schemes".format(str(product), len(product))
             self.outputer.write_data(output, files="cl")
             for scheme in product:
                 curr_blocks = product.last_blocks
@@ -365,6 +362,9 @@ class Task:
                         best_scheme = price_optimizer.best_scheme
                         scheme_found = True
                         output = "New best price: {}".format(best_scheme.price)
+                        self.outputer.write_data(output, files="cl")
+                    else:
+                        output = "Price: {}".format(price_optimizer.best_scheme.price)
                         self.outputer.write_data(output, files="cl")
                     checked_schemes.append(scheme.simplified)
                     checked_number += 1
@@ -436,22 +436,29 @@ class Task:
             if self.calculate_blocks:
                 output = "[NCS = {}]".format(self.ncs.name)
                 self.outputer.write_data(output, files="lce")
+                self.outputer.write_data("Searching for elementary blocks(ELB)", files="lc")
                 self.find_blocks()
 
                 self.outputer.write_blocks(self.all_blocks, self.ncs)
             elif not self.only_blocks:
                 self.read_blocks()
+                self.print_blocks()
+                self.outputer.write_data("Clearing redundant blocks(ELB)", files="lc")
                 self.clear_redundant_blocks()
             if self.only_blocks:
                 return
             # self.output("Calculating all possible product types")
 
+            self.write_block_stats()
             self.scheme_optimized = False
             max_samples = 1
+            self.print_blocks()
             while not self.scheme_optimized:
+                self.outputer.write_data("Searching for products in max_samples={}".format(max_samples), files="lc")
                 self.find_products(max_samples)
                 if self.products_found:
                     self.outputer.write_products(self.products)
+                    self.outputer.write_data("Schemes optimization in max_samples={}".format(max_samples), files="lc")
                     self.find_best_scheme()
                 max_samples += 1
             self.outputer.write_best_scheme(self.best_scheme)
@@ -484,6 +491,9 @@ class Task:
     #                         patterns.pop(k)
     #                         break
     #     return scheme
+
+    def write_block_stats(self):
+        pass
 
     def obtain_scheme(self, product, schemes, block_list, depth=0):
         if depth >= len(product):
@@ -607,18 +617,6 @@ class Task:
         self.outputer.write_data(output, files="cl")
         self.outputer.close_files()
 
-    def output(self, text, result=False):
-        mode = 'a'
-        if self.first_output:
-            mode = 'w'
-            self.first_output = False
-        if WRITE_TO_FILE:
-            self.write_to_file(OUTPUT_FILE, text + "\n", mode=mode)
-        if result:
-            self.write_to_file(RESULT_FILE, text + "\n", mode=mode)
-        if WRITE_TO_CONSOLE:
-            print(text)
-
     def write_to_file(self, filename, output, mode='w'):
 
         #f = open(filename, mode)
@@ -628,6 +626,22 @@ class Task:
 
     def output_blockfinder(self, blockfinder):
         pass
+
+    def print_blocks(self):
+        output = "Blocks used:"
+        blocks = self.all_blocks
+        total_blocks = 0
+        samples = list(blocks.keys())
+        samples.sort()
+        for samples_n in samples:
+            pattern_numbers = list(blocks[samples_n].keys())
+            pattern_numbers.sort()
+            for patterns_n in pattern_numbers:
+                blocks_n = len(blocks[samples_n][patterns_n])
+                total_blocks += blocks_n
+                output += "\n{}x{} - {} block(s)".format(samples_n, patterns_n, blocks_n)
+        output += "\nTotal blocks number: {}".format(total_blocks)
+        print(output)
 
 
 
@@ -797,9 +811,9 @@ def read_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", "-c", help='Specify the config file', type=str)
     # parser.add_argument('--samples', '-s', help='Maximum number of samples to start with', type=int, choise=range(1,10))
-    parser.add_argument('--ncs', '-n', default='NC2', help='NMR Coding System (NCS)', type=str)
+    parser.add_argument('--ncs', '-n', help='NMR Coding System (NCS)', type=str)
     parser.add_argument('--max_block_size', '-m', help='Maximum size of elementary blocks (in samples)', type=int, choices=range(1,9))
-    parser.add_argument('--job_name', '-j', default='Default_task', help='Job name', type=str)
+    parser.add_argument('--job_name', '-j', help='Job name', type=str)
     parser.add_argument('--stock', '-t', help='Input stock file', type=str)
     parser.add_argument('--blocks', '-b', help='Input blocks file', type=str)
     parser.add_argument('--only_blocks', '-o', help='Program runs only block calculation without further schemes optimization', action="store_true")
@@ -825,7 +839,7 @@ def main():
     task_reader = TaskReader(args)
     outputer = Outputer(task_reader.output_parameters)
     outputer.open_files()
-    outputer.write_data(files="cle")
+    outputer.write_data(CITATION, files="cle")
     task = Task(task_reader.task_parameters, outputer)
     task.run()
 

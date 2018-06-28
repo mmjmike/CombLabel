@@ -1,0 +1,38 @@
+________________________
+Best scheme:
+[solution]
+Res,S1,S2,S3,S4,S5,S6,S7
+Ala, D, X, D, X, N, D, D
+Arg, N, D, D, X, N, D, D
+Asn, N, D, D, N, N, N, N
+Asp, D, X, D, N, D, X, D
+Cys, N, D, D, N, D, X, D
+Gln, N, D, D, N, D, D, X
+Glu, D, X, D, N, N, N, N
+Gly, D, X, D, N, D, D, X
+His, X, N, N, X, N, D, D
+Ile, D, X, D, D, X, N, D
+Leu, D, D, X, X, N, D, D
+Lys, D, D, X, N, D, X, D
+Met, X, N, N, N, D, X, D
+Phe, X, N, N, N, D, D, X
+Pro, X, X, X, X, X, X, X
+Ser, D, D, X, N, D, D, X
+Thr, N, D, D, D, X, N, D
+Trp, X, N, N, D, X, N, D
+Tyr, D, D, X, N, N, N, N
+Val, D, D, X, D, X, N, D
+
+Blocks used for this scheme:
+XNN
+NDD
+DXD
+DDX
+
+XNDD
+NNNN
+NDXD
+NDDX
+DXND
+
+Price: 83188.82206000002

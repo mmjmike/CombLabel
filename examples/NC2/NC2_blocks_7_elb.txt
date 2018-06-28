@@ -1,0 +1,102 @@
+
+#############################################################################
+#                                                                           #
+#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article:  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+[NCS = NC2]
+[ELB samples = 2 patterns = 2]
+NC
+CN
+[ELB samples = 3 patterns = 3]
+NNC
+NCN
+CNN
+[ELB samples = 4 patterns = 4]
+NNNC
+NNCN
+NCNN
+CNNN
+[ELB samples = 4 patterns = 4]
+NNCC
+NCNC
+CNCN
+CCNN
+[ELB samples = 5 patterns = 5]
+XNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN
+[ELB samples = 5 patterns = 5]
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN
+[ELB samples = 5 patterns = 5]
+NNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN
+[ELB samples = 5 patterns = 5]
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+[ELB samples = 5 patterns = 6]
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+CCNNN
+[ELB samples = 6 patterns = 7]
+XNNNNC
+NNNCCN
+NNCNCN
+NCNNCN
+CNNCNN
+CNCNNN
+CCNNNN
+[ELB samples = 6 patterns = 7]
+XNNNCC
+XNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCXNNN
+[ELB samples = 6 patterns = 7]
+XNNNCC
+XNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN
+[ELB samples = 6 patterns = 7]
+XNNNCC
+NNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN
+[ELB samples = 6 patterns = 7]
+XNNNCC
+NNCCNC
+NCNCCN
+NCCCNN
+CNCNNC
+CCNNCN
+CCCNNN

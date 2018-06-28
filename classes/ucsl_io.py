@@ -68,17 +68,31 @@ class Outputer:
         output += "\nBlocks used for this scheme:"
         for block in best_scheme.blocks:
             output += str(block) + "\n"
+        output += "\nPrice: {}".format(best_scheme.price)
         with open(self.job_name + "_best_scheme.txt", mode="w") as f:
             f.write(output)
         self.write_data(output, files="cl")
 
     def write_products(self, products):
         product_schemes = 0
-        output = ""
+        output = "Blocks used:"
+        blocks = products[0].blocks
+        total_blocks = 0
+        samples = list(blocks.keys())
+        samples.sort()
+        for samples_n in samples:
+            pattern_numbers = list(blocks[samples_n].keys())
+            pattern_numbers.sort()
+            for patterns_n in pattern_numbers:
+                blocks_n = len(blocks[samples_n][patterns_n])
+                total_blocks += blocks_n
+                output += "\n{}x{} - {} block(s)".format(samples_n, patterns_n, blocks_n)
+        output += "\nTotal blocks number: {}".format(total_blocks)
+        output += "\n-----------------------\nProducts calculated:\n"
         for product in products:
             output += str(product) + ": {} scheme(s)\n".format(len(product))
             product_schemes += len(product)
-        output += "{} product types calculated:\n".format(len(products))
+        output += "{} product types calculated\n".format(len(products))
         output += "{} total labeling schemes to check\n".format(product_schemes)
 
         mode = "a"
@@ -146,10 +160,16 @@ class TaskReader:
         self.create_task()
 
     def check_job_name(self, job_name):
-        return len(job_name) > 0
+        try:
+            return len(job_name) > 0
+        except TypeError:
+            return False
 
     def check_ncs(self, ncs):
-        return ncs.upper() in Constants.NCS_NAMES
+        try:
+            return ncs.upper() in Constants.NCS_NAMES
+        except AttributeError:
+            return False
 
     def check_spec_vec(self, spec_vec):
         if len(spec_vec) < 2:
@@ -179,7 +199,7 @@ class TaskReader:
         try:
             f = open(prices_file, "r")
             f.close()
-        except FileNotFoundError:
+        except (FileNotFoundError, TypeError):
             return False
         return self.read_prices(prices_file)[0]
 
@@ -294,7 +314,7 @@ class TaskReader:
     def check_block_size(self, block_size):
         try:
             size = int(block_size)
-        except ValueError:
+        except (ValueError, TypeError):
             return False
         return 0 < size < 10
 
@@ -304,7 +324,8 @@ class TaskReader:
             f.close()
         except (FileNotFoundError, TypeError):
             return False
-        return self.read_block_file(block_file)[0]
+        result = self.read_block_file(block_file)
+        return result[0]
 
     def read_block_file(self, block_file):
         lines = self.read_lines(block_file)
@@ -370,10 +391,11 @@ class TaskReader:
         self.read_args()
         self.check_parameters()
         self.parameters_good, msg = self.check_consistency()
+
         if self.parameters_good:
             self.read_values()
         else:
-            self.print_errors()
+            print(msg)
 
     def read_ncs(self):
         if self.parameters_read["NCS"][1]:
@@ -444,7 +466,10 @@ class TaskReader:
         for key in self.parameters_read:
             if key in parameters:
                 self.parameters_read[key][0] = True
-                self.parameters_read[key][4] = parameters[key]
+                self.parameters_read[key][4] = parameters[key][0]
+
+        if self.parameters_read["blocks"][0]:
+            self.calculate_blocks = False
 
         #
         #
@@ -637,6 +662,7 @@ class TaskReader:
             if not self.parameters_read['max_block_size'][1] and not self.parameters_read['max_block_size'][3]:
                 return False, 'Max block size is not specified'
         else:
+            print(self.parameters_read['blocks'])
             if not self.parameters_read['blocks'][1] and not self.parameters_read['blocks'][3]:
                 return False, 'Elementary blocks file (ELB) is not specified or has wrong format'
         return True, "OK"
