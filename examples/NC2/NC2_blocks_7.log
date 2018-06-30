@@ -1,0 +1,137 @@
+[2018-06-28_15:57:49]
+
+#############################################################################
+#                                                                           #
+#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article:  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+[2018-06-28_15:57:49]
+[NCS = NC2][2018-06-28_15:57:49]
+Searching for elementary blocks(ELB)[2018-06-28_15:57:49]
+BlockFinder.find() started at 28-06-2018 12:57:49
+BlockFinder: samples=1 min_depth=2
+[2018-06-28_15:57:49]
+BlockFinder.find() started at 28-06-2018 12:57:49
+BlockFinder: samples=2 min_depth=2
+[2018-06-28_15:57:49]
+
+[ELB samples = 2 patterns = 2]
+NC
+CN[2018-06-28_15:57:49]
+BlockFinder.find() started at 28-06-2018 12:57:49
+BlockFinder: samples=3 min_depth=3
+[2018-06-28_15:57:49]
+
+[ELB samples = 3 patterns = 3]
+NNC
+NCN
+CNN[2018-06-28_15:57:49]
+BlockFinder.find() started at 28-06-2018 12:57:49
+BlockFinder: samples=4 min_depth=4
+[2018-06-28_15:57:50]
+
+[ELB samples = 4 patterns = 4]
+NNNC
+NNCN
+NCNN
+CNNN[2018-06-28_15:57:50]
+
+[ELB samples = 4 patterns = 4]
+NNCC
+NCNC
+CNCN
+CCNN[2018-06-28_15:57:50]
+BlockFinder.find() started at 28-06-2018 12:57:50
+BlockFinder: samples=5 min_depth=5
+[2018-06-28_15:57:50]
+
+[ELB samples = 5 patterns = 5]
+XNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-28_15:57:52]
+
+[ELB samples = 5 patterns = 5]
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN[2018-06-28_15:57:52]
+
+[ELB samples = 5 patterns = 5]
+NNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-28_15:57:53]
+
+[ELB samples = 5 patterns = 5]
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN[2018-06-28_15:57:53]
+
+[ELB samples = 5 patterns = 6]
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+CCNNN[2018-06-28_15:57:54]
+BlockFinder.find() started at 28-06-2018 12:57:54
+BlockFinder: samples=6 min_depth=7
+[2018-06-28_15:59:38]
+
+[ELB samples = 6 patterns = 7]
+XNNNNC
+NNNCCN
+NNCNCN
+NCNNCN
+CNNCNN
+CNCNNN
+CCNNNN[2018-06-28_16:00:39]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+XNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCXNNN[2018-06-28_16:00:39]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+XNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN[2018-06-28_16:00:53]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+NNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN[2018-06-28_16:00:55]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+NNCCNC
+NCNCCN
+NCCCNN
+CNCNNC
+CCNNCN
+CCCNNN

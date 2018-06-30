@@ -1,0 +1,23 @@
+# use following parameters for this run: -c NCD6_3.task
+job_name NCD6_3
+price_table ../../BEST_PRICE_1H.csv
+blocks NCD6_blocks_3_elb.txt
+max_block_size 5
+NCS NCD6
+
+
+
+#Amino-acid list
+#aa_list          A C D E F G H I K L M N P Q R S T V W Y
+
+#Please, specify the use of all 8 labeling types by '1' or '0'.
+#You can see the description in ...
+#Use 1 1 1 0 0 0 0 0 as default
+#Order as follows:   X   N   C   D   A   S   T   F
+#labeling_types       1   1   1   0   0   0   0   0
+
+#Please, specify the use of all 7 spectra by '1' or '0'.
+#You can see the description in ...
+#Use 1 1 0 0 0 0 0 as default
+#Order as follows: HSQC,    HNCO,    HNCA,  HNCOCA, CO-HNCA, DQ-HNCA,  HNCACO
+#spectra_types         1        1        0        0        0        0        0

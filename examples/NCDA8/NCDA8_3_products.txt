@@ -1,0 +1,17 @@
+Blocks used:
+1x2 - 1 block(s)
+2x3 - 17 block(s)
+2x4 - 4 block(s)
+3x5 - 84 block(s)
+3x6 - 133 block(s)
+3x8 - 269 block(s)
+3x9 - 53 block(s)
+3x10 - 45 block(s)
+3x12 - 4 block(s)
+Total blocks number: 610
+-----------------------
+Products calculated:
+[(1, 2), (3, 10)]: 45 scheme(s)
+[(1, 2), (3, 12)]: 4 scheme(s)
+2 product types calculated
+49 total labeling schemes to check
