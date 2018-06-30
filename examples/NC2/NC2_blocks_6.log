@@ -1,0 +1,209 @@
+[2018-06-27_13:11:09]
+
+#############################################################################
+#                                                                           #
+#        UCSL (Versioon 1.0.0)- Calculation of Universal                       #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article^  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+[2018-06-27_13:11:09]
+[NCS = NC2][2018-06-27_13:11:09]
+BlockFinder.find() started at 27-06-2018 10:11:09
+BlockFinder: samples=2 min_depth=2
+[2018-06-27_13:11:09]
+
+[ELB samples = 2 patterns = 2]
+NC
+CN[2018-06-27_13:11:09]
+BlockFinder.find() started at 27-06-2018 10:11:09
+BlockFinder: samples=3 min_depth=3
+[2018-06-27_13:11:09]
+
+[ELB samples = 3 patterns = 3]
+NNC
+NCN
+CNN[2018-06-27_13:11:09]
+BlockFinder.find() started at 27-06-2018 10:11:09
+BlockFinder: samples=4 min_depth=4
+[2018-06-27_13:11:09]
+
+[ELB samples = 4 patterns = 4]
+NNNC
+NNCN
+NCNN
+CNNN[2018-06-27_13:11:09]
+
+[ELB samples = 4 patterns = 4]
+NNCC
+NCNC
+CNCN
+CCNN[2018-06-27_13:11:09]
+BlockFinder.find() started at 27-06-2018 10:11:09
+BlockFinder: samples=5 min_depth=5
+[2018-06-27_13:11:10]
+
+[ELB samples = 5 patterns = 5]
+XNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_13:11:11]
+
+[ELB samples = 5 patterns = 5]
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN[2018-06-27_13:11:11]
+
+[ELB samples = 5 patterns = 5]
+NNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_13:11:12]
+
+[ELB samples = 5 patterns = 5]
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN[2018-06-27_13:11:12]
+
+[ELB samples = 5 patterns = 6]
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+CCNNN[2018-06-27_13:11:13]
+BlockFinder.find() started at 27-06-2018 10:11:13
+BlockFinder: samples=6 min_depth=7
+[2018-06-27_13:12:43]
+
+[ELB samples = 6 patterns = 7]
+XNNNNC
+NNNCCN
+NNCNCN
+NCNNCN
+CNNCNN
+CNCNNN
+CCNNNN[2018-06-27_13:13:33]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+XNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCXNNN[2018-06-27_13:13:33]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+XNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN[2018-06-27_13:14:09]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+NNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN[2018-06-27_13:14:14]
+
+[ELB samples = 6 patterns = 7]
+XNNNCC
+NNCCNC
+NCNCCN
+NCCCNN
+CNCNNC
+CCNNCN
+CCCNNN[2018-06-27_13:36:01]
+
+[ELB samples = 6 patterns = 7]
+NNNNNC
+NNNCCN
+NNCNCN
+NCNNCN
+CNNCNN
+CNCNNN
+CCNNNN[2018-06-27_13:36:23]
+
+[ELB samples = 6 patterns = 7]
+NNNNCC
+NNNCNC
+NNCNNC
+NCNNNC
+CNNNCN
+CNNCNN
+CNCNNN[2018-06-27_13:36:23]
+
+[ELB samples = 6 patterns = 8]
+NNNNCC
+NNNCNC
+NNCNNC
+NCNNNC
+CNNNCN
+CNNCNN
+CNCNNN
+CCNNNN[2018-06-27_13:36:23]
+
+[ELB samples = 6 patterns = 9]
+NNNNCC
+NNNCNC
+NNCNNC
+NCNNCN
+NCNCNN
+NCCNNN
+CNNNCN
+CNNCNN
+CNCNNN[2018-06-27_13:36:49]
+
+[ELB samples = 6 patterns = 7]
+NNNNCC
+NNCCNN
+NCNCNC
+NCCNCN
+CNNCCN
+CNCNNC
+CCNNNN[2018-06-27_13:36:53]
+
+[ELB samples = 6 patterns = 7]
+NNNNCC
+NNCCNC
+NCNCNC
+CNCNCN
+CNCCNN
+CCNNCN
+CCNCNN[2018-06-27_13:40:18]
+
+[ELB samples = 6 patterns = 7]
+NNNCCC
+NNCNCC
+NCNCNC
+NCCNNC
+CNNCCN
+CNCNCN
+CCNCNN[2018-06-27_13:40:18]
+
+[ELB samples = 6 patterns = 8]
+NNNCCC
+NNCNCC
+NCNCNC
+NCCNNC
+CNNCCN
+CNCNCN
+CCNCNN
+CCCNNN

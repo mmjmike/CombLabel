@@ -1,0 +1,707 @@
+[2018-06-27_16:03:00]
+
+#############################################################################
+#                                                                           #
+#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article:  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+[2018-06-27_16:03:00]
+Blocks used:
+2x2 - 1 block(s)
+3x3 - 1 block(s)
+4x4 - 2 block(s)
+5x5 - 3 block(s)
+5x6 - 1 block(s)
+Total blocks number: 8
+-----------------------
+Products calculated:
+[(2, 2), (2, 2), (2, 2), (3, 3)]: 1 scheme(s)
+[(2, 2), (2, 2), (5, 5)]: 3 scheme(s)
+[(2, 2), (2, 2), (5, 6)]: 1 scheme(s)
+[(2, 2), (3, 3), (4, 4)]: 2 scheme(s)
+[(3, 3), (3, 3), (3, 3)]: 1 scheme(s)
+[(4, 4), (5, 5)]: 6 scheme(s)
+[(4, 4), (5, 6)]: 2 scheme(s)
+7 product types calculated:
+16 total labeling schemes to check
+[2018-06-27_16:03:00]
+------------
+Checking schemes for product [(2, 2), (2, 2), (2, 2), (3, 3)]. Total 1 schemes[2018-06-27_16:03:00]
+---------
+Checking scheme 1/16[2018-06-27_16:03:00]
+
+NCNCNCNNC
+NCNCNCNCN
+NCNCNCCNN
+NCNCCNNNC
+NCNCCNNCN
+NCNCCNCNN
+NCCNNCNNC
+NCCNNCNCN
+NCCNNCCNN
+NCCNCNNNC
+NCCNCNNCN
+NCCNCNCNN
+CNNCNCNNC
+CNNCNCNCN
+CNNCNCCNN
+CNNCCNNNC
+CNNCCNNCN
+CNNCCNCNN
+CNCNNCNNC
+CNCNNCNCN
+CNCNNCCNN
+CNCNCNNNC
+CNCNCNNCN
+CNCNCNCNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NC
+CN
+
+NC
+CN
+
+NNC
+NCN
+CNN[2018-06-27_16:03:00]
+New best price: 32451.726649999997[2018-06-27_16:03:00]
+------------
+Checking schemes for product [(2, 2), (2, 2), (5, 5)]. Total 3 schemes[2018-06-27_16:03:00]
+---------
+Checking scheme 2/16[2018-06-27_16:03:00]
+
+NCNCXNNNC
+NCNCNNCCN
+NCNCNCNCN
+NCNCCNCNN
+NCNCCCNNN
+NCCNXNNNC
+NCCNNNCCN
+NCCNNCNCN
+NCCNCNCNN
+NCCNCCNNN
+CNNCXNNNC
+CNNCNNCCN
+CNNCNCNCN
+CNNCCNCNN
+CNNCCCNNN
+CNCNXNNNC
+CNCNNNCCN
+CNCNNCNCN
+CNCNCNCNN
+CNCNCCNNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NC
+CN
+
+XNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_16:03:00]
+New best price: 29775.595209999992[2018-06-27_16:03:00]
+---------
+Checking scheme 3/16[2018-06-27_16:03:00]
+
+NCNCNNNNC
+NCNCNNNCN
+NCNCNNCNN
+NCNCNCNNN
+NCNCCNNNN
+NCCNNNNNC
+NCCNNNNCN
+NCCNNNCNN
+NCCNNCNNN
+NCCNCNNNN
+CNNCNNNNC
+CNNCNNNCN
+CNNCNNCNN
+CNNCNCNNN
+CNNCCNNNN
+CNCNNNNNC
+CNCNNNNCN
+CNCNNNCNN
+CNCNNCNNN
+CNCNCNNNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NC
+CN
+
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN[2018-06-27_16:03:00]
+New best price: 29246.46774[2018-06-27_16:03:00]
+---------
+Checking scheme 4/16[2018-06-27_16:03:00]
+
+NCNCNNNNC
+NCNCNNCCN
+NCNCNCNCN
+NCNCCNCNN
+NCNCCCNNN
+NCCNNNNNC
+NCCNNNCCN
+NCCNNCNCN
+NCCNCNCNN
+NCCNCCNNN
+CNNCNNNNC
+CNNCNNCCN
+CNNCNCNCN
+CNNCCNCNN
+CNNCCCNNN
+CNCNNNNNC
+CNCNNNCCN
+CNCNNCNCN
+CNCNCNCNN
+CNCNCCNNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NC
+CN
+
+NNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_16:03:00]
+Price: 30452.88166[2018-06-27_16:03:00]
+------------
+Checking schemes for product [(2, 2), (2, 2), (5, 6)]. Total 1 schemes[2018-06-27_16:03:00]
+---------
+Checking scheme 5/16[2018-06-27_16:03:00]
+
+NCNCNNNCC
+NCNCNNCNC
+NCNCNCNNC
+NCNCCNNCN
+NCNCCNCNN
+NCNCCCNNN
+NCCNNNNCC
+NCCNNNCNC
+NCCNNCNNC
+NCCNCNNCN
+NCCNCNCNN
+NCCNCCNNN
+CNNCNNNCC
+CNNCNNCNC
+CNNCNCNNC
+CNNCCNNCN
+CNNCCNCNN
+CNNCCCNNN
+CNCNNNNCC
+CNCNNNCNC
+CNCNNCNNC
+CNCNCNNCN
+CNCNCNCNN
+CNCNCCNNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NC
+CN
+
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+CCNNN[2018-06-27_16:03:00]
+Equivalent scheme was already checked[2018-06-27_16:03:00]
+------------
+Checking schemes for product [(2, 2), (3, 3), (4, 4)]. Total 2 schemes[2018-06-27_16:03:00]
+---------
+Checking scheme 6/16[2018-06-27_16:03:00]
+
+NCNNCNNNC
+NCNNCNNCN
+NCNNCNCNN
+NCNNCCNNN
+NCNCNNNNC
+NCNCNNNCN
+NCNCNNCNN
+NCNCNCNNN
+NCCNNNNNC
+NCCNNNNCN
+NCCNNNCNN
+NCCNNCNNN
+CNNNCNNNC
+CNNNCNNCN
+CNNNCNCNN
+CNNNCCNNN
+CNNCNNNNC
+CNNCNNNCN
+CNNCNNCNN
+CNNCNCNNN
+CNCNNNNNC
+CNCNNNNCN
+CNCNNNCNN
+CNCNNCNNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NNC
+NCN
+CNN
+
+NNNC
+NNCN
+NCNN
+CNNN[2018-06-27_16:03:01]
+Price: 29246.46774[2018-06-27_16:03:01]
+---------
+Checking scheme 7/16[2018-06-27_16:03:01]
+
+NCNNCNNCC
+NCNNCNCNC
+NCNNCCNCN
+NCNNCCCNN
+NCNCNNNCC
+NCNCNNCNC
+NCNCNCNCN
+NCNCNCCNN
+NCCNNNNCC
+NCCNNNCNC
+NCCNNCNCN
+NCCNNCCNN
+CNNNCNNCC
+CNNNCNCNC
+CNNNCCNCN
+CNNNCCCNN
+CNNCNNNCC
+CNNCNNCNC
+CNNCNCNCN
+CNNCNCCNN
+CNCNNNNCC
+CNCNNNCNC
+CNCNNCNCN
+CNCNNCCNN
+Scheme consists of following blocks:
+
+NC
+CN
+
+NNC
+NCN
+CNN
+
+NNCC
+NCNC
+CNCN
+CCNN[2018-06-27_16:03:01]
+Equivalent scheme was already checked[2018-06-27_16:03:01]
+------------
+Checking schemes for product [(3, 3), (3, 3), (3, 3)]. Total 1 schemes[2018-06-27_16:03:01]
+---------
+Checking scheme 8/16[2018-06-27_16:03:01]
+
+NNCNNCNNC
+NNCNNCNCN
+NNCNNCCNN
+NNCNCNNNC
+NNCNCNNCN
+NNCNCNCNN
+NNCCNNNNC
+NNCCNNNCN
+NNCCNNCNN
+NCNNNCNNC
+NCNNNCNCN
+NCNNNCCNN
+NCNNCNNNC
+NCNNCNNCN
+NCNNCNCNN
+NCNCNNNNC
+NCNCNNNCN
+NCNCNNCNN
+CNNNNCNNC
+CNNNNCNCN
+CNNNNCCNN
+CNNNCNNNC
+CNNNCNNCN
+CNNNCNCNN
+CNNCNNNNC
+CNNCNNNCN
+CNNCNNCNN
+Scheme consists of following blocks:
+
+NNC
+NCN
+CNN
+
+NNC
+NCN
+CNN
+
+NNC
+NCN
+CNN[2018-06-27_16:03:01]
+Price: 29246.46774[2018-06-27_16:03:01]
+------------
+Checking schemes for product [(4, 4), (5, 5)]. Total 6 schemes[2018-06-27_16:03:01]
+---------
+Checking scheme 9/16[2018-06-27_16:03:01]
+
+NNNCXNNNC
+NNNCNNCCN
+NNNCNCNCN
+NNNCCNCNN
+NNNCCCNNN
+NNCNXNNNC
+NNCNNNCCN
+NNCNNCNCN
+NNCNCNCNN
+NNCNCCNNN
+NCNNXNNNC
+NCNNNNCCN
+NCNNNCNCN
+NCNNCNCNN
+NCNNCCNNN
+CNNNXNNNC
+CNNNNNCCN
+CNNNNCNCN
+CNNNCNCNN
+CNNNCCNNN
+Scheme consists of following blocks:
+
+NNNC
+NNCN
+NCNN
+CNNN
+
+XNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_16:03:01]
+New best price: 26570.336300000003[2018-06-27_16:03:01]
+---------
+Checking scheme 10/16[2018-06-27_16:03:01]
+
+NNCCXNNNC
+NNCCNNCCN
+NNCCNCNCN
+NNCCCNCNN
+NNCCCCNNN
+NCNCXNNNC
+NCNCNNCCN
+NCNCNCNCN
+NCNCCNCNN
+NCNCCCNNN
+CNCNXNNNC
+CNCNNNCCN
+CNCNNCNCN
+CNCNCNCNN
+CNCNCCNNN
+CCNNXNNNC
+CCNNNNCCN
+CCNNNCNCN
+CCNNCNCNN
+CCNNCCNNN
+Scheme consists of following blocks:
+
+NNCC
+NCNC
+CNCN
+CCNN
+
+XNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_16:03:01]
+Equivalent scheme was already checked[2018-06-27_16:03:01]
+---------
+Checking scheme 11/16[2018-06-27_16:03:01]
+
+NNNCNNNNC
+NNNCNNNCN
+NNNCNNCNN
+NNNCNCNNN
+NNNCCNNNN
+NNCNNNNNC
+NNCNNNNCN
+NNCNNNCNN
+NNCNNCNNN
+NNCNCNNNN
+NCNNNNNNC
+NCNNNNNCN
+NCNNNNCNN
+NCNNNCNNN
+NCNNCNNNN
+CNNNNNNNC
+CNNNNNNCN
+CNNNNNCNN
+CNNNNCNNN
+CNNNCNNNN
+Scheme consists of following blocks:
+
+NNNC
+NNCN
+NCNN
+CNNN
+
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN[2018-06-27_16:03:01]
+New best price: 26041.20883[2018-06-27_16:03:01]
+---------
+Checking scheme 12/16[2018-06-27_16:03:01]
+
+NNCCNNNNC
+NNCCNNNCN
+NNCCNNCNN
+NNCCNCNNN
+NNCCCNNNN
+NCNCNNNNC
+NCNCNNNCN
+NCNCNNCNN
+NCNCNCNNN
+NCNCCNNNN
+CNCNNNNNC
+CNCNNNNCN
+CNCNNNCNN
+CNCNNCNNN
+CNCNCNNNN
+CCNNNNNNC
+CCNNNNNCN
+CCNNNNCNN
+CCNNNCNNN
+CCNNCNNNN
+Scheme consists of following blocks:
+
+NNCC
+NCNC
+CNCN
+CCNN
+
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN[2018-06-27_16:03:01]
+Equivalent scheme was already checked[2018-06-27_16:03:01]
+---------
+Checking scheme 13/16[2018-06-27_16:03:01]
+
+NNNCNNNNC
+NNNCNNCCN
+NNNCNCNCN
+NNNCCNCNN
+NNNCCCNNN
+NNCNNNNNC
+NNCNNNCCN
+NNCNNCNCN
+NNCNCNCNN
+NNCNCCNNN
+NCNNNNNNC
+NCNNNNCCN
+NCNNNCNCN
+NCNNCNCNN
+NCNNCCNNN
+CNNNNNNNC
+CNNNNNCCN
+CNNNNCNCN
+CNNNCNCNN
+CNNNCCNNN
+Scheme consists of following blocks:
+
+NNNC
+NNCN
+NCNN
+CNNN
+
+NNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_16:03:01]
+Price: 27247.62275000001[2018-06-27_16:03:01]
+---------
+Checking scheme 14/16[2018-06-27_16:03:01]
+
+NNCCNNNNC
+NNCCNNCCN
+NNCCNCNCN
+NNCCCNCNN
+NNCCCCNNN
+NCNCNNNNC
+NCNCNNCCN
+NCNCNCNCN
+NCNCCNCNN
+NCNCCCNNN
+CNCNNNNNC
+CNCNNNCCN
+CNCNNCNCN
+CNCNCNCNN
+CNCNCCNNN
+CCNNNNNNC
+CCNNNNCCN
+CCNNNCNCN
+CCNNCNCNN
+CCNNCCNNN
+Scheme consists of following blocks:
+
+NNCC
+NCNC
+CNCN
+CCNN
+
+NNNNC
+NNCCN
+NCNCN
+CNCNN
+CCNNN[2018-06-27_16:03:01]
+Equivalent scheme was already checked[2018-06-27_16:03:01]
+------------
+Checking schemes for product [(4, 4), (5, 6)]. Total 2 schemes[2018-06-27_16:03:01]
+---------
+Checking scheme 15/16[2018-06-27_16:03:01]
+
+NNNCNNNCC
+NNNCNNCNC
+NNNCNCNNC
+NNNCCNNCN
+NNNCCNCNN
+NNNCCCNNN
+NNCNNNNCC
+NNCNNNCNC
+NNCNNCNNC
+NNCNCNNCN
+NNCNCNCNN
+NNCNCCNNN
+NCNNNNNCC
+NCNNNNCNC
+NCNNNCNNC
+NCNNCNNCN
+NCNNCNCNN
+NCNNCCNNN
+CNNNNNNCC
+CNNNNNCNC
+CNNNNCNNC
+CNNNCNNCN
+CNNNCNCNN
+CNNNCCNNN
+Scheme consists of following blocks:
+
+NNNC
+NNCN
+NCNN
+CNNN
+
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+CCNNN[2018-06-27_16:03:01]
+Equivalent scheme was already checked[2018-06-27_16:03:01]
+---------
+Checking scheme 16/16[2018-06-27_16:03:01]
+
+NNCCNNNCC
+NNCCNNCNC
+NNCCNCNNC
+NNCCCNNCN
+NNCCCNCNN
+NNCCCCNNN
+NCNCNNNCC
+NCNCNNCNC
+NCNCNCNNC
+NCNCCNNCN
+NCNCCNCNN
+NCNCCCNNN
+CNCNNNNCC
+CNCNNNCNC
+CNCNNCNNC
+CNCNCNNCN
+CNCNCNCNN
+CNCNCCNNN
+CCNNNNNCC
+CCNNNNCNC
+CCNNNCNNC
+CCNNCNNCN
+CCNNCNCNN
+CCNNCCNNN
+Scheme consists of following blocks:
+
+NNCC
+NCNC
+CNCN
+CCNN
+
+NNNCC
+NNCNC
+NCNNC
+CNNCN
+CNCNN
+CCNNN[2018-06-27_16:03:01]
+Equivalent scheme was already checked[2018-06-27_16:03:01]
+________________________
+Best scheme:
+[solution]
+Res,S1,S2,S3,S4,S5,S6,S7,S8,S9
+Ala, N, N, N, C, N, N, N, N, C
+Arg, N, N, N, C, N, N, N, C, N
+Asn, N, N, N, C, N, N, C, N, N
+Asp, N, N, N, C, N, C, N, N, N
+Cys, N, N, N, C, C, N, N, N, N
+Gln, N, N, C, N, N, N, N, N, C
+Glu, N, N, C, N, N, N, N, C, N
+Gly, N, N, C, N, N, N, C, N, N
+His, N, N, C, N, N, C, N, N, N
+Ile, N, N, C, N, C, N, N, N, N
+Leu, N, C, N, N, N, N, N, N, C
+Lys, N, C, N, N, N, N, N, C, N
+Met, N, C, N, N, N, N, C, N, N
+Phe, N, C, N, N, N, C, N, N, N
+Pro, X, C, X, X, C, X, X, X, X
+Ser, C, N, N, N, N, N, N, N, C
+Thr, C, N, N, N, N, N, N, C, N
+Trp, C, N, N, N, N, N, C, N, N
+Tyr, C, N, N, N, N, C, N, N, N
+Val, C, N, N, N, C, N, N, N, N
+
+Blocks used for this scheme:
+NNNC
+NNCN
+NCNN
+CNNN
+
+NNNNC
+NNNCN
+NNCNN
+NCNNN
+CNNNN
+
+Price: 26041.20883[2018-06-27_16:03:01]
+-----
+Calculation finished at 2018-06-27 16:03:01!
