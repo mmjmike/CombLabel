@@ -40,10 +40,13 @@ class Outputer:
         if "s" in types:
             self.opened_files.update({"s": open(self.scheme_filename, "w")})
 
-    def write_data(self, output, files="l"):
+    def write_data(self, output, files="l", timer=1):
         types = list(files)
         if "l" in types and "l" in self.opened_files:
-            timestamp = datetime.datetime.now().strftime('[%Y-%m-%d_%H:%M:%S]')
+            if timer :
+              timestamp = "\n" + datetime.datetime.now().strftime('[Date,Time = %Y-%m-%d_%H:%M:%S]')
+            else :
+              timestamp = ""
             self.opened_files["l"].write(timestamp + "\n" + output)
             self.opened_files["l"].flush()
         if "e" in types and "e" in self.opened_files:

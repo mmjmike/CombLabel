@@ -65,19 +65,19 @@ class BlockFinder:
         self.timer = time.time()
 
 
-        out = "BlockFinder.find() started at {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
-        out += "BlockFinder: samples={} min_depth={}\n".format(self.samples, self.min_depth)
+        out = "[BlockFinder{}] started new search in {} samples with min_depth={}\n".format(self.samples, self.samples, self.min_depth)
         self.outputer.write_data(out, files="lc")
 
 
         while True:
             self.iterator += 1
 
-            if self.block_finder_mode and self.iterator % 10000 == 0:
-                out = "{:>8} {:>6d} sec  depth={:<2}".format(self.iterator, int(time.time()-self.timer), self.depth)
+            if self.iterator % 10000 == 0:
+                out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator, int(time.time()-self.timer))
+                out+= "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth+1, self.results_found)
                 for d in range(self.depth):
                     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
-                    self.outputer.write_data(out, files="l")
+                self.outputer.write_data(out, files="lc", timer=0)
 
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):
@@ -124,8 +124,12 @@ class BlockFinder:
             if self.depth > self.max_depth:
                 self.max_depth = self.depth
                 if self.block_finder_mode:
-                    out = "New max depth: {}".format(self.max_depth)
-                    self.outputer.write_data(out, files="l")
+                    out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
+                    self.outputer.write_data(out, files="lc")
+        
+        out = "[BlockFinder{}] finished search in {} samples after {} sec and {} iterations, {} ELB schemes found\n"
+        out=out.format(self.samples, self.samples, int(time.time()-self.timer), self.iterator, self.results_found)
+        self.outputer.write_data(out, files="lc")
         self.write_result()
 
     def generate_patterns(self, samples, top=True):
@@ -156,18 +160,19 @@ class BlockFinder:
             if not equal:
                 self.result[depth_of_scheme].append(new_scheme)
                 self.results_found += 1
-                output = "\n[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns))\
-                         + str(new_scheme)
-                self.outputer.write_data(output, files="le")
+                output = "[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns))\
+                         + str(new_scheme) + "\n"
+                self.outputer.write_data(output, files="e")
         else:
             self.result.update({depth_of_scheme: [new_scheme]})
-            output = "\n[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns)) \
-                     + str(new_scheme)
-            self.outputer.write_data(output, files="le")
+            self.results_found += 1
+            output = "[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns)) \
+                     + str(new_scheme) + "\n"
+            self.outputer.write_data(output, files="e")
 
     def write_result(self):
         if self.block_finder_mode:
-            out = "FindBlocks finished after {} iterations\n".format(self.iterator)
+            out =  "FindBlocks: finished after {} iterations\n".format(self.iterator)
             out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time()-self.timer)
             out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
             self.outputer.write_data(out, files="lc")
@@ -434,7 +439,7 @@ class Task:
             self.output_blockfinder(block_finder)
         else:
             if self.calculate_blocks:
-                output = "[NCS = {}]".format(self.ncs.name)
+                output = "[NCS = {}]\n".format(self.ncs.name)
                 self.outputer.write_data(output, files="lce")
                 self.outputer.write_data("Searching for elementary blocks(ELB)", files="lc")
                 self.find_blocks()
