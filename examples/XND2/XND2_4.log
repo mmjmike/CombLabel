@@ -1,8 +1,9 @@
-[2018-06-27_17:58:34]
+
+[Date,Time = 2018-07-03_19:13:14]
 
 #############################################################################
 #                                                                           #
-#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        UCSL (Version 1.0.1)- Calculation of Universal                     #
 #        Combinatorial Labeling Schemes for Fast NMR Protein                #
 #        Assignment.                                                        #
 #                                                                           #
@@ -12,33 +13,93 @@
 #                                                                           #
 #                                                                           #
 #############################################################################
-[2018-06-27_17:58:34]
-Clearing redundant blocks(ELB)[2018-06-27_17:58:34]
-Searching for products in max_samples=1[2018-06-27_17:58:34]
-Searching for products in max_samples=2[2018-06-27_17:58:34]
-Searching for products in max_samples=3[2018-06-27_17:58:34]
-Searching for products in max_samples=4[2018-06-27_17:58:34]
-Searching for products in max_samples=5[2018-06-27_17:58:34]
-Searching for products in max_samples=6[2018-06-27_17:58:34]
-Searching for products in max_samples=7[2018-06-27_17:58:34]
+
+[Date,Time = 2018-07-03_19:13:14]
 Blocks used:
-2x2 - 5 block(s)
-3x3 - 7 block(s)
-3x4 - 3 block(s)
-4x5 - 23 block(s)
-Total blocks number: 38
+ 2 X  2 - 5 block(s)
+ 3 X  3 - 14 block(s)
+ 3 X  4 - 3 block(s)
+ 4 X  5 - 23 block(s)
+-----------
+ 2 X . - 5 block(s)
+ 3 X . - 17 block(s)
+ 4 X . - 23 block(s)
+ TOTAL - 45 blocks
+-----------
+
+[Date,Time = 2018-07-03_19:13:14]
+Clearing redundant blocks(ELB)
+[Date,Time = 2018-07-03_19:13:14]
+Blocks used:
+ 2 X  2 - 5 block(s)
+ 3 X  3 - 7 block(s)
+ 3 X  4 - 3 block(s)
+ 4 X  5 - 23 block(s)
+-----------
+ 2 X . - 5 block(s)
+ 3 X . - 10 block(s)
+ 4 X . - 23 block(s)
+ TOTAL - 38 blocks
+-----------
+
+[Date,Time = 2018-07-03_19:13:14]
+Clearing product blocks(ELB)
+[Date,Time = 2018-07-03_19:13:14]
+Blocks used:
+ 2 X  2 - 5 block(s)
+ 3 X  3 - 7 block(s)
+ 3 X  4 - 3 block(s)
+ 4 X  5 - 23 block(s)
+-----------
+ 2 X . - 5 block(s)
+ 3 X . - 10 block(s)
+ 4 X . - 23 block(s)
+ TOTAL - 38 blocks
+-----------
+
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=1
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=2
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=3
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=4
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=5
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=6
+[Date,Time = 2018-07-03_19:13:14]
+Searching for products in max_samples=7
+[Date,Time = 2018-07-03_19:13:14]
+[NCS = XND2]
+Blocks used:
+ 2 X  2 - 5 block(s)
+ 3 X  3 - 7 block(s)
+ 3 X  4 - 3 block(s)
+ 4 X  5 - 23 block(s)
+-----------
+ 2 X . - 5 block(s)
+ 3 X . - 10 block(s)
+ 4 X . - 23 block(s)
+ TOTAL - 38 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 7 samples:
 [(3, 4), (4, 5)]: 69 scheme(s)
 1 product types calculated
 69 total labeling schemes to check
-[2018-06-27_17:58:34]
-Schemes optimization in max_samples=7[2018-06-27_17:58:34]
-------------
-Checking schemes for product [(3, 4), (4, 5)]. Total 69 schemes[2018-06-27_17:58:34]
----------
-Checking scheme 1/69[2018-06-27_17:58:34]
 
+[Date,Time = 2018-07-03_19:13:14]
+Schemes optimization in max_samples=7
+[Date,Time = 2018-07-03_19:13:14]
+------------
+Checking schemes for product [(3, 4), (4, 5)]. Total 69 schemes
+------------
+[Date,Time = 2018-07-03_19:13:14]
+Checking scheme 1/69 - New best price: 83627.02445999999
+[Date,Time = 2018-07-03_19:13:14]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -60,7 +121,6 @@ DDXNDXD
 DDXNDDX
 DDXDNND
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -70,11 +130,12 @@ XNNN
 NXDD
 NDXD
 NDDX
-DNND[2018-06-27_17:58:35]
-New best price: 83627.02445999999[2018-06-27_17:58:35]
----------
-Checking scheme 2/69[2018-06-27_17:58:35]
+DNND
 
+---------
+[Date,Time = 2018-07-03_19:13:15]
+Checking scheme 2/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:15]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -96,7 +157,6 @@ DDDNDXD
 DDDNDDX
 DDDDNND
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -106,11 +166,12 @@ XNNN
 NXDD
 NDXD
 NDDX
-DNND[2018-06-27_17:58:35]
-Scheme can not be optimized[2018-06-27_17:58:35]
----------
-Checking scheme 3/69[2018-06-27_17:58:35]
+DNND
 
+---------
+[Date,Time = 2018-07-03_19:13:15]
+Checking scheme 3/69 - New best price: 83618.57002000001
+[Date,Time = 2018-07-03_19:13:15]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -132,7 +193,6 @@ DDXNDXD
 DDXNDDX
 DDXDNND
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -142,11 +202,12 @@ XNNN
 NXDD
 NDXD
 NDDX
-DNND[2018-06-27_17:58:35]
-New best price: 83618.57002000001[2018-06-27_17:58:35]
----------
-Checking scheme 4/69[2018-06-27_17:58:35]
+DNND
 
+---------
+[Date,Time = 2018-07-03_19:13:15]
+Checking scheme 4/69 - Price: 85409.10706000002
+[Date,Time = 2018-07-03_19:13:15]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -168,7 +229,6 @@ DDXNDXD
 DDXNDDX
 DDXDDDD
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -178,11 +238,12 @@ XNNN
 NXDD
 NDXD
 NDDX
-DDDD[2018-06-27_17:58:35]
-Price: 85409.10705999997[2018-06-27_17:58:35]
----------
-Checking scheme 5/69[2018-06-27_17:58:35]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:15]
+Checking scheme 5/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:15]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -204,7 +265,6 @@ DDDNDXD
 DDDNDDX
 DDDDDDD
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -214,11 +274,12 @@ XNNN
 NXDD
 NDXD
 NDDX
-DDDD[2018-06-27_17:58:35]
-Scheme can not be optimized[2018-06-27_17:58:35]
----------
-Checking scheme 6/69[2018-06-27_17:58:35]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:15]
+Checking scheme 6/69 - Price: 85117.98273999999
+[Date,Time = 2018-07-03_19:13:15]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -240,7 +301,6 @@ DDXNDXD
 DDXNDDX
 DDXDDDD
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -250,11 +310,12 @@ XNNN
 NXDD
 NDXD
 NDDX
-DDDD[2018-06-27_17:58:36]
-Price: 85117.98274000004[2018-06-27_17:58:36]
----------
-Checking scheme 7/69[2018-06-27_17:58:36]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:15]
+Checking scheme 7/69 - Price: 83913.66576000002
+[Date,Time = 2018-07-03_19:13:15]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -276,7 +337,6 @@ DDXNDXD
 DDXDNND
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -286,11 +346,12 @@ XNNN
 NXDD
 NDXD
 DNND
-DDDX[2018-06-27_17:58:36]
-Price: 83913.66576000003[2018-06-27_17:58:36]
----------
-Checking scheme 8/69[2018-06-27_17:58:36]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:16]
+Checking scheme 8/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:16]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -312,7 +373,6 @@ DDDNDXD
 DDDDNND
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -322,11 +382,12 @@ XNNN
 NXDD
 NDXD
 DNND
-DDDX[2018-06-27_17:58:36]
-Scheme can not be optimized[2018-06-27_17:58:36]
----------
-Checking scheme 9/69[2018-06-27_17:58:36]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:16]
+Checking scheme 9/69 - Price: 83719.68016000002
+[Date,Time = 2018-07-03_19:13:16]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -348,7 +409,6 @@ DDXNDXD
 DDXDNND
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -358,11 +418,12 @@ XNNN
 NXDD
 NDXD
 DNND
-DDDX[2018-06-27_17:58:36]
-Price: 83719.68015999999[2018-06-27_17:58:36]
----------
-Checking scheme 10/69[2018-06-27_17:58:36]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:16]
+Checking scheme 10/69 - Price: 84520.60731999998
+[Date,Time = 2018-07-03_19:13:16]
 XNNXNNN
 XNNNDDD
 XNNDXND
@@ -384,7 +445,6 @@ DDXDXND
 DDXDNDX
 DDXDDXN
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -394,11 +454,12 @@ XNNN
 NDDD
 DXND
 DNDX
-DDXN[2018-06-27_17:58:37]
-Price: 84520.60732[2018-06-27_17:58:37]
----------
-Checking scheme 11/69[2018-06-27_17:58:37]
+DDXN
 
+---------
+[Date,Time = 2018-07-03_19:13:16]
+Checking scheme 11/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:16]
 XNDXNNN
 XNDNDDD
 XNDDXND
@@ -420,7 +481,6 @@ DDDDXND
 DDDDNDX
 DDDDDXN
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -430,11 +490,12 @@ XNNN
 NDDD
 DXND
 DNDX
-DDXN[2018-06-27_17:58:37]
-Scheme can not be optimized[2018-06-27_17:58:37]
----------
-Checking scheme 12/69[2018-06-27_17:58:37]
+DDXN
 
+---------
+[Date,Time = 2018-07-03_19:13:16]
+Checking scheme 12/69 - Price: 84368.27638
+[Date,Time = 2018-07-03_19:13:16]
 XDDXNNN
 XDDNDDD
 XDDDXND
@@ -456,7 +517,6 @@ DDXDXND
 DDXDNDX
 DDXDDXN
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -466,11 +526,12 @@ XNNN
 NDDD
 DXND
 DNDX
-DDXN[2018-06-27_17:58:37]
-Price: 84368.27637999998[2018-06-27_17:58:37]
----------
-Checking scheme 13/69[2018-06-27_17:58:37]
+DDXN
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 13/69 - Price: 86604.28771999995
+[Date,Time = 2018-07-03_19:13:17]
 XNNXNNN
 XNNNDDD
 XNNDXDD
@@ -492,7 +553,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -502,11 +562,12 @@ XNNN
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:37]
-Price: 86604.28772000002[2018-06-27_17:58:37]
----------
-Checking scheme 14/69[2018-06-27_17:58:37]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 14/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNDXNNN
 XNDNDDD
 XNDDXDD
@@ -528,7 +589,6 @@ DDDDXDD
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -538,11 +598,12 @@ XNNN
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:37]
-Scheme can not be optimized[2018-06-27_17:58:37]
----------
-Checking scheme 15/69[2018-06-27_17:58:37]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 15/69 - Price: 86455.82378
+[Date,Time = 2018-07-03_19:13:17]
 XDDXNNN
 XDDNDDD
 XDDDXDD
@@ -564,7 +625,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -574,11 +634,12 @@ XNNN
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:37]
-Price: 86455.82378[2018-06-27_17:58:37]
----------
-Checking scheme 16/69[2018-06-27_17:58:37]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 16/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNNXNND
 XNNNXDN
 XNNNDXN
@@ -600,7 +661,6 @@ DDXNDXN
 DDXNDDD
 DDXDNNX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -610,11 +670,12 @@ XNND
 NXDN
 NDXN
 NDDD
-DNNX[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 17/69[2018-06-27_17:58:38]
+DNNX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 17/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -636,7 +697,6 @@ DDDNDXN
 DDDNDDD
 DDDDNNX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -646,11 +706,12 @@ XNND
 NXDN
 NDXN
 NDDD
-DNNX[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 18/69[2018-06-27_17:58:38]
+DNNX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 18/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -672,7 +733,6 @@ DDXNDXN
 DDXNDDD
 DDXDNNX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -682,11 +742,12 @@ XNND
 NXDN
 NDXN
 NDDD
-DNNX[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 19/69[2018-06-27_17:58:38]
+DNNX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 19/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNNXNND
 XNNNXDN
 XNNNDXN
@@ -708,7 +769,6 @@ DDXNDXN
 DDXNDDD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -718,11 +778,12 @@ XNND
 NXDN
 NDXN
 NDDD
-DDDX[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 20/69[2018-06-27_17:58:38]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 20/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -744,7 +805,6 @@ DDDNDXN
 DDDNDDD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -754,11 +814,12 @@ XNND
 NXDN
 NDXN
 NDDD
-DDDX[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 21/69[2018-06-27_17:58:38]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 21/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -780,7 +841,6 @@ DDXNDXN
 DDXNDDD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -790,11 +850,12 @@ XNND
 NXDN
 NDXN
 NDDD
-DDDX[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 22/69[2018-06-27_17:58:38]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 22/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNNXNND
 XNNNXDN
 XNNNDXN
@@ -816,7 +877,6 @@ DDXNDXN
 DDXDNNX
 DDXDDDD
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -826,11 +886,12 @@ XNND
 NXDN
 NDXN
 DNNX
-DDDD[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 23/69[2018-06-27_17:58:38]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 23/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -852,7 +913,6 @@ DDDNDXN
 DDDDNNX
 DDDDDDD
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -862,11 +922,12 @@ XNND
 NXDN
 NDXN
 DNNX
-DDDD[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 24/69[2018-06-27_17:58:38]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 24/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -888,7 +949,6 @@ DDXNDXN
 DDXDNNX
 DDXDDDD
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -898,11 +958,12 @@ XNND
 NXDN
 NDXN
 DNNX
-DDDD[2018-06-27_17:58:38]
-Scheme can not be optimized[2018-06-27_17:58:38]
----------
-Checking scheme 25/69[2018-06-27_17:58:38]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:17]
+Checking scheme 25/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:17]
 XNNXNND
 XNNNXDN
 XNNNDXN
@@ -924,7 +985,6 @@ DDXNDXN
 DDXDNNN
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -934,11 +994,12 @@ XNND
 NXDN
 NDXN
 DNNN
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 26/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 26/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -960,7 +1021,6 @@ DDDNDXN
 DDDDNNN
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -970,11 +1030,12 @@ XNND
 NXDN
 NDXN
 DNNN
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 27/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 27/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -996,7 +1057,6 @@ DDXNDXN
 DDXDNNN
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1006,11 +1066,12 @@ XNND
 NXDN
 NDXN
 DNNN
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 28/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 28/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNNXNND
 XNNNXDN
 XNNNDNN
@@ -1032,7 +1093,6 @@ DDXNDNN
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1042,11 +1102,12 @@ XNND
 NXDN
 NDNN
 DDXD
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 29/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 29/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNDXNND
 XNDNXDN
 XNDNDNN
@@ -1068,7 +1129,6 @@ DDDNDNN
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1078,11 +1138,12 @@ XNND
 NXDN
 NDNN
 DDXD
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 30/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 30/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XDDXNND
 XDDNXDN
 XDDNDNN
@@ -1104,7 +1165,6 @@ DDXNDNN
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1114,11 +1174,12 @@ XNND
 NXDN
 NDNN
 DDXD
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 31/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 31/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNNXNND
 XNNNXDN
 XNNNDDD
@@ -1140,7 +1201,6 @@ DDXNDDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1150,11 +1210,12 @@ XNND
 NXDN
 NDDD
 DDXD
-DDDX[2018-06-27_17:58:39]
-Scheme can not be optimized[2018-06-27_17:58:39]
----------
-Checking scheme 32/69[2018-06-27_17:58:39]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 32/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -1176,7 +1237,6 @@ DDDNDDD
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1186,11 +1246,12 @@ XNND
 NXDN
 NDDD
 DDXD
-DDDX[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 33/69[2018-06-27_17:58:40]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 33/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XDDXNND
 XDDNXDN
 XDDNDDD
@@ -1212,7 +1273,6 @@ DDXNDDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1222,11 +1282,12 @@ XNND
 NXDN
 NDDD
 DDXD
-DDDX[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 34/69[2018-06-27_17:58:40]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 34/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNNXNND
 XNNNNDX
 XNNNDDD
@@ -1248,7 +1309,6 @@ DDXNDDD
 DDXDXDD
 DDXDDXN
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1258,11 +1318,12 @@ XNND
 NNDX
 NDDD
 DXDD
-DDXN[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 35/69[2018-06-27_17:58:40]
+DDXN
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 35/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNDXNND
 XNDNNDX
 XNDNDDD
@@ -1284,7 +1345,6 @@ DDDNDDD
 DDDDXDD
 DDDDDXN
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1294,11 +1354,12 @@ XNND
 NNDX
 NDDD
 DXDD
-DDXN[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 36/69[2018-06-27_17:58:40]
+DDXN
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 36/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XDDXNND
 XDDNNDX
 XDDNDDD
@@ -1320,7 +1381,6 @@ DDXNDDD
 DDXDXDD
 DDXDDXN
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1330,11 +1390,12 @@ XNND
 NNDX
 NDDD
 DXDD
-DDXN[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 37/69[2018-06-27_17:58:40]
+DDXN
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 37/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNNXNND
 XNNNNDN
 XNNDXDD
@@ -1356,7 +1417,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1366,11 +1426,12 @@ XNND
 NNDN
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 38/69[2018-06-27_17:58:40]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:18]
+Checking scheme 38/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:18]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -1392,7 +1453,6 @@ DDDDXDD
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1402,11 +1462,12 @@ XNND
 NNDN
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 39/69[2018-06-27_17:58:40]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 39/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XDDXNND
 XDDNNDN
 XDDDXDD
@@ -1428,7 +1489,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1438,11 +1498,12 @@ XNND
 NNDN
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 40/69[2018-06-27_17:58:40]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 40/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNNXNND
 XNNNDDX
 XNNDXDN
@@ -1464,7 +1525,6 @@ DDXDXDN
 DDXDDXN
 DDXDDDD
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1474,11 +1534,12 @@ XNND
 NDDX
 DXDN
 DDXN
-DDDD[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 41/69[2018-06-27_17:58:40]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 41/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNDXNND
 XNDNDDX
 XNDDXDN
@@ -1500,7 +1561,6 @@ DDDDXDN
 DDDDDXN
 DDDDDDD
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1510,11 +1570,12 @@ XNND
 NDDX
 DXDN
 DDXN
-DDDD[2018-06-27_17:58:40]
-Scheme can not be optimized[2018-06-27_17:58:40]
----------
-Checking scheme 42/69[2018-06-27_17:58:40]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 42/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XDDXNND
 XDDNDDX
 XDDDXDN
@@ -1536,7 +1597,6 @@ DDXDXDN
 DDXDDXN
 DDXDDDD
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1546,11 +1606,12 @@ XNND
 NDDX
 DXDN
 DDXN
-DDDD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 43/69[2018-06-27_17:58:41]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 43/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNNXNND
 XNNNDDX
 XNNDXDD
@@ -1572,7 +1633,6 @@ DDXDXDD
 DDXDNNN
 DDXDDXD
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1582,11 +1642,12 @@ XNND
 NDDX
 DXDD
 DNNN
-DDXD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 44/69[2018-06-27_17:58:41]
+DDXD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 44/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNDXNND
 XNDNDDX
 XNDDXDD
@@ -1608,7 +1669,6 @@ DDDDXDD
 DDDDNNN
 DDDDDXD
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1618,11 +1678,12 @@ XNND
 NDDX
 DXDD
 DNNN
-DDXD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 45/69[2018-06-27_17:58:41]
+DDXD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 45/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XDDXNND
 XDDNDDX
 XDDDXDD
@@ -1644,7 +1705,6 @@ DDXDXDD
 DDXDNNN
 DDXDDXD
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1654,11 +1714,12 @@ XNND
 NDDX
 DXDD
 DNNN
-DDXD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 46/69[2018-06-27_17:58:41]
+DDXD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 46/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNNXNND
 XNNNDDN
 XNNDXDD
@@ -1680,7 +1741,6 @@ DDXDXDD
 DDXDNNX
 DDXDDXD
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1690,11 +1750,12 @@ XNND
 NDDN
 DXDD
 DNNX
-DDXD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 47/69[2018-06-27_17:58:41]
+DDXD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 47/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNDXNND
 XNDNDDN
 XNDDXDD
@@ -1716,7 +1777,6 @@ DDDDXDD
 DDDDNNX
 DDDDDXD
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1726,11 +1786,12 @@ XNND
 NDDN
 DXDD
 DNNX
-DDXD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 48/69[2018-06-27_17:58:41]
+DDXD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 48/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XDDXNND
 XDDNDDN
 XDDDXDD
@@ -1752,7 +1813,6 @@ DDXDXDD
 DDXDNNX
 DDXDDXD
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1762,11 +1822,12 @@ XNND
 NDDN
 DXDD
 DNNX
-DDXD[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 49/69[2018-06-27_17:58:41]
+DDXD
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 49/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNNXNND
 XNNNDDD
 XNNDXDD
@@ -1788,7 +1849,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1798,11 +1858,12 @@ XNND
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 50/69[2018-06-27_17:58:41]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:19]
+Checking scheme 50/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:19]
 XNDXNND
 XNDNDDD
 XNDDXDD
@@ -1824,7 +1885,6 @@ DDDDXDD
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1834,11 +1894,12 @@ XNND
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 51/69[2018-06-27_17:58:41]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 51/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XDDXNND
 XDDNDDD
 XDDDXDD
@@ -1860,7 +1921,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1870,11 +1930,12 @@ XNND
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 52/69[2018-06-27_17:58:41]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 52/69 - New best price: 83188.82206000002
+[Date,Time = 2018-07-03_19:13:20]
 XNNXNDD
 XNNNNNN
 XNNNDXD
@@ -1896,7 +1957,6 @@ DDXNDXD
 DDXNDDX
 DDXDXND
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -1906,11 +1966,12 @@ XNDD
 NNNN
 NDXD
 NDDX
-DXND[2018-06-27_17:58:41]
-New best price: 83188.82206000002[2018-06-27_17:58:41]
----------
-Checking scheme 53/69[2018-06-27_17:58:41]
+DXND
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 53/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XNDXNDD
 XNDNNNN
 XNDNDXD
@@ -1932,7 +1993,6 @@ DDDNDXD
 DDDNDDX
 DDDDXND
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -1942,11 +2002,12 @@ XNDD
 NNNN
 NDXD
 NDDX
-DXND[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:41]
----------
-Checking scheme 54/69[2018-06-27_17:58:41]
+DXND
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 54/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XDDXNDD
 XDDNNNN
 XDDNDXD
@@ -1968,7 +2029,6 @@ DDXNDXD
 DDXNDDX
 DDXDXND
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -1978,11 +2038,12 @@ XNDD
 NNNN
 NDXD
 NDDX
-DXND[2018-06-27_17:58:41]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 55/69[2018-06-27_17:58:42]
+DXND
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 55/69 - Price: 83533.36026000002
+[Date,Time = 2018-07-03_19:13:20]
 XNNXNDD
 XNNNNNN
 XNNNDXD
@@ -2004,7 +2065,6 @@ DDXNDXD
 DDXDXND
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -2014,11 +2074,12 @@ XNDD
 NNNN
 NDXD
 DXND
-DDDX[2018-06-27_17:58:42]
-Price: 83533.36026[2018-06-27_17:58:42]
----------
-Checking scheme 56/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 56/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XNDXNDD
 XNDNNNN
 XNDNDXD
@@ -2040,7 +2101,6 @@ DDDNDXD
 DDDDXND
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -2050,11 +2110,12 @@ XNDD
 NNNN
 NDXD
 DXND
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 57/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 57/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XDDXNDD
 XDDNNNN
 XDDNDXD
@@ -2076,7 +2137,6 @@ DDXNDXD
 DDXDXND
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -2086,11 +2146,12 @@ XNDD
 NNNN
 NDXD
 DXND
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 58/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 58/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XNNXNDD
 XNNNDXD
 XNNNDDX
@@ -2112,7 +2173,6 @@ DDXNDDX
 DDXDXND
 DDXDNDN
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -2122,11 +2182,12 @@ XNDD
 NDXD
 NDDX
 DXND
-DNDN[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 59/69[2018-06-27_17:58:42]
+DNDN
 
+---------
+[Date,Time = 2018-07-03_19:13:20]
+Checking scheme 59/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:20]
 XNDXNDD
 XNDNDXD
 XNDNDDX
@@ -2148,7 +2209,6 @@ DDDNDDX
 DDDDXND
 DDDDNDN
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -2158,11 +2218,12 @@ XNDD
 NDXD
 NDDX
 DXND
-DNDN[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 60/69[2018-06-27_17:58:42]
+DNDN
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 60/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XDDXNDD
 XDDNDXD
 XDDNDDX
@@ -2184,7 +2245,6 @@ DDXNDDX
 DDXDXND
 DDXDNDN
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -2194,11 +2254,12 @@ XNDD
 NDXD
 NDDX
 DXND
-DNDN[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 61/69[2018-06-27_17:58:42]
+DNDN
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 61/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XNNXNDD
 XNNNDXD
 XNNNDDX
@@ -2220,7 +2281,6 @@ DDXNDDX
 DDXDXND
 DDXDDDD
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -2230,11 +2290,12 @@ XNDD
 NDXD
 NDDX
 DXND
-DDDD[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 62/69[2018-06-27_17:58:42]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 62/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XNDXNDD
 XNDNDXD
 XNDNDDX
@@ -2256,7 +2317,6 @@ DDDNDDX
 DDDDXND
 DDDDDDD
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -2266,11 +2326,12 @@ XNDD
 NDXD
 NDDX
 DXND
-DDDD[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 63/69[2018-06-27_17:58:42]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 63/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XDDXNDD
 XDDNDXD
 XDDNDDX
@@ -2292,7 +2353,6 @@ DDXNDDX
 DDXDXND
 DDXDDDD
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -2302,11 +2362,12 @@ XNDD
 NDXD
 NDDX
 DXND
-DDDD[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 64/69[2018-06-27_17:58:42]
+DDDD
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 64/69 - Price: 87041.52111999999
+[Date,Time = 2018-07-03_19:13:21]
 XNNXDDD
 XNNNNNN
 XNNDXDD
@@ -2328,7 +2389,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -2338,11 +2398,12 @@ XDDD
 NNNN
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:42]
-Price: 87041.52111999999[2018-06-27_17:58:42]
----------
-Checking scheme 65/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 65/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XNDXDDD
 XNDNNNN
 XNDDXDD
@@ -2364,7 +2425,6 @@ DDDDXDD
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -2374,11 +2434,12 @@ XDDD
 NNNN
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 66/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 66/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XDDXDDD
 XDDNNNN
 XDDDXDD
@@ -2400,7 +2461,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -2410,11 +2470,12 @@ XDDD
 NNNN
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 67/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 67/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XNNXDDD
 XNNNNND
 XNNDXDD
@@ -2436,7 +2497,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XNN
 NDD
 DXD
@@ -2446,11 +2506,12 @@ XDDD
 NNND
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 68/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 68/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -2472,7 +2533,6 @@ DDDDXDD
 DDDDDXD
 DDDDDDX
 Scheme consists of following blocks:
-
 XND
 NDX
 DXN
@@ -2482,11 +2542,12 @@ XDDD
 NNND
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
----------
-Checking scheme 69/69[2018-06-27_17:58:42]
+DDDX
 
+---------
+[Date,Time = 2018-07-03_19:13:21]
+Checking scheme 69/69 - Scheme can not be optimized
+[Date,Time = 2018-07-03_19:13:21]
 XDDXDDD
 XDDNNND
 XDDDXDD
@@ -2508,7 +2569,6 @@ DDXDXDD
 DDXDDXD
 DDXDDDX
 Scheme consists of following blocks:
-
 XDD
 NNN
 DXD
@@ -2518,10 +2578,13 @@ XDDD
 NNND
 DXDD
 DDXD
-DDDX[2018-06-27_17:58:42]
-Scheme can not be optimized[2018-06-27_17:58:42]
+DDDX
+
+---------
+[Date,Time = 2018-07-03_19:13:21]
 ________________________
-Best scheme:
+Best scheme
+[NCS = XND2]
 [solution]
 Res,S1,S2,S3,S4,S5,S6,S7
 Ala, D, X, D, X, N, D, D
@@ -2544,19 +2607,22 @@ Thr, N, D, D, D, X, N, D
 Trp, X, N, N, D, X, N, D
 Tyr, D, D, X, N, N, N, N
 Val, D, D, X, D, X, N, D
+[price]
+83188.82206000002
 
 Blocks used for this scheme:
+[ELB samples = 3 patterns = 4]
 XNN
 NDD
 DXD
 DDX
-
+[ELB samples = 4 patterns = 5]
 XNDD
 NNNN
 NDXD
 NDDX
 DXND
 
-Price: 83188.82206000002[2018-06-27_17:58:42]
+[Date,Time = 2018-07-03_19:13:21]
 -----
-Calculation finished at 2018-06-27 17:58:42!
+Calculation finished at 2018-07-03 19:13:21!

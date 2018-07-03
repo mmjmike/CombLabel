@@ -1,5 +1,6 @@
 ________________________
-Best scheme:
+Best scheme
+[NCS = NCD2]
 [solution]
 Res,S1,S2,S3,S4,S5,S6,S7
 Ala, N, D, D, N, N, C, N
@@ -22,17 +23,18 @@ Thr, D, D, X, D, D, D, X
 Trp, X, N, N, N, C, N, N
 Tyr, D, D, X, N, N, C, N
 Val, D, D, X, N, C, N, N
+[price]
+14241.883280000005
 
 Blocks used for this scheme:
+[ELB samples = 3 patterns = 4]
 XNN
 NDD
 DXD
 DDX
-
+[ELB samples = 4 patterns = 5]
 XNND
 NNCN
 NCNN
 DNNN
 DDDX
-
-Price: 14241.883280000005

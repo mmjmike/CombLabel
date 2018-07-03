@@ -1,25 +1,36 @@
+[NCS = TSF12]
 Blocks used:
-1x3 - 2 block(s)
-2x4 - 2847 block(s)
-2x9 - 27 block(s)
-Total blocks number: 2876
+ 1 X  3 - 2 block(s)
+ 2 X  4 - 2847 block(s)
+ 2 X  9 - 24 block(s)
+-----------
+ 1 X . - 2 block(s)
+ 2 X . - 2871 block(s)
+ TOTAL - 2873 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 3 samples:
 [(1, 3), (1, 3), (1, 3)]: 8 scheme(s)
-[(1, 3), (2, 9)]: 54 scheme(s)
+[(1, 3), (2, 9)]: 48 scheme(s)
 2 product types calculated
-62 total labeling schemes to check
+56 total labeling schemes to check
 Blocks used:
-1x3 - 2 block(s)
-2x4 - 2847 block(s)
-2x9 - 27 block(s)
-Total blocks number: 2876
+ 1 X  3 - 2 block(s)
+ 2 X  4 - 2847 block(s)
+ 2 X  9 - 24 block(s)
+-----------
+ 1 X . - 2 block(s)
+ 2 X . - 2871 block(s)
+ TOTAL - 2873 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 4 samples:
 [(1, 3), (1, 3), (1, 3), (1, 3)]: 16 scheme(s)
 [(1, 3), (1, 3), (2, 4)]: 11388 scheme(s)
-[(1, 3), (1, 3), (2, 9)]: 108 scheme(s)
-[(2, 4), (2, 9)]: 76869 scheme(s)
-[(2, 9), (2, 9)]: 729 scheme(s)
+[(1, 3), (1, 3), (2, 9)]: 96 scheme(s)
+[(2, 4), (2, 9)]: 68328 scheme(s)
+[(2, 9), (2, 9)]: 576 scheme(s)
 5 product types calculated
-89110 total labeling schemes to check
+80404 total labeling schemes to check

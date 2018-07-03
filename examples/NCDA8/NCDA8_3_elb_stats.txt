@@ -1,0 +1,50 @@
+Blocks used:
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 28 block(s)
+ 2 X  4 - 4 block(s)
+ 3 X  5 - 1395 block(s)
+ 3 X  6 - 1693 block(s)
+ 3 X  7 - 1446 block(s)
+ 3 X  8 - 926 block(s)
+ 3 X  9 - 327 block(s)
+ 3 X 10 - 95 block(s)
+ 3 X 11 - 18 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 32 block(s)
+ 3 X . - 5904 block(s)
+ TOTAL - 5937 blocks
+-----------
+Blocks used:
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 17 block(s)
+ 2 X  4 - 4 block(s)
+ 3 X  5 - 84 block(s)
+ 3 X  6 - 133 block(s)
+ 3 X  8 - 269 block(s)
+ 3 X  9 - 53 block(s)
+ 3 X 10 - 45 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 21 block(s)
+ 3 X . - 588 block(s)
+ TOTAL - 610 blocks
+-----------
+Blocks used:
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 17 block(s)
+ 2 X  4 - 3 block(s)
+ 3 X  5 - 84 block(s)
+ 3 X  6 - 124 block(s)
+ 3 X  8 - 268 block(s)
+ 3 X  9 - 53 block(s)
+ 3 X 10 - 45 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 20 block(s)
+ 3 X . - 578 block(s)
+ TOTAL - 599 blocks
+-----------

@@ -1,0 +1,33 @@
+Blocks used:
+ 2 X  2 - 11 block(s)
+ 3 X  3 - 52 block(s)
+ 3 X  4 - 12 block(s)
+ 4 X  5 - 165 block(s)
+-----------
+ 2 X . - 11 block(s)
+ 3 X . - 64 block(s)
+ 4 X . - 165 block(s)
+ TOTAL - 240 blocks
+-----------
+Blocks used:
+ 2 X  2 - 11 block(s)
+ 3 X  3 - 24 block(s)
+ 3 X  4 - 12 block(s)
+ 4 X  5 - 165 block(s)
+-----------
+ 2 X . - 11 block(s)
+ 3 X . - 36 block(s)
+ 4 X . - 165 block(s)
+ TOTAL - 212 blocks
+-----------
+Blocks used:
+ 2 X  2 - 11 block(s)
+ 3 X  3 - 24 block(s)
+ 3 X  4 - 12 block(s)
+ 4 X  5 - 165 block(s)
+-----------
+ 2 X . - 11 block(s)
+ 3 X . - 36 block(s)
+ 4 X . - 165 block(s)
+ TOTAL - 212 blocks
+-----------

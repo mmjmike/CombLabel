@@ -17,11 +17,11 @@ class Outputer:
 
         self.log_filename = self.job_name + ".log"
         self.blocks_filename = self.job_name + "_elb.txt"
-        self.scheme_filename = self.job_name + "_scheme.txt"
         self.products_filename = self.job_name + "_products.txt"
         self.opened_files = {}
         self.open_files()
         self.first_products = True
+        self.first_bl_stats = True
 
     def set_verbose(self):
         self.verbose = True
@@ -37,8 +37,6 @@ class Outputer:
             self.opened_files.update({"e": open(self.blocks_filename, "w")})
         if "p" in types:
             self.opened_files.update({"p": open(self.products_filename, "w")})
-        if "s" in types:
-            self.opened_files.update({"s": open(self.scheme_filename, "w")})
 
     def write_data(self, output, files="l", timer=1):
         types = list(files)
@@ -61,37 +59,31 @@ class Outputer:
             self.opened_files[key].close()
 
     def write_best_scheme(self, best_scheme):
-        output = '________________________\nBest scheme:\n[solution]'
-        output += "\nRes"
+        output = '________________________\nBest scheme\n[NCS = {}]\n'.format(best_scheme.scheme.ncs.name)
+        output += "[solution]\nRes"
         for i in range(best_scheme.samples):
             output += ",S{}".format(i + 1)
         output += "\n"
         for res in best_scheme.residues:
             output += res + ", " + ", ".join(list(best_scheme.label_dict[res])) + "\n"
-        output += "\nBlocks used for this scheme:"
+        output += "[price]\n{}\n\n".format(best_scheme.price)
+        output += "Blocks used for this scheme:\n"
         for block in best_scheme.blocks:
-            output += str(block) + "\n"
-        output += "\nPrice: {}".format(best_scheme.price)
+            output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
+                      + str(block)
         with open(self.job_name + "_best_scheme.txt", mode="w") as f:
             f.write(output)
         self.write_data(output, files="cl")
 
-    def write_products(self, products):
+    def write_products(self, products, samples):
+        if not products:
+            return
         product_schemes = 0
-        output = "Blocks used:"
-        blocks = products[0].blocks
-        total_blocks = 0
-        samples = list(blocks.keys())
-        samples.sort()
-        for samples_n in samples:
-            pattern_numbers = list(blocks[samples_n].keys())
-            pattern_numbers.sort()
-            for patterns_n in pattern_numbers:
-                blocks_n = len(blocks[samples_n][patterns_n])
-                total_blocks += blocks_n
-                output += "\n{}x{} - {} block(s)".format(samples_n, patterns_n, blocks_n)
-        output += "\nTotal blocks number: {}".format(total_blocks)
-        output += "\n-----------------------\nProducts calculated:\n"
+        output = ""
+        if self.first_products:
+            output += "[NCS = {}]\n".format(products[0].ncs.name)
+        output += self.make_block_stats(products[0].blocks)
+        output += "\n-----------------------\nProducts calculated for {} samples:\n".format(samples)
         for product in products:
             output += str(product) + ": {} scheme(s)\n".format(len(product))
             product_schemes += len(product)
@@ -107,7 +99,51 @@ class Outputer:
         self.write_data(output, files="cl")
 
     def write_blocks(self, blocks, ncs):
-        pass
+        output = "[NCS = {}]\n".format(ncs.name)
+        blocks_samples = list(blocks.keys())
+        blocks_samples.sort()
+        for samples_num in blocks_samples:
+            patterns_numbers = list(blocks[samples_num].keys())
+            patterns_numbers.sort()
+            for patterns_num in patterns_numbers:
+                for block in blocks[samples_num][patterns_num]:
+                    output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
+                             + str(block)
+        with open(self.job_name + "_elb_clean.txt", mode="w") as f:
+            f.write(output)
+
+    def write_block_stats(self, blocks):
+        output = self.make_block_stats(blocks)
+        mode = "a"
+        if self.first_bl_stats:
+            mode = "w"
+            self.first_bl_stats = False
+        with open(self.job_name + "_elb_stats.txt", mode=mode) as f:
+            f.write(output)
+        self.write_data(output, files="cl")
+
+    def make_block_stats(self, blocks):
+        output = "Blocks used:\n"
+        total_blocks = 0
+        samples = list(blocks.keys())
+        samples.sort()
+        blocks_by_samples = {}
+        for samples_n in samples:
+            pattern_numbers = list(blocks[samples_n].keys())
+            pattern_numbers.sort()
+            blocks_in_samples = 0
+            for patterns_n in pattern_numbers:
+                blocks_n = len(blocks[samples_n][patterns_n])
+                total_blocks += blocks_n
+                blocks_in_samples += blocks_n
+                output += "{:2} X {:2} - {} block(s)\n".format(samples_n, patterns_n, blocks_n)
+            blocks_by_samples.update({samples_n: blocks_in_samples})
+        output += "-----------\n"
+        for samples_n in samples:
+            output += "{:2} X . - {} block(s)\n".format(samples_n, blocks_by_samples[samples_n])
+        output += " TOTAL - {} blocks\n".format(total_blocks)
+        output += "-----------\n"
+        return output
 
 
 
@@ -710,7 +746,7 @@ class TaskReader:
         if self.calculate_blocks or self.block_finder_mode:
             files += "e"
         if not self.block_finder_mode and not self.only_blocks:
-            files += "ps"
+            files += "p"
         output_parameters = {
             "verbose": self.verbose,
             "silent": self.silent,
