@@ -1,5 +1,5 @@
 # use following parameters for this run: -c NC2_6.task
-job_name NC2_6
+job_name NC2_6_test
 price_table ../../BEST_PRICE_1H.csv
 blocks NC2_blocks_6_elb.txt
 max_block_size 5

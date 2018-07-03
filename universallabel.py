@@ -186,6 +186,58 @@ class BlockFinder:
         #         if BLOCK_FIND:
 
 
+class ProductFinder:
+
+    def __init__(self, blocks, max_samples, min_patterns, equal=False):
+        self.all_blocks = blocks
+        self.max_samples = max_samples
+        self.min_patterns = min_patterns
+        self.equal = equal
+        self.products = []
+        self.product_lists = []
+        self.block_types = []
+        self.products_found = False
+        self.make_block_types_list()
+
+    def find_products(self):
+        self.product_lists = []
+        self.add_block_to_product([], 1, 0, self.max_samples)  # recursive search for all possible products
+        for list_of_block_types in self.product_lists:
+            self.products.append(Product(self.all_blocks, list_of_block_types))
+        return self.products
+
+    def add_block_to_product(self, curr_list_of_types, curr_size, curr_samples, max_samples):
+        for block_type in self.block_types:
+            if curr_list_of_types and not self.block_types_in_order(curr_list_of_types[-1], block_type):
+                continue
+            size = curr_size * block_type[1]
+            samples = curr_samples + block_type[0]
+            if samples > max_samples:
+                continue
+            new_list_of_types = copy.copy(curr_list_of_types)
+            new_list_of_types.append(block_type)
+
+            if samples == max_samples and ((self.equal and size == self.min_patterns)
+                                           or (not self.equal and size >= self.min_patterns)):
+                self.product_lists.append(new_list_of_types)
+            else:
+                self.add_block_to_product(new_list_of_types, size, samples, max_samples)
+
+    def block_types_in_order(self, type_1, type_2):
+        if type_2[0] > type_1[0]:
+            return True
+        elif type_2[0] == type_1[0]:
+            if type_2[1] >= type_1[1]:
+                return True
+        return False
+
+    def make_block_types_list(self):
+        self.block_types = []
+        for samples_n in self.all_blocks:
+            for patterns_n in self.all_blocks[samples_n]:
+                self.block_types.append((samples_n, patterns_n))
+
+
 class PriceOptimizer:
 
     def __init__(self, ncs, prices_table, aa_list):
@@ -313,7 +365,6 @@ class Task:
         self.results = {}
         self.block_types = []
         self.products = []
-        self.product_lists = []
         self.all_schemes = []
         self.best_scheme = None
         self.schemes_total = 0
@@ -450,6 +501,9 @@ class Task:
                 self.print_blocks()
                 self.outputer.write_data("Clearing redundant blocks(ELB)", files="lc")
                 self.clear_redundant_blocks()
+                self.print_blocks()
+                self.outputer.write_data("Clearing product blocks(ELB)", files="lc")
+                self.clear_product_blocks()
             if self.only_blocks:
                 return
             # self.output("Calculating all possible product types")
@@ -515,46 +569,13 @@ class Task:
                 new_block_list.append(block + [scheme_1])
         self.obtain_scheme(product, new_schemes, new_block_list, depth=(depth+1))
 
-    def add_block_to_product(self, curr_list_of_types, curr_size, curr_samples, max_samples):
-        for block_type in self.block_types:
-            if curr_list_of_types and not self.block_types_in_order(curr_list_of_types[-1], block_type):
-                continue
-            size = curr_size * block_type[1]
-            samples = curr_samples + block_type[0]
-            if samples > max_samples:
-                continue
-            new_list_of_types = copy.copy(curr_list_of_types)
-            new_list_of_types.append(block_type)
-            if size >= self.aa_number and samples == max_samples:
-                self.product_lists.append(new_list_of_types)
-            else:
-                self.add_block_to_product(new_list_of_types, size, samples, max_samples)
-
-    def block_types_in_order(self, type_1, type_2):
-        if type_2[0] > type_1[0]:
-            return True
-        elif type_2[0] == type_1[0]:
-            if type_2[1] >= type_1[1]:
-                return True
-        return False
-
     def find_products(self, max_samples):
         self.products_found = False
-        self.make_block_types_list()
-        self.product_lists = []
-        self.products = []
-        self.add_block_to_product([], 1, 0, max_samples)  # recursive search for all possible products
-        for list_of_block_types in self.product_lists:
-            self.products.append(Product(self.all_blocks, list_of_block_types))
-        if len(self.products) > 0:
+        prod_finder = ProductFinder(self.all_blocks, max_samples, self.aa_number)
+        self.products = prod_finder.find_products()
+        if self.products:
             self.products_found = True
         self.schemes_total = sum([len(product) for product in self.products])
-
-    def make_block_types_list(self):
-        self.block_types = []
-        for samples_n in self.all_blocks:
-            for patterns_n in self.all_blocks[samples_n]:
-                self.block_types.append((samples_n, patterns_n))
 
     def find_blocks(self):
         # self.output("Search for elementary blocks with max {} samples".format(self.max_block_size))
@@ -613,6 +634,51 @@ class Task:
                     self.all_blocks[samples_num].pop(pattern_num)
                 else:
                     self.all_blocks[samples_num][pattern_num] = new_block_list
+        self.clear_empty_block_types()
+
+    def clear_product_blocks(self):
+        blocks_samples = list(self.all_blocks.keys())
+        blocks_samples.sort(reverse=True)
+        for samples_num in blocks_samples:
+            patterns_numbers = list(self.all_blocks[samples_num].keys())
+            patterns_numbers.sort(reverse=True)
+            for patterns_num in patterns_numbers:
+                good_blocks = []
+                for block in self.all_blocks[samples_num][patterns_num]:
+                    block_good = True
+                    prod_finder = ProductFinder(self.all_blocks, samples_num, patterns_num, equal=True)
+                    products = prod_finder.find_products()
+                    for product in products:
+                        if len(product.product_list) == 1:
+                            continue
+                        if not block_good:
+                            break
+                        for product_block in product:
+                            if product_block == block:
+                                # for elb in product.last_blocks:
+                                #     print("ELB:",elb)
+                                # print(product_block, "\nX", block)
+                                # print(samples_num, "X", patterns_num)
+                                block_good = False
+                                break
+                    if block_good:
+                        good_blocks.append(block)
+                self.all_blocks[samples_num][patterns_num] = good_blocks
+        self.clear_empty_block_types()
+
+    def clear_empty_block_types(self):
+        bad_samples_keys = []
+        for samples_num in self.all_blocks:
+            bad_patt_keys = []
+            for patterns_num in self.all_blocks[samples_num]:
+                if self.all_blocks[samples_num][patterns_num] == []:
+                    bad_patt_keys.append(patterns_num)
+            for patterns_num in bad_patt_keys:
+                self.all_blocks[samples_num].pop(patterns_num)
+            if self.all_blocks[samples_num] == {}:
+                bad_samples_keys.append(samples_num)
+        for samples_num in bad_samples_keys:
+            self.all_blocks.pop(samples_num)
 
     def read_blocks(self):
         pass
