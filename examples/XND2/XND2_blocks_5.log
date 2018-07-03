@@ -1,4 +1,5 @@
-[2018-06-28_16:01:19]
+
+[Date,Time = 2018-06-30_16:41:39]
 
 #############################################################################
 #                                                                           #
@@ -12,470 +13,553 @@
 #                                                                           #
 #                                                                           #
 #############################################################################
-[2018-06-28_16:01:19]
-[NCS = XND2][2018-06-28_16:01:19]
-Searching for elementary blocks(ELB)[2018-06-28_16:01:19]
-BlockFinder.find() started at 28-06-2018 13:01:19
-BlockFinder: samples=1 min_depth=2
-[2018-06-28_16:01:19]
-BlockFinder.find() started at 28-06-2018 13:01:19
-BlockFinder: samples=2 min_depth=2
-[2018-06-28_16:01:19]
 
+[Date,Time = 2018-06-30_16:41:39]
+[NCS = XND2]
+[Date,Time = 2018-06-30_16:41:39]
+Searching for elementary blocks(ELB)
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder1] started new search in 1 samples with min_depth=2
+
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder1] finished search in 1 samples after 0 sec and 3 iterations
+
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder2] started new search in 2 samples with min_depth=2
+
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 2 patterns = 2]
 XN
-ND[2018-06-28_16:01:19]
+ND
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 2 patterns = 2]
 XN
-DD[2018-06-28_16:01:19]
+DD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 2 patterns = 2]
 XD
-NN[2018-06-28_16:01:19]
+NN
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 2 patterns = 2]
 XD
-DX[2018-06-28_16:01:19]
+DX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 2 patterns = 2]
 XD
-DN[2018-06-28_16:01:19]
-BlockFinder.find() started at 28-06-2018 13:01:19
-BlockFinder: samples=3 min_depth=3
-[2018-06-28_16:01:19]
+DN
 
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder2] finished search in 2 samples after 0 sec and 17 iterations
+
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder3] started new search in 3 samples with min_depth=3
+
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XNN
 NXD
-DDN[2018-06-28_16:01:19]
+DDN
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XNN
 NXD
-DDD[2018-06-28_16:01:19]
+DDD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XNN
 NDD
-DXD[2018-06-28_16:01:19]
+DXD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 4]
 XNN
 NDD
 DXD
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XNN
 DXD
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XND
 NDX
-DXN[2018-06-28_16:01:19]
+DXN
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 4]
 XND
 NDX
 DXN
-DDD[2018-06-28_16:01:19]
+DDD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XND
 NDX
-DNN[2018-06-28_16:01:19]
+DNN
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XND
 NDX
-DDD[2018-06-28_16:01:19]
+DDD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XND
 NDD
-DNX[2018-06-28_16:01:19]
+DNX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XND
 NDD
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XND
 DNN
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XDD
 NNN
-DXD[2018-06-28_16:01:19]
+DXD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 4]
 XDD
 NNN
 DXD
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XDD
 NND
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XDD
 DXD
-DDX[2018-06-28_16:01:19]
+DDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 3 patterns = 3]
 XDD
 DXD
-DDN[2018-06-28_16:01:19]
-BlockFinder.find() started at 28-06-2018 13:01:19
-BlockFinder: samples=4 min_depth=5
-[2018-06-28_16:01:19]
+DDN
 
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder3] finished search in 3 samples after 0 sec and 205 iterations
+
+[Date,Time = 2018-06-30_16:41:39]
+[BlockFinder4] started new search in 4 samples with min_depth=5
+
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNNN
 NXDD
 NDXD
 NDDX
-DNND[2018-06-28_16:01:19]
+DNND
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNNN
 NXDD
 NDXD
 NDDX
-DDDD[2018-06-28_16:01:19]
+DDDD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNNN
 NXDD
 NDXD
 DNND
-DDDX[2018-06-28_16:01:19]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNNN
 NDDD
 DXND
 DNDX
-DDXN[2018-06-28_16:01:19]
+DDXN
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNNN
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-28_16:01:19]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NXDN
 NDXN
 NDDD
-DNNX[2018-06-28_16:01:19]
+DNNX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NXDN
 NDXN
 NDDD
-DDDX[2018-06-28_16:01:19]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NXDN
 NDXN
 DNNX
-DDDD[2018-06-28_16:01:19]
+DDDD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NXDN
 NDXN
 DNNN
-DDDX[2018-06-28_16:01:20]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NXDN
 NDNN
 DDXD
-DDDX[2018-06-28_16:01:20]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NXDN
 NDDD
 DDXD
-DDDX[2018-06-28_16:01:20]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NNDX
 NDDD
 DXDD
-DDXN[2018-06-28_16:01:20]
+DDXN
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NNDN
 DXDD
 DDXD
-DDDX[2018-06-28_16:01:20]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NDDX
 DXDN
 DDXN
-DDDD[2018-06-28_16:01:20]
+DDDD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NDDX
 DXDD
 DNNN
-DDXD[2018-06-28_16:01:20]
+DDXD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NDDN
 DXDD
 DNNX
-DDXD[2018-06-28_16:01:20]
+DDXD
 
+[Date,Time = 2018-06-30_16:41:39]
 [ELB samples = 4 patterns = 5]
 XNND
 NDDD
 DXDD
 DDXD
-DDDX[2018-06-28_16:01:21]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:40]
 [ELB samples = 4 patterns = 5]
 XNDD
 NNNN
 NDXD
 NDDX
-DXND[2018-06-28_16:01:21]
+DXND
 
+[Date,Time = 2018-06-30_16:41:40]
 [ELB samples = 4 patterns = 5]
 XNDD
 NNNN
 NDXD
 DXND
-DDDX[2018-06-28_16:01:21]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:40]
 [ELB samples = 4 patterns = 5]
 XNDD
 NDXD
 NDDX
 DXND
-DNDN[2018-06-28_16:01:21]
+DNDN
 
+[Date,Time = 2018-06-30_16:41:40]
 [ELB samples = 4 patterns = 5]
 XNDD
 NDXD
 NDDX
 DXND
-DDDD[2018-06-28_16:01:24]
+DDDD
 
+[Date,Time = 2018-06-30_16:41:41]
 [ELB samples = 4 patterns = 5]
 XDDD
 NNNN
 DXDD
 DDXD
-DDDX[2018-06-28_16:01:24]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:41]
 [ELB samples = 4 patterns = 5]
 XDDD
 NNND
 DXDD
 DDXD
-DDDX[2018-06-28_16:01:26]
-BlockFinder.find() started at 28-06-2018 13:01:26
-BlockFinder: samples=5 min_depth=6
-[2018-06-28_16:01:26]
+DDDX
 
+[Date,Time = 2018-06-30_16:41:43]
+[BlockFinder4]     10000      3 sec max_depth=4  depth=2   31/44    3/9  
+[Date,Time = 2018-06-30_16:41:43]
+[BlockFinder4] finished search in 4 samples after 3 sec and 10077 iterations
+
+[Date,Time = 2018-06-30_16:41:43]
+[BlockFinder5] started new search in 5 samples with min_depth=6
+
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NXDDD
 NDXDD
-NDDNN[2018-06-28_16:01:26]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NXDDD
 NDXDD
-NDDND[2018-06-28_16:01:26]
+NDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NXDDD
 NDXDD
-DDDND[2018-06-28_16:01:26]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NXDDD
 NDDNN
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NXDDD
 NDDND
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NXDDD
 DDXDD
-DDDND[2018-06-28_16:01:26]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NDDNN
 DXDDD
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 NDDND
 DXDDD
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDN
 DXDDD
 DDXDD
-DDDND[2018-06-28_16:01:26]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDXDN
-NDDNN[2018-06-28_16:01:26]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDXDN
-NDDND[2018-06-28_16:01:26]
+NDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDXDN
-NDDDD[2018-06-28_16:01:26]
+NDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDXDN
-DDDDD[2018-06-28_16:01:26]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDDNN
-DDXDN[2018-06-28_16:01:26]
+DDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDDND
-DDXDN[2018-06-28_16:01:26]
+DDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 NDDDD
-DDXDN[2018-06-28_16:01:26]
+DDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NXDDN
 DDXDN
-DDDDD[2018-06-28_16:01:26]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NDDNN
 DXDDN
-DDXDN[2018-06-28_16:01:26]
+DDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NDDND
 DXDDN
-DDXDN[2018-06-28_16:01:26]
+DDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 NDDDD
 DXDDN
-DDXDN[2018-06-28_16:01:26]
+DDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNNDD
 DXDDN
 DDXDN
-DDDDD[2018-06-28_16:01:26]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NXDDD
-NDXDN[2018-06-28_16:01:26]
+NDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -483,8 +567,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDN
-NDNDD[2018-06-28_16:01:26]
+NDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -493,8 +578,9 @@ XDDXN
 NXDDD
 NDXDN
 NDNDD
-NDDXD[2018-06-28_16:01:26]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -503,8 +589,9 @@ XDDXN
 NXDDD
 NDXDN
 NDNDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -512,8 +599,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDN
-NDDXD[2018-06-28_16:01:26]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -522,8 +610,9 @@ XDDXN
 NXDDD
 NDXDN
 NDDXD
-DDNDD[2018-06-28_16:01:26]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -531,8 +620,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDN
-DDNDD[2018-06-28_16:01:26]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -541,8 +631,9 @@ XDDXN
 NXDDD
 NDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -550,16 +641,18 @@ XNDDN
 XDDXN
 NXDDD
 NDXDN
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NXDDD
-NDXDD[2018-06-28_16:01:26]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -567,8 +660,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDD
-NDNDN[2018-06-28_16:01:26]
+NDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -577,8 +671,9 @@ XDDXN
 NXDDD
 NDXDD
 NDNDN
-NDDXD[2018-06-28_16:01:26]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -587,8 +682,9 @@ XDDXN
 NXDDD
 NDXDD
 NDNDN
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -596,8 +692,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDD
-NDDXD[2018-06-28_16:01:26]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -606,8 +703,9 @@ XDDXN
 NXDDD
 NDXDD
 NDDXD
-DDNDN[2018-06-28_16:01:26]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -615,8 +713,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDD
-NDDND[2018-06-28_16:01:26]
+NDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -625,8 +724,9 @@ XDDXN
 NXDDD
 NDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -634,8 +734,9 @@ XNDDN
 XDDXN
 NXDDD
 NDXDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -643,16 +744,18 @@ XNDDN
 XDDXN
 NXDDD
 NDXDD
-DDDND[2018-06-28_16:01:26]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NXDDD
-NDNDN[2018-06-28_16:01:26]
+NDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -660,8 +763,9 @@ XNDDN
 XDDXN
 NXDDD
 NDNDN
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -670,16 +774,18 @@ XDDXN
 NXDDD
 NDNDN
 DDXDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NXDDD
-NDNDD[2018-06-28_16:01:26]
+NDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -687,8 +793,9 @@ XNDDN
 XDDXN
 NXDDD
 NDNDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -697,8 +804,9 @@ XDDXN
 NXDDD
 NDDXD
 DDXDN
-DDNDD[2018-06-28_16:01:26]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -707,16 +815,18 @@ XDDXN
 NXDDD
 DDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NXDDD
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -725,8 +835,9 @@ XDDXN
 NXDDD
 DDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -734,8 +845,9 @@ XNDDN
 XDDXN
 NXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -743,24 +855,27 @@ XNDDN
 XDDXN
 NXDDD
 DDXDD
-DDDND[2018-06-28_16:01:26]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NXDDD
-DDNDD[2018-06-28_16:01:26]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NNDDD
-NDXDN[2018-06-28_16:01:26]
+NDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -768,16 +883,18 @@ XNDDN
 XDDXN
 NNDDD
 NDXDN
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NNDDD
-DDXDD[2018-06-28_16:01:26]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -785,8 +902,9 @@ XNDDN
 XDDXN
 NNDDD
 DDXDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -795,24 +913,27 @@ XDDXN
 NDXDN
 NDNDD
 DXDDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NDXDN
-NDDDD[2018-06-28_16:01:26]
+NDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NDXDN
-DXDDD[2018-06-28_16:01:26]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -820,8 +941,9 @@ XNDDN
 XDDXN
 NDXDN
 DXDDD
-DDNDD[2018-06-28_16:01:26]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -830,8 +952,9 @@ XDDXN
 NDXDN
 DXDDD
 DDNDD
-DDDXD[2018-06-28_16:01:26]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -839,24 +962,27 @@ XNDDN
 XDDXN
 NDXDN
 DXDDD
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NDXDN
-DDDDD[2018-06-28_16:01:27]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 NDNDN
-DXDDD[2018-06-28_16:01:27]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -864,8 +990,9 @@ XNDDN
 XDDXN
 NDNDN
 DXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -874,8 +1001,9 @@ XDDXN
 NDNDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -884,16 +1012,18 @@ XDDXN
 DXDDD
 DDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 DXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -902,8 +1032,9 @@ XDDXN
 DXDDD
 DDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -911,8 +1042,9 @@ XNDDN
 XDDXN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -920,32 +1052,36 @@ XNDDN
 XDDXN
 DXDDD
 DDXDD
-DDDND[2018-06-28_16:01:27]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 DXDDD
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXN
 DDXDN
-DDDDD[2018-06-28_16:01:27]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NXDDD
-NDXDN[2018-06-28_16:01:27]
+NDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -953,8 +1089,9 @@ XNDDN
 XDDXD
 NXDDD
 NDXDN
-NDNDD[2018-06-28_16:01:27]
+NDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -963,8 +1100,9 @@ XDDXD
 NXDDD
 NDXDN
 NDNDD
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -973,8 +1111,9 @@ XDDXD
 NXDDD
 NDXDN
 NDNDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -982,8 +1121,9 @@ XNDDN
 XDDXD
 NXDDD
 NDXDN
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -992,8 +1132,9 @@ XDDXD
 NXDDD
 NDXDN
 NDDXN
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1001,8 +1142,9 @@ XNDDN
 XDDXD
 NXDDD
 NDXDN
-NDDNN[2018-06-28_16:01:27]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1010,8 +1152,9 @@ XNDDN
 XDDXD
 NXDDD
 NDXDN
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1020,8 +1163,9 @@ XDDXD
 NXDDD
 NDXDN
 DDNDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1029,16 +1173,18 @@ XNDDN
 XDDXD
 NXDDD
 NDXDN
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NXDDD
-NDXDD[2018-06-28_16:01:27]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1046,8 +1192,9 @@ XNDDN
 XDDXD
 NXDDD
 NDXDD
-NDNDN[2018-06-28_16:01:27]
+NDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1056,8 +1203,9 @@ XDDXD
 NXDDD
 NDXDD
 NDNDN
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1066,8 +1214,9 @@ XDDXD
 NXDDD
 NDXDD
 NDNDN
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1075,8 +1224,9 @@ XNDDN
 XDDXD
 NXDDD
 NDXDD
-DDNDN[2018-06-28_16:01:27]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1085,8 +1235,9 @@ XDDXD
 NXDDD
 NDXDD
 DDNDN
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1094,16 +1245,18 @@ XNDDN
 XDDXD
 NXDDD
 NDXDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NXDDD
-NDNDN[2018-06-28_16:01:27]
+NDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1112,8 +1265,9 @@ XDDXD
 NXDDD
 NDNDN
 NDDXN
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1121,8 +1275,9 @@ XNDDN
 XDDXD
 NXDDD
 NDNDN
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1131,16 +1286,18 @@ XDDXD
 NXDDD
 NDNDN
 DDXDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NXDDD
-NDNDD[2018-06-28_16:01:27]
+NDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1148,8 +1305,9 @@ XNDDN
 XDDXD
 NXDDD
 NDDXN
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1158,8 +1316,9 @@ XDDXD
 NXDDD
 NDDXN
 DDXDD
-DDNDN[2018-06-28_16:01:27]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1167,8 +1326,9 @@ XNDDN
 XDDXD
 NXDDD
 DDXDN
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1177,16 +1337,18 @@ XDDXD
 NXDDD
 DDXDN
 DDNDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1194,8 +1356,9 @@ XNDDN
 XDDXD
 NXDDD
 DDXDD
-DDNDN[2018-06-28_16:01:27]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1204,8 +1367,9 @@ XDDXD
 NXDDD
 DDXDD
 DDNDN
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1213,24 +1377,27 @@ XNDDN
 XDDXD
 NXDDD
 DDXDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NXDDD
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NNDDD
-NDXDN[2018-06-28_16:01:27]
+NDXDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1238,8 +1405,9 @@ XNDDN
 XDDXD
 NNDDD
 NDXDN
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1247,16 +1415,18 @@ XNDDN
 XDDXD
 NNDDD
 NDDXN
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NNDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1265,16 +1435,18 @@ XDDXD
 NDXDN
 NDNDD
 NDDXN
-DXDDD[2018-06-28_16:01:27]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NDXDN
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1282,8 +1454,9 @@ XNDDN
 XDDXD
 NDXDN
 NDDXN
-DXDDD[2018-06-28_16:01:27]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1292,8 +1465,9 @@ XDDXD
 NDXDN
 NDDXN
 DXDDD
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1301,16 +1475,18 @@ XNDDN
 XDDXD
 NDXDN
 NDDXN
-DNDDD[2018-06-28_16:01:27]
+DNDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NDXDN
-NDDNN[2018-06-28_16:01:27]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1318,16 +1494,18 @@ XNDDN
 XDDXD
 NDXDN
 NDDNN
-DXDDD[2018-06-28_16:01:27]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NDXDN
-DXDDD[2018-06-28_16:01:27]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1335,8 +1513,9 @@ XNDDN
 XDDXD
 NDXDN
 DXDDD
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1345,16 +1524,18 @@ XDDXD
 NDXDN
 DXDDD
 DDNDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NDXDN
-DNDDD[2018-06-28_16:01:27]
+DNDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1363,16 +1544,18 @@ XDDXD
 NDNDN
 NDDXN
 DXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 NDNDN
-DXDDD[2018-06-28_16:01:27]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1380,8 +1563,9 @@ XNDDN
 XDDXD
 NDNDN
 DXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1390,8 +1574,9 @@ XDDXD
 NDNDN
 DXDDD
 DDXDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1399,8 +1584,9 @@ XNDDN
 XDDXD
 NDDXN
 DXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1409,8 +1595,9 @@ XDDXD
 NDDXN
 DXDDD
 DDXDD
-DDNDN[2018-06-28_16:01:27]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1418,8 +1605,9 @@ XNDDN
 XDDXD
 DXDDD
 DDXDN
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1428,16 +1616,18 @@ XDDXD
 DXDDD
 DDXDN
 DDNDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 DXDDD
-DDXDD[2018-06-28_16:01:27]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1445,8 +1635,9 @@ XNDDN
 XDDXD
 DXDDD
 DDXDD
-DDNDN[2018-06-28_16:01:27]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1455,8 +1646,9 @@ XDDXD
 DXDDD
 DDXDD
 DDNDN
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1464,16 +1656,18 @@ XNDDN
 XDDXD
 DXDDD
 DDXDD
-DDDXN[2018-06-28_16:01:27]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 XDDXD
 DXDDD
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1481,8 +1675,9 @@ XNDDN
 NXDDD
 NDXDN
 NDNDD
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1490,8 +1685,9 @@ XNDDN
 NXDDD
 NDXDN
 NDNDD
-NDDXD[2018-06-28_16:01:27]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1499,16 +1695,18 @@ XNDDN
 NXDDD
 NDXDN
 NDNDD
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDXDN
-NDDXN[2018-06-28_16:01:27]
+NDDXN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1516,16 +1714,18 @@ XNDDN
 NXDDD
 NDXDN
 NDDXN
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDXDN
-NDDXD[2018-06-28_16:01:27]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1533,8 +1733,9 @@ XNDDN
 NXDDD
 NDXDN
 NDDXD
-NDDNN[2018-06-28_16:01:27]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1542,8 +1743,9 @@ XNDDN
 NXDDD
 NDXDN
 NDDXD
-DDNDD[2018-06-28_16:01:27]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1551,8 +1753,9 @@ XNDDN
 NXDDD
 NDXDN
 NDDNN
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1560,16 +1763,18 @@ XNDDN
 NXDDD
 NDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDXDN
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1577,8 +1782,9 @@ XNDDN
 NXDDD
 NDXDD
 NDNDN
-NDDXD[2018-06-28_16:01:27]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1586,16 +1792,18 @@ XNDDN
 NXDDD
 NDXDD
 NDNDN
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDXDD
-NDDXD[2018-06-28_16:01:27]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1603,8 +1811,9 @@ XNDDN
 NXDDD
 NDXDD
 NDDXD
-DDNDN[2018-06-28_16:01:27]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1612,8 +1821,9 @@ XNDDN
 NXDDD
 NDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:27]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1621,24 +1831,27 @@ XNDDN
 NXDDD
 NDXDD
 DDDXN
-DDDND[2018-06-28_16:01:27]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDXDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDNDN
-DDXDD[2018-06-28_16:01:28]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1646,16 +1859,18 @@ XNDDN
 NXDDD
 NDNDN
 DDXDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 NDNDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1663,8 +1878,9 @@ XNDDN
 NXDDD
 DDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1672,40 +1888,45 @@ XNDDN
 NXDDD
 DDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:43]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NXDDD
 DDXDD
-DDDND[2018-06-28_16:01:28]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NNDDD
 NDXDN
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NNDDD
 DDXDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1713,8 +1934,9 @@ XNDDN
 NDXDN
 NDNDD
 NDDXN
-DXDDD[2018-06-28_16:01:28]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1722,8 +1944,9 @@ XNDDN
 NDXDN
 NDNDD
 DXDDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1731,16 +1954,18 @@ XNDDN
 NDXDN
 NDDXN
 DXNDD
-DDDDD[2018-06-28_16:01:28]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NDXDN
 NDDXN
-DXDDD[2018-06-28_16:01:28]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1748,8 +1973,9 @@ XNDDN
 NDXDN
 NDDXN
 DXDDD
-DDNDD[2018-06-28_16:01:28]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1757,16 +1983,18 @@ XNDDN
 NDXDN
 NDDXD
 DXNDD
-DDDDD[2018-06-28_16:01:28]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NDXDN
 NDDNN
-DXDDD[2018-06-28_16:01:28]
+DXDDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1774,16 +2002,18 @@ XNDDN
 NDXDN
 NDDNN
 DXDDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NDXDN
 NDDDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1791,24 +2021,27 @@ XNDDN
 NDXDN
 DXDDD
 DDNDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NDXDN
 DXDDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 NDNDN
 DXDDD
-DDXDD[2018-06-28_16:01:28]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1816,8 +2049,9 @@ XNDDN
 NDNDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:28]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1825,8 +2059,9 @@ XNDDN
 NDDXD
 DXNDD
 DDXDN
-DDDDD[2018-06-28_16:01:29]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1834,8 +2069,9 @@ XNDDN
 DXDDD
 DDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1843,32 +2079,36 @@ XNDDN
 DXDDD
 DDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDN
 DXDDD
 DDXDD
-DDDND[2018-06-28_16:01:29]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NNDDN
-NDXDD[2018-06-28_16:01:29]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1876,8 +2116,9 @@ XNDDD
 XDDXN
 NNDDN
 NDXDD
-NDDXD[2018-06-28_16:01:29]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1885,16 +2126,18 @@ XNDDD
 XDDXN
 NNDDN
 NDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NNDDN
-DDXDD[2018-06-28_16:01:29]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1902,8 +2145,9 @@ XNDDD
 XDDXN
 NNDDN
 DDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1912,8 +2156,9 @@ XDDXN
 NDXDD
 NDNDN
 NDDXD
-DXDDN[2018-06-28_16:01:29]
+DXDDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1922,16 +2167,18 @@ XDDXN
 NDXDD
 NDNDN
 DXDDN
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NDXDD
-NDDXD[2018-06-28_16:01:29]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1939,8 +2186,9 @@ XNDDD
 XDDXN
 NDXDD
 NDDXD
-DXDDN[2018-06-28_16:01:29]
+DXDDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1949,8 +2197,9 @@ XDDXN
 NDXDD
 NDDXD
 DXDDN
-DDNDN[2018-06-28_16:01:29]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1958,16 +2207,18 @@ XNDDD
 XDDXN
 NDXDD
 NDDXD
-DNDDN[2018-06-28_16:01:29]
+DNDDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NDXDD
-NDDND[2018-06-28_16:01:29]
+NDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -1976,8 +2227,9 @@ XDDXN
 NDXDD
 DXDDN
 DDNDN
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1985,8 +2237,9 @@ XNDDD
 XDDXN
 NDXDD
 DXDDN
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -1994,8 +2247,9 @@ XNDDD
 XDDXN
 NDXDD
 DXDDN
-DDDND[2018-06-28_16:01:29]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2003,24 +2257,27 @@ XNDDD
 XDDXN
 NDXDD
 DNDDN
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NDXDD
-DDDND[2018-06-28_16:01:29]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2029,16 +2286,18 @@ XDDXN
 NDNDN
 DXDDN
 DDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 NDNDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2047,8 +2306,9 @@ XDDXN
 NDDXD
 DXDDN
 DDXDN
-DDNDD[2018-06-28_16:01:29]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2057,8 +2317,9 @@ XDDXN
 DXDDN
 DDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2067,8 +2328,9 @@ XDDXN
 DXDDN
 DDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2076,8 +2338,9 @@ XNDDD
 XDDXN
 DXDDN
 DDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2085,8 +2348,9 @@ XNDDD
 XDDXN
 DXDDN
 DDXDD
-DDDND[2018-06-28_16:01:29]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2094,32 +2358,36 @@ XNDDD
 XDDXN
 DNDDN
 DDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 DDXDD
-DDDXD[2018-06-28_16:01:29]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXN
 DDXDD
-DDDND[2018-06-28_16:01:29]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 NNDDN
-NDXDD[2018-06-28_16:01:29]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2127,16 +2395,18 @@ XNDDD
 XDDXD
 NNDDN
 NDXDD
-DDDXN[2018-06-28_16:01:29]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 NNDDN
-DDXDD[2018-06-28_16:01:29]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2144,8 +2414,9 @@ XNDDD
 XDDXD
 NNDDN
 DDXDD
-DDDXN[2018-06-28_16:01:29]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2154,24 +2425,27 @@ XDDXD
 NDXDD
 NDNDN
 DXDDN
-DDDXN[2018-06-28_16:01:29]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 NDXDD
-NDDDN[2018-06-28_16:01:29]
+NDDDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 NDXDD
-DXDDN[2018-06-28_16:01:29]
+DXDDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2179,8 +2453,9 @@ XNDDD
 XDDXD
 NDXDD
 DXDDN
-DDNDN[2018-06-28_16:01:29]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2189,8 +2464,9 @@ XDDXD
 NDXDD
 DXDDN
 DDNDN
-DDDXN[2018-06-28_16:01:29]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2198,16 +2474,18 @@ XNDDD
 XDDXD
 NDXDD
 DXDDN
-DDDXN[2018-06-28_16:01:29]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 NDXDD
-DDDDN[2018-06-28_16:01:30]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:44]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2216,16 +2494,18 @@ XDDXD
 NDNDN
 DXDDN
 DDXDD
-DDDXN[2018-06-28_16:01:30]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 NDDDN
-DDXDD[2018-06-28_16:01:30]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2233,8 +2513,9 @@ XNDDD
 XDDXD
 DXDDN
 DDXDN
-DDNDD[2018-06-28_16:01:30]
+DDNDD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2243,16 +2524,18 @@ XDDXD
 DXDDN
 DDXDN
 DDNDD
-DDDXN[2018-06-28_16:01:30]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 DXDDN
-DDXDD[2018-06-28_16:01:30]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2260,8 +2543,9 @@ XNDDD
 XDDXD
 DXDDN
 DDXDD
-DDNDN[2018-06-28_16:01:30]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXND
@@ -2270,8 +2554,9 @@ XDDXD
 DXDDN
 DDXDD
 DDNDN
-DDDXN[2018-06-28_16:01:30]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2279,56 +2564,63 @@ XNDDD
 XDDXD
 DXDDN
 DDXDD
-DDDXN[2018-06-28_16:01:30]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 XDDXD
 DDXDD
-DDDDN[2018-06-28_16:01:30]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NXXDN
 DDXDD
-DDDNN[2018-06-28_16:01:30]
+DDDNN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NXXDN
 DDXDD
-DDDND[2018-06-28_16:01:30]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NNDDN
 NDXDD
-NDDXD[2018-06-28_16:01:30]
+NDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NNDDN
 NDXDD
-DDDXD[2018-06-28_16:01:30]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NNDDN
 DDXDD
-DDDXD[2018-06-28_16:01:30]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2336,8 +2628,9 @@ XNDDD
 NDXDD
 NDNDN
 NDDXD
-DXDDN[2018-06-28_16:01:30]
+DXDDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2345,24 +2638,27 @@ XNDDD
 NDXDD
 NDNDN
 DXDDN
-DDDXD[2018-06-28_16:01:30]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDXDD
 NDDXD
-NDDDN[2018-06-28_16:01:30]
+NDDDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDXDD
 NDDXD
-DXDDN[2018-06-28_16:01:30]
+DXDDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2370,24 +2666,27 @@ XNDDD
 NDXDD
 NDDXD
 DXDDN
-DDNDN[2018-06-28_16:01:31]
+DDNDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDXDD
 NDDXD
-DDDDN[2018-06-28_16:01:31]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDXDD
 NDDDN
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2395,8 +2694,9 @@ XNDDD
 NDXDD
 DXDDN
 DDNDN
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2404,24 +2704,27 @@ XNDDD
 NDXDD
 DXDDN
 DDDXN
-DDDND[2018-06-28_16:01:31]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDXDD
 DXDDN
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDXDD
 DDDXD
-DDDDN[2018-06-28_16:01:31]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2429,16 +2732,18 @@ XNDDD
 NDNDN
 DXDDN
 DDXDD
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 NDDDN
 DDXDD
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2446,8 +2751,9 @@ XNDDD
 DXDDN
 DDXDN
 DDNDD
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2455,32 +2761,36 @@ XNDDD
 DXDDN
 DDXDD
 DDNDN
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 DXDDN
 DDXDD
-DDDXD[2018-06-28_16:01:31]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:45]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XNDDD
 DDXDD
 DDDXD
-DDDDN[2018-06-28_16:01:36]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXN
 NNDDN
 DXDDD
-DDXDD[2018-06-28_16:01:36]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2488,16 +2798,18 @@ XDDXN
 NNDDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:36]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXN
 NNDDD
 DDXDD
-DDDXD[2018-06-28_16:01:37]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2505,16 +2817,18 @@ XDDXN
 DXDDN
 DNDDD
 DDXDD
-DDDXD[2018-06-28_16:01:37]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXN
 DXDDN
 DDXDN
-DDDDD[2018-06-28_16:01:37]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2522,40 +2836,45 @@ XDDXN
 DXDDD
 DNDDN
 DDXDD
-DDDXD[2018-06-28_16:01:37]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:37]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:48]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXN
 DXDDD
 DDXDD
-DDDND[2018-06-28_16:01:37]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXD
 XDDDN
 DXDDD
-DDXDD[2018-06-28_16:01:38]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXD
 NNDDN
 DXDDD
-DDXDD[2018-06-28_16:01:38]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2563,16 +2882,18 @@ XDDXD
 NNDDN
 DXDDD
 DDXDD
-DDDXN[2018-06-28_16:01:38]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXD
 NDDDN
 DXDDD
-DDXDD[2018-06-28_16:01:38]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2580,8 +2901,9 @@ XDDXD
 DXDDN
 DNDDD
 DDXDD
-DDDXN[2018-06-28_16:01:38]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2589,104 +2911,117 @@ XDDXD
 DXDDD
 DNDDN
 DDXDD
-DDDXN[2018-06-28_16:01:38]
+DDDXN
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDXD
 DXDDD
 DDXDD
-DDDDN[2018-06-28_16:01:38]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 NNXDD
-NDDND[2018-06-28_16:01:38]
+NDDND
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 NNXDD
-NDDDD[2018-06-28_16:01:38]
+NDDDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 NNXDD
-DDDDD[2018-06-28_16:01:38]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 NNDDD
-NDXDD[2018-06-28_16:01:38]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 NNDDD
-DDXDD[2018-06-28_16:01:38]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 NDXDD
-DNDDD[2018-06-28_16:01:38]
+DNDDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 DNXDD
-DDDDD[2018-06-28_16:01:38]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXNDN
 DNDDD
-DDXDD[2018-06-28_16:01:39]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXDDD
 NNNDN
-NDXDD[2018-06-28_16:01:39]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:49]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NXDDD
 NNNDN
-DDXDD[2018-06-28_16:01:39]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:50]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDNN
 NNNDN
 DXDDD
-DDXDD[2018-06-28_16:01:40]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:50]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2694,48 +3029,54 @@ XDDNN
 DXDDD
 DDXDD
 DDDXD
-DDDDN[2018-06-28_16:01:40]
+DDDDN
 
+[Date,Time = 2018-06-30_16:41:50]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDND
 NXNDN
 NNXDD
-NDDNN[2018-06-28_16:01:40]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:50]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDND
 NXNDN
 DNXDD
-DDDDD[2018-06-28_16:01:40]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:51]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDND
 NXDDD
 NNNDN
-NDXDD[2018-06-28_16:01:40]
+NDXDD
 
+[Date,Time = 2018-06-30_16:41:51]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDND
 NXDDD
 NNNDN
-DDXDD[2018-06-28_16:01:40]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:51]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDND
 NNNDN
 DXDDD
-DDXDD[2018-06-28_16:01:41]
+DDXDD
 
+[Date,Time = 2018-06-30_16:41:51]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2743,16 +3084,18 @@ XDDND
 DXNDD
 DDXDN
 DDDXN
-DDDDD[2018-06-28_16:01:41]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:51]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDND
 DXNDD
 DDXDN
-DDDDD[2018-06-28_16:01:42]
+DDDDD
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2760,8 +3103,9 @@ XDDDN
 DXDDD
 DNNDN
 DDXDD
-DDDXD[2018-06-28_16:01:42]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2769,16 +3113,18 @@ XDDDN
 DXDDD
 DDXDD
 DDDXN
-DDDND[2018-06-28_16:01:42]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:42]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXND
@@ -2786,160 +3132,184 @@ XDDDN
 DXDDD
 DDXDD
 DDDXD
-DDDNN[2018-06-28_16:01:42]
+DDDNN
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDDD
 NXNDN
 NNXDD
-NDDNN[2018-06-28_16:01:42]
+NDDNN
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDDD
 NXNDN
 DXXDD
-DDDNN[2018-06-28_16:01:42]
+DDDNN
 
+[Date,Time = 2018-06-30_16:41:52]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 XDDDD
 NXNDN
 DXXDD
-DDDND[2018-06-28_16:01:45]
+DDDND
 
+[Date,Time = 2018-06-30_16:41:53]
+[BlockFinder5]     10000     10 sec max_depth=7  depth=5    0/187   0/136  16/53    4/23    2/10 
+[Date,Time = 2018-06-30_16:41:53]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 NNDDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:46]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:54]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 NDDDN
 DXDDD
 DDXDD
-DDDXD[2018-06-28_16:01:46]
+DDDXD
 
+[Date,Time = 2018-06-30_16:41:54]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXND
 DXDDD
 DDXDD
 DDDXD
-DDDDN[2018-06-28_16:02:05]
+DDDDN
 
+[Date,Time = 2018-06-30_16:42:03]
+[BlockFinder5]     20000     20 sec max_depth=7  depth=5    0/187   1/136  10/53    0/34    2/15 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDXDN
-NDDNN[2018-06-28_16:02:05]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDXDN
-NDDND[2018-06-28_16:02:05]
+NDDND
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDXDN
-NDDDD[2018-06-28_16:02:05]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDXDN
-DDDDD[2018-06-28_16:02:05]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDDNN
-DDXDN[2018-06-28_16:02:05]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDDND
-DDXDN[2018-06-28_16:02:05]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 NDDDD
-DDXDN[2018-06-28_16:02:05]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NXDDN
 DDXDN
-DDDDD[2018-06-28_16:02:05]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NDDNN
 DXDDN
-DDXDN[2018-06-28_16:02:05]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NDDND
 DXDDN
-DDXDN[2018-06-28_16:02:05]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 NDDDD
 DXDDN
-DDXDN[2018-06-28_16:02:05]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNNND
 DXDDN
 DDXDN
-DDDDD[2018-06-28_16:02:05]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDNND
-NDXDN[2018-06-28_16:02:05]
+NDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -2947,8 +3317,9 @@ XNDXD
 XNDDX
 XDNND
 NDXDN
-NDDXN[2018-06-28_16:02:05]
+NDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -2957,8 +3328,9 @@ XNDDX
 XDNND
 NDXDN
 NDDXN
-NDDDD[2018-06-28_16:02:05]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -2967,8 +3339,9 @@ XNDDX
 XDNND
 NDXDN
 NDDXN
-DDDDD[2018-06-28_16:02:05]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -2976,8 +3349,9 @@ XNDXD
 XNDDX
 XDNND
 NDXDN
-NDDNN[2018-06-28_16:02:05]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -2985,8 +3359,9 @@ XNDXD
 XNDDX
 XDNND
 NDXDN
-NDDDD[2018-06-28_16:02:05]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -2995,8 +3370,9 @@ XNDDX
 XDNND
 NDXDN
 NDDDD
-DDDXN[2018-06-28_16:02:05]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3004,8 +3380,9 @@ XNDXD
 XNDDX
 XDNND
 NDXDN
-DDDXN[2018-06-28_16:02:05]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3014,8 +3391,9 @@ XNDDX
 XDNND
 NDXDN
 DDDXN
-DDDDD[2018-06-28_16:02:05]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3023,8 +3401,9 @@ XNDXD
 XNDDX
 XDNND
 NDXDN
-DDDNN[2018-06-28_16:02:05]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3032,16 +3411,18 @@ XNDXD
 XNDDX
 XDNND
 NDXDN
-DDDDD[2018-06-28_16:02:06]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDNND
-NDNDN[2018-06-28_16:02:06]
+NDNDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3049,16 +3430,18 @@ XNDXD
 XNDDX
 XDNND
 NDNDN
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDNND
-NDDDD[2018-06-28_16:02:06]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3066,8 +3449,9 @@ XNDXD
 XNDDX
 XDNND
 NDDDD
-DDXDN[2018-06-28_16:02:06]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3076,16 +3460,18 @@ XNDDX
 XDNND
 NDDDD
 DDXDN
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDNND
-DDXDN[2018-06-28_16:02:06]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3093,8 +3479,9 @@ XNDXD
 XNDDX
 XDNND
 DDXDN
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3103,8 +3490,9 @@ XNDDX
 XDNND
 DDXDN
 DDDXN
-DDDDD[2018-06-28_16:02:06]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3112,8 +3500,9 @@ XNDXD
 XNDDX
 XDNND
 DDXDN
-DDDNN[2018-06-28_16:02:06]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3121,32 +3510,36 @@ XNDXD
 XNDDX
 XDNND
 DDXDN
-DDDDD[2018-06-28_16:02:06]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDNND
-DDNDN[2018-06-28_16:02:06]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDNND
-DDDDD[2018-06-28_16:02:06]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDDDD
-NDXND[2018-06-28_16:02:06]
+NDXND
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3154,8 +3547,9 @@ XNDXD
 XNDDX
 XDDDD
 NDXND
-NDNDX[2018-06-28_16:02:06]
+NDNDX
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3164,8 +3558,9 @@ XNDDX
 XDDDD
 NDXND
 NDNDX
-NDDXN[2018-06-28_16:02:06]
+NDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3174,8 +3569,9 @@ XNDDX
 XDDDD
 NDXND
 NDNDX
-NDDNN[2018-06-28_16:02:06]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3184,8 +3580,9 @@ XNDDX
 XDDDD
 NDXND
 NDNDX
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3194,8 +3591,9 @@ XNDDX
 XDDDD
 NDXND
 NDNDX
-DDDNN[2018-06-28_16:02:06]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3203,8 +3601,9 @@ XNDXD
 XNDDX
 XDDDD
 NDXND
-NDNDN[2018-06-28_16:02:06]
+NDNDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3213,8 +3612,9 @@ XNDDX
 XDDDD
 NDXND
 NDNDN
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3222,8 +3622,9 @@ XNDXD
 XNDDX
 XDDDD
 NDXND
-DDNDX[2018-06-28_16:02:06]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3232,8 +3633,9 @@ XNDDX
 XDDDD
 NDXND
 DDNDX
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3242,8 +3644,9 @@ XNDDX
 XDDDD
 NDXND
 DDNDX
-DDDNN[2018-06-28_16:02:06]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3251,16 +3654,18 @@ XNDXD
 XNDDX
 XDDDD
 NDXND
-DDNDN[2018-06-28_16:02:06]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDDDD
-NDNND[2018-06-28_16:02:06]
+NDNND
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3268,8 +3673,9 @@ XNDXD
 XNDDX
 XDDDD
 NDNND
-DDXDN[2018-06-28_16:02:06]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3278,16 +3684,18 @@ XNDDX
 XDDDD
 NDNND
 DDXDN
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDDDD
-DDXND[2018-06-28_16:02:06]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3295,8 +3703,9 @@ XNDXD
 XNDDX
 XDDDD
 DDXND
-DDNDX[2018-06-28_16:02:06]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3305,8 +3714,9 @@ XNDDX
 XDDDD
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:06]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3315,8 +3725,9 @@ XNDDX
 XDDDD
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:06]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3324,24 +3735,27 @@ XNDXD
 XNDDX
 XDDDD
 DDXND
-DDNDN[2018-06-28_16:02:07]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:07]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 XDDDD
-DDNND[2018-06-28_16:02:07]
+DDNND
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 NDNND
-DDXDN[2018-06-28_16:02:07]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3349,16 +3763,18 @@ XNDXD
 XNDDX
 NDNND
 DDXDN
-DDDXN[2018-06-28_16:02:07]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 NDDDD
-DDXND[2018-06-28_16:02:07]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3366,8 +3782,9 @@ XNDXD
 XNDDX
 NDDDD
 DDXND
-DDNDX[2018-06-28_16:02:07]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3376,16 +3793,18 @@ XNDDX
 NDDDD
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:07]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 DDXND
-DDNDX[2018-06-28_16:02:07]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3393,8 +3812,9 @@ XNDXD
 XNDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:07]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3403,8 +3823,9 @@ XNDDX
 DDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:07]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3412,8 +3833,9 @@ XNDXD
 XNDDX
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:07]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3421,32 +3843,36 @@ XNDXD
 XNDDX
 DDXND
 DDNDX
-DDDDD[2018-06-28_16:02:07]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 DDXND
-DDNDN[2018-06-28_16:02:07]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDX
 DDXND
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDXND
-NDNDX[2018-06-28_16:02:08]
+NDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3454,8 +3880,9 @@ XNDXD
 XNDDN
 NDXND
 NDNDX
-NDDXN[2018-06-28_16:02:08]
+NDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3464,8 +3891,9 @@ XNDDN
 NDXND
 NDNDX
 NDDXN
-NDDDD[2018-06-28_16:02:08]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3474,8 +3902,9 @@ XNDDN
 NDXND
 NDNDX
 NDDXN
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3483,8 +3912,9 @@ XNDXD
 XNDDN
 NDXND
 NDNDX
-NDDNN[2018-06-28_16:02:08]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3492,8 +3922,9 @@ XNDXD
 XNDDN
 NDXND
 NDNDX
-NDDDD[2018-06-28_16:02:08]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3502,8 +3933,9 @@ XNDDN
 NDXND
 NDNDX
 NDDDD
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3511,8 +3943,9 @@ XNDXD
 XNDDN
 NDXND
 NDNDX
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3521,8 +3954,9 @@ XNDDN
 NDXND
 NDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3530,8 +3964,9 @@ XNDXD
 XNDDN
 NDXND
 NDNDX
-DDDNN[2018-06-28_16:02:08]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3539,16 +3974,18 @@ XNDXD
 XNDDN
 NDXND
 NDNDX
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDXND
-NDNDN[2018-06-28_16:02:08]
+NDNDN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3556,16 +3993,18 @@ XNDXD
 XNDDN
 NDXND
 NDNDN
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDXND
-NDDDD[2018-06-28_16:02:08]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3573,8 +4012,9 @@ XNDXD
 XNDDN
 NDXND
 NDDDD
-DDNDX[2018-06-28_16:02:08]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3583,16 +4023,18 @@ XNDDN
 NDXND
 NDDDD
 DDNDX
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDXND
-DDNDX[2018-06-28_16:02:08]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3600,8 +4042,9 @@ XNDXD
 XNDDN
 NDXND
 DDNDX
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3610,8 +4053,9 @@ XNDDN
 NDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3619,8 +4063,9 @@ XNDXD
 XNDDN
 NDXND
 DDNDX
-DDDNN[2018-06-28_16:02:08]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3628,32 +4073,36 @@ XNDXD
 XNDDN
 NDXND
 DDNDX
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDXND
-DDNDN[2018-06-28_16:02:08]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDXND
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDNND
-DDXDN[2018-06-28_16:02:08]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3661,16 +4110,18 @@ XNDXD
 XNDDN
 NDNND
 DDXDN
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 NDDDD
-DDXND[2018-06-28_16:02:08]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3678,8 +4129,9 @@ XNDXD
 XNDDN
 NDDDD
 DDXND
-DDNDX[2018-06-28_16:02:08]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3688,16 +4140,18 @@ XNDDN
 NDDDD
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 DDXND
-DDNDX[2018-06-28_16:02:08]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3705,8 +4159,9 @@ XNDXD
 XNDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:08]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3715,8 +4170,9 @@ XNDDN
 DDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3724,8 +4180,9 @@ XNDXD
 XNDDN
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:08]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3733,56 +4190,63 @@ XNDXD
 XNDDN
 DDXND
 DDNDX
-DDDDD[2018-06-28_16:02:08]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 DDXND
-DDNDN[2018-06-28_16:02:08]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:08]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XNDDN
 DDXND
-DDDDD[2018-06-28_16:02:09]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:09]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDNND
 NDDDD
-DDDDX[2018-06-28_16:02:14]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDN
 NDDDD
-DDXND[2018-06-28_16:02:14]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDN
 DDXND
-DDDDD[2018-06-28_16:02:14]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NXDDN
-NDXND[2018-06-28_16:02:14]
+NDXND
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3790,8 +4254,9 @@ XNDXD
 XDDDD
 NXDDN
 NDXND
-NDNDX[2018-06-28_16:02:14]
+NDNDX
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3800,8 +4265,9 @@ XDDDD
 NXDDN
 NDXND
 NDNDX
-NDDXN[2018-06-28_16:02:14]
+NDDXN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3810,8 +4276,9 @@ XDDDD
 NXDDN
 NDXND
 NDNDX
-NDDNN[2018-06-28_16:02:14]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3820,8 +4287,9 @@ XDDDD
 NXDDN
 NDXND
 NDNDX
-DDDXN[2018-06-28_16:02:14]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3830,8 +4298,9 @@ XDDDD
 NXDDN
 NDXND
 NDNDX
-DDDNN[2018-06-28_16:02:14]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3839,8 +4308,9 @@ XNDXD
 XDDDD
 NXDDN
 NDXND
-NDNDN[2018-06-28_16:02:14]
+NDNDN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3849,8 +4319,9 @@ XDDDD
 NXDDN
 NDXND
 NDNDN
-DDDXN[2018-06-28_16:02:14]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3858,8 +4329,9 @@ XNDXD
 XDDDD
 NXDDN
 NDXND
-DDNDX[2018-06-28_16:02:14]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3868,8 +4340,9 @@ XDDDD
 NXDDN
 NDXND
 DDNDX
-DDDXN[2018-06-28_16:02:14]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3878,8 +4351,9 @@ XDDDD
 NXDDN
 NDXND
 DDNDX
-DDDNN[2018-06-28_16:02:14]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3887,16 +4361,18 @@ XNDXD
 XDDDD
 NXDDN
 NDXND
-DDNDN[2018-06-28_16:02:14]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NXDDN
-NDNND[2018-06-28_16:02:14]
+NDNND
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3904,8 +4380,9 @@ XNDXD
 XDDDD
 NXDDN
 NDNND
-DDXDN[2018-06-28_16:02:14]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3914,16 +4391,18 @@ XDDDD
 NXDDN
 NDNND
 DDXDN
-DDDXN[2018-06-28_16:02:14]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NXDDN
-DDXND[2018-06-28_16:02:14]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3931,8 +4410,9 @@ XNDXD
 XDDDD
 NXDDN
 DDXND
-DDNDX[2018-06-28_16:02:14]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3941,8 +4421,9 @@ XDDDD
 NXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:14]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3951,8 +4432,9 @@ XDDDD
 NXDDN
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:14]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:12]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3960,24 +4442,27 @@ XNDXD
 XDDDD
 NXDDN
 DDXND
-DDNDN[2018-06-28_16:02:14]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NXDDN
-DDNND[2018-06-28_16:02:15]
+DDNND
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NNDDN
-DDXND[2018-06-28_16:02:15]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -3985,8 +4470,9 @@ XNDXD
 XDDDD
 NNDDN
 DDXND
-DDNDX[2018-06-28_16:02:15]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -3995,40 +4481,45 @@ XDDDD
 NNDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:15]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NDXND
-DDDDX[2018-06-28_16:02:15]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NDNND
-DDDDX[2018-06-28_16:02:15]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 NDDDN
-DDXND[2018-06-28_16:02:15]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 DXDDX
-DDXND[2018-06-28_16:02:15]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4036,8 +4527,9 @@ XNDXD
 XDDDD
 DXDDX
 DDXND
-DDNDX[2018-06-28_16:02:15]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4046,8 +4538,9 @@ XDDDD
 DXDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:15]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4056,8 +4549,9 @@ XDDDD
 DXDDX
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:15]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4065,24 +4559,27 @@ XNDXD
 XDDDD
 DXDDX
 DDXND
-DDNDN[2018-06-28_16:02:16]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 DXDDX
-DDNND[2018-06-28_16:02:16]
+DDNND
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 DXDDN
-DDXND[2018-06-28_16:02:16]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4090,8 +4587,9 @@ XNDXD
 XDDDD
 DXDDN
 DDXND
-DDNDX[2018-06-28_16:02:16]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4100,8 +4598,9 @@ XDDDD
 DXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:16]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4110,8 +4609,9 @@ XDDDD
 DXDDN
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:16]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:13]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4119,40 +4619,45 @@ XNDXD
 XDDDD
 DXDDN
 DDXND
-DDNDN[2018-06-28_16:02:16]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:14]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 DDXND
-DDDDX[2018-06-28_16:02:16]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:14]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 DDXND
-DDDDN[2018-06-28_16:02:16]
+DDDDN
 
+[Date,Time = 2018-06-30_16:42:14]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 XDDDD
 DDNND
-DDDDX[2018-06-28_16:02:17]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:14]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 NNDDN
 DDXND
-DDNDX[2018-06-28_16:02:17]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:14]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4160,16 +4665,20 @@ XNDXD
 NNDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:18]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:14]
+[BlockFinder5]     30000     31 sec max_depth=7  depth=4    0/187   2/136   2/85   14/40 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 NDDDD
 DXDDX
-DDXND[2018-06-28_16:02:18]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4177,8 +4686,9 @@ XNDXD
 NDDDD
 DXDDX
 DDXND
-DDNDX[2018-06-28_16:02:18]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4187,8 +4697,9 @@ NDDDD
 DXDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:18]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4196,8 +4707,9 @@ XNDXD
 NDDDD
 DXDDN
 DDXND
-DDNDX[2018-06-28_16:02:18]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4206,16 +4718,18 @@ NDDDD
 DXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:18]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 DXDDX
 DDXND
-DDNDX[2018-06-28_16:02:18]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4223,8 +4737,9 @@ XNDXD
 DXDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:18]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4232,24 +4747,27 @@ XNDXD
 DXDDX
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:18]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 DXDDX
 DDXND
-DDNDN[2018-06-28_16:02:18]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 DXDDN
 DDXND
-DDNDX[2018-06-28_16:02:18]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4257,8 +4775,9 @@ XNDXD
 DXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:18]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4267,8 +4786,9 @@ DXDDN
 DDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:18]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4276,8 +4796,9 @@ XNDXD
 DXDDN
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:18]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4285,80 +4806,90 @@ XNDXD
 DXDDN
 DDXND
 DDNDX
-DDDDD[2018-06-28_16:02:18]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:15]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDXD
 DXDDN
 DDXND
-DDNDN[2018-06-28_16:02:23]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 NDXND
-NDDNX[2018-06-28_16:02:23]
+NDDNX
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 NDXND
-NDDNN[2018-06-28_16:02:23]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 NDXND
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 NDXND
-DDDNN[2018-06-28_16:02:23]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 NDNND
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 DDXND
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:18]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 XDDDX
 DDXND
-DDDNN[2018-06-28_16:02:23]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDXND
-NDNDX[2018-06-28_16:02:23]
+NDNDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4366,8 +4897,9 @@ XNDND
 NXDDN
 NDXND
 NDNDX
-NDDXN[2018-06-28_16:02:23]
+NDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4376,8 +4908,9 @@ NXDDN
 NDXND
 NDNDX
 NDDXN
-NDDDD[2018-06-28_16:02:23]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4386,8 +4919,9 @@ NXDDN
 NDXND
 NDNDX
 NDDXN
-DDDDD[2018-06-28_16:02:23]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4395,8 +4929,9 @@ XNDND
 NXDDN
 NDXND
 NDNDX
-NDDNN[2018-06-28_16:02:23]
+NDDNN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4404,8 +4939,9 @@ XNDND
 NXDDN
 NDXND
 NDNDX
-NDDDD[2018-06-28_16:02:23]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4414,8 +4950,9 @@ NXDDN
 NDXND
 NDNDX
 NDDDD
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4423,8 +4960,9 @@ XNDND
 NXDDN
 NDXND
 NDNDX
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4433,8 +4971,9 @@ NXDDN
 NDXND
 NDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:23]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4442,8 +4981,9 @@ XNDND
 NXDDN
 NDXND
 NDNDX
-DDDNN[2018-06-28_16:02:23]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4451,16 +4991,18 @@ XNDND
 NXDDN
 NDXND
 NDNDX
-DDDDD[2018-06-28_16:02:23]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDXND
-NDNDN[2018-06-28_16:02:23]
+NDNDN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4468,16 +5010,18 @@ XNDND
 NXDDN
 NDXND
 NDNDN
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDXND
-NDDDD[2018-06-28_16:02:23]
+NDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4485,8 +5029,9 @@ XNDND
 NXDDN
 NDXND
 NDDDD
-DDNDX[2018-06-28_16:02:23]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4495,16 +5040,18 @@ NXDDN
 NDXND
 NDDDD
 DDNDX
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDXND
-DDNDX[2018-06-28_16:02:23]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4512,8 +5059,9 @@ XNDND
 NXDDN
 NDXND
 DDNDX
-DDDXN[2018-06-28_16:02:23]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4522,8 +5070,9 @@ NXDDN
 NDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:23]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4531,8 +5080,9 @@ XNDND
 NXDDN
 NDXND
 DDNDX
-DDDNN[2018-06-28_16:02:23]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4540,32 +5090,36 @@ XNDND
 NXDDN
 NDXND
 DDNDX
-DDDDD[2018-06-28_16:02:23]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDXND
-DDNDN[2018-06-28_16:02:23]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDXND
-DDDDD[2018-06-28_16:02:23]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDNND
-DDXDN[2018-06-28_16:02:23]
+DDXDN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4573,16 +5127,18 @@ XNDND
 NXDDN
 NDNND
 DDXDN
-DDDXN[2018-06-28_16:02:24]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 NDDDD
-DDXND[2018-06-28_16:02:24]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4590,8 +5146,9 @@ XNDND
 NXDDN
 NDDDD
 DDXND
-DDNDX[2018-06-28_16:02:24]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4600,16 +5157,18 @@ NXDDN
 NDDDD
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:24]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 DDXND
-DDNDX[2018-06-28_16:02:24]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4617,8 +5176,9 @@ XNDND
 NXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:24]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4627,8 +5187,9 @@ NXDDN
 DDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:24]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4636,8 +5197,9 @@ XNDND
 NXDDN
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:24]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4645,32 +5207,36 @@ XNDND
 NXDDN
 DDXND
 DDNDX
-DDDDD[2018-06-28_16:02:24]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 DDXND
-DDNDN[2018-06-28_16:02:24]
+DDNDN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NXDDN
 DDXND
-DDDDD[2018-06-28_16:02:24]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NNDDN
 DDXND
-DDNDX[2018-06-28_16:02:24]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4678,8 +5244,9 @@ XNDND
 NNDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:24]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4688,8 +5255,9 @@ NDXND
 NDDXN
 NDDDD
 DXNDN
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4697,8 +5265,9 @@ XNDND
 NDXND
 NDDXN
 NDDDD
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4706,8 +5275,9 @@ XNDND
 NDXND
 NDDXN
 DXNDN
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4715,32 +5285,36 @@ XNDND
 NDXND
 NDDXN
 DNNDN
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDXND
 NDDXN
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDXND
 NDDNN
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDXND
 NDDDD
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:19]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4748,16 +5322,18 @@ XNDND
 NDXND
 DXNDN
 DDDNN
-DDDDX[2018-06-28_16:02:24]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDXND
 DDDNN
-DDDDX[2018-06-28_16:02:25]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4766,8 +5342,9 @@ NDDXN
 NDDDD
 DXNDN
 DDXND
-DDDDX[2018-06-28_16:02:25]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4775,8 +5352,9 @@ XNDND
 NDDXN
 NDDDD
 DDXND
-DDDDX[2018-06-28_16:02:25]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4784,8 +5362,9 @@ XNDND
 NDDXN
 DXNDN
 DDXND
-DDDDX[2018-06-28_16:02:25]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4793,32 +5372,36 @@ XNDND
 NDDXN
 DNNDN
 DDXND
-DDDDX[2018-06-28_16:02:25]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDXN
 DDXND
-DDDDX[2018-06-28_16:02:26]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDNN
 DDXND
-DDDDX[2018-06-28_16:02:26]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDDX
 DDXND
-DDDXN[2018-06-28_16:02:26]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4826,24 +5409,27 @@ XNDND
 NDDDX
 DDXND
 DDDXN
-DDDDD[2018-06-28_16:02:26]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDDX
 DDXND
-DDDNN[2018-06-28_16:02:26]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDDX
 DDXND
-DDDDD[2018-06-28_16:02:26]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4851,16 +5437,18 @@ XNDND
 NDDDD
 DXNDX
 DDXND
-DDDDX[2018-06-28_16:02:26]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDDD
 DXDDX
-DDXND[2018-06-28_16:02:26]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4868,8 +5456,9 @@ XNDND
 NDDDD
 DXDDX
 DDXND
-DDNDX[2018-06-28_16:02:26]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:20]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4878,16 +5467,18 @@ NDDDD
 DXDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:26]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDDD
 DXDDN
-DDXND[2018-06-28_16:02:26]
+DDXND
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4895,8 +5486,9 @@ XNDND
 NDDDD
 DXDDN
 DDXND
-DDNDX[2018-06-28_16:02:26]
+DDNDX
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4905,16 +5497,18 @@ NDDDD
 DXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:26]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 NDDDD
 DDXND
-DDDDX[2018-06-28_16:02:26]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4922,8 +5516,9 @@ XNDND
 DXNDN
 DDXND
 DDDNN
-DDDDX[2018-06-28_16:02:26]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4931,8 +5526,9 @@ XNDND
 DXDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:26]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4940,8 +5536,9 @@ XNDND
 DXDDX
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:26]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4949,8 +5546,9 @@ XNDND
 DXDDN
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:02:26]
+DDDXN
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -4959,8 +5557,9 @@ DXDDN
 DDXND
 DDNDX
 DDDXN
-DDDDD[2018-06-28_16:02:26]
+DDDDD
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4968,24 +5567,31 @@ XNDND
 DXDDN
 DDXND
 DDNDX
-DDDNN[2018-06-28_16:02:26]
+DDDNN
 
+[Date,Time = 2018-06-30_16:42:21]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XNDND
 DDXND
 DDDNN
-DDDDX[2018-06-28_16:03:17]
+DDDDX
 
+[Date,Time = 2018-06-30_16:42:27]
+[BlockFinder5]     40000     44 sec max_depth=7  depth=4    0/187   2/136   4/85   18/38 
+[Date,Time = 2018-06-30_16:42:40]
+[BlockFinder5]     50000     57 sec max_depth=7  depth=5    0/187   2/136   7/85    3/44    1/10 
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 6]
 XXNNN
 XNXDD
 XDDXN
 XDDDD
 DXDXD
-DXDDX[2018-06-28_16:03:17]
+DXDDX
 
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
@@ -4993,8 +5599,9 @@ XDDXN
 XDDDD
 DXDXD
 DXDDX
-DDXXD[2018-06-28_16:03:17]
+DDXXD
 
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
@@ -5003,4991 +5610,71 @@ XDDDD
 DXDXD
 DXDDX
 DDXXD
-DDXDX[2018-06-28_16:03:17]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-XDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:03:17]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-XDDDD
-DXDXD
-DXDDX
-DDXXD
-DDNDN[2018-06-28_16:03:17]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-XDDDD
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:03:17]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-XDDDD
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:03:17]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-XDDDD
-DXDXD
-DXDDX
-DDXND
-DDNDN[2018-06-28_16:03:17]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-XDDDD
-DXDXD
-DXDDX
-DDNND[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXN
-NDDDD
-DXDXD
-DXDDX[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-NDDDD
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-NDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-NDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-NDDDD
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDXN
-NDDDD
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXXD
-DDNDN[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDXND
-DDNDN[2018-06-28_16:03:21]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXN
-DXDXD
-DXDDX
-DDNND[2018-06-28_16:03:22]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-NNDDN
-DDXDN
-DDDXN[2018-06-28_16:03:22]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-DXDDX
 DDXDX
-DDDXN[2018-06-28_16:03:22]
 
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-DXDDX
-DDXDX
-DDDNN[2018-06-28_16:03:22]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-DXDDX
-DDXDN
-DDDXN[2018-06-28_16:03:22]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-DXDDX
-DDXDN
-DDDNN[2018-06-28_16:03:22]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-DXDDN
-DDXDN
-DDDXN[2018-06-28_16:03:22]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDXD
-DXDDN
-DDXDN
-DDDNN[2018-06-28_16:03:30]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NXNND
-NNXDN
-NDDND[2018-06-28_16:03:30]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NXNND
-NNXDN
-NDDDD[2018-06-28_16:03:30]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NXNND
-NNXDN
-DDDDD[2018-06-28_16:03:30]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NXDND
-NNNDN
-NDXND[2018-06-28_16:03:30]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NXDND
-NNNDN
-DDXND[2018-06-28_16:03:31]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NNNND
-DXDDN
-DDXDN[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXNDX
-DDDXD[2018-06-28_16:03:35]
-
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXNDX
-DDDXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXNDN
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXNDN
-DDDXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDX
-DDXDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDX
-DDXDX
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDX
-DDXDN[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDX
-DDXDN
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDX
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DXDDN
-DDXDN
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNXD
-DDDXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DXDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DXDDX
-DDXDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DXDDX
-DDXDX
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DXDDX
-DDXDN[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DXDDX
-DDXDN
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DXDDX
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DNXDN
-DDDXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DNDDX
-DDXDN
-DDDXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXNND
-DDDXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DXDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
+XDDXN
+XDDDD
 DXDXD
 DXDDX
 DDXXD
-DDXDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDXD
-DDDDX[2018-06-28_16:03:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DXDND
-DDXND
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-NDDDD
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXNDX
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXNDN
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXDDX
-DDXDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXDDX
-DDXDX
-DDDXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXDDX
-DDXDN[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXDDX
 DDXDN
-DDDXD[2018-06-28_16:03:36]
 
-[ELB samples = 5 patterns = 6]
+[Date,Time = 2018-06-30_16:42:52]
+[ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
-XDDNN
-DXNXD
+XDDXN
+XDDDD
+DXDXD
 DXDDX
-DDNDN[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXDDX
+DDXXD
 DDNDN
-DDDXD[2018-06-28_16:03:36]
 
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXNXD
-DXDDX
-DDDXD[2018-06-28_16:03:36]
-
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
-XDDNN
-DXNXD
-DNNDN
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DXDDX
-DDXDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DXDDX
-DDXDX
-DDDXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DXDDX
-DDXDN
-DDDXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DXDDX
-DDNDN
-DDDXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DXDDX
-DDDXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DNXDN
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DNNDN
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DNDDX
-DDXDN
-DDDXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXNND
-DDDXD
-DDDDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDXXD
-DDNDN[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
+XDDXN
+XDDDD
 DXDXD
 DXDDX
 DDXND
-DDNDX[2018-06-28_16:03:36]
 
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDXND
-DDNDN[2018-06-28_16:03:36]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DXDDX
-DDNND[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DNNDN
-DDXXD[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DNNDN
-DDXXD
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DNNDN
-DDXND
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DNNDN
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDXD
-DDNND
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDNN
-DXDND
-DNNDN
-DDXND
-DDDDX[2018-06-28_16:03:37]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DXDND
-DDXND
-DDDDX[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDNN
-DNNND
-DDDXD
-DDDDX[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNND
-NNXDN
-NDDNN[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNND
-NNXDN
-NDDDN[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNND
-NNXDN
-NDDDD[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNND
-NNXDN
-DDDDD[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNDN
-DXXND
-DDDNN[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNDN
-DXXND
-DDDDN[2018-06-28_16:03:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NXNDN
-DXXND
-DDDDD[2018-06-28_16:03:39]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NNNND
-DXDDN
-DDXDN[2018-06-28_16:03:39]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NNDDN
-DDXDN
-DDDXN[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NDDDX
-DDDXN
-DDDDD[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NDDDD
-DXDDX
-DDXDX[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-NDDDD
-DXDDX
-DDXDX
-DDDNX[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NDDDD
-DXDDX
-DDXDN[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-NDDDD
-DXDDX
-DDXDN
-DDDNX[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-NDDDD
-DXDDN
-DDXDN[2018-06-28_16:03:41]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-NDDDD
-DXDDN
-DDXDN
-DDDNX[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-DXDDX
-DNNND
-DDXDX[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-DXDDX
-DNNND
-DDXDX
-DDDXN[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-DXDDX
-DNNND
-DDXDN
-DDDXN[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-DXDDN
-DNNND
-DDXDN
-DDDXN[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-DXDDN
-DDXDN
-DDDXN[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDND
-DXDDN
-DDXDN
-DDDXN
-DDDDD[2018-06-28_16:03:42]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDND
-DXDDN
-DDXDN
-DDDNN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NNXDN
-NDDNN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NNXDN
-NDDND[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NNXDN
-DDDND[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NNDDN
-NDXDN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NNDDN
-DDXDN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NDXDN
-NDDND[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NDXDN
-DDDND[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-NDDND
-DDXDN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXNND
-DDXDN
-DDDND[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNNDN
-NDXND[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNNDN
-DDXND[2018-06-28_16:03:48]
-
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
+XDDXN
 XDDDD
-NXDND
-NNDDX
-NDXND
-NDNDN
-NDDXN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNDDX
-NDXND
-NDNDN
-DDDXN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNDDX
-NDXND
-NDDXN
-DDNDN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNDDX
-NDXND
-DDNDN
-DDDXN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNDDX
-NDNND
-DDXDN
-DDDXN[2018-06-28_16:03:48]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNDDX
-DDXND
-DDNDN
-DDDXN[2018-06-28_16:03:49]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NNDDN
-DDXND
-DDNDX
-DDDXN[2018-06-28_16:03:49]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDXND
-NDDXN
-DNNDN
-DDDDX[2018-06-28_16:03:49]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDXND
-DDDNN
-DDDDX[2018-06-28_16:03:49]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDDXN
-DNXDN
-DDNND
-DDDDX[2018-06-28_16:03:49]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDDXN
-DNNDN
-DDXND
-DDDDX[2018-06-28_16:03:49]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDDXN
-DDXND
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDDNN
-DDXND
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-NDDDN
-DDXND
-DDDXN[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DXNDX
-DDXND
-DDDNN
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DXNDX
-DDXND
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DXNDX
-DDNND
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
+DXDXD
 DXDDX
 DDXND
 DDNDX
-DDDXN[2018-06-28_16:03:50]
 
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 8]
 XXNNN
 XNXDD
+XDDXN
 XDDDD
-NXDND
+DXDXD
 DXDDX
-DDXND
-DDNDX
-DDDNN[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DXDDX
-DDXND
-DDNDN[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DNDDX
 DDXND
 DDNDN
-DDDXN[2018-06-28_16:03:50]
 
+[Date,Time = 2018-06-30_16:42:52]
 [ELB samples = 5 patterns = 7]
 XXNNN
 XNXDD
+XDDXN
 XDDDD
-NXDND
-DNDDX
-DDXND
-DDDXN[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DDXND
-DDDNN
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXDND
-DDXND
-DDDDX[2018-06-28_16:03:50]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NXDND
+DXDXD
+DXDDX
 DDNND
-DDDDX[2018-06-28_16:03:52]
 
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NNNND
-DXDDN
-DDXDN[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXNDX
-DDXND
-DDDDX[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXDDX
-DDXND[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXDDX
-DDXND
-DDNDX
-DDDXN[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXDDN
-DDXND[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXDDN
-DDXND
-DDNDX[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DXDDN
-DDXND
-DDNDX
-DDDXN[2018-06-28_16:03:54]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NNDND
-DDXND
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDX
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDX
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDX
-DXDXD
-DDNND
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDX
-DXDXD
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDX
-DXDND
-DDXND
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDN
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDN
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDN
-DXDXD
-DDNND
-DDDDX[2018-06-28_16:03:59]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDN
-DXDXD
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXNDN
-DNDND
-DDXND
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXXD
-DDNDN[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDXND
-DDNDN[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DXDDX
-DDNND[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DNNDN
-DDXXD
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DNNDN
-DDXND
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DNNDN
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DDNND
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDXD
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDND
-DNNDN
-DDXND
-DDDDX[2018-06-28_16:04:00]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDXN
-DXDND
-DDXND
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXNDX
-DDDXD[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXNDX
-DDDXD
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXNDN
-DDDXD
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDX
-DDXDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDX
-DDXDX
-DDDXD[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDX
-DDXDN[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDX
-DDXDN
-DDDXD[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDX
-DDDXD[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DXDDN
-DDXDN
-DDDXD[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNXD
-DDDXD
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNND
-DNXDN
-DDDXD
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXNND
-DDDXD
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DXDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:04:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDXD
-DDDDX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DXDND
-DDXND
-DDDDX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDNN
-DDDXD
-DDDDX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDND
-DXDDX
-DDXDX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDND
-DXDDX
-DDXDX
-DDDNX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDND
-DXDDX
-DDXDN[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDND
-DXDDX
-DDXDN
-DDDNX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-NDDND
-DXDDN
-DDXDN[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-NDDND
-DXDDN
-DDXDN
-DDDNX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXNDX
-DDDXD[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXNDX
-DDDXD
-DDDDX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXNDX
-DDDXD
-DDDDN[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXNDX
-DDDND[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXNDN
-DDDXD
-DDDDX[2018-06-28_16:04:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDXDX
-DDDXD[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDXDX
-DDDND[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDXDN
-DDDXD[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDXDN
-DDDND[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDNDN
-DDDXD[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDDXD[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDX
-DDDND[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDN
-DDXDN
-DDDXD[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDN
-DDXDN
-DDDND[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DXDDN
-DDNDN
-DDDXD[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DDDXD
-DDDDX[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNXD
-DDDXD
-DDDDN[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXNND
-DNXDN
-DDDXD
-DDDDX[2018-06-28_16:04:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXNND
-DDDXD
-DDDDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDX
-DDXXD
-DDNDN[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDX
-DDXND[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDX
-DDXND
-DDNDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDN
-DDXND[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DXDDN
-DDXND
-DDNDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DDXXD
-DDDDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DDXXD
-DDDDN[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DDXND
-DDDDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DDXND
-DDDDN[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDXD
-DDNND
-DDDDX[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DNDDX
-DDXND[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DNDDX
-DDXND
-DDNDN
-DDDXN[2018-06-28_16:04:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DNDDX
-DDXND
-DDDXN[2018-06-28_16:04:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DDXND
-DDDNX
-DDDDN[2018-06-28_16:04:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DDXND
-DDDNN
-DDDDX[2018-06-28_16:04:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DDXND
-DDDDX[2018-06-28_16:04:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DDXND
-DDDDN[2018-06-28_16:04:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-XDDDD
-DXDND
-DDNND
-DDDDX[2018-06-28_16:04:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-NDDNN
-DXNXD
-DXDDX
-DDXDX[2018-06-28_16:04:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-NDDNN
-DXNXD
-DXDDX
-DDXDN[2018-06-28_16:04:35]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-NDDNN
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:04:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-NDDNN
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:04:35]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-NDDNN
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:04:38]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-NDDDD
-DXDXD
-DXDDX
-DDXXD[2018-06-28_16:04:38]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-NDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:04:38]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-NDDDD
-DXDXD
-DXDDX
-DDXXD
-DDXDN[2018-06-28_16:04:39]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNXDD
-DXDXD
-DXDDX
-DDXXD
-DDXDX[2018-06-28_16:04:40]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNXDD
-DXDND
-DNDDX
-DDXND
-DDNDN
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NNDDD
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NNDDD
-NDXDD
-NDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NNDDD
-NDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDXDD
-NDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDXDD
-NDDXD
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDXDD
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDXDD
-DNDDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-NDDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-DNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-DNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDN
-DDDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NNDDN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NNDDN
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NNDDN
-NDXDD
-NDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NNDDN
-NDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NNDDN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD
-NDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD
-NDDXD
-DNDDN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD
-NDDND[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD
-DNDDN
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDXDD
-DDDND[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-NDNDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-DNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NXDDD
-DDXDD
-DDDND[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NNDDN
-DXDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NNDDN
-DXDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NNDDN
-DXDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NDXDD
-NDDXD
-DXDDN
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-NDXDD
-DXDDN
-DNDDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-DXDDN
-DNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-DXDDD
-DNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-DXDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-DXDDD
-DDXDD
-DDDXD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-DXDDD
-DDXDD
-DDDND[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXN
-DXDDD
-DDNDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-NDXDD
-NDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-NDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-NDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-NDDXN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NNDDD
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD
-NDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD
-NDDXN
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD
-NDDNN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD
-DNDDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDDXN
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDDXN
-DNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDDXN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDDNN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-NDDNN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-DNDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-DNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-DNDDD
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDN
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN
-NDXDD
-NDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN
-NDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN
-NDDXN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NNDDN
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NDXDD
-DNDDN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NDXDD
-DNDDN
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-NDNDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-DNDDN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-DNDDN
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-DDNDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NXDDD
-DDNDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NNDDN
-NDDXN
-DXDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NNDDN
-DXDDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NNDDN
-DXDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NNDDN
-DXDDD
-DDXDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NNDDD
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NDXDD
-DXDDN
-DNDDD
-DDDXN[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NDDXN
-DXDDD
-DNDDN
-DDXDD[2018-06-28_16:05:03]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-NDDXN
-DXDDD
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDN
-DNDDD
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDN
-DNDDD
-DDXDD
-DDDXN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDD
-DNDDN
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDD
-DNDDN
-DDXDD
-DDDXN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDD
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDD
-DDXDD
-DDDXN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-XDDXD
-DXDDD
-DDNDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NNDDD
-NDXDD
-NDDXN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NNDDD
-NDXDD
-NDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NNDDD
-NDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NNDDD
-NDDXN
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-NDDXN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-NDDXN
-DNDDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-NDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-NDDXD
-NDDNN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-NDDXD
-DNDDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-NDDNN
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-DNDDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDDXN
-DNXDD
-DDDDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDDXN
-DNDDD
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDDXN
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDDXD
-DNXDD
-DDDDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-NDDNN
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-DNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDN
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NNDDN
-NDXDD
-NDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NNDDN
-NDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NDXDD
-NDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NDXDD
-NDDXD
-DNDDN[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NDXDD
-DNDDN
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NDXDD
-DDDXN
-DDDND[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-NDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-DNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-DDXDD
-DDDXN
-DDDND[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NXDDD
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NNDDN
-DXDDD
-DDXDD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NNDDN
-DXDDD
-DDXDD
-DDDXD[2018-06-28_16:05:04]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-NNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-NDDXD
-DXDDN
-DNXDD
-DDDDD[2018-06-28_16:05:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-DXDDN
-DNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:05]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDN
-DXDDD
-DNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-DXDDD
-DDXDD
-DDDXD[2018-06-28_16:05:05]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDN
-DXDDD
-DDXDD
-DDDND[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NNDDD
-NDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NNDDD
-NDXDN
-NDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NNDDD
-NDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NNDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NNDDD
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN
-NDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN
-NDDXN
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN
-NDDNN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN
-DNDDD
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDNDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-NDNDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-DNDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-DNDDD
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDN
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-NNDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-NNDDN
-NDXDN
-NDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-NNDDN
-NDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-NNDDN
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-NNDDN
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-NDDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-DNDDN
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-DNDDN
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NXDDD
-DDDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NNDDN
-NDXDN
-NDDXN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NNDDN
-NDXDN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NNDDN
-NDXDN
-DXDDD
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NNDDN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NNDDN
-DXDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NNDDN
-DXDDD
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDXDN
-NDDXN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDXDN
-NDDXN
-DXDDD
-DNDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDXDN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDXDN
-DXDDD
-DNDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDXDN
-DXDDD
-DNDDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDXDN
-DXDDD
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-NDDDN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDN
-DNDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDN
-DNDDD
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDD
-DNDDN
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 8]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDD
-DNDDN
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDD
-DDXDN
-DDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-XDDXD
-DXDDD
-DDDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-NDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-NDXDN
-NDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-NDXDN
-NDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-NDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-NDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-NDDXD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NNDDD
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDXN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDXN
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDXD
-NDDNN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDXD
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDNN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-NDDNN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-DNDDD
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDNDN
-NDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDNDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDDXD
-NDDNN
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDDXD
-DNDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDDXD
-DNDDD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDDXD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-NDDNN
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-DNDDD
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-DNDDD
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDN
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNXDN
-NDDNN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNXDN
-NDDND[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNXDN
-DDDND[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNDDN
-NDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNDDN
-NDDXD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNDDN
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NNDDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NDDXD
-NDDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NDDXD
-DNDDN
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NDDXD
-DDXDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NDDXD
-DDDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-NDDDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-DNDDN
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-DDXDN
-DDDXN
-DDDND[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-DDXDN
-DDDXD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NXDDD
-DDDXD
-DDDDN[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NNXDN
-NDDNN
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NNXDN
-NDDND
-DXDDD[2018-06-28_16:05:06]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NNXDN
-DXDDD
-DDDND[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NNDDN
-NDXDN
-DXDDD
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NNDDN
-DXDDD
-DDXDN
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NNDDN
-DXDDD
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-NDXDN
-DXDDD
-DNDDN
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NDXDN
-DXDDD
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-NDDDN
-DXDDD
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-DXDDN
-DNDDD
-DDXDN
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-DXDDD
-DNXDN
-DDDXD
-DDDDN[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 7]
-XXNNN
-XNNND
-XDXDD
-DXDDD
-DNDDN
-DDXDN
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-DXDDD
-DDXDN
-DDDXD[2018-06-28_16:05:07]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-XDXDD
-DXDDD
-DDDXD
-DDDDN[2018-06-28_16:05:11]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NNDDD
-NDXDN
-NDDXN[2018-06-28_16:05:11]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NNDDD
-NDXDN
-NDDXD[2018-06-28_16:05:11]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NNDDD
-NDXDN
-DDDXD[2018-06-28_16:05:11]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NNDDD
-NDXDD
-NDDXD[2018-06-28_16:05:11]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NNDDD
-NDXDD
-DDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NNDDD
-DDXDD
-DDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDXN
-NDDDD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDXN
-DDDDD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDXD
-NDDNN[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDXD
-DNDDD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDXD
-DDDDD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDNN
-DDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDN
-NDDDD
-DDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDD
-NDNDN
-NDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDD
-NDNDN
-DDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDD
-NDDXD
-DNDDD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDD
-NDDXD
-DDDDD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDXDD
-DNDDD
-DDDXD[2018-06-28_16:05:12]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDNDN
-DDXDD
-DDDXD[2018-06-28_16:05:13]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDN
-NDDDD
-DDXDD
-DDDXD[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NNDDN
-NDXDD
-NDDXD[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NNDDN
-NDXDD
-DDDXD[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NNDDN
-DDXDD
-DDDXD[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NDXDD
-NDDXD
-NDDDN[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NDXDD
-NDDXD
-DDDDN[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NDXDD
-NDDDN
-DDDXD[2018-06-28_16:05:14]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NDXDD
-DDDXD
-DDDDN[2018-06-28_16:05:15]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-NDDDN
-DDXDD
-DDDXD[2018-06-28_16:05:16]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NXDDD
-DDXDD
-DDDXD
-DDDDN[2018-06-28_16:05:16]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NNXDN
-NNDDD
-DXXDD
-DXDNN[2018-06-28_16:05:16]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NNXDN
-NDDDD
-DXXDD
-DXDNN[2018-06-28_16:05:19]
-
-[ELB samples = 5 patterns = 6]
-XXNNN
-XNNND
-NNDDN
-DXDDD
-DDXDD
-DDDXD
+[Date,Time = 2018-06-30_16:42:53]
+[BlockFinder5]     60000     70 sec max_depth=7  depth=7    0/187   2/136  10/85    4/38    0/11    2/7     0/4  
