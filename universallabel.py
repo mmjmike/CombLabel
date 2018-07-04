@@ -35,7 +35,7 @@ CITATION = '''
 
 class BlockFinder:
 
-    def __init__(self, types, samples, ncs, min_depth, block_finder_mode, outputer=None):
+    def __init__(self, types, samples, ncs, min_depth, block_finder_mode, outputer=None, counter_start=-1):
         self.types = types
         # self.types_in_order()
         self.samples = samples
@@ -56,6 +56,8 @@ class BlockFinder:
         self.max_depth = 0
         self.block_finder_mode = block_finder_mode
         self.outputer = outputer
+        self.counter_start = counter_start
+        self.counter_start_set_flag = False
 
         # print(self.patterns)
 
@@ -68,7 +70,6 @@ class BlockFinder:
         out = "[BlockFinder{}] started new search in {} samples with min_depth={}\n".format(self.samples, self.samples, self.min_depth)
         self.outputer.write_data(out, files="lc")
 
-
         while True:
             self.iterator += 1
 
@@ -77,9 +78,12 @@ class BlockFinder:
                 out+= "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth+1, self.results_found)
                 for d in range(self.depth):
                     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
-                self.outputer.write_data(out, files="lc", timer=0)
+                self.outputer.write_data(out, files="lc", timer=False)
 
             patterns = self.patterns[self.depth]
+            if self.depth == 0 and self.counter_start>=0 and not self.counter_start_set_flag:
+                self.counter[0]=self.counter_start
+                self.counter_start_set_flag= True
             if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):
                 break
             self.back_up_schemes.append(self.scheme.copy())
