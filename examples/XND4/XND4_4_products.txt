@@ -1,13 +1,20 @@
+[NCS = XND4]
 Blocks used:
-2x2 - 6 block(s)
-3x3 - 9 block(s)
-3x4 - 6 block(s)
-4x5 - 62 block(s)
-4x6 - 26 block(s)
-4x7 - 2 block(s)
-Total blocks number: 111
+ 2 X  2 - 6 block(s)
+ 3 X  3 - 9 block(s)
+ 3 X  4 - 6 block(s)
+ 4 X  5 - 62 block(s)
+ 4 X  6 - 26 block(s)
+ 4 X  7 - 2 block(s)
+-----------
+ 2 X . - 6 block(s)
+ 3 X . - 15 block(s)
+ 4 X . - 90 block(s)
+ TOTAL - 111 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 7 samples:
 [(3, 3), (4, 7)]: 18 scheme(s)
 [(3, 4), (4, 5)]: 372 scheme(s)
 [(3, 4), (4, 6)]: 156 scheme(s)

@@ -1,16 +1,23 @@
+[NCS = NCDA8]
 Blocks used:
-1x2 - 1 block(s)
-2x3 - 17 block(s)
-2x4 - 4 block(s)
-3x5 - 84 block(s)
-3x6 - 133 block(s)
-3x8 - 269 block(s)
-3x9 - 53 block(s)
-3x10 - 45 block(s)
-3x12 - 4 block(s)
-Total blocks number: 610
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 17 block(s)
+ 2 X  4 - 3 block(s)
+ 3 X  5 - 84 block(s)
+ 3 X  6 - 124 block(s)
+ 3 X  8 - 268 block(s)
+ 3 X  9 - 53 block(s)
+ 3 X 10 - 45 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 20 block(s)
+ 3 X . - 578 block(s)
+ TOTAL - 599 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 4 samples:
 [(1, 2), (3, 10)]: 45 scheme(s)
 [(1, 2), (3, 12)]: 4 scheme(s)
 2 product types calculated

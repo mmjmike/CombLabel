@@ -164,7 +164,7 @@ class Scheme:
     def __str__(self):
         output = ""
         for pattern in self.patterns:
-            output += "\n" + pattern
+            output +=  pattern + "\n"
         return output
 
     def __mul__(self, other):

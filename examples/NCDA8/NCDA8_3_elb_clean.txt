@@ -1,0 +1,4948 @@
+[NCS = NCDA8]
+[ELB samples = 1 patterns = 2]
+N
+D
+[ELB samples = 2 patterns = 3]
+XN
+CD
+DC
+[ELB samples = 2 patterns = 3]
+XN
+CD
+DA
+[ELB samples = 2 patterns = 3]
+XN
+DA
+AD
+[ELB samples = 2 patterns = 3]
+XD
+CN
+DC
+[ELB samples = 2 patterns = 3]
+XD
+CN
+DA
+[ELB samples = 2 patterns = 3]
+XD
+DC
+AN
+[ELB samples = 2 patterns = 3]
+XD
+DA
+AN
+[ELB samples = 2 patterns = 3]
+NN
+CD
+DC
+[ELB samples = 2 patterns = 3]
+NN
+CD
+DA
+[ELB samples = 2 patterns = 3]
+NN
+DA
+AD
+[ELB samples = 2 patterns = 3]
+NC
+CN
+DD
+[ELB samples = 2 patterns = 3]
+NC
+CD
+DN
+[ELB samples = 2 patterns = 3]
+NC
+DN
+AD
+[ELB samples = 2 patterns = 3]
+NC
+DD
+AN
+[ELB samples = 2 patterns = 3]
+ND
+DC
+AN
+[ELB samples = 2 patterns = 3]
+ND
+DA
+AN
+[ELB samples = 2 patterns = 3]
+NA
+DD
+AN
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DA
+AD
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DA
+AN
+[ELB samples = 2 patterns = 4]
+NA
+CD
+DC
+AN
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDN
+DCN
+DDD
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDN
+DDD
+DAN
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDD
+DCD
+DDN
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+CDD
+DDN
+DAD
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 5]
+XNN
+XND
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDN
+DCN
+DDD
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDN
+DDD
+DAN
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDD
+DCD
+DDN
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+CDD
+DDN
+DAD
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 5]
+XNN
+NND
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+CND
+DDN
+DDD
+[ELB samples = 3 patterns = 5]
+XNN
+NCD
+DDN
+DDD
+AND
+[ELB samples = 3 patterns = 5]
+XNN
+NDA
+DND
+DDD
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+DNC
+DDX
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+DNC
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+DNA
+DDX
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CNN
+DNA
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNX
+DDC
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNX
+DDA
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNN
+DDC
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+CDN
+DNN
+DDA
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNX
+DDC
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNX
+DDA
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNN
+DDC
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNN
+DDA
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNC
+DDX
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNC
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNA
+DDX
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+XDD
+DNA
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDN
+DCN
+DDD
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDN
+DDD
+DAN
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDD
+DCD
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+CDD
+DDN
+DAD
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 5]
+XND
+NNN
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+CNN
+DDN
+DDD
+[ELB samples = 3 patterns = 5]
+XND
+NCN
+DDN
+DDD
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DNX
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+CDD
+DNN
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+DNX
+DDN
+ADD
+[ELB samples = 3 patterns = 5]
+XND
+NDC
+DNN
+DDN
+ADD
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+CNN
+DNC
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+CNN
+DNA
+DDN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+DNX
+DDC
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+DNX
+DDA
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+DNN
+DDC
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+DNN
+DDA
+ADN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+DNC
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+NDD
+DNA
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+XND
+NAN
+DDN
+DDD
+ANN
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DNN
+DDX
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+CND
+DNN
+DDN
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+DNN
+DDX
+AND
+[ELB samples = 3 patterns = 5]
+XDD
+NNC
+DNN
+DDN
+AND
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+CDN
+DNN
+DDC
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+CDN
+DNN
+DDA
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+DNN
+DDC
+ADN
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+DNN
+DDA
+ADN
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+DNC
+DDX
+ANN
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+DNC
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+DNA
+DDX
+ANN
+[ELB samples = 3 patterns = 5]
+XDD
+NND
+DNA
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDN
+DCN
+DDD
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDN
+DDD
+DAN
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDD
+DCD
+DDN
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+CDD
+DDN
+DAD
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 5]
+NNN
+NND
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+CND
+DDN
+DDD
+[ELB samples = 3 patterns = 5]
+NNN
+NCD
+DDN
+DDD
+AND
+[ELB samples = 3 patterns = 5]
+NNN
+NDD
+DNA
+DDD
+DAN
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+DNN
+DDD
+[ELB samples = 3 patterns = 5]
+NNC
+NCD
+NDN
+DND
+DDN
+[ELB samples = 3 patterns = 5]
+NNC
+NDN
+NAD
+DND
+DDN
+[ELB samples = 3 patterns = 5]
+NNC
+NDN
+DND
+DDD
+ANN
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+DNC
+DCD
+DDN
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+DNC
+DDN
+DAD
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+DND
+DDC
+DAN
+[ELB samples = 3 patterns = 5]
+NND
+NDN
+DND
+DDA
+DAN
+[ELB samples = 3 patterns = 5]
+NND
+NDC
+NAN
+DND
+DDN
+[ELB samples = 3 patterns = 5]
+NND
+NDD
+DNA
+DDN
+ANN
+[ELB samples = 3 patterns = 5]
+NND
+NAN
+DDN
+DDD
+ANN
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDN
+CDD
+DCN
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDN
+CDD
+DCD
+DAN
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDN
+DCN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDN
+DAN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDD
+DCD
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+XND
+CDD
+DAN
+DAD
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNC
+DCD
+DDX
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNC
+DCD
+DDN
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNC
+DDX
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNC
+DDN
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNA
+DCD
+DDX
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNA
+DCD
+DDN
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNA
+DDX
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+CND
+DNA
+DDN
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+DXD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+DXD
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+XDD
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+CDD
+DCN
+DCD
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+CDD
+DCN
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+CDD
+DCD
+DAN
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+CDD
+DAN
+DAD
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+DCN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDN
+DAN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDD
+DCD
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+CDD
+DAN
+DAD
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+NND
+DAN
+DAD
+ADN
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+CDD
+DND
+DDN
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDC
+DND
+DDN
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDA
+CDD
+DND
+DDN
+[ELB samples = 3 patterns = 6]
+XNN
+NCD
+NDA
+DND
+DDN
+ADD
+[ELB samples = 3 patterns = 6]
+XNN
+NDD
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XNN
+NDD
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+DNC
+DCN
+DDD
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+DNC
+DDD
+DAN
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CNN
+DNA
+DDD
+DAN
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DXN
+DCD
+DDC
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DXN
+DCD
+DDA
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DXN
+DDA
+DAD
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+CDD
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+DXN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+DNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+DNC
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+DNC
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 6]
+XND
+XDN
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+CDD
+DCN
+DCD
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+CDD
+DCN
+DAD
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+CDD
+DCD
+DAN
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+CDD
+DAN
+DAD
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+DCN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDN
+DAN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDD
+DCD
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+CDD
+DAN
+DAD
+ADN
+[ELB samples = 3 patterns = 6]
+XND
+NNN
+DAN
+DAD
+ADN
+ADD
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+CDN
+DNN
+DDD
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDC
+DNN
+DDD
+ADN
+[ELB samples = 3 patterns = 6]
+XND
+NCN
+NDA
+DNN
+DDD
+ADN
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+CDD
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+CDD
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+CDD
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+DNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+DNC
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+DNC
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 6]
+XND
+NDN
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNC
+DCD
+DDX
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNC
+DCD
+DDN
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNC
+DDX
+DAD
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNC
+DDN
+DAD
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNA
+DCD
+DDX
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNA
+DCD
+DDN
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNA
+DDX
+DAD
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+CND
+DNA
+DDN
+DAD
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+DXD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+DXD
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XDD
+NNN
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDX
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+CNN
+DND
+DDN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+DXD
+DDX
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+DXD
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NCN
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NAN
+DXD
+DDX
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NAN
+DXD
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNC
+NAN
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNA
+NAN
+DXD
+DDX
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNA
+NAN
+DXD
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+XDD
+NNA
+NAN
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDN
+CDD
+DCN
+DAD
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDN
+CDD
+DCD
+DAN
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDN
+DCN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDN
+DAN
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDD
+DCD
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+NNN
+NND
+CDD
+DAN
+DAD
+ADN
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+CDD
+DND
+DDN
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDC
+DND
+DDN
+ADD
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDA
+CDD
+DND
+DDN
+[ELB samples = 3 patterns = 6]
+NNN
+NCD
+NDA
+DND
+DDN
+ADD
+[ELB samples = 3 patterns = 6]
+NNN
+NDD
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+NNN
+NDD
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+CNN
+DND
+DDN
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+DNC
+DDD
+DAN
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+NDD
+DNA
+DDD
+DAN
+[ELB samples = 3 patterns = 6]
+NNC
+NCN
+CNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+CND
+DNN
+DDD
+[ELB samples = 3 patterns = 6]
+NNC
+NCD
+NDN
+DNN
+DDD
+AND
+[ELB samples = 3 patterns = 6]
+NNC
+NDN
+NAD
+DNN
+DDD
+AND
+[ELB samples = 3 patterns = 6]
+NNC
+NDC
+CDN
+DND
+DDD
+ANN
+[ELB samples = 3 patterns = 6]
+NNC
+NDD
+NAN
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+NNC
+NDD
+NAN
+DNA
+DDD
+DAN
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+CDD
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+CDD
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+CDD
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+DNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+DNC
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+DNC
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 6]
+NND
+NDN
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 6]
+NNA
+NDC
+CDN
+DND
+DDD
+ANN
+[ELB samples = 3 patterns = 6]
+NNA
+NDC
+DND
+DDD
+ANN
+ADN
+[ELB samples = 3 patterns = 6]
+NNA
+NDD
+NAN
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 6]
+NNA
+NAN
+CDD
+DCD
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+CND
+CDN
+DNC
+DCN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+CND
+CDN
+DNC
+DCD
+DDA
+DAN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+CND
+CDN
+DNA
+DCD
+DDC
+DAN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+CND
+DNC
+DCN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+CND
+DNC
+DCD
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+CND
+DNA
+DCD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+DNC
+DCN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+DNC
+DCD
+DDA
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+XDD
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDD
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DDD
+DAN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+CDN
+DNA
+DDD
+DAN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+DNC
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+DNA
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CND
+DNA
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CDD
+DNC
+DDN
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+CDD
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDC
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDA
+CND
+DNA
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDA
+CDD
+DND
+DCN
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDA
+CDD
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDA
+CDD
+DNA
+DDN
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+XNN
+NCD
+NDA
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NDD
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XNN
+NDA
+NAD
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CNN
+CDD
+DNC
+DCN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CNN
+CDD
+DNC
+DCD
+DDA
+DAN
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CNN
+CDD
+DNA
+DCD
+DDC
+DAN
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CNN
+DNC
+DCN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CNN
+DNC
+DCD
+DDA
+DAN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CNN
+DNA
+DCD
+DDC
+DAN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CDD
+DNC
+DCN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CDD
+DNC
+DCD
+DDA
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+CDD
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+DNC
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+DNC
+DCD
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+XDN
+DNA
+DCD
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DCD
+DDX
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DCD
+DDN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DDX
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DDN
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNA
+DCD
+DDX
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNA
+DCD
+DDN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNA
+DDX
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+CDD
+DNA
+DDN
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNC
+DDX
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNC
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNC
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNC
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNA
+DDX
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNA
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CNN
+DNA
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDN
+DNN
+DCD
+DDA
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDN
+DNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDN
+DNC
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDN
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNN
+DCD
+DDA
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNC
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNC
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNC
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNC
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNA
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNA
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+DNC
+DDX
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+DNC
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+DNA
+DDX
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDC
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+CDD
+DNA
+DCD
+DDX
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+CDD
+DNA
+DCD
+DDN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+CDD
+DNA
+DDX
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+CDD
+DNA
+DDN
+DAD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+DNA
+DDX
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+DNA
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+DNA
+DDC
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CNN
+DNA
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDN
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDD
+DNN
+DCD
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDD
+DNN
+DDC
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDD
+DNA
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDD
+DNA
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+DNA
+DDX
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NCN
+NDA
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDN
+CDD
+DNC
+DCN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDN
+CDD
+DNC
+DCD
+DDA
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDN
+CDD
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDN
+DNC
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDN
+DNC
+DCD
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDN
+DNA
+DCD
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDN
+DNC
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDN
+DNA
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNC
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNC
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNC
+DCD
+DDA
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNC
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNC
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNA
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNA
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+DNC
+DDX
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+DNC
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+DNA
+DDX
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDC
+NAN
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+CDN
+DNA
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+CDD
+DNA
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+CDD
+DNA
+DCD
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+CDD
+DNA
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+DNA
+DDX
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XND
+NDA
+NAN
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+CND
+CDN
+DNC
+DCN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+CND
+CDN
+DNC
+DCD
+DDA
+DAN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+CND
+CDN
+DNA
+DCD
+DDC
+DAN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+CND
+DNC
+DCN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+CND
+DNC
+DCD
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+CND
+DNA
+DCD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+DNC
+DCN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+DNC
+DCD
+DDA
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNN
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CNN
+DXD
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CNN
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CNN
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+CDN
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+CDN
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+CDN
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+CDN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNN
+DCD
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNN
+DCD
+DDA
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNA
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNA
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+CND
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+DNN
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+DNN
+DCD
+DDA
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NCN
+DNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CNN
+DNA
+DCD
+DDX
+AND
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CNN
+DNA
+DCD
+DDN
+AND
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CNN
+DNA
+DDX
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CNN
+DNA
+DDN
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+CDN
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+CDN
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+CDN
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNN
+DCD
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNN
+DCD
+DDA
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNA
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNA
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CND
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CDN
+DXD
+DCN
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CDN
+DXD
+DCN
+DDA
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CDN
+DND
+DCN
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+CDN
+DND
+DCN
+DDA
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+DNN
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+DNN
+DCD
+DDA
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNC
+NAN
+DNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CNN
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+CDN
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+CDN
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+CDN
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+CDN
+DCD
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNN
+DCD
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNN
+DCD
+DDA
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNC
+DCD
+DDX
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNC
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNC
+DDX
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+CND
+DNC
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+DNN
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+DNN
+DCD
+DDA
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+XDD
+NNA
+NAN
+DNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDD
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DDD
+DAN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+CDN
+DNA
+DDD
+DAN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+DNC
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+DNA
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CND
+DNA
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CDD
+DNC
+DDN
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+CDD
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDC
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDA
+CND
+DNA
+DDN
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDA
+CDD
+DND
+DCN
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDA
+CDD
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDA
+CDD
+DNA
+DDN
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+NNN
+NCD
+NDA
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NDD
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNN
+NDA
+NAD
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CNN
+DND
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CNN
+DND
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+CDN
+DNN
+DCD
+DDC
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+CDN
+DNN
+DCD
+DDA
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+CDN
+DNN
+DDA
+DAD
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+CDN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+DNN
+DCD
+DDC
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+DNN
+DCD
+DDA
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+DNN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+CND
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+DNN
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+DNN
+DCD
+DDA
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDD
+DNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDA
+NAD
+CND
+CDN
+DNN
+DDD
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDA
+NAD
+CND
+DNN
+DDD
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDA
+NAD
+CDD
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDA
+NAD
+DNN
+DDD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDA
+NAD
+DND
+DDN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+NDA
+CNN
+DNA
+DDC
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+CND
+CDN
+DNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+CND
+CDN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCN
+CDD
+DNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CND
+DNN
+DDC
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CND
+DNN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CND
+DNA
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CND
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CDD
+DNN
+DDC
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CDD
+DNN
+DDA
+DAD
+AND
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CDD
+DND
+DCN
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CDD
+DND
+DCN
+DDA
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CDD
+DND
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+CDD
+DND
+DDA
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+DND
+DCN
+DDA
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDN
+DND
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDA
+NAN
+CDD
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDA
+NAN
+DNN
+DDD
+AND
+ADN
+[ELB samples = 3 patterns = 8]
+NNC
+NCD
+NDA
+NAN
+DND
+DDN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NDN
+NAD
+CDD
+DNN
+DCD
+DDC
+AND
+[ELB samples = 3 patterns = 8]
+NNC
+NDN
+NAD
+CDD
+DNN
+DCD
+DDA
+AND
+[ELB samples = 3 patterns = 8]
+NNC
+NDN
+NAD
+CDD
+DND
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NDN
+NAD
+CDD
+DND
+DDA
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NDN
+NAD
+DND
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNC
+NDD
+NAN
+CDN
+DND
+DCN
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NDD
+NAN
+CDN
+DND
+DCN
+DDA
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NDA
+NAN
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NNC
+NDA
+NAN
+CDD
+DNA
+DCD
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDN
+CDD
+DNC
+DCN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDN
+CDD
+DNC
+DCD
+DDA
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDN
+CDD
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDN
+DNC
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NND
+NDN
+DNC
+DCD
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NND
+NDN
+DNA
+DCD
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDN
+DNC
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDN
+DNA
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDD
+DNC
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDD
+DNC
+DCD
+DDA
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDD
+DNC
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+DNC
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NND
+NDC
+NAN
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NND
+NDA
+NAN
+CDN
+DNA
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDA
+NAN
+CDD
+DNA
+DCD
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDA
+NAN
+CDD
+DNA
+DCD
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDA
+NAN
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 8]
+NND
+NDA
+NAN
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNA
+NCD
+NDC
+NAN
+CDD
+DND
+DDN
+ANN
+[ELB samples = 3 patterns = 8]
+NNA
+NCD
+NDC
+NAN
+DND
+DDN
+ANN
+ADD
+[ELB samples = 3 patterns = 8]
+NNA
+NCD
+NAN
+CDD
+DND
+DCN
+DDC
+ANN
+[ELB samples = 3 patterns = 8]
+NNA
+NCD
+NAN
+CDD
+DCN
+DDC
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DDA
+DAN
+ADD
+[ELB samples = 3 patterns = 9]
+XNN
+NCD
+NDC
+CDD
+DNC
+DDA
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+XNN
+NCD
+NDA
+CDD
+DNA
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDC
+CNN
+CDD
+DNA
+DCD
+DAN
+ADN
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDC
+CDN
+DNC
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDC
+CDN
+DNA
+DCD
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDC
+CDD
+DNC
+DCD
+DDA
+DAN
+ANN
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDA
+CNN
+CDD
+DNA
+DDC
+DAD
+ADN
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDA
+CDN
+DNA
+DDC
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+XND
+NCN
+NDA
+CDD
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 9]
+XND
+NDC
+NAN
+CDN
+DNC
+DCD
+DDA
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+XND
+NDC
+NAN
+CDN
+DNA
+DCN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+XND
+NDA
+NAN
+CDN
+DNA
+DCD
+DDC
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NCN
+CNN
+DNA
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NCN
+CND
+CDN
+DNA
+DDC
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NCN
+CND
+DNA
+DCD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NAN
+CNN
+DNA
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NAN
+CNN
+DCN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NAN
+CND
+CDN
+DNA
+DCD
+DDC
+ANN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NAN
+CND
+CDN
+DCN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+XDD
+NNC
+NAN
+CND
+DNA
+DCN
+DDC
+DAD
+ADN
+[ELB samples = 3 patterns = 9]
+XDD
+NNA
+NAN
+CNN
+DNC
+DCD
+DDA
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+XDD
+NNA
+NAN
+CND
+CDN
+DNC
+DCD
+DDA
+ANN
+[ELB samples = 3 patterns = 9]
+XDD
+NNA
+NAN
+CND
+DNC
+DCN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 9]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DDA
+DAN
+ADD
+[ELB samples = 3 patterns = 9]
+NNN
+NCD
+NDC
+CDD
+DNC
+DDA
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+NNN
+NCD
+NDA
+CDD
+DNA
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDD
+CNN
+DNA
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDD
+CND
+CDN
+DNA
+DDC
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDD
+CND
+DNA
+DCD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDA
+NAD
+CND
+DNN
+DCD
+DDC
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDA
+NAD
+CND
+DNA
+DDD
+DAN
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDA
+NAD
+CDD
+DND
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDA
+CND
+CDN
+DNN
+DDC
+DAD
+ADD
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDA
+CND
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NNC
+NCN
+NDA
+CDD
+DNN
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDN
+CND
+DNA
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDN
+CND
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDN
+CDD
+DNA
+DCN
+DDC
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDA
+NAN
+CND
+DNA
+DCN
+DDD
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDA
+NAN
+CDD
+DND
+DCN
+DDC
+ANN
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDA
+NAN
+CDD
+DNA
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NDA
+CDN
+DND
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NAN
+CDN
+DND
+DCN
+DDA
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NNC
+NCD
+NAN
+CDD
+DNN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 9]
+NNC
+NDN
+NAD
+CDD
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 9]
+NND
+NDC
+NAN
+CDN
+DNC
+DCD
+DDA
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NND
+NDC
+NAN
+CDN
+DNA
+DCN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NND
+NDA
+NAN
+CDN
+DNA
+DCD
+DDC
+ANN
+ADD
+[ELB samples = 3 patterns = 9]
+NNA
+NCD
+NDC
+NAN
+CND
+DNC
+DCN
+DDD
+ADN
+[ELB samples = 3 patterns = 9]
+NNA
+NCD
+NDC
+NAN
+CDD
+DNC
+DDN
+DAD
+ANN
+[ELB samples = 3 patterns = 9]
+NNA
+NCD
+NDC
+CDN
+DND
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+XNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 10]
+XNN
+NCD
+NDC
+CDD
+DNC
+DCN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+XNN
+NCD
+NDA
+CDD
+DNA
+DCN
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+XNN
+NDA
+NAD
+CDD
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+XND
+NCN
+NDC
+CNN
+CDD
+DNC
+DCD
+DDA
+DAN
+ADN
+[ELB samples = 3 patterns = 10]
+XND
+NCN
+NDC
+CDN
+DNC
+DCD
+DDA
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+XND
+NCN
+NDA
+CNN
+CDD
+DNA
+DCD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 10]
+XND
+NCN
+NDA
+CDN
+DNA
+DCD
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+XND
+NDC
+NAN
+CDN
+DNC
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+XND
+NDA
+NAN
+CDN
+DNA
+DCN
+DDC
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+XDD
+NNC
+NCN
+CNN
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+XDD
+NNC
+NCN
+CND
+CDN
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 10]
+XDD
+NNC
+NAN
+CNN
+DNA
+DCN
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+XDD
+NNC
+NAN
+CND
+CDN
+DNA
+DCN
+DDC
+DAD
+ANN
+[ELB samples = 3 patterns = 10]
+XDD
+NNA
+NAN
+CNN
+DNC
+DCN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+XDD
+NNA
+NAN
+CND
+CDN
+DNC
+DCN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 10]
+NNN
+NCD
+NDC
+CND
+CDN
+DNC
+DCN
+DDA
+DAD
+ADD
+[ELB samples = 3 patterns = 10]
+NNN
+NCD
+NDC
+CDD
+DNC
+DCN
+DDA
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNN
+NCD
+NDA
+CDD
+DNA
+DCN
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNN
+NDA
+NAD
+CDD
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDD
+CNN
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDD
+CND
+CDN
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CNN
+DNA
+DCD
+DDC
+DAN
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CNN
+DNA
+DDD
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CND
+CDN
+DNN
+DCD
+DDC
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CND
+CDN
+DNA
+DDD
+DAN
+ANN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CND
+DNA
+DCD
+DDN
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CND
+DNA
+DCD
+DDC
+DAN
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CDD
+DNN
+DCD
+DDC
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+NAD
+CDD
+DNA
+DCD
+DDC
+DAN
+ANN
+[ELB samples = 3 patterns = 10]
+NNC
+NCN
+NDA
+CND
+CDN
+DNA
+DDC
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDN
+CND
+DNA
+DCN
+DDC
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDA
+NAN
+CND
+CDN
+DNA
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDA
+NAN
+CND
+DNA
+DCN
+DDC
+DAD
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDA
+NAN
+CND
+DNA
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDA
+NAN
+CDN
+DND
+DCN
+DDC
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDA
+NAN
+CDD
+DNN
+DDC
+DAD
+AND
+ADN
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NDA
+NAN
+CDD
+DNA
+DCN
+DDC
+DAD
+ANN
+[ELB samples = 3 patterns = 10]
+NNC
+NCD
+NAN
+CND
+CDN
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NND
+NDC
+NAN
+CDN
+DNC
+DCN
+DDA
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NND
+NDA
+NAN
+CDN
+DNA
+DCN
+DDC
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNA
+NCD
+NDC
+NAN
+CND
+CDN
+DNC
+DCN
+DDD
+ANN
+[ELB samples = 3 patterns = 10]
+NNA
+NCD
+NDC
+NAN
+CND
+DNC
+DCN
+DDA
+DAD
+ADN
+[ELB samples = 3 patterns = 10]
+NNA
+NCD
+NDC
+NAN
+CND
+DNC
+DDN
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 10]
+NNA
+NCD
+NDC
+NAN
+CDD
+DNC
+DCN
+DDA
+DAD
+ANN
+[ELB samples = 3 patterns = 12]
+NNC
+NCN
+NDA
+NAD
+CNN
+CDD
+DNA
+DCD
+DDC
+DAN
+AND
+ADN
+[ELB samples = 3 patterns = 12]
+NNC
+NCN
+NDA
+NAD
+CND
+CDN
+DNA
+DCD
+DDC
+DAN
+ANN
+ADD
+[ELB samples = 3 patterns = 12]
+NNC
+NCD
+NDA
+NAN
+CND
+CDN
+DNA
+DCN
+DDC
+DAD
+ANN
+ADD
+[ELB samples = 3 patterns = 12]
+NNA
+NCD
+NDC
+NAN
+CND
+CDN
+DNC
+DCN
+DDA
+DAD
+ANN
+ADD

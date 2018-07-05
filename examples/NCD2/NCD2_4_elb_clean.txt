@@ -1,0 +1,1180 @@
+[NCS = NCD2]
+[ELB samples = 2 patterns = 2]
+XN
+ND
+[ELB samples = 2 patterns = 2]
+XN
+DC
+[ELB samples = 2 patterns = 2]
+XN
+DD
+[ELB samples = 2 patterns = 2]
+XD
+NN
+[ELB samples = 2 patterns = 2]
+XD
+DX
+[ELB samples = 2 patterns = 2]
+XD
+DN
+[ELB samples = 2 patterns = 2]
+NN
+CD
+[ELB samples = 2 patterns = 2]
+NC
+CN
+[ELB samples = 2 patterns = 2]
+NC
+DN
+[ELB samples = 2 patterns = 2]
+NC
+DD
+[ELB samples = 2 patterns = 2]
+ND
+DC
+[ELB samples = 3 patterns = 3]
+XNN
+NXD
+DDN
+[ELB samples = 3 patterns = 3]
+XNN
+NXD
+DDD
+[ELB samples = 3 patterns = 3]
+XNN
+NND
+DCN
+[ELB samples = 3 patterns = 3]
+XNN
+NND
+DCD
+[ELB samples = 3 patterns = 3]
+XNN
+DNC
+DDD
+[ELB samples = 3 patterns = 3]
+XNN
+DND
+DDC
+[ELB samples = 3 patterns = 3]
+XND
+NNN
+DCN
+[ELB samples = 3 patterns = 3]
+XND
+NNN
+DCD
+[ELB samples = 3 patterns = 3]
+XND
+NDC
+DNN
+[ELB samples = 3 patterns = 3]
+XND
+NDC
+DDN
+[ELB samples = 3 patterns = 3]
+XND
+NDD
+DNX
+[ELB samples = 3 patterns = 3]
+XND
+NDD
+DDX
+[ELB samples = 3 patterns = 3]
+XND
+DNN
+DDX
+[ELB samples = 3 patterns = 3]
+XND
+DCN
+DDD
+[ELB samples = 3 patterns = 3]
+XND
+DCD
+DDN
+[ELB samples = 3 patterns = 3]
+XDD
+NNC
+DNN
+[ELB samples = 3 patterns = 3]
+XDD
+NNC
+DDN
+[ELB samples = 3 patterns = 3]
+XDD
+NND
+DDX
+[ELB samples = 3 patterns = 3]
+NNN
+NCD
+DDC
+[ELB samples = 3 patterns = 3]
+NNC
+NCN
+DND
+[ELB samples = 3 patterns = 3]
+NNC
+NDN
+DCN
+[ELB samples = 3 patterns = 3]
+NNC
+NDD
+CDN
+[ELB samples = 3 patterns = 3]
+NND
+NDC
+CDN
+[ELB samples = 3 patterns = 3]
+NND
+CDN
+DCD
+[ELB samples = 3 patterns = 4]
+XNN
+NCD
+DNC
+DDN
+[ELB samples = 3 patterns = 4]
+XNN
+NCD
+DND
+DDX
+[ELB samples = 3 patterns = 4]
+XNN
+NDD
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XND
+NCN
+DNX
+DDD
+[ELB samples = 3 patterns = 4]
+XND
+NCN
+DNN
+DDC
+[ELB samples = 3 patterns = 4]
+XND
+NDX
+DXN
+DDD
+[ELB samples = 3 patterns = 4]
+XND
+NDX
+DNN
+DCD
+[ELB samples = 3 patterns = 4]
+XDD
+NNN
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XDD
+NNN
+DNC
+DCN
+[ELB samples = 3 patterns = 4]
+NNN
+NCD
+CDN
+DNC
+[ELB samples = 3 patterns = 4]
+NNC
+NCN
+CNN
+DDD
+[ELB samples = 3 patterns = 4]
+NNC
+NCN
+CDD
+DNN
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+NDDX
+DNND
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+NDDX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+NDDN
+DNNC
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+NDDN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+DNNC
+DDDN
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+DNNC
+DDDD
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+DNND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDNC
+NDCN
+DNND
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDNC
+NDCN
+DDDD
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDNC
+NDDN
+DDCD
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDNC
+DNND
+DDCN
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCND
+NDDN
+DNNC
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCND
+NDDN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCND
+DNNC
+DDDN
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCND
+DNNC
+DDDD
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCND
+DNND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCDN
+DNDX
+DDND
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NCDN
+DNDN
+DDNC
+[ELB samples = 4 patterns = 5]
+XNNN
+NNCD
+NDND
+DXND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NCDD
+DNXD
+DNDX
+DDNN
+[ELB samples = 4 patterns = 5]
+XNNN
+NCDD
+DNCD
+DDNC
+DDDN
+[ELB samples = 4 patterns = 5]
+XNNN
+NCDD
+DNCD
+DDND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NCDD
+DNDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NDDD
+DXND
+DNDX
+DDXN
+[ELB samples = 4 patterns = 5]
+XNNN
+NDDD
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+NDDC
+DNNN
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+NDDC
+DNDD
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+NDDD
+DNNX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+NDDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+DNNX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+DNNN
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+DNNN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDNN
+NDCD
+DNDC
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDNN
+NDCD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDNN
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDCD
+DNDC
+DDNN
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDCD
+DNDC
+DDND
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDCD
+DNDD
+DDNX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDCD
+DNDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+NDDC
+DNNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+NDDC
+DNDD
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+NDDD
+DNNX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+NDDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+DNNX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+DNNN
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCNN
+DNNN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+NDNX
+DNNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+NDNX
+DNDD
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+NDNN
+DNDC
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+NDNN
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+DNDC
+DDNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+DNDC
+DDND
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+DNDD
+DDNX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NCDD
+DNDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDNX
+NDDD
+DXNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDNX
+NDDD
+DXDD
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDNX
+DXNN
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDNX
+DXDD
+DNNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDNX
+DNNN
+DCDD
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDNN
+DXDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDDC
+DXDD
+DDNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDDC
+DNDD
+DCNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDDD
+DXDD
+DDNX
+[ELB samples = 4 patterns = 5]
+XNND
+NNCN
+NDDD
+DXDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNDX
+NDCD
+DXDD
+DDNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNDX
+NDCD
+DNDD
+DCNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNDX
+NDDD
+DXDD
+DDXN
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+NCDD
+DNCD
+DDNX
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+NCDD
+DNCD
+DDNC
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+NCDD
+DNCD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+NCDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+NDCD
+DXDD
+DDNX
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+NDCD
+DNDC
+DCNN
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NCDN
+DNNX
+DNDD
+DDXD
+[ELB samples = 4 patterns = 5]
+XNND
+NCDN
+DNNN
+DNDC
+DDXD
+[ELB samples = 4 patterns = 5]
+XNND
+NCDN
+DNCN
+DDNX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NCDN
+DNCN
+DDNN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNND
+NCDN
+DNDX
+DDXN
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NCDN
+DNDX
+DDNN
+DDCD
+[ELB samples = 4 patterns = 5]
+XNND
+NCDD
+DNCD
+DDNC
+DDDN
+[ELB samples = 4 patterns = 5]
+XNND
+NCDD
+DNCD
+DDND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NCDD
+DNDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NDDX
+DXDN
+DDXN
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDX
+DXDN
+DDNN
+DDCD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDX
+DXDD
+DNNN
+DDXD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDN
+DXDD
+DNNX
+DDXD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDD
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+NDCN
+DNNC
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+NDCN
+DNDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+NDCN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+NDDX
+DNXD
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+NDDX
+DDCD
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+DNXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NCND
+DNNC
+DDCN
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NDXD
+NDDX
+DXND
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NDXD
+NDDX
+DCDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NDXD
+DXND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NDXD
+DNNC
+DCDN
+[ELB samples = 4 patterns = 5]
+XNDD
+NCNN
+DNXD
+DNDX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCNN
+DNXD
+DNDN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNDD
+NCNN
+DNNN
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NCNN
+DNNN
+DDNC
+DDCN
+[ELB samples = 4 patterns = 5]
+XNDD
+NCNN
+DNNC
+DNCN
+DDDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCNN
+DNNC
+DNDN
+DDCD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDCN
+DNNN
+DDDC
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDCN
+DNNC
+DNDN
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDCN
+DNNC
+DDDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDCN
+DNND
+DNDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDCN
+DNND
+DDDC
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDCN
+DNDX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDDX
+DNXD
+DNDN
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDDX
+DNXD
+DDDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDDX
+DNNN
+DDCD
+[ELB samples = 4 patterns = 5]
+XNDD
+NCND
+NDDX
+DNND
+DDCD
+[ELB samples = 4 patterns = 5]
+XNDD
+NDXD
+NDDX
+DXND
+DNDN
+[ELB samples = 4 patterns = 5]
+XNDD
+NDXD
+NDDX
+DXND
+DDDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NDXD
+NDDX
+DNNN
+DCDD
+[ELB samples = 4 patterns = 5]
+XNDD
+NDXD
+NDDX
+DNND
+DCDD
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNN
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNN
+DXDD
+DDNC
+DDCN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNN
+DNNC
+DNCN
+DCNN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNN
+DNCD
+DCDN
+DDNC
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+NCNN
+DNNN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+NCNN
+DNDD
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+NDNN
+DXDD
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+NDNN
+DCND
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+DXDD
+DDNN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+DXDD
+DDND
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+DNDD
+DCNN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNCN
+DNDD
+DCND
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNDN
+DXDD
+DDXD
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNDN
+DXDD
+DDCN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNDN
+DNCD
+DCNN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+NNDN
+DNCD
+DCND
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+DXDD
+DDXD
+DDDN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+DXDD
+DDND
+DDCN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNC
+DNCD
+DCND
+DDDN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNND
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XDDD
+NNND
+DXDD
+DDNC
+DDCN
+[ELB samples = 4 patterns = 5]
+XDDD
+NNND
+DNCD
+DCDN
+DDNC
+[ELB samples = 4 patterns = 5]
+NNNN
+NNCD
+NCND
+CNND
+DDDC
+[ELB samples = 4 patterns = 5]
+NNNN
+NNCD
+NCND
+CNDN
+DNNC
+[ELB samples = 4 patterns = 5]
+NNNN
+NNCD
+NCND
+CDDN
+DNNC
+[ELB samples = 4 patterns = 5]
+NNNN
+NCDD
+CNDD
+DDNC
+DDCN
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCNN
+NDDD
+CNNN
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCNN
+NDDD
+CNDD
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCNN
+CNNN
+DDDD
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCNN
+CNDD
+DNNN
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCNN
+CDDD
+DNNN
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCDD
+NDNN
+CNDD
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCDD
+CNDD
+DDNN
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCDD
+CNDD
+DDND
+[ELB samples = 4 patterns = 5]
+NNNC
+NNCN
+NCDD
+CDNN
+DNDD
+[ELB samples = 4 patterns = 5]
+NNNC
+NNDN
+NCDD
+CNDD
+DDCN
+[ELB samples = 4 patterns = 5]
+NNNC
+NNDN
+NCDD
+CDNN
+DNCD
+[ELB samples = 4 patterns = 5]
+NNNC
+NCDN
+CNDN
+DDNN
+DDCD
+[ELB samples = 4 patterns = 5]
+NNNC
+NCDN
+CDNN
+DNCN
+DDDD
+[ELB samples = 4 patterns = 5]
+NNNC
+NCDD
+CNDD
+DDND
+DDCN
+[ELB samples = 4 patterns = 5]
+NNND
+NCDN
+CDNN
+DNCN
+DDDC
+[ELB samples = 4 patterns = 5]
+NNND
+NCDD
+CNDD
+DDNC
+DDCN
+[ELB samples = 4 patterns = 5]
+NNCD
+NCND
+NDDN
+CNND
+DDDC
+[ELB samples = 4 patterns = 5]
+NNCD
+NCND
+NDDN
+CNDN
+DNNC
+[ELB samples = 4 patterns = 5]
+NNCD
+NCND
+CNDN
+DNNC
+DDDD

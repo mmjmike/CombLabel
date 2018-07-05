@@ -1,24 +1,24 @@
+[NCS = NCD6]
 Blocks used:
-1x2 - 1 block(s)
-2x3 - 5 block(s)
-2x4 - 1 block(s)
-3x5 - 24 block(s)
-3x6 - 71 block(s)
-3x8 - 7 block(s)
-Total blocks number: 109
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 5 block(s)
+ 3 X  5 - 24 block(s)
+ 3 X  6 - 68 block(s)
+ 3 X  8 - 6 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 5 block(s)
+ 3 X . - 98 block(s)
+ TOTAL - 104 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 5 samples:
 [(1, 2), (1, 2), (1, 2), (1, 2), (1, 2)]: 1 scheme(s)
 [(1, 2), (1, 2), (1, 2), (2, 3)]: 5 scheme(s)
-[(1, 2), (1, 2), (1, 2), (2, 4)]: 1 scheme(s)
-[(1, 2), (1, 2), (3, 8)]: 7 scheme(s)
+[(1, 2), (1, 2), (3, 8)]: 6 scheme(s)
 [(1, 2), (1, 2), (3, 5)]: 24 scheme(s)
-[(1, 2), (1, 2), (3, 6)]: 71 scheme(s)
-[(1, 2), (2, 3), (2, 4)]: 5 scheme(s)
-[(1, 2), (2, 4), (2, 4)]: 1 scheme(s)
-[(2, 3), (3, 8)]: 35 scheme(s)
-[(2, 4), (3, 8)]: 7 scheme(s)
-[(2, 4), (3, 5)]: 24 scheme(s)
-[(2, 4), (3, 6)]: 71 scheme(s)
-12 product types calculated
-252 total labeling schemes to check
+[(1, 2), (1, 2), (3, 6)]: 68 scheme(s)
+[(2, 3), (3, 8)]: 30 scheme(s)
+6 product types calculated
+134 total labeling schemes to check

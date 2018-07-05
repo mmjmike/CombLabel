@@ -1,20 +1,25 @@
+[NCS = NCD4]
 Blocks used:
-2x2 - 10 block(s)
-2x3 - 1 block(s)
-3x4 - 32 block(s)
-3x5 - 1 block(s)
-4x6 - 2302 block(s)
-4x7 - 341 block(s)
-4x8 - 27 block(s)
-4x9 - 1 block(s)
-Total blocks number: 2715
+ 2 X  2 - 10 block(s)
+ 2 X  3 - 1 block(s)
+ 3 X  4 - 32 block(s)
+ 3 X  5 - 1 block(s)
+ 4 X  6 - 2295 block(s)
+ 4 X  7 - 341 block(s)
+ 4 X  8 - 27 block(s)
+-----------
+ 2 X . - 11 block(s)
+ 3 X . - 33 block(s)
+ 4 X . - 2663 block(s)
+ TOTAL - 2707 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 6 samples:
 [(2, 3), (2, 3), (2, 3)]: 1 scheme(s)
 [(2, 3), (4, 8)]: 27 scheme(s)
-[(2, 3), (4, 9)]: 1 scheme(s)
 [(2, 3), (4, 7)]: 341 scheme(s)
 [(3, 4), (3, 5)]: 32 scheme(s)
 [(3, 5), (3, 5)]: 1 scheme(s)
-6 product types calculated
-403 total labeling schemes to check
+5 product types calculated
+402 total labeling schemes to check

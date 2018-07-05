@@ -1,8 +1,9 @@
-[2018-06-27_16:15:15]
+
+[Date,Time = 2018-07-03_18:59:06]
 
 #############################################################################
 #                                                                           #
-#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        UCSL (Version 1.0.1)- Calculation of Universal                     #
 #        Combinatorial Labeling Schemes for Fast NMR Protein                #
 #        Assignment.                                                        #
 #                                                                           #
@@ -12,30 +13,110 @@
 #                                                                           #
 #                                                                           #
 #############################################################################
-[2018-06-27_16:15:16]
+
+[Date,Time = 2018-07-03_18:59:06]
 Blocks used:
-1x2 - 1 block(s)
-2x3 - 17 block(s)
-2x4 - 4 block(s)
-3x5 - 84 block(s)
-3x6 - 133 block(s)
-3x8 - 269 block(s)
-3x9 - 53 block(s)
-3x10 - 45 block(s)
-3x12 - 4 block(s)
-Total blocks number: 610
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 28 block(s)
+ 2 X  4 - 4 block(s)
+ 3 X  5 - 1395 block(s)
+ 3 X  6 - 1693 block(s)
+ 3 X  7 - 1446 block(s)
+ 3 X  8 - 926 block(s)
+ 3 X  9 - 327 block(s)
+ 3 X 10 - 95 block(s)
+ 3 X 11 - 18 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 32 block(s)
+ 3 X . - 5904 block(s)
+ TOTAL - 5937 blocks
+-----------
+
+[Date,Time = 2018-07-03_18:59:06]
+Clearing redundant blocks(ELB)
+[Date,Time = 2018-07-03_18:59:09]
+Blocks used:
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 17 block(s)
+ 2 X  4 - 4 block(s)
+ 3 X  5 - 84 block(s)
+ 3 X  6 - 133 block(s)
+ 3 X  8 - 269 block(s)
+ 3 X  9 - 53 block(s)
+ 3 X 10 - 45 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 21 block(s)
+ 3 X . - 588 block(s)
+ TOTAL - 610 blocks
+-----------
+
+[Date,Time = 2018-07-03_18:59:09]
+Clearing product blocks(ELB)
+[Date,Time = 2018-07-03_18:59:13]
+Blocks used:
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 17 block(s)
+ 2 X  4 - 3 block(s)
+ 3 X  5 - 84 block(s)
+ 3 X  6 - 124 block(s)
+ 3 X  8 - 268 block(s)
+ 3 X  9 - 53 block(s)
+ 3 X 10 - 45 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 20 block(s)
+ 3 X . - 578 block(s)
+ TOTAL - 599 blocks
+-----------
+
+[Date,Time = 2018-07-03_18:59:13]
+Searching for products in max_samples=1
+[Date,Time = 2018-07-03_18:59:13]
+Searching for products in max_samples=2
+[Date,Time = 2018-07-03_18:59:13]
+Searching for products in max_samples=3
+[Date,Time = 2018-07-03_18:59:13]
+Searching for products in max_samples=4
+[Date,Time = 2018-07-03_18:59:13]
+[NCS = NCDA8]
+Blocks used:
+ 1 X  2 - 1 block(s)
+ 2 X  3 - 17 block(s)
+ 2 X  4 - 3 block(s)
+ 3 X  5 - 84 block(s)
+ 3 X  6 - 124 block(s)
+ 3 X  8 - 268 block(s)
+ 3 X  9 - 53 block(s)
+ 3 X 10 - 45 block(s)
+ 3 X 12 - 4 block(s)
+-----------
+ 1 X . - 1 block(s)
+ 2 X . - 20 block(s)
+ 3 X . - 578 block(s)
+ TOTAL - 599 blocks
+-----------
+
 -----------------------
-Products calculated:
+Products calculated for 4 samples:
 [(1, 2), (3, 10)]: 45 scheme(s)
 [(1, 2), (3, 12)]: 4 scheme(s)
 2 product types calculated
 49 total labeling schemes to check
-[2018-06-27_16:15:16]
+
+[Date,Time = 2018-07-03_18:59:13]
+Schemes optimization in max_samples=4
+[Date,Time = 2018-07-03_18:59:13]
 ------------
-Checking schemes for product [(1, 2), (3, 10)]. Total 45 schemes[2018-06-27_16:15:16]
----------
-Checking scheme 1/49[2018-06-27_16:15:16]
-
+Checking schemes for product [(1, 2), (3, 10)]. Total 45 schemes
+------------
+[Date,Time = 2018-07-03_18:59:13]
+Checking scheme 1/49 - New best price: 17099.34251000001
+[Date,Time = 2018-07-03_18:59:13]
 NXNN
 NNCD
 NNDC
@@ -57,7 +138,6 @@ DDDA
 DDAD
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -70,11 +150,12 @@ DNC
 DCN
 DDA
 DAD
-ADD[2018-06-27_16:15:16]
-New best price: 13959.371980000002[2018-06-27_16:15:16]
----------
-Checking scheme 2/49[2018-06-27_16:15:16]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:14]
+Checking scheme 2/49 - Price: 17133.6292
+[Date,Time = 2018-07-03_18:59:14]
 NXNN
 NNCD
 NNDC
@@ -96,7 +177,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -109,11 +189,12 @@ DCN
 DDA
 DAD
 AND
-ADN[2018-06-27_16:15:16]
-Price: 14780.136019999996[2018-06-27_16:15:16]
----------
-Checking scheme 3/49[2018-06-27_16:15:16]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:14]
+Checking scheme 3/49 - Price: 18186.689140000002
+[Date,Time = 2018-07-03_18:59:14]
 NXNN
 NNCD
 NNDA
@@ -135,7 +216,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -148,11 +228,12 @@ DCN
 DDC
 DAD
 AND
-ADN[2018-06-27_16:15:16]
-Price: 17230.831859999995[2018-06-27_16:15:16]
----------
-Checking scheme 4/49[2018-06-27_16:15:16]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:14]
+Checking scheme 4/49 - Price: 24219.262420000003
+[Date,Time = 2018-07-03_18:59:14]
 NXNN
 NNDA
 NNAD
@@ -174,7 +255,6 @@ DDAN
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -187,11 +267,12 @@ DCD
 DDC
 DAN
 AND
-ADN[2018-06-27_16:15:16]
-Price: 22929.704569999998[2018-06-27_16:15:16]
----------
-Checking scheme 5/49[2018-06-27_16:15:16]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:15]
+Checking scheme 5/49 - New best price: 13290.4126
+[Date,Time = 2018-07-03_18:59:15]
 NXND
 NNCN
 NNDC
@@ -213,7 +294,6 @@ DDDA
 DDAN
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -226,11 +306,12 @@ DNC
 DCD
 DDA
 DAN
-ADN[2018-06-27_16:15:17]
-New best price: 13178.10525[2018-06-27_16:15:17]
----------
-Checking scheme 6/49[2018-06-27_16:15:17]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:15]
+Checking scheme 6/49 - Price: 13649.126870000004
+[Date,Time = 2018-07-03_18:59:15]
 NXND
 NNCN
 NNDC
@@ -252,7 +333,6 @@ DDAN
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -265,11 +345,12 @@ DCD
 DDA
 DAN
 ANN
-ADD[2018-06-27_16:15:17]
-Price: 13510.155750000002[2018-06-27_16:15:17]
----------
-Checking scheme 7/49[2018-06-27_16:15:17]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:15]
+Checking scheme 7/49 - Price: 14359.86315
+[Date,Time = 2018-07-03_18:59:15]
 NXND
 NNCN
 NNDA
@@ -291,7 +372,6 @@ DDDC
 DDAN
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -304,11 +384,12 @@ DNA
 DCD
 DDC
 DAN
-ADN[2018-06-27_16:15:17]
-Price: 14220.138209999997[2018-06-27_16:15:17]
----------
-Checking scheme 8/49[2018-06-27_16:15:17]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:16]
+Checking scheme 8/49 - Price: 14679.08541
+[Date,Time = 2018-07-03_18:59:16]
 NXND
 NNCN
 NNDA
@@ -330,7 +411,6 @@ DDAN
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -343,11 +423,12 @@ DCD
 DDC
 DAN
 ANN
-ADD[2018-06-27_16:15:17]
-Price: 14566.81426999999[2018-06-27_16:15:17]
----------
-Checking scheme 9/49[2018-06-27_16:15:17]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:16]
+Checking scheme 9/49 - Price: 15755.857199999997
+[Date,Time = 2018-07-03_18:59:16]
 NXND
 NNDC
 NNAN
@@ -369,7 +450,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -382,11 +462,12 @@ DCN
 DDA
 DAD
 ANN
-ADD[2018-06-27_16:15:17]
-Price: 15616.88608[2018-06-27_16:15:17]
----------
-Checking scheme 10/49[2018-06-27_16:15:17]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:17]
+Checking scheme 10/49 - Price: 20552.123690000008
+[Date,Time = 2018-07-03_18:59:17]
 NXND
 NNDA
 NNAN
@@ -408,7 +489,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -421,11 +501,12 @@ DCN
 DDC
 DAD
 ANN
-ADD[2018-06-27_16:15:17]
-Price: 20525.45992[2018-06-27_16:15:17]
----------
-Checking scheme 11/49[2018-06-27_16:15:17]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:17]
+Checking scheme 11/49 - Price: 13941.119050000001
+[Date,Time = 2018-07-03_18:59:17]
 NXDD
 NNNC
 NNCN
@@ -447,7 +528,6 @@ DDAN
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -460,11 +540,12 @@ DCD
 DDC
 DAN
 AND
-ADN[2018-06-27_16:15:18]
-Price: 13791.244430000002[2018-06-27_16:15:18]
----------
-Checking scheme 12/49[2018-06-27_16:15:18]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:17]
+Checking scheme 12/49 - New best price: 12201.004120000007
+[Date,Time = 2018-07-03_18:59:17]
 NXDD
 NNNC
 NNCN
@@ -486,7 +567,6 @@ DDDC
 DDAN
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -499,11 +579,12 @@ DNA
 DCD
 DDC
 DAN
-ANN[2018-06-27_16:15:18]
-New best price: 12051.129500000003[2018-06-27_16:15:18]
----------
-Checking scheme 13/49[2018-06-27_16:15:18]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:18]
+Checking scheme 13/49 - Price: 14378.951309999997
+[Date,Time = 2018-07-03_18:59:18]
 NXDD
 NNNC
 NNAN
@@ -525,7 +606,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -538,11 +618,12 @@ DCN
 DDC
 DAD
 AND
-ADN[2018-06-27_16:15:18]
-Price: 14137.92049[2018-06-27_16:15:18]
----------
-Checking scheme 14/49[2018-06-27_16:15:18]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:18]
+Checking scheme 14/49 - Price: 13456.068300000003
+[Date,Time = 2018-07-03_18:59:18]
 NXDD
 NNNC
 NNAN
@@ -564,7 +645,6 @@ DDDC
 DDAD
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -577,11 +657,12 @@ DNA
 DCN
 DDC
 DAD
-ANN[2018-06-27_16:15:18]
-Price: 13215.03748[2018-06-27_16:15:18]
----------
-Checking scheme 15/49[2018-06-27_16:15:18]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:18]
+Checking scheme 15/49 - Price: 19723.865450000005
+[Date,Time = 2018-07-03_18:59:18]
 NXDD
 NNNA
 NNAN
@@ -603,7 +684,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -616,11 +696,12 @@ DCN
 DDA
 DAD
 AND
-ADN[2018-06-27_16:15:18]
-Price: 19540.26057[2018-06-27_16:15:18]
----------
-Checking scheme 16/49[2018-06-27_16:15:18]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:18]
+Checking scheme 16/49 - Price: 15603.10918
+[Date,Time = 2018-07-03_18:59:18]
 NXDD
 NNNA
 NNAN
@@ -642,7 +723,6 @@ DDDA
 DDAD
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -655,11 +735,12 @@ DNC
 DCN
 DDA
 DAD
-ANN[2018-06-27_16:15:18]
-Price: 15362.078360000003[2018-06-27_16:15:18]
----------
-Checking scheme 17/49[2018-06-27_16:15:18]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:19]
+Checking scheme 17/49 - Price: 17536.181320000003
+[Date,Time = 2018-07-03_18:59:19]
 NNNN
 NNCD
 NNDC
@@ -681,7 +762,6 @@ DDDA
 DDAD
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -694,11 +774,12 @@ DNC
 DCN
 DDA
 DAD
-ADD[2018-06-27_16:15:19]
-Price: 14297.389669999993[2018-06-27_16:15:19]
----------
-Checking scheme 18/49[2018-06-27_16:15:19]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:19]
+Checking scheme 18/49 - Price: 17570.46801
+[Date,Time = 2018-07-03_18:59:19]
 NNNN
 NNCD
 NNDC
@@ -720,7 +801,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -733,11 +813,12 @@ DCN
 DDA
 DAD
 AND
-ADN[2018-06-27_16:15:19]
-Price: 15118.153709999999[2018-06-27_16:15:19]
----------
-Checking scheme 19/49[2018-06-27_16:15:19]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:19]
+Checking scheme 19/49 - Price: 18623.52795
+[Date,Time = 2018-07-03_18:59:19]
 NNNN
 NNCD
 NNDA
@@ -759,7 +840,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -772,11 +852,12 @@ DCN
 DDC
 DAD
 AND
-ADN[2018-06-27_16:15:19]
-Price: 17568.849549999995[2018-06-27_16:15:19]
----------
-Checking scheme 20/49[2018-06-27_16:15:19]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:20]
+Checking scheme 20/49 - Price: 24656.10123
+[Date,Time = 2018-07-03_18:59:20]
 NNNN
 NNDA
 NNAD
@@ -798,7 +879,6 @@ DDAN
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -811,11 +891,12 @@ DCD
 DDC
 DAN
 AND
-ADN[2018-06-27_16:15:19]
-Price: 23171.64608[2018-06-27_16:15:19]
----------
-Checking scheme 21/49[2018-06-27_16:15:19]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:20]
+Checking scheme 21/49 - Price: 14377.957859999999
+[Date,Time = 2018-07-03_18:59:20]
 NNNC
 NNCN
 NNDD
@@ -837,7 +918,6 @@ DDAN
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -850,11 +930,12 @@ DCD
 DDC
 DAN
 AND
-ADN[2018-06-27_16:15:19]
-Price: 14009.404799999998[2018-06-27_16:15:19]
----------
-Checking scheme 22/49[2018-06-27_16:15:19]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:20]
+Checking scheme 22/49 - Price: 12637.842930000003
+[Date,Time = 2018-07-03_18:59:20]
 NNNC
 NNCN
 NNDD
@@ -876,7 +957,6 @@ DDDC
 DDAN
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -889,11 +969,12 @@ DNA
 DCD
 DDC
 DAN
-ANN[2018-06-27_16:15:19]
-Price: 12269.289870000008[2018-06-27_16:15:19]
----------
-Checking scheme 23/49[2018-06-27_16:15:19]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:20]
+Checking scheme 23/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:20]
 NNNC
 NNCN
 NNDA
@@ -915,7 +996,6 @@ DDDC
 DDAN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -928,11 +1008,12 @@ DNA
 DCD
 DDC
 DAN
-ADD[2018-06-27_16:15:19]
-Price: 17437.97079[2018-06-27_16:15:19]
----------
-Checking scheme 24/49[2018-06-27_16:15:19]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:21]
+Checking scheme 24/49 - Price: 22616.293950000003
+[Date,Time = 2018-07-03_18:59:21]
 NNNC
 NNCN
 NNDA
@@ -954,7 +1035,6 @@ DDAN
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -967,11 +1047,12 @@ DNA
 DDD
 DAN
 AND
-ADN[2018-06-27_16:15:19]
-Price: 21862.04019[2018-06-27_16:15:19]
----------
-Checking scheme 25/49[2018-06-27_16:15:19]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:21]
+Checking scheme 25/49 - Price: 13727.251410000004
+[Date,Time = 2018-07-03_18:59:21]
 NNNC
 NNCN
 NNDA
@@ -993,7 +1074,6 @@ DDCD
 DDDC
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1006,11 +1086,12 @@ CDN
 DNN
 DCD
 DDC
-ADD[2018-06-27_16:15:20]
-Price: 13369.601850000003[2018-06-27_16:15:20]
----------
-Checking scheme 26/49[2018-06-27_16:15:20]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:21]
+Checking scheme 26/49 - Price: 14933.643400000003
+[Date,Time = 2018-07-03_18:59:21]
 NNNC
 NNCN
 NNDA
@@ -1032,7 +1113,6 @@ DDDD
 DDAN
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1045,11 +1125,12 @@ CDN
 DNA
 DDD
 DAN
-ANN[2018-06-27_16:15:20]
-Price: 14400.927160000003[2018-06-27_16:15:20]
----------
-Checking scheme 27/49[2018-06-27_16:15:20]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:22]
+Checking scheme 27/49 - Price: 14815.790119999998
+[Date,Time = 2018-07-03_18:59:22]
 NNNC
 NNCN
 NNDA
@@ -1071,7 +1152,6 @@ DDDN
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1084,11 +1164,12 @@ DNA
 DCD
 DDN
 ANN
-ADD[2018-06-27_16:15:20]
-Price: 14442.24886[2018-06-27_16:15:20]
----------
-Checking scheme 28/49[2018-06-27_16:15:20]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:22]
+Checking scheme 28/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:22]
 NNNC
 NNCN
 NNDA
@@ -1110,7 +1191,6 @@ DDDC
 DDAN
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1123,11 +1203,12 @@ DNA
 DCD
 DDC
 DAN
-ADN[2018-06-27_16:15:20]
-Price: 17755.590669999998[2018-06-27_16:15:20]
----------
-Checking scheme 29/49[2018-06-27_16:15:20]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:22]
+Checking scheme 29/49 - Price: 14796.701960000006
+[Date,Time = 2018-07-03_18:59:22]
 NNNC
 NNCN
 NNDA
@@ -1149,7 +1230,6 @@ DDDC
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1162,11 +1242,12 @@ DNN
 DCD
 DDC
 AND
-ADN[2018-06-27_16:15:20]
-Price: 14449.9559[2018-06-27_16:15:20]
----------
-Checking scheme 30/49[2018-06-27_16:15:20]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:22]
+Checking scheme 30/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:22]
 NNNC
 NNCN
 NNDA
@@ -1188,7 +1269,6 @@ DDDC
 DDAN
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1201,11 +1281,12 @@ DNA
 DCD
 DDC
 DAN
-ANN[2018-06-27_16:15:20]
-Price: 15288.918020000001[2018-06-27_16:15:20]
----------
-Checking scheme 31/49[2018-06-27_16:15:20]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:22]
+Checking scheme 31/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:22]
 NNNC
 NNCN
 NNDA
@@ -1227,7 +1308,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1240,11 +1320,12 @@ DNA
 DDC
 DAD
 ANN
-ADD[2018-06-27_16:15:20]
-Price: 15379.327739999997[2018-06-27_16:15:20]
----------
-Checking scheme 32/49[2018-06-27_16:15:20]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:23]
+Checking scheme 32/49 - Price: 14085.965680000001
+[Date,Time = 2018-07-03_18:59:23]
 NNNC
 NNCD
 NNDN
@@ -1266,7 +1347,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1279,11 +1359,12 @@ DCN
 DDC
 DAD
 ANN
-ADD[2018-06-27_16:15:21]
-Price: 13728.316119999996[2018-06-27_16:15:21]
----------
-Checking scheme 33/49[2018-06-27_16:15:21]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:23]
+Checking scheme 33/49 - Price: 14008.217539999998
+[Date,Time = 2018-07-03_18:59:23]
 NNNC
 NNCD
 NNDA
@@ -1305,7 +1386,6 @@ DDCN
 DDDD
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1318,11 +1398,12 @@ CDN
 DNA
 DCN
 DDD
-ANN[2018-06-27_16:15:21]
-Price: 13475.5013[2018-06-27_16:15:21]
----------
-Checking scheme 34/49[2018-06-27_16:15:21]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:24]
+Checking scheme 34/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:24]
 NNNC
 NNCD
 NNDA
@@ -1344,7 +1425,6 @@ DDDC
 DDAD
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1357,11 +1437,12 @@ DNA
 DCN
 DDC
 DAD
-ADN[2018-06-27_16:15:21]
-Price: 15674.689919999999[2018-06-27_16:15:21]
----------
-Checking scheme 35/49[2018-06-27_16:15:21]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:24]
+Checking scheme 35/49 - Price: 20160.70426
+[Date,Time = 2018-07-03_18:59:24]
 NNNC
 NNCD
 NNDA
@@ -1383,7 +1464,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1396,11 +1476,12 @@ DNA
 DDN
 DAD
 ANN
-ADD[2018-06-27_16:15:21]
-Price: 19901.75606[2018-06-27_16:15:21]
----------
-Checking scheme 36/49[2018-06-27_16:15:21]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:24]
+Checking scheme 36/49 - Price: 13892.90711
+[Date,Time = 2018-07-03_18:59:24]
 NNNC
 NNCD
 NNDA
@@ -1422,7 +1503,6 @@ DDDC
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1435,11 +1515,12 @@ DND
 DCN
 DDC
 ANN
-ADD[2018-06-27_16:15:21]
-Price: 13519.365850000002[2018-06-27_16:15:21]
----------
-Checking scheme 37/49[2018-06-27_16:15:21]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:25]
+Checking scheme 37/49 - Price: 15115.92422
+[Date,Time = 2018-07-03_18:59:25]
 NNNC
 NNCD
 NNDA
@@ -1461,7 +1542,6 @@ DDAD
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1474,11 +1554,12 @@ DNN
 DDC
 DAD
 AND
-ADN[2018-06-27_16:15:21]
-Price: 14769.178160000009[2018-06-27_16:15:21]
----------
-Checking scheme 38/49[2018-06-27_16:15:21]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:25]
+Checking scheme 38/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:25]
 NNNC
 NNCD
 NNDA
@@ -1500,7 +1581,6 @@ DDDC
 DDAD
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1513,11 +1593,12 @@ DNA
 DCN
 DDC
 DAD
-ANN[2018-06-27_16:15:21]
-Price: 15502.471970000002[2018-06-27_16:15:21]
----------
-Checking scheme 39/49[2018-06-27_16:15:21]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:25]
+Checking scheme 39/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:25]
 NNNC
 NNCD
 NNAN
@@ -1539,7 +1620,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1552,11 +1632,12 @@ DCN
 DDA
 DAD
 ANN
-ADD[2018-06-27_16:15:22]
-Price: 15764.735920000001[2018-06-27_16:15:22]
----------
-Checking scheme 40/49[2018-06-27_16:15:22]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:25]
+Checking scheme 40/49 - Price: 16192.69601
+[Date,Time = 2018-07-03_18:59:25]
 NNND
 NNDC
 NNAN
@@ -1578,7 +1659,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1591,11 +1671,12 @@ DCN
 DDA
 DAD
 ANN
-ADD[2018-06-27_16:15:22]
-Price: 15835.046449999998[2018-06-27_16:15:22]
----------
-Checking scheme 41/49[2018-06-27_16:15:22]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:26]
+Checking scheme 41/49 - Price: 20988.9625
+[Date,Time = 2018-07-03_18:59:26]
 NNND
 NNDA
 NNAN
@@ -1617,7 +1698,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1630,11 +1710,12 @@ DCN
 DDC
 DAD
 ANN
-ADD[2018-06-27_16:15:22]
-Price: 20842.712240000004[2018-06-27_16:15:22]
----------
-Checking scheme 42/49[2018-06-27_16:15:22]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:26]
+Checking scheme 42/49 - Price: 13932.769050000003
+[Date,Time = 2018-07-03_18:59:26]
 NNNA
 NNCD
 NNDC
@@ -1656,7 +1737,6 @@ DDCN
 DDDD
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1669,11 +1749,12 @@ CDN
 DNC
 DCN
 DDD
-ANN[2018-06-27_16:15:22]
-Price: 13400.052810000001[2018-06-27_16:15:22]
----------
-Checking scheme 43/49[2018-06-27_16:15:22]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:26]
+Checking scheme 43/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:26]
 NNNA
 NNCD
 NNDC
@@ -1695,7 +1776,6 @@ DDDA
 DDAD
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1708,11 +1788,12 @@ DNC
 DCN
 DDA
 DAD
-ADN[2018-06-27_16:15:22]
-Price: 16642.451240000006[2018-06-27_16:15:22]
----------
-Checking scheme 44/49[2018-06-27_16:15:22]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:26]
+Checking scheme 44/49 - Price: 16039.947990000004
+[Date,Time = 2018-07-03_18:59:26]
 NNNA
 NNCD
 NNDC
@@ -1734,7 +1815,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1747,11 +1827,12 @@ DNC
 DDN
 DAD
 ANN
-ADD[2018-06-27_16:15:22]
-Price: 15664.046930000011[2018-06-27_16:15:22]
----------
-Checking scheme 45/49[2018-06-27_16:15:22]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:26]
+Checking scheme 45/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:26]
 NNNA
 NNCD
 NNDC
@@ -1773,7 +1854,6 @@ DDDA
 DDAD
 DANN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1786,13 +1866,16 @@ DNC
 DCN
 DDA
 DAD
-ANN[2018-06-27_16:15:22]
-Price: 16446.146810000002[2018-06-27_16:15:22]
-------------
-Checking schemes for product [(1, 2), (3, 12)]. Total 4 schemes[2018-06-27_16:15:22]
----------
-Checking scheme 46/49[2018-06-27_16:15:22]
+ANN
 
+---------
+[Date,Time = 2018-07-03_18:59:26]
+------------
+Checking schemes for product [(1, 2), (3, 12)]. Total 4 schemes
+------------
+[Date,Time = 2018-07-03_18:59:27]
+Checking scheme 46/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:27]
 NNNC
 NNCN
 NNDA
@@ -1818,7 +1901,6 @@ DDAN
 DAND
 DADN
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1833,11 +1915,12 @@ DCD
 DDC
 DAN
 AND
-ADN[2018-06-27_16:15:22]
-Price: 14839.600409999997[2018-06-27_16:15:22]
----------
-Checking scheme 47/49[2018-06-27_16:15:22]
+ADN
 
+---------
+[Date,Time = 2018-07-03_18:59:27]
+Checking scheme 47/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:27]
 NNNC
 NNCN
 NNDA
@@ -1863,7 +1946,6 @@ DDAN
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1878,11 +1960,12 @@ DCD
 DDC
 DAN
 ANN
-ADD[2018-06-27_16:15:22]
-Price: 14001.694309999995[2018-06-27_16:15:22]
----------
-Checking scheme 48/49[2018-06-27_16:15:22]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:27]
+Checking scheme 48/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:27]
 NNNC
 NNCD
 NNDA
@@ -1908,7 +1991,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1923,11 +2005,12 @@ DCN
 DDC
 DAD
 ANN
-ADD[2018-06-27_16:15:23]
-Price: 14289.138360000004[2018-06-27_16:15:23]
----------
-Checking scheme 49/49[2018-06-27_16:15:23]
+ADD
 
+---------
+[Date,Time = 2018-07-03_18:59:27]
+Checking scheme 49/49 - Scheme can not be optimized
+[Date,Time = 2018-07-03_18:59:27]
 NNNA
 NNCD
 NNDC
@@ -1953,7 +2036,6 @@ DDAD
 DANN
 DADD
 Scheme consists of following blocks:
-
 N
 D
 
@@ -1968,24 +2050,27 @@ DCN
 DDA
 DAD
 ANN
-ADD[2018-06-27_16:15:23]
-Price: 15250.787180000003[2018-06-27_16:15:23]
+ADD
+
+---------
+[Date,Time = 2018-07-03_18:59:27]
 ________________________
-Best scheme:
+Best scheme
+[NCS = NCDA8]
 [solution]
 Res,S1,S2,S3,S4
 Ala, D, D, N, A
-Arg, D, X, D, D
-Asn, D, D, C, D
+Arg, D, D, C, D
+Asn, D, X, D, D
 Asp, N, D, C, D
 Cys, N, N, N, C
 Gln, N, D, N, A
 Glu, N, C, N, D
 Gly, D, D, A, N
-His, N, C, D, N
+His, N, X, D, D
 Ile, N, D, D, C
 Leu, N, D, A, N
-Lys, N, X, D, D
+Lys, N, C, D, N
 Met, N, N, C, N
 Phe, D, N, N, C
 Pro, F, X, C, X
@@ -1994,11 +2079,14 @@ Thr, D, D, D, C
 Trp, N, A, N, N
 Tyr, D, A, N, N
 Val, D, C, D, N
+[price]
+12201.004120000007
 
 Blocks used for this scheme:
+[ELB samples = 1 patterns = 2]
 N
 D
-
+[ELB samples = 3 patterns = 10]
 XDD
 NNC
 NCN
@@ -2010,6 +2098,6 @@ DDC
 DAN
 ANN
 
-Price: 12051.129500000003[2018-06-27_16:15:23]
+[Date,Time = 2018-07-03_18:59:27]
 -----
-Calculation finished at 2018-06-27 16:15:23!
+Calculation finished at 2018-07-03 18:59:27!
