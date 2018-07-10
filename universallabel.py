@@ -363,6 +363,7 @@ class Task:
         self.aa_number = len(self.residues)
 
         self.results = {}
+        self.stats = {}
         self.block_types = []
         self.products = []
         self.all_schemes = []
@@ -372,9 +373,6 @@ class Task:
         self.products_found = False
         self.first_output = True
         self.cpu_count = multiprocessing.cpu_count()
-
-    def __delete__(self):
-        self.output_stream.close()
 
     def scheme_checked(self, scheme, checked_schemes):
         for checked_scheme in checked_schemes:
@@ -479,6 +477,9 @@ class Task:
         # else:
         #     self.output("No schemes were found...")
         # self.output("________________________\nCalculation finished!")
+
+    def save_schemes_stats(self):
+        pass
 
     def run(self):
         if self.block_finder_mode:

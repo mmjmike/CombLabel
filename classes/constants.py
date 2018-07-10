@@ -33,11 +33,6 @@ class Spectrum:
         elif self.name == "HNCACO":
             return int(atom_list[3] and atom_list[4] and atom_list[5])
 
-        else:
-            print("Error")
-            sys.stdout.flush()
-            return 0
-
 
 class NCS:
 
@@ -174,7 +169,7 @@ class Constants:
                 [typeX, typeN, typeC, typeD, typeA])
     TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
                 [typeX, typeN, typeC, typeD, typeA, typeT, typeS, typeF])
-    TF12 =  NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+    TF12 = NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
                 [typeX, typeN, typeC, typeD, typeA, typeT, typeF])
     XND2 = NCS("XND2", [HSQC, HNCO],
                [typeX, typeN, typeD])
