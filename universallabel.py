@@ -77,7 +77,7 @@ class BlockFinder:
                 out+= "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth+1, self.results_found)
                 for d in range(self.depth):
                     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
-                self.outputer.write_data(out, files="lc", timer=0)
+                self.outputer.write_data(out, files="lc", timer=False)
 
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):

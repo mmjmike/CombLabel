@@ -174,12 +174,14 @@ class Constants:
                 [typeX, typeN, typeC, typeD, typeA])
     TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
                 [typeX, typeN, typeC, typeD, typeA, typeT, typeS, typeF])
+    TF12 =  NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+                [typeX, typeN, typeC, typeD, typeA, typeT, typeF])
     XND2 = NCS("XND2", [HSQC, HNCO],
                [typeX, typeN, typeD])
     XND4 = NCS("XND4", [HSQC, HNCO, HNCA],
                [typeX, typeN, typeD])
 
-    LIST_OF_NCS = [NC2, NCD2, NCD4, NCD6, NCDA8, TSF12, XND2, XND4]
+    LIST_OF_NCS = [NC2, NCD2, NCD4, NCD6, NCDA8, TSF12, TF12, XND2, XND4]
 
     NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
 
