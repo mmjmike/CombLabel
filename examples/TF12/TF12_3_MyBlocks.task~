@@ -1,0 +1,23 @@
+# use following parameters for this run: -c TSF12_1.task
+NCS TF12
+job_name TF12_2
+max_block_size 2
+price_table ../../BEST_PRICE_1H.csv
+#blocks TSF12_blocks_1_elb.txt
+
+
+
+#Amino-acid list
+#aa_list          A C D E F G H I K L M N P Q R S T V W Y
+
+#Please, specify the use of all 8 labeling types by '1' or '0'.
+#You can see the description in ...
+#Use 1 1 1 0 0 0 0 0 as default
+#Order as follows:   X   N   C   D   A   S   T   F
+#labeling_types       1   1   1   0   0   0   0   0
+
+#Please, specify the use of all 7 spectra by '1' or '0'.
+#You can see the description in ...
+#Use 1 1 0 0 0 0 0 as default
+#Order as follows: HSQC,    HNCO,    HNCA,  HNCOCA, CO-HNCA, DQ-HNCA,  HNCACO
+#spectra_types         1        1        0        0        0        0        0

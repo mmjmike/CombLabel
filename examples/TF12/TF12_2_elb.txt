@@ -1,0 +1,1383 @@
+
+#############################################################################
+#                                                                           #
+#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article:  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+[NCS = TF12]
+[ELB samples = 1 patterns = 2]
+N
+D
+[ELB samples = 1 patterns = 3]
+N
+D
+T
+[ELB samples = 1 patterns = 2]
+N
+T
+[ELB samples = 1 patterns = 2]
+D
+T
+[ELB samples = 2 patterns = 4]
+XN
+CD
+DC
+AT
+[ELB samples = 2 patterns = 4]
+XN
+CD
+DC
+TT
+[ELB samples = 2 patterns = 4]
+XN
+CD
+DA
+TC
+[ELB samples = 2 patterns = 4]
+XN
+CD
+DT
+TC
+[ELB samples = 2 patterns = 4]
+XN
+CD
+TC
+FT
+[ELB samples = 2 patterns = 4]
+XN
+CT
+DD
+TC
+[ELB samples = 2 patterns = 4]
+XN
+CT
+DF
+TC
+[ELB samples = 2 patterns = 4]
+XD
+CN
+DC
+AT
+[ELB samples = 2 patterns = 4]
+XD
+CN
+DC
+TT
+[ELB samples = 2 patterns = 4]
+XD
+CN
+DA
+TC
+[ELB samples = 2 patterns = 4]
+XD
+CN
+DT
+TC
+[ELB samples = 2 patterns = 4]
+XD
+CN
+TC
+FT
+[ELB samples = 2 patterns = 4]
+XD
+CT
+DX
+TC
+[ELB samples = 2 patterns = 4]
+XD
+CT
+DN
+TC
+[ELB samples = 2 patterns = 4]
+XD
+CT
+DC
+AN
+[ELB samples = 2 patterns = 4]
+XD
+CT
+DC
+TX
+[ELB samples = 2 patterns = 4]
+XD
+CT
+DC
+TN
+[ELB samples = 2 patterns = 4]
+XD
+CT
+TC
+FN
+[ELB samples = 2 patterns = 4]
+XT
+CN
+DC
+AD
+[ELB samples = 2 patterns = 4]
+XT
+CN
+DC
+TD
+[ELB samples = 2 patterns = 4]
+XT
+CN
+DC
+TF
+[ELB samples = 2 patterns = 4]
+XT
+CN
+DD
+TC
+[ELB samples = 2 patterns = 4]
+XT
+CN
+DF
+TC
+[ELB samples = 2 patterns = 4]
+XT
+CD
+DN
+TC
+[ELB samples = 2 patterns = 4]
+XT
+CD
+DC
+AN
+[ELB samples = 2 patterns = 4]
+XT
+CD
+DC
+TX
+[ELB samples = 2 patterns = 4]
+XT
+CD
+DC
+TN
+[ELB samples = 2 patterns = 4]
+XT
+CD
+TC
+FN
+[ELB samples = 2 patterns = 4]
+NN
+ND
+NT
+DN
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DN
+DD
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+DD
+DT
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DD
+DT
+TN
+[ELB samples = 2 patterns = 8]
+NN
+ND
+NT
+DN
+DD
+DT
+TN
+TD
+[ELB samples = 2 patterns = 9]
+NN
+ND
+NT
+DN
+DD
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 8]
+NN
+ND
+NT
+DN
+DD
+DT
+TN
+TT
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DD
+DT
+TD
+[ELB samples = 2 patterns = 8]
+NN
+ND
+NT
+DN
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DD
+DT
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+DD
+TN
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DD
+TN
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+DD
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DN
+DT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+DT
+TN
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DT
+TN
+TD
+[ELB samples = 2 patterns = 8]
+NN
+ND
+NT
+DN
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DT
+TN
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+DT
+TD
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DN
+DT
+TD
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+DT
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DN
+TN
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DN
+TN
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DN
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+NT
+DD
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DD
+DT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DD
+DT
+TN
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DD
+DT
+TN
+TD
+[ELB samples = 2 patterns = 8]
+NN
+ND
+NT
+DD
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DD
+DT
+TN
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DD
+DT
+TD
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DD
+DT
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DD
+TN
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DD
+TN
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+NT
+DT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DT
+TN
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DT
+TN
+TD
+[ELB samples = 2 patterns = 7]
+NN
+ND
+NT
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DT
+TN
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DT
+TD
+[ELB samples = 2 patterns = 6]
+NN
+ND
+NT
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+NT
+TN
+[ELB samples = 2 patterns = 5]
+NN
+ND
+NT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+NT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DN
+DD
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DN
+DD
+DT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+DN
+DD
+DT
+TD
+[ELB samples = 2 patterns = 7]
+NN
+ND
+DN
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 6]
+NN
+ND
+DN
+DD
+DT
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DN
+DD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DN
+DT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DN
+DT
+TD
+[ELB samples = 2 patterns = 6]
+NN
+ND
+DN
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DN
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DN
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DD
+DT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DD
+DT
+TD
+[ELB samples = 2 patterns = 6]
+NN
+ND
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DT
+TD
+[ELB samples = 2 patterns = 5]
+NN
+ND
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+ND
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+DD
+DT
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DD
+DT
+TN
+[ELB samples = 2 patterns = 6]
+NN
+NT
+DD
+DT
+TN
+TD
+[ELB samples = 2 patterns = 7]
+NN
+NT
+DD
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 6]
+NN
+NT
+DD
+DT
+TN
+TT
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DD
+DT
+TD
+[ELB samples = 2 patterns = 6]
+NN
+NT
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+DD
+TN
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DD
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+DD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+DT
+TN
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DT
+TN
+TD
+[ELB samples = 2 patterns = 6]
+NN
+NT
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+DT
+TD
+[ELB samples = 2 patterns = 5]
+NN
+NT
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+NT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NN
+CD
+DC
+AT
+[ELB samples = 2 patterns = 4]
+NN
+CD
+DC
+TT
+[ELB samples = 2 patterns = 4]
+NN
+CD
+DA
+TC
+[ELB samples = 2 patterns = 4]
+NN
+CD
+DT
+TC
+[ELB samples = 2 patterns = 4]
+NN
+CD
+TC
+FT
+[ELB samples = 2 patterns = 4]
+NN
+CT
+DD
+TC
+[ELB samples = 2 patterns = 4]
+NN
+CT
+DF
+TC
+[ELB samples = 2 patterns = 4]
+NN
+DD
+DT
+TD
+[ELB samples = 2 patterns = 5]
+NN
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NN
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NN
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DD
+AT
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DD
+TT
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DA
+AD
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DA
+TD
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DA
+TF
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DT
+TD
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DT
+TF
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DF
+AT
+[ELB samples = 2 patterns = 4]
+NC
+CN
+DF
+TT
+[ELB samples = 2 patterns = 4]
+NC
+CN
+TF
+FT
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DN
+AT
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DN
+TT
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DA
+AN
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DA
+TN
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DT
+AN
+[ELB samples = 2 patterns = 4]
+NC
+CD
+DT
+TN
+[ELB samples = 2 patterns = 4]
+NC
+CD
+AN
+FT
+[ELB samples = 2 patterns = 4]
+NC
+CD
+AT
+FN
+[ELB samples = 2 patterns = 4]
+NC
+CD
+TN
+FT
+[ELB samples = 2 patterns = 4]
+NC
+CD
+TT
+FN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DN
+AD
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DN
+TD
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DN
+TF
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DD
+AN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DD
+TN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DF
+AN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+DF
+TN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+AD
+FN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+TD
+FN
+[ELB samples = 2 patterns = 4]
+NC
+CT
+TF
+FN
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DN
+DD
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+DD
+DT
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DD
+DT
+TN
+[ELB samples = 2 patterns = 7]
+ND
+NT
+DN
+DD
+DT
+TN
+TD
+[ELB samples = 2 patterns = 8]
+ND
+NT
+DN
+DD
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 7]
+ND
+NT
+DN
+DD
+DT
+TN
+TT
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DD
+DT
+TD
+[ELB samples = 2 patterns = 7]
+ND
+NT
+DN
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DD
+DT
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+DD
+TN
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DD
+TN
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+DD
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DN
+DT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+DT
+TN
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DT
+TN
+TD
+[ELB samples = 2 patterns = 7]
+ND
+NT
+DN
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DT
+TN
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+DT
+TD
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DN
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+DT
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DN
+TN
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DN
+TN
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DN
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DD
+DT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DD
+DT
+TN
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DD
+DT
+TN
+TD
+[ELB samples = 2 patterns = 7]
+ND
+NT
+DD
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DD
+DT
+TN
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DD
+DT
+TD
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DD
+TN
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DD
+TN
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DD
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DT
+TN
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DT
+TN
+TD
+[ELB samples = 2 patterns = 6]
+ND
+NT
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DT
+TD
+[ELB samples = 2 patterns = 5]
+ND
+NT
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+DT
+TT
+[ELB samples = 2 patterns = 4]
+ND
+NT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+ND
+CT
+DN
+TC
+[ELB samples = 2 patterns = 4]
+ND
+CT
+DC
+AN
+[ELB samples = 2 patterns = 4]
+ND
+CT
+DC
+TN
+[ELB samples = 2 patterns = 4]
+ND
+CT
+TC
+FN
+[ELB samples = 2 patterns = 4]
+ND
+DN
+DD
+DT
+[ELB samples = 2 patterns = 5]
+ND
+DN
+DD
+DT
+TD
+[ELB samples = 2 patterns = 6]
+ND
+DN
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 5]
+ND
+DN
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+ND
+DN
+DD
+TT
+[ELB samples = 2 patterns = 4]
+ND
+DN
+DT
+TD
+[ELB samples = 2 patterns = 5]
+ND
+DN
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+ND
+DN
+DT
+TT
+[ELB samples = 2 patterns = 4]
+ND
+DD
+DT
+TD
+[ELB samples = 2 patterns = 5]
+ND
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+ND
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+ND
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NA
+CD
+DC
+AN
+[ELB samples = 2 patterns = 4]
+NA
+CD
+DC
+TN
+[ELB samples = 2 patterns = 4]
+NA
+CD
+TC
+FN
+[ELB samples = 2 patterns = 4]
+NT
+CD
+DC
+TN
+[ELB samples = 2 patterns = 4]
+NT
+CD
+TC
+FN
+[ELB samples = 2 patterns = 4]
+NT
+DD
+DT
+TN
+[ELB samples = 2 patterns = 5]
+NT
+DD
+DT
+TN
+TD
+[ELB samples = 2 patterns = 6]
+NT
+DD
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 5]
+NT
+DD
+DT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NT
+DD
+DT
+TD
+[ELB samples = 2 patterns = 5]
+NT
+DD
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NT
+DD
+DT
+TT
+[ELB samples = 2 patterns = 4]
+NT
+DD
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NT
+DT
+TN
+TD
+[ELB samples = 2 patterns = 5]
+NT
+DT
+TN
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NT
+DT
+TN
+TT
+[ELB samples = 2 patterns = 4]
+NT
+DT
+TD
+TT
+[ELB samples = 2 patterns = 4]
+NF
+CT
+TC
+FN
+[ELB samples = 2 patterns = 4]
+DD
+DT
+TD
+TT

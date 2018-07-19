@@ -76,8 +76,11 @@ class BlockFinder:
                 out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator, int(time.time()-self.timer))
                 out+= "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth+1, self.results_found)
                 for d in range(self.depth):
-                    out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
-                self.outputer.write_data(out, files="lc", timer=False)
+                   out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d])-self.min_depth+1+d)
+                if self.iterator % 200000 == 0:
+                   self.outputer.write_data(out, files="lc", timer=True)
+                else:
+                   self.outputer.write_data(out, files="lc", timer=False)
 
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):
@@ -166,7 +169,7 @@ class BlockFinder:
         else:
             self.result.update({depth_of_scheme: [new_scheme]})
             self.results_found += 1
-            output = "[ELB samples = {} patterns = {}]".format(new_scheme.samples, len(new_scheme.patterns)) \
+            output = "[ELB samples = {} patterns = {}]\n".format(new_scheme.samples, len(new_scheme.patterns)) \
                      + str(new_scheme) + "\n"
             self.outputer.write_data(output, files="e")
 
@@ -505,7 +508,7 @@ class Task:
                 return
             self.scheme_optimized = False
             max_samples = 1
-            while not self.scheme_optimized:
+            while max_samples <= 100 and not self.scheme_optimized:
                 self.outputer.write_data("Searching for products in max_samples={}".format(max_samples), files="lc")
                 self.find_products(max_samples)
                 if self.products_found:
@@ -570,6 +573,7 @@ class Task:
         # self.output("{} elementary blocks found\n".format(blocks_total))
 
     def clear_redundant_blocks(self):
+        checked=0
         for samples_num in self.all_blocks:
             patterns_numbers = list(self.all_blocks[samples_num].keys())
             patterns_numbers.sort(reverse=True)
@@ -577,6 +581,10 @@ class Task:
             for pattern_num in patterns_numbers:
                 new_block_list = []
                 for block in self.all_blocks[samples_num][pattern_num]:
+                    checked += 1
+                    if checked % 10000 == 0:
+                        print("clear_redundant_blocks: {} blocks checked".format(checked))
+                        sys.stdout.flush()
                     block_good = True
                     for good_block in good_blocks:
                         if block.is_subset_of(good_block.simplified):
@@ -592,6 +600,7 @@ class Task:
         self.clear_empty_block_types()
 
     def clear_product_blocks(self):
+        checked= 0
         blocks_samples = list(self.all_blocks.keys())
         blocks_samples.sort(reverse=True)
         for samples_num in blocks_samples:
@@ -600,6 +609,10 @@ class Task:
             for patterns_num in patterns_numbers:
                 good_blocks = []
                 for block in self.all_blocks[samples_num][patterns_num]:
+                    checked += 1
+                    if checked % 10000 == 0:
+                        print("clear_product_blocks: {} blocks checked".format(checked))
+                        sys.stdout.flush()
                     block_good = True
                     prod_finder = ProductFinder(self.all_blocks, samples_num, patterns_num, equal=True)
                     products = prod_finder.find_products()

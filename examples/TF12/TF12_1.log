@@ -1,0 +1,2246 @@
+
+[Date,Time = 2018-07-03_16:12:53]
+
+#############################################################################
+#                                                                           #
+#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        Combinatorial Labeling Schemes for Fast NMR Protein                #
+#        Assignment.                                                        #
+#                                                                           #
+#        In case of using for scientific purpose, please cite our article:  #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#############################################################################
+
+[Date,Time = 2018-07-03_16:12:53]
+[NCS = TF12]
+
+[Date,Time = 2018-07-03_16:12:53]
+Searching for elementary blocks(ELB)
+[Date,Time = 2018-07-03_16:12:53]
+[BlockFinder1] started new search in 1 samples with min_depth=2
+
+[Date,Time = 2018-07-03_16:12:53]
+[BlockFinder1] finished search in 1 samples after 0 sec and 11 iterations, 4 ELB schemes found
+
+[Date,Time = 2018-07-03_16:12:53]
+Searching for products in max_samples=1
+[Date,Time = 2018-07-03_16:12:53]
+Searching for products in max_samples=2
+[Date,Time = 2018-07-03_16:12:53]
+Searching for products in max_samples=3
+[Date,Time = 2018-07-03_16:12:53]
+Blocks used:
+1x2 - 3 block(s)
+1x3 - 1 block(s)
+Total blocks number: 4
+-----------------------
+Products calculated:
+[(1, 3), (1, 3), (1, 3)]: 1 scheme(s)
+1 product types calculated
+1 total labeling schemes to check
+
+[Date,Time = 2018-07-03_16:12:53]
+Schemes optimization in max_samples=3
+[Date,Time = 2018-07-03_16:12:53]
+------------
+Checking schemes for product [(1, 3), (1, 3), (1, 3)]. Total 1 schemes
+[Date,Time = 2018-07-03_16:12:53]
+---------
+Checking scheme 1/1
+[Date,Time = 2018-07-03_16:12:53]
+
+NNN
+NND
+NNT
+NDN
+NDD
+NDT
+NTN
+NTD
+NTT
+DNN
+DND
+DNT
+DDN
+DDD
+DDT
+DTN
+DTD
+DTT
+TNN
+TND
+TNT
+TDN
+TDD
+TDT
+TTN
+TTD
+TTT
+Scheme consists of following blocks:
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:53]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:53]
+Searching for products in max_samples=4
+[Date,Time = 2018-07-03_16:12:53]
+Blocks used:
+1x2 - 3 block(s)
+1x3 - 1 block(s)
+Total blocks number: 4
+-----------------------
+Products calculated:
+[(1, 2), (1, 2), (1, 2), (1, 3)]: 27 scheme(s)
+[(1, 2), (1, 2), (1, 3), (1, 3)]: 9 scheme(s)
+[(1, 2), (1, 3), (1, 3), (1, 3)]: 3 scheme(s)
+[(1, 3), (1, 3), (1, 3), (1, 3)]: 1 scheme(s)
+4 product types calculated
+40 total labeling schemes to check
+
+[Date,Time = 2018-07-03_16:12:53]
+Schemes optimization in max_samples=4
+[Date,Time = 2018-07-03_16:12:53]
+------------
+Checking schemes for product [(1, 2), (1, 2), (1, 2), (1, 3)]. Total 27 schemes
+[Date,Time = 2018-07-03_16:12:53]
+---------
+Checking scheme 1/40
+[Date,Time = 2018-07-03_16:12:53]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+D
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+New best price: 11942.20519
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 2/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+D
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 3/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+D
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 4/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+T
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 5/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+T
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 6/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+T
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 7/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+Scheme consists of following blocks:
+
+N
+D
+
+D
+T
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 8/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+Scheme consists of following blocks:
+
+N
+T
+
+D
+T
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 9/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+Scheme consists of following blocks:
+
+D
+T
+
+D
+T
+
+N
+D
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 10/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDTN
+NDTD
+NDTT
+DNNN
+DNND
+DNNT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDTN
+DDTD
+DDTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+D
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 11/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDTN
+NDTD
+NDTT
+TNNN
+TNND
+TNNT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDTN
+TDTD
+TDTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+D
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 12/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDTN
+DDTD
+DDTT
+TNNN
+TNND
+TNNT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDTN
+TDTD
+TDTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+D
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 13/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNTN
+NNTD
+NNTT
+NTNN
+NTND
+NTNT
+NTTN
+NTTD
+NTTT
+DNNN
+DNND
+DNNT
+DNTN
+DNTD
+DNTT
+DTNN
+DTND
+DTNT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+T
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 14/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNTN
+NNTD
+NNTT
+NTNN
+NTND
+NTNT
+NTTN
+NTTD
+NTTT
+TNNN
+TNND
+TNNT
+TNTN
+TNTD
+TNTT
+TTNN
+TTND
+TTNT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+T
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 15/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNTN
+DNTD
+DNTT
+DTNN
+DTND
+DTNT
+DTTN
+DTTD
+DTTT
+TNNN
+TNND
+TNNT
+TNTN
+TNTD
+TNTT
+TTNN
+TTND
+TTNT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+T
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 16/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDNN
+NDND
+NDNT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTTN
+NTTD
+NTTT
+DDNN
+DDND
+DDNT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+D
+T
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 17/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDNN
+NDND
+NDNT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTTN
+NTTD
+NTTT
+TDNN
+TDND
+TDNT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+D
+T
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 18/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DDNN
+DDND
+DDNT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTTN
+DTTD
+DTTT
+TDNN
+TDND
+TDNT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+D
+T
+
+N
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 19/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+D
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 20/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+D
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 21/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+D
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 22/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+T
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 23/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+T
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 24/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+T
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 25/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+D
+T
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 26/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+D
+T
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 27/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+D
+T
+
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+------------
+Checking schemes for product [(1, 2), (1, 2), (1, 3), (1, 3)]. Total 9 schemes
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 28/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+D
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+New best price: 11878.982689999997
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 29/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+D
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 30/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+D
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 31/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 32/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 33/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 34/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 35/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Equivalent scheme was already checked
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 36/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+------------
+Checking schemes for product [(1, 2), (1, 3), (1, 3), (1, 3)]. Total 3 schemes
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 37/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+Scheme consists of following blocks:
+
+N
+D
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+New best price: 11835.774039999998
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 38/40
+[Date,Time = 2018-07-03_16:12:54]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+T
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+---------
+Checking scheme 39/40
+[Date,Time = 2018-07-03_16:12:54]
+
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:54]
+Scheme can not be optimized
+[Date,Time = 2018-07-03_16:12:54]
+------------
+Checking schemes for product [(1, 3), (1, 3), (1, 3), (1, 3)]. Total 1 schemes
+[Date,Time = 2018-07-03_16:12:55]
+---------
+Checking scheme 40/40
+[Date,Time = 2018-07-03_16:12:55]
+
+NNNN
+NNND
+NNNT
+NNDN
+NNDD
+NNDT
+NNTN
+NNTD
+NNTT
+NDNN
+NDND
+NDNT
+NDDN
+NDDD
+NDDT
+NDTN
+NDTD
+NDTT
+NTNN
+NTND
+NTNT
+NTDN
+NTDD
+NTDT
+NTTN
+NTTD
+NTTT
+DNNN
+DNND
+DNNT
+DNDN
+DNDD
+DNDT
+DNTN
+DNTD
+DNTT
+DDNN
+DDND
+DDNT
+DDDN
+DDDD
+DDDT
+DDTN
+DDTD
+DDTT
+DTNN
+DTND
+DTNT
+DTDN
+DTDD
+DTDT
+DTTN
+DTTD
+DTTT
+TNNN
+TNND
+TNNT
+TNDN
+TNDD
+TNDT
+TNTN
+TNTD
+TNTT
+TDNN
+TDND
+TDNT
+TDDN
+TDDD
+TDDT
+TDTN
+TDTD
+TDTT
+TTNN
+TTND
+TTNT
+TTDN
+TTDD
+TTDT
+TTTN
+TTTD
+TTTT
+Scheme consists of following blocks:
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+[Date,Time = 2018-07-03_16:12:55]
+New best price: 11818.507940000001
+[Date,Time = 2018-07-03_16:12:55]
+________________________
+Best scheme:
+[solution]
+Res,S1,S2,S3,S4
+Ala, N, N, N, T
+Arg, N, D, D, D
+Asn, D, N, D, D
+Asp, N, N, T, N
+Cys, N, N, N, D
+Gln, N, N, D, D
+Glu, N, D, N, D
+Gly, N, T, N, N
+His, N, D, D, N
+Ile, D, D, N, D
+Leu, T, N, N, N
+Lys, D, N, N, D
+Met, N, N, D, N
+Phe, D, N, D, N
+Pro, X, F, X, X
+Ser, D, D, D, N
+Thr, D, D, D, D
+Trp, N, N, N, N
+Tyr, D, N, N, N
+Val, D, D, N, N
+
+Blocks used for this scheme:
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+
+N
+D
+T
+
+Price: 11818.507940000001
+[Date,Time = 2018-07-03_16:12:55]
+-----
+Calculation finished at 2018-07-03 16:12:55!

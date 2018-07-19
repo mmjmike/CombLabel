@@ -1,0 +1,10 @@
+[ELB samples = 1 patterns = 3]
+N
+D
+T
+[ELB samples = 1 patterns = 2]
+D
+T
+[ELB samples = 1 patterns = 2]
+N
+T
