@@ -1,5 +1,5 @@
 
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 
 #############################################################################
 #                                                                           #
@@ -14,7 +14,7 @@
 #                                                                           #
 #############################################################################
 
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Blocks used:
  2 X  2 - 1 block(s)
  3 X  3 - 1 block(s)
@@ -36,9 +36,9 @@ Blocks used:
  TOTAL - 31 blocks
 -----------
 
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Clearing redundant blocks(ELB)
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Blocks used:
  2 X  2 - 1 block(s)
  3 X  3 - 1 block(s)
@@ -60,9 +60,9 @@ Blocks used:
  TOTAL - 26 blocks
 -----------
 
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Clearing product blocks(ELB)
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Blocks used:
  2 X  2 - 1 block(s)
  3 X  3 - 1 block(s)
@@ -81,25 +81,25 @@ Blocks used:
  TOTAL - 21 blocks
 -----------
 
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=1
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=2
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=3
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=4
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=5
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=6
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=7
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=8
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Searching for products in max_samples=9
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 [NCS = NC2]
 Blocks used:
  2 X  2 - 1 block(s)
@@ -132,15 +132,15 @@ Products calculated for 9 samples:
 8 product types calculated
 24 total labeling schemes to check
 
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Schemes optimization in max_samples=9
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 ------------
 Checking schemes for product [(2, 2), (2, 2), (2, 2), (3, 3)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 Checking scheme 1/24 - New best price: 33307.366649999996
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 NCNCNCNNC
 NCNCNCNCN
 NCNCNCCNN
@@ -180,13 +180,13 @@ NCN
 CNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:16]
 ------------
 Checking schemes for product [(2, 2), (2, 2), (5, 5)]. Total 3 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:40]
-Checking scheme 2/24 - New best price: 30292.711419999992
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
+Checking scheme 2/24 - New best price: 30292.711419999996
+[Date,Time = 2018-07-11_14:03:17]
 NCNCXNNNC
 NCNCNNCCN
 NCNCNCNCN
@@ -221,9 +221,9 @@ CNCNN
 CCNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 Checking scheme 3/24 - New best price: 29888.197740000003
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 NCNCNNNNC
 NCNCNNNCN
 NCNCNNCNN
@@ -258,9 +258,9 @@ NCNNN
 CNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 Checking scheme 4/24 - Price: 31169.131659999992
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 NCNCNNNNC
 NCNCNNCCN
 NCNCNCNCN
@@ -295,13 +295,13 @@ CNCNN
 CCNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 ------------
 Checking schemes for product [(2, 2), (3, 3), (4, 4)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 Checking scheme 5/24 - Price: 29888.197740000003
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 NCNNCNNNC
 NCNNCNNCN
 NCNNCNCNN
@@ -340,13 +340,13 @@ NCNN
 CNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 ------------
 Checking schemes for product [(2, 2), (7, 10)]. Total 6 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:40]
-Checking scheme 6/24 - New best price: 28012.366439999998
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
+Checking scheme 6/24 - New best price: 28012.366440000005
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNNC
 NCNNNNCCN
 NCNNNCNCN
@@ -383,9 +383,9 @@ CNNCNNN
 CNCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
-Checking scheme 7/24 - Price: 28935.8912
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
+Checking scheme 7/24 - Price: 28935.89119999999
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNCC
 NCXNNNCNC
 NCXNCCNNN
@@ -422,9 +422,9 @@ CNCNNNC
 CCXNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 Checking scheme 8/24 - Price: 28982.782199999994
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNCC
 NCXNNNCNC
 NCXNCCNNN
@@ -461,9 +461,9 @@ CNCNNNC
 CCNNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:40]
-Checking scheme 9/24 - Price: 29174.2788
-[Date,Time = 2018-07-03_18:09:40]
+[Date,Time = 2018-07-11_14:03:17]
+Checking scheme 9/24 - Price: 29174.278800000004
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNCC
 NCXNNNCNC
 NCNNCCNNN
@@ -500,9 +500,9 @@ CNCNNNC
 CCNNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 10/24 - Price: 29621.942289999995
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
+Checking scheme 10/24 - Price: 29621.942290000003
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNCC
 NCNNNNCNC
 NCNNCCNNN
@@ -539,9 +539,9 @@ CNCNNNC
 CCNNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 Checking scheme 11/24 - Price: 30585.771759999996
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNCC
 NCNNNNCNC
 NCNNCCNNC
@@ -578,13 +578,13 @@ CCNNCNN
 CCCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 ------------
 Checking schemes for product [(2, 2), (7, 11)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 12/24 - Price: 31431.535349999995
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
+Checking scheme 12/24 - Price: 31431.535350000002
+[Date,Time = 2018-07-11_14:03:17]
 NCXNNNNCC
 NCNNNCCNC
 NCNNCNCNC
@@ -624,13 +624,13 @@ CCNCNNN
 CCCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 ------------
 Checking schemes for product [(3, 3), (3, 3), (3, 3)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 Checking scheme 13/24 - Price: 29888.197740000003
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 NNCNNCNNC
 NNCNNCNCN
 NNCNNCCNN
@@ -672,13 +672,13 @@ NCN
 CNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:17]
 ------------
 Checking schemes for product [(3, 3), (6, 7)]. Total 8 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 14/24 - New best price: 27400.15079
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
+Checking scheme 14/24 - New best price: 27400.150790000003
+[Date,Time = 2018-07-11_14:03:18]
 NNCXNNNNC
 NNCNNNCCN
 NNCNNCNCN
@@ -714,9 +714,9 @@ CNCNNN
 CCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
 Checking scheme 15/24 - Price: 28741.868449999998
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
 NNCXNNNCC
 NNCXNCCNN
 NNCNCNCNC
@@ -752,9 +752,9 @@ CNCNNC
 CCXNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 16/24 - Price: 28838.600139999988
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
+Checking scheme 16/24 - Price: 28838.60014
+[Date,Time = 2018-07-11_14:03:18]
 NNCXNNNCC
 NNCXNCCNN
 NNCNCNCNC
@@ -790,9 +790,9 @@ CNCNNC
 CCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 17/24 - Price: 29247.175509999994
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
+Checking scheme 17/24 - Price: 29247.175509999997
+[Date,Time = 2018-07-11_14:03:18]
 NNCXNNNCC
 NNCNNCCNN
 NNCNCNCNC
@@ -828,9 +828,9 @@ CNCNNC
 CCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 18/24 - Price: 30819.319699999993
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
+Checking scheme 18/24 - Price: 30819.3197
+[Date,Time = 2018-07-11_14:03:18]
 NNCXNNNCC
 NNCNNCCNC
 NNCNCNCCN
@@ -866,9 +866,9 @@ CCNNCN
 CCCNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
 Checking scheme 19/24 - Price: 28056.154780000008
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
 NNCNNNNNC
 NNCNNNCCN
 NNCNNCNCN
@@ -904,9 +904,9 @@ CNCNNN
 CCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 20/24 - Price: 30062.219689999994
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:18]
+Checking scheme 20/24 - Price: 30062.21969
+[Date,Time = 2018-07-11_14:03:18]
 NNCNNNNCC
 NNCNNCCNN
 NNCNCNCNC
@@ -942,9 +942,9 @@ CNCNNC
 CCNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 21/24 - Price: 31475.323689999994
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
+Checking scheme 21/24 - Price: 31475.323689999997
+[Date,Time = 2018-07-11_14:03:19]
 NNCNNNNCC
 NNCNNCCNC
 NNCNCNCNC
@@ -980,13 +980,13 @@ CCNNCN
 CCNCNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
 ------------
 Checking schemes for product [(4, 4), (5, 5)]. Total 3 schemes
 ------------
-[Date,Time = 2018-07-03_18:09:41]
-Checking scheme 22/24 - New best price: 26873.54251
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
+Checking scheme 22/24 - New best price: 26873.542510000003
+[Date,Time = 2018-07-11_14:03:19]
 NNNCXNNNC
 NNNCNNCCN
 NNNCNCNCN
@@ -1020,9 +1020,9 @@ CNCNN
 CCNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
 Checking scheme 23/24 - New best price: 26469.02883
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
 NNNCNNNNC
 NNNCNNNCN
 NNNCNNCNN
@@ -1056,9 +1056,9 @@ NCNNN
 CNNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
 Checking scheme 24/24 - Price: 27749.962750000006
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
 NNNCNNNNC
 NNNCNNCCN
 NNNCNCNCN
@@ -1092,7 +1092,7 @@ CNCNN
 CCNNN
 
 ---------
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
 ________________________
 Best scheme
 [NCS = NC2]
@@ -1134,6 +1134,42 @@ NNCNN
 NCNNN
 CNNNN
 
-[Date,Time = 2018-07-03_18:09:41]
+[Date,Time = 2018-07-11_14:03:19]
+-------------
+Products in 9 samples:
+[(2, 2), (2, 2), (2, 2), (3, 3)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   1 scheme(s): price calculated
+[(2, 2), (2, 2), (5, 5)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   3 scheme(s): price calculated
+[(2, 2), (3, 3), (4, 4)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   1 scheme(s): price calculated
+[(2, 2), (7, 10)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   6 scheme(s): price calculated
+[(2, 2), (7, 11)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   1 scheme(s): price calculated
+[(3, 3), (3, 3), (3, 3)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   1 scheme(s): price calculated
+[(3, 3), (6, 7)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   8 scheme(s): price calculated
+[(4, 4), (5, 5)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   3 scheme(s): price calculated
+
+[Date,Time = 2018-07-11_14:03:19]
 -----
-Calculation finished at 2018-07-03 18:09:41!
+Calculation finished at 2018-07-11 14:03:19!

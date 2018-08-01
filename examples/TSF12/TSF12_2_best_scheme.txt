@@ -1,5 +1,6 @@
 ________________________
-Best scheme:
+Best scheme
+[NCS = TSF12]
 [solution]
 Res,S1,S2,S3,S4
 Ala, N, N, N, T
@@ -22,22 +23,23 @@ Thr, D, D, D, D
 Trp, N, N, N, N
 Tyr, D, N, N, N
 Val, D, D, N, N
+[price]
+11818.507939999996
 
 Blocks used for this scheme:
+[ELB samples = 1 patterns = 3]
 N
 D
 T
-
+[ELB samples = 1 patterns = 3]
 N
 D
 T
-
+[ELB samples = 1 patterns = 3]
 N
 D
 T
-
+[ELB samples = 1 patterns = 3]
 N
 D
 T
-
-Price: 11818.507939999996

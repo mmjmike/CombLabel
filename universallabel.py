@@ -402,10 +402,14 @@ class Task:
             for scheme in product:
                 curr_blocks = product.last_blocks
                 output = "Checking scheme {}/{} - ".format(schemes, self.schemes_total)
+                status = ""
+
                 if not self.scheme_checked(scheme, checked_schemes):
                     price_optimizer.minimize_price(scheme, curr_blocks)
+                    status = "price calculated"
                     if not price_optimizer.success:
                         output += "Scheme can not be optimized"
+                        status = "cannot be optimized"
                     elif not scheme_found or best_scheme.price > price_optimizer.best_scheme.price:
                         best_scheme = price_optimizer.best_scheme
                         scheme_found = True
@@ -416,6 +420,10 @@ class Task:
                     checked_number += 1
                 else:
                     output += "Equivalent scheme was already checked"
+                    status = "equivalent"
+                self.update_stats(scheme.samples, str(product.product_list), status)
+
+
                 self.outputer.write_data(output, files="cl")
                 output = "{}Scheme consists of following blocks:\n".format(str(scheme))
                 for block in curr_blocks:
@@ -426,60 +434,17 @@ class Task:
         self.scheme_optimized = scheme_found
         self.best_scheme = best_scheme
 
-
-        #     self.all_schemes = []
-        #     self.obtain_scheme(product, [Scheme("", self.ncs, 0, [""])], [[]])
-        #     self.output("\nChecking product: {}".format(product))
-        #     self.output("total schemes for this product: {}".format(len(self.all_schemes)))
-        #     for i in range(len(self.all_schemes)):
-        #         scheme = self.all_schemes[i]
-        #         scheme.sort()
-        #         blocks = self.all_blocks[i]
-        #         self.output("------------------------------------\n{} scheme. Consists of following blocks: ".format(checked_number+1))
-        #         for block in blocks:
-        #             self.output(str(block))
-        #         self.output("\nScheme itself:")
-        #         self.output(str(scheme))
-        #         if scheme.simplified not in checked_schemes:
-        #             optimal_scheme = price_optimizer.minimize_price(scheme)
-        #             # if impossible to use due to lack in the stock, skip
-        #             if not optimal_scheme[0].success:
-        #                 self.output("Scheme can not be optimized")
-        #             else:
-        #                 label_dict = self.get_scheme_from_linprog(optimal_scheme, scheme)
-        #                 self.output("\nScheme was successfully optimized:")
-        #                 self.output_best_scheme(label_dict, scheme.samples, final=False)
-        #                 self.output("Scheme price: {}".format(optimal_scheme[0].fun))
-        #                 if not scheme_found:
-        #                     best_scheme = optimal_scheme
-        #                     best_scheme_patterns = copy.copy(scheme)
-        #                     best_blocks = blocks
-        #                     scheme_found = True
-        #                 elif optimal_scheme[0].fun < best_scheme[0].fun:
-        #                     best_scheme = optimal_scheme
-        #                     best_scheme_patterns = copy.copy(scheme)
-        #                     best_blocks = blocks
-        #             checked_schemes.add(scheme.simplified)
-        #         else:
-        #             self.output("Equivalent scheme was already checked")
-        #         checked_number += 1
-        #
-        #         self.output("{}/{} schemes checked".format(checked_number,
-        #                                                    self.product_schemes))
-        #         if scheme_found:
-        #             self.output("Best price: {}".format(best_scheme[0].fun))
-        #
-        # if scheme_found:
-        #     best_scheme_patterns.sort()
-        #     label_dict = self.get_scheme_from_linprog(best_scheme, best_scheme_patterns)
-        #     samples = best_scheme_patterns.samples
-        #     self.output_best_scheme(label_dict, samples, best_blocks)
-        # else:
-        #     self.output("No schemes were found...")
-        # self.output("________________________\nCalculation finished!")
-
-    def save_schemes_stats(self):
-        pass
+    def update_stats(self, samples, product_type, status):
+        if samples not in self.stats:
+            self.stats.update({samples: {}})
+        if product_type not in self.stats[samples]:
+            zero_dict = {
+                "price calculated": 0,
+                "equivalent": 0,
+                "cannot be optimized": 0
+            }
+            self.stats[samples].update({product_type: zero_dict})
+        self.stats[samples][product_type][status] += 1
 
     def run(self):
         if self.block_finder_mode:
@@ -515,6 +480,7 @@ class Task:
                     self.find_best_scheme()
                 max_samples += 1
             self.outputer.write_best_scheme(self.best_scheme)
+            self.outputer.write_product_stats(self.stats)
         self.finish_output()
 
     def obtain_scheme(self, product, schemes, block_list, depth=0):
@@ -556,20 +522,6 @@ class Task:
             else:
                 min_depth += 1
 
-
-            # for key in result:
-            #     self.types.append((i+1, key))
-            #     blocks_total += len(result[key])
-
-            # print(result)
-        # sizes = []
-        # for key in self.results:
-        #     sizes.append(key)
-        # sizes.sort()
-        # for size in sizes:
-        #     self.output("{} blocks {}x{} found".format(len(self.results[size]), self.results[size][0].samples, size))
-        # self.output("{} elementary blocks found\n".format(blocks_total))
-
     def clear_redundant_blocks(self):
         for samples_num in self.all_blocks:
             patterns_numbers = list(self.all_blocks[samples_num].keys())
@@ -586,7 +538,7 @@ class Task:
                     if block_good:
                         good_blocks.append(block)
                         new_block_list.append(block)
-                if new_block_list == []:
+                if not new_block_list:
                     self.all_blocks[samples_num].pop(pattern_num)
                 else:
                     self.all_blocks[samples_num][pattern_num] = new_block_list
@@ -611,10 +563,6 @@ class Task:
                             break
                         for product_block in product:
                             if product_block == block:
-                                # for elb in product.last_blocks:
-                                #     print("ELB:",elb)
-                                # print(product_block, "\nX", block)
-                                # print(samples_num, "X", patterns_num)
                                 block_good = False
                                 break
                     if block_good:
@@ -630,7 +578,7 @@ class Task:
         for samples_num in self.all_blocks:
             bad_patt_keys = []
             for patterns_num in self.all_blocks[samples_num]:
-                if self.all_blocks[samples_num][patterns_num] == []:
+                if not self.all_blocks[samples_num][patterns_num]:
                     bad_patt_keys.append(patterns_num)
             for patterns_num in bad_patt_keys:
                 self.all_blocks[samples_num].pop(patterns_num)
@@ -643,13 +591,6 @@ class Task:
         output = datetime.datetime.now().strftime('-----\nCalculation finished at %Y-%m-%d %H:%M:%S!')
         self.outputer.write_data(output, files="cl")
         self.outputer.close_files()
-
-    def write_to_file(self, filename, output, mode='w'):
-
-        #f = open(filename, mode)
-        self.output_stream.write(output)
-        self.output_stream.flush()
-        #f.close()
 
     def output_blockfinder(self, blockfinder):
         pass

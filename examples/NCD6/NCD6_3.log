@@ -1,5 +1,5 @@
 
-[Date,Time = 2018-07-03_18:46:25]
+[Date,Time = 2018-07-11_14:06:03]
 
 #############################################################################
 #                                                                           #
@@ -14,7 +14,7 @@
 #                                                                           #
 #############################################################################
 
-[Date,Time = 2018-07-03_18:46:25]
+[Date,Time = 2018-07-11_14:06:03]
 Blocks used:
  1 X  2 - 1 block(s)
  2 X  3 - 8 block(s)
@@ -30,9 +30,9 @@ Blocks used:
  TOTAL - 378 blocks
 -----------
 
-[Date,Time = 2018-07-03_18:46:25]
+[Date,Time = 2018-07-11_14:06:03]
 Clearing redundant blocks(ELB)
-[Date,Time = 2018-07-03_18:46:25]
+[Date,Time = 2018-07-11_14:06:03]
 Blocks used:
  1 X  2 - 1 block(s)
  2 X  3 - 5 block(s)
@@ -47,9 +47,9 @@ Blocks used:
  TOTAL - 109 blocks
 -----------
 
-[Date,Time = 2018-07-03_18:46:25]
+[Date,Time = 2018-07-11_14:06:03]
 Clearing product blocks(ELB)
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Blocks used:
  1 X  2 - 1 block(s)
  2 X  3 - 5 block(s)
@@ -63,17 +63,17 @@ Blocks used:
  TOTAL - 104 blocks
 -----------
 
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Searching for products in max_samples=1
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Searching for products in max_samples=2
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Searching for products in max_samples=3
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Searching for products in max_samples=4
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Searching for products in max_samples=5
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 [NCS = NCD6]
 Blocks used:
  1 X  2 - 1 block(s)
@@ -99,15 +99,15 @@ Products calculated for 5 samples:
 6 product types calculated
 134 total labeling schemes to check
 
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 Schemes optimization in max_samples=5
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 ------------
 Checking schemes for product [(1, 2), (1, 2), (1, 2), (1, 2), (1, 2)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-03_18:46:26]
-Checking scheme 1/134 - New best price: 12821.690460000003
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
+Checking scheme 1/134 - New best price: 12821.690460000002
+[Date,Time = 2018-07-11_14:06:03]
 NNNNN
 NNNND
 NNNDN
@@ -157,13 +157,13 @@ N
 D
 
 ---------
-[Date,Time = 2018-07-03_18:46:26]
+[Date,Time = 2018-07-11_14:06:03]
 ------------
 Checking schemes for product [(1, 2), (1, 2), (1, 2), (2, 3)]. Total 5 schemes
 ------------
-[Date,Time = 2018-07-03_18:46:27]
-Checking scheme 2/134 - New best price: 12398.11563
-[Date,Time = 2018-07-03_18:46:27]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 2/134 - New best price: 12398.115630000006
+[Date,Time = 2018-07-11_14:06:04]
 NNNXN
 NNNCD
 NNNDC
@@ -203,9 +203,9 @@ CD
 DC
 
 ---------
-[Date,Time = 2018-07-03_18:46:27]
-Checking scheme 3/134 - Price: 13022.960179999996
-[Date,Time = 2018-07-03_18:46:27]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 3/134 - Price: 13022.960180000002
+[Date,Time = 2018-07-11_14:06:04]
 NNNXD
 NNNCN
 NNNDC
@@ -245,9 +245,9 @@ CN
 DC
 
 ---------
-[Date,Time = 2018-07-03_18:46:28]
-Checking scheme 4/134 - Price: 13544.171159999998
-[Date,Time = 2018-07-03_18:46:28]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 4/134 - Price: 13544.17116
+[Date,Time = 2018-07-11_14:06:04]
 NNNNN
 NNNCD
 NNNDC
@@ -287,9 +287,9 @@ CD
 DC
 
 ---------
-[Date,Time = 2018-07-03_18:46:28]
-Checking scheme 5/134 - Price: 13126.26929
-[Date,Time = 2018-07-03_18:46:28]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 5/134 - Price: 13126.269289999997
+[Date,Time = 2018-07-11_14:06:04]
 NNNNC
 NNNCN
 NNNDD
@@ -329,9 +329,9 @@ CN
 DD
 
 ---------
-[Date,Time = 2018-07-03_18:46:28]
-Checking scheme 6/134 - Price: 14052.08944
-[Date,Time = 2018-07-03_18:46:28]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 6/134 - Price: 14052.089440000003
+[Date,Time = 2018-07-11_14:06:04]
 NNNNC
 NNNCD
 NNNDN
@@ -371,13 +371,13 @@ CD
 DN
 
 ---------
-[Date,Time = 2018-07-03_18:46:28]
+[Date,Time = 2018-07-11_14:06:04]
 ------------
 Checking schemes for product [(1, 2), (1, 2), (3, 8)]. Total 6 schemes
 ------------
-[Date,Time = 2018-07-03_18:46:29]
-Checking scheme 7/134 - New best price: 12326.270950000002
-[Date,Time = 2018-07-03_18:46:29]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 7/134 - New best price: 12326.27095
+[Date,Time = 2018-07-11_14:06:04]
 NNXNN
 NNNCD
 NNNDC
@@ -427,9 +427,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:29]
-Checking scheme 8/134 - New best price: 11876.6042
-[Date,Time = 2018-07-03_18:46:29]
+[Date,Time = 2018-07-11_14:06:04]
+Checking scheme 8/134 - New best price: 11876.604199999998
+[Date,Time = 2018-07-11_14:06:04]
 NNXND
 NNNCN
 NNNDC
@@ -479,9 +479,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:46:29]
-Checking scheme 9/134 - Price: 12264.155989999997
-[Date,Time = 2018-07-03_18:46:29]
+[Date,Time = 2018-07-11_14:06:05]
+Checking scheme 9/134 - Price: 12264.155989999994
+[Date,Time = 2018-07-11_14:06:05]
 NNXND
 NNNCN
 NNNDC
@@ -531,9 +531,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:30]
-Checking scheme 10/134 - Price: 12038.205190000004
-[Date,Time = 2018-07-03_18:46:30]
+[Date,Time = 2018-07-11_14:06:05]
+Checking scheme 10/134 - Price: 12038.205189999995
+[Date,Time = 2018-07-11_14:06:05]
 NNXDD
 NNNNC
 NNNCN
@@ -583,9 +583,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:31]
-Checking scheme 11/134 - Price: 12982.274940000001
-[Date,Time = 2018-07-03_18:46:31]
+[Date,Time = 2018-07-11_14:06:05]
+Checking scheme 11/134 - Price: 12982.274939999994
+[Date,Time = 2018-07-11_14:06:05]
 NNNNN
 NNNCD
 NNNDC
@@ -635,9 +635,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:31]
-Checking scheme 12/134 - Price: 12922.70749
-[Date,Time = 2018-07-03_18:46:31]
+[Date,Time = 2018-07-11_14:06:05]
+Checking scheme 12/134 - Price: 12922.707490000003
+[Date,Time = 2018-07-11_14:06:05]
 NNNNC
 NNNCN
 NNNDD
@@ -687,13 +687,13 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:31]
+[Date,Time = 2018-07-11_14:06:05]
 ------------
 Checking schemes for product [(1, 2), (1, 2), (3, 5)]. Total 24 schemes
 ------------
-[Date,Time = 2018-07-03_18:46:32]
-Checking scheme 13/134 - New best price: 11840.750630000004
-[Date,Time = 2018-07-03_18:46:32]
+[Date,Time = 2018-07-11_14:06:05]
+Checking scheme 13/134 - New best price: 11840.75063
+[Date,Time = 2018-07-11_14:06:05]
 NNXNN
 NNXND
 NNCDN
@@ -728,9 +728,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:32]
-Checking scheme 14/134 - Price: 12390.709180000003
-[Date,Time = 2018-07-03_18:46:32]
+[Date,Time = 2018-07-11_14:06:06]
+Checking scheme 14/134 - Price: 12390.709179999994
+[Date,Time = 2018-07-11_14:06:06]
 NNXNN
 NNXND
 NNCDD
@@ -765,9 +765,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:33]
+[Date,Time = 2018-07-11_14:06:06]
 Checking scheme 15/134 - Price: 12050.715769999999
-[Date,Time = 2018-07-03_18:46:33]
+[Date,Time = 2018-07-11_14:06:06]
 NNXNN
 NNNND
 NNCDN
@@ -802,9 +802,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:34]
-Checking scheme 16/134 - Price: 12817.857329999997
-[Date,Time = 2018-07-03_18:46:34]
+[Date,Time = 2018-07-11_14:06:06]
+Checking scheme 16/134 - Price: 12817.857330000003
+[Date,Time = 2018-07-11_14:06:06]
 NNXNN
 NNNND
 NNCDD
@@ -839,9 +839,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:34]
+[Date,Time = 2018-07-11_14:06:06]
 Checking scheme 17/134 - Price: 12356.35917
-[Date,Time = 2018-07-03_18:46:34]
+[Date,Time = 2018-07-11_14:06:06]
 NNXNN
 NNNCD
 NNCND
@@ -876,9 +876,9 @@ DDN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:35]
-Checking scheme 18/134 - Price: 12493.43499
-[Date,Time = 2018-07-03_18:46:35]
+[Date,Time = 2018-07-11_14:06:07]
+Checking scheme 18/134 - Price: 12493.434990000002
+[Date,Time = 2018-07-11_14:06:07]
 NNXND
 NNXDD
 NNCNN
@@ -913,9 +913,9 @@ DNC
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:46:36]
-Checking scheme 19/134 - Price: 12723.919540000003
-[Date,Time = 2018-07-03_18:46:36]
+[Date,Time = 2018-07-11_14:06:07]
+Checking scheme 19/134 - Price: 12723.91954
+[Date,Time = 2018-07-11_14:06:07]
 NNXND
 NNXDD
 NNCNN
@@ -950,9 +950,9 @@ DNC
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:36]
-Checking scheme 20/134 - Price: 14436.897930000003
-[Date,Time = 2018-07-03_18:46:36]
+[Date,Time = 2018-07-11_14:06:07]
+Checking scheme 20/134 - Price: 14436.89793
+[Date,Time = 2018-07-11_14:06:07]
 NNXND
 NNXDD
 NNCDN
@@ -987,9 +987,9 @@ DNX
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:37]
-Checking scheme 21/134 - Price: 14731.387939999993
-[Date,Time = 2018-07-03_18:46:37]
+[Date,Time = 2018-07-11_14:06:07]
+Checking scheme 21/134 - Price: 14731.387939999999
+[Date,Time = 2018-07-11_14:06:07]
 NNXND
 NNXDD
 NNCDN
@@ -1024,9 +1024,9 @@ DNN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:38]
-Checking scheme 22/134 - Price: 12210.034290000007
-[Date,Time = 2018-07-03_18:46:38]
+[Date,Time = 2018-07-11_14:06:07]
+Checking scheme 22/134 - Price: 12210.034290000001
+[Date,Time = 2018-07-11_14:06:07]
 NNXND
 NNNNN
 NNCDN
@@ -1061,9 +1061,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:39]
-Checking scheme 23/134 - Price: 12829.566419999997
-[Date,Time = 2018-07-03_18:46:39]
+[Date,Time = 2018-07-11_14:06:08]
+Checking scheme 23/134 - Price: 12829.56642
+[Date,Time = 2018-07-11_14:06:08]
 NNXND
 NNNNN
 NNCDD
@@ -1098,9 +1098,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:40]
+[Date,Time = 2018-07-11_14:06:08]
 Checking scheme 24/134 - Price: 12162.644599999998
-[Date,Time = 2018-07-03_18:46:40]
+[Date,Time = 2018-07-11_14:06:08]
 NNXND
 NNNCN
 NNCNN
@@ -1135,9 +1135,9 @@ DDN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:40]
-Checking scheme 25/134 - Price: 14744.546279999995
-[Date,Time = 2018-07-03_18:46:40]
+[Date,Time = 2018-07-11_14:06:08]
+Checking scheme 25/134 - Price: 14744.546280000002
+[Date,Time = 2018-07-11_14:06:08]
 NNXND
 NNNDC
 NNCDD
@@ -1172,9 +1172,9 @@ DNX
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:41]
-Checking scheme 26/134 - Price: 15201.855430000009
-[Date,Time = 2018-07-03_18:46:41]
+[Date,Time = 2018-07-11_14:06:08]
+Checking scheme 26/134 - Price: 15201.855430000001
+[Date,Time = 2018-07-11_14:06:08]
 NNXND
 NNNDC
 NNCDD
@@ -1209,9 +1209,9 @@ DNN
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:42]
-Checking scheme 27/134 - Price: 13185.11776
-[Date,Time = 2018-07-03_18:46:42]
+[Date,Time = 2018-07-11_14:06:08]
+Checking scheme 27/134 - Price: 13185.117760000001
+[Date,Time = 2018-07-11_14:06:08]
 NNXND
 NNNDD
 NNCNN
@@ -1246,9 +1246,9 @@ DNC
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:42]
-Checking scheme 28/134 - Price: 12671.168849999998
-[Date,Time = 2018-07-03_18:46:42]
+[Date,Time = 2018-07-11_14:06:09]
+Checking scheme 28/134 - Price: 12671.16885
+[Date,Time = 2018-07-11_14:06:09]
 NNXDD
 NNNNC
 NNCND
@@ -1283,9 +1283,9 @@ DNN
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:46:43]
-Checking scheme 29/134 - Price: 13088.82073
-[Date,Time = 2018-07-03_18:46:43]
+[Date,Time = 2018-07-11_14:06:09]
+Checking scheme 29/134 - Price: 13088.820729999996
+[Date,Time = 2018-07-11_14:06:09]
 NNXDD
 NNNNC
 NNCND
@@ -1320,9 +1320,9 @@ DNN
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:44]
-Checking scheme 30/134 - Price: 15225.13811
-[Date,Time = 2018-07-03_18:46:44]
+[Date,Time = 2018-07-11_14:06:09]
+Checking scheme 30/134 - Price: 15225.138110000004
+[Date,Time = 2018-07-11_14:06:09]
 NNXDD
 NNNND
 NNCDN
@@ -1357,9 +1357,9 @@ DNN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:45]
+[Date,Time = 2018-07-11_14:06:09]
 Checking scheme 31/134 - Price: 12841.8896
-[Date,Time = 2018-07-03_18:46:45]
+[Date,Time = 2018-07-11_14:06:09]
 NNNNN
 NNNND
 NNCDN
@@ -1394,9 +1394,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:46]
-Checking scheme 32/134 - Price: 13805.534519999992
-[Date,Time = 2018-07-03_18:46:46]
+[Date,Time = 2018-07-11_14:06:09]
+Checking scheme 32/134 - Price: 13805.534519999997
+[Date,Time = 2018-07-11_14:06:09]
 NNNNN
 NNNND
 NNCDD
@@ -1431,9 +1431,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:46]
-Checking scheme 33/134 - Price: 13114.439800000004
-[Date,Time = 2018-07-03_18:46:46]
+[Date,Time = 2018-07-11_14:06:10]
+Checking scheme 33/134 - Price: 13114.439800000002
+[Date,Time = 2018-07-11_14:06:10]
 NNNNN
 NNNCD
 NNCND
@@ -1468,9 +1468,9 @@ DDN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:47]
-Checking scheme 34/134 - Price: 12753.276289999998
-[Date,Time = 2018-07-03_18:46:47]
+[Date,Time = 2018-07-11_14:06:10]
+Checking scheme 34/134 - Price: 12753.276290000003
+[Date,Time = 2018-07-11_14:06:10]
 NNNNC
 NNNCN
 NNNDD
@@ -1505,9 +1505,9 @@ DNN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:47]
+[Date,Time = 2018-07-11_14:06:10]
 Checking scheme 35/134 - Price: 13858.597330000002
-[Date,Time = 2018-07-03_18:46:47]
+[Date,Time = 2018-07-11_14:06:10]
 NNNNC
 NNNCD
 NNNDN
@@ -1542,9 +1542,9 @@ DND
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:48]
-Checking scheme 36/134 - Price: 16109.640410000002
-[Date,Time = 2018-07-03_18:46:48]
+[Date,Time = 2018-07-11_14:06:10]
+Checking scheme 36/134 - Price: 16109.640410000007
+[Date,Time = 2018-07-11_14:06:10]
 NNNND
 NNNDN
 NNDNC
@@ -1579,13 +1579,13 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:48]
+[Date,Time = 2018-07-11_14:06:10]
 ------------
 Checking schemes for product [(1, 2), (1, 2), (3, 6)]. Total 68 schemes
 ------------
-[Date,Time = 2018-07-03_18:46:48]
-Checking scheme 37/134 - Price: 11993.83275
-[Date,Time = 2018-07-03_18:46:48]
+[Date,Time = 2018-07-11_14:06:10]
+Checking scheme 37/134 - Price: 11993.832750000005
+[Date,Time = 2018-07-11_14:06:10]
 NNXNN
 NNXDD
 NNCND
@@ -1625,9 +1625,9 @@ DNC
 DCN
 
 ---------
-[Date,Time = 2018-07-03_18:46:48]
-Checking scheme 38/134 - Price: 12127.330550000004
-[Date,Time = 2018-07-03_18:46:48]
+[Date,Time = 2018-07-11_14:06:11]
+Checking scheme 38/134 - Price: 12127.330550000006
+[Date,Time = 2018-07-11_14:06:11]
 NNXNN
 NNXDD
 NNCND
@@ -1667,9 +1667,9 @@ DNC
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:46:49]
-Checking scheme 39/134 - Price: 12293.779750000002
-[Date,Time = 2018-07-03_18:46:49]
+[Date,Time = 2018-07-11_14:06:11]
+Checking scheme 39/134 - Price: 12293.779749999998
+[Date,Time = 2018-07-11_14:06:11]
 NNXNN
 NNXDD
 NNCND
@@ -1709,9 +1709,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:49]
-Checking scheme 40/134 - New best price: 11526.948910000001
-[Date,Time = 2018-07-03_18:46:49]
+[Date,Time = 2018-07-11_14:06:11]
+Checking scheme 40/134 - New best price: 11526.948910000003
+[Date,Time = 2018-07-11_14:06:11]
 NNXNN
 NNXDD
 NNCND
@@ -1751,9 +1751,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:46:50]
-Checking scheme 41/134 - Price: 11799.629690000002
-[Date,Time = 2018-07-03_18:46:50]
+[Date,Time = 2018-07-11_14:06:11]
+Checking scheme 41/134 - Price: 11799.629690000005
+[Date,Time = 2018-07-11_14:06:11]
 NNXNN
 NNXDD
 NNCND
@@ -1793,9 +1793,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:51]
+[Date,Time = 2018-07-11_14:06:11]
 Checking scheme 42/134 - Price: 12715.48828
-[Date,Time = 2018-07-03_18:46:51]
+[Date,Time = 2018-07-11_14:06:11]
 NNXNN
 NNNND
 NNCDN
@@ -1835,9 +1835,9 @@ DCN
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:46:51]
-Checking scheme 43/134 - Price: 12552.187799999998
-[Date,Time = 2018-07-03_18:46:51]
+[Date,Time = 2018-07-11_14:06:11]
+Checking scheme 43/134 - Price: 12552.187800000003
+[Date,Time = 2018-07-11_14:06:11]
 NNXNN
 NNNCD
 NNNDC
@@ -1877,9 +1877,9 @@ DNC
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:52]
-Checking scheme 44/134 - Price: 13492.75729
-[Date,Time = 2018-07-03_18:46:52]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 44/134 - Price: 13492.757289999998
+[Date,Time = 2018-07-11_14:06:12]
 NNXNN
 NNNCD
 NNNDC
@@ -1919,9 +1919,9 @@ DNC
 DCN
 
 ---------
-[Date,Time = 2018-07-03_18:46:52]
-Checking scheme 45/134 - Price: 12688.810150000001
-[Date,Time = 2018-07-03_18:46:52]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 45/134 - Price: 12688.810149999998
+[Date,Time = 2018-07-11_14:06:12]
 NNXNN
 NNNCD
 NNNDC
@@ -1961,9 +1961,9 @@ DNC
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:53]
-Checking scheme 46/134 - Price: 12316.406500000003
-[Date,Time = 2018-07-03_18:46:53]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 46/134 - Price: 12316.406500000001
+[Date,Time = 2018-07-11_14:06:12]
 NNXNN
 NNNCD
 NNNDC
@@ -2003,9 +2003,9 @@ DND
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:46:53]
-Checking scheme 47/134 - Price: 12882.275979999999
-[Date,Time = 2018-07-03_18:46:53]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 47/134 - Price: 12882.275979999995
+[Date,Time = 2018-07-11_14:06:12]
 NNXNN
 NNNCD
 NNCDD
@@ -2045,9 +2045,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:54]
-Checking scheme 48/134 - Price: 12977.210330000005
-[Date,Time = 2018-07-03_18:46:54]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 48/134 - Price: 12977.210329999998
+[Date,Time = 2018-07-11_14:06:12]
 NNXND
 NNXDN
 NNCNN
@@ -2087,9 +2087,9 @@ DNC
 DCN
 
 ---------
-[Date,Time = 2018-07-03_18:46:54]
-Checking scheme 49/134 - Price: 13133.948830000005
-[Date,Time = 2018-07-03_18:46:54]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 49/134 - Price: 13133.948830000003
+[Date,Time = 2018-07-11_14:06:12]
 NNXND
 NNXDN
 NNCNN
@@ -2129,9 +2129,9 @@ DNC
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:46:55]
-Checking scheme 50/134 - Price: 13301.124680000003
-[Date,Time = 2018-07-03_18:46:55]
+[Date,Time = 2018-07-11_14:06:12]
+Checking scheme 50/134 - Price: 13301.12468
+[Date,Time = 2018-07-11_14:06:12]
 NNXND
 NNXDN
 NNCNN
@@ -2171,9 +2171,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:55]
-Checking scheme 51/134 - Price: 12622.951659999999
-[Date,Time = 2018-07-03_18:46:55]
+[Date,Time = 2018-07-11_14:06:13]
+Checking scheme 51/134 - Price: 12622.951660000006
+[Date,Time = 2018-07-11_14:06:13]
 NNXND
 NNXDN
 NNCNN
@@ -2213,9 +2213,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:56]
-Checking scheme 52/134 - Price: 14611.461550000007
-[Date,Time = 2018-07-03_18:46:56]
+[Date,Time = 2018-07-11_14:06:13]
+Checking scheme 52/134 - Price: 14611.461549999993
+[Date,Time = 2018-07-11_14:06:13]
 NNXND
 NNXDN
 NNCDD
@@ -2255,9 +2255,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:56]
-Checking scheme 53/134 - Price: 14784.444690000004
-[Date,Time = 2018-07-03_18:46:56]
+[Date,Time = 2018-07-11_14:06:13]
+Checking scheme 53/134 - Price: 14784.444689999998
+[Date,Time = 2018-07-11_14:06:13]
 NNXND
 NNXDN
 NNCDD
@@ -2297,9 +2297,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:46:57]
-Checking scheme 54/134 - Price: 12781.756670000006
-[Date,Time = 2018-07-03_18:46:57]
+[Date,Time = 2018-07-11_14:06:13]
+Checking scheme 54/134 - Price: 12781.756669999997
+[Date,Time = 2018-07-11_14:06:13]
 NNXND
 NNNNN
 NNCDN
@@ -2339,9 +2339,9 @@ DCN
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:46:57]
-Checking scheme 55/134 - Price: 12291.53409
-[Date,Time = 2018-07-03_18:46:57]
+[Date,Time = 2018-07-11_14:06:13]
+Checking scheme 55/134 - Price: 12291.534090000001
+[Date,Time = 2018-07-11_14:06:13]
 NNXND
 NNNCN
 NNNDC
@@ -2381,9 +2381,9 @@ DNC
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:58]
-Checking scheme 56/134 - Price: 13268.12093999999
-[Date,Time = 2018-07-03_18:46:58]
+[Date,Time = 2018-07-11_14:06:13]
+Checking scheme 56/134 - Price: 13268.120940000004
+[Date,Time = 2018-07-11_14:06:13]
 NNXND
 NNNCN
 NNNDC
@@ -2423,9 +2423,9 @@ DNN
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:46:59]
-Checking scheme 57/134 - Price: 12807.356930000002
-[Date,Time = 2018-07-03_18:46:59]
+[Date,Time = 2018-07-11_14:06:14]
+Checking scheme 57/134 - Price: 12807.35693
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNCN
 NNNDC
@@ -2465,9 +2465,9 @@ DNN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:46:59]
+[Date,Time = 2018-07-11_14:06:14]
 Checking scheme 58/134 - Equivalent scheme was already checked
-[Date,Time = 2018-07-03_18:46:59]
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNCN
 NNNDC
@@ -2507,9 +2507,9 @@ DNC
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:47:00]
-Checking scheme 59/134 - Price: 13341.93335
-[Date,Time = 2018-07-03_18:47:00]
+[Date,Time = 2018-07-11_14:06:14]
+Checking scheme 59/134 - Price: 13341.933350000005
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNCN
 NNNDC
@@ -2549,9 +2549,9 @@ DNC
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:01]
-Checking scheme 60/134 - Price: 13428.142989999993
-[Date,Time = 2018-07-03_18:47:01]
+[Date,Time = 2018-07-11_14:06:14]
+Checking scheme 60/134 - Price: 13428.142990000008
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNCN
 NNNDC
@@ -2591,9 +2591,9 @@ DNN
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:47:01]
-Checking scheme 61/134 - Price: 13212.261819999992
-[Date,Time = 2018-07-03_18:47:01]
+[Date,Time = 2018-07-11_14:06:14]
+Checking scheme 61/134 - Price: 13212.261820000002
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNCN
 NNCNN
@@ -2633,9 +2633,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:02]
-Checking scheme 62/134 - Price: 13595.485139999993
-[Date,Time = 2018-07-03_18:47:02]
+[Date,Time = 2018-07-11_14:06:14]
+Checking scheme 62/134 - Price: 13595.485140000006
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNCN
 NNCDD
@@ -2675,9 +2675,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:03]
-Checking scheme 63/134 - Price: 15407.283600000002
-[Date,Time = 2018-07-03_18:47:03]
+[Date,Time = 2018-07-11_14:06:14]
+Checking scheme 63/134 - Price: 15407.283600000004
+[Date,Time = 2018-07-11_14:06:14]
 NNXND
 NNNDN
 NNCDD
@@ -2717,9 +2717,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:03]
-Checking scheme 64/134 - Price: 15221.760450000003
-[Date,Time = 2018-07-03_18:47:03]
+[Date,Time = 2018-07-11_14:06:15]
+Checking scheme 64/134 - Price: 15221.760449999998
+[Date,Time = 2018-07-11_14:06:15]
 NNXND
 NNNDC
 NNCDN
@@ -2759,9 +2759,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:04]
-Checking scheme 65/134 - Price: 12375.999140000002
-[Date,Time = 2018-07-03_18:47:04]
+[Date,Time = 2018-07-11_14:06:15]
+Checking scheme 65/134 - Price: 12375.999140000004
+[Date,Time = 2018-07-11_14:06:15]
 NNXDD
 NNNNN
 NNCND
@@ -2801,9 +2801,9 @@ DNC
 DCN
 
 ---------
-[Date,Time = 2018-07-03_18:47:04]
+[Date,Time = 2018-07-11_14:06:15]
 Checking scheme 66/134 - Price: 12512.621490000003
-[Date,Time = 2018-07-03_18:47:04]
+[Date,Time = 2018-07-11_14:06:15]
 NNXDD
 NNNNN
 NNCND
@@ -2843,9 +2843,9 @@ DNC
 DCD
 
 ---------
-[Date,Time = 2018-07-03_18:47:05]
-Checking scheme 67/134 - Price: 12709.739689999995
-[Date,Time = 2018-07-03_18:47:05]
+[Date,Time = 2018-07-11_14:06:15]
+Checking scheme 67/134 - Price: 12709.739689999997
+[Date,Time = 2018-07-11_14:06:15]
 NNXDD
 NNNNN
 NNCND
@@ -2885,9 +2885,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:05]
+[Date,Time = 2018-07-11_14:06:15]
 Checking scheme 68/134 - Price: 11928.56723
-[Date,Time = 2018-07-03_18:47:05]
+[Date,Time = 2018-07-11_14:06:15]
 NNXDD
 NNNNN
 NNCND
@@ -2927,9 +2927,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:06]
+[Date,Time = 2018-07-11_14:06:15]
 Checking scheme 69/134 - Price: 12304.710530000002
-[Date,Time = 2018-07-03_18:47:06]
+[Date,Time = 2018-07-11_14:06:15]
 NNXDD
 NNNNN
 NNCND
@@ -2969,9 +2969,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:07]
-Checking scheme 70/134 - New best price: 11365.87818
-[Date,Time = 2018-07-03_18:47:07]
+[Date,Time = 2018-07-11_14:06:16]
+Checking scheme 70/134 - New best price: 11365.878179999998
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3011,9 +3011,9 @@ DXD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:07]
-Checking scheme 71/134 - Price: 11418.64534999999
-[Date,Time = 2018-07-03_18:47:07]
+[Date,Time = 2018-07-11_14:06:16]
+Checking scheme 71/134 - Price: 11418.645350000004
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3053,9 +3053,9 @@ DXD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:08]
-Checking scheme 72/134 - Price: 11662.75735
-[Date,Time = 2018-07-03_18:47:08]
+[Date,Time = 2018-07-11_14:06:16]
+Checking scheme 72/134 - Price: 11662.757350000003
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3095,9 +3095,9 @@ DXD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:08]
+[Date,Time = 2018-07-11_14:06:16]
 Checking scheme 73/134 - Price: 11756.038830000005
-[Date,Time = 2018-07-03_18:47:08]
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3137,9 +3137,9 @@ DND
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:09]
-Checking scheme 74/134 - Price: 11978.842270000003
-[Date,Time = 2018-07-03_18:47:09]
+[Date,Time = 2018-07-11_14:06:16]
+Checking scheme 74/134 - Price: 11978.842270000001
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3179,9 +3179,9 @@ DND
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:09]
+[Date,Time = 2018-07-11_14:06:16]
 Checking scheme 75/134 - Price: 12650.627050000006
-[Date,Time = 2018-07-03_18:47:09]
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3221,9 +3221,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:10]
+[Date,Time = 2018-07-11_14:06:16]
 Checking scheme 76/134 - Price: 12118.773570000001
-[Date,Time = 2018-07-03_18:47:10]
+[Date,Time = 2018-07-11_14:06:16]
 NNXDD
 NNNNC
 NNNCN
@@ -3263,9 +3263,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:11]
-Checking scheme 77/134 - Price: 12414.928119999999
-[Date,Time = 2018-07-03_18:47:11]
+[Date,Time = 2018-07-11_14:06:17]
+Checking scheme 77/134 - Price: 12414.92812
+[Date,Time = 2018-07-11_14:06:17]
 NNXDD
 NNNNC
 NNNCN
@@ -3305,9 +3305,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:11]
+[Date,Time = 2018-07-11_14:06:17]
 Checking scheme 78/134 - Equivalent scheme was already checked
-[Date,Time = 2018-07-03_18:47:11]
+[Date,Time = 2018-07-11_14:06:17]
 NNXDD
 NNNNC
 NNCND
@@ -3347,9 +3347,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:11]
-Checking scheme 79/134 - Price: 13206.304960000007
-[Date,Time = 2018-07-03_18:47:11]
+[Date,Time = 2018-07-11_14:06:17]
+Checking scheme 79/134 - Price: 13206.30496
+[Date,Time = 2018-07-11_14:06:17]
 NNXDD
 NNNNC
 NNCDN
@@ -3389,9 +3389,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:12]
-Checking scheme 80/134 - Price: 13493.059430000005
-[Date,Time = 2018-07-03_18:47:12]
+[Date,Time = 2018-07-11_14:06:17]
+Checking scheme 80/134 - Price: 13493.05943
+[Date,Time = 2018-07-11_14:06:17]
 NNXDD
 NNNNC
 NNCDN
@@ -3431,9 +3431,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:12]
-Checking scheme 81/134 - Price: 13249.59794
-[Date,Time = 2018-07-03_18:47:12]
+[Date,Time = 2018-07-11_14:06:17]
+Checking scheme 81/134 - Price: 13249.597940000003
+[Date,Time = 2018-07-11_14:06:17]
 NNNNN
 NNNCD
 NNNDC
@@ -3473,9 +3473,9 @@ DNC
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:13]
-Checking scheme 82/134 - Price: 14267.613790000007
-[Date,Time = 2018-07-03_18:47:13]
+[Date,Time = 2018-07-11_14:06:17]
+Checking scheme 82/134 - Price: 14267.61379
+[Date,Time = 2018-07-11_14:06:17]
 NNNNN
 NNNCD
 NNNDC
@@ -3515,9 +3515,9 @@ DNC
 DCN
 
 ---------
-[Date,Time = 2018-07-03_18:47:14]
-Checking scheme 83/134 - Price: 13386.220289999994
-[Date,Time = 2018-07-03_18:47:14]
+[Date,Time = 2018-07-11_14:06:17]
+Checking scheme 83/134 - Price: 13386.220290000001
+[Date,Time = 2018-07-11_14:06:17]
 NNNNN
 NNNCD
 NNNDC
@@ -3557,9 +3557,9 @@ DNC
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:14]
+[Date,Time = 2018-07-11_14:06:17]
 Checking scheme 84/134 - Price: 13074.487129999996
-[Date,Time = 2018-07-03_18:47:14]
+[Date,Time = 2018-07-11_14:06:17]
 NNNNN
 NNNCD
 NNNDC
@@ -3599,9 +3599,9 @@ DND
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:15]
+[Date,Time = 2018-07-11_14:06:18]
 Checking scheme 85/134 - Price: 13583.338489999998
-[Date,Time = 2018-07-03_18:47:15]
+[Date,Time = 2018-07-11_14:06:18]
 NNNNN
 NNNCD
 NNCDD
@@ -3641,9 +3641,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:15]
-Checking scheme 86/134 - Price: 12562.596929999994
-[Date,Time = 2018-07-03_18:47:15]
+[Date,Time = 2018-07-11_14:06:18]
+Checking scheme 86/134 - Price: 12562.596930000003
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNNDD
@@ -3683,9 +3683,9 @@ DND
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:16]
-Checking scheme 87/134 - Price: 12748.618869999993
-[Date,Time = 2018-07-03_18:47:16]
+[Date,Time = 2018-07-11_14:06:18]
+Checking scheme 87/134 - Price: 12748.618870000006
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNNDD
@@ -3725,9 +3725,9 @@ DND
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:16]
-Checking scheme 88/134 - Price: 13391.794230000001
-[Date,Time = 2018-07-03_18:47:16]
+[Date,Time = 2018-07-11_14:06:18]
+Checking scheme 88/134 - Price: 13391.79423
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNNDD
@@ -3767,9 +3767,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:17]
-Checking scheme 89/134 - Price: 13172.732860000002
-[Date,Time = 2018-07-03_18:47:17]
+[Date,Time = 2018-07-11_14:06:18]
+Checking scheme 89/134 - Price: 13172.732859999996
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNNDD
@@ -3809,9 +3809,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:17]
+[Date,Time = 2018-07-11_14:06:18]
 Checking scheme 90/134 - Scheme can not be optimized
-[Date,Time = 2018-07-03_18:47:17]
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNCNN
@@ -3851,9 +3851,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:17]
-Checking scheme 91/134 - Price: 12799.123059999996
-[Date,Time = 2018-07-03_18:47:17]
+[Date,Time = 2018-07-11_14:06:18]
+Checking scheme 91/134 - Price: 12799.123060000004
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNCND
@@ -3893,9 +3893,9 @@ DNN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:18]
-Checking scheme 92/134 - Price: 13847.865920000002
-[Date,Time = 2018-07-03_18:47:18]
+[Date,Time = 2018-07-11_14:06:18]
+Checking scheme 92/134 - Price: 13847.86592
+[Date,Time = 2018-07-11_14:06:18]
 NNNNC
 NNNCN
 NNCDD
@@ -3935,9 +3935,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:18]
-Checking scheme 93/134 - Price: 14015.25862
-[Date,Time = 2018-07-03_18:47:18]
+[Date,Time = 2018-07-11_14:06:19]
+Checking scheme 93/134 - Price: 14015.258620000006
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNNDN
@@ -3977,9 +3977,9 @@ DNN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:19]
-Checking scheme 94/134 - Price: 13452.388379999991
-[Date,Time = 2018-07-03_18:47:19]
+[Date,Time = 2018-07-11_14:06:19]
+Checking scheme 94/134 - Price: 13452.388379999997
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNNDN
@@ -4019,9 +4019,9 @@ DNN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:19]
+[Date,Time = 2018-07-11_14:06:19]
 Checking scheme 95/134 - Equivalent scheme was already checked
-[Date,Time = 2018-07-03_18:47:19]
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNNDN
@@ -4061,9 +4061,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:20]
-Checking scheme 96/134 - Price: 13837.55046
-[Date,Time = 2018-07-03_18:47:20]
+[Date,Time = 2018-07-11_14:06:19]
+Checking scheme 96/134 - Price: 13837.550459999999
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNNDN
@@ -4103,9 +4103,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:20]
+[Date,Time = 2018-07-11_14:06:19]
 Checking scheme 97/134 - Price: 14156.37356
-[Date,Time = 2018-07-03_18:47:20]
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNNDN
@@ -4145,9 +4145,9 @@ DNN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:20]
+[Date,Time = 2018-07-11_14:06:19]
 Checking scheme 98/134 - Scheme can not be optimized
-[Date,Time = 2018-07-03_18:47:20]
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNCND
@@ -4187,9 +4187,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:21]
-Checking scheme 99/134 - Price: 14943.853699999998
-[Date,Time = 2018-07-03_18:47:21]
+[Date,Time = 2018-07-11_14:06:19]
+Checking scheme 99/134 - Price: 14943.8537
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNCND
@@ -4229,9 +4229,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:21]
+[Date,Time = 2018-07-11_14:06:19]
 Checking scheme 100/134 - Equivalent scheme was already checked
-[Date,Time = 2018-07-03_18:47:21]
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNCD
 NNCDN
@@ -4271,9 +4271,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:21]
-Checking scheme 101/134 - Price: 14341.856679999995
-[Date,Time = 2018-07-03_18:47:21]
+[Date,Time = 2018-07-11_14:06:19]
+Checking scheme 101/134 - Price: 14341.856680000003
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNDN
 NNCDD
@@ -4313,9 +4313,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:22]
-Checking scheme 102/134 - Price: 14250.864169999995
-[Date,Time = 2018-07-03_18:47:22]
+[Date,Time = 2018-07-11_14:06:19]
+Checking scheme 102/134 - Price: 14250.864170000003
+[Date,Time = 2018-07-11_14:06:19]
 NNNNC
 NNNDD
 NNCDN
@@ -4355,9 +4355,9 @@ DCN
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:22]
-Checking scheme 103/134 - Price: 16381.419219999994
-[Date,Time = 2018-07-03_18:47:22]
+[Date,Time = 2018-07-11_14:06:20]
+Checking scheme 103/134 - Price: 16381.419220000003
+[Date,Time = 2018-07-11_14:06:20]
 NNNND
 NNNDN
 NNCDD
@@ -4397,9 +4397,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:23]
-Checking scheme 104/134 - Price: 15939.242479999997
-[Date,Time = 2018-07-03_18:47:23]
+[Date,Time = 2018-07-11_14:06:20]
+Checking scheme 104/134 - Price: 15939.24248
+[Date,Time = 2018-07-11_14:06:20]
 NNNND
 NNNDC
 NNCDN
@@ -4439,13 +4439,13 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:23]
+[Date,Time = 2018-07-11_14:06:20]
 ------------
 Checking schemes for product [(2, 3), (3, 8)]. Total 30 schemes
 ------------
-[Date,Time = 2018-07-03_18:47:23]
-Checking scheme 105/134 - Price: 16368.75506
-[Date,Time = 2018-07-03_18:47:23]
+[Date,Time = 2018-07-11_14:06:20]
+Checking scheme 105/134 - Price: 16368.755060000003
+[Date,Time = 2018-07-11_14:06:20]
 XNXNN
 XNNCD
 XNNDC
@@ -4485,9 +4485,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:24]
-Checking scheme 106/134 - Price: 13917.738109999997
-[Date,Time = 2018-07-03_18:47:24]
+[Date,Time = 2018-07-11_14:06:20]
+Checking scheme 106/134 - Price: 13917.738109999998
+[Date,Time = 2018-07-11_14:06:20]
 XDXNN
 XDNCD
 XDNDC
@@ -4527,9 +4527,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:24]
-Checking scheme 107/134 - Price: 17084.63255
-[Date,Time = 2018-07-03_18:47:24]
+[Date,Time = 2018-07-11_14:06:20]
+Checking scheme 107/134 - Price: 17084.632550000006
+[Date,Time = 2018-07-11_14:06:20]
 NNXNN
 NNNCD
 NNNDC
@@ -4569,9 +4569,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:24]
-Checking scheme 108/134 - Price: 14543.997869999996
-[Date,Time = 2018-07-03_18:47:24]
+[Date,Time = 2018-07-11_14:06:20]
+Checking scheme 108/134 - Price: 14543.997870000001
+[Date,Time = 2018-07-11_14:06:20]
 NCXNN
 NCNCD
 NCNDC
@@ -4611,9 +4611,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:25]
+[Date,Time = 2018-07-11_14:06:20]
 Checking scheme 109/134 - Price: 14688.082729999998
-[Date,Time = 2018-07-03_18:47:25]
+[Date,Time = 2018-07-11_14:06:20]
 NCXNN
 NCNCD
 NCNDC
@@ -4653,9 +4653,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:25]
+[Date,Time = 2018-07-11_14:06:20]
 Checking scheme 110/134 - Price: 12660.674550000002
-[Date,Time = 2018-07-03_18:47:25]
+[Date,Time = 2018-07-11_14:06:20]
 XNXND
 XNNCN
 XNNDC
@@ -4695,9 +4695,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:26]
-Checking scheme 111/134 - Price: 13485.138380000002
-[Date,Time = 2018-07-03_18:47:26]
+[Date,Time = 2018-07-11_14:06:21]
+Checking scheme 111/134 - Price: 13485.138379999997
+[Date,Time = 2018-07-11_14:06:21]
 XDXND
 XDNCN
 XDNDC
@@ -4737,9 +4737,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:26]
+[Date,Time = 2018-07-11_14:06:21]
 Checking scheme 112/134 - Price: 13579.565280000003
-[Date,Time = 2018-07-03_18:47:26]
+[Date,Time = 2018-07-11_14:06:21]
 NNXND
 NNNCN
 NNNDC
@@ -4779,9 +4779,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:27]
-Checking scheme 113/134 - Price: 14114.987359999994
-[Date,Time = 2018-07-03_18:47:27]
+[Date,Time = 2018-07-11_14:06:21]
+Checking scheme 113/134 - Price: 14114.98736
+[Date,Time = 2018-07-11_14:06:21]
 NCXND
 NCNCN
 NCNDC
@@ -4821,9 +4821,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:27]
-Checking scheme 114/134 - Price: 14306.664290000002
-[Date,Time = 2018-07-03_18:47:27]
+[Date,Time = 2018-07-11_14:06:21]
+Checking scheme 114/134 - Price: 14306.66429
+[Date,Time = 2018-07-11_14:06:21]
 NCXND
 NCNCN
 NCNDC
@@ -4863,9 +4863,9 @@ DCD
 DDX
 
 ---------
-[Date,Time = 2018-07-03_18:47:28]
-Checking scheme 115/134 - Price: 13173.22365
-[Date,Time = 2018-07-03_18:47:28]
+[Date,Time = 2018-07-11_14:06:21]
+Checking scheme 115/134 - Price: 13173.223649999996
+[Date,Time = 2018-07-11_14:06:21]
 XNXND
 XNNCN
 XNNDC
@@ -4905,9 +4905,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:29]
-Checking scheme 116/134 - Price: 13683.159570000002
-[Date,Time = 2018-07-03_18:47:29]
+[Date,Time = 2018-07-11_14:06:22]
+Checking scheme 116/134 - Price: 13683.159570000005
+[Date,Time = 2018-07-11_14:06:22]
 XDXND
 XDNCN
 XDNDC
@@ -4947,9 +4947,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:29]
-Checking scheme 117/134 - Price: 14099.024489999996
-[Date,Time = 2018-07-03_18:47:29]
+[Date,Time = 2018-07-11_14:06:22]
+Checking scheme 117/134 - Price: 14099.024489999998
+[Date,Time = 2018-07-11_14:06:22]
 NNXND
 NNNCN
 NNNDC
@@ -4989,9 +4989,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:30]
-Checking scheme 118/134 - Price: 14347.721949999996
-[Date,Time = 2018-07-03_18:47:30]
+[Date,Time = 2018-07-11_14:06:22]
+Checking scheme 118/134 - Price: 14347.721950000001
+[Date,Time = 2018-07-11_14:06:22]
 NCXND
 NCNCN
 NCNDC
@@ -5031,9 +5031,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:30]
-Checking scheme 119/134 - Price: 14733.85456
-[Date,Time = 2018-07-03_18:47:30]
+[Date,Time = 2018-07-11_14:06:22]
+Checking scheme 119/134 - Price: 14733.854560000007
+[Date,Time = 2018-07-11_14:06:22]
 NCXND
 NCNCN
 NCNDC
@@ -5073,9 +5073,9 @@ DCD
 DDN
 
 ---------
-[Date,Time = 2018-07-03_18:47:31]
-Checking scheme 120/134 - Price: 12913.257840000006
-[Date,Time = 2018-07-03_18:47:31]
+[Date,Time = 2018-07-11_14:06:22]
+Checking scheme 120/134 - Price: 12913.257840000002
+[Date,Time = 2018-07-11_14:06:22]
 XNXDD
 XNNNC
 XNNCN
@@ -5115,9 +5115,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:31]
-Checking scheme 121/134 - Price: 13700.051890000002
-[Date,Time = 2018-07-03_18:47:31]
+[Date,Time = 2018-07-11_14:06:22]
+Checking scheme 121/134 - Price: 13700.05189
+[Date,Time = 2018-07-11_14:06:22]
 XDXDD
 XDNNC
 XDNCN
@@ -5157,9 +5157,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:32]
+[Date,Time = 2018-07-11_14:06:23]
 Checking scheme 122/134 - Price: 13939.449859999997
-[Date,Time = 2018-07-03_18:47:32]
+[Date,Time = 2018-07-11_14:06:23]
 NNXDD
 NNNNC
 NNNCN
@@ -5199,9 +5199,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:33]
-Checking scheme 123/134 - Price: 14390.456650000002
-[Date,Time = 2018-07-03_18:47:33]
+[Date,Time = 2018-07-11_14:06:23]
+Checking scheme 123/134 - Price: 14390.45665
+[Date,Time = 2018-07-11_14:06:23]
 NCXDD
 NCNNC
 NCNCN
@@ -5241,9 +5241,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:33]
-Checking scheme 124/134 - Price: 14721.816219999999
-[Date,Time = 2018-07-03_18:47:33]
+[Date,Time = 2018-07-11_14:06:23]
+Checking scheme 124/134 - Price: 14721.81622
+[Date,Time = 2018-07-11_14:06:23]
 NCXDD
 NCNNC
 NCNCN
@@ -5283,9 +5283,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:33]
-Checking scheme 125/134 - Price: 16702.91836
-[Date,Time = 2018-07-03_18:47:33]
+[Date,Time = 2018-07-11_14:06:23]
+Checking scheme 125/134 - Price: 16702.918360000007
+[Date,Time = 2018-07-11_14:06:23]
 XNNNN
 XNNCD
 XNNDC
@@ -5325,9 +5325,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:34]
-Checking scheme 126/134 - Price: 14501.098010000007
-[Date,Time = 2018-07-03_18:47:34]
+[Date,Time = 2018-07-11_14:06:23]
+Checking scheme 126/134 - Price: 14501.098010000002
+[Date,Time = 2018-07-11_14:06:23]
 XDNNN
 XDNCD
 XDNDC
@@ -5367,9 +5367,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:34]
+[Date,Time = 2018-07-11_14:06:23]
 Checking scheme 127/134 - Price: 18023.7055
-[Date,Time = 2018-07-03_18:47:34]
+[Date,Time = 2018-07-11_14:06:23]
 NNNNN
 NNNCD
 NNNDC
@@ -5409,9 +5409,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:34]
+[Date,Time = 2018-07-11_14:06:24]
 Checking scheme 128/134 - Price: 15197.56324
-[Date,Time = 2018-07-03_18:47:34]
+[Date,Time = 2018-07-11_14:06:24]
 NCNNN
 NCNCD
 NCNDC
@@ -5451,9 +5451,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:35]
-Checking scheme 129/134 - Price: 15354.485349999999
-[Date,Time = 2018-07-03_18:47:35]
+[Date,Time = 2018-07-11_14:06:24]
+Checking scheme 129/134 - Price: 15354.485350000003
+[Date,Time = 2018-07-11_14:06:24]
 NCNNN
 NCNCD
 NCNDC
@@ -5493,9 +5493,9 @@ DCN
 DDD
 
 ---------
-[Date,Time = 2018-07-03_18:47:35]
-Checking scheme 130/134 - Price: 13545.056729999998
-[Date,Time = 2018-07-03_18:47:35]
+[Date,Time = 2018-07-11_14:06:24]
+Checking scheme 130/134 - Price: 13545.05673
+[Date,Time = 2018-07-11_14:06:24]
 XNNNC
 XNNCN
 XNNDD
@@ -5535,9 +5535,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:36]
-Checking scheme 131/134 - Price: 14037.736040000003
-[Date,Time = 2018-07-03_18:47:36]
+[Date,Time = 2018-07-11_14:06:24]
+Checking scheme 131/134 - Price: 14037.736039999987
+[Date,Time = 2018-07-11_14:06:24]
 XDNNC
 XDNCN
 XDNDD
@@ -5577,9 +5577,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:37]
+[Date,Time = 2018-07-11_14:06:24]
 Checking scheme 132/134 - Price: 14625.21565
-[Date,Time = 2018-07-03_18:47:37]
+[Date,Time = 2018-07-11_14:06:24]
 NNNNC
 NNNCN
 NNNDD
@@ -5619,9 +5619,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:37]
-Checking scheme 133/134 - Price: 14798.20941
-[Date,Time = 2018-07-03_18:47:37]
+[Date,Time = 2018-07-11_14:06:24]
+Checking scheme 133/134 - Price: 14798.209410000003
+[Date,Time = 2018-07-11_14:06:24]
 NCNNC
 NCNCN
 NCNDD
@@ -5661,9 +5661,9 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:38]
-Checking scheme 134/134 - Price: 15288.972009999998
-[Date,Time = 2018-07-03_18:47:38]
+[Date,Time = 2018-07-11_14:06:25]
+Checking scheme 134/134 - Price: 15288.972010000003
+[Date,Time = 2018-07-11_14:06:25]
 NCNNC
 NCNCN
 NCNDD
@@ -5703,7 +5703,7 @@ DCD
 DDC
 
 ---------
-[Date,Time = 2018-07-03_18:47:38]
+[Date,Time = 2018-07-11_14:06:25]
 ________________________
 Best scheme
 [NCS = NCD6]
@@ -5730,7 +5730,7 @@ Trp, N, N, C, N, N
 Tyr, D, N, N, C, N
 Val, D, N, C, N, N
 [price]
-11365.87818
+11365.878179999998
 
 Blocks used for this scheme:
 [ELB samples = 1 patterns = 2]
@@ -5747,6 +5747,34 @@ CNN
 DXD
 DDX
 
-[Date,Time = 2018-07-03_18:47:38]
+[Date,Time = 2018-07-11_14:06:25]
+-------------
+Products in 5 samples:
+[(1, 2), (1, 2), (1, 2), (1, 2), (1, 2)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   1 scheme(s): price calculated
+[(1, 2), (1, 2), (1, 2), (2, 3)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   5 scheme(s): price calculated
+[(1, 2), (1, 2), (3, 5)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+  24 scheme(s): price calculated
+[(1, 2), (1, 2), (3, 6)]
+   2 scheme(s): cannot be optimized
+   4 scheme(s): equivalent
+  62 scheme(s): price calculated
+[(1, 2), (1, 2), (3, 8)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   6 scheme(s): price calculated
+[(2, 3), (3, 8)]
+   0 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+  30 scheme(s): price calculated
+
+[Date,Time = 2018-07-11_14:06:25]
 -----
-Calculation finished at 2018-07-03 18:47:38!
+Calculation finished at 2018-07-11 14:06:25!
