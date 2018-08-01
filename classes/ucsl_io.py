@@ -75,6 +75,19 @@ class Outputer:
             f.write(output)
         self.write_data(output, files="cl")
 
+    def write_product_stats(self, stats):
+        output = ""
+        for samples in sorted(stats):
+            output += "-------------\n"
+            output += "Products in {} samples:\n".format(samples)
+            for product_type in sorted(stats[samples]):
+                output += product_type + "\n"
+                for status in sorted(stats[samples][product_type]):
+                    output += "{:4} scheme(s): {}\n".format(stats[samples][product_type][status], status)
+        with open(self.job_name + "_product_stats.txt", mode="w") as f:
+            f.write(output)
+        self.write_data(output, files="cl")
+
     def write_products(self, products, samples):
         if not products:
             return
@@ -144,7 +157,6 @@ class Outputer:
         output += " TOTAL - {} blocks\n".format(total_blocks)
         output += "-----------\n"
         return output
-
 
 
 class TaskReader:

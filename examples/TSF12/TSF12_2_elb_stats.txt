@@ -24,6 +24,24 @@ Blocks used:
 Blocks used:
  1 X  3 - 2 block(s)
  2 X  4 - 2847 block(s)
+ 2 X  9 - 27 block(s)
+-----------
+ 1 X . - 2 block(s)
+ 2 X . - 2874 block(s)
+ TOTAL - 2876 blocks
+-----------
+Blocks used:
+ 1 X  3 - 2 block(s)
+ 2 X  4 - 2847 block(s)
+ 2 X  9 - 24 block(s)
+-----------
+ 1 X . - 2 block(s)
+ 2 X . - 2871 block(s)
+ TOTAL - 2873 blocks
+-----------
+Blocks used:
+ 1 X  3 - 2 block(s)
+ 2 X  4 - 2847 block(s)
  2 X  9 - 24 block(s)
 -----------
  1 X . - 2 block(s)

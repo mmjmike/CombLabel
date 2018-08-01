@@ -24,7 +24,7 @@ Trp, X, N, N, D, X, N, D
 Tyr, D, D, X, N, N, N, N
 Val, D, D, X, D, X, N, D
 [price]
-83188.82206000002
+83188.82205999999
 
 Blocks used for this scheme:
 [ELB samples = 3 patterns = 4]

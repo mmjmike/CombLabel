@@ -1,5 +1,5 @@
 
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 
 #############################################################################
 #                                                                           #
@@ -14,7 +14,7 @@
 #                                                                           #
 #############################################################################
 
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Blocks used:
  2 X  2 - 6 block(s)
  3 X  3 - 24 block(s)
@@ -29,9 +29,9 @@ Blocks used:
  TOTAL - 195 blocks
 -----------
 
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Clearing redundant blocks(ELB)
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Blocks used:
  2 X  2 - 6 block(s)
  3 X  3 - 9 block(s)
@@ -46,9 +46,9 @@ Blocks used:
  TOTAL - 111 blocks
 -----------
 
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Clearing product blocks(ELB)
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Blocks used:
  2 X  2 - 6 block(s)
  3 X  3 - 9 block(s)
@@ -63,21 +63,21 @@ Blocks used:
  TOTAL - 111 blocks
 -----------
 
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=1
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=2
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=3
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=4
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=5
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=6
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Searching for products in max_samples=7
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 [NCS = XND4]
 Blocks used:
  2 X  2 - 6 block(s)
@@ -102,15 +102,15 @@ Products calculated for 7 samples:
 4 product types calculated
 558 total labeling schemes to check
 
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 Schemes optimization in max_samples=7
-[Date,Time = 2018-07-03_19:17:31]
+[Date,Time = 2018-07-11_14:10:40]
 ------------
 Checking schemes for product [(3, 3), (4, 7)]. Total 18 schemes
 ------------
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:40]
 Checking scheme 1/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:40]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -146,9 +146,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:40]
 Checking scheme 2/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:40]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -184,9 +184,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:40]
 Checking scheme 3/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:40]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -222,9 +222,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 4/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -260,9 +260,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 5/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:32]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -298,9 +298,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 6/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -336,9 +336,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 7/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -374,9 +374,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 8/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -412,9 +412,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 9/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 NNDXNND
 NNDXDDN
 NNDNXDD
@@ -450,9 +450,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 10/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:33]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -488,9 +488,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 11/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -526,9 +526,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 12/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -564,9 +564,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 13/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -602,9 +602,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 Checking scheme 14/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:34]
+[Date,Time = 2018-07-11_14:10:41]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -640,9 +640,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 15/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -678,9 +678,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 16/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -716,9 +716,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 17/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -754,9 +754,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 18/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 NNDXNND
 NNDXDDN
 NNDNXDD
@@ -792,13 +792,13 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 ------------
 Checking schemes for product [(3, 4), (4, 5)]. Total 372 schemes
 ------------
-[Date,Time = 2018-07-03_19:17:35]
-Checking scheme 19/558 - New best price: 80710.98084999998
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
+Checking scheme 19/558 - New best price: 80710.98085000004
+[Date,Time = 2018-07-11_14:10:42]
 XNNXNNN
 XNNNXND
 XNNNXDN
@@ -832,9 +832,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 20/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XNDXNNN
 XNDNXND
 XNDNXDN
@@ -868,9 +868,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 21/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XNDXNNN
 XNDNXND
 XNDNXDN
@@ -904,9 +904,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 22/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XNDXNNN
 XNDNXND
 XNDNXDN
@@ -940,9 +940,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
-Checking scheme 23/558 - Price: 80874.49130999997
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
+Checking scheme 23/558 - Price: 80874.49131
+[Date,Time = 2018-07-11_14:10:42]
 XDDXNNN
 XDDNXND
 XDDNXDN
@@ -976,9 +976,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 Checking scheme 24/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:35]
+[Date,Time = 2018-07-11_14:10:42]
 XDDXNNN
 XDDNXND
 XDDNXDN
@@ -1012,9 +1012,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 Checking scheme 25/558 - New best price: 80478.19669
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 XNNXNNN
 XNNNXND
 XNNNNDD
@@ -1048,9 +1048,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 Checking scheme 26/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 XNDXNNN
 XNDNXND
 XNDNNDD
@@ -1084,9 +1084,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 Checking scheme 27/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 XNDXNNN
 XNDNXND
 XNDNNDD
@@ -1120,9 +1120,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 Checking scheme 28/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 XNDXNNN
 XNDNXND
 XNDNNDD
@@ -1156,9 +1156,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
-Checking scheme 29/558 - New best price: 80291.43812
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
+Checking scheme 29/558 - New best price: 80291.43812000002
+[Date,Time = 2018-07-11_14:10:43]
 XDDXNNN
 XDDNXND
 XDDNNDD
@@ -1192,9 +1192,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 Checking scheme 30/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 XDDXNNN
 XDDNXND
 XDDNNDD
@@ -1228,9 +1228,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
-Checking scheme 31/558 - Price: 80479.76409000001
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
+Checking scheme 31/558 - Price: 80479.76409
+[Date,Time = 2018-07-11_14:10:43]
 XNNXNNN
 XNNNXND
 XNNNNDD
@@ -1264,9 +1264,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 Checking scheme 32/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:43]
 XNDXNNN
 XNDNXND
 XNDNNDD
@@ -1300,9 +1300,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 33/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:36]
+[Date,Time = 2018-07-11_14:10:44]
 XNDXNNN
 XNDNXND
 XNDNNDD
@@ -1336,9 +1336,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 34/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 XNDXNNN
 XNDNXND
 XNDNNDD
@@ -1372,9 +1372,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 35/558 - Price: 80571.74305
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 XDDXNNN
 XDDNXND
 XDDNNDD
@@ -1408,9 +1408,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 36/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 XDDXNNN
 XDDNXND
 XDDNNDD
@@ -1444,9 +1444,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
-Checking scheme 37/558 - Price: 80817.91612999997
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
+Checking scheme 37/558 - Price: 80817.91613
+[Date,Time = 2018-07-11_14:10:44]
 XNNXNNN
 XNNNXND
 XNNNDDN
@@ -1480,9 +1480,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 38/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 XNDXNNN
 XNDNXND
 XNDNDDN
@@ -1516,9 +1516,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 39/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 XNDXNNN
 XNDNXND
 XNDNDDN
@@ -1552,9 +1552,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 Checking scheme 40/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:44]
 XNDXNNN
 XNDNXND
 XNDNDDN
@@ -1588,9 +1588,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
-Checking scheme 41/558 - Price: 80650.89326000001
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:45]
+Checking scheme 41/558 - Price: 80650.89326
+[Date,Time = 2018-07-11_14:10:45]
 XDDXNNN
 XDDNXND
 XDDNDDN
@@ -1624,9 +1624,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:45]
 Checking scheme 42/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:37]
+[Date,Time = 2018-07-11_14:10:45]
 XDDXNNN
 XDDNXND
 XDDNDDN
@@ -1660,9 +1660,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
-Checking scheme 43/558 - Price: 81770.84245000003
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
+Checking scheme 43/558 - Price: 81770.84245
+[Date,Time = 2018-07-11_14:10:45]
 XNNXNNN
 XNNNXND
 XNNNDDD
@@ -1696,9 +1696,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
 Checking scheme 44/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
 XNDXNNN
 XNDNXND
 XNDNDDD
@@ -1732,9 +1732,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
 Checking scheme 45/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
 XNDXNNN
 XNDNXND
 XNDNDDD
@@ -1768,9 +1768,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
 Checking scheme 46/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
 XNDXNNN
 XNDNXND
 XNDNDDD
@@ -1804,9 +1804,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
-Checking scheme 47/558 - Price: 81502.44613
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:45]
+Checking scheme 47/558 - Price: 81502.44613000003
+[Date,Time = 2018-07-11_14:10:45]
 XDDXNNN
 XDDNXND
 XDDNDDD
@@ -1840,9 +1840,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
 Checking scheme 48/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
 XDDXNNN
 XDDNXND
 XDDNDDD
@@ -1876,9 +1876,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
-Checking scheme 49/558 - Price: 80320.64966999998
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
+Checking scheme 49/558 - Price: 80320.64967
+[Date,Time = 2018-07-11_14:10:46]
 XNNXNNN
 XNNNXDD
 XNNNNND
@@ -1912,9 +1912,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
 Checking scheme 50/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
 XNDXNNN
 XNDNXDD
 XNDNNND
@@ -1948,9 +1948,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
 Checking scheme 51/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:38]
+[Date,Time = 2018-07-11_14:10:46]
 XNDXNNN
 XNDNXDD
 XNDNNND
@@ -1984,9 +1984,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:46]
 Checking scheme 52/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:46]
 XNDXNNN
 XNDNXDD
 XNDNNND
@@ -2020,9 +2020,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
-Checking scheme 53/558 - Price: 80762.32696000002
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:46]
+Checking scheme 53/558 - Price: 80762.32696
+[Date,Time = 2018-07-11_14:10:46]
 XDDXNNN
 XDDNXDD
 XDDNNND
@@ -2056,9 +2056,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 54/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XDDXNNN
 XDDNXDD
 XDDNNND
@@ -2092,9 +2092,9 @@ NDDN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 55/558 - New best price: 80159.02205
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XNNXNNN
 XNNNXDD
 XNNNNND
@@ -2128,9 +2128,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 56/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XNDXNNN
 XNDNXDD
 XNDNNND
@@ -2164,9 +2164,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 57/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XNDXNNN
 XNDNXDD
 XNDNNND
@@ -2200,9 +2200,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 58/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XNDXNNN
 XNDNXDD
 XNDNNND
@@ -2236,9 +2236,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 59/558 - Price: 80839.62605
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XDDXNNN
 XDDNXDD
 XDDNNND
@@ -2272,9 +2272,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 Checking scheme 60/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:39]
+[Date,Time = 2018-07-11_14:10:47]
 XDDXNNN
 XDDNXDD
 XDDNNND
@@ -2308,9 +2308,9 @@ NDDN
 DNDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 Checking scheme 61/558 - Price: 85409.10706
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -2344,9 +2344,9 @@ NDDX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 Checking scheme 62/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -2380,9 +2380,9 @@ NDDX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 Checking scheme 63/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -2416,9 +2416,9 @@ NDDX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 Checking scheme 64/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -2452,9 +2452,9 @@ NDDX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
-Checking scheme 65/558 - Price: 85117.98274
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
+Checking scheme 65/558 - Price: 85117.98274000002
+[Date,Time = 2018-07-11_14:10:48]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -2488,9 +2488,9 @@ NDDX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 Checking scheme 66/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -2524,9 +2524,9 @@ NDDX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
-Checking scheme 67/558 - Price: 83913.66575999997
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
+Checking scheme 67/558 - Price: 83913.66575999999
+[Date,Time = 2018-07-11_14:10:48]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -2560,9 +2560,9 @@ DNND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 Checking scheme 68/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:48]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -2596,9 +2596,9 @@ DNND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:49]
 Checking scheme 69/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:49]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -2632,9 +2632,9 @@ DNND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:49]
 Checking scheme 70/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:40]
+[Date,Time = 2018-07-11_14:10:49]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -2668,9 +2668,9 @@ DNND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
-Checking scheme 71/558 - Price: 83719.68016000002
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
+Checking scheme 71/558 - Price: 83719.68016
+[Date,Time = 2018-07-11_14:10:49]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -2704,9 +2704,9 @@ DNND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 Checking scheme 72/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -2740,9 +2740,9 @@ DNND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
-Checking scheme 73/558 - Price: 82135.42639000002
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
+Checking scheme 73/558 - Price: 82135.42638999998
+[Date,Time = 2018-07-11_14:10:49]
 XNNXNNN
 XNNNXDD
 XNNNDND
@@ -2776,9 +2776,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 Checking scheme 74/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 XNDXNNN
 XNDNXDD
 XNDNDND
@@ -2812,9 +2812,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 Checking scheme 75/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 XNDXNNN
 XNDNXDD
 XNDNDND
@@ -2848,9 +2848,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 Checking scheme 76/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:49]
 XNDXNNN
 XNDNXDD
 XNDNDND
@@ -2884,9 +2884,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
-Checking scheme 77/558 - Price: 82139.65975000002
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:50]
+Checking scheme 77/558 - Price: 82139.65975
+[Date,Time = 2018-07-11_14:10:50]
 XDDXNNN
 XDDNXDD
 XDDNDND
@@ -2920,9 +2920,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:50]
 Checking scheme 78/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:50]
 XDDXNNN
 XDDNXDD
 XDDNDND
@@ -2956,9 +2956,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:41]
-Checking scheme 79/558 - Price: 82529.50210999999
-[Date,Time = 2018-07-03_19:17:41]
+[Date,Time = 2018-07-11_14:10:50]
+Checking scheme 79/558 - Price: 82529.50211
+[Date,Time = 2018-07-11_14:10:50]
 XNNXNNN
 XNNNXDD
 XNNNDND
@@ -2992,9 +2992,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 Checking scheme 80/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 XNDXNNN
 XNDNXDD
 XNDNDND
@@ -3028,9 +3028,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 Checking scheme 81/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 XNDXNNN
 XNDNXDD
 XNDNDND
@@ -3064,9 +3064,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 Checking scheme 82/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 XNDXNNN
 XNDNXDD
 XNDNDND
@@ -3100,9 +3100,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
-Checking scheme 83/558 - Price: 82288.37623999998
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
+Checking scheme 83/558 - Price: 82288.37624000001
+[Date,Time = 2018-07-11_14:10:50]
 XDDXNNN
 XDDNXDD
 XDDNDND
@@ -3136,9 +3136,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 Checking scheme 84/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:50]
 XDDXNNN
 XDDNXDD
 XDDNDND
@@ -3172,9 +3172,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
-Checking scheme 85/558 - Price: 80601.02314000003
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:51]
+Checking scheme 85/558 - Price: 80601.02314000002
+[Date,Time = 2018-07-11_14:10:51]
 XNNXNNN
 XNNNNND
 XNNNDDN
@@ -3208,9 +3208,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:51]
 Checking scheme 86/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:42]
+[Date,Time = 2018-07-11_14:10:51]
 XNDXNNN
 XNDNNND
 XNDNDDN
@@ -3244,9 +3244,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
 Checking scheme 87/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
 XNDXNNN
 XNDNNND
 XNDNDDN
@@ -3280,9 +3280,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
 Checking scheme 88/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
 XNDXNNN
 XNDNNND
 XNDNDDN
@@ -3316,9 +3316,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:43]
-Checking scheme 89/558 - Price: 81121.7821
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
+Checking scheme 89/558 - Price: 81121.78209999995
+[Date,Time = 2018-07-11_14:10:51]
 XDDXNNN
 XDDNNND
 XDDNDDN
@@ -3352,9 +3352,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
 Checking scheme 90/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:51]
 XDDXNNN
 XDDNNND
 XDDNDDN
@@ -3388,9 +3388,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:43]
-Checking scheme 91/558 - Price: 81201.51543999999
-[Date,Time = 2018-07-03_19:17:43]
+[Date,Time = 2018-07-11_14:10:52]
+Checking scheme 91/558 - Price: 81201.51544
+[Date,Time = 2018-07-11_14:10:52]
 XNNXNNN
 XNNNNND
 XNNNDDN
@@ -3424,9 +3424,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 Checking scheme 92/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 XNDXNNN
 XNDNNND
 XNDNDDN
@@ -3460,9 +3460,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 Checking scheme 93/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 XNDXNNN
 XNDNNND
 XNDNDDN
@@ -3496,9 +3496,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 Checking scheme 94/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 XNDXNNN
 XNDNNND
 XNDNDDN
@@ -3532,9 +3532,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 Checking scheme 95/558 - Price: 82059.44286
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 XDDXNNN
 XDDNNND
 XDDNDDN
@@ -3568,9 +3568,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 Checking scheme 96/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 XDDXNNN
 XDDNNND
 XDDNDDN
@@ -3604,9 +3604,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 Checking scheme 97/558 - Price: 81822.29800000001
-[Date,Time = 2018-07-03_19:17:44]
+[Date,Time = 2018-07-11_14:10:52]
 XNNXNNN
 XNNNNND
 XNNDXDD
@@ -3640,9 +3640,9 @@ DDXD
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 98/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNDXNNN
 XNDNNND
 XNDDXDD
@@ -3676,9 +3676,9 @@ DDXD
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 99/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNDXNNN
 XNDNNND
 XNDDXDD
@@ -3712,9 +3712,9 @@ DDXD
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 100/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNDXNNN
 XNDNNND
 XNDDXDD
@@ -3748,9 +3748,9 @@ DDXD
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 101/558 - Price: 82421.09194
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XDDXNNN
 XDDNNND
 XDDDXDD
@@ -3784,9 +3784,9 @@ DDXD
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 102/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XDDXNNN
 XDDNNND
 XDDDXDD
@@ -3820,9 +3820,9 @@ DDXD
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 103/558 - Price: 82261.63967
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNNXNNN
 XNNNNDD
 XNNNDND
@@ -3856,9 +3856,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 104/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNDXNNN
 XNDNNDD
 XNDNDND
@@ -3892,9 +3892,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 105/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNDXNNN
 XNDNNDD
 XNDNDND
@@ -3928,9 +3928,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 Checking scheme 106/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:53]
 XNDXNNN
 XNDNNDD
 XNDNDND
@@ -3964,9 +3964,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
-Checking scheme 107/558 - Price: 82857.76775
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:54]
+Checking scheme 107/558 - Price: 82857.76775000001
+[Date,Time = 2018-07-11_14:10:54]
 XDDXNNN
 XDDNNDD
 XDDNDND
@@ -4000,9 +4000,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:54]
 Checking scheme 108/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:54]
 XDDXNNN
 XDDNNDD
 XDDNDND
@@ -4036,9 +4036,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:54]
 Checking scheme 109/558 - Price: 84520.60732
-[Date,Time = 2018-07-03_19:17:45]
+[Date,Time = 2018-07-11_14:10:54]
 XNNXNNN
 XNNNDDD
 XNNDXND
@@ -4072,9 +4072,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 Checking scheme 110/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 XNDXNNN
 XNDNDDD
 XNDDXND
@@ -4108,9 +4108,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 Checking scheme 111/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 XNDXNNN
 XNDNDDD
 XNDDXND
@@ -4144,9 +4144,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 Checking scheme 112/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 XNDXNNN
 XNDNDDD
 XNDDXND
@@ -4180,9 +4180,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
-Checking scheme 113/558 - Price: 84368.27637999998
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
+Checking scheme 113/558 - Price: 84368.27638
+[Date,Time = 2018-07-11_14:10:54]
 XDDXNNN
 XDDNDDD
 XDDDXND
@@ -4216,9 +4216,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 Checking scheme 114/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
 XDDXNNN
 XDDNDDD
 XDDDXND
@@ -4252,9 +4252,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
-Checking scheme 115/558 - Price: 86604.28772
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:54]
+Checking scheme 115/558 - Price: 86604.28772000001
+[Date,Time = 2018-07-11_14:10:54]
 XNNXNNN
 XNNNDDD
 XNNDXDD
@@ -4288,9 +4288,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 Checking scheme 116/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 XNDXNNN
 XNDNDDD
 XNDDXDD
@@ -4324,9 +4324,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 Checking scheme 117/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 XNDXNNN
 XNDNDDD
 XNDDXDD
@@ -4360,9 +4360,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 Checking scheme 118/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 XNDXNNN
 XNDNDDD
 XNDDXDD
@@ -4396,9 +4396,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
-Checking scheme 119/558 - Price: 86455.82378000002
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
+Checking scheme 119/558 - Price: 86455.82377999998
+[Date,Time = 2018-07-11_14:10:55]
 XDDXNNN
 XDDNDDD
 XDDDXDD
@@ -4432,9 +4432,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 Checking scheme 120/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:46]
+[Date,Time = 2018-07-11_14:10:55]
 XDDXNNN
 XDDNDDD
 XDDDXDD
@@ -4468,9 +4468,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
-Checking scheme 121/558 - Price: 83537.01271000001
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:55]
+Checking scheme 121/558 - Price: 83537.01270999998
+[Date,Time = 2018-07-11_14:10:55]
 XNNXNNN
 XNNDXND
 XNNDNDD
@@ -4504,9 +4504,9 @@ DDNX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:55]
 Checking scheme 122/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:55]
 XNDXNNN
 XNDDXND
 XNDDNDD
@@ -4540,9 +4540,9 @@ DDNX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:55]
 Checking scheme 123/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:55]
 XNDXNNN
 XNDDXND
 XNDDNDD
@@ -4576,9 +4576,9 @@ DDNX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 124/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 XNDXNNN
 XNDDXND
 XNDDNDD
@@ -4612,9 +4612,9 @@ DDNX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 125/558 - Price: 83085.25811
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 XDDXNNN
 XDDDXND
 XDDDNDD
@@ -4648,9 +4648,9 @@ DDNX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 126/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 XDDXNNN
 XDDDXND
 XDDDNDD
@@ -4684,9 +4684,9 @@ DDNX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
-Checking scheme 127/558 - Price: 83178.26120000001
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
+Checking scheme 127/558 - Price: 83178.2612
+[Date,Time = 2018-07-11_14:10:56]
 XNNXNNN
 XNNDXDD
 XNNDNND
@@ -4720,9 +4720,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 128/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 XNDXNNN
 XNDDXDD
 XNDDNND
@@ -4756,9 +4756,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 129/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 XNDXNNN
 XNDDXDD
 XNDDNND
@@ -4792,9 +4792,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 130/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:47]
+[Date,Time = 2018-07-11_14:10:56]
 XNDXNNN
 XNDDXDD
 XNDDNND
@@ -4828,9 +4828,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
-Checking scheme 131/558 - Price: 83398.02118000003
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:56]
+Checking scheme 131/558 - Price: 83398.02118000001
+[Date,Time = 2018-07-11_14:10:56]
 XDDXNNN
 XDDDXDD
 XDDDNND
@@ -4864,9 +4864,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 132/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:56]
 XDDXNNN
 XDDDXDD
 XDDDNND
@@ -4900,9 +4900,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:56]
 Checking scheme 133/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:56]
 XNNXNND
 XNNXNDN
 XNNNDXN
@@ -4936,9 +4936,9 @@ NDND
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 134/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -4972,9 +4972,9 @@ NDND
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 135/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -5008,9 +5008,9 @@ NDND
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 136/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -5044,9 +5044,9 @@ NDND
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 137/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -5080,9 +5080,9 @@ NDND
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 138/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -5116,9 +5116,9 @@ NDND
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 139/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNNXNND
 XNNXNDN
 XNNNDXN
@@ -5152,9 +5152,9 @@ NDND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 140/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -5188,9 +5188,9 @@ NDND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 141/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -5224,9 +5224,9 @@ NDND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 142/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:48]
+[Date,Time = 2018-07-11_14:10:57]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -5260,9 +5260,9 @@ NDND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:49]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 143/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:49]
+[Date,Time = 2018-07-11_14:10:57]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -5296,9 +5296,9 @@ NDND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:50]
+[Date,Time = 2018-07-11_14:10:57]
 Checking scheme 144/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:50]
+[Date,Time = 2018-07-11_14:10:57]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -5332,9 +5332,9 @@ NDND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:50]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 145/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:50]
+[Date,Time = 2018-07-11_14:10:58]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -5368,9 +5368,9 @@ NDNN
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:50]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 146/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:50]
+[Date,Time = 2018-07-11_14:10:58]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5404,9 +5404,9 @@ NDNN
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 147/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5440,9 +5440,9 @@ NDNN
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 148/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5476,9 +5476,9 @@ NDNN
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 149/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -5512,9 +5512,9 @@ NDNN
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 150/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:51]
+[Date,Time = 2018-07-11_14:10:58]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -5548,9 +5548,9 @@ NDNN
 DNXN
 
 ---------
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 151/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -5584,9 +5584,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 152/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5620,9 +5620,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 153/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5656,9 +5656,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 154/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5692,9 +5692,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 Checking scheme 155/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:58]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -5728,9 +5728,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 156/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:52]
+[Date,Time = 2018-07-11_14:10:59]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -5764,9 +5764,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 157/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -5800,9 +5800,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 158/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5836,9 +5836,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 159/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5872,9 +5872,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 160/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -5908,9 +5908,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 161/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -5944,9 +5944,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 162/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:53]
+[Date,Time = 2018-07-11_14:10:59]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -5980,9 +5980,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 163/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -6016,9 +6016,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 164/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -6052,9 +6052,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 165/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -6088,9 +6088,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 Checking scheme 166/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:10:59]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -6124,9 +6124,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 167/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:11:00]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -6160,9 +6160,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 168/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:54]
+[Date,Time = 2018-07-11_14:11:00]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -6196,9 +6196,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 169/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XNNXNND
 XNNXNDN
 XNNNDND
@@ -6232,9 +6232,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 170/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6268,9 +6268,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 171/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6304,9 +6304,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 172/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6340,9 +6340,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 173/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -6376,9 +6376,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 174/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -6412,9 +6412,9 @@ DNXN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 175/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XNNXNND
 XNNXNDN
 XNNNDND
@@ -6448,9 +6448,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 176/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:55]
+[Date,Time = 2018-07-11_14:11:00]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6484,9 +6484,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:00]
 Checking scheme 177/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:00]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6520,9 +6520,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 178/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6556,9 +6556,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 179/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -6592,9 +6592,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 180/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -6628,9 +6628,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 181/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 XNNXNND
 XNNXNDN
 XNNNDND
@@ -6664,9 +6664,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 182/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:56]
+[Date,Time = 2018-07-11_14:11:01]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6700,9 +6700,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 183/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6736,9 +6736,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 184/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -6772,9 +6772,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 185/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -6808,9 +6808,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 Checking scheme 186/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:01]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -6844,9 +6844,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
-Checking scheme 187/558 - Price: 81397.06549999998
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
+Checking scheme 187/558 - Price: 81397.0655
+[Date,Time = 2018-07-11_14:11:02]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -6880,9 +6880,9 @@ NNNN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 188/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -6916,9 +6916,9 @@ NNNN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 189/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -6952,9 +6952,9 @@ NNNN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 190/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -6988,9 +6988,9 @@ NNNN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 191/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -7024,9 +7024,9 @@ NNNN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 192/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:57]
+[Date,Time = 2018-07-11_14:11:02]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -7060,9 +7060,9 @@ NNNN
 DXDN
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 193/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -7096,9 +7096,9 @@ DXDN
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 194/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -7132,9 +7132,9 @@ DXDN
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 195/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -7168,9 +7168,9 @@ DXDN
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 196/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -7204,9 +7204,9 @@ DXDN
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 197/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -7240,9 +7240,9 @@ DXDN
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 Checking scheme 198/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:02]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -7276,9 +7276,9 @@ DXDN
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 199/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -7312,9 +7312,9 @@ DXDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 200/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -7348,9 +7348,9 @@ DXDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 201/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -7384,9 +7384,9 @@ DXDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 202/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -7420,9 +7420,9 @@ DXDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 203/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -7456,9 +7456,9 @@ DXDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 204/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:58]
+[Date,Time = 2018-07-11_14:11:03]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -7492,9 +7492,9 @@ DXDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
-Checking scheme 205/558 - Price: 81741.6037
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:03]
+Checking scheme 205/558 - Price: 81741.60369999998
+[Date,Time = 2018-07-11_14:11:03]
 XNNXNND
 XNNXDDN
 XNNNNNN
@@ -7528,9 +7528,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 206/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:03]
 XNDXNND
 XNDXDDN
 XNDNNNN
@@ -7564,9 +7564,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:03]
 Checking scheme 207/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:03]
 XNDXNND
 XNDXDDN
 XNDNNNN
@@ -7600,9 +7600,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 208/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 XNDXNND
 XNDXDDN
 XNDNNNN
@@ -7636,9 +7636,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 209/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 XDDXNND
 XDDXDDN
 XDDNNNN
@@ -7672,9 +7672,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 210/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 XDDXNND
 XDDXDDN
 XDDNNNN
@@ -7708,9 +7708,9 @@ DXDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
-Checking scheme 211/558 - Price: 82338.535
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
+Checking scheme 211/558 - Price: 82338.53500000003
+[Date,Time = 2018-07-11_14:11:04]
 XNNXNND
 XNNXDDN
 XNNNNNN
@@ -7744,9 +7744,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 212/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:17:59]
+[Date,Time = 2018-07-11_14:11:04]
 XNDXNND
 XNDXDDN
 XNDNNNN
@@ -7780,9 +7780,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 213/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:04]
 XNDXNND
 XNDXDDN
 XNDNNNN
@@ -7816,9 +7816,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 214/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:04]
 XNDXNND
 XNDXDDN
 XNDNNNN
@@ -7852,9 +7852,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:04]
 Checking scheme 215/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:04]
 XDDXNND
 XDDXDDN
 XDDNNNN
@@ -7888,9 +7888,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 216/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 XDDXNND
 XDDXDDN
 XDDNNNN
@@ -7924,9 +7924,9 @@ DXDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 217/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 XNNXNND
 XNNXDDN
 XNNNNDX
@@ -7960,9 +7960,9 @@ NDNN
 DNDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 218/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 XNDXNND
 XNDXDDN
 XNDNNDX
@@ -7996,9 +7996,9 @@ NDNN
 DNDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 219/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 XNDXNND
 XNDXDDN
 XNDNNDX
@@ -8032,9 +8032,9 @@ NDNN
 DNDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 220/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 XNDXNND
 XNDXDDN
 XNDNNDX
@@ -8068,9 +8068,9 @@ NDNN
 DNDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 221/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:00]
+[Date,Time = 2018-07-11_14:11:05]
 XDDXNND
 XDDXDDN
 XDDNNDX
@@ -8104,9 +8104,9 @@ NDNN
 DNDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 222/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:05]
 XDDXNND
 XDDXDDN
 XDDNNDX
@@ -8140,9 +8140,9 @@ NDNN
 DNDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 223/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:05]
 XNNXNND
 XNNXDDN
 XNNNNDX
@@ -8176,9 +8176,9 @@ DNDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:05]
 Checking scheme 224/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:05]
 XNDXNND
 XNDXDDN
 XNDNNDX
@@ -8212,9 +8212,9 @@ DNDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 225/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 XNDXNND
 XNDXDDN
 XNDNNDX
@@ -8248,9 +8248,9 @@ DNDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 226/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 XNDXNND
 XNDXDDN
 XNDNNDX
@@ -8284,9 +8284,9 @@ DNDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 227/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 XDDXNND
 XDDXDDN
 XDDNNDX
@@ -8320,9 +8320,9 @@ DNDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 228/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 XDDXNND
 XDDXDDN
 XDDNNDX
@@ -8356,9 +8356,9 @@ DNDD
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 229/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 XNNXNND
 XNNXDDN
 XNNNNDN
@@ -8392,9 +8392,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 230/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:01]
+[Date,Time = 2018-07-11_14:11:06]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8428,9 +8428,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 231/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:06]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8464,9 +8464,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 232/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:06]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8500,9 +8500,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:06]
 Checking scheme 233/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:06]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -8536,9 +8536,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 234/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -8572,9 +8572,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 235/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 XNNXNND
 XNNXDDN
 XNNNNDN
@@ -8608,9 +8608,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 236/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8644,9 +8644,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 237/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8680,9 +8680,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 238/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:02]
+[Date,Time = 2018-07-11_14:11:07]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8716,9 +8716,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 239/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:07]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -8752,9 +8752,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 240/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:07]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -8788,9 +8788,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:07]
 Checking scheme 241/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:07]
 XNNXNND
 XNNXDDN
 XNNNNDN
@@ -8824,9 +8824,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 242/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8860,9 +8860,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 243/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8896,9 +8896,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 244/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -8932,9 +8932,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 245/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -8968,9 +8968,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 246/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -9004,9 +9004,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 247/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XNNXNND
 XNNXDDN
 XNNDXDD
@@ -9040,9 +9040,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 248/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:03]
+[Date,Time = 2018-07-11_14:11:08]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9076,9 +9076,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:08]
 Checking scheme 249/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:08]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9112,9 +9112,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 250/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9148,9 +9148,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 251/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XDDXNND
 XDDXDDN
 XDDDXDD
@@ -9184,9 +9184,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 252/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XDDXNND
 XDDXDDN
 XDDDXDD
@@ -9220,9 +9220,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 253/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XNNXNND
 XNNXDDN
 XNNDXDD
@@ -9256,9 +9256,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 254/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9292,9 +9292,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 255/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9328,9 +9328,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 256/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9364,9 +9364,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 Checking scheme 257/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:09]
 XDDXNND
 XDDXDDN
 XDDDXDD
@@ -9400,9 +9400,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:10]
 Checking scheme 258/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:10]
 XDDXNND
 XDDXDDN
 XDDDXDD
@@ -9436,9 +9436,9 @@ DNNN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:10]
 Checking scheme 259/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:04]
+[Date,Time = 2018-07-11_14:11:10]
 XNNXNND
 XNNXDDN
 XNNDXDD
@@ -9472,9 +9472,9 @@ DNDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:10]
 Checking scheme 260/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:10]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9508,9 +9508,9 @@ DNDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 261/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9544,9 +9544,9 @@ DNDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 262/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XNDXNND
 XNDXDDN
 XNDDXDD
@@ -9580,9 +9580,9 @@ DNDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 263/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XDDXNND
 XDDXDDN
 XDDDXDD
@@ -9616,9 +9616,9 @@ DNDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 264/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XDDXNND
 XDDXDDN
 XDDDXDD
@@ -9652,9 +9652,9 @@ DNDN
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 265/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XNNXNND
 XNNNXDN
 XNNNNDD
@@ -9688,9 +9688,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 266/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XNDXNND
 XNDNXDN
 XNDNNDD
@@ -9724,9 +9724,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 Checking scheme 267/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:11]
 XNDXNND
 XNDNXDN
 XNDNNDD
@@ -9760,9 +9760,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 268/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:12]
 XNDXNND
 XNDNXDN
 XNDNNDD
@@ -9796,9 +9796,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 269/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:05]
+[Date,Time = 2018-07-11_14:11:12]
 XDDXNND
 XDDNXDN
 XDDNNDD
@@ -9832,9 +9832,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 270/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XDDXNND
 XDDNXDN
 XDDNNDD
@@ -9868,9 +9868,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 271/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNNXNND
 XNNNXDN
 XNNNDXN
@@ -9904,9 +9904,9 @@ DNNX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 272/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -9940,9 +9940,9 @@ DNNX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 273/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -9976,9 +9976,9 @@ DNNX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 274/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -10012,9 +10012,9 @@ DNNX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 275/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -10048,9 +10048,9 @@ DNNX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 276/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -10084,9 +10084,9 @@ DNNX
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 277/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNNXNND
 XNNNXDN
 XNNNDDD
@@ -10120,9 +10120,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 278/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -10156,9 +10156,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 Checking scheme 279/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:12]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -10192,9 +10192,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 280/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:06]
+[Date,Time = 2018-07-11_14:11:13]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -10228,9 +10228,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:07]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 281/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:07]
+[Date,Time = 2018-07-11_14:11:13]
 XDDXNND
 XDDNXDN
 XDDNDDD
@@ -10264,9 +10264,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:07]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 282/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:07]
+[Date,Time = 2018-07-11_14:11:13]
 XDDXNND
 XDDNXDN
 XDDNDDD
@@ -10300,9 +10300,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:07]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 283/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:07]
+[Date,Time = 2018-07-11_14:11:13]
 XNNXNND
 XNNNXDN
 XNNNDDD
@@ -10336,9 +10336,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:08]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 284/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:08]
+[Date,Time = 2018-07-11_14:11:13]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -10372,9 +10372,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:08]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 285/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:08]
+[Date,Time = 2018-07-11_14:11:13]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -10408,9 +10408,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:09]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 286/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:09]
+[Date,Time = 2018-07-11_14:11:13]
 XNDXNND
 XNDNXDN
 XNDNDDD
@@ -10444,9 +10444,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:09]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 287/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:09]
+[Date,Time = 2018-07-11_14:11:13]
 XDDXNND
 XDDNXDN
 XDDNDDD
@@ -10480,9 +10480,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:09]
+[Date,Time = 2018-07-11_14:11:13]
 Checking scheme 288/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:09]
+[Date,Time = 2018-07-11_14:11:13]
 XDDXNND
 XDDNXDN
 XDDNDDD
@@ -10516,9 +10516,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 289/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 XNNXNND
 XNNNXDD
 XNNNNDN
@@ -10552,9 +10552,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 290/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 XNDXNND
 XNDNXDD
 XNDNNDN
@@ -10588,9 +10588,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 291/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 XNDXNND
 XNDNXDD
 XNDNNDN
@@ -10624,9 +10624,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 292/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:10]
+[Date,Time = 2018-07-11_14:11:14]
 XNDXNND
 XNDNXDD
 XNDNNDN
@@ -10660,9 +10660,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 293/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 XDDXNND
 XDDNXDD
 XDDNNDN
@@ -10696,9 +10696,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 294/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 XDDXNND
 XDDNXDD
 XDDNNDN
@@ -10732,9 +10732,9 @@ NDNN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 295/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 XNNXNND
 XNNNNDN
 XNNDXDD
@@ -10768,9 +10768,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 296/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -10804,9 +10804,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 Checking scheme 297/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:14]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -10840,9 +10840,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 298/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:11]
+[Date,Time = 2018-07-11_14:11:15]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -10876,9 +10876,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 299/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 XDDXNND
 XDDNNDN
 XDDDXDD
@@ -10912,9 +10912,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 300/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 XDDXNND
 XDDNNDN
 XDDDXDD
@@ -10948,9 +10948,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 301/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 XNNXNND
 XNNNNDN
 XNNDXDD
@@ -10984,9 +10984,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 302/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -11020,9 +11020,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 303/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:12]
+[Date,Time = 2018-07-11_14:11:15]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -11056,9 +11056,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 304/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:15]
 XNDXNND
 XNDNNDN
 XNDDXDD
@@ -11092,9 +11092,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:15]
 Checking scheme 305/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:15]
 XDDXNND
 XDDNNDN
 XDDDXDD
@@ -11128,9 +11128,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 306/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 XDDXNND
 XDDNNDN
 XDDDXDD
@@ -11164,9 +11164,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 307/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 XNNXNND
 XNNNNDD
 XNNNDND
@@ -11200,9 +11200,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 308/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -11236,9 +11236,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 309/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -11272,9 +11272,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 310/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:13]
+[Date,Time = 2018-07-11_14:11:16]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -11308,9 +11308,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 311/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 XDDXNND
 XDDNNDD
 XDDNDND
@@ -11344,9 +11344,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 312/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 XDDXNND
 XDDNNDD
 XDDNDND
@@ -11380,9 +11380,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 313/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 XNNXNND
 XNNNDDX
 XNNDXDN
@@ -11416,9 +11416,9 @@ DDXN
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 314/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 XNDXNND
 XNDNDDX
 XNDDXDN
@@ -11452,9 +11452,9 @@ DDXN
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 Checking scheme 315/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:16]
 XNDXNND
 XNDNDDX
 XNDDXDN
@@ -11488,9 +11488,9 @@ DDXN
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 316/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 XNDXNND
 XNDNDDX
 XNDDXDN
@@ -11524,9 +11524,9 @@ DDXN
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 317/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 XDDXNND
 XDDNDDX
 XDDDXDN
@@ -11560,9 +11560,9 @@ DDXN
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 318/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 XDDXNND
 XDDNDDX
 XDDDXDN
@@ -11596,9 +11596,9 @@ DDXN
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 319/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 XNNXNND
 XNNNDDN
 XNNDXDD
@@ -11632,9 +11632,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 320/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:14]
+[Date,Time = 2018-07-11_14:11:17]
 XNDXNND
 XNDNDDN
 XNDDXDD
@@ -11668,9 +11668,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 321/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 XNDXNND
 XNDNDDN
 XNDDXDD
@@ -11704,9 +11704,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 322/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 XNDXNND
 XNDNDDN
 XNDDXDD
@@ -11740,9 +11740,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 323/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 XDDXNND
 XDDNDDN
 XDDDXDD
@@ -11776,9 +11776,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 Checking scheme 324/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:17]
 XDDXNND
 XDDNDDN
 XDDDXDD
@@ -11812,9 +11812,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 325/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 XNNXNND
 XNNDXDN
 XNNDNDD
@@ -11848,9 +11848,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 326/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 XNDXNND
 XNDDXDN
 XNDDNDD
@@ -11884,9 +11884,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 327/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 XNDXNND
 XNDDXDN
 XNDDNDD
@@ -11920,9 +11920,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 328/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 XNDXNND
 XNDDXDN
 XNDDNDD
@@ -11956,9 +11956,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 329/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 XDDXNND
 XDDDXDN
 XDDDNDD
@@ -11992,9 +11992,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 330/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:15]
+[Date,Time = 2018-07-11_14:11:18]
 XDDXNND
 XDDDXDN
 XDDDNDD
@@ -12028,9 +12028,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:18]
 Checking scheme 331/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:18]
 XNNXNND
 XNNDXDD
 XNNDNDN
@@ -12064,9 +12064,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 332/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XNDXNND
 XNDDXDD
 XNDDNDN
@@ -12100,9 +12100,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 333/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XNDXNND
 XNDDXDD
 XNDDNDN
@@ -12136,9 +12136,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 334/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XNDXNND
 XNDDXDD
 XNDDNDN
@@ -12172,9 +12172,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 335/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XDDXNND
 XDDDXDD
 XDDDNDN
@@ -12208,9 +12208,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 336/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XDDXNND
 XDDDXDD
 XDDDNDN
@@ -12244,9 +12244,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 337/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XNNXNDD
 XNNXDND
 XNNNNND
@@ -12280,9 +12280,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 Checking scheme 338/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:19]
 XNDXNDD
 XNDXDND
 XNDNNND
@@ -12316,9 +12316,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 339/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:20]
 XNDXNDD
 XNDXDND
 XNDNNND
@@ -12352,9 +12352,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 340/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:16]
+[Date,Time = 2018-07-11_14:11:20]
 XNDXNDD
 XNDXDND
 XNDNNND
@@ -12388,9 +12388,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:17]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 341/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:17]
+[Date,Time = 2018-07-11_14:11:20]
 XDDXNDD
 XDDXDND
 XDDNNND
@@ -12424,9 +12424,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:17]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 342/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:17]
+[Date,Time = 2018-07-11_14:11:20]
 XDDXNDD
 XDDXDND
 XDDNNND
@@ -12460,9 +12460,9 @@ DNDX
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:18]
-Checking scheme 343/558 - Price: 83533.36025999996
-[Date,Time = 2018-07-03_19:18:18]
+[Date,Time = 2018-07-11_14:11:20]
+Checking scheme 343/558 - Price: 83533.36026000002
+[Date,Time = 2018-07-11_14:11:20]
 XNNXNDD
 XNNNNNN
 XNNNDXD
@@ -12496,9 +12496,9 @@ DXND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:18]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 344/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:18]
+[Date,Time = 2018-07-11_14:11:20]
 XNDXNDD
 XNDNNNN
 XNDNDXD
@@ -12532,9 +12532,9 @@ DXND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:18]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 345/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:18]
+[Date,Time = 2018-07-11_14:11:20]
 XNDXNDD
 XNDNNNN
 XNDNDXD
@@ -12568,9 +12568,9 @@ DXND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 346/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:20]
 XNDXNDD
 XNDNNNN
 XNDNDXD
@@ -12604,9 +12604,9 @@ DXND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:20]
 Checking scheme 347/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:20]
 XDDXNDD
 XDDNNNN
 XDDNDXD
@@ -12640,9 +12640,9 @@ DXND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 348/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:21]
 XDDXNDD
 XDDNNNN
 XDDNDXD
@@ -12676,9 +12676,9 @@ DXND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 349/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:19]
+[Date,Time = 2018-07-11_14:11:21]
 XNNXNDD
 XNNNDXD
 XNNNDDX
@@ -12712,9 +12712,9 @@ DXND
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 350/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 XNDXNDD
 XNDNDXD
 XNDNDDX
@@ -12748,9 +12748,9 @@ DXND
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 351/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 XNDXNDD
 XNDNDXD
 XNDNDDX
@@ -12784,9 +12784,9 @@ DXND
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 352/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 XNDXNDD
 XNDNDXD
 XNDNDDX
@@ -12820,9 +12820,9 @@ DXND
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 353/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 XDDXNDD
 XDDNDXD
 XDDNDDX
@@ -12856,9 +12856,9 @@ DXND
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 354/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:20]
+[Date,Time = 2018-07-11_14:11:21]
 XDDXNDD
 XDDNDXD
 XDDNDDX
@@ -12892,9 +12892,9 @@ DXND
 DDDD
 
 ---------
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 355/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 XNNXNDD
 XNNNDXD
 XNNDNND
@@ -12928,9 +12928,9 @@ DNDX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 356/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 XNDXNDD
 XNDNDXD
 XNDDNND
@@ -12964,9 +12964,9 @@ DNDX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 357/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 XNDXNDD
 XNDNDXD
 XNDDNND
@@ -13000,9 +13000,9 @@ DNDX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 358/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 XNDXNDD
 XNDNDXD
 XNDDNND
@@ -13036,9 +13036,9 @@ DNDX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 359/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:21]
+[Date,Time = 2018-07-11_14:11:21]
 XDDXNDD
 XDDNDXD
 XDDDNND
@@ -13072,9 +13072,9 @@ DNDX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:21]
 Checking scheme 360/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:21]
 XDDXNDD
 XDDNDXD
 XDDDNND
@@ -13108,9 +13108,9 @@ DNDX
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 361/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 XNNXNDD
 XNNNDND
 XNNDNXD
@@ -13144,9 +13144,9 @@ DNDN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 362/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 XNDXNDD
 XNDNDND
 XNDDNXD
@@ -13180,9 +13180,9 @@ DNDN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 363/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 XNDXNDD
 XNDNDND
 XNDDNXD
@@ -13216,9 +13216,9 @@ DNDN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 364/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:22]
+[Date,Time = 2018-07-11_14:11:22]
 XNDXNDD
 XNDNDND
 XNDDNXD
@@ -13252,9 +13252,9 @@ DNDN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 365/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 XDDXNDD
 XDDNDND
 XDDDNXD
@@ -13288,9 +13288,9 @@ DNDN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 366/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 XDDXNDD
 XDDNDND
 XDDDNXD
@@ -13324,9 +13324,9 @@ DNDN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 367/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 XNNXNDD
 XNNNDDD
 XNNDNNN
@@ -13360,9 +13360,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 368/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 XNDXNDD
 XNDNDDD
 XNDDNNN
@@ -13396,9 +13396,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 Checking scheme 369/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:22]
 XNDXNDD
 XNDNDDD
 XNDDNNN
@@ -13432,9 +13432,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 370/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:23]
 XNDXNDD
 XNDNDDD
 XNDDNNN
@@ -13468,9 +13468,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 371/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:23]
 XDDXNDD
 XDDNDDD
 XDDDNNN
@@ -13504,9 +13504,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 372/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:23]
+[Date,Time = 2018-07-11_14:11:23]
 XDDXNDD
 XDDNDDD
 XDDDNNN
@@ -13540,9 +13540,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
-Checking scheme 373/558 - Price: 87041.52111999998
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
+Checking scheme 373/558 - Price: 87041.52112000002
+[Date,Time = 2018-07-11_14:11:23]
 XNNXDDD
 XNNNNNN
 XNNDXDD
@@ -13576,9 +13576,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 374/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 XNDXDDD
 XNDNNNN
 XNDDXDD
@@ -13612,9 +13612,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 375/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 XNDXDDD
 XNDNNNN
 XNDDXDD
@@ -13648,9 +13648,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 376/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 XNDXDDD
 XNDNNNN
 XNDDXDD
@@ -13684,9 +13684,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 377/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 XDDXDDD
 XDDNNNN
 XDDDXDD
@@ -13720,9 +13720,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 378/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 XDDXDDD
 XDDNNNN
 XDDDXDD
@@ -13756,9 +13756,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 Checking scheme 379/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:23]
 XNNXDDD
 XNNNNND
 XNNDXDD
@@ -13792,9 +13792,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 380/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -13828,9 +13828,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 381/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -13864,9 +13864,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 382/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -13900,9 +13900,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 383/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XDDXDDD
 XDDNNND
 XDDDXDD
@@ -13936,9 +13936,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 384/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XDDXDDD
 XDDNNND
 XDDDXDD
@@ -13972,9 +13972,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 385/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNNXDDD
 XNNNNND
 XNNDXDD
@@ -14008,9 +14008,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 386/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -14044,9 +14044,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 387/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -14080,9 +14080,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 388/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:24]
+[Date,Time = 2018-07-11_14:11:24]
 XNDXDDD
 XNDNNND
 XNDDXDD
@@ -14116,9 +14116,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 389/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:24]
 XDDXDDD
 XDDNNND
 XDDDXDD
@@ -14152,9 +14152,9 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:24]
 Checking scheme 390/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:24]
 XDDXDDD
 XDDNNND
 XDDDXDD
@@ -14188,13 +14188,13 @@ DDNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:24]
 ------------
 Checking schemes for product [(3, 4), (4, 6)]. Total 156 schemes
 ------------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 Checking scheme 391/558 - New best price: 80152.30867999999
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 XNNXNNN
 XNNNXND
 XNNNDDN
@@ -14233,9 +14233,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 Checking scheme 392/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 XNDXNNN
 XNDNXND
 XNDNDDN
@@ -14274,9 +14274,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 Checking scheme 393/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 XNDXNNN
 XNDNXND
 XNDNDDN
@@ -14315,9 +14315,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 Checking scheme 394/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 XNDXNNN
 XNDNXND
 XNDNDDN
@@ -14356,9 +14356,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
-Checking scheme 395/558 - New best price: 79780.04783999998
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
+Checking scheme 395/558 - New best price: 79780.04784
+[Date,Time = 2018-07-11_14:11:25]
 XDDXNNN
 XDDNXND
 XDDNDDN
@@ -14397,9 +14397,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 Checking scheme 396/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:25]
 XDDXNNN
 XDDNXND
 XDDNDDN
@@ -14438,9 +14438,9 @@ DDXN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:25]
-Checking scheme 397/558 - Price: 80407.77230000001
-[Date,Time = 2018-07-03_19:18:25]
+[Date,Time = 2018-07-11_14:11:26]
+Checking scheme 397/558 - Price: 80407.77229999998
+[Date,Time = 2018-07-11_14:11:26]
 XNNXNNN
 XNNNXND
 XNNNDDD
@@ -14479,9 +14479,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 398/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XNDXNNN
 XNDNXND
 XNDNDDD
@@ -14520,9 +14520,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 399/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XNDXNNN
 XNDNXND
 XNDNDDD
@@ -14561,9 +14561,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 400/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XNDXNNN
 XNDNXND
 XNDNDDD
@@ -14602,9 +14602,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
-Checking scheme 401/558 - Price: 80010.65268000001
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
+Checking scheme 401/558 - Price: 80010.65267999998
+[Date,Time = 2018-07-11_14:11:26]
 XDDXNNN
 XDDNXND
 XDDNDDD
@@ -14643,9 +14643,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 402/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XDDXNNN
 XDDNXND
 XDDNDDD
@@ -14684,9 +14684,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 403/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -14725,9 +14725,9 @@ DXND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 404/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -14766,9 +14766,9 @@ DXND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 Checking scheme 405/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:26]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -14807,9 +14807,9 @@ DXND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 406/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -14848,9 +14848,9 @@ DXND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 407/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -14889,9 +14889,9 @@ DXND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 408/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -14930,9 +14930,9 @@ DXND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:26]
-Checking scheme 409/558 - Price: 83148.39686000001
-[Date,Time = 2018-07-03_19:18:26]
+[Date,Time = 2018-07-11_14:11:27]
+Checking scheme 409/558 - Price: 83148.39686
+[Date,Time = 2018-07-11_14:11:27]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -14971,9 +14971,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 410/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -15012,9 +15012,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 411/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -15053,9 +15053,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 412/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -15094,9 +15094,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 413/558 - Price: 83092.02642
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -15135,9 +15135,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 414/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -15176,9 +15176,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
-Checking scheme 415/558 - Price: 81349.55086
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
+Checking scheme 415/558 - Price: 81349.55085999999
+[Date,Time = 2018-07-11_14:11:27]
 XNNXNNN
 XNNNXDD
 XNNNDXD
@@ -15217,9 +15217,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 416/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -15258,9 +15258,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:27]
 Checking scheme 417/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -15299,9 +15299,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 418/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNNN
 XNDNXDD
 XNDNDXD
@@ -15340,9 +15340,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
-Checking scheme 419/558 - Price: 81317.13842
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:28]
+Checking scheme 419/558 - Price: 81317.13841999999
+[Date,Time = 2018-07-11_14:11:28]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -15381,9 +15381,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 420/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:27]
+[Date,Time = 2018-07-11_14:11:28]
 XDDXNNN
 XDDNXDD
 XDDNDXD
@@ -15422,9 +15422,9 @@ DXND
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 421/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNNXNND
 XNNXNDN
 XNNNDXN
@@ -15463,9 +15463,9 @@ DDND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 422/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -15504,9 +15504,9 @@ DDND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 423/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -15545,9 +15545,9 @@ DDND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 424/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -15586,9 +15586,9 @@ DDND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 425/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -15627,9 +15627,9 @@ DDND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 426/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -15668,9 +15668,9 @@ DDND
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 427/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNNXNND
 XNNXNDN
 XNNNDXN
@@ -15709,9 +15709,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 428/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -15750,9 +15750,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 429/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -15791,9 +15791,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 Checking scheme 430/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:28]
 XNDXNND
 XNDXNDN
 XNDNDXN
@@ -15832,9 +15832,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 431/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:29]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -15873,9 +15873,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 432/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:28]
+[Date,Time = 2018-07-11_14:11:29]
 XDDXNND
 XDDXNDN
 XDDNDXN
@@ -15914,9 +15914,9 @@ DDND
 DDDN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 433/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -15955,9 +15955,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 434/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -15996,9 +15996,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 435/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16037,9 +16037,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 436/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16078,9 +16078,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 437/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -16119,9 +16119,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 438/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -16160,9 +16160,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 439/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -16201,9 +16201,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 440/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16242,9 +16242,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 Checking scheme 441/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:29]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16283,9 +16283,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 442/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16324,9 +16324,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 443/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -16365,9 +16365,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 444/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -16406,9 +16406,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 445/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:29]
+[Date,Time = 2018-07-11_14:11:30]
 XNNXNND
 XNNXNDN
 XNNNDXD
@@ -16447,9 +16447,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 446/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16488,9 +16488,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 447/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16529,9 +16529,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 448/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XNDXNND
 XNDXNDN
 XNDNDXD
@@ -16570,9 +16570,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 449/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -16611,9 +16611,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 450/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XDDXNND
 XDDXNDN
 XDDNDXD
@@ -16652,9 +16652,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 451/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XNNXNND
 XNNXNDN
 XNNNDNN
@@ -16693,9 +16693,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 Checking scheme 452/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:30]
 XNDXNND
 XNDXNDN
 XNDNDNN
@@ -16734,9 +16734,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 453/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:30]
+[Date,Time = 2018-07-11_14:11:31]
 XNDXNND
 XNDXNDN
 XNDNDNN
@@ -16775,9 +16775,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 454/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 XNDXNND
 XNDXNDN
 XNDNDNN
@@ -16816,9 +16816,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 455/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 XDDXNND
 XDDXNDN
 XDDNDNN
@@ -16857,9 +16857,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 456/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 XDDXNND
 XDDXNDN
 XDDNDNN
@@ -16898,9 +16898,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 457/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 XNNXNND
 XNNXNDN
 XNNNDND
@@ -16939,9 +16939,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 458/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:31]
+[Date,Time = 2018-07-11_14:11:31]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -16980,9 +16980,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 459/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -17021,9 +17021,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 460/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -17062,9 +17062,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 461/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -17103,9 +17103,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 462/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -17144,9 +17144,9 @@ DNXN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 463/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:32]
+[Date,Time = 2018-07-11_14:11:31]
 XNNXNND
 XNNXNDN
 XNNNDND
@@ -17185,9 +17185,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:33]
+[Date,Time = 2018-07-11_14:11:31]
 Checking scheme 464/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:33]
+[Date,Time = 2018-07-11_14:11:31]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -17226,9 +17226,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:33]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 465/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:33]
+[Date,Time = 2018-07-11_14:11:32]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -17267,9 +17267,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:34]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 466/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:34]
+[Date,Time = 2018-07-11_14:11:32]
 XNDXNND
 XNDXNDN
 XNDNDND
@@ -17308,9 +17308,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:34]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 467/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:34]
+[Date,Time = 2018-07-11_14:11:32]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -17349,9 +17349,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:34]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 468/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:34]
+[Date,Time = 2018-07-11_14:11:32]
 XDDXNND
 XDDXNDN
 XDDNDND
@@ -17390,9 +17390,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:35]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 469/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:35]
+[Date,Time = 2018-07-11_14:11:32]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -17431,9 +17431,9 @@ DXDN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:35]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 470/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:35]
+[Date,Time = 2018-07-11_14:11:32]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -17472,9 +17472,9 @@ DXDN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:35]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 471/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:35]
+[Date,Time = 2018-07-11_14:11:32]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -17513,9 +17513,9 @@ DXDN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 472/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -17554,9 +17554,9 @@ DXDN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 473/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -17595,9 +17595,9 @@ DXDN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 474/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -17636,9 +17636,9 @@ DXDN
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 475/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 XNNXNND
 XNNXDDN
 XNNNNDN
@@ -17677,9 +17677,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 Checking scheme 476/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:36]
+[Date,Time = 2018-07-11_14:11:32]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -17718,9 +17718,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 477/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -17759,9 +17759,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 478/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 XNDXNND
 XNDXDDN
 XNDNNDN
@@ -17800,9 +17800,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 479/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -17841,9 +17841,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 480/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:37]
+[Date,Time = 2018-07-11_14:11:33]
 XDDXNND
 XDDXDDN
 XDDNNDN
@@ -17882,9 +17882,9 @@ DNNN
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 481/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 XNNXNND
 XNNXDDN
 XNNDXDN
@@ -17923,9 +17923,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 482/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 XNDXNND
 XNDXDDN
 XNDDXDN
@@ -17964,9 +17964,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 483/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 XNDXNND
 XNDXDDN
 XNDDXDN
@@ -18005,9 +18005,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 Checking scheme 484/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:33]
 XNDXNND
 XNDXDDN
 XNDDXDN
@@ -18046,9 +18046,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 485/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:38]
+[Date,Time = 2018-07-11_14:11:34]
 XDDXNND
 XDDXDDN
 XDDDXDN
@@ -18087,9 +18087,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 486/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 XDDXNND
 XDDXDDN
 XDDDXDN
@@ -18128,9 +18128,9 @@ DDXD
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 487/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 XNNXNND
 XNNNXDN
 XNNNDXN
@@ -18169,9 +18169,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 488/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -18210,9 +18210,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 489/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -18251,9 +18251,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 490/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 XNDXNND
 XNDNXDN
 XNDNDXN
@@ -18292,9 +18292,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 491/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:39]
+[Date,Time = 2018-07-11_14:11:34]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -18333,9 +18333,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 492/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:34]
 XDDXNND
 XDDNXDN
 XDDNDXN
@@ -18374,9 +18374,9 @@ DNNN
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 493/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:34]
 XNNXNND
 XNNNXDN
 XNNNDNN
@@ -18415,9 +18415,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:34]
 Checking scheme 494/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:34]
 XNDXNND
 XNDNXDN
 XNDNDNN
@@ -18456,9 +18456,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 495/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:35]
 XNDXNND
 XNDNXDN
 XNDNDNN
@@ -18497,9 +18497,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 496/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:35]
 XNDXNND
 XNDNXDN
 XNDNDNN
@@ -18538,9 +18538,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 497/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:40]
+[Date,Time = 2018-07-11_14:11:35]
 XDDXNND
 XDDNXDN
 XDDNDNN
@@ -18579,9 +18579,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 498/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XDDXNND
 XDDNXDN
 XDDNDNN
@@ -18620,9 +18620,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 499/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XNNXNND
 XNNNNDN
 XNNNDNN
@@ -18661,9 +18661,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 500/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XNDXNND
 XNDNNDN
 XNDNDNN
@@ -18702,9 +18702,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 501/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XNDXNND
 XNDNNDN
 XNDNDNN
@@ -18743,9 +18743,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 502/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XNDXNND
 XNDNNDN
 XNDNDNN
@@ -18784,9 +18784,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 503/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XDDXNND
 XDDNNDN
 XDDNDNN
@@ -18825,9 +18825,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 504/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XDDXNND
 XDDNNDN
 XDDNDNN
@@ -18866,9 +18866,9 @@ DNNX
 DDXD
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 Checking scheme 505/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:35]
 XNNXNND
 XNNNNDD
 XNNNDND
@@ -18907,9 +18907,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 506/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:41]
+[Date,Time = 2018-07-11_14:11:36]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -18948,9 +18948,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 507/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -18989,9 +18989,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 508/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -19030,9 +19030,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 509/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XDDXNND
 XDDNNDD
 XDDNDND
@@ -19071,9 +19071,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 510/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XDDXNND
 XDDNNDD
 XDDNDND
@@ -19112,9 +19112,9 @@ DNDN
 DDNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 511/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XNNXNND
 XNNNNDD
 XNNNDND
@@ -19153,9 +19153,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 512/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -19194,9 +19194,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 513/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -19235,9 +19235,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 Checking scheme 514/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:42]
+[Date,Time = 2018-07-11_14:11:36]
 XNDXNND
 XNDNNDD
 XNDNDND
@@ -19276,9 +19276,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 515/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XDDXNND
 XDDNNDD
 XDDNDND
@@ -19317,9 +19317,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 516/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XDDXNND
 XDDNNDD
 XDDNDND
@@ -19358,9 +19358,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 517/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XNNXNND
 XNNNDDD
 XNNDXDD
@@ -19399,9 +19399,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 518/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XNDXNND
 XNDNDDD
 XNDDXDD
@@ -19440,9 +19440,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 519/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XNDXNND
 XNDNDDD
 XNDDXDD
@@ -19481,9 +19481,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 520/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XNDXNND
 XNDNDDD
 XNDDXDD
@@ -19522,9 +19522,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 521/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XDDXNND
 XDDNDDD
 XDDDXDD
@@ -19563,9 +19563,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 522/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:43]
+[Date,Time = 2018-07-11_14:11:37]
 XDDXNND
 XDDNDDD
 XDDDXDD
@@ -19604,9 +19604,9 @@ DDXD
 DDDX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
-Checking scheme 523/558 - Price: 82553.10990000002
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:37]
+Checking scheme 523/558 - Price: 82553.10990000001
+[Date,Time = 2018-07-11_14:11:37]
 XNNXNDD
 XNNXDND
 XNNNNNN
@@ -19645,9 +19645,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 524/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:37]
 XNDXNDD
 XNDXDND
 XNDNNNN
@@ -19686,9 +19686,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:37]
 Checking scheme 525/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:37]
 XNDXNDD
 XNDXDND
 XNDNNNN
@@ -19727,9 +19727,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 526/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNNN
@@ -19768,9 +19768,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 527/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XDDXNDD
 XDDXDND
 XDDNNNN
@@ -19809,9 +19809,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 528/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XDDXNDD
 XDDXDND
 XDDNNNN
@@ -19850,9 +19850,9 @@ DNDX
 DDXN
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 529/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XNNXNDD
 XNNXDND
 XNNNNND
@@ -19891,9 +19891,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 530/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNND
@@ -19932,9 +19932,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 531/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNND
@@ -19973,9 +19973,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 532/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNND
@@ -20014,9 +20014,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 533/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XDDXNDD
 XDDXDND
 XDDNNND
@@ -20055,9 +20055,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 534/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XDDXNDD
 XDDXDND
 XDDNNND
@@ -20096,9 +20096,9 @@ DNDX
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 535/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:44]
+[Date,Time = 2018-07-11_14:11:38]
 XNNXNDD
 XNNXDND
 XNNNNDN
@@ -20137,9 +20137,9 @@ DXND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 536/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNDN
@@ -20178,9 +20178,9 @@ DXND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 537/558 - Equivalent scheme was already checked
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNDN
@@ -20219,9 +20219,9 @@ DXND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 538/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDXDND
 XNDNNDN
@@ -20260,9 +20260,9 @@ DXND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 539/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XDDXNDD
 XDDXDND
 XDDNNDN
@@ -20301,9 +20301,9 @@ DXND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 540/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XDDXNDD
 XDDXDND
 XDDNNDN
@@ -20342,9 +20342,9 @@ DXND
 DNNN
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 541/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XNNXNDD
 XNNNDXD
 XNNNDDN
@@ -20383,9 +20383,9 @@ DNND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 Checking scheme 542/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:38]
 XNDXNDD
 XNDNDXD
 XNDNDDN
@@ -20424,9 +20424,9 @@ DNND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 543/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNDD
 XNDNDXD
 XNDNDDN
@@ -20465,9 +20465,9 @@ DNND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 544/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNDD
 XNDNDXD
 XNDNDDN
@@ -20506,9 +20506,9 @@ DNND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 545/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XDDXNDD
 XDDNDXD
 XDDNDDN
@@ -20547,9 +20547,9 @@ DNND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 546/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XDDXNDD
 XDDNDXD
 XDDNDDN
@@ -20588,13 +20588,13 @@ DNND
 DDNX
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 ------------
 Checking schemes for product [(3, 4), (4, 7)]. Total 12 schemes
 ------------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 547/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -20638,9 +20638,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 548/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -20684,9 +20684,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 549/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:45]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -20730,9 +20730,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 550/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -20776,9 +20776,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 551/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -20822,9 +20822,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 552/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -20868,9 +20868,9 @@ DNDX
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 553/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 XNNXNND
 XNNXDDN
 XNNNXDD
@@ -20914,9 +20914,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 554/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -20960,9 +20960,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 Checking scheme 555/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:39]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -21006,9 +21006,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 Checking scheme 556/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 XNDXNND
 XNDXDDN
 XNDNXDD
@@ -21052,9 +21052,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 Checking scheme 557/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -21098,9 +21098,9 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 Checking scheme 558/558 - Scheme can not be optimized
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 XDDXNND
 XDDXDDN
 XDDNXDD
@@ -21144,7 +21144,7 @@ DNDN
 DDND
 
 ---------
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
 ________________________
 Best scheme
 [NCS = XND4]
@@ -21171,7 +21171,7 @@ Trp, N, N, N, N, X, N, D
 Tyr, N, N, N, D, D, X, N
 Val, D, D, X, N, X, N, D
 [price]
-79780.04783999998
+79780.04784
 
 Blocks used for this scheme:
 [ELB samples = 3 patterns = 4]
@@ -21187,6 +21187,26 @@ DXDN
 DDXN
 DDND
 
-[Date,Time = 2018-07-03_19:18:46]
+[Date,Time = 2018-07-11_14:11:40]
+-------------
+Products in 7 samples:
+[(3, 3), (4, 7)]
+  18 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   0 scheme(s): price calculated
+[(3, 4), (4, 5)]
+ 329 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+  43 scheme(s): price calculated
+[(3, 4), (4, 6)]
+ 146 scheme(s): cannot be optimized
+   1 scheme(s): equivalent
+   9 scheme(s): price calculated
+[(3, 4), (4, 7)]
+  12 scheme(s): cannot be optimized
+   0 scheme(s): equivalent
+   0 scheme(s): price calculated
+
+[Date,Time = 2018-07-11_14:11:40]
 -----
-Calculation finished at 2018-07-03 19:18:46!
+Calculation finished at 2018-07-11 14:11:40!
