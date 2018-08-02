@@ -4,6 +4,9 @@ class LabelType:
         self.name = name
         self.isotopes = isotopes
 
+    def __str__(self):
+        return self.name
+
 
 class Spectrum:
 
@@ -38,8 +41,9 @@ class NCS:
 
     NITRO_TYPES = ("N", "D", "S", "T")  # labeling types with 15N
 
-    def __init__(self, name, spectra_list, label_types):
+    def __init__(self, name, spectra_list, label_types, deuterated=False):
         self.name = name
+        self.deuterated = deuterated
         self.spec_list = spectra_list
         self.label_types = label_types
         self.label_dict = {}
@@ -49,6 +53,7 @@ class NCS:
         self.codes_dict = {}
         self.label_power = {}
         self.spectra_numbers = []
+        self.vectors = [[0 for _ in self.spec_list]]
         self._make_coding_table()
 
     def _make_coding_table(self):
@@ -96,6 +101,47 @@ class NCS:
             power *= self.label_power[self.label_dict[label]]
         return power >= min_power
 
+    def __str__(self):
+        output = "[NCS = {}]\n".format(self.name)
+        if self.deuterated:
+            output += "[Deuterated]\n"
+        output += "\n\n" + "#" * 50 + "\n"
+        output += "# Spectrum code for each labeling pair \n#\n"
+        output += "# One-letter codes in the headers of columns"
+        output += "# and rows are the labeling types \n"
+        output += "# Don't confuse with one-letter amino acid codes\n\n"
+        output += "[code_pairs]\n "
+        for type in self.label_types:
+            output += ", " + type.name
+        output += "\n"
+        for type_1 in self.label_types:
+            output += type_1.name
+            for type_2 in self.label_types:
+                output += ", " + self.codes_dict[type_1][type_2]
+            output += "\n"
+        output += "\n"
+
+        output += "\n\n"+"#"*50+"\n"
+        output += "# Spectrum codes table\n#\n"
+        output += "# The spectrum code is in the first column\n"
+        output += "# Flag of the peak presence (0 or 1) for each spectrum\n\n"
+        output += "[codes]\n"
+        output += "Code"
+        for spectrum in self.spec_list:
+            output += "," + "{:>7}".format(spectrum.name)
+        output += "\n"
+        for i in range(len(self.vectors)):
+            if i < 10:
+                code = "{:>4}".format(i)
+            else:
+                code = "{:>4}".format(self.letters[i-10])
+            output += code + ","
+            output += ",".join(["{:>7}".format(item) for item in self.vectors[i]])
+            if i+1 < len(self.vectors):
+                output += "\n"
+
+        return output
+
 
 class Constants:
 
@@ -111,7 +157,7 @@ class Constants:
     TYPES_NAMES = [label_type.name for label_type in BASIC_TYPES]
 
     TYPES = ("X", "N", "C", "D", "A", "T", "S", "F")
-
+    DEUTERATED_TYPES = ("X", "N", "F", "D")
     CARBON_TYPES = ("C", "D", "A", "S", "T", "F")  # labeling types with 13C
 
     HSQC = Spectrum("HSQC")

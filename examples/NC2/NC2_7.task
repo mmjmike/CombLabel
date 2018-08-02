@@ -12,8 +12,8 @@ NCS NC2
 
 #Please, specify the use of all 8 labeling types by '1' or '0'.
 #You can see the description in ...
-#Use 1 1 1 0 0 0 0 0 as default
-#Order as follows:   X   N   C   D   A   S   T   F
+#Use 1 1 1 0 0 0 0 0 as defaultX   N   C   D   A   S   T   F
+#Order as follows:
 #labeling_types       1   1   1   0   0   0   0   0
 
 #Please, specify the use of all 7 spectra by '1' or '0'.
