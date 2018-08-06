@@ -3,26 +3,29 @@
 from classes.constants import NCS, Constants
 
 def answer_yes(input_key):
-    return ( input_key.upper() == "Y" or input_key.upper() == "YES" )
+    return input_key.upper() == "Y" or input_key.upper() == "YES"
 
 
 def answer_no(input_key):
-    return ( input_key.upper() == "N" or input_key.upper() == "NO" )
+    return input_key.upper() == "N" or input_key.upper() == "NO"
 
 
 def answer_empty(input_key):
-    return ( len(input_key) == 0  )
+    return len(input_key) == 0
 
 
 def input_deuteration():
     deuterated = False
     result = True
+    query_text = "NMR coding system (NCS) will use DEUTERATED amino acids (Y[es]/N[o], default in No) > "
     while result:
-        input_key = input("Are the amino acid label types deuterated? (Y/N) > ")
-        if input_key.upper() == "Y":
+        input_key = input(query_text)
+        if answer_yes(input_key):
             deuterated = True
+            print("Your are creating DEUTERATED NCS")
             break
-        elif input_key.upper() == "N":
+        elif answer_no(input_key) or answer_empty(input_key):
+            print("Your are creating NOT deuterated NCS")
             break
         else:
             result = ask_to_continue_input()
@@ -241,13 +244,6 @@ def main():
     ncs.name = name
     if not continue_input:
         return
-
-    print("===================================================")
-    print("  This is again the PREVIEW of your NCS:")
-    print("===================================================")
-    print(ncs)
-    print("================= END OF PREVIEW ==================")
-
     write_to_file(ncs)
 
 
