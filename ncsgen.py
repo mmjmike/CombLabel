@@ -5,8 +5,10 @@ from classes.constants import NCS, Constants
 def answer_yes(input_key):
     return ( input_key.upper() == "Y" or input_key.upper() == "YES" )
 
+
 def answer_no(input_key):
     return ( input_key.upper() == "N" or input_key.upper() == "NO" )
+
 
 def answer_empty(input_key):
     return ( len(input_key) == 0  )
@@ -15,15 +17,12 @@ def answer_empty(input_key):
 def input_deuteration():
     deuterated = False
     result = True
-    query_text = "NMR coding system (NCS) will use DEUTERATED amino acids (Y[es]/N[o], default in No) > "
     while result:
-        input_key = input(query_text)
-        if answer_yes(input_key):
+        input_key = input("Are the amino acid label types deuterated? (Y/N) > ")
+        if input_key.upper() == "Y":
             deuterated = True
-            print("Your are creating DEUTERATED NCS")
             break
-        elif answer_no(input_key) or answer_empty(input_key):
-            print("Your are creating NOT deuterated NCS")
+        elif input_key.upper() == "N":
             break
         else:
             result = ask_to_continue_input()
@@ -148,6 +147,7 @@ def strip_spectra(line):
             spectra_list.append(spectrum)
     return result, spectra_list
 
+
 def auto_name_ncs(ncs):
     auto_name= ''
     if ncs.deuterated:
@@ -163,6 +163,7 @@ def auto_name_ncs(ncs):
     if not ncs.deuterated and not flag_X:
        auto_name+= "noX"
     return auto_name
+
 
 def input_name(ncs):
     repeat_input = True
@@ -240,7 +241,7 @@ def main():
     ncs.name = name
     if not continue_input:
         return
-        
+
     print("===================================================")
     print("  This is again the PREVIEW of your NCS:")
     print("===================================================")

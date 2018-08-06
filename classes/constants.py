@@ -54,13 +54,15 @@ class NCS:
         self.label_power = {}
         self.spectra_numbers = []
         self.vectors = [[0 for _ in self.spec_list]]
-        self.max_code_value = -1
         self._make_coding_table()
+
+    @property
+    def max_code_value(self):
+        return len(self.vectors) - 1
 
     def _make_coding_table(self):
 
-        codes_table =     [[0 for i in range(len(self.label_types))] for j in range(len(self.label_types))]
-        codes_table_int = [[0 for i in range(len(self.label_types))] for j in range(len(self.label_types))]
+        codes_table = [[0 for i in range(len(self.label_types))] for j in range(len(self.label_types))]
         self.vectors = [[0 for _ in self.spec_list]]
         for i in range(len(self.label_types)):
             label_2 = self.label_types[i]
@@ -74,7 +76,6 @@ class NCS:
                 else:
                     code = len(self.vectors)
                     self.vectors.append(vector)
-                codes_table_int[j][i] = code
                 if code > 9:
                     codes_table[j][i] = self.letters[code-10]
                 else:
@@ -92,11 +93,7 @@ class NCS:
             subdict = {}
             for j in range(len(self.label_types)):
                 label_2 = self.label_types[j]
-                the_code = codes_table[i][j]
-                the_code_int = codes_table_int[i][j]
-                subdict[label_2] = the_code
-                if the_code_int > self.max_code_value:
-                   self.max_code_value = the_code_int
+                subdict[label_2] = codes_table[i][j]
             self.codes_dict[label_1] = subdict
 
     def calc_code(self, pattern_1, pattern_2):
@@ -110,11 +107,10 @@ class NCS:
 
     def __str__(self):
         output = "[NCS = {}]\n".format(self.name)
-        if self.deuterated:
-            output += "[Deuterated = True]\n"
-        else:
-            output += "[Deuterated = False]\n"
-        output += "\n" + "#" * 50 + "\n"
+        output += "[Deuterated = {}]\n".format(self.deuterated)
+        output += "[Labels = {}]\n".format(",".join([label.name for label in self.label_types]))
+        output += "[Spectra = {}]\n".format(",".join([spectrum.name for spectrum in self.spec_list]))
+        output += "\n\n" + "#" * 50 + "\n"
         output += "# Spectrum code for each labeling pair \n#\n"
         output += "# One-letter codes in the headers of columns"
         output += "# and rows are the labeling types \n"
@@ -130,7 +126,7 @@ class NCS:
             output += "\n"
         output += "\n"
 
-        output += "\n"+"#"*50+"\n"
+        output += "\n\n"+"#"*50+"\n"
         output += "# Spectrum codes table\n#\n"
         output += "# The spectrum code is in the first column\n"
         output += "# Flag of the peak presence (0 or 1) for each spectrum\n\n"
@@ -149,7 +145,6 @@ class NCS:
             if i+1 < len(self.vectors):
                 output += "\n"
 
-        output += "\n"
         return output
 
 
@@ -174,11 +169,11 @@ class Constants:
     HNCO = Spectrum("HNCO")
     HNCA = Spectrum("HNCA")
     HNCOCA = Spectrum("HNCOCA")
-    COHNCA = Spectrum("COHNCA")
     DQHNCA = Spectrum("DQHNCA")
+    COHNCA = Spectrum("COHNCA")
     HNCACO = Spectrum("HNCACO")
 
-    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, DQHNCA, COHNCA, HNCACO)
+    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO)
 
     RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                       "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
