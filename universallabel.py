@@ -64,8 +64,9 @@ class BlockFinder:
             self.min_depth = 2
         self.timer = time.time()
 
-
-        out = "[BlockFinder{}] started new search in {} samples with min_depth={}\n".format(self.samples, self.samples, self.min_depth)
+        out = "[NCS = {}]\n".format(self.ncs.name)
+        out+= "block_finder_mode = {}\n".format(self.block_finder_mode)
+        out+= "[BlockFinder{}] started new search in {} samples with min_depth={}\n".format(self.samples, self.samples, self.min_depth)
         self.outputer.write_data(out, files="lc")
 
 
@@ -130,8 +131,8 @@ class BlockFinder:
                     out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
                     self.outputer.write_data(out, files="lc")
         
-        out = "[BlockFinder{}] finished search in {} samples after {} sec and {} iterations, {} ELB schemes found\n"
-        out=out.format(self.samples, self.samples, int(time.time()-self.timer), self.iterator, self.results_found)
+        out = "[BlockFinder{}] finished search in {} samples after {:f} sec and {} iterations, {} ELB schemes found\n"
+        out=out.format(self.samples, self.samples, time.time()-self.timer, self.iterator, self.results_found)
         self.outputer.write_data(out, files="lc")
         self.write_result()
 
@@ -176,7 +177,7 @@ class BlockFinder:
     def write_result(self):
         if self.block_finder_mode:
             out =  "FindBlocks: finished after {} iterations\n".format(self.iterator)
-            out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time()-self.timer)
+            out += "FindBlocks: Evaluation time was {:f} seconds\n".format(time.time()-self.timer)
             out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
             self.outputer.write_data(out, files="lc")
         # self.output = ''
@@ -350,6 +351,7 @@ class Task:
         self.residues = task_params["aa_list"]
         self.max_block_size = task_params["max_block_size"]
         self.all_blocks = task_params["blocks"]
+        self.skip_clear_blocks_flag = task_params["skip_clear_blocks"]
         self.only_blocks = task_params["only_blocks"]
         self.block_finder_mode = task_params["block_finder_mode"]
         self.calculate_blocks = task_params["calculate_blocks"]
@@ -401,26 +403,32 @@ class Task:
         scheme_found = False
         best_scheme = None
         price_optimizer = PriceOptimizer(self.ncs, self.price_table, self.residues)
+        id_size = len(str(self.schemes_total))*2+1
         for product in self.products:
             output = "------------\nChecking schemes for product {}. Total {} schemes\n------------".format(str(product), len(product))
             self.outputer.write_data(output, files="cl")
             for scheme in product:
                 curr_blocks = product.last_blocks
-                output = "Checking scheme {}/{} - ".format(schemes, self.schemes_total)
+                scheme_blocks=""
+                for block in curr_blocks:
+                   scheme_blocks+=".{}x{}".format(block.samples,len(block.patterns))
+                scheme_blocks = scheme_blocks[1:]
+                scheme_id="{}/{}".format(schemes, self.schemes_total)
+                output = ("Checking scheme {:>"+str(id_size)+"} - ").format(scheme_id)
                 if not self.scheme_checked(scheme, checked_schemes):
                     price_optimizer.minimize_price(scheme, curr_blocks)
                     if not price_optimizer.success:
-                        output += "Scheme can not be optimized"
+                        output += "{:<16} - Status: NONE - # Sorry, Scheme can not be optimized".format(scheme_blocks)
                     elif not scheme_found or best_scheme.price > price_optimizer.best_scheme.price:
                         best_scheme = price_optimizer.best_scheme
                         scheme_found = True
-                        output += "New best price: {}".format(best_scheme.price)
+                        output += "{:<16} - Status: {:f} - # WOW, THAT'S NEW BEST PRICE!".format(scheme_blocks, best_scheme.price)
                     else:
-                        output += "Price: {}".format(price_optimizer.best_scheme.price)
+                        output += "{:<16} - Status: {:f} ".format(scheme_blocks, price_optimizer.best_scheme.price)
                     checked_schemes.append(scheme.simplified)
                     checked_number += 1
                 else:
-                    output += "Equivalent scheme was already checked"
+                    output += "{:<16} - Status: SKIP - # Equivalent scheme was already checked".format(scheme_blocks)
                 self.outputer.write_data(output, files="cl")
                 output = "{}Scheme consists of following blocks:\n".format(str(scheme))
                 for block in curr_blocks:
@@ -485,6 +493,9 @@ class Task:
 
     def run(self):
         if self.block_finder_mode:
+            output = "[NCS = {}]\n".format(self.ncs.name)
+            output+= "Run in block_finder_mode\n"
+            self.outputer.write_data(output, files="lc")
             block_finder = BlockFinder(self.ncs.label_types, self.block_samples, self.ncs, self.block_min_depth, self.block_finder_mode, outputer=self.outputer)
             block_finder.find()
             self.output_blockfinder(block_finder)
@@ -497,12 +508,15 @@ class Task:
                 # self.outputer.write_blocks(self.all_blocks, self.ncs)
             elif not self.only_blocks:
                 self.outputer.write_block_stats(self.all_blocks)
-                self.outputer.write_data("Clearing redundant blocks(ELB)", files="lc")
-                self.clear_redundant_blocks()
-                self.outputer.write_block_stats(self.all_blocks)
-                self.outputer.write_data("Clearing product blocks(ELB)", files="lc")
-                self.clear_product_blocks()
-                self.outputer.write_block_stats(self.all_blocks)
+                if not self.skip_clear_blocks_flag:
+                   self.outputer.write_data("Clearing redundant blocks(ELB)", files="lc")
+                   self.clear_redundant_blocks()
+                   self.outputer.write_block_stats(self.all_blocks)
+                   self.outputer.write_data("Clearing product blocks(ELB)", files="lc")
+                   self.clear_product_blocks()
+                   self.outputer.write_block_stats(self.all_blocks)
+                else:
+                   self.outputer.write_data("Skip clear blocks(ELB)", files="lc")
                 self.outputer.write_blocks(self.all_blocks, self.ncs)
             if self.only_blocks:
                 return
@@ -839,6 +853,7 @@ def read_args():
     parser.add_argument('--job_name', '-j', help='Job name', type=str)
     parser.add_argument('--stock', '-t', help='Input stock file', type=str)
     parser.add_argument('--blocks', '-b', help='Input blocks file', type=str)
+    parser.add_argument('--skip_clear_blocks', '-l', help='Clear blocks (product and redundant)', action="store_true")
     parser.add_argument('--only_blocks', '-o', help='Program runs only block calculation without further schemes optimization', action="store_true")
     parser.add_argument('--verbose', '-v',
                         help='Verbose output to console',

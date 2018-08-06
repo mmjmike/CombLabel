@@ -5,6 +5,7 @@ import re
 import logging
 import datetime
 import random
+import sys
 
 
 class Outputer:
@@ -174,6 +175,7 @@ class TaskReader:
         self.block_min_depth = 1
         self.max_block_size = 1
         self.blocks = {}
+        self.skip_clear_blocks = False
         self.prices = {}
         self.stock = {}
         self.mode = "optimize_scheme"
@@ -206,7 +208,7 @@ class TaskReader:
 
     def check_ncs(self, ncs):
         try:
-            return ncs.upper() in Constants.NCS_NAMES
+            return ncs in Constants.NCS_NAMES
         except AttributeError:
             return False
 
@@ -367,35 +369,44 @@ class TaskReader:
         return result[0]
 
     def read_block_file(self, block_file):
+        print("read lines from {} started".format(block_file))
         lines = self.read_lines(block_file)
+        print("read lines from {} finished, {} lines read".format(block_file, len(lines)))
+        sys.stdout.flush()
         i = 0
         msg = ''
         blocks = {}
         blocks_num = 0
         NCS_found = False
         ncs = Constants.NC2
-        ncs_regular = re.compile('\\[NCS = \\w+\\]')
+#        ncs_regular = re.compile('\\[NCS\\s*=\\s*\\w+\\s*\\]')
         while i < len(lines):
             if not NCS_found:
-                ncs_match = ncs_regular.match(lines[i])
-                if str(ncs_match) == 'None':
+                ncs_match = re.search(r'\[\s*NCS\s*=\s*(\w+)\s*\]', lines[i])
+                if not(ncs_match):
                     i += 1
                     continue
                 else:
-                    ncs_name = ncs_match.group()[ncs_match.start()+7:-1].upper()
+                    ncs_name = ncs_match.group(1)
+                    print("ncs_name={}".format(ncs_name))
                     if ncs_name not in Constants.NCS_NAMES:
                         msg = "Warning! Wrong NCS '{}' is specified in blocks file {}".format(ncs_name, block_file)
                         continue
                     else:
                         NCS_found = True
                         ncs = [ncs_curr for ncs_curr in Constants.LIST_OF_NCS if ncs_curr.name == ncs_name][0]
+                        print("read_blocks: NCS = {} in line  {}\n".format(ncs_name, i))
                         i += 1
                         continue
-            if NCS_found and re.search(r'\[ELB samples = \d patterns = \d+\]', lines[i]):
+            ELB_match= re.search(r'\[\s*ELB\s+samples\s*=\s*(\d+)\s+patterns\s*=\s*(\d+)\s*\]', lines[i])
+            if NCS_found and ELB_match:
                 blocks_num += 1
-                numbers = re.findall(r'\d+', lines[i])
-                samples_num = int(numbers[0])
-                patterns_num = int(numbers[1])
+                if blocks_num % 10000 == 0:
+                    print("read_blocks: {} blocks found after scanning {} lines".format(blocks_num,i))
+                    sys.stdout.flush()
+#                numbers = re.findall(r'\d+', lines[i])
+                samples_num = int(ELB_match.group(1))
+                patterns_num = int(ELB_match.group(2))
                 patterns = lines[i+1:i+1+patterns_num]
                 good_block = True
                 for pattern in patterns:
@@ -421,6 +432,10 @@ class TaskReader:
                 i += 1 + patterns_num
             else:
                 i += 1
+        print("Lines from {} were interpreted".format(block_file))
+        print("NCS_found={}".format(NCS_found))
+        print("blocks_num={}".format(blocks_num))
+        sys.stdout.flush()
         return [NCS_found, msg, blocks]
 
     def create_task(self):
@@ -474,7 +489,12 @@ class TaskReader:
                     blocks_file = self.parameters_read["blocks"][4]
                 if self.parameters_read["blocks"][3]:
                     blocks_file = self.parameters_read["blocks"][5]
-                self.blocks = self.read_block_file(blocks_file)[2]
+                block_read_status = self.read_block_file(blocks_file)
+                self.blocks = block_read_status[2]
+                if len(self.blocks)==0 or not block_read_status[0]:
+                    print("Error while reading blocks file:\n")
+                    print(block_read_status[1])
+                    SystemExit(255)
             if not self.only_blocks:
                 if self.parameters_read["price_table"][1]:
                     prices_file = self.parameters_read["price_table"][4]
@@ -688,7 +708,8 @@ class TaskReader:
                 return False, 'NCS is not specified'
 
         if self.block_finder_mode:
-            if 1 <= self.block_samples <= 9 and 1 <= self.block_min_depth <= 20:
+#            if 1 <= self.block_samples <= 9 and 1 <= self.block_min_depth <= 20:
+            if 1 <= self.block_samples  and 1 <= self.block_min_depth:
                 return True, "OK. Block finder mode."
             else:
                 return False, 'Block samples number (1<=s<=9) or minimal depth of search (1<=m<=20) not in specified range'
@@ -732,6 +753,7 @@ class TaskReader:
             "calculate_blocks": self.calculate_blocks,
             "aa_list": self.aa_list,
             "blocks": self.blocks,
+            "skip_clear_blocks": self.skip_clear_blocks,
             "prices": self.prices,
             "block_samples": self.block_samples,
             "block_min_depth": self.block_min_depth,
