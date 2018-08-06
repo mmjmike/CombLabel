@@ -808,16 +808,74 @@ class TaskReader:
         else:
             self.blocks.update({depth_of_scheme: [block]})
 
-    @staticmethod
-    def read_lines(filename):
-        try:
-            with open(filename, 'r', encoding='UTF-8') as f:
-                lines = f.readlines()
-        except IOError:
-            raise err.ReadLinesError(filename)
-        new_lines = []
-        for line in lines:
-            curr_line = line.rstrip()
-            if curr_line != "" and curr_line[0] != "#":
-                new_lines.append(curr_line.split("#")[0])
-        return new_lines
+
+def read_block_file(block_file):
+    lines = read_lines(block_file)
+    i = 0
+    msg = ''
+    blocks = {}
+    blocks_num = 0
+    NCS_found = False
+    ncs = Constants.NC2
+    ncs_regular = re.compile('\\[NCS = \\w+\\]')
+    while i < len(lines):
+        if not NCS_found:
+            ncs_match = ncs_regular.match(lines[i])
+            if str(ncs_match) == 'None':
+                i += 1
+                continue
+            else:
+                ncs_name = ncs_match.group()[ncs_match.start() + 7:-1].upper()
+                if ncs_name not in Constants.NCS_NAMES:
+                    msg = "Warning! Wrong NCS '{}' is specified in blocks file {}".format(ncs_name, block_file)
+                    continue
+                else:
+                    NCS_found = True
+                    ncs = [ncs_curr for ncs_curr in Constants.LIST_OF_NCS if ncs_curr.name == ncs_name][0]
+                    i += 1
+                    continue
+        if NCS_found and re.search(r'\[ELB samples = \d patterns = \d+\]', lines[i]):
+            blocks_num += 1
+            numbers = re.findall(r'\d+', lines[i])
+            samples_num = int(numbers[0])
+            patterns_num = int(numbers[1])
+            patterns = lines[i + 1:i + 1 + patterns_num]
+            good_block = True
+            for pattern in patterns:
+                if len(pattern) != samples_num:
+                    msg = "Warning! The number of samples in block {} doesn't match " \
+                          "\nwith specified value in blocks file '{}'.".format(blocks_num, block_file)
+                    good_block = False
+                for label_type in pattern:
+                    if label_type not in Constants.TYPES:
+                        msg = "Warning! Unknown labeling type '{}' used in block {}" \
+                              "\n in blocks file '{}'.".format(label_type, blocks_num, block_file)
+                        good_block = False
+                        break
+            if good_block:
+                block = Scheme("", ncs, samples_num, patterns)
+                if samples_num not in blocks:
+                    blocks.update({samples_num: {patterns_num: [block]}})
+                else:
+                    if patterns_num not in blocks[samples_num]:
+                        blocks[samples_num].update({patterns_num: [block]})
+                    else:
+                        blocks[samples_num][patterns_num].append(block)
+            i += 1 + patterns_num
+        else:
+            i += 1
+    return [NCS_found, msg, blocks]
+
+
+def read_lines(filename):
+    try:
+        with open(filename, 'r', encoding='UTF-8') as f:
+            lines = f.readlines()
+    except IOError:
+        raise err.ReadLinesError(filename)
+    new_lines = []
+    for line in lines:
+        curr_line = line.rstrip()
+        if curr_line != "" and curr_line[0] != "#":
+            new_lines.append(curr_line.split("#")[0])
+    return new_lines

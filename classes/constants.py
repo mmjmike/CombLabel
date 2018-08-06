@@ -56,6 +56,10 @@ class NCS:
         self.vectors = [[0 for _ in self.spec_list]]
         self._make_coding_table()
 
+    @property
+    def max_code_value(self):
+        return len(self.vectors) - 1
+
     def _make_coding_table(self):
 
         codes_table = [[0 for i in range(len(self.label_types))] for j in range(len(self.label_types))]
@@ -103,8 +107,9 @@ class NCS:
 
     def __str__(self):
         output = "[NCS = {}]\n".format(self.name)
-        if self.deuterated:
-            output += "[Deuterated]\n"
+        output += "[Deuterated = {}]\n".format(self.deuterated)
+        output += "[Labels = {}]\n".format(",".join([label.name for label in self.label_types]))
+        output += "[Spectra = {}]\n".format(",".join([spectrum.name for spectrum in self.spec_list]))
         output += "\n\n" + "#" * 50 + "\n"
         output += "# Spectrum code for each labeling pair \n#\n"
         output += "# One-letter codes in the headers of columns"
