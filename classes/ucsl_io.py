@@ -879,3 +879,25 @@ def read_lines(filename):
         if curr_line != "" and curr_line[0] != "#":
             new_lines.append(curr_line.split("#")[0])
     return new_lines
+
+
+def read_ncs(filename):
+    lines = read_lines(filename)
+    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*(\\[0-9,A-Z,a-z,-,_]+)\\s*\\]')
+    deuterated_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
+    labels_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
+    spectra_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
+
+
+    for line in lines:
+
+        ELB_match = re.search(r'\[\s*ELB\s+samples\s*=\s*(\d+)\s+patterns\s*=\s*(\d+)\s*\]', lines[i])
+        samples_num = int(ELB_match.group(1))
+        patterns_num = int(ELB_match.group(2))
+
+    [NCS = ]
+    [Deuterated = ]
+    [Labels]
+    [Spectra]
+    [code_pairs]
+    [codes]
