@@ -173,7 +173,7 @@ class Constants:
     COHNCA = Spectrum("COHNCA")
     HNCACO = Spectrum("HNCACO")
 
-    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO)
+    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, DQHNCA, COHNCA, HNCACO)
 
     RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                       "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
