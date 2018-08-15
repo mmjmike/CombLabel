@@ -1,3 +1,5 @@
+import re
+
 class LabelType:
 
     def __init__(self, name, isotopes):
@@ -173,7 +175,8 @@ class Constants:
     COHNCA = Spectrum("COHNCA")
     HNCACO = Spectrum("HNCACO")
 
-    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO)
+    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, DQHNCA, COHNCA, HNCACO)
+    SPECTRA_NAMES = [spectrum.name for spectrum in basic_spectra]
 
     RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                       "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
@@ -230,6 +233,15 @@ class Constants:
     LIST_OF_NCS = [NC2, NCD2, NCD4, NCD6, NCDA8, TSF12, TF12, XND2, XND4]
 
     NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
+
+    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*(\\w+)\\s*\\]')
+    deuterated_re = re.compile('\\[\\s*Deuterated\\s*=\\s*([A-Za-z]+)\\s*\\]')
+    elb_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
+
+    labels_re = re.compile('\\[\\s*Labels\\s*=\\s*([A-Za-z ,]+)\\s*\\]')
+    spectra_re = re.compile('\\[\\s*Spectra\\s*=\\s*([A-Za-z0-9 ,]+)\\s*\\]')
+
+
 
     def __init__(self):
         pass

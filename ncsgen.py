@@ -1,17 +1,13 @@
 #!/usr/bin/python3
-
+from classes.interactive import *
 from classes.constants import NCS, Constants
 
-def answer_yes(input_key):
-    return input_key.upper() == "Y" or input_key.upper() == "YES"
 
-
-def answer_no(input_key):
-    return input_key.upper() == "N" or input_key.upper() == "NO"
-
-
-def answer_empty(input_key):
-    return len(input_key) == 0
+DESCRIPTION = ("This script is designed to create NMR Coding System (NCS) file\n"
+               "suitable for UUCSL package. To create a file you will need\n"
+               "to specify amino acid isotopic labeling types (15N, 13C, 2H),\n"
+               "NMR spectra that will be used and the name of the generated NCS\n"
+               )
 
 
 def input_deuteration():
@@ -30,19 +26,6 @@ def input_deuteration():
         else:
             result = ask_to_continue_input()
     return deuterated, result
-
-
-def ask_to_continue_input():
-    result = False
-    while True:
-        input_key = input("Your answer is wrong. Do you want to try again? (Y[es]/n[o])> ")
-        if answer_yes(input_key) or answer_empty(input_key):
-            result = True
-            break
-        elif answer_no(input_key):
-            print("See you later")
-            exit()
-    return result
 
 
 def input_labels(deuterated):
@@ -101,15 +84,11 @@ def input_spectra():
             "Please specify spectra types with digits (1-7), corresponding\n"
             "to the spectra, separated by spaces\n"
             "Warning: not including HSQC is not recommended\n"
-            "1. HSQC\n"
-            "2. HNCO\n"
-            "3. HNCA\n"
-            "4. HNCOCA\n"
-            "5. DQHNCA\n"
-            "6. COHNCA\n"
-            "7. HNCACO\n"
-            "Example: 1 2 3"
             )
+    for i in range(len(Constants.basic_spectra)):
+        spec = Constants.basic_spectra[i]
+        text += "{}. {}\n".format(i+1, spec.name)
+    text += "Example: 1 2 3"
     repeat_input = True
     result = False
     spectra_list = []
@@ -203,16 +182,11 @@ def input_name(ncs):
 
 
 def print_description():
-    description = ("This script is designed to create NMR Coding System (NCS) file\n"
-                   "suitable for UUCSL package. To create a file you will need\n"
-                   "to specify amino acid isotopic labeling types (15N, 13C, 2H),\n"
-                   "NMR spectra that will be used and the name of the generated NCS\n"
-                   )
-    print(description)
+    print(DESCRIPTION)
     input("Press Enter to continue...")
 
 
-def write_to_file(ncs):
+def write_ncs_to_file(ncs):
     while True:
         input_query = "Do you want to save this NCS to the file \"{}.ncs\"? (Y[es]/N[o]) > ".format(ncs.name)
         input_key = input(input_query)
@@ -244,7 +218,7 @@ def main():
     ncs.name = name
     if not continue_input:
         return
-    write_to_file(ncs)
+    write_ncs_to_file(ncs)
 
 
 if __name__ == "__main__":

@@ -1,10 +1,14 @@
 from cl_errors import errors as err
-from classes.constants import Constants
-from classes.search_objects import Scheme
+from classes.constants import Constants, NCS
+from classes.search_objects import ELB
 import re
+import os
 import logging
 import datetime
 import random
+
+
+
 
 
 class Outputer:
@@ -111,22 +115,8 @@ class Outputer:
             f.write(output)
         self.write_data(output, files="cl")
 
-    def write_blocks(self, blocks, ncs):
-        output = "[NCS = {}]\n".format(ncs.name)
-        blocks_samples = list(blocks.keys())
-        blocks_samples.sort()
-        for samples_num in blocks_samples:
-            patterns_numbers = list(blocks[samples_num].keys())
-            patterns_numbers.sort()
-            for patterns_num in patterns_numbers:
-                for block in blocks[samples_num][patterns_num]:
-                    output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
-                             + str(block)
-        with open(self.job_name + "_elb_clean.txt", mode="w") as f:
-            f.write(output)
-
     def write_block_stats(self, blocks):
-        output = self.make_block_stats(blocks)
+        output = make_block_stats(blocks)
         mode = "a"
         if self.first_bl_stats:
             mode = "w"
@@ -134,29 +124,6 @@ class Outputer:
         with open(self.job_name + "_elb_stats.txt", mode=mode) as f:
             f.write(output)
         self.write_data(output, files="cl")
-
-    def make_block_stats(self, blocks):
-        output = "Blocks used:\n"
-        total_blocks = 0
-        samples = list(blocks.keys())
-        samples.sort()
-        blocks_by_samples = {}
-        for samples_n in samples:
-            pattern_numbers = list(blocks[samples_n].keys())
-            pattern_numbers.sort()
-            blocks_in_samples = 0
-            for patterns_n in pattern_numbers:
-                blocks_n = len(blocks[samples_n][patterns_n])
-                total_blocks += blocks_n
-                blocks_in_samples += blocks_n
-                output += "{:2} X {:2} - {} block(s)\n".format(samples_n, patterns_n, blocks_n)
-            blocks_by_samples.update({samples_n: blocks_in_samples})
-        output += "-----------\n"
-        for samples_n in samples:
-            output += "{:2} X . - {} block(s)\n".format(samples_n, blocks_by_samples[samples_n])
-        output += " TOTAL - {} blocks\n".format(total_blocks)
-        output += "-----------\n"
-        return output
 
 
 class TaskReader:
@@ -809,62 +776,91 @@ class TaskReader:
             self.blocks.update({depth_of_scheme: [block]})
 
 
-def read_block_file(block_file):
+def make_block_stats(blocks):
+    output = "Blocks used:\n"
+    total_blocks = 0
+    samples = list(blocks.keys())
+    samples.sort()
+    blocks_by_samples = {}
+    for samples_n in samples:
+        pattern_numbers = list(blocks[samples_n].keys())
+        pattern_numbers.sort()
+        blocks_in_samples = 0
+        for patterns_n in pattern_numbers:
+            blocks_n = len(blocks[samples_n][patterns_n])
+            total_blocks += blocks_n
+            blocks_in_samples += blocks_n
+            output += "{:2} X  {:2} - {} block(s)\n".format(samples_n, patterns_n, blocks_n)
+        blocks_by_samples.update({samples_n: blocks_in_samples})
+    output += "-----------\n"
+    for samples_n in samples:
+        output += "{:2} X  . - {} block(s)\n".format(samples_n, blocks_by_samples[samples_n])
+    output += " TOTAL - {} blocks\n".format(total_blocks)
+    output += "-----------\n"
+    return output
+
+
+def read_blocks(block_file):
     lines = read_lines(block_file)
     i = 0
-    msg = ''
+    deuterated = False
+    deuterated_found = False
+    result = ''
     blocks = {}
     blocks_num = 0
     NCS_found = False
-    ncs = Constants.NC2
-    ncs_regular = re.compile('\\[NCS = \\w+\\]')
+    ncs_name = ''
+    ncs_regular = Constants.ncs_re
     while i < len(lines):
         if not NCS_found:
             ncs_match = ncs_regular.match(lines[i])
-            if str(ncs_match) == 'None':
+            if ncs_match:
+                ncs_name = ncs_match.group(1).upper()
+                NCS_found = True
                 i += 1
                 continue
-            else:
-                ncs_name = ncs_match.group()[ncs_match.start() + 7:-1].upper()
-                if ncs_name not in Constants.NCS_NAMES:
-                    msg = "Warning! Wrong NCS '{}' is specified in blocks file {}".format(ncs_name, block_file)
-                    continue
-                else:
-                    NCS_found = True
-                    ncs = [ncs_curr for ncs_curr in Constants.LIST_OF_NCS if ncs_curr.name == ncs_name][0]
-                    i += 1
-                    continue
-        if NCS_found and re.search(r'\[ELB samples = \d patterns = \d+\]', lines[i]):
-            blocks_num += 1
-            numbers = re.findall(r'\d+', lines[i])
-            samples_num = int(numbers[0])
-            patterns_num = int(numbers[1])
-            patterns = lines[i + 1:i + 1 + patterns_num]
-            good_block = True
-            for pattern in patterns:
-                if len(pattern) != samples_num:
-                    msg = "Warning! The number of samples in block {} doesn't match " \
-                          "\nwith specified value in blocks file '{}'.".format(blocks_num, block_file)
-                    good_block = False
-                for label_type in pattern:
-                    if label_type not in Constants.TYPES:
-                        msg = "Warning! Unknown labeling type '{}' used in block {}" \
-                              "\n in blocks file '{}'.".format(label_type, blocks_num, block_file)
+        if not deuterated_found:
+            deuterated_match = Constants.deuterated_re.match(lines[i])
+            if deuterated_match:
+                deuteration = deuterated_match.group(1).upper()
+                deuterated_found, deuterated = extract_deuterated(deuteration)
+                i += 1
+                continue
+        if NCS_found:
+            elb_match = Constants.elb_re.match(lines[i])
+            if elb_match:
+                samples_num = int(elb_match.group(1))
+                patterns_num = int(elb_match.group(2))
+                blocks_num += 1
+                patterns = lines[i + 1:i + 1 + patterns_num]
+                good_block = True
+                for pattern in patterns:
+                    if not good_block:
+                        break
+                    if len(pattern) != samples_num:
+                        result = "Warning! The number of samples in block {} doesn't match " \
+                              "\nwith specified value in blocks file '{}'.".format(blocks_num, block_file)
                         good_block = False
                         break
-            if good_block:
-                block = Scheme("", ncs, samples_num, patterns)
-                if samples_num not in blocks:
-                    blocks.update({samples_num: {patterns_num: [block]}})
-                else:
-                    if patterns_num not in blocks[samples_num]:
-                        blocks[samples_num].update({patterns_num: [block]})
+                    for label_type in pattern:
+                        if label_type not in Constants.TYPES:
+                            result = "Warning! Unknown labeling type '{}' used in block {}" \
+                                  "\n in blocks file '{}'.".format(label_type, blocks_num, block_file)
+                            good_block = False
+                            break
+                if good_block:
+                    block = ELB(patterns, ncs_name, deuterated)
+                    if samples_num not in blocks:
+                        blocks.update({samples_num: {patterns_num: [block]}})
                     else:
-                        blocks[samples_num][patterns_num].append(block)
-            i += 1 + patterns_num
+                        if patterns_num not in blocks[samples_num]:
+                            blocks[samples_num].update({patterns_num: [block]})
+                        else:
+                            blocks[samples_num][patterns_num].append(block)
+                i += 1 + patterns_num
         else:
             i += 1
-    return [NCS_found, msg, blocks]
+    return result, blocks, ncs_name, deuterated
 
 
 def read_lines(filename):
@@ -881,23 +877,200 @@ def read_lines(filename):
     return new_lines
 
 
+def extract_labels(line):
+    extracted_labels = [label.rstrip().upper() for label in line.split(",")]
+    for label in extracted_labels:
+        if label not in Constants.TYPES_NAMES:
+            labels_names = ", ".join(Constants.TYPES_NAMES)
+            print("Error! Label type '{}' is not in the following list:\n{}".format(label, labels_names))
+            return []
+    labels = []
+    for label in Constants.BASIC_TYPES:
+        if label.name in extracted_labels:
+            labels.append(label)
+    return labels
+
+
+def extract_spectra(line):
+    extracted_spectra = [spectrum.rstrip().upper() for spectrum in line.split(",")]
+    for spectrum in extracted_spectra:
+        if spectrum not in Constants.SPECTRA_NAMES:
+            spectra_names = ", ".join(Constants.SPECTRA_NAMES)
+            print("Error! Spectrum '{}' is not in the following list:\n{}".format(spectrum, spectra_names))
+            return []
+    spectra = []
+    for spectrum in Constants.basic_spectra:
+        if spectrum.name in extracted_spectra:
+            spectra.append(spectrum)
+    return spectra
+
+
+def extract_deuterated(deuteration):
+    result = False
+    deuterated = False
+    if deuteration == "TRUE" or deuteration == "YES" or deuteration == "Y" or deuteration == "1":
+        result = True
+        deuterated = True
+    elif deuteration == "FALSE" or deuteration == "NO" or deuteration == "N" or deuteration == "0":
+        result = True
+    return result, deuterated
+
+
 def read_ncs(filename):
     lines = read_lines(filename)
-    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*(\\[0-9,A-Z,a-z,-,_]+)\\s*\\]')
-    deuterated_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
-    labels_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
-    spectra_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
+    ncs_name_read = False
+    labels_read = False
+    spectra_read = False
+    deuterated_read = False
+    ncs_name = ''
+    spectra = []
+    labels = []
+    deuterated = False
 
 
     for line in lines:
+        if not ncs_name_read:
+            ncs_name_search = ncs_re.search(line)
+            if ncs_name_search is not None:
+                ncs_name = ncs_name_search.group()[0]
+                if ncs_name:
+                    ncs_name_read = True
+                    continue
+        if not labels_read:
+            labels_search = labels_re.search(line)
+            if labels_search is not None:
+                labels_line = labels_search.group()[0]
+                labels = extract_labels(labels_line)
+                if labels:
+                    labels_read = True
+                    continue
+        if not spectra_read:
+            spectra_search = spectra_re.search(line)
+            if spectra_search is not None:
+                spectra_line = spectra_search.group()[0]
+                spectra = extract_spectra(spectra_line)
+                if spectra:
+                    spectra_read = True
+                    continue
+        if not deuterated_read:
+            deuterated_search = deuterated_re.search(line)
+            if deuterated_search is not None:
+                deuterated_line = deuterated_search.group()[0]
+                deuterated = extract_deuterated(deuterated_line)
+                deuterated_read = True
+                continue
 
-        ELB_match = re.search(r'\[\s*ELB\s+samples\s*=\s*(\d+)\s+patterns\s*=\s*(\d+)\s*\]', lines[i])
-        samples_num = int(ELB_match.group(1))
-        patterns_num = int(ELB_match.group(2))
+    if labels_read and ncs_name_read and spectra_read:
+        return NCS(ncs_name, labels, spectra, deuterated)
+    else:
+        return None
 
-    [NCS = ]
-    [Deuterated = ]
-    [Labels]
-    [Spectra]
-    [code_pairs]
-    [codes]
+
+def add_dir(path_list, new_dir):
+    new_path_list = []
+    for path in path_list:
+        new_path_list.append(path)
+        new_path_list.append(os.path.join(path, new_dir))
+    return new_path_list
+
+
+def add_file(path_list, filename):
+    ncs_ext = ".ncs"
+    new_path_list = []
+    for path in path_list:
+        new_path_list.append(os.path.join(path, filename))
+        new_path_list.append(os.path.join(path, filename + ncs_ext))
+    return new_path_list
+
+
+def check_ncs_path(full_path):
+    # print("Checking path: '{}'".format(full_path))
+    if os.path.isfile(full_path):
+        # print("File exists!")
+        return True
+    else:
+        # print("File not found :(")
+        return False
+
+
+def add_to_file_name(filename, addition):
+    path, only_name = os.path.split(filename)
+    name, ext = os.path.splitext(only_name)
+    name += addition
+    only_name = name + ext
+    return os.path.join(path, only_name)
+
+
+def find_good_ncs_paths(ncs_name, script_path=os.path.split(os.path.realpath(__file__))[0]):
+    ncs_dir = "NCS"
+    paths = [os.getcwd(), script_path]
+    paths = add_file(add_dir(paths, ncs_dir), ncs_name)
+    good_paths = []
+    for path in paths:
+        if check_ncs_path(path):
+            good_paths.append(path)
+    return good_paths
+
+
+def write_blocks(blocks, ncs_name, filename):
+    output = "[NCS = {}]\n".format(ncs_name)
+    blocks_samples = list(blocks.keys())
+    blocks_samples.sort()
+    for samples_num in blocks_samples:
+        patterns_numbers = list(blocks[samples_num].keys())
+        patterns_numbers.sort()
+        for patterns_num in patterns_numbers:
+            for block in blocks[samples_num][patterns_num]:
+                output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
+                          + str(block)
+    with open(filename, mode="w") as f:
+        f.write(output)
+
+
+def find_ncs(ncs_name, script_path):
+    paths = find_good_ncs_paths(ncs_name, script_path)
+    for path in paths:
+        ncs = read_ncs_file(path)
+        if ncs:
+            msg = "NCS '{}' read from '{}'".format(ncs_name, path)
+            return ncs, msg
+    msg = "Error! NCS file not found"
+    return None, msg
+
+
+def read_ncs_file(filename):
+    name = ''
+    deuterated = False
+    deuterated_read = False
+    labels = []
+    spectra = []
+    with open(filename, "r") as f:
+        for line in f:
+            if not name:
+                name_match = Constants.ncs_re.match(line)
+                if name_match:
+                    name = name_match.group(1)
+                    continue
+            if not labels:
+                labels_match = Constants.labels_re.match(line)
+                if labels_match:
+                    labels = extract_labels(labels_match.group(1))
+                    continue
+            if not spectra:
+                spectra_match = Constants.spectra_re.match(line)
+                if spectra_match:
+                    spectra = extract_spectra(spectra_match.group(1))
+                    continue
+            if not deuterated_read:
+                deuterated_match = Constants.ncs_re.match(line)
+                if deuterated_match:
+                    deuteration = deuterated_match.group(1).upper()
+                    deuterated_found, deuterated = extract_deuterated(deuteration)
+                    continue
+    if name and labels and spectra:
+        return NCS(name, spectra, labels, deuterated)
+    return None
+
+
+def write_ncs_stamp(ncs):
+    return "[NCS = {}]\n[Deuterated = {}]".format(ncs.name, ncs.deuterated)
