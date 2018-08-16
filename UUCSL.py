@@ -114,6 +114,7 @@ def create_logger(parameters):
     logger.addHandler(stream_handler)
     return logger
 
+
 def main():
     args = read_args()
     parameters = read_parameters(args)

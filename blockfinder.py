@@ -98,7 +98,7 @@ def make_loggers(parameters):
     filename += "_" + str(parameters["samples"])
     if parameters["exact_patterns"]:
         filename += "_" + str(parameters["min_patterns"])
-    log_filename = "{}_log.log".format(filename)
+    log_filename = "{}_blocks.log".format(filename)
 
     logfile_handler = logging.FileHandler(log_filename, mode='w')
     logfile_format = logging.Formatter('%(asctime)s:%(message)s')
