@@ -3,11 +3,11 @@ import copy
 import time
 from .constants import Constants
 from scipy.optimize import linprog
+from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
 
 
 
 # clear up stuff in Scheme class, make it inherited from ELB (????)
-
 
 
 def pattern_bigger(pattern1, pattern2):
@@ -30,6 +30,15 @@ def simplify_pattern(pattern):
                 continue
     result = "".join([str(a) for a in simple_form])
     return result
+
+
+def first_scheme_subset(scheme_1, scheme_2):
+    for pattern in scheme_1:
+        if pattern not in scheme_2:
+            return False
+        if scheme_1[pattern] > scheme_2[pattern]:
+            return False
+    return True
 
 
 class Scheme:
@@ -360,17 +369,11 @@ class ProductFinder:
 class SchemeOptimizer:
 
     def __init__(self, task_params, logger):
-        self.ncs = task_params["NCS"]
-        self.residues = task_params["aa_list"]
-        self.max_block_size = task_params["max_block_size"]
+        self.ncs = task_params["ncs"]
+        self.residues = task_params["residues"]
         self.all_blocks = task_params["blocks"]
-        self.only_blocks = task_params["only_blocks"]
-        self.block_finder_mode = task_params["block_finder_mode"]
-        self.calculate_blocks = task_params["calculate_blocks"]
         self.price_table = task_params["prices"]
-        self.job_name = task_params["job_name"]
-        self.block_samples = task_params["block_samples"]
-        self.block_min_depth = task_params["block_min_depth"]
+        self.job_name = task_params["jobname"]
         self.logger = logger
         self.three_letter_residues = []
         for res in self.residues:
@@ -388,22 +391,15 @@ class SchemeOptimizer:
         self.scheme_optimized = False
         self.products_found = False
         self.first_output = True
-        self.cpu_count = multiprocessing.cpu_count()
+        self.first_products = True
+        # self.cpu_count = multiprocessing.cpu_count()
 
     def scheme_checked(self, scheme, checked_schemes):
         for checked_scheme in checked_schemes:
             if scheme.simplified == checked_scheme \
-                    or self.first_scheme_subset(scheme.simplified, checked_scheme):
+                    or first_scheme_subset(scheme.simplified, checked_scheme):
                 return True
         return False
-
-    def first_scheme_subset(self, scheme_1, scheme_2):
-        for pattern in scheme_1:
-            if pattern not in scheme_2:
-                return False
-            if scheme_1[pattern] > scheme_2[pattern]:
-                return False
-        return True
 
     def find_best_scheme(self):
         checked_schemes = []
@@ -414,7 +410,7 @@ class SchemeOptimizer:
         price_optimizer = PriceOptimizer(self.ncs, self.price_table, self.residues)
         for product in self.products:
             output = "------------\nChecking schemes for product {}. Total {} schemes\n------------".format(str(product), len(product))
-            self.outputer.write_data(output, files="cl")
+            self.logger.info(output)
             for scheme in product:
                 curr_blocks = product.last_blocks
                 output = "Checking scheme {}/{} - ".format(schemes, self.schemes_total)
@@ -439,13 +435,12 @@ class SchemeOptimizer:
                     status = "equivalent"
                 self.update_stats(scheme.samples, str(product.product_list), status)
 
-
-                self.outputer.write_data(output, files="cl")
-                output = "{}Scheme consists of following blocks:\n".format(str(scheme))
+                self.logger.info(output)
+                output = "{}\nScheme consists of following blocks:\n".format(str(scheme))
                 for block in curr_blocks:
                     output += str(block) + "\n"
                 output += "---------"
-                self.outputer.write_data(output, files="l")
+                self.logger.debug(output)
                 schemes += 1
         self.scheme_optimized = scheme_found
         self.best_scheme = best_scheme
@@ -465,16 +460,26 @@ class SchemeOptimizer:
     def run(self):
         self.scheme_optimized = False
         max_samples = 1
+        products_filename = "{}_products.txt".format(self.job_name)
+        scheme_filename = "{}_scheme.txt".format(self.job_name)
+        stats_filename = "{}_product_stats.txt".format(self.job_name)
         while not self.scheme_optimized:
-            self.outputer.write_data("Searching for products in max_samples={}".format(max_samples), files="lc")
+            self.logger.info("Searching for products in max_samples={}".format(max_samples))
             self.find_products(max_samples)
             if self.products_found:
-                self.outputer.write_products(self.products, max_samples)
-                self.outputer.write_data("Schemes optimization in max_samples={}".format(max_samples), files="lc")
+                mode = 'a'
+                if self.first_products:
+                    mode = 'w'
+                    self.first_products = False
+                output = write_products(self.products, max_samples, products_filename, mode=mode)
+                self.logger.debug(output)
+                self.logger.info("Schemes optimization in max_samples={}".format(max_samples))
                 self.find_best_scheme()
             max_samples += 1
-        self.outputer.write_best_scheme(self.best_scheme)
-        self.outputer.write_product_stats(self.stats)
+        output = write_best_scheme(self.best_scheme, scheme_filename)
+        self.logger.debug(output)
+        output = write_product_stats(self.stats, stats_filename)
+        self.logger.debug(output)
 
     def obtain_scheme(self, product, schemes, block_list, depth=0):
         if depth >= len(product):
@@ -498,11 +503,6 @@ class SchemeOptimizer:
         if self.products:
             self.products_found = True
         self.schemes_total = sum([len(product) for product in self.products])
-
-    def finish_output(self):
-        output = datetime.datetime.now().strftime('-----\nCalculation finished at %Y-%m-%d %H:%M:%S!')
-        self.outputer.write_data(output, files="cl")
-        self.outputer.close_files()
 
 
 class PriceOptimizer:
@@ -576,7 +576,7 @@ class PriceOptimizer:
             for i in range(len(patterns)):
                 num_pattern = primary_dict[res]
                 pattern = patterns[i]
-                if self.scheme.simplify_pattern(pattern) == num_pattern:
+                if simplify_pattern(pattern) == num_pattern:
                     if res == "Pro":
                         pattern = self.substitute_pro(pattern)
                     label_dict.update({res: pattern})

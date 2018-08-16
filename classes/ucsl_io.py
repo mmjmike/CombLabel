@@ -1,6 +1,6 @@
 from cl_errors import errors as err
-from classes.constants import Constants, NCS
-from classes.search_objects import ELB
+from classes.constants import Constants, NCS, ELB
+# from classes.search_objects import ELB
 import re
 import os
 import logging
@@ -1074,3 +1074,101 @@ def read_ncs_file(filename):
 
 def write_ncs_stamp(ncs):
     return "[NCS = {}]\n[Deuterated = {}]".format(ncs.name, ncs.deuterated)
+
+
+def write_best_scheme(best_scheme, filename):
+    output = '________________________\nBest scheme\n[NCS = {}]\n'.format(best_scheme.scheme.ncs_name)
+    output += "[solution]\nRes"
+    for i in range(best_scheme.samples):
+        output += ",S{}".format(i + 1)
+    output += "\n"
+    for res in best_scheme.residues:
+        output += res + ", " + ", ".join(list(best_scheme.label_dict[res])) + "\n"
+    output += "[price]\n{}\n\n".format(best_scheme.price)
+    output += "Blocks used for this scheme:\n"
+    for block in best_scheme.blocks:
+        output += block.full_str() + "\n"
+    with open(filename, mode="w") as f:
+        f.write(output)
+    return output
+
+
+def write_product_stats(stats, filename):
+    output = ""
+    for samples in sorted(stats):
+        output += "-------------\n"
+        output += "Products in {} samples:\n".format(samples)
+        for product_type in sorted(stats[samples]):
+            output += product_type + "\n"
+            for status in sorted(stats[samples][product_type]):
+                output += "{:4} scheme(s): {}\n".format(stats[samples][product_type][status], status)
+    with open(filename, mode="w") as f:
+        f.write(output)
+    return output
+
+
+def write_products(products, samples, filename, mode='w'):
+    if not products:
+        return
+    product_schemes = 0
+    output = ""
+    # if mode == 'w':
+    #     output += write_ncs_stamp(products[0].ncs)
+    output += make_block_stats(products[0].blocks)
+    output += "\n-----------------------\nProducts calculated for {} samples:\n".format(samples)
+    for product in products:
+        output += str(product) + ": {} scheme(s)\n".format(len(product))
+        product_schemes += len(product)
+    output += "{} product types calculated\n".format(len(products))
+    output += "{} total labeling schemes to check\n".format(product_schemes)
+    with open(filename, mode=mode) as f:
+        f.write(output)
+    return output
+
+
+def read_prices(prices_file):
+    msg = ""
+    prices = {}
+    lines = read_lines(prices_file)
+    if len(lines) < 3:
+        msg = "Prices file '{}' is too short".format(prices_file)
+        return prices, msg
+    d = []
+    line_length = 0
+    first_line = True
+    for line in lines:
+        s = [x.strip() for x in line.split(",")]
+        if first_line:
+            line_length = len(s)
+            first_line = False
+        else:
+            if len(s) != line_length:
+                msg = "Not equal length of lines in prices file '{}'".format(prices_file)
+                return prices, msg
+        d.append(s)
+    price_label_types = d[0][1:]
+    for l_type in price_label_types:
+        if l_type.upper() not in Constants.TYPES_NAMES:
+            msg = "Incorrect label type {} in prices file '{}'".format(l_type, prices_file)
+            return prices, msg
+    if len(price_label_types) < 2:
+        msg = "Too few labeling types specified in prices file '{}'".format(prices_file)
+        return prices, msg
+
+    for i in range(len(d) - 1):
+        curr_dict = {}
+        for j in range(len(price_label_types)):
+            try:
+                price = float(d[i + 1][j + 1])
+            except ValueError:
+                msg = "ERROR! Price must be set in digits"
+                msg += "\nPlease check price file '{}' (row {}; col {})".format(prices_file,
+                                                                                i + 2, j + 2)
+                return {}, msg
+            curr_dict.update({price_label_types[j]: price})
+        residue_type = d[i + 1][0]
+        if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
+            msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, prices_file)
+            return {}, msg
+        prices.update({residue_type: curr_dict})
+    return prices, msg

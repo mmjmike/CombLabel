@@ -111,6 +111,9 @@ def make_loggers(parameters):
     if parameters["silent"]:
         stream_level = logging.CRITICAL
     stream_handler.setLevel(stream_level)
+    logger.addHandler(logfile_handler)
+    logger.addHandler(stream_handler)
+
 
     elb_filename = "{}.elb".format(filename)
     elb_logger = logging.getLogger("ELB_Logger")
@@ -118,8 +121,7 @@ def make_loggers(parameters):
     elb_logger.setLevel(logging.INFO)
     elb_logger.addHandler(elb_file_handler)
 
-    logger.addHandler(logfile_handler)
-    logger.addHandler(stream_handler)
+
     return logger, elb_logger
 
 
