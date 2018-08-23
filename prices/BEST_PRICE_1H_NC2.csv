@@ -1,0 +1,57 @@
+#####################################################################
+#                                                                   #
+#     The best price in USD                                         #
+#     for 1L of 1mM FM (Feeding Mixture)                            #
+#     of each amino acid of each labeling type                      #
+#                                                                   #
+#####################################################################
+#
+# (1) Considered suppliers: CIL, Sigma Aldrich, CortecNet
+# (2) CIL and SigmaAldrich price is in USD for delivery in USA
+#     The CortecNet price in EUR for delivery in Europe and the 
+#     price is converted to USD using 2016-averaged EUR/USD currency 
+#     rate: 
+#          1 EUR = 1.105976 USD
+# (3) Delivery price is not included
+# (4) The mixture of D/L amino acids is admitted and accounted with 
+#     double price
+# (5) The masses of hydrates and hydrochlorides are accounted in the
+#     price
+# (6) "-1" used if no price available
+# (7) Some prices are from private quotes provided by the suppliers
+# (8) The labeling types are encoded by special codes
+#     The meanings of the labeling codes are in the following table
+#     (1 - Labeled, 0 - Not labeled):
+#
+#     Labeling_code X C A F N S T D  X F N D
+#           Alpha-N 0 0 0 0 1 1 1 1  0 0 1 1
+#                CO 0 1 0 1 0 1 0 1  0 1 0 1
+#                CA 0 0 1 1 0 0 1 1  0 1 0 1
+#        Deuterated 0 0 0 0 0 0 0 0  1 1 1 1
+#
+# (9) The full data used to build the price table 
+#     is available in the following google doc:
+#     https://docs.google.com/spreadsheets/d/1pKwB0ANa-DyLOV3NbCwcikVvmkJOZyj1-1r4LDTbZLo/edit?usp=sharing
+#
+#####################################################################
+Aa ,          X,          C,          N
+G  ,    0.00616,    8.55798,    7.50700
+A  ,    0.04388,   29.66697,   12.47260
+V  ,    0.04897,   33.97350,   22.84425
+T  ,    0.10447,  458.61200,  216.08368
+E  ,    0.00730,  186.11945,   16.18430
+D  ,    0.01233,  179.68500,   36.60250
+S  ,    0.06232,  167.72364,   63.05400
+L  ,    0.05890,   18.26026,   34.89388
+F  ,    0.07681,   54.26075,   28.08230
+I  ,    0.10429,  167.64804,   77.39620
+N  ,    0.05549,  375.35000,  118.90800
+R  ,    0.04172,  526.65000,  231.72600
+K  ,    0.41591,  612.63156,   73.06000
+Y  ,    0.10763,  142.59653,   49.82725
+Q  ,    0.06445,  194.08720,   92.80525
+H  ,    0.09170,  838.56000,  318.07800
+C  ,    0.03235,  216.85850,  445.83200
+M  ,    0.07244,   45.38122,   70.27791
+W  ,    0.12540, 1037.48840,  265.49900
+P  ,    0.05377,  306.24580,   -1

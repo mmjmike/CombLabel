@@ -1,0 +1,39 @@
+[NCS = NCDA8]
+[Deuterated = False]
+[Labels = X,N,C,D,A]
+[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COHNCA]
+
+
+##################################################
+# Spectrum code for each labeling pair 
+#
+# One-letter codes in the headers of columns# and rows are the labeling types 
+# Don't confuse with one-letter amino acid codes
+
+[code_pairs]
+ , X, N, C, D, A
+X, 0, 1, 0, 5, 0
+N, 0, 1, 0, 5, 0
+C, 0, 2, 0, 6, 0
+D, 0, 3, 0, 7, 0
+A, 0, 4, 0, 8, 0
+
+
+
+##################################################
+# Spectrum codes table
+#
+# The spectrum code is in the first column
+# Flag of the peak presence (0 or 1) for each spectrum
+
+[codes]
+Code,   HSQC,   HNCO,   HNCA, HNCOCA, DQHNCA, COHNCA
+   0,      0,      0,      0,      0,      0,      0
+   1,      1,      0,      0,      0,      0,      0
+   2,      1,      1,      0,      0,      0,      0
+   3,      1,      1,      1,      1,      0,      0
+   4,      1,      0,      1,      0,      0,      1
+   5,      1,      0,      1,      0,      0,      0
+   6,      1,      1,      1,      0,      0,      0
+   7,      1,      1,      1,      1,      1,      0
+   8,      1,      0,      1,      0,      1,      1

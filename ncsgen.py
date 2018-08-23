@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 from classes.interactive import *
 from classes.constants import NCS, Constants
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import argparse, os
 from classes.ucsl_io import make_block_stats
 from classes.constants import Constants
