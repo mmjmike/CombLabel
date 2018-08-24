@@ -82,9 +82,9 @@ def strip_labels(line, deuterated):
 
 def input_spectra():
     text = ("------\n"
-            "Please specify spectra types with digits (1-7), corresponding\n"
+            "Please specify spectra types with digits (1-{}), corresponding\n"
             "to the spectra, separated by spaces\n"
-            "Warning: not including HSQC is not recommended\n"
+            "Warning: not including HSQC is not recommended\n".format(len(Constants.basic_spectra))
             )
     for i in range(len(Constants.basic_spectra)):
         spec = Constants.basic_spectra[i]
@@ -119,8 +119,8 @@ def strip_spectra(line):
             print("'{}' is not a digit".format(number))
             result = False
             break
-        if num < 1 or num > 7:
-            print("'{}' is not in range 1-7".format(num))
+        if num < 1 or num > len(Constants.basic_spectra):
+            print("'{}' is not in range 1-{}".format(num,len(Constants.basic_spectra)))
             result = False
             break
         num_list.add(num-1)

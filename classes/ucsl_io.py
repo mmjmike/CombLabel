@@ -222,6 +222,7 @@ class TaskReader:
         return self.read_prices(prices_file)[0]
 
     def read_prices(self, prices_file):
+        print("reading prices from file {}".format(prices_file))
         msg = ""
         prices = {}
         lines = self.read_lines(prices_file)
@@ -262,10 +263,13 @@ class TaskReader:
                     return [False, msg, prices]
                 curr_dict.update({price_label_types[j]: price})
             residue_type = d[i + 1][0]
-            if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
+            if residue_type in Constants.RES_TYPES_THREE:
+                residue_type = Constants.TO_ONE_LETTER_CODE[residue_type]
+            if residue_type not in Constants.RES_TYPES_LIST:
                 msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, prices_file)
                 return [False, msg, prices]
             prices.update({residue_type: curr_dict})
+        print(prices)
         return [True, msg, prices]
 
     def check_stock_file(self, stock_file):
@@ -323,7 +327,12 @@ class TaskReader:
                             i + 2, j + 2)
                     return [False, msg, label_dict]
             residue_type = d[i + 1][0]
-            if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
+            print(residue_type)
+            if residue_type in Constants.RES_TYPES_THREE:
+                residue_type1 = Constants.TO_ONE_LETTER_CODE[residue_type]
+                print("{} -> {}".format(residue_type,residue_type1))
+                residue_type = residue_type1
+            if residue_type not in Constants.RES_TYPES_LIST:
                 msg = "Wrong residue type '{}' in stock file '{}'".format(residue_type, stock_file)
                 return [False, msg, label_dict]
             label_dict.update({residue_type: curr_list})
@@ -892,7 +901,7 @@ def extract_labels(line):
 
 
 def extract_spectra(line):
-    extracted_spectra = [spectrum.rstrip().upper() for spectrum in line.split(",")]
+    extracted_spectra = [spectrum.rstrip() for spectrum in line.split(",")]
     for spectrum in extracted_spectra:
         if spectrum not in Constants.SPECTRA_NAMES:
             spectra_names = ", ".join(Constants.SPECTRA_NAMES)
@@ -908,10 +917,11 @@ def extract_spectra(line):
 def extract_deuterated(deuteration):
     result = False
     deuterated = False
-    if deuteration == "TRUE" or deuteration == "YES" or deuteration == "Y" or deuteration == "1":
+    d = deuteration.upper()
+    if d == "TRUE" or d == "YES" or d == "Y" or d == "1":
         result = True
         deuterated = True
-    elif deuteration == "FALSE" or deuteration == "NO" or deuteration == "N" or deuteration == "0":
+    elif d == "FALSE" or d == "NO" or d == "N" or d == "0":
         result = True
     return result, deuterated
 
@@ -1012,8 +1022,9 @@ def find_good_ncs_paths(ncs_name, script_path=os.path.split(os.path.realpath(__f
     return good_paths
 
 
-def write_blocks(blocks, ncs_name, filename):
+def write_blocks(blocks, ncs_name, filename, deuterated):
     output = "[NCS = {}]\n".format(ncs_name)
+    output+= "[Deuterated = {}]\n".format(deuterated)
     blocks_samples = list(blocks.keys())
     blocks_samples.sort()
     for samples_num in blocks_samples:
@@ -1023,6 +1034,7 @@ def write_blocks(blocks, ncs_name, filename):
             for block in blocks[samples_num][patterns_num]:
                 output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
                           + str(block)
+    output+="\n"
     with open(filename, mode="w") as f:
         f.write(output)
 
@@ -1128,6 +1140,7 @@ def write_products(products, samples, filename, mode='w'):
 
 def read_prices(prices_file):
     msg = ""
+    deuterated_found = False
     prices = {}
     lines = read_lines(prices_file)
     if len(lines) < 3:
@@ -1137,15 +1150,22 @@ def read_prices(prices_file):
     line_length = 0
     first_line = True
     for line in lines:
-        s = [x.strip() for x in line.split(",")]
-        if first_line:
-            line_length = len(s)
-            first_line = False
+        deuterated_match = Constants.deuterated_re.match(line)
+        if deuterated_match:
+            deuteration = deuterated_match.group(1).upper()
+            deuterated_found, deuterated = extract_deuterated(deuteration)
+            prices.update({"Deuterated" : deuterated})
+            continue
         else:
-            if len(s) != line_length:
-                msg = "Not equal length of lines in prices file '{}'".format(prices_file)
-                return prices, msg
-        d.append(s)
+          s = [x.strip() for x in line.split(",")]
+          if first_line:
+              line_length = len(s)
+              first_line = False
+          else:
+              if len(s) != line_length:
+                  msg = "Not equal length of lines in prices file '{}'".format(prices_file)
+                  return prices, msg
+          d.append(s)
     price_label_types = d[0][1:]
     for l_type in price_label_types:
         if l_type.upper() not in Constants.TYPES_NAMES:
@@ -1170,5 +1190,8 @@ def read_prices(prices_file):
         if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
             msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, prices_file)
             return {}, msg
+        if residue_type in Constants.RES_TYPES_THREE:
+            residue_type1 = Constants.TO_ONE_LETTER_CODE[residue_type]
+            residue_type = residue_type1
         prices.update({residue_type: curr_dict})
     return prices, msg
