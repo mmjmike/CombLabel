@@ -146,6 +146,7 @@ class NCS:
             output += ",".join(["{:>7}".format(item) for item in self.vectors[i]])
             if i+1 < len(self.vectors):
                 output += "\n"
+        output += "\n"
 
         return output
 
