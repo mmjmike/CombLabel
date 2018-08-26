@@ -6,7 +6,7 @@ import datetime
 import argparse
 from scipy.optimize import linprog
 from cl_errors import errors as err
-from classes.constants import NCS, Spectrum, LabelType, Constants
+from classes.constants import NCS, Spectrum, LabelType, Constants, Pattern
 from classes.ucsl_io import Outputer, TaskReader
 from classes.search_objects import Scheme, Product, BestScheme
 import time

@@ -1,44 +1,11 @@
 import sys
 import copy
 import time
-from .constants import Constants
+from .constants import Constants, Pattern
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
 
 
-
-# clear up stuff in Scheme class, make it inherited from ELB (????)
-
-
-def pattern_bigger(pattern1, pattern2):
-    for i in range(len(pattern1)):
-        type1 = pattern1[i]
-        type2 = pattern2[i]
-        if Constants.TYPES.index(type1) > Constants.TYPES.index(type2):
-            return True
-        if Constants.TYPES.index(type1) < Constants.TYPES.index(type2):
-            return False
-    return True
-
-
-def simplify_pattern(pattern):
-    simple_form = [0 for _ in range(len(Constants.TYPES))]
-    for label in pattern:
-        for i in range(len(Constants.TYPES)):
-            if Constants.TYPES[i] == label:
-                simple_form[i] += 1
-                continue
-    result = "".join([str(a) for a in simple_form])
-    return result
-
-
-def first_scheme_subset(scheme_1, scheme_2):
-    for pattern in scheme_1:
-        if pattern not in scheme_2:
-            return False
-        if scheme_1[pattern] > scheme_2[pattern]:
-            return False
-    return True
 
 
 class Scheme:
@@ -84,7 +51,7 @@ class Scheme:
     def sort(self):
         for i in range(len(self.patterns)-1):
             for j in range(len(self.patterns)-1-i):
-                if pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
+                if Pattern.pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
                     temp_pattern = self.patterns[i]
                     self.patterns[i] = self.patterns[i+j+1]
                     self.patterns[i+j+1] = temp_pattern
@@ -135,7 +102,7 @@ class Scheme:
     def simplified(self):
         simplified = {}
         for pattern in self.patterns:
-            simple_pattern = simplify_pattern(pattern)
+            simple_pattern = Pattern.simplify_pattern(pattern)
             if simplified != {} and simple_pattern in simplified:
                 simplified[simple_pattern] += 1
             else:
@@ -397,7 +364,7 @@ class SchemeOptimizer:
     def scheme_checked(self, scheme, checked_schemes):
         for checked_scheme in checked_schemes:
             if scheme.simplified == checked_scheme \
-                    or first_scheme_subset(scheme.simplified, checked_scheme):
+                    or Pattern.first_scheme_subset(scheme.simplified, checked_scheme):
                 return True
         return False
 
@@ -633,10 +600,15 @@ class BlockFinder:
             self.min_depth = 2
         self.timer = time.time()
 
-        out = "[BlockFinder{}] started new search in {} samples with min_depth={}".format(self.samples, self.samples,
-                                                                                            self.min_depth)
+        out = "[BlockFinder{}] started new search in {} samples with min_depth={}".format(
+                  self.samples, self.samples, self.min_depth)
         self.logger.info(out)
-
+        out = "[BlockFinder{}] total number of patterns is {}".format(
+                  self.samples, len(self.patterns[0]))
+        self.logger.info(out)
+        for p in self.patterns[0]:
+           self.logger.info(p)
+        
         while True:
             self.iterator += 1
 
@@ -686,7 +658,7 @@ class BlockFinder:
                 self.max_depth = self.depth
                 if self.block_finder_mode:
                     out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
-                    self.logger.info(out, files="lc")
+                    self.logger.info(out)
 
         out = "[BlockFinder{}] finished search in {} samples after {} sec and {} iterations, {} ELB schemes found"
         out = out.format(self.samples, self.samples, int(time.time() - self.timer), self.iterator, self.results_found)

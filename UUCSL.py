@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from classes.search_objects import SchemeOptimizer
 from classes.ucsl_io import read_blocks, find_ncs, read_prices
 from classes.constants import Constants

@@ -1,5 +1,6 @@
 import re
 
+
 class LabelType:
 
     def __init__(self, name, isotopes):
@@ -29,7 +30,7 @@ class Spectrum:
         elif self.name == "HNCOCA":
             return int(atom_list[3] and atom_list[2] and atom_list[1])
 
-        elif self.name == "COHNCA":
+        elif self.name == "COfHNCA":
             return int(atom_list[3] and atom_list[1] and not atom_list[2])
 
         elif self.name == "DQHNCA":
@@ -37,6 +38,11 @@ class Spectrum:
 
         elif self.name == "HNCACO":
             return int(atom_list[3] and atom_list[4] and atom_list[5])
+
+        elif self.name == "HNCAfCO":
+        # Hypothetic spectrum, to be devepoled
+        # HN(CA-filtered)CO
+            return int(atom_list[3] and not atom_list[4] and atom_list[5])
 
 
 class NCS:
@@ -51,7 +57,7 @@ class NCS:
         self.label_dict = {}
         for label in self.label_types:
             self.label_dict.update({label.name: label})
-        self.letters = ("a", "b", "c", "d", "e", "f")
+        self.letters = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j")
         self.codes_dict = {}
         self.label_power = {}
         self.spectra_numbers = []
@@ -186,7 +192,7 @@ class ELB:
     def simplified(self):
         simplified = {}
         for pattern in self.patterns:
-            simple_pattern = simplify_pattern(pattern)
+            simple_pattern = Pattern.simplify_pattern(pattern)
             if simplified != {} and simple_pattern in simplified:
                 simplified[simple_pattern] += 1
             else:
@@ -227,16 +233,19 @@ class Constants:
     DEUTERATED_TYPES = ("X", "N", "F", "D")
     CARBON_TYPES = ("C", "D", "A", "S", "T", "F")  # labeling types with 13C
 
-    HSQC = Spectrum("HSQC")
-    HNCO = Spectrum("HNCO")
-    HNCA = Spectrum("HNCA")
-    HNCOCA = Spectrum("HNCOCA")
-    DQHNCA = Spectrum("DQHNCA")
-    COHNCA = Spectrum("COHNCA")
-    HNCACO = Spectrum("HNCACO")
+    HSQC =    Spectrum("HSQC")
+    HNCO =    Spectrum("HNCO")
+    HNCA =    Spectrum("HNCA")
+    HNCOCA =  Spectrum("HNCOCA")
+    DQHNCA =  Spectrum("DQHNCA")
+    COfHNCA = Spectrum("COfHNCA")
+    HNCACO =  Spectrum("HNCACO")
+    HNCAfCO = Spectrum("HNCAfCO")
 
-    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, DQHNCA, COHNCA, HNCACO)
+    basic_spectra = (HSQC, HNCO, HNCA, HNCOCA, DQHNCA, COfHNCA, HNCACO, HNCAfCO)
     SPECTRA_NAMES = [spectrum.name for spectrum in basic_spectra]
+    SPECTRA_NAMES_UPPER = [spectrum.name.upper() for spectrum in basic_spectra]
+  
 
     RES_TYPES_LIST = ("A", "C", "D", "E", "F", "G", "H", "I", "K", "L",
                       "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y")
@@ -253,12 +262,14 @@ class Constants:
         "Thr": "T", "Val": "V",
         "Trp": "W", "Tyr": "Y"
     }
+
+    RES_TYPES_THREE = []
     TO_THREE_LETTER_CODE = {}
     for code3 in TO_ONE_LETTER_CODE:
-        code1 = TO_ONE_LETTER_CODE[code3]
-        TO_THREE_LETTER_CODE[code1] = code3
+          code1 = TO_ONE_LETTER_CODE[code3]
+          TO_THREE_LETTER_CODE[code1] = code3
+          RES_TYPES_THREE.append(code3)
 
-    RES_TYPES_THREE = (TO_ONE_LETTER_CODE[res] for res in RES_TYPES_LIST)
 
     PROLINE_SUBSTITUTE = {
         "X": "X",
@@ -279,11 +290,11 @@ class Constants:
                [typeX, typeN, typeC, typeD])
     NCD6 = NCS("NCD6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
                [typeX, typeN, typeC, typeD])
-    NCDA8 = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
+    NCDA8 = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COfHNCA, DQHNCA],
                 [typeX, typeN, typeC, typeD, typeA])
-    TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+    TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COfHNCA, DQHNCA, HNCACO],
                 [typeX, typeN, typeC, typeD, typeA, typeT, typeS, typeF])
-    TF12 = NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+    TF12 = NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COfHNCA, DQHNCA, HNCACO],
                 [typeX, typeN, typeC, typeD, typeA, typeT, typeF])
     XND2 = NCS("XND2", [HSQC, HNCO],
                [typeX, typeN, typeD])
@@ -305,3 +316,41 @@ class Constants:
 
     def __init__(self):
         pass
+
+
+class Pattern:
+
+  def __init__(self):
+      pass
+
+  def pattern_bigger(pattern1, pattern2):
+      for i in range(len(pattern1)):
+          type1 = pattern1[i]
+          type2 = pattern2[i]
+          if Constants.TYPES.index(type1) > Constants.TYPES.index(type2):
+              return True
+          if Constants.TYPES.index(type1) < Constants.TYPES.index(type2):
+              return False
+      return True
+
+
+  def simplify_pattern(pattern):
+      simple_form = [0 for _ in range(len(Constants.TYPES))]
+      for label in pattern:
+          for i in range(len(Constants.TYPES)):
+              if Constants.TYPES[i] == label:
+                  simple_form[i] += 1
+                  continue
+      result = "".join([str(a) for a in simple_form])
+      return result
+
+
+  def first_scheme_subset(scheme_1, scheme_2):
+      for pattern in scheme_1:
+          if pattern not in scheme_2:
+              return False
+          if scheme_1[pattern] > scheme_2[pattern]:
+              return False
+      return True
+
+
