@@ -700,7 +700,7 @@ class BlockFinder:
         self.results_found += 1
         output = new_scheme.full_str()
         self.logger.debug(output)
-        self.elb_logger.info(output)
+        self.elb_logger.info(output + "\n")
 
     # def write_result(self):
     #     out = "FindBlocks: finished after {} iterations\n".format(self.iterator)

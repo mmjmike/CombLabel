@@ -809,7 +809,7 @@ def make_block_stats(blocks):
     return output
 
 
-def read_blocks(block_file):
+def read_blocks(block_file, logger=None):
     lines = read_lines(block_file)
     i = 0
     deuterated = False
@@ -849,12 +849,19 @@ def read_blocks(block_file):
                     if len(pattern) != samples_num:
                         result = "Warning! The number of samples in block {} doesn't match " \
                               "\nwith specified value in blocks file '{}'.".format(blocks_num, block_file)
+                        print(result)
+                        if logger:
+                            logger.warning(result)
                         good_block = False
                         break
                     for label_type in pattern:
                         if label_type not in Constants.TYPES:
                             result = "Warning! Unknown labeling type '{}' used in block {}" \
                                   "\n in blocks file '{}'.".format(label_type, blocks_num, block_file)
+                            if logger:
+                                logger.warning(result)
+                            else:
+                                print(result)
                             good_block = False
                             break
                 if good_block:

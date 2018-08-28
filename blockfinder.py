@@ -5,9 +5,13 @@ import os
 import logging
 from classes.search_objects import BlockFinder
 from classes.ucsl_io import find_ncs, write_ncs_stamp
+from classes.interactive import answer_yes
 # from classes.interactive import ask_to_continue_input
 
 script_path = os.path.split(os.path.realpath(__file__))[0]
+
+
+DEFAULT_LOGFILE_NAME = "blockfinder.log"
 
 
 def good_filename(filename):
@@ -65,14 +69,15 @@ def get_args():
     return parser.parse_args()
 
 
-def get_params(args):
+def get_params(args, logger):
     ncs, msg = find_ncs(args.ncs, script_path)
     if not ncs:
+        logger.error(msg)
         exit()
 
     samples = args.samples
     if samples < 1 or samples > 9:
-        print("Number of samples '{}' is not in range 1-9".format(samples))
+        logger.error("Number of samples '{}' is not in range 1-9".format(samples))
         exit()
 
     min_patterns = 0
@@ -93,14 +98,27 @@ def get_params(args):
     return params
 
 
-def make_loggers(parameters):
+def make_loggers(args):
     logger = logging.getLogger("Logfile_logger")
     logger.setLevel(logging.DEBUG)
-    filename = parameters["ncs"].name
-    filename += "_" + str(parameters["samples"])
-    if parameters["exact_patterns"]:
-        filename += "_" + str(parameters["min_patterns"])
+
+    min_patterns = 0
+    exact_patterns = False
+
+    if args.minpatterns:
+        min_patterns = args.minpatterns
+        exact_patterns = True
+
+    filename = args.ncs
+    filename += "_" + str(args.samples)
+    if exact_patterns:
+        filename += "_" + str(min_patterns)
     log_filename = "{}_blocks.log".format(filename)
+    if os.path.isfile(log_filename):
+        input_key = input("Logfile '{}' already exists."
+                          "Do you want to overwrite? (Y[es]/N[o]) > ".format(log_filename))
+        if not answer_yes(input_key):
+            exit()
 
     logfile_handler = logging.FileHandler(log_filename, mode='w')
     logfile_format = logging.Formatter('%(asctime)s:%(message)s')
@@ -108,9 +126,9 @@ def make_loggers(parameters):
     logfile_handler.setLevel(logging.DEBUG)
     stream_handler = logging.StreamHandler()
     stream_level = logging.INFO
-    if parameters["verbose"]:
+    if args.verbose:
         stream_level = logging.DEBUG
-    if parameters["silent"]:
+    if args.silent:
         stream_level = logging.CRITICAL
     stream_handler.setLevel(stream_level)
     logger.addHandler(logfile_handler)
@@ -129,9 +147,8 @@ def make_loggers(parameters):
 
 def main():
     args = get_args()
-    parameters = get_params(args)
-
-    logger, elb_logger = make_loggers(parameters)
+    logger, elb_logger = make_loggers(args)
+    parameters = get_params(args, logger)
     if parameters["exact_patterns"]:
         run_blockfinder_once(parameters, logger, elb_logger)
     else:
