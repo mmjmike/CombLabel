@@ -29,7 +29,7 @@ def main():
         for line in f:
             result = Constants.elb_re.match(line)
             if result:
-                blocks = add_block(blocks, result.group(1), result.group(2))
+                blocks = add_block(blocks, int(result.group(1)), int(result.group(2)))
     print(make_block_stats(blocks)["str"])
 
 
