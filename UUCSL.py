@@ -2,7 +2,7 @@
 
 from classes.search_objects import SchemeOptimizer
 from classes.ucsl_io import read_blocks, find_ncs, read_prices
-from classes.constants import Constants
+from classes.constants import Constants, Pattern
 import argparse
 import os
 import logging
@@ -49,6 +49,7 @@ def read_parameters(args):
     if not ncs:
         print(msg)
         exit()
+    
     result, blocks, ncs_name, deuterated = read_blocks(args.elb_file)
     if result:
         print(result)
@@ -61,6 +62,7 @@ def read_parameters(args):
             exit()
     else:
         print("Error! Price file '{}' not found".format(args.price_file))
+    print("prices read done")
     max_block_samples = max(blocks.keys())
     jobname = args.jobname
     residues = Constants.RES_TYPES_LIST
