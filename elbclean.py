@@ -7,9 +7,12 @@ import os
 import logging
 
 # add logging, especially in the reading of blocks
+LOG_ITERATION = 10000
 
 
 def clear_redundant_blocks(blocks):
+    iter = 0
+    total_blocks = make_block_stats(blocks)["total"]
     for samples_num in blocks:
         patterns_numbers = list(blocks[samples_num].keys())
         patterns_numbers.sort(reverse=True)
@@ -17,6 +20,9 @@ def clear_redundant_blocks(blocks):
         for pattern_num in patterns_numbers:
             new_block_list = []
             for block in blocks[samples_num][pattern_num]:
+                iter += 1
+                if iter % LOG_ITERATION == 0:
+                    print("Blocks checked {}/{}".format(iter, total_blocks))
                 block_good = True
                 for good_block in good_blocks:
                     if block.is_subset_of(good_block.simplified):
@@ -35,12 +41,17 @@ def clear_redundant_blocks(blocks):
 def clear_product_blocks(blocks):
     blocks_samples = list(blocks.keys())
     blocks_samples.sort(reverse=True)
+    iter = 0
+    total_blocks = make_block_stats(blocks)["total"]
     for samples_num in blocks_samples:
         patterns_numbers = list(blocks[samples_num].keys())
         patterns_numbers.sort(reverse=True)
         for patterns_num in patterns_numbers:
             good_blocks = []
             for block in blocks[samples_num][patterns_num]:
+                iter += 1
+                if iter % LOG_ITERATION == 0:
+                    print("Blocks checked {}/{}".format(iter, total_blocks))
                 block_good = True
                 prod_finder = ProductFinder(blocks, samples_num, patterns_num, equal=True)
                 products = prod_finder.find_products()
@@ -76,15 +87,15 @@ def clear_empty_block_types(blocks):
 
 
 def clear_blocks(blocks):
-    print(make_block_stats(blocks))
+    print(make_block_stats(blocks)["str"])
     print("Clearing redundant blocks...\n")
     blocks = clear_redundant_blocks(blocks)
     print("Redundant blocks cleared...\n")
-    print(make_block_stats(blocks))
+    print(make_block_stats(blocks)["str"])
     print("Clearing product blocks...\n")
     blocks = clear_product_blocks(blocks)
     print("Product blocks cleared...\n")
-    print(make_block_stats(blocks))
+    print(make_block_stats(blocks)["str"])
     return blocks
 
 

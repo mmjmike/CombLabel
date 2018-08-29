@@ -699,7 +699,7 @@ class BlockFinder:
     def write_result(self, new_scheme):
         self.results_found += 1
         output = new_scheme.full_str()
-        self.logger.debug(output)
+        # self.logger.debug(output)
         self.elb_logger.info(output + "\n")
 
     # def write_result(self):

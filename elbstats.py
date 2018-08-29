@@ -30,7 +30,7 @@ def main():
             result = Constants.elb_re.match(line)
             if result:
                 blocks = add_block(blocks, result.group(1), result.group(2))
-    print(make_block_stats(blocks))
+    print(make_block_stats(blocks)["str"])
 
 
 if __name__ == "__main__":
