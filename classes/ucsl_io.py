@@ -805,10 +805,14 @@ def make_block_stats(blocks):
         output += "{:2} X  . - {} block(s)\n".format(samples_n, blocks_by_samples[samples_n])
     output += " TOTAL - {} blocks\n".format(total_blocks)
     output += "-----------\n"
-    return output
+    stats = {
+        "str": output,
+        "total": total_blocks
+    }
+    return stats
 
 
-def read_blocks(block_file):
+def read_blocks(block_file, logger=None):
     lines = read_lines(block_file)
     i = 0
     deuterated = False
@@ -825,16 +829,12 @@ def read_blocks(block_file):
             if ncs_match:
                 ncs_name = ncs_match.group(1).upper()
                 NCS_found = True
-                i += 1
-                continue
-        if not deuterated_found:
+        elif not deuterated_found:
             deuterated_match = Constants.deuterated_re.match(lines[i])
             if deuterated_match:
                 deuteration = deuterated_match.group(1).upper()
                 deuterated_found, deuterated = extract_deuterated(deuteration)
-                i += 1
-                continue
-        if NCS_found:
+        else:
             elb_match = Constants.elb_re.match(lines[i])
             if elb_match:
                 samples_num = int(elb_match.group(1))
@@ -848,12 +848,19 @@ def read_blocks(block_file):
                     if len(pattern) != samples_num:
                         result = "Warning! The number of samples in block {} doesn't match " \
                               "\nwith specified value in blocks file '{}'.".format(blocks_num, block_file)
+                        print(result)
+                        if logger:
+                            logger.warning(result)
                         good_block = False
                         break
                     for label_type in pattern:
                         if label_type not in Constants.TYPES:
                             result = "Warning! Unknown labeling type '{}' used in block {}" \
                                   "\n in blocks file '{}'.".format(label_type, blocks_num, block_file)
+                            if logger:
+                                logger.warning(result)
+                            else:
+                                print(result)
                             good_block = False
                             break
                 if good_block:
@@ -865,11 +872,16 @@ def read_blocks(block_file):
                             blocks[samples_num].update({patterns_num: [block]})
                         else:
                             blocks[samples_num][patterns_num].append(block)
+<<<<<<< HEAD
                 i += 1 + patterns_num
             else:
                 i += 1
         else:
             i += 1
+=======
+                i += patterns_num
+        i += 1
+>>>>>>> 30fd861e905b90e39ec4c137f247163f80bdb29d
     return result, blocks, ncs_name, deuterated
 
 
@@ -927,54 +939,54 @@ def extract_deuterated(deuteration):
     return result, deuterated
 
 
-def read_ncs(filename):
-    lines = read_lines(filename)
-    ncs_name_read = False
-    labels_read = False
-    spectra_read = False
-    deuterated_read = False
-    ncs_name = ''
-    spectra = []
-    labels = []
-    deuterated = False
-
-
-    for line in lines:
-        if not ncs_name_read:
-            ncs_name_search = ncs_re.search(line)
-            if ncs_name_search is not None:
-                ncs_name = ncs_name_search.group()[0]
-                if ncs_name:
-                    ncs_name_read = True
-                    continue
-        if not labels_read:
-            labels_search = labels_re.search(line)
-            if labels_search is not None:
-                labels_line = labels_search.group()[0]
-                labels = extract_labels(labels_line)
-                if labels:
-                    labels_read = True
-                    continue
-        if not spectra_read:
-            spectra_search = spectra_re.search(line)
-            if spectra_search is not None:
-                spectra_line = spectra_search.group()[0]
-                spectra = extract_spectra(spectra_line)
-                if spectra:
-                    spectra_read = True
-                    continue
-        if not deuterated_read:
-            deuterated_search = deuterated_re.search(line)
-            if deuterated_search is not None:
-                deuterated_line = deuterated_search.group()[0]
-                deuterated = extract_deuterated(deuterated_line)
-                deuterated_read = True
-                continue
-
-    if labels_read and ncs_name_read and spectra_read:
-        return NCS(ncs_name, labels, spectra, deuterated)
-    else:
-        return None
+# def read_ncs(filename):
+#     lines = read_lines(filename)
+#     ncs_name_read = False
+#     labels_read = False
+#     spectra_read = False
+#     deuterated_read = False
+#     ncs_name = ''
+#     spectra = []
+#     labels = []
+#     deuterated = False
+#
+#
+#     for line in lines:
+#         if not ncs_name_read:
+#             ncs_name_search = ncs_re.search(line)
+#             if ncs_name_search is not None:
+#                 ncs_name = ncs_name_search.group()[0]
+#                 if ncs_name:
+#                     ncs_name_read = True
+#                     continue
+#         if not labels_read:
+#             labels_search = labels_re.search(line)
+#             if labels_search is not None:
+#                 labels_line = labels_search.group()[0]
+#                 labels = extract_labels(labels_line)
+#                 if labels:
+#                     labels_read = True
+#                     continue
+#         if not spectra_read:
+#             spectra_search = spectra_re.search(line)
+#             if spectra_search is not None:
+#                 spectra_line = spectra_search.group()[0]
+#                 spectra = extract_spectra(spectra_line)
+#                 if spectra:
+#                     spectra_read = True
+#                     continue
+#         if not deuterated_read:
+#             deuterated_search = deuterated_re.search(line)
+#             if deuterated_search is not None:
+#                 deuterated_line = deuterated_search.group()[0]
+#                 deuterated = extract_deuterated(deuterated_line)
+#                 deuterated_read = True
+#                 continue
+#
+#     if labels_read and ncs_name_read and spectra_read:
+#         return NCS(ncs_name, labels, spectra, deuterated)
+#     else:
+#         return None
 
 
 def add_dir(path_list, new_dir):
