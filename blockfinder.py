@@ -120,14 +120,14 @@ def make_loggers(args):
     logger.setLevel(logging.DEBUG)
     exact_patterns = False
 
-    if args.minpatterns:
+    if args.pmin:
         exact_patterns = True
 
     if not args.name:
         filename = args.ncs
         filename += "_" + str(args.samples)
         if exact_patterns:
-            filename += "_" + str(args.minpatterns)
+            filename += "_" + str(args.pmin)
             if args.begin and args.end:
                 filename += "_{:03}_{:03}".format(args.begin,args.end)
     else:

@@ -872,16 +872,8 @@ def read_blocks(block_file, logger=None):
                             blocks[samples_num].update({patterns_num: [block]})
                         else:
                             blocks[samples_num][patterns_num].append(block)
-<<<<<<< HEAD
-                i += 1 + patterns_num
-            else:
-                i += 1
-        else:
-            i += 1
-=======
                 i += patterns_num
         i += 1
->>>>>>> 30fd861e905b90e39ec4c137f247163f80bdb29d
     return result, blocks, ncs_name, deuterated
 
 
