@@ -105,9 +105,16 @@ def get_params(args, logger):
         "pmin": min_patterns,
         "verbose": args.verbose,
         "silent": args.silent,
-        "begin" : args.begin,
-        "end" : args.end
     }
+
+    if args.begin:
+        params["begin"] = args.begin
+    else:
+        params["begin"] = -1
+    if args.end:
+        params["end"] = args.end
+    else:
+        params["end"] = -1
 
     if args.name:
         params["name"] = args.name

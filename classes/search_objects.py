@@ -5,7 +5,8 @@ from .constants import Constants, Pattern
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
 
-
+# add logging, especially in the reading of blocks
+LOG_ITERATION = 10000
 
 
 class Scheme:
@@ -608,8 +609,9 @@ class BlockFinder:
         out = "[BlockFinder{}] total number of patterns is {}".format(
                   self.samples, len(self.patterns[0]))
         self.logger.info(out)
+        self.logger.debug("List of all patterns used in all blocks:")
         for p in self.patterns[0]:
-           self.logger.info(p)
+           self.logger.debug(p)
 
         if self.end < 0:
             self.end = len(self.patterns[0]) - self.min_depth + 1
@@ -627,7 +629,7 @@ class BlockFinder:
         while True:
             self.iterator += 1
 
-            if self.iterator % 10000 == 0:
+            if self.iterator % LOG_ITERATION == 0:
                 out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator,
                                                                  int(time.time() - self.timer))
                 out += "Pmax={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
@@ -676,7 +678,7 @@ class BlockFinder:
                     self.logger.info(out)
 
         out = "[BlockFinder{}] finished search in {} samples after {:f} sec and {} iterations, {} ELB schemes found"
-        out = out.format(self.samples, self.samples, int(time.time() - self.timer), self.iterator, self.results_found)
+        out = out.format(self.samples, self.samples, time.time() - self.timer, self.iterator, self.results_found)
         self.logger.info(out)
 
     def generate_patterns(self, samples, top=True):
