@@ -170,6 +170,10 @@ class Constants:
                     [typeX, typeN, typeC, typeD])
     NCD2nox   = NCS("NCD2nox", [HSQC, HNCO],
                     [       typeN, typeC, typeD])
+    ND3       = NCS("ND3" , [HSQC, HNCO, HNCA],
+                    [typeX, typeN,        typeD])
+    ND3nox    = NCS("ND3nox", [HSQC, HNCO, HNCA],
+                    [       typeN,        typeD])
     NCD4      = NCS("NCD4", [HSQC, HNCO, HNCA],
                     [typeX, typeN, typeC, typeD])
     NCD4nox   = NCS("NCD4nox", [HSQC, HNCO, HNCA],
@@ -182,6 +186,10 @@ class Constants:
                     [typeX, typeN, typeC, typeD, typeF])
     NCDF6nox   = NCS("NCDF6nox", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
                     [       typeN, typeC, typeD, typeF])
+    NCDAF6     = NCS("NCDAF6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [typeX, typeN, typeC, typeD, typeF, typeA])
+    NCDAF6nox  = NCS("NCDAF6nox", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [       typeN, typeC, typeD, typeF, typeA])
     NCDA8     = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
                     [typeX, typeN, typeC, typeD,        typeA])
     NCDA8nox  = NCS("NCDA8nox", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
@@ -205,9 +213,11 @@ class Constants:
 
     LIST_OF_NCS = [NC2,    NC2nox, 
                    NCD2,   NCD2nox, 
+                   ND3,    ND3nox, 
                    NCD4,   NCD4nox,
                    NCD6,   NCD6nox,
                    NCDF6,  NCDF6nox,
+                   NCDAF6, NCDAF6nox,
                    NCDA8,  NCDA8nox,
                    NCDAF8, NCDAF8nox,
                    TSF12,  TSF12nox, TF12, TSF12noxs,
