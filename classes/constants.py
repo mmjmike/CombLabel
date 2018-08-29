@@ -202,7 +202,7 @@ class ELB:
     def sort(self):
         for i in range(len(self.patterns)-1):
             for j in range(len(self.patterns)-1-i):
-                if pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
+                if Pattern.pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
                     temp_pattern = self.patterns[i]
                     self.patterns[i] = self.patterns[i+j+1]
                     self.patterns[i+j+1] = temp_pattern

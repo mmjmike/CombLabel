@@ -4,6 +4,7 @@ from classes.search_objects import SchemeOptimizer
 from classes.ucsl_io import read_blocks, find_ncs, read_prices
 from classes.interactive import answer_yes
 from classes.constants import Constants
+
 import argparse
 import os
 import logging
@@ -64,6 +65,7 @@ def read_parameters(args, logger):
             exit()
     else:
         logger.error("Error! Price file '{}' not found".format(args.price_file))
+
     max_block_samples = max(blocks.keys())
     jobname = args.jobname
     if args.aminoacids:

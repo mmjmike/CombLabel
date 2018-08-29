@@ -5,7 +5,8 @@ from .constants import Constants, Pattern
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
 
-
+# add logging, especially in the reading of blocks
+LOG_ITERATION = 10000
 
 
 class Scheme:
@@ -136,9 +137,9 @@ class Scheme:
         self.new_codes = set()
 
     def output(self):
-        output = "\n"
         for pattern in self.patterns:
             output += "\n" + pattern
+        output = "\n"
         print(output)
         sys.stdout.flush()
 
@@ -146,7 +147,7 @@ class Scheme:
         return len(self.patterns)
 
     def __str__(self):
-        return "\n".join(self.patterns)
+        return "\n".join(self.patterns)+"\n"
 
     def full_str(self):
         return "[ELB samples = {} patterns = {}]\n".format(self.samples, len(self.patterns)) \
@@ -171,7 +172,7 @@ class ELB:
         self.deuterated = deuterated
 
     def __str__(self):
-        return "\n".join(self.patterns)
+        return "\n".join(self.patterns)+"\n"
 
     @property
     def samples(self):
@@ -198,7 +199,7 @@ class ELB:
     def simplified(self):
         simplified = {}
         for pattern in self.patterns:
-            simple_pattern = simplify_pattern(pattern)
+            simple_pattern = Pattern.simplify_pattern(pattern)
             if simplified != {} and simple_pattern in simplified:
                 simplified[simple_pattern] += 1
             else:
@@ -208,7 +209,7 @@ class ELB:
     def sort(self):
         for i in range(len(self.patterns)-1):
             for j in range(len(self.patterns)-1-i):
-                if pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
+                if Pattern.pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
                     temp_pattern = self.patterns[i]
                     self.patterns[i] = self.patterns[i+j+1]
                     self.patterns[i+j+1] = temp_pattern
@@ -543,7 +544,7 @@ class PriceOptimizer:
             for i in range(len(patterns)):
                 num_pattern = primary_dict[res]
                 pattern = patterns[i]
-                if simplify_pattern(pattern) == num_pattern:
+                if Pattern.simplify_pattern(pattern) == num_pattern:
                     if res == "Pro":
                         pattern = self.substitute_pro(pattern)
                     label_dict.update({res: pattern})
@@ -576,7 +577,7 @@ class PriceOptimizer:
 
 class BlockFinder:
 
-    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False):
+    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False, begin=-1, end=-1):
         self.samples = samples
         self.block_finder_mode = block_finder_mode
         self.ncs = ncs
@@ -594,6 +595,8 @@ class BlockFinder:
         self.logger = logger
         self.elb_logger = elb_logger
         self.timer = time.time()
+        self.begin = begin
+        self.end = end
 
     def find(self):
         if self.min_depth == 1:
@@ -606,22 +609,36 @@ class BlockFinder:
         out = "[BlockFinder{}] total number of patterns is {}".format(
                   self.samples, len(self.patterns[0]))
         self.logger.info(out)
+        self.logger.debug("List of all patterns used in all blocks:")
         for p in self.patterns[0]:
-           self.logger.info(p)
-        
+           self.logger.debug(p)
+
+        if self.end < 0:
+            self.end = len(self.patterns[0]) - self.min_depth + 1
+        if self.end > len(self.patterns[0]) - self.min_depth + 1:
+            self.end = len(self.patterns[0]) - self.min_depth + 1
+        if self.block_finder_mode and self.begin>=0:
+            if self.begin > self.end:
+                self.begin = self.end
+            self.counter[0] = self.begin
+            out = "[BlockFinder{}] Start search from pattern number {} to pattern number {}".format(
+                self.samples, self.begin, self.end)
+            self.logger.info(out)
+            self.counter = [self.begin]
+
         while True:
             self.iterator += 1
 
-            if self.iterator % 10000 == 0:
+            if self.iterator % LOG_ITERATION == 0:
                 out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator,
                                                                  int(time.time() - self.timer))
-                out += "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
+                out += "Pmax={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
                 for d in range(self.depth):
                     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
                 self.logger.info(out)
 
             patterns = self.patterns[self.depth]
-            if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):
+            if self.depth == 0 and self.counter[0] > self.end - 1:
                 break
             self.back_up_schemes.append(self.scheme.copy())
             self.scheme.add_pattern(patterns[self.counter[self.depth]])
@@ -660,8 +677,8 @@ class BlockFinder:
                     out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
                     self.logger.info(out)
 
-        out = "[BlockFinder{}] finished search in {} samples after {} sec and {} iterations, {} ELB schemes found"
-        out = out.format(self.samples, self.samples, int(time.time() - self.timer), self.iterator, self.results_found)
+        out = "[BlockFinder{}] finished search in {} samples after {:f} sec and {} iterations, {} ELB schemes found"
+        out = out.format(self.samples, self.samples, time.time() - self.timer, self.iterator, self.results_found)
         self.logger.info(out)
 
     def generate_patterns(self, samples, top=True):

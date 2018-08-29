@@ -1,7 +1,7 @@
 [NCS = NCDA8]
 [Deuterated = False]
 [Labels = X,N,C,D,A]
-[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COHNCA]
+[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COfHNCA]
 
 
 ##################################################
@@ -27,7 +27,7 @@ A, 0, 4, 0, 8, 0
 # Flag of the peak presence (0 or 1) for each spectrum
 
 [codes]
-Code,   HSQC,   HNCO,   HNCA, HNCOCA, DQHNCA, COHNCA
+Code,   HSQC,   HNCO,   HNCA, HNCOCA, DQHNCA,COfHNCA
    0,      0,      0,      0,      0,      0,      0
    1,      1,      0,      0,      0,      0,      0
    2,      1,      1,      0,      0,      0,      0

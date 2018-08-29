@@ -19,13 +19,16 @@ def good_filename(filename):
 
 
 def run_blockfinder_once(parameters, logger, elb_logger):
-    ncs = parameters["ncs"]
-    samples = parameters["samples"]
-    min_depth = parameters["min_patterns"]
+    ncs =       parameters["ncs"]
+    samples =   parameters["samples"]
+    min_depth = parameters["pmin"]
+    begin =     parameters["begin"]
+    end =       parameters["end"]
 
     elb_logger.info(write_ncs_stamp(ncs))
     all_blocks = {}
-    block_finder = BlockFinder(samples, ncs, min_depth, logger, elb_logger, block_finder_mode=True)
+    block_finder = BlockFinder(samples, ncs, min_depth, logger, elb_logger, block_finder_mode=True,
+                               begin=begin, end=end)
     block_finder.find()
     result = block_finder.result
     all_blocks.update({samples: result})
@@ -57,7 +60,7 @@ def get_args():
     parser.add_argument("samples",
                         help='Specify maximal number of samples (range 1-9) or exact number of samples (if run in scheme finding mode)',
                         type=int)
-    parser.add_argument("--minpatterns", "-p",
+    parser.add_argument("--pmin", "-p",
                         help='Specify minimal number of patterns to run in scheme finding mode',
                         type=int)
     parser.add_argument('--verbose', '-v',
@@ -66,6 +69,14 @@ def get_args():
     parser.add_argument('--silent', '-s',
                         help='No output to console (overrides verbosity)',
                         action="store_true")
+    parser.add_argument('--name', '-n', type=str,
+                        help='The name of output files')
+    parser.add_argument("--begin", "-b",
+                        help='Specify first pattern at the zero depth, for manual parallelization',
+                        type=int, default = -1)
+    parser.add_argument("--end", "-e",
+                        help='Specify last pattern at the zero depth, for manual parallelization',
+                        type=int, default = -1)
     return parser.parse_args()
 
 
@@ -83,36 +94,52 @@ def get_params(args, logger):
     min_patterns = 0
     exact_patterns = False
 
-    if args.minpatterns:
-        min_patterns = args.minpatterns
+    if args.pmin:
+        min_patterns = args.pmin
         exact_patterns = True
 
     params = {
         "ncs": ncs,
         "samples": samples,
         "exact_patterns": exact_patterns,
-        "min_patterns": min_patterns,
+        "pmin": min_patterns,
         "verbose": args.verbose,
-        "silent": args.silent
+        "silent": args.silent,
     }
+
+    if args.begin:
+        params["begin"] = args.begin
+    else:
+        params["begin"] = -1
+    if args.end:
+        params["end"] = args.end
+    else:
+        params["end"] = -1
+
+    if args.name:
+        params["name"] = args.name
+
     return params
 
 
 def make_loggers(args):
     logger = logging.getLogger("Logfile_logger")
     logger.setLevel(logging.DEBUG)
-
-    min_patterns = 0
     exact_patterns = False
 
-    if args.minpatterns:
-        min_patterns = args.minpatterns
+    if args.pmin:
         exact_patterns = True
 
-    filename = args.ncs
-    filename += "_" + str(args.samples)
-    if exact_patterns:
-        filename += "_" + str(min_patterns)
+    if not args.name:
+        filename = args.ncs
+        filename += "_" + str(args.samples)
+        if exact_patterns:
+            filename += "_" + str(args.pmin)
+            if args.begin and args.end:
+                filename += "_{:03}_{:03}".format(args.begin,args.end)
+    else:
+        filename = args.name
+
     log_filename = "{}_blocks.log".format(filename)
     if os.path.isfile(log_filename):
         input_key = input("Logfile '{}' already exists."

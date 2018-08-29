@@ -222,7 +222,6 @@ class TaskReader:
         return self.read_prices(prices_file)[0]
 
     def read_prices(self, prices_file):
-        print("reading prices from file {}".format(prices_file))
         msg = ""
         prices = {}
         lines = self.read_lines(prices_file)
@@ -1039,7 +1038,7 @@ def write_blocks(blocks, ncs_name, filename, deuterated):
         for patterns_num in patterns_numbers:
             for block in blocks[samples_num][patterns_num]:
                 output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
-                          + str(block)
+                          + str(block) + "\n"
     output+="\n"
     with open(filename, mode="w") as f:
         f.write(output)
