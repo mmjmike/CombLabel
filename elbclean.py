@@ -4,7 +4,6 @@ from classes.search_objects import ProductFinder
 from classes.ucsl_io import make_block_stats, add_to_file_name, write_blocks, read_blocks
 import argparse
 import os
-import logging
 
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000

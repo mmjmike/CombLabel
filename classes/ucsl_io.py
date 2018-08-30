@@ -1132,7 +1132,7 @@ def write_products(products, samples, filename, mode='w'):
     output = ""
     # if mode == 'w':
     #     output += write_ncs_stamp(products[0].ncs)
-    output += make_block_stats(products[0].blocks)
+    output += make_block_stats(products[0].blocks)["str"]
     output += "\n-----------------------\nProducts calculated for {} samples:\n".format(samples)
     for product in products:
         output += str(product) + ": {} scheme(s)\n".format(len(product))
