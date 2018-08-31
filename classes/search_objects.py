@@ -18,6 +18,8 @@ class Scheme:
         self.patterns = patterns
         self.samples = samples
         self.good = self.check_codes()
+        self.simplified = {}
+        self.simplify()
         self.new_codes = set()
         self.precursor_schemes = []
         self.precursor_block_types = []
@@ -69,6 +71,7 @@ class Scheme:
         if self.try_pattern(new_pattern):
             self.patterns.append(new_pattern)
             self.codes.update(self.new_codes)
+            self.simplify()
 
     def try_pattern(self, new_pattern):
         if not self.good:
@@ -99,16 +102,14 @@ class Scheme:
         for pattern in pattern_list:
             self.add_pattern(pattern)
 
-    @property
-    def simplified(self):
-        simplified = {}
+    def simplify(self):
+        self.simplified = {}
         for pattern in self.patterns:
             simple_pattern = Pattern.simplify_pattern(pattern)
-            if simplified != {} and simple_pattern in simplified:
-                simplified[simple_pattern] += 1
+            if self.simplified != {} and simple_pattern in self.simplified:
+                self.simplified[simple_pattern] += 1
             else:
-                simplified.update({simple_pattern: 1})
-        return simplified
+                self.simplified.update({simple_pattern: 1})
 
     def __eq__(self, scheme):
         return self.simplified == scheme.simplified
