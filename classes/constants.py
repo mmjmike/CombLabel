@@ -163,6 +163,8 @@ class ELB:
         self.patterns = patterns
         self.ncs_name = ncs_name
         self.deuterated = deuterated
+        self.simplified = {}
+        self.simplify()
 
     def __str__(self):
         return "\n".join(self.patterns)
@@ -188,21 +190,19 @@ class ELB:
     def __eq__(self, scheme):
         return self.simplified == scheme.simplified
 
-    @property
-    def simplified(self):
-        simplified = {}
+    def simplify(self):
+        self.simplified = {}
         for pattern in self.patterns:
             simple_pattern = Pattern.simplify_pattern(pattern)
-            if simplified != {} and simple_pattern in simplified:
-                simplified[simple_pattern] += 1
+            if self.simplified != {} and simple_pattern in self.simplified:
+                self.simplified[simple_pattern] += 1
             else:
-                simplified.update({simple_pattern: 1})
-        return simplified
+                self.simplified.update({simple_pattern: 1})
 
     def sort(self):
         for i in range(len(self.patterns)-1):
             for j in range(len(self.patterns)-1-i):
-                if pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
+                if Pattern.pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
                     temp_pattern = self.patterns[i]
                     self.patterns[i] = self.patterns[i+j+1]
                     self.patterns[i+j+1] = temp_pattern

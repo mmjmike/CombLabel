@@ -6,6 +6,9 @@ import logging
 from classes.search_objects import BlockFinder
 from classes.ucsl_io import find_ncs, write_ncs_stamp
 from classes.interactive import answer_yes
+import re
+import cProfile
+
 # from classes.interactive import ask_to_continue_input
 
 script_path = os.path.split(os.path.realpath(__file__))[0]
@@ -25,7 +28,7 @@ def run_blockfinder_once(parameters, logger, elb_logger):
 
     elb_logger.info(write_ncs_stamp(ncs))
     all_blocks = {}
-    block_finder = BlockFinder(samples, ncs, min_depth, logger, elb_logger, block_finder_mode=True)
+    block_finder = BlockFinder(samples, ncs, min_depth,  logger, elb_logger, block_finder_mode=True)
     block_finder.find()
     result = block_finder.result
     all_blocks.update({samples: result})
@@ -41,7 +44,7 @@ def find_blocks(parameters, logger, elb_logger):
     for i in range(max_block_size):
         # self.output("Search in {} samples:".format(i+1))
         # self.output("Time in find_blocks: {} seconds\n".format(str(time.time()-t0)))
-        block_finder = BlockFinder(i+1, ncs, min_depth, logger, elb_logger)
+        block_finder = BlockFinder(i + 1, ncs, min_depth,  logger, elb_logger)
         block_finder.find()
         result = block_finder.result
         all_blocks.update({i+1: result})
@@ -146,6 +149,7 @@ def make_loggers(args):
 
 
 def main():
+
     args = get_args()
     logger, elb_logger = make_loggers(args)
     parameters = get_params(args, logger)

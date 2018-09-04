@@ -171,6 +171,8 @@ class ELB:
         self.patterns = patterns
         self.ncs_name = ncs_name
         self.deuterated = deuterated
+        self.simplified = {}
+        self.simplify()
 
     def __str__(self):
         return "\n".join(self.patterns)
@@ -196,16 +198,14 @@ class ELB:
     def __eq__(self, scheme):
         return self.simplified == scheme.simplified
 
-    @property
-    def simplified(self):
-        simplified = {}
+    def simplify(self):
+        self.simplified = {}
         for pattern in self.patterns:
-            simple_pattern = simplify_pattern(pattern)
-            if simplified != {} and simple_pattern in simplified:
-                simplified[simple_pattern] += 1
+            simple_pattern = Pattern.simplify_pattern(pattern)
+            if self.simplified != {} and simple_pattern in self.simplified:
+                self.simplified[simple_pattern] += 1
             else:
-                simplified.update({simple_pattern: 1})
-        return simplified
+                self.simplified.update({simple_pattern: 1})
 
     def sort(self):
         for i in range(len(self.patterns)-1):
@@ -598,6 +598,11 @@ class BlockFinder:
         self.timer = time.time()
 
     def find(self):
+        self.start_blockfinder()
+        self.main_cycle()
+        self.blockfinder_finished()
+
+    def start_blockfinder(self):
         if self.min_depth == 1:
             self.min_depth = 2
         self.timer = time.time()
@@ -611,58 +616,84 @@ class BlockFinder:
         self.logger.debug("List of all patterns used in all blocks:")
         for p in self.patterns[0]:
            self.logger.debug(p)
-        
+
+    def main_cycle(self):
         while True:
-            self.iterator += 1
-
-            if self.iterator % LOG_ITERATION == 0:
-                out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator,
-                                                                 int(time.time() - self.timer))
-                out += "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
-                for d in range(self.depth):
-                    out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
-                self.logger.info(out)
-
+            self.next_iteration_output()
             patterns = self.patterns[self.depth]
             if self.depth == 0 and self.counter[0] + self.min_depth > len(patterns):
                 break
-            self.back_up_schemes.append(self.scheme.copy())
-            self.scheme.add_pattern(patterns[self.counter[self.depth]])
-            if len(self.scheme.patterns) >= self.min_depth:
-                self.save_result()
-            next_patterns = []
+
             start_point = 1 + self.counter[self.depth]
             patterns_left = len(patterns) - start_point
+            self.back_up_schemes.append(self.scheme.copy())
+            self.scheme.add_pattern(patterns[self.counter[self.depth]])
 
-            if patterns_left == 0 or patterns_left < self.min_depth - self.depth - 1:
-                self.depth -= 1
-                self.patterns.pop()
-                self.counter.pop()
-                self.counter[-1] += 1
-                self.back_up_schemes.pop()
-                self.scheme = self.back_up_schemes[-1].copy()
-                self.back_up_schemes.pop()
+            if patterns_left < self.min_depth - self.depth - 1:
+                self.go_back()
                 continue
 
-            for i in range(patterns_left):
-                if self.scheme.try_pattern(patterns[i + start_point]):
-                    next_patterns.append(patterns[i + start_point])
+            if patterns_left == 0:
+                if len(self.scheme.patterns) >= self.min_depth:
+                    self.save_result()
+                self.go_back()
+                continue
 
-            if next_patterns == []:
-                self.scheme = self.back_up_schemes[self.depth].copy()
-                self.back_up_schemes.pop()
-                self.counter[self.depth] += 1
+            next_patterns = self.get_next_patterns(patterns, patterns_left, start_point)
+
+            if not next_patterns:
+                if len(self.scheme.patterns) >= self.min_depth:
+                    self.save_result()
+                self.go_parallel()
             else:
-                self.patterns.append(next_patterns)
-                self.counter.append(0)
-                self.depth += 1
+                self.go_deeper(next_patterns)
 
-            if self.depth > self.max_depth:
-                self.max_depth = self.depth
-                if self.block_finder_mode:
-                    out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
-                    self.logger.info(out)
+            self.check_max_depth()
 
+    def next_iteration_output(self):
+        self.iterator += 1
+        if self.iterator % LOG_ITERATION == 0:
+            out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator,
+                                                             int(time.time() - self.timer))
+            out += "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
+            for d in range(self.depth):
+                out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
+            self.logger.info(out)
+
+    def check_max_depth(self):
+        if self.depth > self.max_depth:
+            self.max_depth = self.depth
+            if self.block_finder_mode:
+                out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
+                self.logger.info(out)
+
+    def get_next_patterns(self, patterns, patterns_left, start_point):
+        next_patterns = []
+        for i in range(patterns_left):
+            if self.scheme.try_pattern(patterns[i + start_point]):
+                next_patterns.append(patterns[i + start_point])
+        return next_patterns
+
+    def go_parallel(self):
+        self.scheme = self.back_up_schemes[self.depth].copy()
+        self.back_up_schemes.pop()
+        self.counter[self.depth] += 1
+
+    def go_back(self):
+        self.depth -= 1
+        self.patterns.pop()
+        self.counter.pop()
+        self.counter[-1] += 1
+        self.back_up_schemes.pop()
+        self.scheme = self.back_up_schemes[-1].copy()
+        self.back_up_schemes.pop()
+
+    def go_deeper(self, next_patterns):
+        self.patterns.append(next_patterns)
+        self.counter.append(0)
+        self.depth += 1
+
+    def blockfinder_finished(self):
         out = "[BlockFinder{}] finished search in {} samples after {:f} sec and {} iterations, {} ELB schemes found"
         out = out.format(self.samples, self.samples, time.time() - self.timer, self.iterator, self.results_found)
         self.logger.info(out)
