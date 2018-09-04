@@ -107,14 +107,19 @@ def get_params(args, logger):
         "silent": args.silent,
     }
 
-    if args.begin:
-        params["begin"] = args.begin
+    if args.begin or args.end:
+        if args.begin:
+           params["begin"] = args.begin
+        else:
+            params["begin"] = 0
+        if args.end:
+            params["end"] = args.end
+        else:
+            params["end"] = 0
     else:
         params["begin"] = -1
-    if args.end:
-        params["end"] = args.end
-    else:
         params["end"] = -1
+
 
     if args.name:
         params["name"] = args.name
