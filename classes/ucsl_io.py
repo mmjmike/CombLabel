@@ -1040,7 +1040,7 @@ def write_blocks(blocks, ncs_name, filename, deuterated):
             for block in blocks[samples_num][patterns_num]:
                 output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
                           + str(block)
-    output+="\n"
+                output += "\n"
     with open(filename, mode="w") as f:
         f.write(output)
 

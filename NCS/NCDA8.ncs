@@ -1,7 +1,7 @@
 [NCS = NCDA8]
 [Deuterated = False]
 [Labels = X,N,C,D,A]
-[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COHNCA]
+[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COfHNCA]
 
 
 ##################################################
