@@ -1144,7 +1144,7 @@ def write_products(products, samples, filename, mode='w'):
     return output
 
 
-def read_prices(prices_file):
+def read_prices(prices_file, logger):
     msg = ""
     deuterated_found = False
     prices = {}
@@ -1170,16 +1170,19 @@ def read_prices(prices_file):
           else:
               if len(s) != line_length:
                   msg = "Not equal length of lines in prices file '{}'".format(prices_file)
-                  return prices, msg
+                  logger.error(msg)
+                  return False
           d.append(s)
     price_label_types = d[0][1:]
     for l_type in price_label_types:
         if l_type.upper() not in Constants.TYPES_NAMES:
             msg = "Incorrect label type {} in prices file '{}'".format(l_type, prices_file)
-            return prices, msg
+            logger.error(msg)
+            return False
     if len(price_label_types) < 2:
         msg = "Too few labeling types specified in prices file '{}'".format(prices_file)
-        return prices, msg
+        logger.error(msg)
+        return False
 
     for i in range(len(d) - 1):
         curr_dict = {}
@@ -1190,14 +1193,18 @@ def read_prices(prices_file):
                 msg = "ERROR! Price must be set in digits"
                 msg += "\nPlease check price file '{}' (row {}; col {})".format(prices_file,
                                                                                 i + 2, j + 2)
-                return {}, msg
+                logger.error(msg)
+                return False
             curr_dict.update({price_label_types[j]: price})
         residue_type = d[i + 1][0]
         if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
             msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, prices_file)
-            return {}, msg
+            logger.error(msg)
+            return False
         if residue_type in Constants.RES_TYPES_THREE:
             residue_type1 = Constants.TO_ONE_LETTER_CODE[residue_type]
+            msg = "Renaming amino acid name {} to one-letter code {} for internal usage in price table".format(residue_type, residue_type1)
+            logger.debug(msg)
             residue_type = residue_type1
         prices.update({residue_type: curr_dict})
-    return prices, msg
+    return prices
