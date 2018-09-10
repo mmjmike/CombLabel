@@ -68,10 +68,9 @@ class Scheme:
         return True
 
     def add_pattern(self, new_pattern):
-        if self.try_pattern(new_pattern):
-            self.patterns.append(new_pattern)
-            self.codes.update(self.new_codes)
-            self.simplify()
+        self.patterns.append(new_pattern)
+        self.add_new_codes(new_pattern)
+        self.simplify()
 
     def try_pattern(self, new_pattern):
         if not self.good:
@@ -97,6 +96,12 @@ class Scheme:
         else:
             self.new_codes.add(self_code)
         return True
+
+    def add_new_codes(self, new_pattern):
+        for pattern in self.patterns:
+            self.codes.add(self.ncs.calc_code(pattern, new_pattern))
+            self.codes.add(self.ncs.calc_code(new_pattern, pattern))
+        self.codes.add(self.ncs.calc_code(new_pattern, new_pattern))
 
     def add_pattern_list(self, pattern_list):
         for pattern in pattern_list:
