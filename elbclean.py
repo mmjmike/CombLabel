@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 -u
 
 from classes.search_objects import ProductFinder
 from classes.ucsl_io import make_block_stats, add_to_file_name, write_blocks, read_blocks
