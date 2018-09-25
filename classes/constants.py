@@ -341,7 +341,8 @@ class Pattern:
               if Constants.TYPES[i] == label:
                   simple_form[i] += 1
                   continue
-      result = "".join([str(a) for a in simple_form])
+      letters = ["a", "b", "c", "d", "e", "f"]
+      result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
       return result
 
 
