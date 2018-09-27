@@ -305,7 +305,7 @@ class Constants:
 
     NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
 
-    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*(\\w+)\\s*\\]')
+    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*([A-Za-z0-9_-]+)\\s*\\]')
     deuterated_re = re.compile('\\[\\s*Deuterated\\s*=\\s*([A-Za-z]+)\\s*\\]')
     elb_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
 
