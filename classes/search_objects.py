@@ -568,7 +568,11 @@ class PriceOptimizer:
         price = 0
         for i in range(len(pattern)):
             label = pattern[i]
-            number = int(label)
+            try:
+                number = int(label)
+            except ValueError:
+                number = Pattern.letters.index(label) + 10
+
             label_type = Constants.TYPES[i]
             if aa == "P":
                 label_type = Constants.PROLINE_SUBSTITUTE[label_type]
