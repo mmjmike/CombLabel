@@ -568,7 +568,7 @@ class PriceOptimizer:
         price = 0
         for i in range(len(pattern)):
             label = pattern[i]
-            number = int(label)
+            number = Constants.CodeLettersDict[label]
             label_type = Constants.TYPES[i]
             if aa == "P":
                 label_type = Constants.PROLINE_SUBSTITUTE[label_type]

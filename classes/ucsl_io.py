@@ -1052,7 +1052,10 @@ def find_ncs(ncs_name, script_path):
         if ncs:
             msg = "NCS '{}' read from '{}'".format(ncs_name, path)
             return ncs, msg
-    msg = "Error! NCS file not found"
+        else:
+            msg = "Could not read NCS file {}".format(ncs_name)
+            return ncs, msg
+    msg = "Error! NCS file {} not found".format(ncs_name)
     return None, msg
 
 

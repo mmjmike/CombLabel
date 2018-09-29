@@ -218,6 +218,14 @@ class ELB:
 
 class Constants:
 
+    # Letters will be used for NMR codes >=10
+    CodeLetters =  ["a", "b", "c", "d", "e", "f"]
+    CodeLettersDict = {}
+    for code in range(10):
+        CodeLettersDict[str(code)] = code
+    for code, letter in zip(range(10, 10 + len(CodeLetters)), CodeLetters):
+        CodeLettersDict[letter] = code
+
     typeX = LabelType("X", "000")
     typeN = LabelType("N", "100")
     typeC = LabelType("C", "001")
@@ -341,8 +349,7 @@ class Pattern:
               if Constants.TYPES[i] == label:
                   simple_form[i] += 1
                   continue
-      letters = ["a", "b", "c", "d", "e", "f"]
-      result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
+      result = "".join([str(a) if a < 10 else Constants.CodeLetters[a-10] for a in simple_form])
       return result
 
 
