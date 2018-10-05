@@ -566,13 +566,13 @@ class PriceOptimizer:
 
     def calc_price(self, aa, pattern):
         price = 0
+        letters = list(map(chr, range(97, 123)))
         for i in range(len(pattern)):
             label = pattern[i]
             try:
                 number = int(label)
             except ValueError:
-                number = Pattern.letters.index(label) + 10
-
+                number = letters.index(label) + 10
             label_type = Constants.TYPES[i]
             if aa == "P":
                 label_type = Constants.PROLINE_SUBSTITUTE[label_type]
@@ -750,6 +750,4 @@ class BlockFinder:
     #     out += "FindBlocks: Evaluation time was {} seconds\n".format(time.time() - self.timer)
     #     out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
     #     self.logger.info(out)
-
-
 
