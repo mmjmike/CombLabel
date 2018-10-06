@@ -320,38 +320,33 @@ class Constants:
 
 class Pattern:
 
-  def __init__(self):
-      pass
+    def pattern_bigger(pattern1, pattern2):
+        for i in range(len(pattern1)):
+            type1 = pattern1[i]
+            type2 = pattern2[i]
+            if Constants.TYPES.index(type1) > Constants.TYPES.index(type2):
+                return True
+            if Constants.TYPES.index(type1) < Constants.TYPES.index(type2):
+                return False
+        return True
 
-  def pattern_bigger(pattern1, pattern2):
-      for i in range(len(pattern1)):
-          type1 = pattern1[i]
-          type2 = pattern2[i]
-          if Constants.TYPES.index(type1) > Constants.TYPES.index(type2):
-              return True
-          if Constants.TYPES.index(type1) < Constants.TYPES.index(type2):
-              return False
-      return True
+    def simplify_pattern(pattern):
+        simple_form = [0 for _ in range(len(Constants.TYPES))]
+        for label in pattern:
+           for i in range(len(Constants.TYPES)):
+               if Constants.TYPES[i] == label:
+                   simple_form[i] += 1
+                   continue
+        letters = list(map(chr, range(97, 123)))
+        result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
+        return result
 
-
-  def simplify_pattern(pattern):
-      simple_form = [0 for _ in range(len(Constants.TYPES))]
-      for label in pattern:
-          for i in range(len(Constants.TYPES)):
-              if Constants.TYPES[i] == label:
-                  simple_form[i] += 1
-                  continue
-      letters = ["a", "b", "c", "d", "e", "f"]
-      result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
-      return result
-
-
-  def first_scheme_subset(scheme_1, scheme_2):
-      for pattern in scheme_1:
-          if pattern not in scheme_2:
-              return False
-          if scheme_1[pattern] > scheme_2[pattern]:
-              return False
-      return True
+    def first_scheme_subset(scheme_1, scheme_2):
+        for pattern in scheme_1:
+            if pattern not in scheme_2:
+                return False
+            if scheme_1[pattern] > scheme_2[pattern]:
+                return False
+        return True
 
 
