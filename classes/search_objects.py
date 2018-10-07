@@ -241,6 +241,11 @@ class Product:
         self.ncs_name = some_block.ncs_name
         self.deuterated = some_block.deuterated
         self.last_blocks = []
+        self.product_samples = 0
+        self.product_patterns = 1
+        for i in range(len(self.product_list)):
+            self.product_samples += self.product_list[i][0]
+            self.product_patterns *= self.product_list[i][1]
 
     def __len__(self):
         length = 1
@@ -383,29 +388,31 @@ class SchemeOptimizer:
         best_scheme = None
         price_optimizer = PriceOptimizer(self.ncs, self.price_table, self.residues)
         for product in self.products:
-            output = "------------\nChecking schemes for product {}. Total {} schemes\n------------".format(str(product), len(product))
+            product_name = "{}x{}= {}".format(product.product_samples, product.product_patterns, str(product))
+            output = ("-"*70+"\nChecking product {}, total {} schemes\n"+"-"*70).format(
+                product_name, len(product))
             self.logger.info(output)
             for scheme in product:
                 curr_blocks = product.last_blocks
-                output = "Checking scheme {:>5}/{:<5} - ".format(schemes, self.schemes_total)
+                output = "Checking scheme {:>5}/{:<5} - {:22} - ".format(schemes, self.schemes_total, product_name)
                 status = ""
 
                 if not self.scheme_checked(scheme, checked_schemes):
                     price_optimizer.minimize_price(scheme, curr_blocks)
                     status = "price calculated"
                     if not price_optimizer.success:
-                        output += "Scheme can not be optimized"
+                        output += "STATUS: FAILED - Scheme can not be optimized"
                         status = "cannot be optimized"
                     elif not scheme_found or best_scheme.price > price_optimizer.best_scheme.price:
                         best_scheme = price_optimizer.best_scheme
                         scheme_found = True
-                        output += "New best price: {}".format(best_scheme.price)
+                        output += "STATUS: {:12.5f} - New best price".format(best_scheme.price)
                     else:
-                        output += "Price: {}".format(price_optimizer.best_scheme.price)
+                        output += "STATUS: {:12.5f}".format(price_optimizer.best_scheme.price)
                     checked_schemes.append(scheme.simplified)
                     checked_number += 1
                 else:
-                    output += "Equivalent scheme was already checked"
+                    output += "STATUS: SKIP - Equivalent scheme was already checked"
                     status = "equivalent"
                 self.update_stats(scheme.samples, str(product.product_list), status)
 
