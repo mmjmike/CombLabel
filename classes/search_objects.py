@@ -274,7 +274,7 @@ class Product:
         return self
 
     def __str__(self):
-        return str(self.product_list)
+         return ".".join("{}x{}".format(i, j) for i, j in self.product_list)
 
 
 class BestScheme:
@@ -387,7 +387,7 @@ class SchemeOptimizer:
             self.logger.info(output)
             for scheme in product:
                 curr_blocks = product.last_blocks
-                output = "Checking scheme {}/{} - ".format(schemes, self.schemes_total)
+                output = "Checking scheme {:>5}/{:<5} - ".format(schemes, self.schemes_total)
                 status = ""
 
                 if not self.scheme_checked(scheme, checked_schemes):
