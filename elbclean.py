@@ -4,6 +4,7 @@ from classes.search_objects import ProductFinder
 from classes.ucsl_io import make_block_stats, add_to_file_name, write_blocks, read_blocks
 import argparse
 import os
+import time
 
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
@@ -21,6 +22,7 @@ def clear_redundant_blocks(blocks):
             for block in blocks[samples_num][pattern_num]:
                 iter += 1
                 if iter % LOG_ITERATION == 0:
+                    print(time.asctime())
                     print("Blocks checked {}/{}".format(iter, total_blocks))
                 block_good = True
                 for good_block in good_blocks:
@@ -86,15 +88,22 @@ def clear_empty_block_types(blocks):
 
 
 def clear_blocks(blocks):
+    print(time.asctime())
     print(make_block_stats(blocks)["str"])
+    print(time.asctime())
     print("Clearing redundant blocks...\n")
     blocks = clear_redundant_blocks(blocks)
+    print(time.asctime())
     print("Redundant blocks cleared...\n")
     print(make_block_stats(blocks)["str"])
+    print(time.asctime())
     print("Clearing product blocks...\n")
     blocks = clear_product_blocks(blocks)
+    print(time.asctime())
     print("Product blocks cleared...\n")
     print(make_block_stats(blocks)["str"])
+    print(time.asctime())
+    print(time.asctime())
     return blocks
 
 

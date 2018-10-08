@@ -432,6 +432,7 @@ class SchemeOptimizer:
         self.stats[samples][product_type][status] += 1
 
     def run(self):
+        self.start_time = time.time()
         self.scheme_optimized = False
         max_samples = 1
         products_filename = "{}_products.txt".format(self.job_name)
@@ -454,6 +455,14 @@ class SchemeOptimizer:
         self.logger.debug(output)
         output = write_product_stats(self.stats, stats_filename)
         self.logger.debug(output)
+        
+        self.end_time = time.time()
+        self.run_time = self.end_time - self.start_time
+        output  = "="*55 + "\n"
+        output += "  All {} schemes were optimised in {:f} seconds\n".format(self.schemes_total, self.run_time)
+        output += "  Average optimisation rate was {:f} schemes/sec\n".format(self.schemes_total/self.run_time)
+        output += "="*55 + "\n"
+        self.logger.info(output)
 
     def obtain_scheme(self, product, schemes, block_list, depth=0):
         if depth >= len(product):

@@ -7,7 +7,7 @@ from classes.constants import Constants
 import argparse
 import os
 import logging
-
+import time
 
 DEFAULT_LOG_FILENAME = "UUCSL.log"
 
@@ -58,12 +58,13 @@ def read_parameters(args, logger):
         exit()
     prices = {}
     if os.path.isfile(args.price_file):
-        prices, msg = read_prices(args.price_file)
+        prices = read_prices(args.price_file, logger)
         if not prices:
-            logger.error(msg)
+            #logger.error(msg)
             exit()
     else:
         logger.error("Error! Price file '{}' not found".format(args.price_file))
+        exit(-1)
     max_block_samples = max(blocks.keys())
     jobname = args.jobname
     if args.aminoacids:
