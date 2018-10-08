@@ -21,7 +21,7 @@ def clear_redundant_blocks(blocks):
             for block in blocks[samples_num][pattern_num]:
                 iter += 1
                 if iter % LOG_ITERATION == 0:
-                    print("Blocks checked {}/{}".format(iter, total_blocks))
+                    print("Redundant blocks checked {}/{}".format(iter, total_blocks))
                 block_good = True
                 for good_block in good_blocks:
                     if block.is_subset_of(good_block.simplified):
@@ -50,7 +50,7 @@ def clear_product_blocks(blocks):
             for block in blocks[samples_num][patterns_num]:
                 iter += 1
                 if iter % LOG_ITERATION == 0:
-                    print("Blocks checked {}/{}".format(iter, total_blocks))
+                    print("Product blocks checked {}/{}".format(iter, total_blocks))
                 block_good = True
                 prod_finder = ProductFinder(blocks, samples_num, patterns_num, equal=True)
                 products = prod_finder.find_products()
