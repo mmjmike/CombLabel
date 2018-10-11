@@ -565,8 +565,6 @@ class PriceOptimizer:
         return new_pattern
 
 
-
-
 class BlockFinder:
 
     def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False):
