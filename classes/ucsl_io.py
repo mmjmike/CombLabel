@@ -813,13 +813,13 @@ def make_block_stats(blocks):
     return stats
 
 
-def read_blocks(block_file, logger=None):
+def read_blocks(block_file, logger=None, initial_blocks = {}):
     lines = read_lines(block_file)
     i = 0
     deuterated = False
     deuterated_found = False
     result = ''
-    blocks = {}
+    blocks = initial_blocks
     blocks_num = 0
     NCS_found = False
     ncs_name = ''

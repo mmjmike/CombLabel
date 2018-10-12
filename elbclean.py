@@ -8,6 +8,29 @@ import os
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
 
+def clear_unique_blocks(blocks):
+    iter = 0
+    total_blocks = make_block_stats(blocks)["total"]
+    for samples_num in blocks:
+        patterns_numbers = list(blocks[samples_num].keys())
+        patterns_numbers.sort(reverse=True)
+        for pattern_num in patterns_numbers:
+            new_block_list = []
+            for block_one in blocks[samples_num][pattern_num]:
+                iter += 1
+                if iter % LOG_ITERATION == 0:
+                    print("Unique blocks checked {}/{}".format(iter, total_blocks))
+                equal = False
+                for block_two in new_block_list:
+                    if block_one == block_two:
+                        equal = True
+                if not equal:
+                    new_block_list.append(block_one)
+            if not new_block_list:
+                blocks[samples_num].pop(pattern_num)
+            else:
+                blocks[samples_num][pattern_num] = new_block_list
+    return clear_empty_block_types(blocks)
 
 def clear_redundant_blocks(blocks):
     iter = 0
@@ -85,45 +108,65 @@ def clear_empty_block_types(blocks):
     return blocks
 
 
-def clear_blocks(blocks):
-    print(make_block_stats(blocks)["str"])
-    print("Clearing redundant blocks...\n")
-    blocks = clear_redundant_blocks(blocks)
-    print("Redundant blocks cleared...\n")
-    print(make_block_stats(blocks)["str"])
-    print("Clearing product blocks...\n")
-    blocks = clear_product_blocks(blocks)
-    print("Product blocks cleared...\n")
-    print(make_block_stats(blocks)["str"])
+def clear_blocks(blocks, flags):
+    (unique_flag, redundant_flag, product_flag) = flags
+    print(make_block_stats(blocks)["str"]+"\n")
+
+    if unique_flag:
+        print("Clearing unique blocks...")
+        blocks = clear_unique_blocks(blocks)
+        print("Unique blocks cleared...")
+        print(make_block_stats(blocks)["str"]+"\n")
+
+    if redundant_flag:
+        print("Clearing redundant blocks...")
+        blocks = clear_redundant_blocks(blocks)
+        print("Redundant blocks cleared...")
+        print(make_block_stats(blocks)["str"]+"\n")
+
+    if product_flag:
+        print("Clearing product blocks...")
+        blocks = clear_product_blocks(blocks)
+        print("Product blocks cleared...")
+        print(make_block_stats(blocks)["str"]+"\n")
     return blocks
 
 
 def read_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("elb_file", help='Specify ELB file', type=str)
-    parser.add_argument("output_file",
-                        help='Specify output file (optional)', default="",
-                        type=str, nargs="?")
+    parser.add_argument("elb_files", help='Specify ELB file(s)', type=str, nargs='+')
+    parser.add_argument("-o", dest="output_file", help='Specify output file (optional)', default="", type=str)
+    parser.add_argument("--unique", "-u", help='Clear unique blocks [Default]', action="store_true", default = True)
+    parser.add_argument("--unique-skip", "-U", dest="unique", help='Do not clear unique blocks', action="store_false")
+    parser.add_argument("--redundant", "-r", help='Clear redundant blocks [Default]', action="store_true", default = True)
+    parser.add_argument("--redundant-skip", "-R", dest="redundant", help='Do not clear redundant blocks', action="store_false")
+    parser.add_argument("--product", "-p", help='Clear product blocks [Default]', action="store_true", default = True)
+    parser.add_argument("--product-skip", "-P", dest="product", help='Do not clear product blocks', action="store_false")
     args = parser.parse_args()
-    if not os.path.isfile(args.elb_file):
-        print("Error! ELB file '{}' not found".format(args.elb_file))
-        exit()
-    print("ELB file: {}".format(args.elb_file))
+    for file in args.elb_files:
+        if not os.path.isfile(file):
+            print("Error! ELB file '{}' not found".format(file))
+            exit()
+        print("ELB file: {}".format(file))
     if args.output_file:
         print("Output file: {}".format(args.output_file))
         output_file = args.output_file
     else:
-        output_file = add_to_file_name(args.elb_file, "_clean")
-    return args.elb_file, output_file
+        output_file = add_to_file_name(args.elb_files[0] + "_" + args.elb_files[-1], "_clean")
+    print("Unique: {}\nRedundant: {}\nProduct: {}".format(args.unique, args.redundant, args.product))
+    return args.elb_files, output_file, (args.unique, args.redundant, args.product)
 
 
 def main():
-    elb_file, output_file = read_args()
-    result, blocks, ncs_name, deuterated = read_blocks(elb_file)
+    elb_files, output_file, flags = read_args()
+    blocks = {}
+    for file in elb_files:
+        result, blocks, ncs_name, deuterated = read_blocks(file, initial_blocks = blocks)
+        print("{} read".format(file))
     if result:
         print(result)
         return
-    new_blocks = clear_blocks(blocks)
+    new_blocks = clear_blocks(blocks, flags)
     write_blocks(new_blocks, ncs_name, output_file, deuterated)
     print("Blocks written to '{}' successfully".format(output_file))
 
