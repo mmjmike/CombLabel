@@ -109,13 +109,13 @@ def clear_empty_block_types(blocks):
 
 
 def clear_blocks(blocks, flags):
-    (unique_flag, redundant_flag, product_flag) = flags
+    (identical_flag, redundant_flag, product_flag) = flags
     print(make_block_stats(blocks)["str"]+"\n")
 
-    if unique_flag:
-        print("Clearing unique blocks...")
+    if identical_flag:
+        print("Clearing identical blocks...")
         blocks = clear_unique_blocks(blocks)
-        print("Unique blocks cleared...")
+        print("Identical blocks cleared...")
         print(make_block_stats(blocks)["str"]+"\n")
 
     if redundant_flag:
@@ -136,13 +136,16 @@ def read_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("elb_files", help='Specify ELB file(s)', type=str, nargs='+')
     parser.add_argument("-o", dest="output_file", help='Specify output file (optional)', default="", type=str)
-    parser.add_argument("--unique", "-u", help='Clear unique blocks [Default]', action="store_true", default = True)
-    parser.add_argument("--unique-skip", "-U", dest="unique", help='Do not clear unique blocks', action="store_false")
-    parser.add_argument("--redundant", "-r", help='Clear redundant blocks [Default]', action="store_true", default = True)
-    parser.add_argument("--redundant-skip", "-R", dest="redundant", help='Do not clear redundant blocks', action="store_false")
-    parser.add_argument("--product", "-p", help='Clear product blocks [Default]', action="store_true", default = True)
-    parser.add_argument("--product-skip", "-P", dest="product", help='Do not clear product blocks', action="store_false")
+    parser.add_argument("--identical", "-I", help='Clear identical blocks [Default]', action="store_true", default = True)
+    parser.add_argument("--identical-skip", "-i", dest="identical", help='Do NOT clear identical blocks', action="store_false")
+    parser.add_argument("--redundant", "-R", help='Clear redundant blocks [Default]', action="store_true", default = True)
+    parser.add_argument("--redundant-skip", "-r", dest="redundant", help='Do NOT clear redundant blocks', action="store_false")
+    parser.add_argument("--product", "-P", help='Clear product blocks [Default]', action="store_true", default = True)
+    parser.add_argument("--product-skip", "-p", dest="product", help='Do NOT clear product blocks', action="store_false")
     args = parser.parse_args()
+    print("Clear IDENTICAL blocks: {}".format(args.identical))
+    print("Clear REDUNDANT blocks: {}".format(args.redundant))
+    print("Clear PRODUCT blocks:   {}".format(args.product))
     for file in args.elb_files:
         if not os.path.isfile(file):
             print("Error! ELB file '{}' not found".format(file))
@@ -153,7 +156,6 @@ def read_args():
         output_file = args.output_file
     else:
         output_file = add_to_file_name(args.elb_files[0] + "_" + args.elb_files[-1], "_clean")
-    print("Unique: {}\nRedundant: {}\nProduct: {}".format(args.unique, args.redundant, args.product))
     return args.elb_files, output_file, (args.unique, args.redundant, args.product)
 
 
