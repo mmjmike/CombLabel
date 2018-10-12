@@ -19,7 +19,7 @@ def clear_unique_blocks(blocks):
             for block_one in blocks[samples_num][pattern_num]:
                 iter += 1
                 if iter % LOG_ITERATION == 0:
-                    print("Unique blocks checked {}/{}".format(iter, total_blocks))
+                    print("Identical blocks checked {}/{}".format(iter, total_blocks))
                 equal = False
                 for block_two in new_block_list:
                     if block_one == block_two:
@@ -156,7 +156,7 @@ def read_args():
         output_file = args.output_file
     else:
         output_file = add_to_file_name(args.elb_files[0] + "_" + args.elb_files[-1], "_clean")
-    return args.elb_files, output_file, (args.unique, args.redundant, args.product)
+    return args.elb_files, output_file, (args.identical, args.redundant, args.product)
 
 
 def main():
