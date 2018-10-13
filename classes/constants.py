@@ -189,7 +189,7 @@ class ELB:
             else:
                 self.simplified.update({simple_pattern: 1})
         out = []
-        for simple_pattern in self.simplified:
+        for simple_pattern in sorted(self.simplified.keys()):
             out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
         self.simplified_str = ",".join(out)
 
