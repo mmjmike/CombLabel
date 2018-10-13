@@ -156,8 +156,75 @@ class NCS:
 
         return output
 
-
 class ELB:
+
+    def __init__(self, patterns, ncs_name, deuterated=False):
+        self.patterns = patterns
+        self.ncs_name = ncs_name
+        self.deuterated = deuterated
+        self.simplified = {}
+        self.simplified_str = ""
+        self.simplify()
+
+    def __str__(self):
+        return "\n".join(self.patterns)
+
+    @property
+    def samples(self):
+        if self.patterns:
+            return len(self.patterns[0])
+        else:
+            return 0
+
+    def full_str(self):
+        return "[ELB samples = {} patterns = {}]\n".format(self.samples, len(self.patterns)) \
+                 + str(self)
+
+    def simplify(self):
+        self.simplified = {}
+        for pattern in self.patterns:
+            simple_pattern = Pattern.simplify_pattern(pattern)
+            if self.simplified != {} and simple_pattern in self.simplified:
+                self.simplified[simple_pattern] += 1
+            else:
+                self.simplified.update({simple_pattern: 1})
+        out = []
+        for simple_pattern in self.simplified:
+            out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
+        self.simplified_str = ",".join(out)
+
+    def __mul__(self, other):
+        new_patterns = []
+        for pattern_1 in self.patterns:
+            for pattern_2 in other.patterns:
+                new_patterns.append(pattern_1 + pattern_2)
+        return ELB(new_patterns, self.ncs_name, self.deuterated)
+
+    def __eq__(self, scheme):
+        return self.simplified == scheme.simplified
+
+    def __hash__(self):
+        return(hash(self.simplified_str))
+
+    def sort(self):
+        for i in range(len(self.patterns)-1):
+            for j in range(len(self.patterns)-1-i):
+                if Pattern.pattern_bigger(self.patterns[i], self.patterns[i+j+1]):
+                    temp_pattern = self.patterns[i]
+                    self.patterns[i] = self.patterns[i+j+1]
+                    self.patterns[i+j+1] = temp_pattern
+
+    def is_subset_of(self, other_simple):
+        for pattern in self.simplified:
+            if pattern not in other_simple:
+                return False
+            if self.simplified[pattern] > other_simple[pattern]:
+                return False
+        return True
+
+
+
+class ELB_to_be_removed:
 
     def __init__(self, patterns, ncs_name, deuterated=False):
         self.patterns = patterns

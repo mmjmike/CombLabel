@@ -8,28 +8,23 @@ import os
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
 
-def clear_unique_blocks(blocks):
+def clear_identical_blocks(blocks):
     iter = 0
     total_blocks = make_block_stats(blocks)["total"]
     for samples_num in blocks:
         patterns_numbers = list(blocks[samples_num].keys())
         patterns_numbers.sort(reverse=True)
         for pattern_num in patterns_numbers:
-            new_block_list = []
+            new_block_dict = {}
             for block_one in blocks[samples_num][pattern_num]:
                 iter += 1
                 if iter % LOG_ITERATION == 0:
                     print("Identical blocks checked {}/{}".format(iter, total_blocks))
-                equal = False
-                for block_two in new_block_list:
-                    if block_one == block_two:
-                        equal = True
-                if not equal:
-                    new_block_list.append(block_one)
-            if not new_block_list:
+                new_block_dict[block_one] = block_one
+            if not new_block_dict:
                 blocks[samples_num].pop(pattern_num)
             else:
-                blocks[samples_num][pattern_num] = new_block_list
+                blocks[samples_num][pattern_num] = list(new_block_dict.values())
     return clear_empty_block_types(blocks)
 
 def clear_redundant_blocks(blocks):
@@ -114,7 +109,7 @@ def clear_blocks(blocks, flags):
 
     if identical_flag:
         print("Clearing identical blocks...")
-        blocks = clear_unique_blocks(blocks)
+        blocks = clear_identical_blocks(blocks)
         print("Identical blocks cleared...")
         print(make_block_stats(blocks)["str"]+"\n")
 
