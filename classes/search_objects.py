@@ -109,7 +109,8 @@ class Scheme:
             self.add_pattern(pattern)
 
     def simplify(self):
-        self.simplified, self.simplified_str = Pattern.simplify_list_of_patterns(self.patterns)
+        self.simplified, self.simplified_str = \
+            Pattern.simplify_list_of_patterns(self.patterns)
 
     def __hash__(self):
         return(hash(self.simplified_str))
@@ -594,21 +595,19 @@ class BlockFinder:
                 self.go_back()
                 continue
 
-            if self.check_t_free:
-                if not self.check_have_enought_t_free(self.scheme, patterns_left):
-                    self.go_back()
-                    continue
-
             if patterns_left == 0:
                 if len(self.scheme.patterns) >= self.min_depth:
                     self.save_result()
                 self.go_back()
                 continue
 
+            flag_t_free = True
+            if self.check_t_free:
+                flag_t_free =  self.check_have_enought_t_free(self.scheme, patterns[start_point:-1])
             next_patterns = self.get_next_patterns(patterns, patterns_left, start_point)
 
-            if not next_patterns:
-                if len(self.scheme.patterns) >= self.min_depth:
+            if not next_patterns or not flag_t_free:
+                if len(self.scheme.patterns) >= self.min_depth and flag_t_free:
                     self.save_result()
                 self.go_parallel()
             else:

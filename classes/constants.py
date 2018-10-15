@@ -181,7 +181,8 @@ class ELB:
                  + str(self)
 
     def simplify(self):
-        self.simplified, self.simplified_str = Pattern.simplify_list_of_patterns(self.patterns)
+        self.simplified, self.simplified_str = \
+            Pattern.simplify_list_of_patterns(self.patterns)
 
     def __mul__(self, other):
         new_patterns = []
@@ -370,14 +371,9 @@ class Constants:
     spectra_re = re.compile('\\[\\s*Spectra\\s*=\\s*([A-Za-z0-9 ,]+)\\s*\\]')
 
 
+class PatternClass:
 
-    def __init__(self):
-        pass
-
-
-class Pattern:
-
-    def pattern_bigger(pattern1, pattern2):
+    def pattern_bigger(self, pattern1, pattern2):
         for i in range(len(pattern1)):
             type1 = pattern1[i]
             type2 = pattern2[i]
@@ -387,7 +383,7 @@ class Pattern:
                 return False
         return True
 
-    def simplify_pattern(pattern):
+    def simplify_pattern(self, pattern):
         simple_form = [0 for _ in range(len(Constants.TYPES))]
         for label in pattern:
            for i in range(len(Constants.TYPES)):
@@ -398,10 +394,10 @@ class Pattern:
         result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
         return result
 
-    def simplify_list_of_patterns(list_of_patterns):
+    def simplify_list_of_patterns(self, list_of_patterns):
         simplified = {}
         for pattern in list_of_patterns:
-            simple_pattern = Pattern.simplify_pattern(pattern)
+            simple_pattern = self.simplify_pattern(pattern)
             if simplified != {} and simple_pattern in simplified:
                 simplified[simple_pattern] += 1
             else:
@@ -412,7 +408,7 @@ class Pattern:
         simplified_str = ",".join(out)
         return simplified, simplified_str
 
-    def first_scheme_subset(scheme_1, scheme_2):
+    def first_scheme_subset(self, scheme_1, scheme_2):
         for pattern in scheme_1:
             if pattern not in scheme_2:
                 return False
@@ -420,21 +416,21 @@ class Pattern:
                 return False
         return True
 
-    def count_type_in_list_of_patterns(patterns, type):
+    def count_type_in_list_of_patterns(self, patterns, label_type):
         simplified, simplified_str = self.simplify_list_of_patterns(patterns)
-        index_of_t = self.index_of_type(type)
+        index_of_t = self.index_of_type(label_type)
         return self.count_type_in_list_of_simplified(simplified, index_of_t)
 
-    def index_of_type(type):
+    def index_of_type(self, label_type):
         index_of_t = -1
         try:
-            index_of_t = Constants.BASIC_TYPES.index(type)
+            index_of_t = Constants.BASIC_TYPES.index(label_type)
         except:
-            print("Internal error: labeling type \"{}\" is not found in Constants.BASIC_TYPES. Exiting.".fromat(type.name))
+            print("Internal error: labeling type \"{}\" is not found in Constants.BASIC_TYPES. Exiting.".fromat(label_type.name))
             exit(-1)
         return index_of_t
 
-    def count_type_in_list_of_simplified(simplified, index_of_type):
+    def count_type_in_list_of_simplified(self, simplified, index_of_type):
         count_type = 0
         count_all  = 0
         for simple_pattern, pattern_count in simplified.items():
@@ -442,3 +438,8 @@ class Pattern:
             count_all  += pattern_count
         return count_type, count_all - count_type
 
+    def __init__(self):
+        pass
+
+
+Pattern = PatternClass()
