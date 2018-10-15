@@ -1,7 +1,7 @@
 [NCS = TSF12]
 [Deuterated = False]
 [Labels = X,N,C,D,A,F,S,T]
-[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COHNCA,HNCACO]
+[Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COfHNCA,HNCACO]
 
 
 ##################################################

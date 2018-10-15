@@ -1,0 +1,20196 @@
+[NCS = 2H-ND2]
+[Deuterated = True]
+[ELB samples = 2 patterns = 2]
+XN
+ND
+[ELB samples = 2 patterns = 2]
+XN
+DD
+[ELB samples = 2 patterns = 2]
+XD
+NN
+[ELB samples = 2 patterns = 2]
+XD
+DX
+[ELB samples = 2 patterns = 2]
+XD
+DN
+[ELB samples = 3 patterns = 3]
+XNN
+NXD
+DDN
+[ELB samples = 3 patterns = 3]
+XNN
+NXD
+DDD
+[ELB samples = 3 patterns = 3]
+XND
+NDX
+DNN
+[ELB samples = 3 patterns = 3]
+XND
+NDD
+DNX
+[ELB samples = 3 patterns = 3]
+XND
+NDD
+DDX
+[ELB samples = 3 patterns = 3]
+XND
+DNN
+DDX
+[ELB samples = 3 patterns = 3]
+XDD
+NND
+DDX
+[ELB samples = 3 patterns = 4]
+XNN
+NDD
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XND
+NDX
+DXN
+DDD
+[ELB samples = 3 patterns = 4]
+XDD
+NNN
+DXD
+DDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+NDDX
+DNND
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+NDDX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNNN
+NXDD
+NDXD
+DNND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNNN
+NDDD
+DXND
+DNDX
+DDXN
+[ELB samples = 4 patterns = 5]
+XNNN
+NDDD
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+NDDD
+DNNX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+NDDD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+DNNX
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDXN
+DNNN
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDNN
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NXDN
+NDDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NNDX
+NDDD
+DXDD
+DDXN
+[ELB samples = 4 patterns = 5]
+XNND
+NNDN
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNND
+NDDX
+DXDN
+DDXN
+DDDD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDX
+DXDD
+DNNN
+DDXD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDN
+DXDD
+DNNX
+DDXD
+[ELB samples = 4 patterns = 5]
+XNND
+NDDD
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NDXD
+NDDX
+DXND
+[ELB samples = 4 patterns = 5]
+XNDD
+NNNN
+NDXD
+DXND
+DDDX
+[ELB samples = 4 patterns = 5]
+XNDD
+NDXD
+NDDX
+DXND
+DNDN
+[ELB samples = 4 patterns = 5]
+XNDD
+NDXD
+NDDX
+DXND
+DDDD
+[ELB samples = 4 patterns = 5]
+XDDD
+NNNN
+DXDD
+DDXD
+DDDX
+[ELB samples = 4 patterns = 5]
+XDDD
+NNND
+DXDD
+DDXD
+DDDX
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NXDDD
+NDXDD
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NXDDD
+NDXDD
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NXDDD
+NDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NXDDD
+NDDNN
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NXDDD
+NDDND
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NXDDD
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NDDNN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+NDDND
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDN
+DXDDD
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNNDD
+NXDDN
+NDXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NDXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+DDXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNDDD
+NXXDN
+DDXDD
+DDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XNDDD
+NXXDN
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXNDN
+NNXDD
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXNDN
+NNXDD
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXNDN
+NNDDD
+NDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXNDN
+NNDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXNDN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXNDN
+DNDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXDDD
+NNNDN
+NDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NXDDD
+NNNDN
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDNN
+NNNDN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDND
+NXNDN
+NNXDD
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDND
+NXNDN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDND
+NXDDD
+NNNDN
+NDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDND
+NXDDD
+NNNDN
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDND
+NNNDN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDDD
+NXNDN
+NNXDD
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDDD
+NXNDN
+DXXDD
+DDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXND
+XDDDD
+NXNDN
+DXXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XNNND
+NXDDN
+NDXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDNN
+NXNND
+NNXDN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDNN
+NXNND
+NNXDN
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDNN
+NXNND
+NNXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDNN
+NXDND
+NNNDN
+NDXND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDND
+NXNND
+NNXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDND
+NXNND
+NNXDN
+NDDDN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDND
+NXNND
+NNXDN
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDND
+NXNND
+NNXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDND
+NXNDN
+DXXND
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDDD
+NXNND
+NNXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDDD
+NXNND
+NNXDN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNXDD
+XDDDD
+NXNND
+NNXDN
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+DXDDD
+DDDDN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+NXDDD
+NNXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+NXDDD
+NNXDN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+NXDDD
+NNXDN
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+NNXDN
+NDDNN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+NNXDN
+NDDND
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+XDXDD
+NNXDN
+DXDDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+NXDDN
+NDXDN
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+NNXDN
+NNDDD
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+NNXDN
+NDDDD
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNNND
+DXDDD
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNDDD
+NNXND
+NNNDN
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNNN
+XNDDD
+NNXND
+NNNDN
+DXXDD
+DXDND
+[ELB samples = 5 patterns = 6]
+XXNNN
+XDXDD
+XDDNN
+NNXND
+NNNDN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XDXDD
+XDDND
+NNXND
+NNNDN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNNN
+XDNDD
+NNDNN
+DXDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NXDDD
+NDXDD
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NXDDD
+NDXDD
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NXDDD
+NDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NXDDD
+NDDNN
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NXDDD
+NDDND
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NXDDD
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NDDNN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+NDDND
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNNN
+DXDDD
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNDD
+NXDNN
+NDXNN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNDD
+NXDNN
+NDXNN
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNNDD
+NXDNN
+NDXNN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+NDDDX
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+NNXDD
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+NNXDD
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+NNXDD
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+NNDDD
+NDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+NNDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+NDXDD
+DNDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXNNN
+DNDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXDDD
+NNNNN
+NDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NXDDD
+NNNNN
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDNN
+NNNNN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NXNNN
+NNXDD
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NXNNN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NXNDD
+NNDNN
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NXDNN
+NNNDD
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NXDDD
+NNNNN
+NDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NXDDD
+NNNNN
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDND
+NNNNN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDDD
+NXNNN
+NNXDD
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDDD
+NXNNN
+DXXDD
+DDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDDD
+NXNNN
+DXXDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDDD
+NXNDD
+NNDNN
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDN
+XDDDD
+NXDNN
+NNNDD
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XNNNN
+NXDDN
+NDXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XNNDN
+NXDNN
+NDXNN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XNNDN
+NXDNN
+NDXNN
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XNNDN
+NXDNN
+NDXNN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XNDNN
+XDDDX
+NDXNN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XNDNN
+XDDDX
+NDXNN
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDNN
+NXNNN
+NNXDN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDNN
+NXNNN
+NNXDN
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDNN
+NXNNN
+NNXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDNN
+NXDDN
+NNNNN
+NDXDN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDND
+XDDDX
+NXDNN
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDND
+XDDDX
+NXDNN
+NDNNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDND
+NXNNN
+NNXDN
+NDDDN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDND
+NXNNN
+NNXDN
+NDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDND
+NXNNN
+NNXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDND
+NXNDN
+NNDNN
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDDN
+NXNNN
+DXXDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDDD
+NXNNN
+NNXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDDD
+NXNNN
+NNXDN
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNXDD
+XDDDD
+NXNDN
+NNDNN
+NDXNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+DXDDD
+DDDDN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+NXDDD
+NNXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+NXDDD
+NNXDN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+NXDDD
+NNXDN
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+NNXDN
+NDDNN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+NNXDN
+NDDND
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+XDXDD
+NNXDN
+DXDDD
+DDDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+NXDDN
+NDXDN
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+NNXDN
+NNDDD
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+NNXDN
+NDDDD
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNNN
+DXDDD
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDN
+XDDXD
+NXDDN
+NDNXN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDN
+XDDXD
+NXDDN
+NDNNN
+NDDXN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDN
+NXDND
+NNDDX
+NDNXN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDN
+NXDND
+NNDDX
+NDNNN
+NDDXN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDN
+NXDND
+NNDDX
+NDDXN
+DDNNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDD
+NXDDN
+NNDNN
+NDXDN
+DDNNX
+[ELB samples = 5 patterns = 6]
+XXNND
+XNNDD
+NXDDN
+NDXDN
+NDDNX
+DDNNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNDDX
+XDNNN
+DXXDN
+DXDXN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNDDX
+NDXNX
+DXXDN
+DXDXN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XNDDD
+NNXNN
+NNNDN
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNDDD
+NNXNN
+NNNDN
+DXXDD
+DXDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XNDDD
+NNXDN
+NNNNN
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXNND
+XNDDD
+NNXDN
+NNNNN
+DXXDD
+DXDND
+[ELB samples = 5 patterns = 6]
+XXNND
+XDXDD
+XDDNN
+NNXNN
+NNNDN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XDXDD
+XDDNN
+NNXDN
+NNNNN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XDXDD
+XDDND
+NNXNN
+NNNDN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XDXDD
+XDDND
+NNXDN
+NNNNN
+DXDDD
+[ELB samples = 5 patterns = 6]
+XXNND
+XDDDN
+NNNNN
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNNN
+XNDXD
+NXDNN
+NDNXD
+NDNDN
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNNN
+NXDXD
+NNDNN
+DXNDN
+DNNXD
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNNN
+NXDNN
+NDNXD
+NDNDX
+DDDDD
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNND
+XDDDX
+NXDNN
+NDNNX
+NDNDN
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNND
+XDDDX
+NXDNN
+NDNNN
+NDNDX
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNND
+NXDNN
+NNDDX
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNND
+NXDNN
+NNDDX
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNND
+NXDNN
+NNDDX
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNNND
+NXDDN
+NNDNN
+NDXDN
+DDNNX
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DDDXX
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNDXD
+XDXND
+NDDDD
+DXNDX
+DDDXX
+[ELB samples = 5 patterns = 6]
+XXNDD
+XNDXD
+XDNDN
+NXDNN
+NNNNN
+NDNXD
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+DDDDN
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+XDXDD
+NXNND
+NNXDN
+NDDNN
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+XDXDD
+NXNND
+NNXDN
+NDDND
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+XDXDD
+NXNND
+NNXDN
+DDDND
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+NXNND
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+NNXND
+NNNDN
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNNN
+NNXND
+NNNDN
+DXXDD
+DXDND
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNND
+NNXDN
+NNNNN
+DXXDD
+DXDNN
+[ELB samples = 5 patterns = 6]
+XXDDD
+XNNND
+NNXDN
+NNNNN
+DXXDD
+DXDND
+[ELB samples = 5 patterns = 6]
+XNNNN
+NXNDD
+NDDXD
+DNDDD
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NXNDD
+NDDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NXDDD
+NDXDD
+DNNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NXDDD
+NDNND
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NNNDD
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NNDDD
+DXNND
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NDDDD
+DXNDD
+DNDXD
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNNN
+NDDDD
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NNDDD
+NDXNN
+DNNNX
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NDXNN
+NDDDX
+DNNNN
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NDXNN
+NDDDX
+DDDDD
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NDXNN
+NDDDD
+DNNNX
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NDXNN
+DNNNX
+DDDDD
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NDXNN
+DNNNN
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDXN
+NDXDD
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NNDDD
+NDDXN
+DNDNX
+DDXNN
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NDXDD
+NDDXN
+DNDNX
+DDNNN
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NDDXN
+NDDDD
+DNDNX
+DDXNN
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NDDXN
+DNDNX
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 6]
+XNNND
+NXNDN
+NDDXN
+DNDNX
+DDXDD
+DDNNN
+[ELB samples = 5 patterns = 6]
+XNNND
+NXDDN
+NDXDN
+NDDXN
+DNNNN
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNND
+NXDDN
+NDXDN
+NDDNX
+DNNNN
+DNDXD
+[ELB samples = 5 patterns = 6]
+XNNND
+NDDDD
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNDD
+NNNNN
+NDDXD
+DXDDD
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNDD
+NNNNN
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNNDD
+NDDDD
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 6]
+XNDDD
+NNNNN
+NDXDD
+DXNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XNDDN
+NDXDN
+NDDXN
+DXNDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XNDDN
+NDXDN
+NDDXD
+DXNDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XNDDN
+NDDXD
+DXNDD
+DDXDN
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XDDNN
+DXDDD
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XDDDN
+DXDDD
+DNNDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XDDDN
+DXDDD
+DDXDD
+DDDXN
+DDDND
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNXND
+XDDDN
+DXDDD
+DDXDD
+DDDXD
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNND
+XDXDN
+NXDDN
+NDDXN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNND
+XDXDN
+NXDDN
+NDDXD
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNND
+XDXDN
+NDDXD
+DXDDN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNND
+XDXDD
+DXDDD
+DNXDN
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDX
+NDXND
+NDNDN
+NDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDX
+NDXND
+NDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDX
+NDXND
+NDDXN
+DDNDN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDX
+NDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDX
+NDNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNNDD
+NXDND
+NNDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNDDD
+XDXND
+DXDND
+DNDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNDDD
+NDXND
+DXNDN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XNDDD
+NDNND
+DXNDN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNND
+NNDDD
+DXNDN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNND
+NDXDN
+DXDDD
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNND
+NDNDN
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNND
+NDDDD
+DXNDD
+DNDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNDD
+NDDXD
+DXDDN
+DDXND
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNDD
+NDDXD
+DXDDD
+DNXDN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNNN
+XDNDD
+NDDXD
+DXDDD
+DNNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNDD
+DXDXN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXDXN
+DNNDD
+DDXXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDN
+XDDND
+DXDDD
+DDXDD
+DDDNX
+DDDDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDN
+XDDND
+DXDDD
+DDXDD
+DDDNN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+DDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NNDDN
+NDXNN
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NDNNN
+DXDDN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+DDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NNDDN
+NDXNN
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NDNNN
+DXDDN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+NXDDX
+DDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNX
+NXDDX
+DDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXNN
+NDNDX
+NDDND
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXNN
+NDNDX
+NDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXNN
+NDNDX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXNN
+NDDND
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXDN
+NDDND
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXDN
+NDDDD
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NXDDN
+NDXDN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDNN
+NDXNN
+NDDND
+DXDDN
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NNDNN
+NDXDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NDXDN
+DXDNN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+DXDNX
+DDXNN
+DDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+DXDNX
+DDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDND
+DXDNN
+DDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NNDNN
+NDXDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NDXDN
+DXDNN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDN
+NDXDN
+NDDND
+DXDNN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDN
+NDXDN
+NDDDD
+DXDNN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XNDDN
+NDXDN
+DXDNN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NNDDX
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NNDDX
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NNDDX
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NNDDX
+NDNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NNDDN
+NDXNN
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NDXNN
+DNNDN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NDNNN
+DNXDN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDNN
+NDNNN
+DNDDX
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDDN
+NNDNN
+NDXDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDND
+NXDDN
+NDXDN
+DNDNX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NNDDX
+NDXNN
+NDNDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NNDDX
+NDXDN
+NDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NNDDX
+NDXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NDXNN
+NDDND
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NDXNN
+DNNDN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NDNNN
+DNXDN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+NDNNN
+DNDDX
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDDN
+NNDNN
+NDXDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNXDD
+XDDDD
+NXDDN
+NDXDN
+DNDNX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNNN
+XDXDN
+NXDDN
+NDDXN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNNN
+XDXDN
+NXDDN
+NDDXD
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNNN
+XDXDN
+NDDXD
+DXDDN
+DNXDD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNNN
+XDXDD
+DXDDD
+DNXDN
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDNXN
+NDNDD
+NDDNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDNXN
+NDNDD
+DDDNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDNXN
+NDDNX
+NDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDNXN
+NDDNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDNDD
+NDDXN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDNDD
+DDNXN
+DDDNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDDXN
+NDDDD
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NXDDN
+NDDXN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NDNXN
+NDDNN
+DXDDD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XNDND
+NDNNN
+NDDXN
+DXDDD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NXDND
+NNDDX
+NDDNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NXDND
+NNDDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NXDND
+NNDDX
+NDDNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NXDND
+NNDDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NNDDX
+NDNXN
+NDDNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NNDDX
+NDNNN
+NDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NNDDX
+NDNNN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NNDDX
+NDDXN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NNDDX
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NNDDN
+NDNXN
+DDDNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NDNXN
+NDDNN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NDNNN
+NDDXN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDNDD
+NXDND
+NDDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDDDD
+NXDND
+NNDDX
+NDNXN
+NDDNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDDDD
+NXDND
+NNDDX
+NDNNN
+NDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDX
+XDDDD
+NXDND
+NNDDX
+NDDXN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDN
+XDDXN
+DXDDN
+DNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDN
+XDDXN
+DXDDD
+DNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDN
+NXDNN
+NDXNN
+NDDXD
+NDDDX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNNDN
+NXDNN
+NDXDD
+NDDXD
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDX
+XDXDN
+XDDND
+DXDXN
+DNNDD
+DDXXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDX
+XDNDD
+NDXNX
+DXXDN
+DXDNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDX
+XDNDD
+NDXNX
+DXXDN
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDX
+NDXNX
+NDNDD
+DXXDN
+DXDNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+XDXDD
+NXDDD
+NDXDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+XDXDD
+NNDDD
+NDXDN
+DXDNN
+DDNXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+XDXDD
+NDXDN
+DXDNN
+DNDDD
+DDNXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+XDXDD
+NDXDN
+DXDNN
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+XDXDD
+DXDDD
+DNDNX
+DDXNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+XDNNX
+NDXDD
+DXNDN
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+NDNDD
+NDDXD
+DXNDN
+DNDNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+NDNDD
+DXNDN
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+NDDXD
+DXNDN
+DNDNX
+DNDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+NDDXD
+DXNDN
+DNDNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+NDDXD
+DXDDD
+DNNDX
+DNDNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+NDDDD
+DXNDN
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXNN
+DXDDD
+DNNDX
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDXN
+NDDDD
+DXNDD
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDXN
+DXNDD
+DNDND
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDXN
+DXNDD
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDXN
+DXDDD
+DDNNX
+DDNDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDXD
+DXNDD
+DNDNX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDXD
+DXDDD
+DNDNX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDNX
+DXNDD
+DNNNN
+DNDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDNX
+DXNDD
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDNX
+DXDDD
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDNX
+DXDDD
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDNN
+DXNDD
+DNNNX
+DNDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDN
+NDXDN
+NDDND
+DXDDD
+DNDXN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNND
+XNDDD
+NDXDN
+NDDXD
+DXNDD
+DNDDX
+DDNXX
+[ELB samples = 5 patterns = 7]
+XXNND
+XDXDN
+XDDND
+NNDNX
+NDNNN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XDXDD
+XDDNN
+DXDDD
+DNXDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XDNDN
+NDDXN
+DXDDD
+DDXDD
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XDNDN
+NDDNN
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNND
+XDNDN
+NDDDD
+DXDND
+DNDDX
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNND
+XDNDD
+NDDXD
+DXDDN
+DDXDN
+DDDNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNND
+XDNDD
+NDDDX
+DXDDD
+DNDNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNND
+XDNDD
+NDDDN
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+XDNXD
+NXDNN
+NDNDX
+DNDXD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+XDNXD
+NXDNN
+NDDDX
+DNDXD
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+XDDXD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDX
+NDXND
+NDNDN
+NDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDX
+NDXND
+NDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDX
+NDXND
+NDDXN
+DDNDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDX
+NDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDX
+NDNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NNDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NXDND
+NDDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NNDND
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNNN
+NDDXD
+DXDDN
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXNN
+NDNDX
+NDDND
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXNN
+NDNDX
+NDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXNN
+NDNDX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXNN
+NDDND
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXDN
+NDDND
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXDN
+NDDDD
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XNDDX
+NXDNN
+NDXDN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XDNDX
+NNDNN
+NDXNN
+DXDDD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XDDDX
+NXDNN
+NDXNN
+NDDND
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XDDDX
+NXDNN
+NDXNN
+DNDDD
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XDDDX
+NNDNX
+NDXNN
+NDDND
+DXDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XDDDX
+NNDNX
+NDXNN
+DXDDD
+DDDND
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+XDDDX
+NNDNX
+NDNNN
+DXDDD
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDND
+DNNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDND
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDDD
+DNNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDDD
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDND
+DNXNN
+DNNDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDND
+DNXDN
+DNNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDND
+DNXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDND
+DNNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDDD
+DNXNN
+DNNDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDDD
+DNXDN
+DNNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDDD
+DNXDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXDDD
+DNNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNN
+DXXDN
+DXDND
+DDXNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNN
+DXXDN
+DXDDD
+DDXNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNN
+DXDND
+DNXDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NXDDX
+NNDNN
+DXDDD
+DNXDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNNND
+NNDNX
+DXDND
+DXDDX
+DNNNN
+DDXDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XNDDN
+NDNXD
+DXNDX
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+DXNDX
+DXDNN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+DXNDX
+DNDXX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDXND
+NDDDN
+DXNDX
+DXDNN
+DDXNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDXND
+NDDDN
+DXNDX
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDXND
+NDDDN
+DXNDX
+DNDXX
+DDXNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDNND
+DXNDN
+DNDDX
+DDNXN
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDXD
+XDNND
+DXNDN
+DNDDX
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+NDDDX
+DXNND
+DNNDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+NDDDX
+DXNND
+DDNDN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+NDDDX
+DXNND
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+NDDDN
+DXNND
+DNNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+DXNND
+DNNDX
+DNDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+DXNND
+DNNDX
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+DXNND
+DNNDN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+DXDDN
+DNNND
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+DXDDN
+DDNND
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDND
+DXNDN
+DNNXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+NDDDD
+DXNND
+DNNDX
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXNN
+DXNND
+DNNDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXND
+NDNDX
+DXDND
+DNDDN
+DDNXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXND
+NDNDX
+DXDDN
+DNNNN
+DNDXD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXND
+NDNDX
+DXDDN
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXND
+NDNDX
+DXDDN
+DNDXD
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXND
+NDNDX
+DXDDD
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDXND
+DXDDN
+DNNNN
+DNDXD
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDNN
+NDNNN
+NDDXD
+DXDDN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+XDDDX
+NDNDX
+DXNND
+DDNXN
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+XDDDX
+NDNDX
+DXNND
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NNNNN
+NDXND
+NDNDX
+NDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NNNNN
+NDXND
+NDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NNNNN
+NDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXNN
+DNNXD
+DNNDX
+DNDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXNN
+DNNXD
+DNNDX
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXNN
+DNNXD
+DNNDN
+DDDNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXNN
+DDNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+NDDXN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDXND
+DNNNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NXDDN
+NDNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NNNNN
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NNDDN
+DXNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NDXNN
+DXDDN
+DDNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NDXND
+NDNDX
+NDDXN
+DXDDN
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NDXND
+NDDDX
+DXDDD
+DNDXN
+DDXDX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NDXND
+NDDDN
+DXNDN
+DNDXN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XNDND
+NDNNN
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDNNN
+NNDND
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDNNN
+NDDXD
+DXDDN
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDNND
+NDXDN
+NDDXN
+DXDND
+DNDDX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDNND
+NDXDN
+NDDXN
+DXDND
+DNDDN
+DDNNX
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDDND
+NNNNN
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDDND
+NDNNN
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 7]
+XXNDD
+XDDND
+DXDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+XDXDD
+NXNND
+DNXDN
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDXND
+NDNDX
+NDDXN
+DXNDD
+DNDND
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDXND
+NDNDX
+NDDXN
+DXNDD
+DDDND
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDXND
+NDNDX
+NDDNN
+DXNDD
+DNDXD
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDXND
+NDNDX
+NDDNN
+DXNDD
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDXND
+NDNDX
+DXDNN
+DNNDD
+DDDXD
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDXND
+DXNDN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNNN
+NDNND
+DXNDN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XNNDD
+XDDXD
+NDNXD
+DXNDN
+DNDNX
+DDNNN
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NNNNN
+NDXDN
+NDDXN
+DXNDD
+DNDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NNNNN
+NDXDN
+NDDXN
+DXNDD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NNNNN
+DXNDN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NNNDN
+DXDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NNNDN
+DXDNN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NDXDN
+DXDNN
+DNNDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NDXDN
+DXDNN
+DDNXN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNND
+NDXDN
+DXDNN
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 7]
+XXDDD
+XDNDD
+NNNNN
+NDDXD
+DXDDN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDN
+NDNDD
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDN
+NDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDN
+NDDXD
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDD
+NDNDN
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDD
+NDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDD
+NDDXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDXDD
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDNDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+NDDXD
+DDXDN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+DDXDN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NXDDD
+DDXDD
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NDXDN
+NDNDD
+DXDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NDXDN
+DXDDD
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+NDNDN
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+DXDDD
+DDXDN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXN
+DXDDD
+DDXDD
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDN
+NDNDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDN
+NDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDN
+NDDXN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDN
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDD
+NDNDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDD
+NDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDXDD
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDNDN
+NDDXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDNDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+NDDXN
+DDXDD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+DDXDN
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NXDDD
+DDXDD
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NDXDN
+NDNDD
+NDDXN
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NDXDN
+NDDXN
+DXDDD
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NDXDN
+DXDDD
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NDNDN
+NDDXN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NDNDN
+DXDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+NDDXN
+DXDDD
+DDXDD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+DXDDD
+DDXDN
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDN
+XDDXD
+DXDDD
+DDXDD
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+NDXDD
+NDNDN
+NDDXD
+DXDDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+NDXDD
+NDNDN
+DXDDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+NDXDD
+NDDXD
+DXDDN
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+NDXDD
+DXDDN
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+NDNDN
+DXDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+NDDXD
+DXDDN
+DDXDN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+DXDDN
+DDXDN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXN
+DXDDN
+DDXDD
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXD
+NDXDD
+NDNDN
+DXDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXD
+NDXDD
+DXDDN
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXD
+NDNDN
+DXDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXD
+DXDDN
+DDXDN
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXND
+XNDDD
+XDDXD
+DXDDN
+DDXDD
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDNND
+NDXDN
+NDDXN
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDNND
+NDXDN
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDNND
+NDXDN
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDNND
+NDXDN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDNND
+NDDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDNND
+DDXDN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+NDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+NDNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+XDDDD
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+NDDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDX
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+NDDXN
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDXND
+NDDDD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+NDDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XNDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+NDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+NDNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NXDDN
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+NNDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+DXDDX
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+XDDDD
+DXDDN
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+NDDDD
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+NDDDD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDXD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+NDDXN
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDXND
+NDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDXND
+NDDDD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+NDDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NXDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NDXND
+NDDXN
+NDDDD
+DXNDN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NDDXN
+NDDDD
+DXNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NDDDD
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+NDDDD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XNDND
+DXDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+XDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+XDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+XDDDD
+DXDXD
+DXDDX
+DDXXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+XDDDD
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+XDDDD
+DXDXD
+DXDDX
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNXD
+DXNDX
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNXD
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNXD
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNXD
+DXDDN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNND
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNND
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNND
+DNXDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXNND
+DNDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDNN
+NDDDD
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDX
+NDXND
+NDNDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDX
+NDXND
+NDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDX
+NDXND
+NDDXN
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDX
+NDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDX
+NDNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NNDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NDXND
+NDDXN
+DNNDN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NDDXN
+DNXDN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+NDDXN
+DNNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+DXNDX
+DDXND
+DDDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+DXDDX
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NXDND
+DNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NNDND
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NNDND
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDX
+DXDXD
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDX
+DXDXD
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDX
+DXDXD
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDX
+DXDND
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDN
+DXDXD
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDN
+DXDXD
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDN
+DXDXD
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXNDN
+DNDND
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DXDDX
+DDXXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DXDDX
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DNNDN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDXD
+DNNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDXN
+DXDND
+DNNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXNXD
+DXNDX
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXNXD
+DXNDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXNXD
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXNXD
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXNXD
+DXDDN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXNND
+DNXDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+NDDNN
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNXDD
+XDDDD
+DXDND
+DNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDN
+NNDDD
+NDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDN
+NNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDN
+NDXDD
+NDDXD
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDN
+NDXDD
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDN
+DNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDD
+NNDDN
+NDXDD
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDD
+NNDDN
+NDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDD
+NNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+NDDXD
+DNDDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+DNDDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NXDDD
+DNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NNDDN
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NDXDD
+NDDXD
+DXDDN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+NDXDD
+DXDDN
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+DXDDN
+DNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXN
+DXDDD
+DNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+NDXDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+NDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+NDDXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NDXDD
+NDDXN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NDXDD
+DNDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+NDDXN
+DNDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDN
+DNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+NDXDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+NDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+NDDXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDD
+NDXDD
+DNDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NXDDD
+DNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NNDDN
+NDDXN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NNDDN
+DXDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NDXDD
+DXDDN
+DNDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+NDDXN
+DXDDD
+DNDDN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+DXDDN
+DNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDN
+XDDXD
+DXDDD
+DNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NNDDD
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NNDDD
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+NDDXN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+DNDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDN
+DNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDD
+NNDDN
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDD
+NNDDN
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDD
+NNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NXDDD
+DNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NNDDN
+NDXDN
+NDDXN
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NNDDN
+NDXDN
+DXDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NNDDN
+DXDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NDXDN
+NDDXN
+DXDDD
+DNDDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+NDXDN
+DXDDD
+DNDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+DXDDN
+DNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNND
+XDXDD
+XDDXD
+DXDDD
+DNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+NNDNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+NNDNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+NNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+NDDDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+NDDDN
+DNDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+DNDXN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NXDDD
+DNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NNDNN
+DXDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDNDX
+NNDDD
+DXDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+NDNDX
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+NDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+NDDXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+NDDXD
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+NDDND
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+DNDXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NDDXD
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+NDDXD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+DNDXN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+DNDNX
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NXDDD
+DNDNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NNDNN
+NDNDX
+DXDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NNDNN
+DXDDD
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NNDDD
+NDNDX
+DXDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NDNDX
+DXDNN
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDNXD
+XDDDX
+NDNDX
+DXDDD
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+NDNXD
+NDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+NDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+NDNDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+DNDXN
+DDNND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NXDDD
+DNDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NNDNN
+NDNXD
+NDNDX
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NNDNN
+NDNXD
+DXDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NNDNN
+DXDDD
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NNDDD
+NDNXD
+NDNDX
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDNN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDDD
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+DXDNN
+DNDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+DXDDD
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+DXDDD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDNN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDNN
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+XDDDX
+DXDDD
+DNDNN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NXDDN
+NDXDN
+DNDDD
+DDNXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NXDDN
+DNDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NXDDD
+DXDDX
+DDNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NNDDX
+NDXDN
+DXDDD
+DDNXD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NNDDX
+NDNDN
+DXDDD
+DDXND
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NNDDX
+DXDDD
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NNDDN
+DXDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NDXDN
+DXDNN
+DNDDD
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NDXDN
+DXDNN
+DNDDD
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NDXDN
+DXDDD
+DNDXN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NDXDN
+DXDDD
+DNDXN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NDXDN
+DXDDD
+DNDNN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNNDD
+XDDXD
+NDXDN
+DXDDD
+DNDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDNX
+NNNDN
+NDXDD
+NDDDX
+DXDND
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDNX
+NNNDN
+NDXDD
+DXDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDNX
+NNNDN
+DXDND
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDNX
+NDXDD
+NDDDX
+DXNDN
+DNDND
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDNX
+NDXDD
+NDDDX
+DXDND
+DNNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDDX
+NNNDN
+NDXDD
+DXDND
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDDX
+NNNDN
+DXDND
+DDXDD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDDX
+NDXDD
+DXNDN
+DNDND
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+XDDDX
+NDXDD
+DXDND
+DNNDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXND
+NDXDD
+DXDND
+DNDDX
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+NNNND
+DXDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXNND
+DNDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXDDX
+DNNND
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXDDX
+DNNND
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXDDX
+DNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+XDDXD
+DXDDN
+DNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+NDDXN
+DXDND
+DNDDX
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+NDDXD
+NDDDX
+DXNND
+DNXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+NDDXD
+DXDDN
+DNNND
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+XDXDD
+DXDND
+DNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XNDDD
+NDXND
+NDNDN
+DXXDD
+DXDND
+DNDDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXND
+XDDDX
+NNXDX
+DXDND
+DNDDD
+DDXDD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXND
+XDDDX
+NNXDX
+DXDDD
+DNDND
+DDXDD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXND
+XDDDN
+NNXDX
+DXDND
+DNXDD
+DDDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXDD
+XDDXD
+NNDDD
+DXNND
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXDD
+XDDNN
+NNXXD
+DXDDD
+DNXDN
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXDD
+XDDNN
+DXNND
+DNXDN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNNN
+XDXDD
+XDDNN
+DXDDD
+DNXND
+DNNDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+NDDXD
+NDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+NDDXD
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+NDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+NDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDNNX
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXNN
+NDNDD
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXNN
+NDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXNN
+NDDXD
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXNN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDNNX
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDNNN
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDDXD
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDDXD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+NDDND
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+DDNXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDXDD
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDNNX
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDNNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+NDNDD
+DDXNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+DDXNN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+DDXDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+XDDDX
+DDXDD
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXNN
+NDNDD
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXNN
+NDNDD
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXNN
+NDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXNN
+NDDXD
+NDDDX
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXNN
+NDDXD
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDNNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDNNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDDXD
+NDDDX
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDDXD
+NDDDN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDDXD
+DDNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDDXD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+NDDND
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+DDNXN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDNNN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+NDNDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+DDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XNDDD
+DDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNX
+NNDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNX
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNX
+DXDDD
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+XDDDX
+NNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+XDDDX
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+XDDDX
+DXDDD
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+NXDDD
+NDXDD
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+NXDDD
+NDXDD
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+NXDDD
+NDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+NXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+NNDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNNN
+DXDDD
+DDXDD
+DDDXD
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNDD
+NXDDD
+NDDXD
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNDD
+NXDDD
+NDDXD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNDD
+NXDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDNDD
+DXDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDDDX
+NNDDD
+DDXDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDDDX
+NDNNN
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDDDX
+DXDDD
+DDXNN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDDDX
+DXDDD
+DDXDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+XDDDX
+DXDDD
+DDXDD
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+NDNNN
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+NDNDD
+DXDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+DXDDD
+DDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDXN
+DXDDD
+DDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDXNN
+NDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDXNN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDXDD
+NDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDXDD
+NDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDXDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNNN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+DDXNN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+DDXDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NNDDD
+NDNXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NNDDD
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NDXNN
+DXDDD
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NDNXN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+NDNNN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DDXNN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DDXDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXNN
+NDNDD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXNN
+NDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXNN
+NDDDX
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXNN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDNXN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDNNN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDDDX
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDDDX
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+NDDDN
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+DDNXN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDNXN
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDNNN
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+NDNDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+DDXNN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NXDDD
+DDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NNDDD
+NDNXN
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NNDDD
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NDXNN
+DXDDD
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NDNXN
+DXDDD
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+NDNNN
+DXDDD
+DDXDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+DXDDD
+DDXNN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+DXDDD
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+XDDXD
+DXDDD
+DDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXNN
+NDNDD
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXNN
+NDNDD
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXNN
+NDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXNN
+NDDXD
+NDDDX
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXNN
+NDDXD
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDNNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDNNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDDXD
+NDDDX
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDDXD
+NDDDN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDDXD
+DDNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDDXD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+NDDND
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+DDNXN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDNNN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+NDNDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+DDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NXDDD
+DDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NDXNN
+NDNDD
+DXDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NDXNN
+NDDXD
+NDDDX
+DXNDD
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NDXNN
+DXDDD
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NDNNN
+DXDDD
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NDNDD
+DXDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+NDDXD
+NDDDX
+DXNDD
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+DXDDD
+DDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDNN
+DXDDD
+DDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+NNDNN
+NDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+NNDNN
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+NDXDD
+DXDNN
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+NDXDD
+DXDNN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+NDNDD
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+DXDNN
+DDXNN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+DXDNN
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+XDDDX
+DXDNN
+DDXDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NNDNN
+NDXDD
+NDDDX
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NNDNN
+NDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NNDNN
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDXDD
+NDDDX
+DXDNN
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDXDD
+NDDDX
+DXDNN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDXDD
+NDDDN
+DXDNN
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDXDD
+DXDNN
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDXDD
+DXDNN
+DDNXN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDXDD
+DXDNN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+NDNDD
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+DXDNX
+DDXNN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+DXDNX
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+DXDNX
+DDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+DXDNN
+DDXNN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+DXDNN
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+XDDXD
+DXDNN
+DDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDNNN
+NDDXD
+NDDDX
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDNNN
+NDDXD
+DXDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDNNN
+DXDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDDXD
+NDDDX
+DXNNN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDDXD
+NDDDX
+DXDNN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDDXD
+NDDDN
+DXDNN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDDXD
+DXDNN
+DDNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDDXD
+DXDNN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+NDDND
+DXDNN
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+DXDNN
+DDNXN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDXDD
+DXDNN
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDNNN
+DXDNN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDNDD
+DXDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDDXD
+NDDDX
+DXNNN
+DDXDD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDDXD
+DXDNX
+DDXNN
+DDNDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDDXD
+DXDNX
+DDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+NDDND
+DXDNX
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+DXDNN
+DDXNN
+DDNDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XNDDD
+DXDNN
+DDXDD
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+NNDNN
+DXDDD
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+NNDDD
+DXDNN
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXXN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXNN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXDD
+DDNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXDD
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDN
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+XDDDN
+DXDXN
+DXDDD
+DDXXN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+NNDNN
+DXDDD
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+NNDDD
+DXDNX
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+NNDDD
+DXDNN
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+NDDDN
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+DXDNN
+DNDDD
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDXD
+DXDDD
+DNDXN
+DDXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDNN
+DXDDD
+DNNNN
+DDXDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NXDDD
+NDXDD
+NDDDX
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NXDDD
+NDDDX
+DNXNN
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NXDDD
+NDDDX
+DNNNN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NXDDD
+DXNNX
+DDXDD
+DDDNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NXDDD
+DXNNX
+DDXDD
+DDDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NXDDD
+DXDNX
+DDXDD
+DDNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNXN
+DXDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNNN
+DNXDD
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNNN
+DNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNDD
+DXDXN
+DDXXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNDD
+DXDXN
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXNDD
+DNDXN
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXDXN
+DXDDD
+DDXXN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXDDD
+DNNXN
+DDXDD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDX
+DXDDD
+DNNNN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDND
+NDDDN
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDN
+XDDDD
+DXDNN
+DNNDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXNN
+NDNDX
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXNN
+NDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXNN
+NDDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXDN
+NDDDD
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDXDN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+NDDDD
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NXDDN
+DDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NDXNN
+NDDDD
+DXDDN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NDXNN
+DXDDN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDND
+NDDDD
+DXDDN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXNN
+NDNDX
+NDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXNN
+NDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXNN
+NDDND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXDN
+NDDND
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDXDN
+DDNNX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+NDDND
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NXDDN
+DDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NDXNN
+NDDND
+DXDDN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NDXNN
+DXDDN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDNX
+XDDDD
+NDDND
+DXDDN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXNN
+NDNDX
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXNN
+NDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXNN
+NDDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXDN
+NDDDD
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDXDN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+NDDDD
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NXDNN
+DDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NDXDN
+NDDDD
+DXDNN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NDXDN
+DXDNN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+NDDDD
+DXDNN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+DXDNX
+DDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDND
+DXDNN
+DDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXNN
+NDNDX
+NDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXNN
+NDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXNN
+NDDND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXDN
+NDDND
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDXDN
+DDNNX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+NDDND
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NXDNN
+DDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NDXDN
+NDDND
+DXDNN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NDXDN
+DXDNN
+DDNNX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+NDDND
+DXDNN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XNDDX
+XDDDD
+DXDNN
+DDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NXDDX
+DXNNN
+DDXDN
+DDDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXNNX
+DXDDN
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXNNX
+DXDDN
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXNNN
+DXDDX
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXNDX
+DXDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXDNX
+DXDDN
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXDNX
+DXDDN
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXDNX
+DXDDN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXDNN
+DXDDX
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDND
+NDDDD
+DXDNN
+DXDDX
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NXDNX
+DXNDN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+DXNDX
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NXDNN
+DXDDX
+DDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDNX
+DXNNN
+DXDDX
+DDXDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXNNX
+DXDDN
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXNNX
+DXDDN
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXNNN
+DXDDX
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXNNN
+DXDDX
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXNDX
+DXDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXNDX
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXDNX
+DXDDN
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXDNX
+DXDDN
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXDNX
+DXDDN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXDNN
+DXDDX
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNXDD
+XDDDD
+NDDND
+DXDNN
+DXDDX
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+NNDDD
+NDXDD
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+NNDDD
+NDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+NNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+NDXDD
+NDDXD
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+NDXDD
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDN
+DNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDD
+NNDDN
+NDXDD
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDD
+NNDDN
+NDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDD
+NNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+NDDXD
+DNDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+DNDDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NXDDD
+DNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NNDDN
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NDXDD
+NDDXD
+DXDDN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+NDXDD
+DXDDN
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+DXDDN
+DNDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXN
+DXDDD
+DNDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+NDXDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+NDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+NDDXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NDXDD
+NDDXN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NDXDD
+DNDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+NDDXN
+DNDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDN
+DNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+NDXDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+NDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+NDDXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDD
+NNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDD
+NDXDD
+DNDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NXDDD
+DNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NNDDN
+NDDXN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NNDDN
+DXDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NDXDD
+DXDDN
+DNDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+NDDXN
+DXDDD
+DNDDN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+DXDDN
+DNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDN
+XDDXD
+DXDDD
+DNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NNDDD
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NNDDD
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+NDDXN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+DNDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+DNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDD
+NNDDN
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDD
+NNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NXDDD
+DNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NNDDN
+NDXDN
+NDDXN
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NNDDN
+NDXDN
+DXDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NNDDN
+DXDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NDXDN
+NDDXN
+DXDDD
+DNDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+NDXDN
+DXDDD
+DNDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+DXDDN
+DNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNNN
+XDXDD
+XDDXD
+DXDDD
+DNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NXDND
+NNDDX
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NXDND
+NNDDX
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NXDND
+NNDDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NXDND
+DNDDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDNDD
+NDDDD
+DXDND
+DNDDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NXDND
+NNDDX
+NDNDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NXDND
+NNDDX
+NDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NXDND
+NNDDX
+NDDXN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NXDND
+NNDDX
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDNXN
+XDDDD
+NDNDD
+DXDND
+DNDDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDX
+XDDDN
+NXDDD
+DXDXD
+DDNXN
+DDNDD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDNN
+NNDDD
+NDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDNN
+NNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDNN
+NDXNN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDNN
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+NNDXN
+NDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+NNDXN
+NDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+NNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+NNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NXDDD
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NNDXN
+NDXNN
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NNDXN
+NDNNN
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NNDXN
+DXDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NNDXN
+DXDDD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NNDNN
+DXDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+NNDDD
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NNDDD
+NDXNN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NNDDD
+NDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NNDDD
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NNDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NDXNN
+NDDDX
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NDXNN
+DNDDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+NDDDX
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDNN
+DNDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+NDXNN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+NDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+NDNNN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+NDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+NDDDX
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDNN
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NNDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NDDDX
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NDDDX
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+NDDDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+DNDXN
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NXDDD
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NNDXN
+NDXNN
+DXDDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NNDXN
+NDNNN
+DXDDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NNDXN
+DXDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NNDXN
+DXDDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NNDNN
+DXDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+NNDDD
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+DXDNN
+DNDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+DXDDD
+DNDXN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+DXDDD
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+DXDDD
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+XDDXD
+DXDDD
+DNDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NNDDD
+NDXNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NNDDD
+NDXNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NNDDD
+NDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NNDDD
+NDDXD
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NNDDD
+NDDXD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NNDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NDXNN
+NDDXD
+NDDDX
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NDXNN
+NDDXD
+DNDDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NDXNN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NDDXD
+NDDDX
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+NDDXD
+DNDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDNN
+DNDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NNDNN
+NDXNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NNDNN
+NDXNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NNDNN
+NDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NNDNN
+NDDXD
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NNDNN
+NDDXD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDXNN
+NDDXD
+NDDDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDXNN
+NDDXD
+DNDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDXNN
+DNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDDXD
+NDDDX
+DNXNN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDDXD
+NDDDX
+DNDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDDXD
+NDDDN
+DNDNX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDDXD
+DNDNX
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDDXD
+DNDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+NDDND
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+DNDXN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NXDDD
+DNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NNDNN
+NDXNN
+DXDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NNDNN
+DXDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NNDDD
+DXDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NDXNN
+DXDDD
+DNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NDDXD
+NDDDX
+DXDDD
+DNXNN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NDDXD
+DXDDD
+DNDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+NDDND
+DXDDD
+DNDXN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+DXDNN
+DNDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDXDD
+DXDDD
+DNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+NDXDD
+DNDDX
+DDNXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+NDXDD
+DNDDX
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+NDXDD
+DNDDN
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+DXDDX
+DDXDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+DNDDX
+DDXNN
+DDNDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+DNDDX
+DDXDD
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NXDDD
+DNDDN
+DDXDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NDXDD
+DXDND
+DNDDX
+DDNXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NDXDD
+DXDDN
+DNDDD
+DDXXN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NDXDD
+DXDDD
+DNDDN
+DDXXN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXN
+NDDDD
+DXDXD
+DXDDN
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NXDDD
+NDXNN
+DNDDX
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NXDDD
+NDXDD
+NDNNN
+DNDDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NXDDD
+NDNNN
+DNDDX
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NXDDD
+DXDDX
+DDNXN
+DDNDD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NDXXN
+DXDDN
+DNDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NDXXN
+DXDDD
+DNDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NDDDX
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+XDDXD
+NDDDN
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDN
+NDDXD
+NDDDX
+DXDXN
+DXDDD
+DDXXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDD
+XDDDX
+NDXNX
+DXDDD
+DNDND
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDD
+XDDDX
+NDXNN
+DXDDD
+DNDND
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDD
+XDDDX
+NDDNX
+DXDND
+DNDDD
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNNDD
+XDDDX
+NDDNX
+DXDDD
+DNDND
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDND
+DXNDD
+DXDXN
+DDXXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXNDD
+DXDXN
+DDXXN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXNDD
+DXDXN
+DDXXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXNDD
+DXDXN
+DDXNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXNDD
+DXDXN
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXNDD
+DNDNX
+DDXNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXNDD
+DNDNX
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDXDN
+XDDDD
+DXDXN
+DNNDD
+DDXXN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+NDXDD
+NDDXD
+DXNDN
+DNDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+NDDDD
+DXXDN
+DXDXN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+NDDDD
+DXXDD
+DXDXD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+NDDDD
+DXXDD
+DXDXD
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+NDDDD
+DXNDN
+DNDNX
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+NDDDD
+DXNDD
+DNDXD
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNNN
+DXNDD
+DNDXD
+DDXDN
+DDDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNDN
+NDDXN
+NDDDD
+DXDND
+DNXDD
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNDN
+NDDXN
+DXDND
+DNXDD
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDNDN
+NDDDD
+DXNDD
+DNDNX
+DDXNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDN
+DXDXN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDN
+DXDXN
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDN
+DXDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDN
+DXDNN
+DDXDD
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDN
+DNDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDD
+DXDXD
+DDXDN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDD
+DXDXD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDD
+DXDXD
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDD
+DXDXD
+DDNDN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXXDD
+DXDND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXNDN
+DNDNX
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXNDN
+DNDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNX
+DXNDD
+DNDXD
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNN
+DXXDD
+DXDXD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNN
+DXXDD
+DXDXD
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNN
+DXXDD
+DXDXD
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNN
+DXXDD
+DXDXD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNN
+DXXDD
+DXDND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXNN
+DXNDD
+DNDXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXDN
+NDDXN
+DXNDD
+DNDND
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXDN
+NDDNX
+DXNDD
+DNDXD
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXDN
+DXNDD
+DNDNX
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDXDN
+DXDNN
+DNNDD
+DDNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNX
+DXXDN
+DXDXN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNX
+DXXDN
+DXDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNX
+DXXDN
+DNDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNX
+DXNDN
+DNDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDN
+DXDXN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDN
+DXDXD
+DDXDD
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDN
+DXDXD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDN
+DXDNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDN
+DXDND
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDD
+DXDXD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDD
+DXDXD
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDD
+DXDXD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDD
+DXDNN
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDD
+DXDNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXXDD
+DXDND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXNDN
+DNDXD
+DDXDD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXNDN
+DNDNX
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNNN
+DXNDD
+DNDXD
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNDX
+DXNDD
+DXDXD
+DDNXX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNDX
+DXNDD
+DXDXD
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNDX
+DXNDD
+DXDXD
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNDX
+DXNDD
+DXDXD
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNDN
+DXNDD
+DXDXD
+DDNXX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+NDNDN
+DXNDD
+DNDXD
+DDNXX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+DXNDN
+DNDXN
+DDXDD
+DDNNX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+XDDDD
+DXNDN
+DNDNX
+DDXDD
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+NDXNX
+NDDDD
+DXXDD
+DXDXD
+DDXDN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDX
+NDXNX
+NDDDD
+DXXDD
+DXDXD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+NNNNN
+NDXDD
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+NNNNN
+NDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+NNNNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+NDDXD
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+NDDND
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+NDXDD
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NXDDD
+DNNNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NNNNN
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXN
+NNDDD
+DXNNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NNNNN
+NDXDD
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NNNNN
+NDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NNNNN
+NDDXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NNNNN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDXDD
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDXDD
+NDDNN
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDXDD
+DNNXN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDXDD
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDNDD
+NDDXN
+DNXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDDXN
+DNXNN
+DDNDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDDXN
+DNNNN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+NDDNN
+DNNXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+DNXNN
+DDNDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+DNNXN
+DDXDD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NXDDD
+DNNNN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NNNNN
+NDDXN
+DXDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NNNNN
+DXDDD
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NNDDD
+NDDXN
+DXNNN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NDDXN
+DXNNN
+DNDDD
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NDDXN
+DXDDD
+DNNNN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+XDDXD
+NDDNN
+DXDDD
+DNNXN
+DDXDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDN
+NDDNX
+NDDDD
+DXNNN
+DNXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+NNNNN
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+NNNNN
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+NNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+NDXDN
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+NDXDN
+NDDNN
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+NDXDN
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+DNXNN
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NXDDD
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NNNNN
+NDXDN
+NDDXN
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NNNNN
+NDXDN
+DXDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NNNNN
+DXDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NNDDD
+NDXDN
+NDDXN
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NDXDN
+NDDXN
+DXNNN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NDXDN
+NDDXN
+DXDDD
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NDXDN
+NDDNN
+DXDDD
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+NDXDN
+DXDDD
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DXDDD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DXDDD
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DXDDD
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DXDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DXDDD
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DNDDD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DNDDD
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNX
+DNDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNN
+DNDDD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXNNN
+DNDDD
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNXNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNXNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNXNN
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNXNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNNNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNNNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+XDDXD
+DXDDD
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDXDN
+DXDNN
+DNDDD
+DDXXN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDXDN
+DXDDD
+DNDNN
+DDXXN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDNNN
+NDDXD
+DXDDD
+DNDNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDNNN
+DXDDD
+DNDNX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDNNN
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDDXD
+DXNNX
+DXDDD
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDDXD
+DXNNN
+DNDDD
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDDXD
+DXDDD
+DNXNN
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDXDD
+NDDXD
+DXDDD
+DNNNN
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDNNX
+NDXDD
+NDDXD
+DXNDN
+DNDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDNNX
+NDDDD
+DXNDN
+DNDNX
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDNNX
+NDDDD
+DXNDD
+DNDXD
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+XDNNX
+DXNDD
+DNDXD
+DDXDN
+DDDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+NDXNN
+NDNDD
+DXXDN
+DXDDD
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+NDXDD
+NDNNX
+DXXDN
+DXDDD
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+NDXDD
+NDNNN
+DXXDN
+DXDDD
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+NDXDD
+NDDXD
+DXNNX
+DXDDD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDN
+NDNDX
+NDDNN
+DXNNX
+DXDDD
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NNNNN
+NDXDD
+NDDXD
+DXDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NNNNN
+NDXDD
+DXDDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NNNNN
+DXDDN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NNDDN
+NDXDD
+NDDXD
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NNDDN
+NDXDD
+DXNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NNDDN
+DXNNN
+DDXDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NDXDD
+NDDXD
+DXNNN
+DNDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NDXDD
+NDDXD
+DXDDN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NDXDD
+DXNNN
+DNDDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NDXDD
+DXDDN
+DNNXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXN
+NDXDD
+DXDDN
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXD
+NNNNN
+NDXDD
+DXDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXD
+NNNNN
+DXDDN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXD
+NNDDN
+NDXDD
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXD
+NNDDN
+DXNNN
+DDXDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXD
+NDXDD
+DXNNN
+DNDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+XDDXD
+NDXDD
+DXDDN
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDN
+NNDNN
+NDDXD
+DXDDN
+DDXDD
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+XDDDX
+NNNDN
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+XDDDX
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+XDDDX
+DXNDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+NNNNN
+DXDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+NNDDN
+DXNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+NDDDX
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+NDDDX
+DXNDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+NDDDN
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNX
+DXDDN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNX
+DXDDN
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNX
+DXDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNX
+DXDDN
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNX
+DNDDN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNNN
+DNDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDX
+DXDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDX
+DXDNN
+DDXNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDX
+DNDXX
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDX
+DNDXX
+DDXNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDX
+DNDXX
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXNDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXDDX
+DNNNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXDDX
+DNNNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXDDX
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+XDDXD
+DXDDN
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NNNDN
+NDDXD
+NDDDX
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+NDDDX
+DXNDN
+DNDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+NDDDN
+DXNDN
+DNDNX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNNX
+DXDDN
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNNX
+DXDDN
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNNN
+DNDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNDX
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNDX
+DNDXX
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNDX
+DNDXX
+DDXNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNDN
+DNDNX
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXNDN
+DNDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDXD
+DXDDN
+DNNNN
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDNN
+DXNNX
+DXDDN
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDNN
+DXNNX
+DXDDN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDNN
+DXNNN
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDNN
+DXNNN
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDNN
+DXNNN
+DNDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDNN
+DXDDX
+DNNXX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXNDX
+DNDXX
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXDNX
+DXDDN
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXDNX
+DXDDN
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXDNX
+DXDDN
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXDNN
+DXDDX
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+NDDND
+DXDNN
+DXDDX
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+DXNDN
+DNDXN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDXDD
+DXNDN
+DNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNNX
+NDXDD
+NDDDX
+DXNDN
+DNDXD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNNX
+NDXDD
+NDDDX
+DXDND
+DNNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNNX
+NDDDX
+DXNDD
+DNDXD
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNNX
+NDDDX
+DXNDD
+DNDNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDXX
+DXNDD
+DNDXD
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDXX
+DXNDD
+DNDXD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDXN
+DXNDD
+DNDND
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDXN
+DXDND
+DNXDD
+DDNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDXN
+DXDND
+DNXDD
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDDX
+DXNDD
+DXDXD
+DDNXX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDDX
+DXNDD
+DXDXD
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDDX
+DXNDD
+DXDXD
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDDX
+DXNDD
+DXDXD
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+NDDDX
+DXNDD
+DNDXD
+DDNXX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+DXNDD
+DNDXN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+DXNDD
+DNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDNDX
+DXDNN
+DNNDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDDDX
+NDXNN
+NDNDD
+DXNDN
+DNDXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDDDX
+NDXNN
+NDDXD
+DXNDD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDDDX
+NDXDD
+NDNNN
+DXNDN
+DNDXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDDDX
+NDNDX
+DXNDD
+DXDXD
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDDDX
+NDNDX
+DXNDD
+DXDXD
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XNDDD
+XDDDX
+NDNDX
+DXNDD
+DXDXD
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+NNNDN
+DXDDD
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+NNDDD
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+DXNDX
+DXDNN
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+DXNDX
+DXDDD
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+DXNDX
+DXDDD
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+DXNDN
+DNDXN
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+DXDDD
+DNXDN
+DNDXN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+XDDDX
+DXDDD
+DNXDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+NNDDN
+DXNNX
+DXDDD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+NNDDN
+DXDDD
+DNXNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+NNDDD
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+NNDDD
+DXNDX
+DXDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+NNDDD
+DXNDX
+DNDXX
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+DXNDN
+DNDXN
+DNDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDXDD
+XDDXD
+DXDDD
+DNXDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNND
+XDNNX
+XDDDD
+DXNDD
+DNDXD
+DNDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNND
+XDNDX
+XDDNN
+DXNDD
+DNDXD
+DNDDX
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+XDXND
+NDXDN
+NDDXN
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+XDXND
+NDXDN
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+XDXND
+NDXDN
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+XDXND
+NDXDN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+XDXND
+NDDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+XDXND
+DDXDN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDXND
+NDNDX
+NDDXN
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDXND
+NDNDX
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDXND
+NDNDX
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDXND
+NDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDXND
+NDDDD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+NDDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+XNDDX
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDXND
+NDNDX
+NDDXN
+NDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDXND
+NDNDX
+NDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDXND
+NDNDX
+NDDDD
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDXND
+NDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDXND
+NDDDD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+NDDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NXDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NDXDN
+NDNXD
+NDDDD
+DXDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NDXDN
+NDDDD
+DXDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NDDDD
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+NDDDD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XNDXD
+DXDDN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+NNDDD
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+NNDDD
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+NNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+NDDXD
+NDDDX
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+NDDXD
+DNDDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDNN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+NNDNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+NNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+NDDDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+NDDDN
+DNDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+DNDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+NDDND
+DNDXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+DNDXN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NXDDD
+DNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NNDNN
+DXDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+NNDDD
+DXDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDNDX
+DXDNN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NNDDD
+NDNDX
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NNDDD
+NDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NNDDD
+NDDXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NNDDD
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NDNDX
+NDDXD
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NDNDX
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+NDDXD
+DNDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDNN
+DNDDD
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NNDNX
+NDNDN
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NNDNX
+NDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+NDNDX
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+NDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+NDDXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NNDNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+NDDXD
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+NDDND
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+DNDXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NDDXD
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+NDDXD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+DNDXN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+DNDNX
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NXDDD
+DNDNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NNDNX
+NDNDN
+DXDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NNDNX
+DXDDD
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NNDNN
+NDNDX
+DXDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NNDNN
+DXDDD
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NNDDD
+NDNDX
+DXDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NDNDX
+DXDNN
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+NDNDX
+DXDDD
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDNN
+DNDDD
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDNN
+DNDDD
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDDD
+DNDNX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDDD
+DNDNX
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDDD
+DNDNN
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+XDDDX
+DXDDD
+DNDNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NNDDX
+NDXDN
+NDDNN
+DXDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NNDDX
+NDDNN
+DXDDD
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NDXDN
+DXDNN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NDXDN
+DXDDD
+DNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NDDDX
+DXDNN
+DNDDD
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NDDDX
+DXDDD
+DNDNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDNXD
+NDDDN
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NXDDX
+DXDDD
+DDNXD
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NXDDX
+DXDDD
+DDNND
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NXDDD
+DXDDX
+DDNND
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NNDDX
+NDXND
+DXDDD
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXN
+NDDDD
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDNN
+NNDDD
+NDNXD
+NDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDNN
+NNDDD
+NDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDNN
+NNDDD
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDNN
+NDNXD
+NDNDX
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDNN
+NDNXD
+DNDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDNN
+DNDDD
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NNDXN
+NDNND
+NDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NNDXN
+NDNND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+NDNXD
+NDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+NDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NNDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+NDNDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+DNDXN
+DDNND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NXDDD
+DNDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDXN
+NDNND
+NDNDX
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDXN
+NDNND
+DXDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDXN
+NDNDX
+DXDDD
+DDNND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDXN
+DXDDD
+DDNND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDNN
+NDNXD
+NDNDX
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDNN
+NDNXD
+DXDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDNN
+DXDDD
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NNDDD
+NDNXD
+NDNDX
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDNN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDDD
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NDNXD
+DXDNN
+DNDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NDNXD
+DXDDD
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+NDNXD
+DXDDD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDXN
+DXDDD
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDNN
+DNDDD
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDXN
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDNN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDNN
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+XDDDX
+DXDDD
+DNDNN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NXDDX
+DXDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NXDDN
+NDXDN
+DNDDD
+DDNXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NXDDN
+DNDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NXDDD
+DXDDX
+DDNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NNDDX
+NDXDN
+DXDDD
+DDNXD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NNDDX
+NDNDN
+DXDDD
+DDXND
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NNDDX
+DXDDD
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NNDDN
+DXDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NDXDN
+DXDNN
+DNDDD
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NDXDN
+DXDNN
+DNDDD
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NDXDN
+DXDDD
+DNDXN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NDXDN
+DXDDD
+DNDXN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NDXDN
+DXDDD
+DNDNN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+XDDXD
+NDXDN
+DXDDD
+DNDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DNXDN
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DNXDN
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DNXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DNXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DNNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXXND
+DXDDD
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DNXND
+DNNDX
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DNXND
+DNNDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DNXND
+DNNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DNXND
+DNNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DNXND
+DNNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DNXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NXDDX
+DXDDD
+DDXND
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDX
+DXDDD
+DNXND
+DNNDN
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDX
+DXDDD
+DNXND
+DNNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDX
+DXDDD
+DNXND
+DNDXN
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDX
+DXDDD
+DNXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDX
+DXDDD
+DNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDX
+DXDDD
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NNDDN
+DXDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNNN
+NXDXD
+NDDDX
+DXDDD
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NXDDX
+DXDND
+DDXNN
+DDNDX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDXDX
+DXDND
+DNDDD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDXDX
+DXDDD
+DNDND
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDDDX
+DXDND
+DNDDD
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDDDX
+DXDND
+DNDDD
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDDDX
+DXDDD
+DNDND
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDDDX
+DXDDD
+DNDND
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDDDD
+DXDND
+DXDDX
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDNX
+NDDDD
+DXDND
+DXDDX
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDXNN
+DXDND
+DNDDD
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDXNN
+DXDDD
+DNDNX
+DDXDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDXNN
+DXDDD
+DNDND
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDDNX
+DXDND
+DNDDD
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDDNX
+DXDDD
+DNDND
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDDND
+DXDNX
+DXDDD
+DDXNX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+XDDDX
+NDDND
+DXDNX
+DXDDD
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDND
+DNXNN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDND
+DNXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDND
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDND
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDDD
+DNXNN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDDD
+DNDND
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NNDNX
+DXXDN
+DXDDD
+DDXNN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NDDNX
+DXXDN
+DXDND
+DNDDD
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NDDNX
+DXXDN
+DXDND
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NDDNX
+DXXDN
+DXDDD
+DNDND
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNNND
+NXDDX
+NDDNX
+DXXDN
+DXDDD
+DDXNN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDNDN
+NDDXN
+NDDDD
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDNDN
+NDDXN
+DXNNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDNDN
+NDDDD
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDNDN
+DXNNN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NNNNN
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NNNNN
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDXDN
+NDDXN
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDXDN
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDXDN
+NDDNN
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDXDN
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDXDN
+DXNNN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDXDN
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+NDNDN
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+DXNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+DXNNN
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+XDDDD
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+NDDDD
+DXNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDXND
+DXNNN
+DDXDN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDNND
+NDXDN
+NDDXN
+NDDDD
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDNND
+NDXDN
+NDDXN
+DXNNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDNND
+NDDDD
+DXNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NNNNN
+NDXND
+NDNDX
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NNNNN
+NDXND
+NDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NNNNN
+NDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+NDDXN
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+NDDNN
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDX
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+NDNDN
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+DXNNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+DXNNN
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDXND
+DNNNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+NDNND
+DXNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+DXNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+XDDDD
+DNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDX
+DXNNN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXNN
+NDDDD
+DXNDN
+DDNXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXNN
+DXNDN
+DDNXD
+DDDNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+NDDXN
+NDDDD
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+NDDXN
+DXNNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+NDDDD
+DXNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXND
+NDNDX
+DXNNN
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXND
+NDDXN
+NDDDD
+DXNDN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDXND
+NDDXN
+DXNDN
+DDNNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+NDDDD
+DXNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XNDDN
+DXNNN
+DDXND
+DDNDX
+DDDXN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+NDDDD
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+DXNDX
+DXDNN
+DDXNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+DXNDX
+DXDNN
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+DXNDX
+DNDXX
+DDXNX
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDN
+DXNDN
+DNDXN
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+NDDDN
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNNN
+DXDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DXDNN
+DDXNX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DXDNN
+DDXNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DXDNN
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DXDNN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DNDXX
+DDXNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDX
+DNDXX
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXNDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXDDX
+DNNNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXDDX
+DNNNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+XDDDD
+DXDDX
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+NDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDXND
+NDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNNN
+NDDDD
+DXNDX
+DNDXX
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNNN
+NDDDD
+DXNDN
+DNDXN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDX
+DXNDN
+DNDXN
+DDXNN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNDX
+DXDDN
+DDNXX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNDX
+DXDDN
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNDX
+DXDDN
+DDNXN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNDN
+DXDDX
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNDN
+DXDDX
+DDNXN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDNND
+NDDDD
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NNNNN
+NDXND
+NDNDX
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NNNNN
+NDXND
+NDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NNNNN
+NDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXNN
+DNNDX
+DDNXD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXNN
+DNNDN
+DDNXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+NDDNN
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+DNNXN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDX
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDNDN
+DNNXN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+NDDXN
+DNNDX
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+NDXND
+DNNNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+DNXNN
+DDNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NXDDN
+DNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NNNNN
+NDXDN
+NDNXD
+DXDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NNNNN
+NDXDN
+DXDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NNNNN
+DXDDX
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NNNNN
+DXDDN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NNDDN
+DXNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXNN
+DXNDX
+DXDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXNN
+DXNDX
+DNDXX
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXNN
+DXNDX
+DNDXX
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXNN
+DXNDX
+DNDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXNN
+DXNDN
+DNDXN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXNN
+DXNDN
+DNDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXNNN
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXNNN
+DXDDX
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXNDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXDDX
+DNNNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXDDX
+DNNNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDXND
+DXDDX
+DNNNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DXDDN
+DDNXX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DXDDN
+DDNXX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DXDDN
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DXDDN
+DDNNX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DXDDN
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DXDDN
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDX
+DNDDN
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDN
+DXDDX
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDN
+DXDDX
+DDNNX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDN
+DXDDX
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNXD
+DXNDN
+DXDDX
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNNX
+DXDDX
+DNNDN
+DDNXD
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNNX
+DXDDN
+DNNDN
+DDNXD
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNNN
+DXNDX
+DXDNN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNNN
+DXNDX
+DNDXX
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNNN
+DXNDN
+DNDXN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNND
+DXNNN
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+NDNND
+DXNDX
+DXDDN
+DDNXX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+DXNNN
+DNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDXD
+XDDDD
+DXDDN
+DNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NNNNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NNNNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NNNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+NDDDX
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+NDDDN
+DNNNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+DNNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NDDXD
+DNNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+NDDND
+DNNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+DNNXN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NXDDD
+DNNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NNNNN
+DXDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+NNDDD
+DXNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+DXNNN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+DXDDD
+DNXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDNDX
+DXDDD
+DNNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NNNNN
+NDNDX
+NDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NNNNN
+NDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NNNNN
+NDDXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NNNNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+NDDXD
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+NDDND
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+DNNXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDNDX
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDNDN
+NDDXD
+DNNNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDNDN
+DNNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDDXD
+DNNNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+NDDXD
+DNNNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+DNNXN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+DNNNX
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NXDDD
+DNNNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NNNNN
+NDNDX
+DXDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NNNNN
+DXDDD
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NNDDD
+NDNDX
+DXNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NDNDX
+DXNNN
+DNDDD
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NDNDX
+DXDDD
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+NDNDN
+DXDDD
+DNNNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXNNN
+DNDDD
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXNNN
+DNDDD
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXDDD
+DNXNN
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXDDD
+DNXNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXDDD
+DNXNN
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXDDD
+DNNNN
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+XDDDX
+DXDDD
+DNNNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDXDN
+NDDDD
+DXNNN
+DNDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDXDN
+DXNNN
+DNDDD
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDXDN
+DXDDD
+DNNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDNDN
+DXDDD
+DNXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDDDX
+DXNNN
+DNDXD
+DDXDN
+DDDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDDDX
+DXNNN
+DNDDD
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDDDX
+DXDDD
+DNXNN
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+NDDDX
+DXDDD
+DNNNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+DXNDN
+DNDDD
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDNXD
+DXDDD
+DNXDN
+DDNNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NNNNN
+NDNXD
+NDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NNNNN
+NDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NNNNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+NDNDX
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+NDNDN
+DNNNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+DNNNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNXD
+DNNNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+NDNND
+DNNXN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+DNNXN
+DDNND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NXDDD
+DNNNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NNNNN
+NDNXD
+NDNDX
+DXDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NNNNN
+NDNXD
+DXDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NNNNN
+DXDDD
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NNDDD
+NDNXD
+NDNDX
+DXNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXNNN
+DNDDD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDDD
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNXD
+NDNDN
+DXDDD
+DNNNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNXD
+DXNNN
+DNDDD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNXD
+DXDDD
+DNNNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNXD
+DXDDD
+DNNNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+NDNND
+DXDDD
+DNNXN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXNNN
+DNDDD
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXNNN
+DNDDD
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNXNN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNXNN
+DDXXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNXNN
+DDXXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNXNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNNNN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNNNN
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+XDDDX
+DXDDD
+DNNNN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXNN
+NDDDX
+DXNDN
+DNDDD
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXNN
+NDDDX
+DXDDD
+DNNDN
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXNN
+NDDDN
+DXDDD
+DNNDX
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXNN
+DXNDN
+DNDDD
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXNN
+DXDDD
+DNNDN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXNN
+DXDDD
+DNNDN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXDN
+DXDDD
+DNNXN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXDN
+DXDDD
+DNNXN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXDN
+DXDDD
+DNNNN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDXDN
+DXDDD
+DNNNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDNXD
+DXNDN
+DNDDD
+DDNXX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDNXD
+DXDDD
+DNNDN
+DDNXX
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDNNN
+NDDDX
+DXDDD
+DNXDN
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDDDX
+DXNNN
+DNDDD
+DDXDN
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDDDX
+DXDDD
+DNXNN
+DDNXD
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+XDDXD
+NDDDX
+DXDDD
+DNNNN
+DDXDN
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+NDXNN
+NDDXD
+DXNXD
+DXDDD
+DNNDN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+NDNXN
+NDDND
+DXNXD
+DXDDD
+DNXDN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDNN
+NDNNN
+NDDXD
+DXNXD
+DXDDD
+DNXDN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDNDX
+NDXND
+NDDXN
+DXNNN
+DNDDD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDNDX
+NDXND
+NDDXN
+DXDDD
+DNNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDNDX
+NDXND
+NDDNN
+DXDDD
+DNNXN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDNDX
+NDDXN
+NDDDD
+DXNND
+DNDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NNNNN
+NDXND
+DXDDD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NNNNN
+DXDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXNND
+DNDDD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXNND
+DNDDD
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXDDD
+DNNXD
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXDDD
+DNNXD
+DDXDX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXDDD
+DNNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXDDD
+DNNND
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXDDD
+DNNND
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXNN
+DXDDD
+DNNND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXND
+DXDDD
+DNNNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXND
+DXDDD
+DNNNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDXND
+DXDDD
+DNNNN
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDNDX
+DXNND
+DNDDD
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+NDNDX
+DXDDD
+DNNXD
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+DXNNN
+DNDDD
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+DXDDD
+DNXNN
+DDNXD
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+XDDDX
+DXDDD
+DNNNN
+DDXND
+DDNDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+NDXND
+NDDDX
+DXNDX
+DXDDD
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDND
+NDXND
+NDDDN
+DXNDX
+DXDDD
+DNDXN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDNDX
+NNNNN
+NDDXD
+NDDDX
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDNDX
+NNNNN
+DXDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDNDX
+NDDXD
+NDDDX
+DXNNN
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDNDX
+NDDXD
+NDDDX
+DXDNN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDNDX
+NDDXD
+NDDDN
+DXNNN
+DNDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NNNNN
+NDNDX
+NDDXD
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NNNNN
+NDNDX
+DXDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NNNNN
+NDDXD
+DXDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NNNNN
+DXDNN
+DDNDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDNDX
+NDDXD
+DXNNN
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDNDX
+NDDXD
+DXDNN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDNDX
+NDDND
+DXNNN
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDNDX
+DXNNN
+DNDXN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDNDX
+DXNNN
+DNDNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDNDX
+DXDNN
+DNNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDDXD
+DXNNN
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDDXD
+DXNNN
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+XDDDX
+NDDXD
+DXDNN
+DNNNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNNN
+DXDDX
+DDNDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNNN
+DXDDX
+DDNDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNNN
+DXDDX
+DDNDN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DXDDN
+DDNXX
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DXDDN
+DDNXX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DXDDN
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DXDDN
+DDNNX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DXDDN
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DXDDN
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDX
+DNDDN
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDN
+DXDDX
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDN
+DXDDX
+DDNNX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDN
+DXDDX
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXNDN
+DXDDX
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXDDX
+DNNNN
+DDNDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDXD
+DXDDN
+DNNNN
+DDNDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDNXD
+NDDND
+DXNDN
+DXDDX
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NNNNN
+NDNXD
+NDNDX
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NNNNN
+NDNXD
+DXDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NNNNN
+DXDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXNNN
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDNN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NDNXD
+DXNNN
+DNDNX
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NDNXD
+DXNNN
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+NDNXD
+DXDNN
+DNNNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+DXNNN
+DNDXN
+DDNND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+DXNNN
+DNDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+XDDDX
+DXDNN
+DNNNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXN
+DXNDN
+DXDDX
+DDNND
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXD
+DXNNN
+DXDDX
+DDNDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNXD
+DXDDX
+DNNNN
+DDNDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XNDDD
+XDDXD
+NDNNX
+DXDDX
+DNNDN
+DDNXD
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDNDN
+XDDDX
+NNNNN
+DXDDD
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDNDN
+XDDDX
+NNDDD
+DXNNN
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDNDN
+XDDDX
+DXDDD
+DNNNN
+DNDNX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDDDX
+NNNNN
+DXDDD
+DNDNX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDDDX
+NNNNN
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDDDN
+NNNNN
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDDDN
+DXNDN
+DNDNX
+DNDDD
+DDXNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNXD
+XDDDN
+DXDDD
+DNXDN
+DNDNX
+DDNNN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNNN
+XDDXD
+DXNDN
+DNDXN
+DNDDD
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNNN
+XDDXD
+DXDDD
+DNXDN
+DNDXN
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNNN
+XDDXD
+DXDDD
+DNXDN
+DNDNN
+DDNXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNNN
+NNDDD
+NDDXN
+DXNND
+DXDXD
+DXDDX
+DNNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNNN
+NDDXN
+NDDDD
+DXNND
+DXDXD
+DXDDX
+DNNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDXD
+XDDDX
+NNNNN
+NDNDX
+DXDDD
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDXD
+XDDDX
+NNNNN
+DXDDD
+DNDXN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDXD
+XDDDX
+NDNDX
+DXDDD
+DNNXN
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDXD
+XDDDX
+NDNDX
+DXDDD
+DNNNN
+DNDXN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDXD
+NNDDD
+DXNDN
+DXDDX
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDDX
+NNNNN
+DXDDD
+DNDNX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDNND
+XDDDX
+NNNNN
+DXDDD
+DNDNX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDXN
+XDDDD
+NNNNN
+DXDXD
+DXDDX
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDXN
+XDDDD
+NNNNN
+DXDXD
+DXDDX
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDXN
+XDDDD
+NNNNN
+DXDXD
+DXDDX
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDXD
+XDDDX
+NNNNN
+DXDDD
+DNDXN
+DDXXD
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDXD
+XDDDX
+NNNNN
+DXDDD
+DNDXN
+DDXXD
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDXD
+XDDDX
+NNNNN
+DXDDD
+DNDXN
+DDXND
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXNDD
+XDDNN
+NNNNN
+NDXXD
+DXDDD
+DNXDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+NNDDN
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+NNDDN
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+NNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+NDXDN
+NDDXN
+DNDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+NDXDN
+DNDDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXNND
+DNDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NNNND
+NDXDN
+NDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NNNND
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+NDDXN
+DNNND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+DNNXD
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+DNNND
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+DNXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NXDDN
+DNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+NNNND
+DXDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DXDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DNDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXNND
+DNDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXDDX
+DNNND
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXDDX
+DNNND
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXDDX
+DNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+XDDXD
+DXDDN
+DNNND
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNND
+DXDDX
+DDXDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNND
+DXDDX
+DDXDN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNND
+DNXDN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNND
+DNDDX
+DDXDN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNDN
+DXDXD
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNDN
+DXDXD
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNDN
+DXDXD
+DDNND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXNDN
+DNDND
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXDXD
+DNNDN
+DDXXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXDXD
+DNNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXDND
+DNNDN
+DDXND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXN
+DXDND
+DNDDX
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXD
+NDDDX
+DXNND
+DNXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDXD
+DXDDN
+DNNND
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+NDDNN
+DXNND
+DNXDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+XDXDD
+DXDND
+DNDDX
+DDXND
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNNN
+NDXND
+NDNDN
+DXXDD
+DXDND
+DNDDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+NNDXN
+NDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+NNDXN
+NDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+NNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+NNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+NNDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NXNDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+NNNDN
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+XDDDX
+DXNDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDXNN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDXNN
+NDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDNNN
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDDDX
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+NDDDN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDNN
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NNDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NDDDX
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NDDDX
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+NDDDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+DNDXN
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXNDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NNNNN
+NDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+NDDXN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+NDDNN
+DNNXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+NDXDN
+DNNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+DNXNN
+DDNDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NXDDN
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NNNNN
+DXDDN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NNNDN
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NNDDN
+DXNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NDDDX
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NDDDX
+DXNDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+NDDDN
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNNN
+DXDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNNN
+DNDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNNN
+DNDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNDN
+DNDXN
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXNDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXDDX
+DNNNN
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXDDX
+DNNNN
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+XDDXD
+DXDDX
+DNNNN
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDXNN
+NDDND
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDXNN
+NDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDXNN
+NDDDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDDND
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDDND
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+NDDDX
+DDXNN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDXN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDNN
+NDXNN
+NDDXD
+NDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDNN
+NDXNN
+NDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDNN
+NDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDNN
+NDDXD
+NDDDX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDNN
+NDDXD
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDXNN
+NDDXD
+NDDDX
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDXNN
+NDDXD
+DNDNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDXNN
+DNDNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDDXD
+NDDDX
+DNXNN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDDXD
+NDDDX
+DNDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDDXD
+NDDDN
+DNDNX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDDXD
+DNDNX
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDDXD
+DNDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+NDDND
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+DNDXN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXNDN
+DNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXDNN
+NDXNN
+DNDDX
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXDNN
+NDNXN
+DNDDX
+DDXDN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXDNN
+NDNNN
+NDDXD
+DNDDX
+DDXDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXDNN
+NDNNN
+DNDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NXDNN
+DXDDX
+DDXNN
+DDNDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NNNDN
+NDDXD
+NDDDX
+DXDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NNNDN
+NDDXD
+DXDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NNNDN
+DXDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXN
+DXNNN
+DXDDX
+DDXDX
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXN
+DXNNN
+DNDDX
+DDXDN
+DDDND
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXD
+NDDDX
+DXNDN
+DNDNN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXD
+NDDDN
+DXNDN
+DNDNX
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXD
+DXNNN
+DNDDX
+DDXDN
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXD
+DXNDN
+DNDNX
+DDXNN
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXD
+DXNDN
+DNDNN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDXD
+DXDDN
+DNNNN
+DDXDN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXNNN
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXNNN
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXNNN
+DXDDX
+DDNDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXNNN
+DNDDN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXDDX
+DNNNN
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXDDX
+DNNNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNX
+DXDDN
+DNNNN
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNN
+DXNNN
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNN
+DXNNN
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDNN
+DXNNN
+DNDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDND
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDND
+DXDNN
+DXDDX
+DDXNN
+DDXDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+NDDND
+DXDNN
+DXDDX
+DDXNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+DXNDN
+DNDXN
+DDXNN
+DDDND
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDXDD
+DXNDN
+DNDNN
+DDXNN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDDDX
+NDXNN
+NDNDD
+DXNDN
+DNDXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDDDX
+NDXNN
+NDDXD
+DXNDD
+DNDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDDDX
+NDXDD
+NDNNN
+DXNDN
+DNDXD
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDDDX
+NDNDX
+DXNDD
+DXDXD
+DDNXN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDDDX
+NDNDX
+DXNDD
+DXDXD
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNND
+XDDDX
+NDNDX
+DXNDD
+DXDXD
+DDNNN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+NNNNN
+NDNXD
+NDNDX
+DXDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+NNNNN
+NDNXD
+DXDNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+NNNNN
+DXDNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXNNN
+DNDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+NDNDX
+DXDNN
+DNNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+NDNXD
+DXDNN
+DNNNN
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+XDDDX
+DXDNN
+DNNNN
+DDNXD
+DDNDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNX
+DDDNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNN
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+NDNXD
+DXNDN
+DXDDX
+DDNNN
+DDDNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XNNDD
+XDDXD
+NDNXD
+DXDDX
+DNNNN
+DDNDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+XDDDX
+NNNND
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+XDDDN
+DXNND
+DNXDN
+DNDXN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+NNNNN
+DXNND
+DXDDX
+DDXDX
+DDDXX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+NNNNN
+DXNND
+DXDDX
+DDXDX
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+NNNNN
+DXNND
+DXDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+NNNNN
+DXNND
+DNDDX
+DDXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+NNNND
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+DXNND
+DNXDN
+DNDXN
+DDNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDXD
+DXNND
+DNXDN
+DNDXN
+DDNNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+NNNNN
+DXNND
+DXDDX
+DDXDX
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+NNNNN
+DXNND
+DXDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+NNNNN
+DXNND
+DNXDN
+DDDXD
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+NNNNN
+DXNND
+DNDDX
+DDXDN
+DDDXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+NNNNN
+DXDND
+DNDDX
+DDXDN
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+DXNNN
+DNDXD
+DNDDX
+DDXND
+DDNDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDNN
+DXDND
+DNNNN
+DNDDX
+DDXDN
+DDNXD
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+NNNNN
+NDDDX
+DXNND
+DNXDN
+DDDXN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+NNNND
+NDDDX
+DXNDN
+DNDXN
+DDXNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+NNNND
+DXNDN
+DNDXN
+DDXNN
+DDDDX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+NDDDX
+DXNND
+DNXDN
+DNDXN
+DDNNN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+NDDDN
+DXNND
+DNXDN
+DNDXN
+DDNNX
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+DXNND
+DNXDN
+DNDXN
+DDNNX
+DDDDN
+[ELB samples = 5 patterns = 8]
+XXDDD
+XDXDD
+XDDND
+DXNND
+DNXDN
+DNDXN
+DDNNN
+DDDDX

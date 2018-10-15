@@ -1,0 +1,25 @@
+[NCS = NCD6]
+[Deuterated = False]
+[ELB samples = 1 patterns = 2]
+N
+D
+[ELB samples = 2 patterns = 3]
+XN
+CD
+DC
+[ELB samples = 2 patterns = 3]
+XD
+CN
+DC
+[ELB samples = 2 patterns = 3]
+NN
+CD
+DC
+[ELB samples = 2 patterns = 3]
+NC
+CN
+DD
+[ELB samples = 2 patterns = 3]
+NC
+CD
+DN
