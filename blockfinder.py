@@ -25,10 +25,12 @@ def run_blockfinder_once(parameters, logger, elb_logger):
     ncs = parameters["ncs"]
     samples = parameters["samples"]
     min_depth = parameters["min_patterns"]
+    min_t_free_value = parameters["min_t_free"]
 
     elb_logger.info(write_ncs_stamp(ncs))
     all_blocks = {}
-    block_finder = BlockFinder(samples, ncs, min_depth,  logger, elb_logger, block_finder_mode=True)
+    block_finder = BlockFinder(samples, ncs, min_depth,  logger, elb_logger,
+                               block_finder_mode=True, min_t_free = min_t_free_value)
     block_finder.find()
     result = block_finder.result
     all_blocks.update({samples: result})
@@ -69,6 +71,8 @@ def get_args():
     parser.add_argument('--silent', '-s',
                         help='No output to console (overrides verbosity)',
                         action="store_true")
+    parser.add_argument("--mintfree", "-t", dest = "min_t_free",
+                        help='Required number of patterns without \"T\" labeling type in ELB', default=-1, type=int)
     return parser.parse_args()
 
 
@@ -90,11 +94,25 @@ def get_params(args, logger):
         min_patterns = args.minpatterns
         exact_patterns = True
 
+    min_t_free = -1
+    check_t_free = False
+    if args.min_t_free:
+        if args.min_t_free >=0:
+            min_t_free = args.min_t_free
+            check_t_free = True
+        else:
+            min_t_free = -1
+
+    if check_t_free:
+        exact_patterns = True
+
     params = {
         "ncs": ncs,
         "samples": samples,
         "exact_patterns": exact_patterns,
         "min_patterns": min_patterns,
+        "check_t_free":check_t_free,
+        "min_t_free":min_t_free,
         "verbose": args.verbose,
         "silent": args.silent
     }

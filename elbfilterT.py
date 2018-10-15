@@ -1,13 +1,13 @@
 #!/usr/bin/python3 -u
 
-from classes.search_objects import ProductFinder
 from classes.ucsl_io import make_block_stats, add_to_file_name, write_blocks, read_blocks
 from elbclean import clear_empty_block_types
-from classes.constants import Constants
+from classes.constants import Constants, Pattern
 import argparse
 import os
 
 LOG_ITERATION = 100000
+index_of_typeT = Pattern.index_of_type(Constants.typeT)
 
 def filterT_blocks(blocks, min_t_free, verbose_output):
     iter = 0
@@ -23,7 +23,7 @@ def filterT_blocks(blocks, min_t_free, verbose_output):
                 iter += 1
                 if iter % LOG_ITERATION == 0:
                     print("filterT blocks checked {}/{}".format(iter, total_blocks))
-                have_t, have_no_t = count_T(block)
+                have_t, have_no_t = count_typeT(block)
                 output = "have_t = {:2} have_no_t = {:2}, ".format(have_t, have_no_t)
                 if have_no_t >= min_t_free:
                     output += "APPEND block"
@@ -41,27 +41,15 @@ def filterT_blocks(blocks, min_t_free, verbose_output):
     print("Filtered {}/{} blocks by T labeling, min_t_free = {}".format(filtered_blocks, total_blocks, min_t_free))
     return clear_empty_block_types(blocks)
 
-def count_T(block):
-    block_simplified = block.simplified
-    index_of_T = 5
-    try:
-        index_of_T = Constants.BASIC_TYPES.index(Constants.typeT)
-    except:
-        print("Internal error: labeling type \"T\" (typeT) is not found in Constants.BASIC_TYPES. Exiting.")
-        exit(-1)
-    count_t= 0
-    count_all = len(block.patterns)
-    for simple_pattern, pattern_count in block_simplified.items():
-        count_t += int(simple_pattern[index_of_T])*pattern_count
-    return count_t, count_all - count_t
-
+def count_typeT(block):
+    return Pattern.count_type_in_list_of_simplified(block.simplified, index_of_typeT)
 
 def read_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("elb_files", help='Specify ELB file(s)', type=str, nargs='+')
     parser.add_argument("-o", dest="output_file", help='Specify output file (optional)', default="", type=str)
     parser.add_argument("--verbose", "-v", dest="verbose", help='verbose output', action = "store_true")
-    parser.add_argument("--min_t_free", "-t", dest = "min_t_free",
+    parser.add_argument("--mintfree", "-t", dest = "min_t_free",
                         help='Required number of patterns without \"T\" labeling type in ELB', default=16, type=int)
     args = parser.parse_args()
     for file in args.elb_files:

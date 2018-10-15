@@ -19,6 +19,7 @@ class Scheme:
         self.samples = samples
         self.good = self.check_codes()
         self.simplified = {}
+        self.simplified_str = ""
         self.simplify()
         self.new_codes = set()
         self.precursor_schemes = []
@@ -108,25 +109,10 @@ class Scheme:
             self.add_pattern(pattern)
 
     def simplify(self):
-        self.simplified = {}
-        for pattern in self.patterns:
-            simple_pattern = Pattern.simplify_pattern(pattern)
-            if self.simplified != {} and simple_pattern in self.simplified:
-                self.simplified[simple_pattern] += 1
-            else:
-                self.simplified.update({simple_pattern: 1})
-
-    def __eq__(self, scheme):
-        return self.simplified == scheme.simplified
-
-    def simplified_str(self):
-        out = []
-        for simple_pattern in self.simplified:
-            out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
-        return ",".join(out)
+        self.simplified, self.simplified_str = Pattern.simplify_list_of_patterns(self.patterns)
 
     def __hash__(self):
-        return(hash(self.simplified_str(self)))
+        return(hash(self.simplified_str))
 
     def copy(self):
         return Scheme(copy.copy(self.name), copy.copy(self.ncs),
@@ -544,9 +530,14 @@ class PriceOptimizer:
 
 class BlockFinder:
 
-    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False):
+    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False, min_t_free = -1):
         self.samples = samples
         self.block_finder_mode = block_finder_mode
+        self.min_t_free = min_t_free
+        self.check_t_free = False
+        if min_t_free >=0:
+            self.check_t_free = True
+        self.index_of_type_T = Pattern.index_of_type(Constants.typeT)
         self.ncs = ncs
         self.min_depth = min_depth
         self.scheme = Scheme("1", self.ncs, samples, [])
@@ -573,7 +564,11 @@ class BlockFinder:
             self.min_depth = 2
         self.timer = time.time()
 
-        out = "[BlockFinder{}] started new search in {} samples with min_depth={}".format(
+        if self.check_t_free:
+            out = "[BlockFinder{}] started new search in {} samples with min_depth={}, min_t_free = {}".format(
+                  self.samples, self.samples, self.min_depth, self.min_t_free)
+        else:
+            out = "[BlockFinder{}] started new search in {} samples with min_depth={}".format(
                   self.samples, self.samples, self.min_depth)
         self.logger.info(out)
         out = "[BlockFinder{}] total number of patterns is {}".format(
@@ -598,6 +593,11 @@ class BlockFinder:
             if patterns_left < self.min_depth - self.depth - 1:
                 self.go_back()
                 continue
+
+            if self.check_t_free:
+                if not self.check_have_enought_t_free(self.scheme, patterns_left):
+                    self.go_back()
+                    continue
 
             if patterns_left == 0:
                 if len(self.scheme.patterns) >= self.min_depth:
@@ -632,6 +632,11 @@ class BlockFinder:
             if self.block_finder_mode:
                 out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
                 self.logger.info(out)
+
+    def check_have_enought_t_free(self, scheme, patterns_left):
+        (scheme_t, scheme_t_free) = Pattern.count_type_in_list_of_simplified(scheme.simplified, self.index_of_type_T)
+        (left_t,  left_t_free) =    Pattern.count_type_in_list_of_patterns(patterns_left, Constants.typeT)
+        return ( scheme_t_free + left_t_free >= self.min_t_free )
 
     def get_next_patterns(self, patterns, patterns_left, start_point):
         next_patterns = []

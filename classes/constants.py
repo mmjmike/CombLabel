@@ -181,17 +181,7 @@ class ELB:
                  + str(self)
 
     def simplify(self):
-        self.simplified = {}
-        for pattern in self.patterns:
-            simple_pattern = Pattern.simplify_pattern(pattern)
-            if self.simplified != {} and simple_pattern in self.simplified:
-                self.simplified[simple_pattern] += 1
-            else:
-                self.simplified.update({simple_pattern: 1})
-        out = []
-        for simple_pattern in sorted(self.simplified.keys()):
-            out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
-        self.simplified_str = ",".join(out)
+        self.simplified, self.simplified_str = Pattern.simplify_list_of_patterns(self.patterns)
 
     def __mul__(self, other):
         new_patterns = []
@@ -408,6 +398,20 @@ class Pattern:
         result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
         return result
 
+    def simplify_list_of_patterns(list_of_patterns):
+        simplified = {}
+        for pattern in list_of_patterns:
+            simple_pattern = Pattern.simplify_pattern(pattern)
+            if simplified != {} and simple_pattern in simplified:
+                simplified[simple_pattern] += 1
+            else:
+                simplified.update({simple_pattern: 1})
+        out = []
+        for simple_pattern in sorted(simplified.keys()):
+            out.append(simple_pattern + ":" + str(simplified[simple_pattern]))
+        simplified_str = ",".join(out)
+        return simplified, simplified_str
+
     def first_scheme_subset(scheme_1, scheme_2):
         for pattern in scheme_1:
             if pattern not in scheme_2:
@@ -416,4 +420,25 @@ class Pattern:
                 return False
         return True
 
+    def count_type_in_list_of_patterns(patterns, type):
+        simplified, simplified_str = self.simplify_list_of_patterns(patterns)
+        index_of_t = self.index_of_type(type)
+        return self.count_type_in_list_of_simplified(simplified, index_of_t)
+
+    def index_of_type(type):
+        index_of_t = -1
+        try:
+            index_of_t = Constants.BASIC_TYPES.index(type)
+        except:
+            print("Internal error: labeling type \"{}\" is not found in Constants.BASIC_TYPES. Exiting.".fromat(type.name))
+            exit(-1)
+        return index_of_t
+
+    def count_type_in_list_of_simplified(simplified, index_of_type):
+        count_type = 0
+        count_all  = 0
+        for simple_pattern, pattern_count in simplified.items():
+            count_type += int(simple_pattern[index_of_type]) * pattern_count
+            count_all  += pattern_count
+        return count_type, count_all - count_type
 
