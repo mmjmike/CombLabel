@@ -1,7 +1,7 @@
 
 #############################################################################
 #                                                                           #
-#        UCSL (Version 1.0.0)- Calculation of Universal                     #
+#        UCSL (Version 1.0.1)- Calculation of Universal                     #
 #        Combinatorial Labeling Schemes for Fast NMR Protein                #
 #        Assignment.                                                        #
 #                                                                           #
@@ -15,49 +15,60 @@
 [ELB samples = 1 patterns = 2]
 N
 D
+
 [ELB samples = 2 patterns = 3]
 XN
 CD
 DC
+
 [ELB samples = 2 patterns = 3]
 XD
 CN
 DC
+
 [ELB samples = 2 patterns = 3]
 NN
 ND
 DN
+
 [ELB samples = 2 patterns = 4]
 NN
 ND
 DN
 DD
+
 [ELB samples = 2 patterns = 3]
 NN
 ND
 DD
+
 [ELB samples = 2 patterns = 3]
 NN
 CD
 DC
+
 [ELB samples = 2 patterns = 3]
 NC
 CN
 DD
+
 [ELB samples = 2 patterns = 3]
 NC
 CD
 DN
+
 [ELB samples = 2 patterns = 3]
 ND
 DN
 DD
+
 [ELB samples = 3 patterns = 5]
 XNN
 XND
 CDN
 CDD
 DCN
+
 [ELB samples = 3 patterns = 6]
 XNN
 XND
@@ -65,30 +76,35 @@ CDN
 CDD
 DCN
 DCD
+
 [ELB samples = 3 patterns = 5]
 XNN
 XND
 CDN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 5]
 XNN
 XND
 CDN
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XNN
 XND
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 CDN
 DNC
+
 [ELB samples = 3 patterns = 6]
 XNN
 XDD
@@ -96,6 +112,7 @@ CND
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 XNN
 XDD
@@ -103,12 +120,14 @@ CND
 CDN
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 CDN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XNN
 XDD
@@ -116,6 +135,7 @@ CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 6]
 XNN
 XDD
@@ -123,6 +143,7 @@ CND
 DNC
 DCD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XNN
 XDD
@@ -130,42 +151,49 @@ CND
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 DNC
 DDX
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 DCD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 XDD
 CND
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XNN
 NND
 CDN
 CDD
 DCN
+
 [ELB samples = 3 patterns = 6]
 XNN
 NND
@@ -173,30 +201,35 @@ CDN
 CDD
 DCN
 DCD
+
 [ELB samples = 3 patterns = 5]
 XNN
 NND
 CDN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 5]
 XNN
 NND
 CDN
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XNN
 NND
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 NDC
 CND
 CDN
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -204,6 +237,7 @@ NDC
 CND
 CDN
 DNC
+
 [ELB samples = 3 patterns = 7]
 XNN
 NCD
@@ -212,6 +246,7 @@ CND
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 8]
 XNN
 NCD
@@ -221,6 +256,7 @@ CDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 7]
 XNN
 NCD
@@ -229,6 +265,7 @@ CND
 CDN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -236,6 +273,7 @@ NDC
 CND
 CDN
 DDD
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -243,24 +281,28 @@ NDC
 CND
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 NDC
 CND
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 NDC
 CND
 DDD
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 NDC
 CDD
 DNC
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -268,6 +310,7 @@ NDC
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -275,12 +318,14 @@ NDC
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 NDC
 CDD
 DND
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -288,18 +333,21 @@ NDC
 CDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 NDC
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 CND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 6]
 XNN
 NCD
@@ -307,30 +355,35 @@ CDD
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 CDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 CDD
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 XNN
 NCD
 CDD
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CNN
 CDD
 DNC
+
 [ELB samples = 3 patterns = 6]
 XND
 XDN
@@ -338,6 +391,7 @@ CNN
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 XND
 XDN
@@ -345,12 +399,14 @@ CNN
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CNN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 XDN
@@ -358,12 +414,14 @@ CNN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CNN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 XND
 XDN
@@ -371,18 +429,21 @@ CNN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CNN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CDD
 DXN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 XDN
@@ -390,12 +451,14 @@ CDD
 DXN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 XDN
@@ -403,36 +466,42 @@ CDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CNN
 CDN
 DNC
+
 [ELB samples = 3 patterns = 6]
 XND
 XDD
@@ -440,48 +509,56 @@ CNN
 CDN
 DNC
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CNN
 CDN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CNN
 DNC
 DDX
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CNN
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CDN
 DNX
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CDN
 DNN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 XDD
 CDN
 DNC
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 NNN
 CDN
 CDD
 DCN
+
 [ELB samples = 3 patterns = 6]
 XND
 NNN
@@ -489,30 +566,35 @@ CDN
 CDD
 DCN
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 NNN
 CDN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 NNN
 CDN
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NNN
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CNN
 CDD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -520,6 +602,7 @@ NDC
 CNN
 CDD
 DNC
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -528,6 +611,7 @@ CNN
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 8]
 XND
 NCN
@@ -537,6 +621,7 @@ CDD
 DNC
 DCD
 DDX
+
 [ELB samples = 3 patterns = 8]
 XND
 NCN
@@ -546,6 +631,7 @@ CDD
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -554,6 +640,7 @@ CNN
 CDD
 DNC
 DDX
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -562,6 +649,7 @@ CNN
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -569,6 +657,7 @@ NDC
 CNN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -577,6 +666,7 @@ CNN
 CDD
 DCD
 DDX
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -585,6 +675,7 @@ CNN
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -592,6 +683,7 @@ NDC
 CNN
 CDD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -599,12 +691,14 @@ NDC
 CNN
 CDD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CNN
 DNC
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -612,6 +706,7 @@ NDC
 CNN
 DNC
 DDX
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -619,6 +714,7 @@ NDC
 CNN
 DNC
 DDN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -626,30 +722,35 @@ NDC
 CNN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CNN
 DDX
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CNN
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDN
 DNN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -657,6 +758,7 @@ NDC
 CDN
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -664,12 +766,14 @@ NDC
 CDN
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDN
 DNC
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -677,6 +781,7 @@ NDC
 CDN
 DNC
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -684,24 +789,28 @@ NDC
 CDN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDN
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDD
 DNN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -709,6 +818,7 @@ NDC
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -716,6 +826,7 @@ NDC
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -724,6 +835,7 @@ CDD
 DNC
 DCD
 DDX
+
 [ELB samples = 3 patterns = 7]
 XND
 NCN
@@ -732,6 +844,7 @@ CDD
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -739,12 +852,14 @@ NDC
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDD
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -752,6 +867,7 @@ NDC
 CDD
 DCD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -759,30 +875,35 @@ NDC
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 CDD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 NDC
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CNN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -790,6 +911,7 @@ CNN
 CDD
 DCD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -797,6 +919,7 @@ CNN
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -804,30 +927,35 @@ CNN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CNN
 CDD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CNN
 CDD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CNN
 DDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NCN
@@ -835,30 +963,35 @@ CDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CDD
 DCD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NCN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 NDN
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NDN
@@ -866,36 +999,42 @@ CDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 NDN
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 5]
 XND
 NDN
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 NDN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XND
 NDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 XND
 NDC
@@ -903,36 +1042,42 @@ CDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDN
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDD
 DNX
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDD
 DNN
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 6]
 XND
 NDC
@@ -940,6 +1085,7 @@ CDD
 DNC
 DCD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XND
 NDC
@@ -947,36 +1093,42 @@ CDD
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDD
 DCD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XND
 NDC
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XND
 NDD
 CNN
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 CDN
 DNC
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNN
@@ -984,6 +1136,7 @@ CND
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNN
@@ -991,12 +1144,14 @@ CND
 CDN
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 CDN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNN
@@ -1004,6 +1159,7 @@ CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNN
@@ -1011,6 +1167,7 @@ CND
 DNC
 DCD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNN
@@ -1018,42 +1175,49 @@ CND
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 DNC
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 DCD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNN
 CND
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CNN
 DXD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1061,6 +1225,7 @@ NCN
 CNN
 DXD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1068,6 +1233,7 @@ NCN
 CNN
 DXD
 DDN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1075,12 +1241,14 @@ NCN
 CNN
 DXD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CNN
 DND
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1088,6 +1256,7 @@ NCN
 CNN
 DND
 DDN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1095,12 +1264,14 @@ NCN
 CNN
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1108,12 +1279,14 @@ NCN
 CNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CND
 CDN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1121,6 +1294,7 @@ NCN
 CND
 CDN
 DNN
+
 [ELB samples = 3 patterns = 7]
 XDD
 NNC
@@ -1129,6 +1303,7 @@ CND
 CDN
 DNN
 DCD
+
 [ELB samples = 3 patterns = 8]
 XDD
 NNC
@@ -1138,6 +1313,7 @@ CDN
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1145,6 +1321,7 @@ NCN
 CND
 CDN
 DCD
+
 [ELB samples = 3 patterns = 7]
 XDD
 NNC
@@ -1153,12 +1330,14 @@ CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CND
 DNN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1166,6 +1345,7 @@ NCN
 CND
 DNN
 DCD
+
 [ELB samples = 3 patterns = 7]
 XDD
 NNC
@@ -1174,12 +1354,14 @@ CND
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CND
 DCD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1187,6 +1369,7 @@ NCN
 CND
 DCD
 DDX
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1194,6 +1377,7 @@ NCN
 CND
 DCD
 DDN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1201,42 +1385,49 @@ NCN
 CND
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CND
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 CND
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DXD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DXD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DXD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1244,30 +1435,35 @@ NCN
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 NCN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 CDN
 DNN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1275,6 +1471,7 @@ CND
 CDN
 DNN
 DCD
+
 [ELB samples = 3 patterns = 7]
 XDD
 NNC
@@ -1283,12 +1480,14 @@ CDN
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 CDN
 DCN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1296,12 +1495,14 @@ CND
 CDN
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 CDN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1309,12 +1510,14 @@ CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1322,42 +1525,49 @@ CND
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 DNN
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 DNN
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 DCD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CND
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CDN
 DXD
 DCN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1365,12 +1575,14 @@ CDN
 DXD
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 CDN
 DND
 DCN
+
 [ELB samples = 3 patterns = 6]
 XDD
 NNC
@@ -1378,24 +1590,28 @@ CDN
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NNC
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NND
 CDN
 DNN
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 NND
 CDN
 DNC
 DDC
+
 [ELB samples = 3 patterns = 6]
 XDD
 CND
@@ -1403,48 +1619,56 @@ CDN
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 CND
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 5]
 XDD
 CND
 CDN
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 XDD
 CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 CND
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 XDD
 CND
 DNC
 DCD
 DDX
+
 [ELB samples = 3 patterns = 5]
 XDD
 CND
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 NDN
 NDD
 DNN
+
 [ELB samples = 3 patterns = 6]
 NNN
 NND
@@ -1452,6 +1676,7 @@ NDN
 NDD
 DNN
 DND
+
 [ELB samples = 3 patterns = 7]
 NNN
 NND
@@ -1460,6 +1685,7 @@ NDD
 DNN
 DND
 DDN
+
 [ELB samples = 3 patterns = 8]
 NNN
 NND
@@ -1469,6 +1695,7 @@ DNN
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 7]
 NNN
 NND
@@ -1477,6 +1704,7 @@ NDD
 DNN
 DND
 DDD
+
 [ELB samples = 3 patterns = 6]
 NNN
 NND
@@ -1484,12 +1712,14 @@ NDN
 NDD
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 NDN
 NDD
 DND
+
 [ELB samples = 3 patterns = 6]
 NNN
 NND
@@ -1497,6 +1727,7 @@ NDN
 NDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 7]
 NNN
 NND
@@ -1505,6 +1736,7 @@ NDD
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 6]
 NNN
 NND
@@ -1512,24 +1744,28 @@ NDN
 NDD
 DND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 NDN
 NDD
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 NDN
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 NDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 6]
 NNN
 NND
@@ -1537,18 +1773,21 @@ NDD
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 NDD
 DND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 CDN
 CDD
 DCN
+
 [ELB samples = 3 patterns = 6]
 NNN
 NND
@@ -1556,30 +1795,35 @@ CDN
 CDD
 DCN
 DCD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 CDN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 CDN
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NND
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 CND
 CDN
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1587,6 +1831,7 @@ NDC
 CND
 CDN
 DNC
+
 [ELB samples = 3 patterns = 7]
 NNN
 NCD
@@ -1595,6 +1840,7 @@ CND
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 8]
 NNN
 NCD
@@ -1604,6 +1850,7 @@ CDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 7]
 NNN
 NCD
@@ -1612,6 +1859,7 @@ CND
 CDN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1619,6 +1867,7 @@ NDC
 CND
 CDN
 DDD
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1626,24 +1875,28 @@ NDC
 CND
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 CND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 CND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 CDD
 DNC
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1651,6 +1904,7 @@ NDC
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1658,12 +1912,14 @@ NDC
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 CDD
 DND
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1671,24 +1927,28 @@ NDC
 CDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 NDC
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 CND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 6]
 NNN
 NCD
@@ -1696,30 +1956,35 @@ CDD
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 CDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNN
 NCD
 CDD
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNN
 NDD
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 CNN
 DND
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1727,6 +1992,7 @@ NDD
 CNN
 DND
 DDN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1734,12 +2000,14 @@ NDD
 CNN
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 CNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1747,12 +2015,14 @@ NDD
 CNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 CND
 CDN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1760,6 +2030,7 @@ NDD
 CND
 CDN
 DNN
+
 [ELB samples = 3 patterns = 7]
 NNC
 NCN
@@ -1768,6 +2039,7 @@ CND
 CDN
 DNN
 DCD
+
 [ELB samples = 3 patterns = 8]
 NNC
 NCN
@@ -1777,6 +2049,7 @@ CDN
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1784,6 +2057,7 @@ NDD
 CND
 CDN
 DCD
+
 [ELB samples = 3 patterns = 7]
 NNC
 NCN
@@ -1792,12 +2066,14 @@ CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 CND
 DNN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1805,6 +2081,7 @@ NDD
 CND
 DNN
 DCD
+
 [ELB samples = 3 patterns = 7]
 NNC
 NCN
@@ -1813,12 +2090,14 @@ CND
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 CND
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1826,6 +2105,7 @@ NDD
 CND
 DCD
 DDN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1833,18 +2113,21 @@ NDD
 CND
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 CND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1852,12 +2135,14 @@ NDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 DNN
 DDD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1865,36 +2150,42 @@ NDD
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 NDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CNN
 CDD
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1902,12 +2193,14 @@ CNN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CND
 CDN
 DNN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1915,6 +2208,7 @@ CND
 CDN
 DNN
 DCD
+
 [ELB samples = 3 patterns = 7]
 NNC
 NCN
@@ -1923,6 +2217,7 @@ CDN
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1930,12 +2225,14 @@ CND
 CDN
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CND
 CDN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1943,18 +2240,21 @@ CND
 CDN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CND
 CDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CND
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1962,24 +2262,28 @@ CND
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CND
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CND
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCN
@@ -1987,18 +2291,21 @@ CDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CND
 DNN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2006,6 +2313,7 @@ NDN
 CND
 DNN
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2013,12 +2321,14 @@ NDN
 CND
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CND
 DCN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2026,6 +2336,7 @@ NDN
 CND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2033,24 +2344,28 @@ NDN
 CND
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CND
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CDD
 DNN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2058,12 +2373,14 @@ NDN
 CDD
 DNN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CDD
 DND
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2071,6 +2388,7 @@ NDN
 CDD
 DND
 DCN
+
 [ELB samples = 3 patterns = 7]
 NNC
 NCD
@@ -2079,6 +2397,7 @@ CDD
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2086,6 +2405,7 @@ NDN
 CDD
 DND
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2093,36 +2413,42 @@ NDN
 CDD
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 CDD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 NDN
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CND
 CDN
 DCN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2130,6 +2456,7 @@ CND
 CDN
 DCN
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2137,24 +2464,28 @@ CND
 CDN
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CND
 CDN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CND
 CDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CDN
 DND
 DCN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2162,12 +2493,14 @@ CDN
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CDN
 DND
 DDC
+
 [ELB samples = 3 patterns = 6]
 NNC
 NCD
@@ -2175,30 +2508,35 @@ CDD
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CDD
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NCD
 CDD
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NDN
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NNC
 NDN
@@ -2206,30 +2544,35 @@ CDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NDN
 CDD
 DND
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NDN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NNC
 NDC
 CDN
 DND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NNC
 NDD
 CDN
 DND
 DCN
+
 [ELB samples = 3 patterns = 6]
 NNC
 NDD
@@ -2237,12 +2580,14 @@ CDN
 DND
 DCN
 DDC
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 NDD
 DNN
 DND
+
 [ELB samples = 3 patterns = 6]
 NND
 NDN
@@ -2250,6 +2595,7 @@ NDD
 DNN
 DND
 DDN
+
 [ELB samples = 3 patterns = 7]
 NND
 NDN
@@ -2258,6 +2604,7 @@ DNN
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 6]
 NND
 NDN
@@ -2265,18 +2612,21 @@ NDD
 DNN
 DND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 NDD
 DNN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 NDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 6]
 NND
 NDN
@@ -2284,18 +2634,21 @@ NDD
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 NDD
 DND
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 CDD
 DNN
 DCD
+
 [ELB samples = 3 patterns = 6]
 NND
 NDN
@@ -2303,42 +2656,49 @@ CDD
 DNN
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 CDD
 DCD
 DDC
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDN
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 NND
 NDC
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 6]
 NND
 NDC
@@ -2346,24 +2706,28 @@ CDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDC
 CDN
 DNC
 DCD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDC
 CDN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 NND
 NDC
 CDD
 DNC
 DCD
+
 [ELB samples = 3 patterns = 6]
 NND
 NDC
@@ -2371,30 +2735,35 @@ CDD
 DNC
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 NND
 NDC
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 NND
 NDC
 CDD
 DCD
 DDN
+
 [ELB samples = 3 patterns = 5]
 NND
 NDD
 DND
 DDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NCD
 NDC
 CND
 CDN
 DNC
+
 [ELB samples = 3 patterns = 6]
 NCD
 NDC
@@ -2402,6 +2771,7 @@ CND
 CDN
 DNC
 DCN
+
 [ELB samples = 3 patterns = 7]
 NCD
 NDC
@@ -2410,6 +2780,7 @@ CDN
 DNC
 DCN
 DDD
+
 [ELB samples = 3 patterns = 6]
 NCD
 NDC
@@ -2417,39 +2788,46 @@ CND
 CDN
 DNC
 DDD
+
 [ELB samples = 3 patterns = 5]
 NCD
 NDC
 CND
 CDN
 DDD
+
 [ELB samples = 3 patterns = 5]
 NCD
 NDC
 CND
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 NCD
 NDC
 CDD
 DNC
 DCN
+
 [ELB samples = 3 patterns = 5]
 NCD
 NDC
 CDD
 DNC
 DDN
+
 [ELB samples = 3 patterns = 5]
 NCD
 NDC
 CDD
 DND
 DDN
+
 [ELB samples = 3 patterns = 5]
 NCD
 CDD
 DND
 DCN
 DDC
+

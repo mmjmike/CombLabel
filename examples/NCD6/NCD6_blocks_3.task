@@ -1,6 +1,6 @@
 # use following parameters for this run: -c NCD6_blocks_3.task -o
 job_name NCD6_blocks_3
-price_table ../../BEST_PRICE_1H.csv
+price_table /nfs/to1/maxim/CLU_task_reader/BEST_PRICE_1H.csv
 max_block_size 3
 NCS NCD6
 

@@ -1,0 +1,35 @@
+[NCS = NCD2]
+[Deuterated = False]
+[ELB samples = 2 patterns = 2]
+XN
+ND
+[ELB samples = 2 patterns = 2]
+XN
+DC
+[ELB samples = 2 patterns = 2]
+XN
+DD
+[ELB samples = 2 patterns = 2]
+XD
+NN
+[ELB samples = 2 patterns = 2]
+XD
+DX
+[ELB samples = 2 patterns = 2]
+XD
+DN
+[ELB samples = 2 patterns = 2]
+NN
+CD
+[ELB samples = 2 patterns = 2]
+NC
+CN
+[ELB samples = 2 patterns = 2]
+NC
+DN
+[ELB samples = 2 patterns = 2]
+NC
+DD
+[ELB samples = 2 patterns = 2]
+ND
+DC
