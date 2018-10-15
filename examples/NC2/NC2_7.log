@@ -1,122 +1,28 @@
-
-[Date,Time = 2018-07-11_14:03:16]
-
-#############################################################################
-#                                                                           #
-#        UCSL (Version 1.0.1)- Calculation of Universal                     #
-#        Combinatorial Labeling Schemes for Fast NMR Protein                #
-#        Assignment.                                                        #
-#                                                                           #
-#        In case of using for scientific purpose, please cite our article:  #
-#                                                                           #
-#                                                                           #
-#                                                                           #
-#                                                                           #
-#############################################################################
-
-[Date,Time = 2018-07-11_14:03:16]
-Blocks used:
- 2 X  2 - 1 block(s)
- 3 X  3 - 1 block(s)
- 4 X  4 - 2 block(s)
- 5 X  5 - 4 block(s)
- 5 X  6 - 1 block(s)
- 6 X  7 - 10 block(s)
- 6 X  8 - 2 block(s)
- 6 X  9 - 1 block(s)
- 7 X 10 - 8 block(s)
- 7 X 11 - 1 block(s)
+2018-08-27 12:26:11,336:Searching for products in max_samples=1
+2018-08-27 12:26:11,336:Searching for products in max_samples=2
+2018-08-27 12:26:11,336:Searching for products in max_samples=3
+2018-08-27 12:26:11,336:Searching for products in max_samples=4
+2018-08-27 12:26:11,336:Searching for products in max_samples=5
+2018-08-27 12:26:11,336:Searching for products in max_samples=6
+2018-08-27 12:26:11,336:Searching for products in max_samples=7
+2018-08-27 12:26:11,336:Searching for products in max_samples=8
+2018-08-27 12:26:11,337:Searching for products in max_samples=9
+2018-08-27 12:26:11,428:Blocks used:
+ 2 X   2 - 1 block(s)
+ 3 X   3 - 1 block(s)
+ 4 X   4 - 1 block(s)
+ 5 X   5 - 3 block(s)
+ 6 X   7 - 8 block(s)
+ 7 X  10 - 8 block(s)
+ 7 X  11 - 2 block(s)
 -----------
- 2 X . - 1 block(s)
- 3 X . - 1 block(s)
- 4 X . - 2 block(s)
- 5 X . - 5 block(s)
- 6 X . - 13 block(s)
- 7 X . - 9 block(s)
- TOTAL - 31 blocks
------------
-
-[Date,Time = 2018-07-11_14:03:16]
-Clearing redundant blocks(ELB)
-[Date,Time = 2018-07-11_14:03:16]
-Blocks used:
- 2 X  2 - 1 block(s)
- 3 X  3 - 1 block(s)
- 4 X  4 - 2 block(s)
- 5 X  5 - 3 block(s)
- 5 X  6 - 1 block(s)
- 6 X  7 - 8 block(s)
- 6 X  8 - 1 block(s)
- 6 X  9 - 1 block(s)
- 7 X 10 - 7 block(s)
- 7 X 11 - 1 block(s)
------------
- 2 X . - 1 block(s)
- 3 X . - 1 block(s)
- 4 X . - 2 block(s)
- 5 X . - 4 block(s)
- 6 X . - 10 block(s)
- 7 X . - 8 block(s)
- TOTAL - 26 blocks
------------
-
-[Date,Time = 2018-07-11_14:03:16]
-Clearing product blocks(ELB)
-[Date,Time = 2018-07-11_14:03:16]
-Blocks used:
- 2 X  2 - 1 block(s)
- 3 X  3 - 1 block(s)
- 4 X  4 - 1 block(s)
- 5 X  5 - 3 block(s)
- 6 X  7 - 8 block(s)
- 7 X 10 - 6 block(s)
- 7 X 11 - 1 block(s)
------------
- 2 X . - 1 block(s)
- 3 X . - 1 block(s)
- 4 X . - 1 block(s)
- 5 X . - 3 block(s)
- 6 X . - 8 block(s)
- 7 X . - 7 block(s)
- TOTAL - 21 blocks
------------
-
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=1
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=2
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=3
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=4
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=5
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=6
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=7
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=8
-[Date,Time = 2018-07-11_14:03:16]
-Searching for products in max_samples=9
-[Date,Time = 2018-07-11_14:03:16]
-[NCS = NC2]
-Blocks used:
- 2 X  2 - 1 block(s)
- 3 X  3 - 1 block(s)
- 4 X  4 - 1 block(s)
- 5 X  5 - 3 block(s)
- 6 X  7 - 8 block(s)
- 7 X 10 - 6 block(s)
- 7 X 11 - 1 block(s)
------------
- 2 X . - 1 block(s)
- 3 X . - 1 block(s)
- 4 X . - 1 block(s)
- 5 X . - 3 block(s)
- 6 X . - 8 block(s)
- 7 X . - 7 block(s)
- TOTAL - 21 blocks
+ 2 X  . - 1 block(s)
+ 3 X  . - 1 block(s)
+ 4 X  . - 1 block(s)
+ 5 X  . - 3 block(s)
+ 6 X  . - 8 block(s)
+ 7 X  . - 10 block(s)
+ TOTAL - 24 blocks
 -----------
 
 -----------------------
@@ -124,24 +30,20 @@ Products calculated for 9 samples:
 [(2, 2), (2, 2), (2, 2), (3, 3)]: 1 scheme(s)
 [(2, 2), (2, 2), (5, 5)]: 3 scheme(s)
 [(2, 2), (3, 3), (4, 4)]: 1 scheme(s)
-[(2, 2), (7, 10)]: 6 scheme(s)
-[(2, 2), (7, 11)]: 1 scheme(s)
+[(2, 2), (7, 10)]: 8 scheme(s)
+[(2, 2), (7, 11)]: 2 scheme(s)
 [(3, 3), (3, 3), (3, 3)]: 1 scheme(s)
 [(3, 3), (6, 7)]: 8 scheme(s)
 [(4, 4), (5, 5)]: 3 scheme(s)
 8 product types calculated
-24 total labeling schemes to check
+27 total labeling schemes to check
 
-[Date,Time = 2018-07-11_14:03:16]
-Schemes optimization in max_samples=9
-[Date,Time = 2018-07-11_14:03:16]
-------------
+2018-08-27 12:26:11,428:Schemes optimization in max_samples=9
+2018-08-27 12:26:11,428:------------
 Checking schemes for product [(2, 2), (2, 2), (2, 2), (3, 3)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-11_14:03:16]
-Checking scheme 1/24 - New best price: 33307.366649999996
-[Date,Time = 2018-07-11_14:03:16]
-NCNCNCNNC
+2018-08-27 12:26:11,446:Checking scheme 1/27 - New best price: 33307.366649999996
+2018-08-27 12:26:11,446:NCNCNCNNC
 NCNCNCNCN
 NCNCNCCNN
 NCNCCNNNC
@@ -165,29 +67,23 @@ CNCNNCCNN
 CNCNCNNNC
 CNCNCNNCN
 CNCNCNCNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 NC
 CN
-
 NC
 CN
-
 NNC
 NCN
 CNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:16]
-------------
+2018-08-27 12:26:11,446:------------
 Checking schemes for product [(2, 2), (2, 2), (5, 5)]. Total 3 schemes
 ------------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 2/24 - New best price: 30292.711419999996
-[Date,Time = 2018-07-11_14:03:17]
-NCNCXNNNC
+2018-08-27 12:26:11,482:Checking scheme 2/27 - New best price: 30292.711419999996
+2018-08-27 12:26:11,482:NCNCXNNNC
 NCNCNNCCN
 NCNCNCNCN
 NCNCCNCNN
@@ -207,24 +103,20 @@ CNCNNNCCN
 CNCNNCNCN
 CNCNCNCNN
 CNCNCCNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 NC
 CN
-
 XNNNC
 NNCCN
 NCNCN
 CNCNN
 CCNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 3/24 - New best price: 29888.197740000003
-[Date,Time = 2018-07-11_14:03:17]
-NCNCNNNNC
+2018-08-27 12:26:11,500:Checking scheme 3/27 - New best price: 29888.197740000003
+2018-08-27 12:26:11,500:NCNCNNNNC
 NCNCNNNCN
 NCNCNNCNN
 NCNCNCNNN
@@ -244,24 +136,20 @@ CNCNNNNCN
 CNCNNNCNN
 CNCNNCNNN
 CNCNCNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 NC
 CN
-
 NNNNC
 NNNCN
 NNCNN
 NCNNN
 CNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 4/24 - Price: 31169.131659999992
-[Date,Time = 2018-07-11_14:03:17]
-NCNCNNNNC
+2018-08-27 12:26:11,537:Checking scheme 4/27 - Price: 31169.131659999992
+2018-08-27 12:26:11,537:NCNCNNNNC
 NCNCNNCCN
 NCNCNCNCN
 NCNCCNCNN
@@ -281,28 +169,23 @@ CNCNNNCCN
 CNCNNCNCN
 CNCNCNCNN
 CNCNCCNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 NC
 CN
-
 NNNNC
 NNCCN
 NCNCN
 CNCNN
 CCNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-------------
+2018-08-27 12:26:11,537:------------
 Checking schemes for product [(2, 2), (3, 3), (4, 4)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 5/24 - Price: 29888.197740000003
-[Date,Time = 2018-07-11_14:03:17]
-NCNNCNNNC
+2018-08-27 12:26:11,557:Checking scheme 5/27 - Price: 29888.197740000003
+2018-08-27 12:26:11,557:NCNNCNNNC
 NCNNCNNCN
 NCNNCNCNN
 NCNNCCNNN
@@ -326,28 +209,23 @@ CNCNNNNNC
 CNCNNNNCN
 CNCNNNCNN
 CNCNNCNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 NNC
 NCN
 CNN
-
 NNNC
 NNCN
 NCNN
 CNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
+2018-08-27 12:26:11,557:------------
+Checking schemes for product [(2, 2), (7, 10)]. Total 8 schemes
 ------------
-Checking schemes for product [(2, 2), (7, 10)]. Total 6 schemes
-------------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 6/24 - New best price: 28012.366440000005
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNNC
+2018-08-27 12:26:11,594:Checking scheme 6/27 - New best price: 28012.366439999998
+2018-08-27 12:26:11,594:NCXNNNNNC
 NCNNNNCCN
 NCNNNCNCN
 NCNNCNNCN
@@ -367,10 +245,10 @@ CNNCCNNNN
 CNCNNNCNN
 CNCNNCNNN
 CNCNCNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNNC
 NNNNCCN
 NNNCNCN
@@ -381,12 +259,9 @@ NCCNNNN
 CNNNCNN
 CNNCNNN
 CNCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 7/24 - Price: 28935.89119999999
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNCC
+2018-08-27 12:26:11,631:Checking scheme 7/27 - Price: 28935.89119999999
+2018-08-27 12:26:11,631:NCXNNNNCC
 NCXNNNCNC
 NCXNCCNNN
 NCNCNCNNC
@@ -406,10 +281,10 @@ CNCNNCNCN
 CNCNNCCNN
 CNCNCNNNC
 CNCCXNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNCC
 XNNNCNC
 XNCCNNN
@@ -420,12 +295,9 @@ CNNCNCN
 CNNCCNN
 CNCNNNC
 CCXNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 8/24 - Price: 28982.782199999994
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNCC
+2018-08-27 12:26:11,676:Checking scheme 8/27 - Price: 28982.7822
+2018-08-27 12:26:11,676:NCXNNNNCC
 NCXNNNCNC
 NCXNCCNNN
 NCNCNCNNC
@@ -445,10 +317,10 @@ CNCNNCNCN
 CNCNNCCNN
 CNCNCNNNC
 CNCCNNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNCC
 XNNNCNC
 XNCCNNN
@@ -459,12 +331,9 @@ CNNCNCN
 CNNCCNN
 CNCNNNC
 CCNNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 9/24 - Price: 29174.278800000004
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNCC
+2018-08-27 12:26:11,730:Checking scheme 9/27 - Price: 29174.278800000004
+2018-08-27 12:26:11,730:NCXNNNNCC
 NCXNNNCNC
 NCNNCCNNN
 NCNCNCNNC
@@ -484,10 +353,10 @@ CNCNNCNCN
 CNCNNCCNN
 CNCNCNNNC
 CNCCNNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNCC
 XNNNCNC
 NNCCNNN
@@ -498,12 +367,9 @@ CNNCNCN
 CNNCCNN
 CNCNNNC
 CCNNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 10/24 - Price: 29621.942290000003
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNCC
+2018-08-27 12:26:11,783:Checking scheme 10/27 - Price: 29621.942290000003
+2018-08-27 12:26:11,783:NCXNNNNCC
 NCNNNNCNC
 NCNNCCNNN
 NCNCNCNNC
@@ -523,10 +389,10 @@ CNCNNCNCN
 CNCNNCCNN
 CNCNCNNNC
 CNCCNNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNCC
 NNNNCNC
 NNCCNNN
@@ -537,12 +403,9 @@ CNNCNCN
 CNNCCNN
 CNCNNNC
 CCNNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 11/24 - Price: 30585.771759999996
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNCC
+2018-08-27 12:26:11,838:Checking scheme 11/27 - Price: 30585.771759999996
+2018-08-27 12:26:11,838:NCXNNNNCC
 NCNNNNCNC
 NCNNCCNNC
 NCNCNCNCN
@@ -562,10 +425,10 @@ CNCNCNNNC
 CNCCNNNCN
 CNCCNNCNN
 CNCCCNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNCC
 NNNNCNC
 NNCCNNC
@@ -576,16 +439,84 @@ CNCNNNC
 CCNNNCN
 CCNNCNN
 CCCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
+2018-08-27 12:26:11,878:Checking scheme 12/27 - Price: 28576.636779999997
+2018-08-27 12:26:11,878:NCNNNNNNC
+NCNNNNCCN
+NCNNNCNCN
+NCNNCNNCN
+NCNCNNCNN
+NCNCNCNNN
+NCNCCNNNN
+NCCNNNCNN
+NCCNNCNNN
+NCCNCNNNN
+CNNNNNNNC
+CNNNNNCCN
+CNNNNCNCN
+CNNNCNNCN
+CNNCNNCNN
+CNNCNCNNN
+CNNCCNNNN
+CNCNNNCNN
+CNCNNCNNN
+CNCNCNNNN
+
+Scheme consists of following blocks:
+NC
+CN
+NNNNNNC
+NNNNCCN
+NNNCNCN
+NNCNNCN
+NCNNCNN
+NCNCNNN
+NCCNNNN
+CNNNCNN
+CNNCNNN
+CNCNNNN
+---------
+2018-08-27 12:26:11,918:Checking scheme 13/27 - Price: 30205.302190000006
+2018-08-27 12:26:11,918:NCNNNNNCC
+NCNNNNCNC
+NCNNCCNNN
+NCNCNCNNC
+NCNCCNNCN
+NCNCCNCNN
+NCCNNCNCN
+NCCNNCCNN
+NCCNCNNNC
+NCCCNNNNN
+CNNNNNNCC
+CNNNNNCNC
+CNNNCCNNN
+CNNCNCNNC
+CNNCCNNCN
+CNNCCNCNN
+CNCNNCNCN
+CNCNNCCNN
+CNCNCNNNC
+CNCCNNNNN
+
+Scheme consists of following blocks:
+NC
+CN
+NNNNNCC
+NNNNCNC
+NNCCNNN
+NCNCNNC
+NCCNNCN
+NCCNCNN
+CNNCNCN
+CNNCCNN
+CNCNNNC
+CCNNNNN
+---------
+2018-08-27 12:26:11,918:------------
+Checking schemes for product [(2, 2), (7, 11)]. Total 2 schemes
 ------------
-Checking schemes for product [(2, 2), (7, 11)]. Total 1 schemes
-------------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 12/24 - Price: 31431.535350000002
-[Date,Time = 2018-07-11_14:03:17]
-NCXNNNNCC
+2018-08-27 12:26:11,960:Checking scheme 14/27 - Price: 31431.535350000002
+2018-08-27 12:26:11,960:NCXNNNNCC
 NCNNNCCNC
 NCNNCNCNC
 NCNCNNCCN
@@ -607,10 +538,10 @@ CNCNCNNNC
 CNCCNNNCN
 CNCCNCNNN
 CNCCCNNNN
+
 Scheme consists of following blocks:
 NC
 CN
-
 XNNNNCC
 NNNCCNC
 NNCNCNC
@@ -622,16 +553,51 @@ CNCNNNC
 CCNNNCN
 CCNCNNN
 CCCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-------------
+2018-08-27 12:26:12,003:Checking scheme 15/27 - Price: 31995.80569
+2018-08-27 12:26:12,003:NCNNNNNCC
+NCNNNCCNC
+NCNNCNCNC
+NCNCNNCCN
+NCNCNCCNN
+NCNCCNCNN
+NCCNNCNNC
+NCCNCNNNC
+NCCCNNNCN
+NCCCNCNNN
+NCCCCNNNN
+CNNNNNNCC
+CNNNNCCNC
+CNNNCNCNC
+CNNCNNCCN
+CNNCNCCNN
+CNNCCNCNN
+CNCNNCNNC
+CNCNCNNNC
+CNCCNNNCN
+CNCCNCNNN
+CNCCCNNNN
+
+Scheme consists of following blocks:
+NC
+CN
+NNNNNCC
+NNNCCNC
+NNCNCNC
+NCNNCCN
+NCNCCNN
+NCCNCNN
+CNNCNNC
+CNCNNNC
+CCNNNCN
+CCNCNNN
+CCCNNNN
+---------
+2018-08-27 12:26:12,003:------------
 Checking schemes for product [(3, 3), (3, 3), (3, 3)]. Total 1 schemes
 ------------
-[Date,Time = 2018-07-11_14:03:17]
-Checking scheme 13/24 - Price: 29888.197740000003
-[Date,Time = 2018-07-11_14:03:17]
-NNCNNCNNC
+2018-08-27 12:26:12,033:Checking scheme 16/27 - Price: 29888.197740000003
+2018-08-27 12:26:12,033:NNCNNCNNC
 NNCNNCNCN
 NNCNNCCNN
 NNCNCNNNC
@@ -658,28 +624,23 @@ CNNNCNCNN
 CNNCNNNNC
 CNNCNNNCN
 CNNCNNCNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 NNC
 NCN
 CNN
-
 NNC
 NCN
 CNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:17]
-------------
+2018-08-27 12:26:12,033:------------
 Checking schemes for product [(3, 3), (6, 7)]. Total 8 schemes
 ------------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 14/24 - New best price: 27400.150790000003
-[Date,Time = 2018-07-11_14:03:18]
-NNCXNNNNC
+2018-08-27 12:26:12,071:Checking scheme 17/27 - New best price: 27400.15079
+2018-08-27 12:26:12,071:NNCXNNNNC
 NNCNNNCCN
 NNCNNCNCN
 NNCNCNNCN
@@ -700,11 +661,11 @@ CNNNCNNCN
 CNNCNNCNN
 CNNCNCNNN
 CNNCCNNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 XNNNNC
 NNNCCN
 NNCNCN
@@ -712,12 +673,9 @@ NCNNCN
 CNNCNN
 CNCNNN
 CCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 15/24 - Price: 28741.868449999998
-[Date,Time = 2018-07-11_14:03:18]
-NNCXNNNCC
+2018-08-27 12:26:12,108:Checking scheme 18/27 - Price: 28741.868449999998
+2018-08-27 12:26:12,109:NNCXNNNCC
 NNCXNCCNN
 NNCNCNCNC
 NNCNCCNCN
@@ -738,11 +696,11 @@ CNNNCCNCN
 CNNCNNCCN
 CNNCNCNNC
 CNNCCXNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 XNNNCC
 XNCCNN
 NCNCNC
@@ -750,12 +708,9 @@ NCCNCN
 CNNCCN
 CNCNNC
 CCXNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 16/24 - Price: 28838.60014
-[Date,Time = 2018-07-11_14:03:18]
-NNCXNNNCC
+2018-08-27 12:26:12,154:Checking scheme 19/27 - Price: 28838.600140000002
+2018-08-27 12:26:12,154:NNCXNNNCC
 NNCXNCCNN
 NNCNCNCNC
 NNCNCCNCN
@@ -776,11 +731,11 @@ CNNNCCNCN
 CNNCNNCCN
 CNNCNCNNC
 CNNCCNNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 XNNNCC
 XNCCNN
 NCNCNC
@@ -788,12 +743,9 @@ NCCNCN
 CNNCCN
 CNCNNC
 CCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 17/24 - Price: 29247.175509999997
-[Date,Time = 2018-07-11_14:03:18]
-NNCXNNNCC
+2018-08-27 12:26:12,208:Checking scheme 20/27 - Price: 29247.175509999997
+2018-08-27 12:26:12,208:NNCXNNNCC
 NNCNNCCNN
 NNCNCNCNC
 NNCNCCNCN
@@ -814,11 +766,11 @@ CNNNCCNCN
 CNNCNNCCN
 CNNCNCNNC
 CNNCCNNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 XNNNCC
 NNCCNN
 NCNCNC
@@ -826,12 +778,9 @@ NCCNCN
 CNNCCN
 CNCNNC
 CCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 18/24 - Price: 30819.3197
-[Date,Time = 2018-07-11_14:03:18]
-NNCXNNNCC
+2018-08-27 12:26:12,247:Checking scheme 21/27 - Price: 30819.3197
+2018-08-27 12:26:12,247:NNCXNNNCC
 NNCNNCCNC
 NNCNCNCCN
 NNCNCCCNN
@@ -852,11 +801,11 @@ CNNNCCCNN
 CNNCNCNNC
 CNNCCNNCN
 CNNCCCNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 XNNNCC
 NNCCNC
 NCNCCN
@@ -864,12 +813,9 @@ NCCCNN
 CNCNNC
 CCNNCN
 CCCNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 19/24 - Price: 28056.154780000008
-[Date,Time = 2018-07-11_14:03:18]
-NNCNNNNNC
+2018-08-27 12:26:12,287:Checking scheme 22/27 - Price: 28056.154780000004
+2018-08-27 12:26:12,287:NNCNNNNNC
 NNCNNNCCN
 NNCNNCNCN
 NNCNCNNCN
@@ -890,11 +836,11 @@ CNNNCNNCN
 CNNCNNCNN
 CNNCNCNNN
 CNNCCNNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 NNNNNC
 NNNCCN
 NNCNCN
@@ -902,12 +848,9 @@ NCNNCN
 CNNCNN
 CNCNNN
 CCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:18]
-Checking scheme 20/24 - Price: 30062.21969
-[Date,Time = 2018-07-11_14:03:18]
-NNCNNNNCC
+2018-08-27 12:26:12,327:Checking scheme 23/27 - Price: 30062.21969
+2018-08-27 12:26:12,327:NNCNNNNCC
 NNCNNCCNN
 NNCNCNCNC
 NNCNCCNCN
@@ -928,11 +871,11 @@ CNNNCCNCN
 CNNCNNCCN
 CNNCNCNNC
 CNNCCNNNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 NNNNCC
 NNCCNN
 NCNCNC
@@ -940,12 +883,9 @@ NCCNCN
 CNNCCN
 CNCNNC
 CCNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:19]
-Checking scheme 21/24 - Price: 31475.323689999997
-[Date,Time = 2018-07-11_14:03:19]
-NNCNNNNCC
+2018-08-27 12:26:12,368:Checking scheme 24/27 - Price: 31475.323689999997
+2018-08-27 12:26:12,368:NNCNNNNCC
 NNCNNCCNC
 NNCNCNCNC
 NNCCNCNCN
@@ -966,11 +906,11 @@ CNNCNCNCN
 CNNCNCCNN
 CNNCCNNCN
 CNNCCNCNN
+
 Scheme consists of following blocks:
 NNC
 NCN
 CNN
-
 NNNNCC
 NNCCNC
 NCNCNC
@@ -978,16 +918,12 @@ CNCNCN
 CNCCNN
 CCNNCN
 CCNCNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:19]
-------------
+2018-08-27 12:26:12,368:------------
 Checking schemes for product [(4, 4), (5, 5)]. Total 3 schemes
 ------------
-[Date,Time = 2018-07-11_14:03:19]
-Checking scheme 22/24 - New best price: 26873.542510000003
-[Date,Time = 2018-07-11_14:03:19]
-NNNCXNNNC
+2018-08-27 12:26:12,409:Checking scheme 25/27 - New best price: 26873.54251
+2018-08-27 12:26:12,409:NNNCXNNNC
 NNNCNNCCN
 NNNCNCNCN
 NNNCCNCNN
@@ -1007,23 +943,20 @@ CNNNNNCCN
 CNNNNCNCN
 CNNNCNCNN
 CNNNCCNNN
+
 Scheme consists of following blocks:
 NNNC
 NNCN
 NCNN
 CNNN
-
 XNNNC
 NNCCN
 NCNCN
 CNCNN
 CCNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:19]
-Checking scheme 23/24 - New best price: 26469.02883
-[Date,Time = 2018-07-11_14:03:19]
-NNNCNNNNC
+2018-08-27 12:26:12,436:Checking scheme 26/27 - New best price: 26469.02883
+2018-08-27 12:26:12,437:NNNCNNNNC
 NNNCNNNCN
 NNNCNNCNN
 NNNCNCNNN
@@ -1043,23 +976,20 @@ CNNNNNNCN
 CNNNNNCNN
 CNNNNCNNN
 CNNNCNNNN
+
 Scheme consists of following blocks:
 NNNC
 NNCN
 NCNN
 CNNN
-
 NNNNC
 NNNCN
 NNCNN
 NCNNN
 CNNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:19]
-Checking scheme 24/24 - Price: 27749.962750000006
-[Date,Time = 2018-07-11_14:03:19]
-NNNCNNNNC
+2018-08-27 12:26:12,479:Checking scheme 27/27 - Price: 27749.96275
+2018-08-27 12:26:12,479:NNNCNNNNC
 NNNCNNCCN
 NNNCNCNCN
 NNNCCNCNN
@@ -1079,21 +1009,19 @@ CNNNNNCCN
 CNNNNCNCN
 CNNNCNCNN
 CNNNCCNNN
+
 Scheme consists of following blocks:
 NNNC
 NNCN
 NCNN
 CNNN
-
 NNNNC
 NNCCN
 NCNCN
 CNCNN
 CCNNN
-
 ---------
-[Date,Time = 2018-07-11_14:03:19]
-________________________
+2018-08-27 12:26:12,570:________________________
 Best scheme
 [NCS = NC2]
 [solution]
@@ -1134,8 +1062,7 @@ NNCNN
 NCNNN
 CNNNN
 
-[Date,Time = 2018-07-11_14:03:19]
--------------
+2018-08-27 12:26:12,612:-------------
 Products in 9 samples:
 [(2, 2), (2, 2), (2, 2), (3, 3)]
    0 scheme(s): cannot be optimized
@@ -1152,11 +1079,11 @@ Products in 9 samples:
 [(2, 2), (7, 10)]
    0 scheme(s): cannot be optimized
    0 scheme(s): equivalent
-   6 scheme(s): price calculated
+   8 scheme(s): price calculated
 [(2, 2), (7, 11)]
    0 scheme(s): cannot be optimized
    0 scheme(s): equivalent
-   1 scheme(s): price calculated
+   2 scheme(s): price calculated
 [(3, 3), (3, 3), (3, 3)]
    0 scheme(s): cannot be optimized
    0 scheme(s): equivalent
@@ -1170,6 +1097,3 @@ Products in 9 samples:
    0 scheme(s): equivalent
    3 scheme(s): price calculated
 
-[Date,Time = 2018-07-11_14:03:19]
------
-Calculation finished at 2018-07-11 14:03:19!

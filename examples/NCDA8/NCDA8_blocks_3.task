@@ -1,8 +1,8 @@
 # use following parameters for this run: -c NCDA8_blocks_3.task -o
-job_name NCDA8_blocks_3
-price_table ../../BEST_PRICE_1H.csv
-max_block_size 3
 NCS NCDA8
+job_name NCDA8_blocks_3
+price_table /nfs/to1/maxim/CLU_task_reader/BEST_PRICE_1H.csv
+max_block_size 3
 
 
 #Amino-acid list

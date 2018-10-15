@@ -1,0 +1,86 @@
+[NCS = 2H-ND3]
+[Deuterated = True]
+[ELB samples = 2 patterns = 2]
+XN
+ND
+[ELB samples = 2 patterns = 2]
+XN
+DD
+[ELB samples = 2 patterns = 2]
+XD
+NN
+[ELB samples = 2 patterns = 2]
+XD
+DX
+[ELB samples = 2 patterns = 2]
+XD
+DN
+[ELB samples = 2 patterns = 2]
+ND
+DN
+[ELB samples = 3 patterns = 3]
+XNN
+NXD
+DDN
+[ELB samples = 3 patterns = 3]
+XNN
+NXD
+DDD
+[ELB samples = 3 patterns = 3]
+XNN
+NND
+NDN
+[ELB samples = 3 patterns = 3]
+XNN
+NND
+DDN
+[ELB samples = 3 patterns = 3]
+XNN
+NDD
+DND
+[ELB samples = 3 patterns = 3]
+XND
+XDN
+NNN
+[ELB samples = 3 patterns = 3]
+XND
+XDN
+DNN
+[ELB samples = 3 patterns = 3]
+XND
+NDN
+DNN
+[ELB samples = 3 patterns = 3]
+NND
+NDN
+DNN
+[ELB samples = 3 patterns = 4]
+XNN
+NDD
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XND
+NDX
+DXN
+DDD
+[ELB samples = 3 patterns = 4]
+XND
+NDD
+DNX
+DDN
+[ELB samples = 3 patterns = 4]
+XND
+NDD
+DNN
+DDX
+[ELB samples = 3 patterns = 4]
+XDD
+NNN
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XDD
+NND
+DNN
+DDX

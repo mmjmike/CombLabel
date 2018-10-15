@@ -1,0 +1,202 @@
+[NCS = NCD4]
+[Deuterated = False]
+[ELB samples = 2 patterns = 2]
+XN
+ND
+[ELB samples = 2 patterns = 2]
+XN
+DC
+[ELB samples = 2 patterns = 2]
+XN
+DD
+[ELB samples = 2 patterns = 2]
+XD
+NN
+[ELB samples = 2 patterns = 2]
+XD
+DX
+[ELB samples = 2 patterns = 2]
+XD
+DN
+[ELB samples = 2 patterns = 2]
+NN
+CD
+[ELB samples = 2 patterns = 2]
+NC
+DN
+[ELB samples = 2 patterns = 2]
+ND
+DN
+[ELB samples = 2 patterns = 2]
+ND
+DC
+[ELB samples = 2 patterns = 3]
+NC
+CN
+DD
+[ELB samples = 3 patterns = 4]
+XNN
+NND
+DCD
+DDN
+[ELB samples = 3 patterns = 4]
+XNN
+NCD
+DNC
+DCN
+[ELB samples = 3 patterns = 4]
+XNN
+NCD
+DNC
+DDN
+[ELB samples = 3 patterns = 4]
+XNN
+NCD
+DND
+DDX
+[ELB samples = 3 patterns = 4]
+XNN
+NCD
+DND
+DDN
+[ELB samples = 3 patterns = 4]
+XNN
+NDD
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XNN
+DNC
+DCN
+DDD
+[ELB samples = 3 patterns = 4]
+XND
+XDN
+DXN
+DDC
+[ELB samples = 3 patterns = 4]
+XND
+XDN
+DNN
+DCD
+[ELB samples = 3 patterns = 4]
+XND
+NNN
+CDN
+DCD
+[ELB samples = 3 patterns = 4]
+XND
+NCN
+DNX
+DDD
+[ELB samples = 3 patterns = 4]
+XND
+NCN
+DNN
+DDC
+[ELB samples = 3 patterns = 4]
+XND
+NDX
+DXN
+DDD
+[ELB samples = 3 patterns = 4]
+XND
+NDN
+DNN
+DCD
+[ELB samples = 3 patterns = 4]
+XND
+NDC
+CDN
+DNX
+[ELB samples = 3 patterns = 4]
+XND
+NDC
+CDN
+DNN
+[ELB samples = 3 patterns = 4]
+XND
+NDD
+DNX
+DDN
+[ELB samples = 3 patterns = 4]
+XND
+NDD
+DNN
+DDX
+[ELB samples = 3 patterns = 4]
+XDD
+NNN
+DXD
+DDX
+[ELB samples = 3 patterns = 4]
+XDD
+NNN
+DNC
+DCN
+[ELB samples = 3 patterns = 4]
+XDD
+NNC
+NCN
+DNN
+[ELB samples = 3 patterns = 4]
+XDD
+NND
+DNN
+DDX
+[ELB samples = 3 patterns = 4]
+NNN
+NCD
+CND
+CDN
+[ELB samples = 3 patterns = 4]
+NNN
+NCD
+CND
+DDC
+[ELB samples = 3 patterns = 4]
+NNC
+NCN
+NDD
+DNN
+[ELB samples = 3 patterns = 4]
+NNC
+NCN
+CNN
+DDD
+[ELB samples = 3 patterns = 4]
+NNC
+NCN
+CDD
+DNN
+[ELB samples = 3 patterns = 4]
+NNC
+NDN
+CDD
+DNN
+[ELB samples = 3 patterns = 4]
+NNC
+NDN
+DND
+DCN
+[ELB samples = 3 patterns = 4]
+NNC
+NDD
+CDN
+DND
+[ELB samples = 3 patterns = 4]
+NND
+NDN
+DNC
+DCN
+[ELB samples = 3 patterns = 4]
+NND
+NDC
+CDN
+DNC
+[ELB samples = 3 patterns = 5]
+NNC
+NCN
+NDD
+CNN
+DND

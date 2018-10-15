@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from classes.interactive import *
-from classes.constants import NCS, Constants
+from classes.constants import NCS, Constants, auto_name_ncs
 
 
 DESCRIPTION = ("This script is designed to create NMR Coding System (NCS) file\n"
@@ -129,23 +129,6 @@ def strip_spectra(line):
         if i in num_list:
             spectra_list.append(spectrum)
     return result, spectra_list
-
-
-def auto_name_ncs(ncs):
-    auto_name= ''
-    if ncs.deuterated:
-       auto_name+= "2H-"
-    flag_X = False
-    for type in ncs.label_types:
-       if type.name == "X":
-          flag_X = True
-       if not ncs.deuterated and type.name == "X":
-          continue
-       auto_name+= type.name
-    auto_name+= str(ncs.max_code_value)
-    if not ncs.deuterated and not flag_X:
-       auto_name+= "noX"
-    return auto_name
 
 
 def input_name(ncs):
