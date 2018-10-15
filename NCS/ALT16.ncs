@@ -1,4 +1,4 @@
-[NCS = TSF16]
+[NCS = ALT16]
 [Deuterated = False]
 [Labels = X,N,C,D,A,F,T,S]
 [Spectra = HSQC,HNCO,HNCA,HNCOCA,DQHNCA,COfHNCA,HNCACO,HNCAfCO]
