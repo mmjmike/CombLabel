@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import argparse
 import os
 from classes.ucsl_io import read_sequence, read_solution, find_ncs, read_prices
