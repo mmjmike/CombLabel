@@ -111,8 +111,8 @@ def get_params(args, logger):
         "samples": samples,
         "exact_patterns": exact_patterns,
         "min_patterns": min_patterns,
-        "check_t_free":check_t_free,
-        "min_t_free":min_t_free,
+        "check_t_free": check_t_free,
+        "min_t_free": min_t_free,
         "verbose": args.verbose,
         "silent": args.silent
     }

@@ -1,7 +1,7 @@
 import sys
 import copy
 import time
-from .constants import Constants, Pattern, ELB
+from .constants import Constants, Pattern, ELB, index_of_type
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
 
@@ -538,9 +538,11 @@ class BlockFinder:
         self.check_t_free = False
         if min_t_free >=0:
             self.check_t_free = True
-        self.index_of_type_T = Pattern.index_of_type(Constants.typeT)
+        self.index_of_type_T = index_of_type(Constants.typeT)
         self.ncs = ncs
         self.min_depth = min_depth
+        if self.min_depth <= 1:
+            self.min_depth = 2
         self.scheme = Scheme("1", self.ncs, samples, [])
         self.patterns = [self.generate_patterns(self.samples)]
         self.depth = 0
@@ -561,8 +563,6 @@ class BlockFinder:
         self.blockfinder_finished()
 
     def start_blockfinder(self):
-        if self.min_depth == 1:
-            self.min_depth = 2
         self.timer = time.time()
 
         if self.check_t_free:
@@ -601,17 +601,19 @@ class BlockFinder:
                 self.go_back()
                 continue
 
-            flag_t_free = True
-            if self.check_t_free:
-                flag_t_free =  self.check_have_enought_t_free(self.scheme, patterns[start_point:-1])
             next_patterns = self.get_next_patterns(patterns, patterns_left, start_point)
 
-            if not next_patterns or not flag_t_free:
-                if len(self.scheme.patterns) >= self.min_depth and flag_t_free:
+            flag_t_free = True
+            if self.check_t_free:
+                flag_t_free = self.check_have_enought_t_free(self.scheme, next_patterns)
+
+            if next_patterns and flag_t_free:
+                self.go_deeper(next_patterns)
+            else:
+                if len(self.scheme.patterns) >= self.min_depth:
                     self.save_result()
                 self.go_parallel()
-            else:
-                self.go_deeper(next_patterns)
+
 
             self.check_max_depth()
 
@@ -633,9 +635,10 @@ class BlockFinder:
                 self.logger.info(out)
 
     def check_have_enought_t_free(self, scheme, patterns_left):
-        (scheme_t, scheme_t_free) = Pattern.count_type_in_list_of_simplified(scheme.simplified, self.index_of_type_T)
-        (left_t,  left_t_free) =    Pattern.count_type_in_list_of_patterns(patterns_left, Constants.typeT)
-        return ( scheme_t_free + left_t_free >= self.min_t_free )
+        scheme_t, scheme_t_free = Pattern.count_type_in_list_of_simplified(scheme.simplified, self.index_of_type_T)
+        left_t, left_t_free = Pattern.count_type_in_list_of_patterns(patterns_left, Constants.typeT)
+        flag = scheme_t_free + left_t_free >= self.min_t_free
+        return flag
 
     def get_next_patterns(self, patterns, patterns_left, start_point):
         next_patterns = []
@@ -685,6 +688,8 @@ class BlockFinder:
         return new_set
 
     def save_result(self):
+        if self.check_t_free and not self.check_have_enought_t_free(self.scheme, []):
+            return
         depth_of_scheme = self.scheme.size()
         new_scheme = self.scheme.copy()
         new_scheme.sort()

@@ -418,23 +418,17 @@ class PatternClass:
 
     def count_type_in_list_of_patterns(self, patterns, label_type):
         simplified, simplified_str = self.simplify_list_of_patterns(patterns)
-        index_of_t = self.index_of_type(label_type)
+        index_of_t = index_of_type(label_type)
         return self.count_type_in_list_of_simplified(simplified, index_of_t)
-
-    def index_of_type(self, label_type):
-        index_of_t = -1
-        try:
-            index_of_t = Constants.BASIC_TYPES.index(label_type)
-        except:
-            print("Internal error: labeling type \"{}\" is not found in Constants.BASIC_TYPES. Exiting.".fromat(label_type.name))
-            exit(-1)
-        return index_of_t
 
     def count_type_in_list_of_simplified(self, simplified, index_of_type):
         count_type = 0
         count_all  = 0
         for simple_pattern, pattern_count in simplified.items():
-            count_type += int(simple_pattern[index_of_type]) * pattern_count
+            has_t = 0
+            if int(simple_pattern[index_of_type]):
+                has_t = 1
+            count_type += has_t * pattern_count
             count_all  += pattern_count
         return count_type, count_all - count_type
 
@@ -443,3 +437,14 @@ class PatternClass:
 
 
 Pattern = PatternClass()
+
+
+def index_of_type(label_type):
+    index_of_t = -1
+    try:
+        index_of_t = Constants.BASIC_TYPES.index(label_type)
+    except:
+        print("Internal error: labeling type \"{}\" is not found in Constants.BASIC_TYPES. Exiting.".format(
+            label_type.name))
+        exit(-1)
+    return index_of_t
