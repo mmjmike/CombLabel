@@ -699,15 +699,11 @@ class BlockFinder:
         new_scheme = self.scheme.copy()
         new_scheme.sort()
         if depth_of_scheme in self.result:
-            equal = False
-            for scheme in self.result[depth_of_scheme]:
-                if new_scheme == scheme:
-                    equal = True
-            if not equal:
-                self.result[depth_of_scheme].append(new_scheme)
+            if new_scheme not in self.result[depth_of_scheme]:
+                self.result[depth_of_scheme].update({new_scheme : new_scheme })
                 self.write_result(new_scheme)
         else:
-            self.result.update({depth_of_scheme: [new_scheme]})
+            self.result.update({depth_of_scheme: {new_scheme : new_scheme}})
             self.write_result(new_scheme)
 
     def write_result(self, new_scheme):
