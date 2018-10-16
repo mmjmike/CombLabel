@@ -1,7 +1,7 @@
 import sys
 import copy
 import time
-from .constants import Constants, Pattern, ELB, index_of_type
+from .constants import Constants, Pattern, ELB
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
 
@@ -538,7 +538,7 @@ class BlockFinder:
         self.check_t_free = False
         if min_t_free >=0:
             self.check_t_free = True
-        self.index_of_type_T = index_of_type(Constants.typeT)
+        self.index_of_type_T = Pattern.index_of_type(Constants.typeT)
         self.ncs = ncs
         self.min_depth = min_depth
         if self.min_depth <= 1:
