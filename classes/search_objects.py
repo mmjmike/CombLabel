@@ -59,6 +59,7 @@ class Scheme:
                     temp_pattern = self.patterns[i]
                     self.patterns[i] = self.patterns[i+j+1]
                     self.patterns[i+j+1] = temp_pattern
+        self.simplify()
 
     def is_subset_of(self, other_simple):
         for pattern in self.simplified:
@@ -115,6 +116,9 @@ class Scheme:
     def __hash__(self):
         return(hash(self.simplified_str))
 
+    def __eq__(self, scheme):
+        return self.simplified == scheme.simplified
+
     def copy(self):
         return Scheme(copy.copy(self.name), copy.copy(self.ncs),
                       copy.copy(self.samples), copy.copy(self.patterns))
@@ -135,6 +139,7 @@ class Scheme:
         # self.size = 0
         self.good = True
         self.simplified = {}
+        self.simplified_str = ""
         self.simplify()
         self.new_codes = set()
 
