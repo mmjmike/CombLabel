@@ -700,10 +700,10 @@ class BlockFinder:
         new_scheme.sort()
         if depth_of_scheme in self.result:
             if new_scheme not in self.result[depth_of_scheme]:
-                self.result[depth_of_scheme].update({new_scheme : new_scheme })
+                self.result[depth_of_scheme].update({new_scheme : 1 })
                 self.write_result(new_scheme)
         else:
-            self.result.update({depth_of_scheme: {new_scheme : new_scheme}})
+            self.result.update({depth_of_scheme: {new_scheme : 1}})
             self.write_result(new_scheme)
 
     def write_result(self, new_scheme):
