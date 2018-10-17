@@ -81,6 +81,8 @@ def get_params(args, logger):
     if not ncs:
         logger.error(msg)
         exit()
+    else:
+        logger.info(msg)
 
     samples = args.samples
     if samples < 1 or samples > 9:
