@@ -221,12 +221,16 @@ def write_blocks(blocks, ncs_name, filename, deuterated):
 
 def find_ncs(ncs_name, script_path):
     paths = find_good_ncs_paths(ncs_name, script_path)
+    msg = ""
     for path in paths:
+        msg += "Seek for NCS {} in path '{}'\n".format(ncs_name, path)
         ncs = read_ncs_file(path)
         if ncs:
-            msg = "NCS '{}' read from '{}'".format(ncs_name, path)
+            msg += "NCS '{}' read from '{}'\n".format(ncs_name, path)
             return ncs, msg
-    msg = "Error! NCS file not found"
+        else:
+            msg += "NCS {} not found in path '{}'\n".format(ncs_name, path)
+    msg += "Error! NCS file not found\n"
     return None, msg
 
 
