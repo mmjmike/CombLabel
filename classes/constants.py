@@ -152,7 +152,7 @@ class NCS:
             output += ",".join(["{:>7}".format(item) for item in self.vectors[i]])
             if i+1 < len(self.vectors):
                 output += "\n"
-        output += "\n"
+        output += "\n\n"
 
         return output
 
@@ -289,7 +289,8 @@ class Constants:
 
     TYPES = ("X", "N", "C", "D", "A", "T", "S", "F")
     DEUTERATED_TYPES = ("X", "N", "F", "D")
-    CARBON_TYPES = ("C", "D", "A", "S", "T", "F")  # labeling types with 13C
+    CARBON_TYPES = [label_type for label_type in BASIC_TYPES if label_type.isotopes[1] == "1" or label_type.isotopes[2] == "1"]
+    NITRO_TYPES = [label_type for label_type in BASIC_TYPES if label_type.isotopes[0] == "1"]
 
     HSQC =    Spectrum("HSQC")
     HNCO =    Spectrum("HNCO")
@@ -320,6 +321,8 @@ class Constants:
         "Thr": "T", "Val": "V",
         "Trp": "W", "Tyr": "Y"
     }
+
+
 
     RES_TYPES_THREE = []
     TO_THREE_LETTER_CODE = {}
@@ -369,6 +372,7 @@ class Constants:
 
     labels_re = re.compile('\\[\\s*Labels\\s*=\\s*([A-Za-z ,]+)\\s*\\]')
     spectra_re = re.compile('\\[\\s*Spectra\\s*=\\s*([A-Za-z0-9 ,]+)\\s*\\]')
+    solution_re = re.compile('\\[\\s*solution\\s*\\]')
 
 
 class PatternClass:
@@ -445,5 +449,21 @@ class PatternClass:
     def __init__(self):
         pass
 
+
+def auto_name_ncs(ncs):
+    auto_name = ''
+    if ncs.deuterated:
+        auto_name += "2H-"
+    flag_X = False
+    for label_type in ncs.label_types:
+        if label_type.name == "X":
+            flag_X = True
+        if not ncs.deuterated and label_type.name == "X":
+            continue
+        auto_name += label_type.name
+    auto_name += str(ncs.max_code_value)
+    if not ncs.deuterated and not flag_X:
+        auto_name += "noX"
+    return auto_name
 
 Pattern = PatternClass()
