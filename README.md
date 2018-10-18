@@ -1,6 +1,12 @@
 # UUCSL Package
 
-Implementd in Python 3, **scipy** package required
+Implemented in Python 3, **scipy** package required
+
+Install Python:
+https://www.python.org/downloads/
+
+How to install python packages:
+https://packaging.python.org/tutorials/installing-packages/
 
 
 ## Contributors
@@ -255,8 +261,18 @@ Example of labeling dictionary (`*_dictionary.txt`):
 Assignment statistics (`*_solution.txt`) contains a variety of
 statistical information about protein sequence and given solution.
 
-
 ---
+
+## Example of usage
+
+to be added
+
+
+## Future improvements:
+
+* make `blockfinder.py` and `UUCSL.py` calculations parallel
+* code refactoring
+* precompilation of core components to improve speed
 
 ## Citation
 

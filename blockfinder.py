@@ -71,7 +71,7 @@ def get_args():
     parser.add_argument('--silent', '-s',
                         help='No output to console (overrides verbosity)',
                         action="store_true")
-    parser.add_argument("--mintfree", "-t", dest = "min_t_free",
+    parser.add_argument("--mintfree", "-t", dest="min_t_free",
                         help='Required number of patterns without \"T\" labeling type in ELB', default=-1, type=int)
     return parser.parse_args()
 
