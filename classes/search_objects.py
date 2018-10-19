@@ -461,7 +461,7 @@ class PriceOptimizer:
             aa_prices = []
             for j in range(len(self.patterns)):
                 pattern = self.patterns[j]
-                price = self.calc_price(aa, pattern)
+                price = calc_price(self.prices, aa, pattern)
                 aa_prices.append(price)
                 if price > 0:
                     for k in range(len(self.aa_list)):
@@ -512,26 +512,6 @@ class PriceOptimizer:
         for char in pattern:
             new_pattern += Constants.PROLINE_SUBSTITUTE[char]
         return new_pattern
-
-    def calc_price(self, aa, pattern):
-        price = 0
-        letters = list(map(chr, range(97, 123)))
-        for i in range(len(pattern)):
-            label = pattern[i]
-            try:
-                number = int(label)
-            except ValueError:
-                number = letters.index(label) + 10
-            label_type = Constants.TYPES[i]
-            if aa == "P":
-                label_type = Constants.PROLINE_SUBSTITUTE[label_type]
-            curr_price = 0
-            if number:
-                curr_price = self.prices[aa][label_type] * number
-            if curr_price < 0:
-                return -1
-            price += curr_price
-        return price
 
 
 class BlockFinder:
@@ -721,3 +701,444 @@ class BlockFinder:
     #     out += "FindBlocks: Date/time is {}\n".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime()))
     #     self.logger.info(out)
 
+
+class Sequence:
+
+    def __init__(self, seq):
+        self.sequence = seq.upper()
+
+    @property
+    def residue_types_used(self):
+        res_types = []
+        for residue in Constants.RES_TYPES_LIST:
+            if residue in self.sequence:
+                res_types.append(residue)
+        return res_types
+
+
+class PairsTable:
+
+    def __init__(self, sequence, label_options):
+        self.label_options = label_options
+        self.sequence = sequence.sequence
+        self.unique_pairs = []
+        self.residues_first = []
+        self.residues_second = []
+        self.res_no_first = list(Constants.RES_TYPES_LIST)
+        self.res_no_second = list(Constants.RES_TYPES_LIST)
+        self.residue_pairs = []
+        self.all_residue_pairs = []
+        self.bad_residues = []
+        self.min_nitrogens = []
+        self.residues_nitro = []  # list of residues with 15N labels. Last one can be "Other"
+        self.residues_not_nitro = []  # list of residues without 15N labels
+        self.residues_carbon = []  # list of residues with 13C labels. Last one can be "Other"
+        self.residues_not_carbon = []  # list of residues without 13C labels
+        self.residues_to_label = []  # ordered list of residues with 13C or 15N labels
+        self.non_labeled_residues = []  # residues without any labels
+        self.res_has_diagonal = {}
+        self._calculate_stats()
+
+    def _calculate_stats(self):
+        # Stock class object required for calculating stats
+        # Almost all methods should be rewritten as some of class variables
+        # are defined and created in the methods other than '__init__'
+
+        self._rank_residues()       # rank all residues in sequence by the number of
+                                    # distinct pairs (two or more equal pairs are counted as one)
+        self._residues_to_label()   # creating a list of residues that are to be labeled based
+                                    # on the residue ranks and presence of labels in stock
+        self._count_pairs()         # counting all the pairs present in sequence
+        self._check_carbon_pairs()  # recount pairs in order to skip empty rows
+        self._count_nitrogens()     # counting non-epty cells in columns
+                                    # for residues, that have 15N-labelin in stock
+        self._find_bad_residues()   # find residues, that have diagonal pair and pair with
+                                    # "Other" residues and don't have C/N labels in stock
+                                    # so that you can't tell diagonal cell from pair with "Other"
+        self._calculate_subtable_coordinates()      # precalculate coordinates of
+                                                    # subtable cells for each residue
+        self._calculate_under_cells()   # find cells that are under the particular one for crossing-out
+
+    def _rank_residues(self):
+        # Bad code for initializing outside __init__
+        residue_rank = [0 for _ in Constants.RES_TYPES_LIST]
+        self.unique_pairs = []
+        for i in range(len(self.sequence) - 1):
+            pair = self.sequence[i:i+2]
+            if pair[0] in Constants.RES_TYPES_LIST and pair[1] in Constants.RES_TYPES_LIST:
+                if pair not in self.unique_pairs:
+                    self.unique_pairs.append(pair)
+                    if pair[1] != pair[0]:
+                        residue_rank[Constants.RES_TYPES_LIST.index(pair[1])] += 1
+                    residue_rank[Constants.RES_TYPES_LIST.index(pair[0])] += 1
+                if pair[0] in self.res_no_first:
+                    self.res_no_first.pop(self.res_no_first.index(pair[0]))
+                if pair[1] in self.res_no_second:
+                    self.res_no_second.pop(self.res_no_second.index(pair[1]))
+        self.ranked_residues, self.rank_of_residue = sort_residues(Constants.RES_TYPES_LIST, residue_rank)
+        self.res_no_second.append("P")
+
+        # residues that are first in some pair in sequence
+        self.residues_first = [res for res in self.ranked_residues if res not in self.res_no_first]
+
+        # residues that are second in some pair in sequence
+        self.residues_second = [res for res in self.ranked_residues if res not in self.res_no_second]
+
+    def _count_pairs(self):
+        # table of residue pairs taken in account labeling stock
+        self.residue_pairs = [[0 for col in range(len(self.residues_nitro))]
+                              for row in range(len(self.residues_carbon))]
+        # table of all residue pairs present in protein sequence
+        self.all_residue_pairs = [[0 for col in range(len(self.residues_second))]
+                                  for row in range(len(self.residues_first))]
+        for i in range(len(self.sequence) - 1):  # Count all pairs in sequence,
+            pair = self.sequence[i:(i + 2)]
+            if pair[0] == '*' or pair[1] == '*':
+                continue
+            if pair[0] not in self.residues_carbon:
+                first_res = len(self.residues_carbon) - 1
+            else:
+                first_res = self.residues_carbon.index(pair[0])
+            if pair[1] not in self.residues_nitro:
+                second_res = len(self.residues_nitro) - 1
+            else:
+                second_res = self.residues_nitro.index(pair[1])
+            self.residue_pairs[first_res][second_res] += 1
+            if pair[0] == pair[1]:
+                self.res_has_diagonal[pair[0]] = True
+            index_first = self.residues_first.index(pair[0])
+            if pair[1] != "P":
+                index_second = self.residues_second.index(pair[1])
+                self.all_residue_pairs[index_first][index_second] += 1
+
+    def _residues_to_label(self):
+        for i in range(len(self.ranked_residues)):
+            residue = self.ranked_residues[i]
+            if self.rank_of_residue[i]:
+                nitro = False
+                for type in Constants.NITRO_TYPES:
+                    if type in self.label_options[residue]:
+                        nitro = True
+                        break
+                if nitro and residue in self.residues_second:
+                    self.residues_nitro.append(residue)
+                else:
+                    self.residues_not_nitro.append(residue)
+                carbon = False
+                for type in Constants.CARBON_TYPES:
+                    if type in self.label_options[residue]:
+                        carbon = True
+                        break
+                if carbon and residue in self.residues_first:
+                    self.residues_carbon.append(residue)
+                else:
+                    self.residues_not_carbon.append(residue)
+                if residue in self.residues_carbon or residue in self.residues_nitro:
+                    self.residues_to_label.append(residue)
+                    self.res_has_diagonal[residue] = False
+                else:
+                    self.non_labeled_residues.append(residue)
+        if len(self.residues_not_nitro):        # add "Other" column if there
+            self.residues_nitro.append("Other") # are residues not labeled by 15N
+        if len(self.residues_not_carbon):       # add "Other" row if there
+            self.residues_carbon.append("Other")# are residues not labeled by 13C
+
+    def _calculate_subtable_coordinates(self):
+        # precalculate coordinates of
+        # subtable cells for each residue
+
+        self.subtable_coordinates = []
+        check_other = (self.residues_carbon and self.residues_carbon[-1] == 'Other')
+        carbon = 0
+        nitro = 0
+        total_cells = 0
+
+        for i in range(len(self.residues_to_label)):
+            self.new_coordinates = []
+            residue = self.residues_to_label[i]
+            if i == 0:
+                if residue in self.residues_nitro:
+                    if residue in self.residues_carbon:
+                        if self.residue_pairs[0][0]:
+                            self.new_coordinates.append((0, 0))
+                        carbon += 1
+                    if check_other and self.residue_pairs[-1][0] and residue not in self.bad_residues:
+                        self.new_coordinates.append((len(self.residues_carbon) - 1, 0))
+                    nitro += 1
+            else:
+                if residue in self.residues_carbon:
+                    for j in range(nitro):
+                        if self.residue_pairs[carbon][j]:
+                            self.new_coordinates.append((carbon, j))
+                    carbon += 1
+                if residue in self.residues_nitro:
+                    for j in range(carbon):
+                        if self.residue_pairs[j][nitro]:
+                            self.new_coordinates.append((j, nitro))
+                    if check_other and self.residue_pairs[-1][nitro] and residue not in self.bad_residues:
+                        self.new_coordinates.append((len(self.residues_carbon) - 1, nitro))
+                    nitro += 1
+            total_cells += len(self.new_coordinates)
+            self.subtable_coordinates.append(self.new_coordinates)
+        curr_cells = 0
+        for i in range(len(self.subtable_coordinates)):
+            add = len(self.subtable_coordinates[i])
+            curr_cells += add
+
+    def _calculate_under_cells(self):
+        # find cells that are under the particular one for crossing-out
+
+        self.under_cells = {}
+        got_other = 0
+        if self.residues_carbon and self.residues_carbon[-1] == "Other":
+            got_other = 1
+        rows = len(self.residues_carbon) - got_other
+        for cell_list in self.subtable_coordinates:
+            for cell in cell_list:
+                under_cells = []
+                row = cell[0] + 1
+                if row > rows:
+                    row = 0     # if the cell is in "Other" row,
+                                #  then all other cells in the column are under it
+                column = cell[1]
+                for i in range(rows - row):
+                    if self.residue_pairs[row+i][column]:
+                        under_cells.append((row+i, column))
+                self.under_cells.update({cell: under_cells})
+
+    def _check_carbon_pairs(self):
+        carb_other = 0
+        changed = False
+        if self.residues_carbon and self.residues_carbon[-1] == "Other":
+            carb_other = 1
+        if self.residues_nitro and self.residues_nitro[-1] == "Other":
+            carbons = len(self.residues_carbon) - carb_other
+            for i in range(carbons):
+                k = carbons - 1 - i
+                got_pair = False
+                for j in range(len(self.residues_nitro) - 1):
+                    if self.residue_pairs[k][j]:
+                        got_pair = True
+                        break
+                if not got_pair:
+                    self.residues_not_carbon.append(self.residues_carbon[k])
+                    residue = self.residues_carbon[k]
+                    del self.residues_carbon[k]
+                    if residue not in self.residues_nitro:
+                        del self.residues_to_label[self.residues_to_label.index(residue)]
+                    changed = True
+        self.ranks = {}
+        for res in self.residues_to_label:
+            self.ranks.update({res: 0})
+        if changed:
+            self._count_pairs()
+        for i in range(len(self.residues_nitro)):
+            if self.residues_nitro[i] == "Other":
+                break
+            for j in range(len(self.residues_carbon)):
+                if self.residue_pairs[j][i]:
+                    if self.residues_carbon[j] != "Other":
+                        self.ranks[self.residues_carbon[j]] += 1
+                    if self.residues_carbon[j] != self.residues_nitro[i]:
+                        self.ranks[self.residues_nitro[i]] += 1
+        ranks = []
+        residues = []
+        for residue in self.residues_to_label:
+            if residue in self.ranks:
+                residues.append(residue)
+                ranks.append(self.ranks[residue])
+        self.residues_to_label, self.residue_ranks = sort_residues(residues, ranks)
+        self.residues_nitro_new = []
+        self.residues_carbon_new = []
+        for res in self.residues_to_label:
+            if res in self.residues_carbon:
+                self.residues_carbon_new.append(res)
+            if res in self.residues_nitro:
+                self.residues_nitro_new.append(res)
+        if "Other" in self.residues_carbon:
+            self.residues_carbon_new.append("Other")
+        if "Other" in self.residues_nitro:
+            self.residues_nitro_new.append("Other")
+        self.residues_carbon = self.residues_carbon_new
+        self.residues_nitro = self.residues_nitro_new
+        self._count_pairs()
+
+    def _add_rank(self, residue):
+        self.ranks[self.residues_to_label.index(residue)] += 1
+
+    def _count_nitrogens(self):
+        # counting non-empty cells in columns
+        # for residues, that have 15N-labeling in stock
+        for i in range(len(self.residues_nitro)):
+            pairs_count = 0
+            for j in range(len(self.residues_carbon)):
+                if self.residue_pairs[j][i]:
+                    pairs_count += 1
+            self.min_nitrogens.append(pairs_count)
+
+    def _find_bad_residues(self):
+        # find residues, that have diagonal pair and pair with
+        # "Other" residues and don't have C/N labels in stock
+        # so that you can't tell diagonal cell code from code of pair with "Other"
+
+        for i in range(len(self.residues_nitro)):
+            res = self.residues_nitro[i]
+            if res == "Other":
+                continue
+            if ("D" not in self.label_options[res]
+                  and "S" not in self.label_options[res]
+                  and "T" not in self.label_options[res]
+                  and self.residues_carbon[-1] == 'Other'
+                  and self.residues_nitro[i] in self.residues_carbon
+                  and self.residue_pairs[self.residues_carbon.index(res)][i]
+                  and self.residue_pairs[-1][i]):
+                self.bad_residues.append(res)
+
+    def make_full_pairs_table(self):
+        output  = "#"*50+"\n"
+        output += "# Table of all amino acid pairs \n"
+        output += "# \n"
+        output += "# Number in the table represents how many times \n"
+        output += "# the pair occurs in the sequence \n\n"
+        output += "[full_pairs_table]\n"
+        output += "Res," + ",".join([Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_second]) + "\n"
+        for i in range(len(self.residues_first)):
+            output += Constants.TO_THREE_LETTER_CODE[self.residues_first[i]]
+            for j in range(len(self.residues_second)):
+                output += "," + "{:>3}".format(self.all_residue_pairs[i][j])
+            if i+1 < len(self.residues_first):
+                output += "\n"
+        return output
+
+    def make_stock_pairs_table(self):
+        output = "\n\n" + "#" * 50 + "\n"
+        output += "# Table of amino acid pairs used for \n"
+        output += "# combinatorial labeling \n"
+        output += "# \n"
+        output += "# Number in the table represents how many times \n"
+        output += "# the pair occurs in the sequence \n\n"
+        output += "[pairs_table]\n"
+        additional_output = "\n"
+        if self.residues_carbon[-1] == "Other":
+            output += "   "
+        output += "Res,"
+        if self.residues_nitro[-1] == "Other":
+            output += ",".join([Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_nitro[:-1]])
+            output += ",OtherN"
+            additional_output += "\nOtherN: " + ",".join(
+                [Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_not_nitro])
+        else:
+            output += ",".join([Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_nitro])
+        output += "\n"
+        for i in range(len(self.residues_carbon)):
+            res1 = self.residues_carbon[i]
+            if res1 == "Other":
+                output += "OtherC"
+                additional_output += "\nOtherC: " + ",".join(
+                    [Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_not_carbon])
+            else:
+                if self.residues_carbon[-1] == "Other":
+                    output += "   "
+                output += Constants.TO_THREE_LETTER_CODE[res1]
+            for j in range(len(self.residues_nitro)):
+
+                output += "," + "{:>3}".format(self.residue_pairs[i][j])
+            if i + 1 < len(self.residues_carbon):
+                output += "\n"
+        output += additional_output + "\n"
+        return output
+
+    def make_pairs_codes(self, solution, ncs):
+        samples_num = len(next(iter(solution.values())))
+
+        output = "\n\n" + "#" * 50 + "\n"
+        output += "# Spectrum codes of the labeled amino acid pairs \n#\n"
+        output += "# Amino acid and labeling code strings \n"
+        output += "# according to the number of samples are in the headers\n"
+        output += "# Spectrum codes are in the table\n\n"
+        output += "[pairs_codes]\n"
+
+        additional_output = "\n"
+        separator = ","
+        if samples_num > 3:
+            separator += " " * (samples_num - 3)
+        otherC_spaces = ""
+        if self.residues_carbon[-1] == "Other":
+            otherC_spaces += "   "
+        output += otherC_spaces + "   ," + " " * samples_num + separator
+        if self.residues_nitro[-1] == "Other":
+            res_list = self.residues_nitro[:-1]
+        else:
+            res_list = self.residues_nitro
+        output += separator.join([Constants.TO_THREE_LETTER_CODE[res] for res in res_list])
+        if self.residues_nitro[-1] == "Other":
+            output += ",OtherN"
+            additional_output += "\nOtherN: " + ",".join(
+                [Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_not_nitro])
+        output += "\n"
+        output += otherC_spaces + "   ," + " " * samples_num
+        for res in res_list:
+            output += "," + solution[res]
+        if self.residues_nitro[-1] == "Other":
+            output += "," + "X" * samples_num
+        output += "\n"
+        for i in range(len(self.residues_carbon)):
+            res1 = self.residues_carbon[i]
+            if res1 == "Other":
+                additional_output += "\nOtherC: " + ",".join(
+                    [Constants.TO_THREE_LETTER_CODE[res] for res in self.residues_not_carbon])
+                output += "OtherC"
+            else:
+                output += otherC_spaces + Constants.TO_THREE_LETTER_CODE[res1]
+            output += "," + solution[res1]
+            for j in range(len(self.residues_nitro)):
+                res2 = self.residues_nitro[j]
+                if res2 == "Other":
+                    code = "0" * samples_num
+                elif self.residue_pairs[i][j]:
+                    code = ncs.calc_code(solution[res1], solution[res2])
+                else:
+                    code = " " * samples_num
+                output += "," + code
+            if i + 1 < len(self.residues_carbon):
+                output += "\n"
+        output += additional_output
+        output += "\n"
+        return output
+
+
+def sort_residues(residue_list, residue_rank):
+    # bubble sort for residues by residue rank.
+    # used it because standard sorted() method gives randomized results
+    residues = list(residue_list)
+    for i in range(len(residues) - 1):
+        for j in range(len(residues) - 1 - i):
+            if residue_rank[i] < residue_rank[i + j + 1]:
+                temp_res = residues[i]
+                temp_rank = residue_rank[i]
+                residue_rank[i] = residue_rank[i + j + 1]
+                residues[i] = residues[i + j + 1]
+                residue_rank[i + j + 1] = temp_rank
+                residues[i + j + 1] = temp_res
+    return residues, residue_rank
+
+
+def calc_price(prices_table, aa, pattern):
+    price = 0
+    letters = list(map(chr, range(97, 123)))
+    for i in range(len(pattern)):
+        label = pattern[i]
+        try:
+            number = int(label)
+        except ValueError:
+            number = letters.index(label) + 10
+        label_type = Constants.TYPES[i]
+        if aa == "P":
+            label_type = Constants.PROLINE_SUBSTITUTE[label_type]
+        curr_price = 0
+        if number:
+            curr_price = prices_table[aa][label_type] * number
+        if curr_price < 0:
+            return -1
+        price += curr_price
+    return price
