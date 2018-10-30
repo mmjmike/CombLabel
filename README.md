@@ -120,7 +120,7 @@ Typical NCSs are collected in `NCS` folder of the package.
  * `--silent, -s` - makes no output to stdout. Overrides `-v` argument
  * `--mintfree, -t` - defines minimal number of patterns without 'T'
   labels. This parameter was used to calculate blocks of 3 samples for
-   ALT16 scheme
+   ALT12 scheme
 
 Typical blockfinder output:
 ~~~~
