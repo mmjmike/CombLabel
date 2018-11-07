@@ -516,7 +516,8 @@ class PriceOptimizer:
 
 class BlockFinder:
 
-    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False, min_t_free = -1):
+    def __init__(self, samples, ncs, min_depth, logger, elb_logger,
+                 block_finder_mode=False, min_t_free = -1, begin = -1, end = -1):
         self.samples = samples
         self.block_finder_mode = block_finder_mode
         self.min_t_free = min_t_free
@@ -541,6 +542,8 @@ class BlockFinder:
         self.logger = logger
         self.elb_logger = elb_logger
         self.timer = time.time()
+        self.begin = begin
+        self.end = end
 
     def find(self):
         self.start_blockfinder()
