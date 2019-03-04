@@ -121,7 +121,7 @@ class Scheme:
 
     def simplified_str(self):
         out = []
-        for simple_pattern in self.simplified:
+        for simple_pattern in sorted(self.simplified):
             out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
         return ",".join(out)
 
@@ -678,7 +678,8 @@ class BlockFinder:
 
     def write_result(self, new_scheme):
         self.results_found += 1
-        output = new_scheme.full_str()
+        output = "# iterator = {}\n".format(self.iterator)
+        output += new_scheme.full_str()
         # self.logger.debug(output)
         self.elb_logger.info(output + "\n")
 

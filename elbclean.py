@@ -137,10 +137,12 @@ def read_args():
     parser.add_argument("--redundant-skip", "-r", dest="redundant", help='Do NOT clear redundant blocks', action="store_false")
     parser.add_argument("--product", "-P", help='Clear product blocks [Default]', action="store_true", default = True)
     parser.add_argument("--product-skip", "-p", dest="product", help='Do NOT clear product blocks', action="store_false")
+    parser.add_argument("--simplified", "-s", dest="simplified", help='Output SIMPLIFIED blocks', action="store_true")
     args = parser.parse_args()
     print("Clear IDENTICAL blocks: {}".format(args.identical))
     print("Clear REDUNDANT blocks: {}".format(args.redundant))
     print("Clear PRODUCT blocks:   {}".format(args.product))
+    print("Output SIMPLIFIED blocks:   {}".format(args.simplified))
     for file in args.elb_files:
         if not os.path.isfile(file):
             print("Error! ELB file '{}' not found".format(file))
@@ -151,11 +153,11 @@ def read_args():
         output_file = args.output_file
     else:
         output_file = add_to_file_name(args.elb_files[0] + "_" + args.elb_files[-1], "_clean")
-    return args.elb_files, output_file, (args.identical, args.redundant, args.product)
+    return args.elb_files, output_file, (args.identical, args.redundant, args.product), args.simplified
 
 
 def main():
-    elb_files, output_file, flags = read_args()
+    elb_files, output_file, flags, output_simplified = read_args()
     blocks = {}
     for file in elb_files:
         result, blocks, ncs_name, deuterated = read_blocks(file, initial_blocks = blocks)
@@ -164,7 +166,7 @@ def main():
         print(result)
         return
     new_blocks = clear_blocks(blocks, flags)
-    write_blocks(new_blocks, ncs_name, output_file, deuterated)
+    write_blocks(new_blocks, ncs_name, output_file, deuterated, simplified = output_simplified )
     print("Blocks written to '{}' successfully".format(output_file))
 
 
