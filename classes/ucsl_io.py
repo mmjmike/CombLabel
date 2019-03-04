@@ -270,6 +270,7 @@ def read_ncs_file(filename):
 
 def read_sequence(filename):
     sequence = ""
+    msg = ""
     lines = read_lines(filename)
     for line in lines:
         if line[0] == ">":
@@ -277,10 +278,10 @@ def read_sequence(filename):
         clean_line = line.replace("\t", "").replace(" ", "")
         for char in line:
             if char.upper() not in Constants.RES_TYPES_LIST:
-                print("Error! Symbol '{}' doesn't represent any amino acid residue in sequence file '{}'. Please correct sequence file".format(char, filename))
-                return ""
+                msg = "Error! Symbol '{}' doesn't represent any amino acid residue in sequence file '{}'. Please correct sequence file".format(char, filename)
+                return "", msg
         sequence += clean_line.upper()
-    return sequence
+    return sequence, msg
 
 
 def read_solution(filename):
@@ -327,6 +328,7 @@ def read_solution(filename):
                                 filename, label))
                         return {}
                 solution_dict[residue] = pattern
+    solution_dict["Other"] = "X"*samples
     return solution_dict
 
 
@@ -441,3 +443,61 @@ def read_prices(prices_file):
             residue_type = residue_type1
         prices.update({residue_type: curr_dict})
     return prices, msg
+
+
+def read_stock(filename):
+    msg = ""
+    stock = {}
+    lines = read_lines(filename)
+    if len(lines) < 3:
+        msg = "Prices file '{}' is too short".format(filename)
+        return stock, msg
+    d = []
+    line_length = 0
+    first_line = True
+    for line in lines:
+        deuterated_match = Constants.deuterated_re.match(line)
+        if deuterated_match:
+            deuteration = deuterated_match.group(1).upper()
+            deuterated_found, deuterated = extract_deuterated(deuteration)
+            stock.update({"Deuterated" : deuterated})
+            continue
+        else:
+          s = [x.strip() for x in line.split(",")]
+          if first_line:
+              line_length = len(s)
+              first_line = False
+          else:
+              if len(s) != line_length:
+                  msg = "Not equal length of lines in prices file '{}'".format(filename)
+                  return stock, msg
+          d.append(s)
+    price_label_types = d[0][1:]
+    for l_type in price_label_types:
+        if l_type.upper() not in Constants.TYPES_NAMES:
+            msg = "Incorrect label type {} in prices file '{}'".format(l_type, filename)
+            return stock, msg
+    if len(price_label_types) < 2:
+        msg = "Too few labeling types specified in prices file '{}'".format(filename)
+        return stock, msg
+
+    for i in range(len(d) - 1):
+        curr_dict = {}
+        for j in range(len(price_label_types)):
+            try:
+                price = float(d[i + 1][j + 1])
+            except ValueError:
+                msg = "ERROR! Price must be set in digits"
+                msg += "\nPlease check price file '{}' (row {}; col {})".format(filename,
+                                                                                i + 2, j + 2)
+                return {}, msg
+            curr_dict.update({price_label_types[j]: price})
+        residue_type = d[i + 1][0]
+        if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
+            msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, filename)
+            return {}, msg
+        if residue_type in Constants.RES_TYPES_THREE:
+            residue_type1 = Constants.TO_ONE_LETTER_CODE[residue_type]
+            residue_type = residue_type1
+            stock.update({residue_type: curr_dict})
+    return stock, msg

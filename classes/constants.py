@@ -156,6 +156,7 @@ class NCS:
 
         return output
 
+
 class ELB:
 
     def __init__(self, patterns, ncs_name, deuterated=False):
@@ -212,7 +213,6 @@ class ELB:
             if self.simplified[pattern] > other_simple[pattern]:
                 return False
         return True
-
 
 
 class ELB_to_be_removed:
@@ -288,6 +288,7 @@ class Constants:
     TYPES_NAMES = [label_type.name for label_type in BASIC_TYPES]
 
     TYPES = ("X", "N", "C", "D", "A", "T", "S", "F")
+    LABEL_SORT_ALPHABET = {"X": 3, "N": 1, "C": 2, "D": 4, "A": 5, "S": 6, "T": 7, "F": 8}
     DEUTERATED_TYPES = ("X", "N", "F", "D")
     CARBON_TYPES = [label_type for label_type in BASIC_TYPES if label_type.isotopes[1] == "1" or label_type.isotopes[2] == "1"]
     NITRO_TYPES = [label_type for label_type in BASIC_TYPES if label_type.isotopes[0] == "1"]
