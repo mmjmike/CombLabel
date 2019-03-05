@@ -19,6 +19,7 @@ class Scheme:
         self.samples = samples
         self.good = self.check_codes()
         self.simplified = {}
+        self.simplified_str = ""
         self.simplify()
         self.new_codes = set()
         self.precursor_schemes = []
@@ -58,6 +59,7 @@ class Scheme:
                     temp_pattern = self.patterns[i]
                     self.patterns[i] = self.patterns[i+j+1]
                     self.patterns[i+j+1] = temp_pattern
+        self.simplify()
 
     def is_subset_of(self, other_simple):
         for pattern in self.simplified:
@@ -108,25 +110,21 @@ class Scheme:
             self.add_pattern(pattern)
 
     def simplify(self):
-        self.simplified = {}
-        for pattern in self.patterns:
-            simple_pattern = Pattern.simplify_pattern(pattern)
-            if self.simplified != {} and simple_pattern in self.simplified:
-                self.simplified[simple_pattern] += 1
-            else:
-                self.simplified.update({simple_pattern: 1})
+        self.simplified, self.simplified_str = \
+            Pattern.simplify_list_of_patterns(self.patterns)
+
 
     def __eq__(self, scheme):
         return self.simplified == scheme.simplified
 
-    def simplified_str(self):
-        out = []
-        for simple_pattern in sorted(self.simplified):
-            out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
-        return ",".join(out)
+#    def simplified_str(self, join_char=","):
+#        out = []
+#        for simple_pattern in sorted(self.simplified):
+#            out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
+#        return join_char.join(out)
 
     def __hash__(self):
-        return(hash(self.simplified_str(self)))
+        return(hash(self.simplified_str))
 
     def copy(self):
         return Scheme(copy.copy(self.name), copy.copy(self.ncs),
@@ -148,6 +146,7 @@ class Scheme:
         # self.size = 0
         self.good = True
         self.simplified = {}
+        self.simplified_str = ""
         self.simplify()
         self.new_codes = set()
 
@@ -524,11 +523,18 @@ class PriceOptimizer:
 
 class BlockFinder:
 
-    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False):
+    def __init__(self, samples, ncs, min_depth, logger, elb_logger, block_finder_mode=False, min_t_free = -1):
         self.samples = samples
         self.block_finder_mode = block_finder_mode
+        self.min_t_free = min_t_free
+        self.check_t_free = False
+        if min_t_free >=0:
+            self.check_t_free = True
+        self.index_of_type_T = Pattern.index_of_type(Constants.typeT)
         self.ncs = ncs
         self.min_depth = min_depth
+        if self.min_depth <= 1:
+            self.min_depth = 2
         self.scheme = Scheme("1", self.ncs, samples, [])
         self.patterns = [self.generate_patterns(self.samples)]
         self.depth = 0
@@ -549,11 +555,13 @@ class BlockFinder:
         self.blockfinder_finished()
 
     def start_blockfinder(self):
-        if self.min_depth == 1:
-            self.min_depth = 2
         self.timer = time.time()
 
-        out = "[BlockFinder{}] started new search in {} samples with min_depth={}".format(
+        if self.check_t_free:
+            out = "[BlockFinder{}] started new search in {} samples with min_depth={}, min_t_free = {}".format(
+                  self.samples, self.samples, self.min_depth, self.min_t_free)
+        else:
+            out = "[BlockFinder{}] started new search in {} samples with min_depth={}".format(
                   self.samples, self.samples, self.min_depth)
         self.logger.info(out)
         out = "[BlockFinder{}] total number of patterns is {}".format(
@@ -587,12 +595,17 @@ class BlockFinder:
 
             next_patterns = self.get_next_patterns(patterns, patterns_left, start_point)
 
-            if not next_patterns:
+            flag_t_free = True
+            if self.check_t_free:
+                flag_t_free = self.check_have_enought_t_free(self.scheme, next_patterns)
+
+            if next_patterns and flag_t_free:
+                self.go_deeper(next_patterns)
+            else:
                 if len(self.scheme.patterns) >= self.min_depth:
                     self.save_result()
                 self.go_parallel()
-            else:
-                self.go_deeper(next_patterns)
+
 
             self.check_max_depth()
 
@@ -612,6 +625,12 @@ class BlockFinder:
             if self.block_finder_mode:
                 out = "[BlockFinder{}] New max depth: {}".format(self.samples, self.max_depth)
                 self.logger.info(out)
+
+    def check_have_enought_t_free(self, scheme, patterns_left):
+        scheme_t, scheme_t_free = Pattern.count_type_in_list_of_simplified(scheme.simplified, self.index_of_type_T)
+        left_t, left_t_free = Pattern.count_type_in_list_of_patterns(patterns_left, Constants.typeT)
+        flag = scheme_t_free + left_t_free >= self.min_t_free
+        return flag
 
     def get_next_patterns(self, patterns, patterns_left, start_point):
         next_patterns = []
@@ -661,19 +680,17 @@ class BlockFinder:
         return new_set
 
     def save_result(self):
+        if self.check_t_free and not self.check_have_enought_t_free(self.scheme, []):
+            return
         depth_of_scheme = self.scheme.size()
         new_scheme = self.scheme.copy()
         new_scheme.sort()
         if depth_of_scheme in self.result:
-            equal = False
-            for scheme in self.result[depth_of_scheme]:
-                if new_scheme == scheme:
-                    equal = True
-            if not equal:
-                self.result[depth_of_scheme].append(new_scheme)
+            if new_scheme not in self.result[depth_of_scheme]:
+                self.result[depth_of_scheme].update({new_scheme : 1 })
                 self.write_result(new_scheme)
         else:
-            self.result.update({depth_of_scheme: [new_scheme]})
+            self.result.update({depth_of_scheme: {new_scheme : 1}})
             self.write_result(new_scheme)
 
     def write_result(self, new_scheme):
