@@ -202,7 +202,7 @@ def find_good_ncs_paths(ncs_name, script_path=os.path.split(os.path.realpath(__f
     return good_paths
 
 
-def write_blocks(blocks, ncs_name, filename, deuterated):
+def write_blocks(blocks, ncs_name, filename, deuterated, simplified = False):
     output = "[NCS = {}]\n".format(ncs_name)
     output+= "[Deuterated = {}]\n".format(deuterated)
     blocks_samples = list(blocks.keys())
@@ -212,8 +212,15 @@ def write_blocks(blocks, ncs_name, filename, deuterated):
         patterns_numbers.sort()
         for patterns_num in patterns_numbers:
             for block in blocks[samples_num][patterns_num]:
-                output += "[ELB samples = {} patterns = {}]\n".format(block.samples, len(block.patterns)) \
-                          + str(block)
+                if(simplified):
+                   block_head = "SIMPLIFIED"
+                   block.simplify(join_char = "\n")
+                   block_str = block.simplified_str
+                else:
+                   block_head = "ELB"
+                   block_str = str(block)
+                output += "[{} samples = {} patterns = {}]\n".format(block_head, block.samples, len(block.patterns)) \
+                          + block_str
                 output += "\n"
     with open(filename, mode="w") as f:
         f.write(output)

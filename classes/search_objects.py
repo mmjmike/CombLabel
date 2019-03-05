@@ -113,11 +113,18 @@ class Scheme:
         self.simplified, self.simplified_str = \
             Pattern.simplify_list_of_patterns(self.patterns)
 
-    def __hash__(self):
-        return(hash(self.simplified_str))
 
     def __eq__(self, scheme):
         return self.simplified == scheme.simplified
+
+#    def simplified_str(self, join_char=","):
+#        out = []
+#        for simple_pattern in sorted(self.simplified):
+#            out.append(simple_pattern + ":" + str(self.simplified[simple_pattern]))
+#        return join_char.join(out)
+
+    def __hash__(self):
+        return(hash(self.simplified_str))
 
     def copy(self):
         return Scheme(copy.copy(self.name), copy.copy(self.ncs),
@@ -688,7 +695,8 @@ class BlockFinder:
 
     def write_result(self, new_scheme):
         self.results_found += 1
-        output = new_scheme.full_str()
+        output = "# iterator = {}\n".format(self.iterator)
+        output += new_scheme.full_str()
         # self.logger.debug(output)
         self.elb_logger.info(output + "\n")
 

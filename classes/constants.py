@@ -180,9 +180,9 @@ class ELB:
         return "[ELB samples = {} patterns = {}]\n".format(self.samples, len(self.patterns)) \
                  + str(self)
 
-    def simplify(self):
+    def simplify(self, join_char=","):
         self.simplified, self.simplified_str = \
-            Pattern.simplify_list_of_patterns(self.patterns)
+            Pattern.simplify_list_of_patterns(self.patterns, join_char)
 
     def __mul__(self, other):
         new_patterns = []
@@ -366,7 +366,7 @@ class Constants:
 
     NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
 
-    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*(\\w+)\\s*\\]')
+    ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*([A-Za-z0-9_-]+)\\s*\\]')
     deuterated_re = re.compile('\\[\\s*Deuterated\\s*=\\s*([A-Za-z]+)\\s*\\]')
     elb_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
 
@@ -398,7 +398,7 @@ class PatternClass:
         result = "".join([str(a) if a < 10 else letters[a-10] for a in simple_form])
         return result
 
-    def simplify_list_of_patterns(self, list_of_patterns):
+    def simplify_list_of_patterns(self, list_of_patterns, join_char=","):
         simplified = {}
         for pattern in list_of_patterns:
             simple_pattern = self.simplify_pattern(pattern)
@@ -409,7 +409,7 @@ class PatternClass:
         out = []
         for simple_pattern in sorted(simplified.keys()):
             out.append(simple_pattern + ":" + str(simplified[simple_pattern]))
-        simplified_str = ",".join(out)
+        simplified_str = join_char.join(out)
         return simplified, simplified_str
 
     def first_scheme_subset(self, scheme_1, scheme_2):
