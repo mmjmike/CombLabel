@@ -12,15 +12,19 @@ class CLOptimizer:
         self.logger = logger
         self.samples = parameters["samples"]
         self.optimize_price = parameters["optimize_price"]
+        self.ncs = parameters["ncs"]
+        self.sequence = parameters["sequence"]
         self.iteration = 0
-        self.residues2label = []
+        self.residues2label = set()
         self.final_depth = len(self.residues2label)
         self.solutions = 0
-        self.solution = Solution(None)
+        self.solution = None
         self.back_up_solutions = []
         self.counter = [0]
         self.depth = 0
         self.symmetry = [self.samples]
+        self.best_solution = None
+        self.patterns_codes = None
 
     def run(self):
         while not self.solution_found:
@@ -32,8 +36,6 @@ class CLOptimizer:
         self.counter = [0]
         self.depth = 0
         self.generate_residues2label()
-        self.create_patterns_codes()
-        self.create_solution()
         self.main_cycle()
 
     def main_cycle(self):
@@ -82,6 +84,13 @@ class CLOptimizer:
         pass
 
     def generate_residues2label(self):
+        for res_name, residue_obj in self.sequence.residues:
+            residue_obj.make_patterns(self.samples, self.ncs)
+            self.residues2label.add(residue_obj)
+
+
+
+
         #make a set of residues
         #make residues after and before
         #check good or bad
@@ -89,16 +98,15 @@ class CLOptimizer:
         #if needed calculate prices
         #make labeling array
         #for each residue2label convert patterns to codes
-        all_patterns = set().union(*[res.patterns_set for res is self.residues2label])
+
+
+        all_patterns = set().union(*[res.patterns_set for res in self.residues2label])
         all_patterns_list = list(all_patterns)
+        alphabet = Constants.LABEL_SORT_ALPHABET
+        patterns = sorted(all_patterns_list, key=lambda word: [alphabet[c] for c in word])
 
-
-        self.label_list = sorted(self.label_set, key=lambda word: [alphabet[c] for c in word])
-
-
-        patterns_codes = PatternsCodes(all_patterns_list)
-        self.solution = Solution(patterns_codes)
-        pass
+        self.patterns_codes = PatternsCodes(patterns, self.ncs)
+        self.solution = Solution(self.patterns_codes)
 
     def create_patterns_codes(self):
         pass
@@ -106,28 +114,38 @@ class CLOptimizer:
 
 class Residue2Label:
 
-    def __init__(self, name, ncs, samples, label_options, residues_after, residues_before):
+    def __init__(self, name, label_options, residues_after=set(), residues_before=set(), prices=dict()):
         self.name = name
-        self.samples = samples
+        self.samples = 0
         self.pattern_price = dict()
-        self.residues_after = residues_after
-        self.residues_before = residues_before
         self.patterns_list = []
-        self.patterns_codes = []
         self.label_options = label_options
+        self.symmetry_cross_out = set()
+
+        self.residues_after = set()
+        self.residues_before = set()
 
         self.has_15n = False
         for label in label_options:
             if label in Constants.NITRO_TYPES:
                 self.has_15n = True
+                self.residues_after = residues_after
                 break
+        self.has_13c = False
+        for label in label_options:
+            if label in Constants.CARBON_TYPES:
+                self.has_13c = True
+                self.residues_before = residues_before
+                break
+        self.labeling_prices = prices
+        self.patterns_set = set()
 
-        self.labeling_prices = dict()
-        self.patterns_set = self._generate_initial_set(self.samples)
-        self._cross_out_N_power(ncs)
+    def make_patterns(self, samples, ncs):
+        self.samples = samples
+        self.patterns_set = self.generate_initial_set(self.samples)
+        self.cross_out_N_power(ncs)
 
-
-    def _generate_initial_set(self, samples):
+    def generate_initial_set(self, samples):
         # recursive function, that generates all possible combinations
         # of labels given the number of samples for the given residue
 
@@ -135,14 +153,22 @@ class Residue2Label:
             new_set = set()
             new_set.add("")
             return new_set
-        current_set = self._generate_initial_set(samples - 1)
+        current_set = self.generate_initial_set(samples - 1)
         new_set = set()
         for item in current_set:
             for option in self.label_options:
                 new_set.add(item + option)
         return new_set
 
-    def _cross_out_N_power(self, ncs):
+    def add_residue_after(self, res_name):
+        if self.has_13c:
+            self.residues_after.add(res_name)
+
+    def add_residue_before(self, res_name):
+        if self.has_15n:
+            self.residues_before.add(res_name)
+
+    def cross_out_N_power(self, ncs):
         if not self.has_15n:
             return
         cross_out_set = set()
@@ -160,7 +186,6 @@ class Residue2Label:
                 got_nitro = True
         return got_nitro and max_pairs >= len(self.residues_after)
 
-
     def cross_out(self):
         pass
 
@@ -168,7 +193,23 @@ class Residue2Label:
         return len(self.patterns_list)
 
     def cross_out_symmetry(self, symmetry):
-        for pattern_code
+        self.symmetry_cross_out = set()
+        if len(symmetry) == self.samples:
+            return
+        label_num_dict = Constants.LABEL_SORT_ALPHABET
+        for pattern in self.patterns_set:
+            start_point = 0
+            for i in range(len(symmetry)):
+                if symmetry[i] > 1:
+                    for j in range(symmetry[i] - 1):
+                        if (label_num_dict[pattern[start_point + j]]
+                                > label_num_dict[pattern[start_point + j + 1]]):
+                            self.symmetry_cross_out.add(pattern)
+                start_point += symmetry[i]
+        self.patterns_set = self.patterns_set.difference(self.symmetry_cross_out)
+
+    def restore_symmetry(self):
+        self.patterns_set.union(self.symmetry_cross_out)
 
 
 class PatternsCodes:
@@ -198,11 +239,11 @@ class PatternsCodes:
     def get_pattern_number(self, pattern):
         return self.patterns.index(pattern)
 
-    def get_pattern_by_code(self, pattern_code):
-        return self.patterns[pattern_code]
+    def get_pattern_by_number(self, pattern_number):
+        return self.patterns[pattern_number]
 
-    def get_simple_form_by_code(self, pattern_code):
-        return  self.simple_list[pattern_code]
+    def get_simple_form_by_number(self, pattern_number):
+        return  self.simple_list[pattern_number]
 
     def get_symbol_code_by_number(self, code_number):
         return self.codes_list[code_number]
@@ -216,6 +257,7 @@ class Solution:
         self.residues = []
         self.codes = set()
         self.price = 0
+        self.found = False
         self.new_codes = set()
 
     def try_label(self, pattern_code, residue):

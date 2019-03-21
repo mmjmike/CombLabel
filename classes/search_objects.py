@@ -4,6 +4,7 @@ import time
 from .constants import Constants, Pattern, ELB
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
+from classes.sequence_specific import Residue2Label
 
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
@@ -733,6 +734,7 @@ class Sequence:
         # Almost all methods should be rewritten as some of class variables
         # are defined and created in the methods other than '__init__'
 
+
         self.stock = stock
         self._rank_residues()  # rank all residues in sequence by the number of
         # distinct pairs (two or more equal pairs are counted as one)
@@ -761,33 +763,62 @@ class Sequence:
     #     return residue_count
     #
     #
-    # def _rank_residues(self):
-    #     # Bad code for initializing outside __init__
-    #
-    #     residue_rank = [0 for _ in self.task.res_types]
-    #     self.unique_pairs = []
-    #     self.res_no_first = list(self.task.res_types)
-    #     self.res_no_second = list(self.task.res_types)
-    #     for i in range(len(self.sequence) - 1):
-    #         pair = self.sequence[i:i + 2]
-    #         if pair[0] in self.task.res_types and pair[1] in self.task.res_types:
-    #             if pair not in self.unique_pairs:
-    #                 self.unique_pairs.append(pair)
-    #                 if pair[1] != pair[0]:
-    #                     residue_rank[self.task.res_types.index(pair[1])] += 1
-    #                 residue_rank[self.task.res_types.index(pair[0])] += 1
-    #             if pair[0] in self.res_no_first:
-    #                 self.res_no_first.pop(self.res_no_first.index(pair[0]))
-    #             if pair[1] in self.res_no_second:
-    #                 self.res_no_second.pop(self.res_no_second.index(pair[1]))
-    #     self.ranked_residues, self.rank_of_residue = self._sort_residues(self.task.res_types, residue_rank)
-    #     self.res_no_second.append("P")
-    #
-    #     # residues that are first in some pair in sequence
-    #     self.residues_first = [res for res in self.ranked_residues if res not in self.res_no_first]
-    #
-    #     # residues that are second in some pair in sequence
-    #     self.residues_second = [res for res in self.ranked_residues if res not in self.res_no_second]
+    def sequence_stats(self, stock):
+        self.residues = dict()
+
+        for i in range(len(self.sequence) - 1):
+            pair = self.sequence[i:i + 2]
+            first_res = pair[0]
+            second_res = pair[1]
+            if first_res in self.residues:
+                self.residues[first_res].add_residue_after(second_res)
+            else:
+                label_options = stock.label_options[first_res]
+
+                prices = stock.prices_dict[first_res]
+                residue_obj = Residue2Label(first_res, label_options, prices=prices)
+                residue_obj.add_residue_after(second_res)
+                self.residues[first_res] = residue_obj
+
+            if second_res in self.residues:
+                self.residues[second_res].add_residue_before(first_res)
+            else:
+                label_options = stock.label_options[second_res]
+
+                prices = stock.prices_dict[second_res]
+                residue_obj = Residue2Label(second_res, label_options, prices=prices)
+
+                residue_obj.add_residue_before(first_res)
+                self.residues[second_res] = residue_obj
+
+
+    def _rank_residues(self):
+        # Bad code for initializing outside __init__
+        all_residue_list = Constants.RES_TYPES_LIST
+        residue_rank = [0 for _ in all_residue_list]
+        self.unique_pairs = []
+        self.res_no_first = list(all_residue_list)
+        self.res_no_second = list(all_residue_list)
+        for i in range(len(self.sequence) - 1):
+            pair = self.sequence[i:i + 2]
+            if pair[0] in all_residue_list and pair[1] in all_residue_list:
+                if pair not in self.unique_pairs:
+                    self.unique_pairs.append(pair)
+                    if pair[1] != pair[0]:
+                        residue_rank[all_residue_list.index(pair[1])] += 1
+                    residue_rank[all_residue_list.index(pair[0])] += 1
+                if pair[0] in self.res_no_first:
+                    self.res_no_first.pop(self.res_no_first.index(pair[0]))
+                if pair[1] in self.res_no_second:
+                    self.res_no_second.pop(self.res_no_second.index(pair[1]))
+        self.ranked_residues, self.rank_of_residue = self._sort_residues(all_residue_list, residue_rank)
+        self.res_no_second.append("P")
+
+        # residues that are first in some pair in sequence
+        self.residues_first = [res for res in self.ranked_residues if res not in self.res_no_first]
+
+        # residues that are second in some pair in sequence
+        self.residues_second = [res for res in self.ranked_residues if res not in self.res_no_second]
     #
     #
     # def _residues_to_label(self):
@@ -830,20 +861,20 @@ class Sequence:
     #         self.residues_carbon.append("Other")  # are residues not labeled by 13C
     #
     #
-    # def _sort_residues(self, residue_list, residue_rank):
-    #     # bubble sort for residues by residue rank.
-    #     # used it because standard sorted() method gives randomized results
-    #     residues = list(residue_list)
-    #     for i in range(len(residues) - 1):
-    #         for j in range(len(residues) - 1 - i):
-    #             if residue_rank[i] < residue_rank[i + j + 1]:
-    #                 temp_res = residues[i]
-    #                 temp_rank = residue_rank[i]
-    #                 residue_rank[i] = residue_rank[i + j + 1]
-    #                 residues[i] = residues[i + j + 1]
-    #                 residue_rank[i + j + 1] = temp_rank
-    #                 residues[i + j + 1] = temp_res
-    #     return residues, residue_rank
+    def _sort_residues(self, residue_list, residue_rank):
+        # bubble sort for residues by residue rank.
+        # used it because standard sorted() method gives randomized results
+        residues = list(residue_list)
+        for i in range(len(residues) - 1):
+            for j in range(len(residues) - 1 - i):
+                if residue_rank[i] < residue_rank[i + j + 1]:
+                    temp_res = residues[i]
+                    temp_rank = residue_rank[i]
+                    residue_rank[i] = residue_rank[i + j + 1]
+                    residues[i] = residues[i + j + 1]
+                    residue_rank[i + j + 1] = temp_rank
+                    residues[i + j + 1] = temp_res
+        return residues, residue_rank
     #
     #
     # def _check_carbon_pairs(self):
