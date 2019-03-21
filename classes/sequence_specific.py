@@ -1,4 +1,5 @@
 from classes.constants import PatternClass, Constants
+from operator import attrgetter
 import copy
 
 
@@ -16,6 +17,7 @@ class CLOptimizer:
         self.sequence = parameters["sequence"]
         self.iteration = 0
         self.residues2label = set()
+        self.residues_not_label = set()
         self.final_depth = len(self.residues2label)
         self.solutions = 0
         self.solution = None
@@ -44,7 +46,7 @@ class CLOptimizer:
 
             if self.depth == 0 and self.counter[0] > self.solution.residues[0].patterns_number():
                 break
-
+            self.solution
             self.back_up_solutions.append(self.solution.copy())
 
 
@@ -65,10 +67,13 @@ class CLOptimizer:
         # some output
 
     def go_deeper(self):
-        # choose residue with smallest number of patterns
-        # add counter
-        # depth ++
-        pass
+        next_res = max(self.residues2label, key=attrgetter('patterns_number'))
+        self.counter.append(0)
+        self.depth += 1
+
+
+    def select_min_patterns_residue(self):
+
 
     def go_parallel(self):
         # take back-upped scheme
@@ -85,8 +90,11 @@ class CLOptimizer:
 
     def generate_residues2label(self):
         for res_name, residue_obj in self.sequence.residues:
-            residue_obj.make_patterns(self.samples, self.ncs)
-            self.residues2label.add(residue_obj)
+            if residue_obj.need_label:
+                residue_obj.make_patterns(self.samples, self.ncs)
+                self.residues2label.add(residue_obj)
+            else:
+                self.residues_not_label.add(residue_obj)
 
 
 
@@ -121,7 +129,7 @@ class Residue2Label:
         self.patterns_list = []
         self.label_options = label_options
         self.symmetry_cross_out = set()
-
+        self.include_other = True
         self.residues_after = set()
         self.residues_before = set()
 
@@ -136,6 +144,14 @@ class Residue2Label:
             if label in Constants.CARBON_TYPES:
                 self.has_13c = True
                 self.residues_before = residues_before
+                break
+        self.need_label = False
+        if self.has_15n or self.has_13c:
+            self.need_label = True
+        self.has_double_label = False
+        for label in label_options:
+            if label in Constants.CARBON_TYPES and Constants.NITRO_TYPES:
+                self.has_double_label = True
                 break
         self.labeling_prices = prices
         self.patterns_set = set()

@@ -765,6 +765,8 @@ class Sequence:
     #
     def sequence_stats(self, stock):
         self.residues = dict()
+        self.other_N = []
+        self.other_C = []
 
         for i in range(len(self.sequence) - 1):
             pair = self.sequence[i:i + 2]
@@ -790,6 +792,26 @@ class Sequence:
 
                 residue_obj.add_residue_before(first_res)
                 self.residues[second_res] = residue_obj
+
+        # deal with Other N:
+        for res, res_obj in self.residues:
+            if not res_obj.has_15n:
+                for res2, res_obj2 in self.residues:
+                    res_obj2.residues_after.discard(res)
+                self.other_N.append(res)
+
+        for res, res_obj in self.residues:
+            if not res_obj.has_13c:
+                for res2, res_obj2 in self.residues:
+                    res_obj2.residues_before.discard(res)
+                    res_obj2.residues_before.add("Other")
+                self.other_C.append(res)
+
+        for res, res_obj in self.residues:
+            if res_obj.has_15n and res in res_obj.residues_before \
+                    and "Other" in res_obj.residues_before and res_obj.has_double_label:
+                res_obj.include_other = False
+
 
 
     def _rank_residues(self):
