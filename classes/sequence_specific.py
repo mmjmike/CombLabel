@@ -22,11 +22,12 @@ class CLOptimizer:
         self.solutions = 0
         self.solution = None
         self.back_up_solutions = []
-        self.counter = [0]
+        self.counter = []
         self.depth = 0
         self.symmetry = [self.samples]
         self.best_solution = None
         self.patterns_codes = None
+        self.next_res = None
 
     def run(self):
         while not self.solution_found:
@@ -41,16 +42,21 @@ class CLOptimizer:
         self.main_cycle()
 
     def main_cycle(self):
+        self.start()
         while True:
             self.next_iteration()
 
             if self.depth == 0 and self.counter[0] > self.solution.residues[0].patterns_number():
                 break
-            self.solution
+
             self.back_up_solutions.append(self.solution.copy())
+            self.solution.add_label(self.next_res.patterns_list[self.counter[self.depth]])
+
+            # perform cross-out and check numbers of patterns left
+            # check symmetry
 
 
-            if not len(self.residues2label) and self.solution.good:
+            if not len(self.residues2label):
 
                 if self.optimize_price:
                     pass
@@ -58,8 +64,8 @@ class CLOptimizer:
                     pass
                 self.solutions += 1
 
-            if self.solution.found and samples_number != self.solution.samples_num:
-                break
+            #if self.solution.found and samples_number != self.solution.samples_num:
+             #   break
 
 
     def next_iteration(self):
@@ -67,12 +73,23 @@ class CLOptimizer:
         # some output
 
     def go_deeper(self):
-        next_res = max(self.residues2label, key=attrgetter('patterns_number'))
+        self.next_res = min(self.residues2label, key=attrgetter('patterns_number'))
+        self.next_res.cross_out_symmetry(self.symmetry)
+        if not self.next_res.pattern_codes_set:
+            self.next_res.restore_symmetry()
+            self.go_parallel()
+        self.residues2label.remove(self.next_res)
         self.counter.append(0)
-        self.depth += 1
+        previous_pattern = self.solution.residues[-1].patterns_list[self.counter[self.depth]]
+        self.update_symmetry(previous_pattern)
 
+    def start(self):
+        self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
+        self.current_res.cross_out_symmetry(self.symmetry)
+        self.residues2label.remove(self.current_res)
 
-    def select_min_patterns_residue(self):
+    def update_symmetry(self, symmetry):
+        pass
 
 
     def go_parallel(self):
@@ -82,6 +99,7 @@ class CLOptimizer:
         pass
 
     def go_back(self):
+        pass
         # depth --
         #
 
@@ -115,6 +133,8 @@ class CLOptimizer:
 
         self.patterns_codes = PatternsCodes(patterns, self.ncs)
         self.solution = Solution(self.patterns_codes)
+        for res in self.residues2label:
+            res.translate_patterns(self.patterns_codes)
 
     def create_patterns_codes(self):
         pass
@@ -132,6 +152,7 @@ class Residue2Label:
         self.include_other = True
         self.residues_after = set()
         self.residues_before = set()
+        self.pattern_codes_set = set()
 
         self.has_15n = False
         for label in label_options:
@@ -155,6 +176,12 @@ class Residue2Label:
                 break
         self.labeling_prices = prices
         self.patterns_set = set()
+
+    def translate_patterns(self, patterns_codes):
+        self.pattern_codes_set = set()
+        for pattern in self.patterns_set:
+            pattern_code = patterns_codes.patterns.index(pattern)
+            self.pattern_codes_set.add(pattern_code)
 
     def make_patterns(self, samples, ncs):
         self.samples = samples
