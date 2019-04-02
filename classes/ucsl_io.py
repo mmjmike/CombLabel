@@ -121,7 +121,7 @@ def read_assignment(filename):
     lines = read_lines(filename)
     for line in lines:
         new_values = re.findall(r'\d+', line)
-        assignment_numbers.update(new_values)
+        assignment_numbers.update([int(n) for n in new_values])
     return assignment_numbers
 
 
