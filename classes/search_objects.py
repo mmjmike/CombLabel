@@ -719,6 +719,7 @@ class Sequence:
                                 # have both diagonal and 'Other' element in its column
         self.res_has_diagonal = {}  # dict of residues. If residue has diagonal element, value = True
         self.residue_pairs = [[]]
+        self.assignment = set()
 
     @property
     def residue_types_used(self):
@@ -729,7 +730,8 @@ class Sequence:
         return res_types
 
 
-    def calculate_stats(self, stock):
+    def calculate_stats(self, stock, assignment=set()):
+        self.assignment = assignment
         # Stock class object required for calculating stats
         # Almost all methods should be rewritten as some of class variables
         # are defined and created in the methods other than '__init__'
@@ -769,6 +771,8 @@ class Sequence:
         self.other_C = []
 
         for i in range(len(self.sequence) - 1):
+            if (i + 1) in self.assignment:
+                continue
             pair = self.sequence[i:i + 2]
             first_res = pair[0]
             second_res = pair[1]

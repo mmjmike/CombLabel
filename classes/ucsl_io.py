@@ -116,6 +116,15 @@ def read_lines(filename):
     return new_lines
 
 
+def read_assignment(filename):
+    assignment_numbers = set()
+    lines = read_lines(filename)
+    for line in lines:
+        new_values = re.findall(r'\d+', line)
+        assignment_numbers.update(new_values)
+    return assignment_numbers
+
+
 def extract_labels(line):
     extracted_labels = [label.rstrip().upper() for label in line.split(",")]
     for label in extracted_labels:

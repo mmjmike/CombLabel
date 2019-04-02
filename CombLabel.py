@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from classes.ucsl_io import find_ncs, read_prices, read_sequence, read_stock
+from classes.ucsl_io import find_ncs, read_prices, read_sequence, read_stock, read_assignment
 from classes.logger import create_logger_main
 from classes.search_objects import Sequence, Stock
 from classes.constants import Constants
@@ -25,6 +25,9 @@ def read_args():
     parser.add_argument("--number_samples", "-n",
                         help="Specify starting number of samples (1-9)", default=1,
                         type=int)
+    parser.add_argument("--assignment", "-a",
+                        help="Specify the filename containing the numbers of already assigned residues", default="",
+                        type=str)
     parser.add_argument('--verbose', '-v',
                         help='Verbose output to console',
                         action="store_true")
@@ -71,6 +74,16 @@ def read_parameters(args, logger):
         else:
             logger.error("Error! Price file '{}' not found".format(args.price_file))
 
+    assignment = True
+    if not args.assignment:
+        assignment = False
+    assignment_numbers = set()
+    if assignment:
+        if os.path.isfile(args.assignment):
+            assignment_numbers, msg = read_assignment(args.assignment)
+        else:
+            logger.error("Error! Assignment file '{}' not found".format(args.assignment))
+
     jobname = args.jobname
     seq_name = args.sequence_file.split(".")[0]
     if not jobname:
@@ -91,7 +104,8 @@ def read_parameters(args, logger):
         "start_samples": samples,
         "jobname": jobname,
         "verbose": args.verbose,
-        "silent": args.silent
+        "silent": args.silent,
+        "assignment": assignment_numbers
     }
     return parameters
 
@@ -99,7 +113,7 @@ def read_parameters(args, logger):
 def find_solution(parameters, logger):
     sequence = Sequence(parameters["sequence"])
     stock = Stock(parameters["stock"])
-    sequence.calculate_stats(stock)
+    sequence.calculate_stats(stock, assignment=parameters["assignment"])
 
 
 
