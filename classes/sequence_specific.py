@@ -15,7 +15,6 @@ class CLOptimizer:
         self.optimize_price = parameters["optimize_price"]
         self.ncs = parameters["ncs"]
         self.sequence = parameters["sequence"]
-
         self.iteration = 0
         self.residues2label = set()
         self.residues_not_label = set()
@@ -44,18 +43,21 @@ class CLOptimizer:
         self.main_cycle()
 
     def main_cycle(self):
-        self.start()
+        self.start_main_cycle()
         while True:
             self.next_iteration()
 
-            if self.depth == 0 and self.counter[0] > self.solution.residues[0].patterns_number():
-                break
+            # if self.depth == 0 and self.counter[0] > self.solution.residues[0].patterns_number():
+            #     break
+            if self.counter[-1] > self.current_res.patterns_number:
+                self.go_back(cross_out=False)
 
             self.back_up_solutions.append(self.solution.copy())
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
             if not result:
                 self.go_parallel(cross_out=False)
+                continue
             if not len(self.residues2label):
                 self.solution_found = True
 
@@ -117,7 +119,7 @@ class CLOptimizer:
             self.counter.append(0)
             self.depth += 1
 
-    def start(self):
+    def start_main_cycle(self):
         self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
         self.current_res.cross_out_symmetry(self.symmetry, self.patterns_codes)
         self.residues2label.remove(self.current_res)
@@ -152,19 +154,23 @@ class CLOptimizer:
     def go_parallel(self, cross_out=True):
         if cross_out:
             self.restore_last_cross_outs()
-        self.solutions = self.back_up_solutions[self.depth].copy()
+        self.solution = self.back_up_solutions[-1].copy()
         self.back_up_solutions.pop()
         self.counter[self.depth] += 1
 
-    def go_back(self):
+    def go_back(self, cross_out=True):
         self.depth -= 1
         # self.patterns.pop()
-        self.restore_last_cross_outs()
+        if cross_out:
+            self.restore_last_cross_outs()
         self.counter.pop()
         self.counter[-1] += 1
         self.back_up_solutions.pop()
-        self.solution = self.back_up_solutions[-1].copy()
-        self.back_up_solutions.pop()
+        self.current_res.restore_symmetry()
+        self.residues2label.add(self.current_res)
+        self.current_res = self.solution.residues[-1]
+        self.solution = self.back_up_solutions.pop()
+
 
     def generate_residues2label(self):
         for res_name, residue_obj in self.sequence.residues:
