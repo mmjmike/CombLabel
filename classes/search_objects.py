@@ -12,8 +12,14 @@ LOG_ITERATION = 10000
 
 class Stock:
 
-    def __init__(self, stock_table):
+    def __init__(self, stock_table, prices_dict):
         self.stock_table = stock_table
+        self.prices = prices_dict
+        self.check_consistency()
+
+    def check_consistency(self):
+
+        pass
 
 
 class Scheme:

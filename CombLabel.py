@@ -112,7 +112,7 @@ def read_parameters(args, logger):
 
 def find_solution(parameters, logger):
     sequence = Sequence(parameters["sequence"])
-    stock = Stock(parameters["stock"])
+    stock = Stock(parameters["stock"], parameters["prices"])
     sequence.calculate_stats(stock, assignment=parameters["assignment"])
 
 

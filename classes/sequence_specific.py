@@ -43,24 +43,37 @@ class CLOptimizer:
         self.main_cycle()
 
     def main_cycle(self):
+
+        # choose the first residue to start with
         self.start_main_cycle()
+
         while True:
+            # technical update, write data to log and other stuff
             self.next_iteration()
 
-            # if self.depth == 0 and self.counter[0] > self.solution.residues[0].patterns_number():
-            #     break
-            if self.counter[-1] > self.current_res.patterns_number:
-                self.go_back(cross_out=False)
+            # if the counter overflows, then we return to the previous depth
+            if self.counter[-1] + 1 > self.current_res.patterns_number:
+                if self.depth == 0:
+                    break
+                self.go_back()
+                continue
 
+            # add next label and back up current solution
             self.back_up_solutions.append(self.solution.copy())
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
+
+            # if label is not added, then use next pattern, e.g. go parallel
             if not result:
-                self.go_parallel(cross_out=False)
+                self.go_parallel()
                 continue
-            if not len(self.residues2label):
+
+            # if it is the last residue, then we found a solution!
+            if not self.residues2label:
                 self.solution_found = True
 
+                # in case of price optimization we compare the price of the new solution with
+                # the price of the best one
                 if self.optimize_price:
                     if not self.solutions:
                         self.solution.copy_solution_to(self.best_solution)
@@ -68,35 +81,37 @@ class CLOptimizer:
                     elif self.solution.price < self.best_solution.price:
                         self.solution.copy_solution_to(self.best_solution)
                         self.solutions += 1
+                    # we don't count solutions without price improvement
+                # if we don't optimize price, then after the first solution we break the cycle
                 else:
                     self.solutions = 1
                     self.solution.copy_solution_to(self.best_solution)
                     break
+            # if not last residue, we perform the cross out for following residues
+            # and go to the next level
+            # the case of no patterns left for the following residue is dealt with
+            # in the first "if" statement in the cycle
             else:
                 self.perform_cross_out(cross_out_task)
-                if not self.check_patterns_left():
-                    self.go_parallel()
-                    if self.counter[self.depth] + 1 > self.current_res.patterns_number:
-                        self.go_back()
-                else:
-                    self.go_deeper()
+                if self.optimize_price and self.solution_found:
+                    if not self.check_price():
+                        self.restore_last_cross_outs()
+                        self.go_parallel()
+                        continue
+                self.go_deeper()
 
-
-            #if self.solution.found and samples_number != self.solution.samples_num:
-             #   break
-
-    def check_patterns_left(self):
+    def check_price(self):
+        price = 0
         for residue in self.residues2label:
-            if not residue.pattern_codes_set:
-                return False
-        return True
+            price += residue.find_cheapest_option()
+        return price + self.solution.price < self.best_solution.price
 
     def perform_cross_out(self, cross_out_task):
         for residue in self.residues2label:
             for residue_after in residue.residues_after:
                 if residue_after in cross_out_task:
-                    pass
-        pass
+                    codes = set(cross_out_task[residue_after][1:])
+                    residue.cross_out(cross_out_task[residue_after][0], codes, self.patterns_codes)
 
     def restore_last_cross_outs(self):
         for residue in self.residues2label:
@@ -108,16 +123,11 @@ class CLOptimizer:
 
     def go_deeper(self):
         self.update_symmetry()
-
         self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
         self.current_res.cross_out_symmetry(self.symmetry, self.patterns_codes)
-        if not self.current_res.pattern_codes_set:
-            self.current_res.restore_symmetry()
-            self.go_back()
-        else:
-            self.residues2label.remove(self.current_res)
-            self.counter.append(0)
-            self.depth += 1
+        self.residues2label.remove(self.current_res)
+        self.counter.append(0)
+        self.depth += 1
 
     def start_main_cycle(self):
         self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
@@ -151,18 +161,14 @@ class CLOptimizer:
             start_point += current_symmetry[i]
         self.symmetry.append(new_symmetry)
 
-    def go_parallel(self, cross_out=True):
-        if cross_out:
-            self.restore_last_cross_outs()
-        self.solution = self.back_up_solutions[-1].copy()
-        self.back_up_solutions.pop()
+    def go_parallel(self):
+        self.solution = self.back_up_solutions.pop()
         self.counter[self.depth] += 1
 
-    def go_back(self, cross_out=True):
+    def go_back(self):
         self.depth -= 1
         # self.patterns.pop()
-        if cross_out:
-            self.restore_last_cross_outs()
+        self.symmetry.pop()
         self.counter.pop()
         self.counter[-1] += 1
         self.back_up_solutions.pop()
@@ -170,7 +176,6 @@ class CLOptimizer:
         self.residues2label.add(self.current_res)
         self.current_res = self.solution.residues[-1]
         self.solution = self.back_up_solutions.pop()
-
 
     def generate_residues2label(self):
         for res_name, residue_obj in self.sequence.residues:
@@ -210,7 +215,6 @@ class Residue2Label:
         self.residues_after = set()
         self.residues_before = set()
         self.pattern_codes_set = set()
-
         self.has_15n = False
         for label in label_options:
             if label in Constants.NITRO_TYPES:
@@ -236,9 +240,19 @@ class Residue2Label:
 
     def translate_patterns(self, patterns_codes):
         self.pattern_codes_set = set()
+        self.pattern_price = dict()
         for pattern in self.patterns_set:
             pattern_code = patterns_codes.patterns.index(pattern)
+            price = self.calculate_pattern_price(pattern)
             self.pattern_codes_set.add(pattern_code)
+            self.pattern_price[pattern_code] = price
+
+
+    def calculate_pattern_price(self, pattern):
+        price = 0
+        for label in pattern:
+            price += self.labeling_prices[label]
+        return price
 
     def make_patterns(self, samples, ncs):
         self.samples = samples
@@ -286,10 +300,10 @@ class Residue2Label:
                 got_nitro = True
         return got_nitro and max_pairs >= len(self.residues_after)
 
-    def cross_out(self, pattern_num, code, patterns_codes):
+    def cross_out(self, pattern_num, codes, patterns_codes):
         cross_out_set = set()
         for pattern in self.pattern_codes_set:
-            if code == patterns_codes.codes[pattern][pattern_num]:
+            if patterns_codes.codes[pattern][pattern_num] in codes:
                 cross_out_set.add(pattern)
         self.crossed_out_sets.append(cross_out_set)
         self.pattern_codes_set.difference(cross_out_set)
@@ -325,6 +339,19 @@ class Residue2Label:
         alphabet = Constants.LABEL_SORT_ALPHABET
         self.patterns_list = sorted(self.pattern_codes_set,
                                     key=lambda word: [alphabet[c] for c in word])
+
+    def find_cheapest_option(self):
+        first = True
+        lowest_price = 0
+        for pattern_code in self.pattern_codes_set:
+            curr_price = self.pattern_price[pattern_code]
+            if first:
+                lowest_price = curr_price
+                first = False
+                continue
+            if lowest_price > curr_price:
+                lowest_price = curr_price
+        return lowest_price
 
 
 class PatternsCodes:

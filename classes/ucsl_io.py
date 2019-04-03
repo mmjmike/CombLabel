@@ -459,7 +459,7 @@ def read_stock(filename):
     stock = {}
     lines = read_lines(filename)
     if len(lines) < 3:
-        msg = "Prices file '{}' is too short".format(filename)
+        msg = "Stock file '{}' is too short".format(filename)
         return stock, msg
     d = []
     line_length = 0
@@ -478,29 +478,29 @@ def read_stock(filename):
               first_line = False
           else:
               if len(s) != line_length:
-                  msg = "Not equal length of lines in prices file '{}'".format(filename)
+                  msg = "Not equal length of lines in stock file '{}'".format(filename)
                   return stock, msg
           d.append(s)
-    price_label_types = d[0][1:]
-    for l_type in price_label_types:
+    label_types = d[0][1:]
+    for l_type in label_types:
         if l_type.upper() not in Constants.TYPES_NAMES:
-            msg = "Incorrect label type {} in prices file '{}'".format(l_type, filename)
+            msg = "Incorrect label type {} in stock file '{}'".format(l_type, filename)
             return stock, msg
-    if len(price_label_types) < 2:
-        msg = "Too few labeling types specified in prices file '{}'".format(filename)
+    if len(label_types) < 2:
+        msg = "Too few labeling types specified in stock file '{}'".format(filename)
         return stock, msg
 
     for i in range(len(d) - 1):
         curr_dict = {}
-        for j in range(len(price_label_types)):
+        for j in range(len(label_types)):
             try:
-                price = float(d[i + 1][j + 1])
+                price = int(d[i + 1][j + 1])
             except ValueError:
                 msg = "ERROR! Price must be set in digits"
                 msg += "\nPlease check price file '{}' (row {}; col {})".format(filename,
                                                                                 i + 2, j + 2)
                 return {}, msg
-            curr_dict.update({price_label_types[j]: price})
+            curr_dict.update({label_types[j]: price})
         residue_type = d[i + 1][0]
         if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
             msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, filename)
