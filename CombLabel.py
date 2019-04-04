@@ -2,8 +2,9 @@
 
 from classes.ucsl_io import find_ncs, read_prices, read_sequence, read_stock, read_assignment
 from classes.logger import create_logger_main
-from classes.search_objects import Sequence, Stock
+from classes.search_objects import CLSequence, Stock
 from classes.constants import Constants
+from classes.sequence_specific import CLOptimizer
 import argparse
 import os
 
@@ -111,16 +112,12 @@ def read_parameters(args, logger):
 
 
 def find_solution(parameters, logger):
-    sequence = Sequence(parameters["sequence"])
+    sequence = CLSequence(parameters["sequence"])
     stock = Stock(parameters["stock"], parameters["prices"])
-    sequence.calculate_stats(stock, assignment=parameters["assignment"])
-
-
-
-    # scheme_optimizer = SchemeOptimizer(parameters, logger)
-    # scheme_optimizer.run()
-    # scheme_optimizer.write_results()
-
+    sequence.sequence_stats(stock, assignment=parameters["assignment"])
+    scheme_optimizer = CLOptimizer(parameters, logger)
+    scheme_optimizer.run()
+    scheme_optimizer.write_results()
 
 
 def main():

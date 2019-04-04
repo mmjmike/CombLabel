@@ -1,6 +1,7 @@
 from classes.constants import PatternClass, Constants
 from operator import attrgetter
 import copy
+import time
 
 
 ITERATION_4_OUTPUT = 10000
@@ -119,7 +120,14 @@ class CLOptimizer:
 
     def next_iteration(self):
         self.iteration += 1
-        # some output
+
+        if self.iteration % ITERATION_4_OUTPUT == 0:
+            out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator,
+                                                             int(time.time() - self.timer))
+            out += "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
+            for d in range(self.depth):
+                out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
+            self.logger.info(out)
 
     def go_deeper(self):
         self.update_symmetry()
@@ -200,6 +208,10 @@ class CLOptimizer:
         for res in self.residues2label:
             res.translate_patterns(self.patterns_codes)
 
+    def write_results(self):
+
+
+        pass
 
 class Residue2Label:
 
@@ -234,6 +246,9 @@ class Residue2Label:
                 self.has_double_label = True
                 break
         self.labeling_prices = prices
+        if not prices:
+            for label in label_options:
+                self.labeling_prices[label] = 0
         self.patterns_set = set()
 
     def translate_patterns(self, patterns_codes):
@@ -244,7 +259,6 @@ class Residue2Label:
             price = self.calculate_pattern_price(pattern)
             self.pattern_codes_set.add(pattern_code)
             self.pattern_price[pattern_code] = price
-
 
     def calculate_pattern_price(self, pattern):
         price = 0
