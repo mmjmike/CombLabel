@@ -491,16 +491,17 @@ def read_stock(filename):
         return stock, msg
 
     for i in range(len(d) - 1):
-        curr_dict = {}
+        curr_label_options = set()
         for j in range(len(label_types)):
             try:
-                price = int(d[i + 1][j + 1])
+                value = int(d[i + 1][j + 1])
             except ValueError:
                 msg = "ERROR! Price must be set in digits"
                 msg += "\nPlease check price file '{}' (row {}; col {})".format(filename,
                                                                                 i + 2, j + 2)
                 return {}, msg
-            curr_dict.update({label_types[j]: price})
+            if value:
+                curr_label_options.add(label_types[j])
         residue_type = d[i + 1][0]
         if residue_type not in Constants.RES_TYPES_LIST and residue_type not in Constants.RES_TYPES_THREE:
             msg = "Wrong residue type '{}' in prices file '{}'".format(residue_type, filename)
@@ -508,5 +509,5 @@ def read_stock(filename):
         if residue_type in Constants.RES_TYPES_THREE:
             residue_type1 = Constants.TO_ONE_LETTER_CODE[residue_type]
             residue_type = residue_type1
-            stock.update({residue_type: curr_dict})
+            stock.update({residue_type: curr_label_options})
     return stock, msg

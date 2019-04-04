@@ -203,7 +203,7 @@ class CLOptimizer:
 
 class Residue2Label:
 
-    def __init__(self, name, label_options, residues_after=set(), residues_before=set(), prices=dict()):
+    def __init__(self, name, label_options, prices):
         self.name = name
         self.samples = 0
         self.pattern_price = dict()
@@ -219,13 +219,11 @@ class Residue2Label:
         for label in label_options:
             if label in Constants.NITRO_TYPES:
                 self.has_15n = True
-                self.residues_after = residues_after
                 break
         self.has_13c = False
         for label in label_options:
             if label in Constants.CARBON_TYPES:
                 self.has_13c = True
-                self.residues_before = residues_before
                 break
         self.need_label = False
         if self.has_15n or self.has_13c:

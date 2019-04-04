@@ -18,8 +18,17 @@ class Stock:
         self.check_consistency()
 
     def check_consistency(self):
-
-        pass
+        if self.prices:
+            for residue, label_options in self.stock_table:
+                for label in label_options:
+                    msg = "ERROR. Price is not specified for available '{}' label of '{}' residue type".format(label, residue)
+                    try:
+                        if self.prices[residue][label] < 0:
+                            print(msg)
+                            exit()
+                    except KeyError:
+                        print(msg)
+                        exit()
 
 
 class Scheme:
@@ -782,13 +791,15 @@ class Sequence:
             pair = self.sequence[i:i + 2]
             first_res = pair[0]
             second_res = pair[1]
+            prices = {}
             if first_res in self.residues:
                 self.residues[first_res].add_residue_after(second_res)
             else:
                 label_options = stock.label_options[first_res]
 
-                prices = stock.prices_dict[first_res]
-                residue_obj = Residue2Label(first_res, label_options, prices=prices)
+                if stock.prices_dict:
+                    prices = stock.prices_dict[first_res]
+                residue_obj = Residue2Label(first_res, label_options, prices)
                 residue_obj.add_residue_after(second_res)
                 self.residues[first_res] = residue_obj
 
@@ -797,8 +808,9 @@ class Sequence:
             else:
                 label_options = stock.label_options[second_res]
 
-                prices = stock.prices_dict[second_res]
-                residue_obj = Residue2Label(second_res, label_options, prices=prices)
+                if stock.prices_dict:
+                    prices = stock.prices_dict[second_res]
+                residue_obj = Residue2Label(second_res, label_options, prices)
 
                 residue_obj.add_residue_before(first_res)
                 self.residues[second_res] = residue_obj
