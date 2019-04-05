@@ -39,12 +39,15 @@ def read_args():
 
 
 def read_parameters(args, logger):
+    logger.info("Reading NCS")
     ncs, msg = find_ncs(args.ncs, script_path)
     if not ncs:
         logger.error(msg)
         exit()
+    logger.info("NCS: {}".format(ncs.name))
 
     sequence = ""
+    logger.info("Reading sequence: '{}'".format(args.sequence_file))
     if os.path.isfile(args.sequence_file):
         sequence, msg = read_sequence(args.sequence_file)
         if not sequence:
@@ -52,21 +55,27 @@ def read_parameters(args, logger):
             exit()
     else:
         logger.error("Error! Sequence file '{}' not found".format(args.sequence_file))
+    logger.info("Sequence length - {} residues".format(len(sequence)))
+
 
     stock = {}
     if os.path.isfile(args.stock_file):
+        logger.info("Reading stock: '{}'".format(args.stock_file))
         stock, msg = read_stock(args.stock_file)
         if not stock:
             logger.error(msg)
             exit()
     else:
         logger.error("Error! Stock file '{}' not found".format(args.stock_file))
+    logger.info("Stock - OK")
+
 
     optimize_price = True
     if not args.price_file:
         optimize_price = False
     prices = {}
     if optimize_price:
+        logger.info("Reading prices: '{}'".format(args.price_file))
         if os.path.isfile(args.price_file):
             prices, msg = read_prices(args.price_file)
             if not prices:
@@ -74,23 +83,33 @@ def read_parameters(args, logger):
                 exit()
         else:
             logger.error("Error! Price file '{}' not found".format(args.price_file))
+    logger.info("Prices - OK")
+
 
     assignment = True
     if not args.assignment:
         assignment = False
     assignment_numbers = set()
     if assignment:
+        logger.info("Reading assignment: '{}'".format(args.assignment))
         if os.path.isfile(args.assignment):
             assignment_numbers, msg = read_assignment(args.assignment)
         else:
             logger.error("Error! Assignment file '{}' not found".format(args.assignment))
+    for assignment_num in assignment_numbers:
+        if assignment_num > len(sequence):
+            warning_msg = "Warning! Residue number {} is exceeding sequence length ({})".format(assignment_num,
+                                                                                                len(sequence))
+            logger.error(warning_msg)
+    logger.info("{} backbone assignments read".format(len(assignment_numbers)))
 
     jobname = args.jobname
     seq_name = args.sequence_file.split(".")[0]
     if not jobname:
-        jobname = "{}_{}".format(ncs.name, seq_name)
+        jobname = "{}_{}".format(seq_name, ncs.name)
 
-    samples = args.number_samples
+
+    samples = args.number_samples # default value is 1
     if samples < 1 or samples > 9:
         msg = "Error! Number of samples is not in range 1-9"
         logger.error(msg)

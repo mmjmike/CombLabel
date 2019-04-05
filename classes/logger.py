@@ -9,7 +9,18 @@ def create_logger_main(args, default_log_filename):
     if args.jobname:
         log_filename = "{}.log".format(args.jobname)
     else:
-        log_filename = default_log_filename
+        try:
+            ncs_name = args.ncs.split(".")[0]
+        except AttributeError:
+            ncs_name = ""
+        try:
+            seq_name = args.ncs.split(".")[0]
+        except AttributeError:
+            seq_name = ""
+        if seq_name and ncs_name:
+            log_filename = "{}_{}.log".format(seq_name, ncs_name)
+        else:
+            log_filename = default_log_filename
         if os.path.isfile(log_filename):
             input_key = input("Logfile '{}' (default name) already exists."
                               "You can either overwrite this file, or specify the jobname by using "

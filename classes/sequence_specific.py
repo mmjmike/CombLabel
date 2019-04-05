@@ -2,9 +2,10 @@ from classes.constants import PatternClass, Constants
 from operator import attrgetter
 import copy
 import time
+import socket
 
 
-ITERATION_4_OUTPUT = 10000
+ITERATION_4_OUTPUT = 100000
 
 
 class CLOptimizer:
@@ -16,10 +17,12 @@ class CLOptimizer:
         self.optimize_price = parameters["optimize_price"]
         self.ncs = parameters["ncs"]
         self.sequence = parameters["sequence"]
+        self.jobname = parameters["jobname"]
         self.iteration = 0
         self.residues2label = set()
         self.residues_not_label = set()
         self.final_depth = len(self.residues2label)
+        self.max_depth = 0
         self.solutions = 0
         self.solution = None
         self.back_up_solutions = []
@@ -29,25 +32,44 @@ class CLOptimizer:
         self.best_solution = Solution(None)
         self.patterns_codes = None
         self.current_res = None
+        self.t0 = None
 
     def run(self):
+        self.t0 = time.time()
+
+        out = "Search for {} solution started\n".format(self.jobname)
+        out += "Host name is:\t\t{}".format(socket.gethostname())
+        out += "Start clock time: \t\t{}".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(self.t0)))
+        self.logger.info(out)
+
         while not self.solution_found:
+            out = "Search in {} sample(s)".format(self.samples)
+            self.logger.info(out)
+
             self.find_solution()
+
+            out = "Search in {} sample(s) finished".format(self.samples)
+            if self.solution_found:
+                out += " successfully!"
+            self.logger.info(out)
+
             self.samples += 1
 
     def find_solution(self):
         self.back_up_solutions = []
-        self.counter = [0]
         self.depth = 0
         self.generate_residues2label()
         self.solution = Solution(self.patterns_codes)
+
+        # choose the first residue to start with
+        self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
+        self.current_res.cross_out_symmetry(self.symmetry, self.patterns_codes)
+        self.residues2label.remove(self.current_res)
+        self.counter.append(0)
+
         self.main_cycle()
 
     def main_cycle(self):
-
-        # choose the first residue to start with
-        self.start_main_cycle()
-
         while True:
             # technical update, write data to log and other stuff
             self.next_iteration()
@@ -79,14 +101,17 @@ class CLOptimizer:
                     if not self.solutions:
                         self.solution.copy_solution_to(self.best_solution)
                         self.solutions = 1
+                        self.output_solution()
                     elif self.solution.price < self.best_solution.price:
                         self.solution.copy_solution_to(self.best_solution)
                         self.solutions += 1
+                        self.output_solution()
                     # we don't count solutions without price improvement
                 # if we don't optimize price, then after the first solution we break the cycle
                 else:
                     self.solutions = 1
                     self.solution.copy_solution_to(self.best_solution)
+                    self.output_solution()
                     break
             # if not last residue, we perform the cross out for following residues
             # and go to the next level
@@ -122,11 +147,12 @@ class CLOptimizer:
         self.iteration += 1
 
         if self.iteration % ITERATION_4_OUTPUT == 0:
+
             out = "[BlockFinder{}] {:>9} {:>6d} sec ".format(self.samples, self.iterator,
-                                                             int(time.time() - self.timer))
+                                                             int(time.time() - self.t0))
             out += "max_P={:<2} ELB_found= {:<6} ".format(self.max_depth + 1, self.results_found)
-            for d in range(self.depth):
-                out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
+            # for d in range(self.depth):
+            #     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
             self.logger.info(out)
 
     def go_deeper(self):
@@ -136,12 +162,10 @@ class CLOptimizer:
         self.residues2label.remove(self.current_res)
         self.counter.append(0)
         self.depth += 1
-
-    def start_main_cycle(self):
-        self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
-        self.current_res.cross_out_symmetry(self.symmetry, self.patterns_codes)
-        self.residues2label.remove(self.current_res)
-        self.counter.append(0)
+        if self.depth > self.max_depth:
+            self.max_depth = self.depth
+            out = "New max depth ({}) reached at {} samples".format(self.max_depth, self.samples)
+            self.logger.info(out)
 
     def update_symmetry(self):
         current_symmetry = self.symmetry[-1]
@@ -207,6 +231,31 @@ class CLOptimizer:
         self.patterns_codes = PatternsCodes(patterns, self.ncs)
         for res in self.residues2label:
             res.translate_patterns(self.patterns_codes)
+
+    def output_solution(self):
+        filename = "{}_all_solutions.txt".format(self.jobname)
+        out = "[solution]\n"
+        out += "% Solution number = {}\n".format(self.solutions)
+        out += "% Solution price  = {}\n".format(self.best_solution.price)
+        out += "Res," + ",".join([" S_" + str(n+1) for n in range(self.samples)])
+        out += "\n"
+        for i in range(len(self.best_solution.residues)):
+            res = self.best_solution.residues[i]
+            pattern_number = self.best_solution.patterns
+            pattern = self.patterns_codes.get_pattern_by_number(pattern_number)
+            out += Constants.TO_THREE_LETTER_CODE[res.name] + ",   "
+            out += ",   ".join([char for char in pattern])
+            out += "\n"
+        non_labeled_residues = [Constants.TO_THREE_LETTER_CODE(res.name)
+                                for res in self.sequence.residues if res.need_label]
+
+        for res_name in non_labeled_residues:
+            out += res_name + ",  X" * self.samples
+        mode = "w"
+        if self.solutions > 1:
+            mode = "a"
+        with open(filename, mode=mode) as f:
+            f.write(out)
 
     def write_results(self):
 
