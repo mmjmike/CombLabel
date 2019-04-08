@@ -37,7 +37,7 @@ combinatorial selective labeling schemes to label proteins with stable
 ## Package scripts
 
 * **ncsgen.py** - interactive console application, that generates files,
-    describing NMR coding systems, based on the spectra and labeling types
+    describing NMR coding systems (NCS), based on the spectra and labeling types
     which are entered by user
 * **blockfinder.py** - generates Elementary Blocks (ELB) for universal
     scheme calculation, based on the chosen NCS and number of samples limit
@@ -47,6 +47,10 @@ combinatorial selective labeling schemes to label proteins with stable
     for a given list of amino acid types and ELB file, and performs
     price optimization of the schemes based on amino acid prices and
     availability of particular labeling types
+* **CombLabel.py** - main script that calculates optimal (or price-optimal)
+    sequence-specific combinatorial labeling schemes for a given sequence, 
+    NCS, labeled amino acid stock and amino acid prices. It also can take
+    already obtained assignment into account.
 * **CombLabel_check.py** - calculates labeling dictionary for particular
     protein sequence and UUCSL solution and prints out solution statistics
 
@@ -242,6 +246,42 @@ NDD
 CNN
 DND
 ~~~~
+
+---
+### CombLabel.py
+
+**CombLabel.py** 
+
+It has 3 positional command-line arguments:
+* `ncs` - the name of NMR coding system (NCS). Typical NCSs are collected
+ in `NCS` folder of the package
+* `sequence_file` - file, containing amino acid sequence of the protein of
+interest in one-letter code. `*.fasta` files can be used.
+* `stock_file` - file with prices (prices of commercially available in
+2016 amino acids with various labeling types are collected in `csv`
+prices-files in `prices` folder of the package)
+
+Optional command line arguments:
+* `--price, -p` - file with prices (prices of commercially available in
+2016 amino acids with various labeling types are collected in `csv`
+prices-files in `prices` folder of the package). This argument is also 
+the flag for price optimization
+* `--jobname, -j` - this value will be used as a prefix to all output files
+* `--number_samples, -n` - the number of samples to start with (1-9). Default
+value is 1. If the scheme is not found for a given number of samples, then the
+value is incremented. This argument may be used if the program spends too much
+time calculating scheme in N samples, and the way to use it is to set the value
+as N+1
+* `--assignment, -a` - file with the numbers of assigned residues in the order
+ they are in the sequence file. When calculating the labeling scheme only the
+ residue pairs where the assigned residues are second will be skipped.
+* `--verbose, -v` - makes detailed output to stdout
+* `--silent, -s` - makes no output to stdout. Overrides `-v` argument
+
+**CombLabel.py** outputs a file with coding dictionary.
+
+
+
 ---
 ### CombLabel_check.py
 

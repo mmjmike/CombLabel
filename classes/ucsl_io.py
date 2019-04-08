@@ -3,10 +3,6 @@ from classes.constants import Constants, NCS, ELB
 # from classes.search_objects import ELB
 import re
 import os
-import logging
-import datetime
-import random
-
 
 
 def make_block_stats(blocks):

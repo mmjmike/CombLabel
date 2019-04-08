@@ -3,7 +3,6 @@
 from classes.ucsl_io import find_ncs, read_prices, read_sequence, read_stock, read_assignment
 from classes.logger import create_logger_main
 from classes.search_objects import CLSequence, Stock
-from classes.constants import Constants
 from classes.sequence_specific import CLOptimizer
 import argparse
 import os
