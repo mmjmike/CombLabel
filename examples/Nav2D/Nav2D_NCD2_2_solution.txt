@@ -1,0 +1,200 @@
+
+#################################################
+##
+##   When using this software to calculate CSL schemes, please, cite the following article:
+## 
+##   'CombLabel: rational design of optimized combinatorial labeling schemes.
+##   Application to backbone assignment of helical membrane proteins with
+##   limited stability'
+##   M.Yu. Myshkin, M.A. Dubinnyi, D.S. Kulbatskii, E.N. Lyukmanova, Z.O. Shenkarev 
+##   Journal of Biomolecular NMR, 2018 (currnetly unpublished)
+##
+#################################################
+#
+##################################################
+# Table of all amino acid pairs 
+# 
+# Number in the table represents how many times 
+# the pair occurs in the sequence 
+
+[full_pairs_table]
+   ,Leu,Val,Ser,Ile,Phe,Gly,Thr,Met,Asn,Lys,Ala,Glu,His,Asp,Trp,Tyr,Arg,Gln
+Leu,  1,  2,  2,  4,  1,  2,  1,  0,  2,  2,  2,  0,  0,  0,  0,  0,  2,  0
+Val,  5,  0,  0,  0,  2,  1,  1,  1,  0,  0,  0,  1,  0,  1,  0,  0,  0,  1
+Ser,  1,  1,  1,  2,  1,  1,  0,  0,  0,  0,  1,  0,  1,  0,  1,  0,  0,  0
+Ile,  0,  3,  1,  3,  2,  1,  1,  0,  0,  1,  1,  0,  1,  0,  1,  0,  0,  0
+Phe,  0,  1,  0,  0,  0,  0,  2,  1,  0,  2,  0,  0,  0,  2,  0,  0,  1,  1
+Gly,  2,  0,  1,  2,  0,  0,  0,  0,  2,  1,  0,  0,  0,  0,  1,  0,  0,  0
+Thr,  3,  1,  0,  1,  0,  1,  0,  0,  0,  0,  1,  1,  0,  0,  0,  0,  0,  0
+Met,  1,  1,  0,  0,  0,  1,  1,  0,  0,  0,  1,  1,  0,  2,  0,  0,  0,  0
+Asn,  1,  2,  2,  2,  0,  0,  1,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0
+Lys,  2,  1,  1,  1,  1,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0
+Ala,  0,  0,  0,  0,  0,  0,  0,  2,  1,  1,  0,  1,  0,  0,  0,  0,  0,  0
+Pro,  0,  0,  0,  0,  1,  0,  1,  1,  0,  0,  0,  0,  0,  0,  1,  1,  0,  0
+Glu,  1,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  2,  0,  0,  1,  0,  0
+His,  1,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  5,  0,  0,  1,  0,  0
+Asp,  1,  0,  1,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0
+Trp,  1,  0,  0,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0
+Tyr,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  0
+Arg,  1,  1,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0
+Gln,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1
+
+##################################################
+# Table of amino acid pairs used for 
+# combinatorial labeling 
+# 
+# Number in the table represents how many times 
+# the pair occurs in the sequence 
+
+[pairs_table]
+   Res,Leu,Val,Ser,Ile,Gly,Phe,Ala,Thr,Glu,Asn,Asp,Trp,Lys,Tyr,Gln,OtherN
+   Leu,  1,  2,  2,  4,  2,  1,  2,  1,  0,  2,  0,  0,  2,  0,  0,  2
+   Val,  5,  0,  0,  0,  1,  2,  0,  1,  1,  0,  1,  0,  0,  0,  1,  1
+   Ser,  1,  1,  1,  2,  1,  1,  1,  0,  0,  0,  0,  1,  0,  0,  0,  1
+   Ile,  0,  3,  1,  3,  1,  2,  1,  1,  0,  0,  0,  1,  1,  0,  0,  1
+   Gly,  2,  0,  1,  2,  0,  0,  0,  0,  0,  2,  0,  1,  1,  0,  0,  0
+   Phe,  0,  1,  0,  0,  0,  0,  0,  2,  0,  0,  2,  0,  2,  0,  1,  2
+   Ala,  0,  0,  0,  0,  0,  0,  0,  0,  1,  1,  0,  0,  1,  0,  0,  3
+   Met,  1,  1,  0,  0,  1,  0,  1,  1,  1,  0,  2,  0,  0,  0,  0,  0
+   Glu,  1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0,  3
+   Asp,  1,  0,  1,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  0,  2
+   Trp,  1,  0,  0,  0,  0,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  1
+   Tyr,  0,  0,  0,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  1
+   Pro,  0,  0,  0,  0,  0,  1,  0,  1,  0,  0,  0,  1,  0,  1,  0,  1
+   Gln,  0,  0,  0,  0,  2,  0,  0,  0,  0,  0,  0,  0,  0,  0,  1,  0
+OtherC,  8,  5,  4,  4,  1,  2,  1,  1,  1,  1,  0,  0,  0,  1,  0,  6
+
+OtherN: Met,Pro,His,Arg
+OtherC: Thr,Asn,Lys,His,Arg
+
+
+##################################################
+# Spectrum codes table
+#
+# The spectrum code is in the first column
+# Flag of the peak presence (0 or 1) for each spectrum
+
+[codes]
+Code,   HSQC,   HNCO
+   0,      0,      0
+   1,      1,      0
+   2,      1,      1
+
+
+##################################################
+# Spectrum code for each labeling pair 
+#
+# One-letter codes in the headers of columns# and rows are the labeling types 
+# Don't confuse with one-letter amino acid codes
+
+[code_pairs]
+ , X, N, C, D
+X, 0, 1, 0, 1
+N, 0, 1, 0, 1
+C, 0, 2, 0, 2
+D, 0, 2, 0, 2
+
+##################################################
+# The list of solutions found        
+#
+
+[solution]
+% Solution number = 90
+% Solution price  = 7526.26
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   N,   C
+Val,   N,   N,   C,   C,   N
+Ser,   N,   C,   N,   C,   N
+Ile,   X,   D,   D,   X,   D
+Gly,   C,   N,   C,   N,   N
+Phe,   C,   N,   N,   N,   N
+Ala,   C,   C,   N,   N,   N
+Met,   C,   X,   X,   C,   C
+Thr,   N,   X,   N,   N,   N
+Glu,   N,   N,   C,   N,   X
+Asn,   N,   N,   N,   X,   N
+Asp,   C,   X,   N,   X,   N
+Trp,   X,   D,   N,   X,   X
+Lys,   N,   N,   N,   X,   X
+Tyr,   X,   C,   N,   N,   X
+Pro,   X,   X,   X,   C,   X
+Gln,   N,   D,   X,   X,   X
+His,   X,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   X
+
+
+
+##################################################
+# Spectrum codes of the labeled amino acid pairs 
+#
+# Amino acid and labeling code strings 
+# according to the number of samples are in the headers
+# Spectrum codes are in the table
+
+[pairs_codes]
+      ,     ,  Leu,  Val,  Ser,  Ile,  Gly,  Phe,  Ala,  Thr,  Glu,  Asn,  Asp,  Trp,  Lys,  Tyr,  Gln,OtherN
+      ,     ,NNNNC,NNCCN,NCNCN,XDDXD,CNCNN,CNNNN,CCNNN,NXNNN,NNCNX,NNNXN,CXNXN,XDNXX,NNNXX,XCNNX,NDXXX,XXXXX
+   Leu,NNNNC,11110,11002,10102,01102,01012,01112,00112,10112,     ,11102,     ,     ,11100,     ,     ,00000
+   Val,NNCCN,11220,     ,     ,     ,01021,01221,     ,10221,11020,     ,00201,     ,     ,     ,11000,00000
+   Ser,NCNCN,12120,12001,10101,02101,02021,02121,00121,     ,     ,     ,     ,02100,     ,     ,     ,00000
+   Ile,XDDXD,     ,12002,10202,02202,02012,02212,00212,10212,     ,     ,     ,02200,12200,     ,     ,00000
+   Gly,CNCNN,21210,     ,20201,01201,     ,     ,     ,     ,     ,21201,     ,01200,21200,     ,     ,     
+   Phe,CNNNN,     ,21001,     ,     ,     ,     ,     ,20111,     ,     ,00101,     ,21100,     ,21000,00000
+   Ala,CCNNN,     ,     ,     ,     ,     ,     ,     ,     ,22010,22101,     ,     ,22100,     ,     ,00000
+   Met,CXXCC,21120,21002,     ,     ,01022,     ,00122,20122,21020,     ,00102,     ,     ,     ,     ,     
+   Glu,NNCNX,11210,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,00210,     ,00000
+   Asp,CXNXN,21110,     ,20101,     ,     ,     ,     ,     ,     ,21101,     ,     ,     ,     ,     ,00000
+   Trp,XDNXX,12110,     ,     ,     ,     ,     ,     ,     ,     ,12101,     ,     ,     ,     ,     ,00000
+   Tyr,XCNNX,     ,     ,     ,     ,     ,02111,     ,     ,12010,     ,     ,     ,     ,     ,     ,00000
+   Pro,XXXCX,     ,     ,     ,     ,     ,01121,     ,10121,     ,     ,     ,01100,     ,00120,     ,00000
+   Gln,NDXXX,     ,     ,     ,     ,02011,     ,     ,     ,     ,     ,     ,     ,     ,     ,12000,     
+OtherC,XXXXX,11110,11001,10101,01101,01011,01111,00111,10111,11010,11101,     ,     ,     ,00110,     ,00000
+
+OtherN: Met,Pro,His,Arg
+OtherC: Thr,Asn,Lys,His,Arg
+
+
+##################################################
+# Calculation statistics
+# 
+
+[stats]
+
+
+# Statistics for PAIRS in amino acid sequence
+# The STOCK (availability of isotopically labeled amino acid)
+# is NOT accounted for in this statistics
+# The labeling scheme is NOT accounted too
+
+[stats,pairs]
+Par, Description,  Residues, Pairs
+N,   Total number,      153,   109
+PI,  Invisible,           5,     4
+PU,  Unique,             74,    74
+PN,  Non-unique,         73,    31
+
+# Statistics for STOCK-available pairs in amino acid sequence
+# The STOCK is used to check whether the particular pairs are distinguishable 
+# in principle with some labeling scheme unlimited in size with some NMR spectra
+# The particular labeling scheme, found by the program, is NOT accounted here
+
+[stats,stock]
+Par, Description,     Residues, Pairs
+N,   Total number,         153,   109
+SI,  Invisible,             24,    16
+SU,  Unique code,           52,    52
+SN2, AA type of both,       51,    22
+SN1, AA type of last,       25,    19
+
+# Statistics for LABELING CODES
+# The pairs are distinguishable, if their labeling codes are different
+# Both sequence, stock, NMR spectra and particular labeling scheme is accounted here
+
+[stats,labeling]
+Par, Description,     Residues, Pairs
+N,   Total number,         153,   109
+LI,  Invisible,             24,    16
+LU,  Unique code,           52,    52
+LN2, AA type of both,       51,    22
+LN1, AA type of last,       25,    19
+LA,  Ambiguous code,         0,     0
