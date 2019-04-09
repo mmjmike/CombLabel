@@ -44,7 +44,7 @@ class CLOptimizer:
         self.logger.info(out)
 
         while not self.solution_found:
-            out = "Search in {} sample(s)".format(self.samples)
+            out = "\nSearch in {} sample(s)".format(self.samples)
             self.logger.info(out)
 
             self.find_solution()
@@ -53,7 +53,8 @@ class CLOptimizer:
             if self.solution_found:
                 out += " successfully!"
             else:
-                out += ". Max depth reached: {}".format(self.max_depth)
+                out += ". Max depth reached: {}. Iterations used: {}".format(self.max_depth,
+                                                                             self.iteration)
             self.logger.info(out)
 
             self.samples += 1
@@ -95,10 +96,13 @@ class CLOptimizer:
                 continue
 
             # add next label and back up current solution
-            self.back_up_solutions.append(copy.copy(self.solution))
+            self.back_up_solutions.append(self.solution.copy())
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
-
+            # pattern_code = self.current_res.patterns_list[self.counter[-1]]
+            # pattern = self.patterns_codes.get_pattern_by_number(pattern_code)
+            out = "Curr_solution:\n{}".format(str(self.solution))
+            self.logger.info(out)
             # if label is not added, then use next pattern, e.g. go parallel
             if not result:
                 self.go_parallel()
@@ -213,7 +217,6 @@ class CLOptimizer:
 
     def go_back(self):
         self.depth -= 1
-        # self.patterns.pop()
         self.symmetry.pop()
         self.counter.pop()
         self.counter[-1] += 1
@@ -221,7 +224,10 @@ class CLOptimizer:
         self.current_res.restore_symmetry()
         self.residues2label.add(self.current_res)
         self.current_res = self.solution.residues[-1]
-        self.solution = self.back_up_solutions.pop()
+
+        # questionable
+        if self.depth + 1 < len(self.back_up_solutions):
+            self.solution = self.back_up_solutions.pop()
 
     def generate_residues2label(self):
         for res_name in self.sequence.residues:
@@ -231,21 +237,18 @@ class CLOptimizer:
                 self.residues2label.add(residue_obj)
             else:
                 self.residues_not_label.add(residue_obj)
-        #make a set of residues
-        #make residues after and before
-        #check good or bad
-        #cross out nitrogen patterns
-        #if needed calculate prices
-        #make labeling array
-        #for each residue2label convert patterns to codes
+
         all_patterns = set().union(*[res.patterns_set for res in self.residues2label])
         all_patterns_list = list(all_patterns)
         alphabet = Constants.LABEL_SORT_ALPHABET
         patterns = sorted(all_patterns_list, key=lambda word: [alphabet[c] for c in word])
 
+        self.logger.info("Precalculating NMR codes...")
         self.patterns_codes = PatternsCodes(patterns, self.ncs)
+        self.logger.info("NMR codes calculated")
         for res in self.residues2label:
             res.translate_patterns(self.patterns_codes)
+
 
     def output_solution(self):
         filename = "{}_all_solutions.txt".format(self.jobname)
@@ -411,7 +414,7 @@ class Residue2Label:
 
     @property
     def patterns_number(self):
-        return len(self.patterns_list)
+        return len(self.pattern_codes_set)
 
     def cross_out_symmetry(self, symmetry, pattern_codes):
         self.symmetry_cross_out = set()
@@ -573,6 +576,24 @@ class Solution:
             pattern = self.patterns_codes.get_pattern_by_number(self.patterns[i])
             solution_dict[res] = pattern
         return solution_dict
+
+    def __str__(self):
+        out = ""
+        for i in range(len(self.residues)):
+            res_name = self.residues[i].name
+            pattern = self.patterns_codes.get_pattern_by_number(self.patterns[i])
+            out += "{}: {}\n".format(res_name, pattern)
+        return out
+
+    def copy(self):
+        solution = Solution(self.patterns_codes)
+        solution.patterns = copy.copy(self.patterns)
+        solution.residues = copy.copy(self.residues)
+        solution.codes = copy.copy(self.codes)
+        solution.price = copy.copy(self.price)
+        solution.found = copy.copy(self.found)
+        solution.new_codes = copy.copy(self.new_codes)
+        return solution
 
 
 class PairsTable:
