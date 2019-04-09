@@ -4,7 +4,7 @@ import time
 from .constants import Constants, Pattern, ELB
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
-from classes.sequence_specific import Residue2Label
+from classes.sequence_specific import Residue2Label, calc_price
 
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
@@ -29,6 +29,14 @@ class Stock:
                     except KeyError:
                         print(msg)
                         exit()
+        else:
+            for residue in self.stock_table:
+                label_options = self.stock_table[residue]
+                curr_dict = {}
+                for label in label_options:
+                    curr_dict[label] = 0
+                self.prices[residue] = curr_dict
+
 
 
 class Scheme:
@@ -759,7 +767,7 @@ class CLSequence:
             if first_res in self.residues:
                 self.residues[first_res].add_residue_after(second_res)
             else:
-                label_options = stock.label_options[first_res]
+                label_options = stock.stock_table[first_res]
 
                 if stock.prices:
                     prices = stock.prices[first_res]
@@ -770,7 +778,7 @@ class CLSequence:
             if second_res in self.residues:
                 self.residues[second_res].add_residue_before(first_res)
             else:
-                label_options = stock.label_options[second_res]
+                label_options = stock.stock_table[second_res]
 
                 if stock.prices:
                     prices = stock.prices[second_res]
@@ -780,20 +788,25 @@ class CLSequence:
                 self.residues[second_res] = residue_obj
 
         # deal with Other N:
-        for res, res_obj in self.residues:
+        for res in self.residues:
+            res_obj = self.residues[res]
             if not res_obj.has_15n:
-                for res2, res_obj2 in self.residues:
+                for res2 in self.residues:
+                    res_obj2 = self.residues[res2]
                     res_obj2.residues_after.discard(res)
                 self.other_N.append(res)
 
-        for res, res_obj in self.residues:
+        for res in self.residues:
+            res_obj = self.residues[res]
             if not res_obj.has_13c:
-                for res2, res_obj2 in self.residues:
+                for res2 in self.residues:
+                    res_obj2 = self.residues[res2]
                     res_obj2.residues_before.discard(res)
                     res_obj2.residues_before.add("Other")
                 self.other_C.append(res)
 
-        for res, res_obj in self.residues:
+        for res in self.residues:
+            res_obj = self.residues[res]
             if res_obj.has_15n and res in res_obj.residues_before \
                     and "Other" in res_obj.residues_before and res_obj.has_double_label:
                 res_obj.include_other = False
@@ -805,39 +818,3 @@ class CLSequence:
         return prices_dict
 
 
-
-def sort_residues(residue_list, residue_rank):
-    # bubble sort for residues by residue rank.
-    # used it because standard sorted() method gives randomized results
-    residues = list(residue_list)
-    for i in range(len(residues) - 1):
-        for j in range(len(residues) - 1 - i):
-            if residue_rank[i] < residue_rank[i + j + 1]:
-                temp_res = residues[i]
-                temp_rank = residue_rank[i]
-                residue_rank[i] = residue_rank[i + j + 1]
-                residues[i] = residues[i + j + 1]
-                residue_rank[i + j + 1] = temp_rank
-                residues[i + j + 1] = temp_res
-    return residues, residue_rank
-
-
-def calc_price(prices_table, aa, pattern):
-    price = 0
-    letters = list(map(chr, range(97, 123)))
-    for i in range(len(pattern)):
-        label = pattern[i]
-        try:
-            number = int(label)
-        except ValueError:
-            number = letters.index(label) + 10
-        label_type = Constants.TYPES[i]
-        if aa == "P":
-            label_type = Constants.PROLINE_SUBSTITUTE[label_type]
-        curr_price = 0
-        if number:
-            curr_price = prices_table[aa][label_type] * number
-        if curr_price < 0:
-            return -1
-        price += curr_price
-    return price

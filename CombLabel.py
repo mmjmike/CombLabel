@@ -70,19 +70,20 @@ def read_parameters(args, logger):
 
 
     optimize_price = True
-    if not args.price_file:
+    if not args.price:
         optimize_price = False
     prices = {}
     if optimize_price:
-        logger.info("Reading prices: '{}'".format(args.price_file))
-        if os.path.isfile(args.price_file):
-            prices, msg = read_prices(args.price_file)
+        logger.info("Reading prices: '{}'".format(args.price))
+        if os.path.isfile(args.price):
+            prices, msg = read_prices(args.price)
             if not prices:
                 logger.error(msg)
                 exit()
         else:
-            logger.error("Error! Price file '{}' not found".format(args.price_file))
-    logger.info("Prices - OK")
+            logger.error("Error! Price file '{}' not found".format(args.price))
+            exit()
+        logger.info("Prices - OK")
 
 
     assignment = True
@@ -100,7 +101,8 @@ def read_parameters(args, logger):
             warning_msg = "Warning! Residue number {} is exceeding sequence length ({})".format(assignment_num,
                                                                                                 len(sequence))
             logger.error(warning_msg)
-    logger.info("{} backbone assignments read".format(len(assignment_numbers)))
+    if assignment:
+        logger.info("{} backbone assignments read".format(len(assignment_numbers)))
 
     jobname = args.jobname
     seq_name = args.sequence_file.split(".")[0]
@@ -120,7 +122,7 @@ def read_parameters(args, logger):
         "stock": stock,
         "optimize_price": optimize_price,
         "prices": prices,
-        "start_samples": samples,
+        "samples": samples,
         "jobname": jobname,
         "verbose": args.verbose,
         "silent": args.silent,
@@ -133,9 +135,9 @@ def find_solution(parameters, logger):
     sequence = CLSequence(parameters["sequence"])
     stock = Stock(parameters["stock"], parameters["prices"])
     sequence.sequence_stats(stock, assignment=parameters["assignment"])
-    scheme_optimizer = CLOptimizer(parameters, logger)
+    scheme_optimizer = CLOptimizer(parameters, logger, sequence)
     scheme_optimizer.run()
-    scheme_optimizer.write_results()
+    # scheme_optimizer.write_results()
 
 
 def main():

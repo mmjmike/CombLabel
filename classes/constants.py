@@ -292,6 +292,10 @@ class Constants:
     DEUTERATED_TYPES = ("X", "N", "F", "D")
     CARBON_TYPES = [label_type for label_type in BASIC_TYPES if label_type.isotopes[1] == "1" or label_type.isotopes[2] == "1"]
     NITRO_TYPES = [label_type for label_type in BASIC_TYPES if label_type.isotopes[0] == "1"]
+    CARBON_TYPE_NAMES = [label_type.name for label_type in CARBON_TYPES]
+    NITRO_TYPE_NAMES = [label_type.name for label_type in NITRO_TYPES]
+
+
 
     HSQC =    Spectrum("HSQC")
     HNCO =    Spectrum("HNCO")

@@ -1,5 +1,4 @@
 from classes.constants import PatternClass, Constants
-from classes.search_objects import calc_price, sort_residues
 from operator import attrgetter
 import copy
 import time
@@ -11,13 +10,13 @@ ITERATION_4_OUTPUT = 100000
 
 class CLOptimizer:
 
-    def __init__(self, parameters, logger):
+    def __init__(self, parameters, logger, sequence):
         self.solution_found = False
         self.logger = logger
         self.samples = parameters["samples"]
         self.optimize_price = parameters["optimize_price"]
         self.ncs = parameters["ncs"]
-        self.sequence = parameters["sequence"]
+        self.sequence = sequence
         self.jobname = parameters["jobname"]
         self.iteration = 0
         self.residues2label = set()
@@ -29,7 +28,8 @@ class CLOptimizer:
         self.back_up_solutions = []
         self.counter = []
         self.depth = 0
-        self.symmetry = [self.samples]
+        self.symmetry = []
+        self.symmetry.append([self.samples])
         self.best_solution = Solution(None)
         self.patterns_codes = None
         self.current_res = None
@@ -39,7 +39,7 @@ class CLOptimizer:
         self.t0 = time.time()
 
         out = "Search for {} solution started\n".format(self.jobname)
-        out += "Host name is:\t\t{}".format(socket.gethostname())
+        out += "Host name is:\t\t{}\n".format(socket.gethostname())
         out += "Start clock time: \t\t{}".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(self.t0)))
         self.logger.info(out)
 
@@ -52,6 +52,8 @@ class CLOptimizer:
             out = "Search in {} sample(s) finished".format(self.samples)
             if self.solution_found:
                 out += " successfully!"
+            else:
+                out += ". Max depth reached: {}".format(self.max_depth)
             self.logger.info(out)
 
             self.samples += 1
@@ -66,16 +68,21 @@ class CLOptimizer:
         self.depth = 0
         self.generate_residues2label()
         self.solution = Solution(self.patterns_codes)
-
         # choose the first residue to start with
+        if not self.residues2label:
+            return
+        self.symmetry = []
+        self.symmetry.append([self.samples])
         self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
-        self.current_res.cross_out_symmetry(self.symmetry, self.patterns_codes)
+        self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
+        self.current_res.make_pattern_list()
         self.residues2label.remove(self.current_res)
-        self.counter.append(0)
+        self.counter = [0]
 
         self.main_cycle()
 
     def main_cycle(self):
+
         while True:
             # technical update, write data to log and other stuff
             self.next_iteration()
@@ -88,7 +95,7 @@ class CLOptimizer:
                 continue
 
             # add next label and back up current solution
-            self.back_up_solutions.append(self.solution.copy())
+            self.back_up_solutions.append(copy.copy(self.solution))
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
 
@@ -164,7 +171,8 @@ class CLOptimizer:
     def go_deeper(self):
         self.update_symmetry()
         self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
-        self.current_res.cross_out_symmetry(self.symmetry, self.patterns_codes)
+        self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
+        self.current_res.make_pattern_list()
         self.residues2label.remove(self.current_res)
         self.counter.append(0)
         self.depth += 1
@@ -216,7 +224,8 @@ class CLOptimizer:
         self.solution = self.back_up_solutions.pop()
 
     def generate_residues2label(self):
-        for res_name, residue_obj in self.sequence.residues:
+        for res_name in self.sequence.residues:
+            residue_obj = self.sequence.residues[res_name]
             if residue_obj.need_label:
                 residue_obj.make_patterns(self.samples, self.ncs)
                 self.residues2label.add(residue_obj)
@@ -307,12 +316,12 @@ class Residue2Label:
         self.pattern_codes_set = set()
         self.has_15n = False
         for label in label_options:
-            if label in Constants.NITRO_TYPES:
+            if label in Constants.NITRO_TYPE_NAMES:
                 self.has_15n = True
                 break
         self.has_13c = False
         for label in label_options:
-            if label in Constants.CARBON_TYPES:
+            if label in Constants.CARBON_TYPE_NAMES:
                 self.has_13c = True
                 break
         self.need_label = False
@@ -320,7 +329,7 @@ class Residue2Label:
             self.need_label = True
         self.has_double_label = False
         for label in label_options:
-            if label in Constants.CARBON_TYPES and Constants.NITRO_TYPES:
+            if label in Constants.CARBON_TYPE_NAMES and Constants.NITRO_TYPE_NAMES:
                 self.has_double_label = True
                 break
         self.labeling_prices = prices
@@ -385,8 +394,10 @@ class Residue2Label:
         max_pairs = 1
         got_nitro = False
         for label in pattern:
-            max_pairs *= ncs.label_power[label]
-            if label in Constants.NITRO_TYPES:
+            label_type = Constants.BASIC_TYPES[Constants.TYPES_NAMES.index(label)]
+            label_power = ncs.label_power[label_type]
+            max_pairs *= label_power
+            if label in Constants.NITRO_TYPE_NAMES:
                 got_nitro = True
         return got_nitro and max_pairs >= len(self.residues_after)
 
@@ -426,9 +437,9 @@ class Residue2Label:
         self.pattern_codes_set.union(self.crossed_out_sets.pop())
 
     def make_pattern_list(self):
+        self.patterns_list = []
         alphabet = Constants.LABEL_SORT_ALPHABET
-        self.patterns_list = sorted(self.pattern_codes_set,
-                                    key=lambda word: [alphabet[c] for c in word])
+        self.patterns_list = sorted(self.pattern_codes_set)
 
     def find_cheapest_option(self):
         first = True
@@ -448,7 +459,10 @@ class PatternsCodes:
 
     def __init__(self, patterns, ncs):
         self.patterns = patterns
-        self.samples = len(patterns[0])
+        if patterns:
+            self.samples = len(patterns[0])
+        else:
+            self.samples = 0
         other_pattern = "X"*self.samples
         if other_pattern not in self.patterns:
             self.patterns.append(other_pattern)
@@ -1237,3 +1251,39 @@ def get_stock_from_solution(solution):
         label_options[residue] = labels
     return label_options
 
+
+def calc_price(prices_table, aa, pattern):
+    price = 0
+    letters = list(map(chr, range(97, 123)))
+    for i in range(len(pattern)):
+        label = pattern[i]
+        try:
+            number = int(label)
+        except ValueError:
+            number = letters.index(label) + 10
+        label_type = Constants.TYPES[i]
+        if aa == "P":
+            label_type = Constants.PROLINE_SUBSTITUTE[label_type]
+        curr_price = 0
+        if number:
+            curr_price = prices_table[aa][label_type] * number
+        if curr_price < 0:
+            return -1
+        price += curr_price
+    return price
+
+
+def sort_residues(residue_list, residue_rank):
+    # bubble sort for residues by residue rank.
+    # used it because standard sorted() method gives randomized results
+    residues = list(residue_list)
+    for i in range(len(residues) - 1):
+        for j in range(len(residues) - 1 - i):
+            if residue_rank[i] < residue_rank[i + j + 1]:
+                temp_res = residues[i]
+                temp_rank = residue_rank[i]
+                residue_rank[i] = residue_rank[i + j + 1]
+                residues[i] = residues[i + j + 1]
+                residue_rank[i + j + 1] = temp_rank
+                residues[i + j + 1] = temp_res
+    return residues, residue_rank
