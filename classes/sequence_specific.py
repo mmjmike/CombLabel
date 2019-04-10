@@ -96,7 +96,7 @@ class CLOptimizer:
                 continue
 
             # add next label and back up current solution
-            self.back_up_solutions.append(self.solution.copy())
+            # self.back_up_solutions.append(self.solution.copy())
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
             # pattern_code = self.current_res.patterns_list[self.counter[-1]]
@@ -212,7 +212,8 @@ class CLOptimizer:
         self.symmetry.append(new_symmetry)
 
     def go_parallel(self):
-        self.solution = self.back_up_solutions.pop()
+        # self.solution = self.back_up_solutions.pop()
+        self.solution.remove_last_label()
         self.counter[self.depth] += 1
 
     def go_back(self):
@@ -220,12 +221,14 @@ class CLOptimizer:
         self.symmetry.pop()
         self.counter.pop()
         self.counter[-1] += 1
-        self.back_up_solutions.pop()
+        self.solution.remove_last_label()
+        # self.back_up_solutions.pop()
         self.current_res.restore_symmetry()
         self.residues2label.add(self.current_res)
         self.current_res = self.solution.residues[-1]
 
         # questionable
+
         if self.depth + 1 < len(self.back_up_solutions):
             self.solution = self.back_up_solutions.pop()
 
@@ -248,7 +251,6 @@ class CLOptimizer:
         self.logger.info("NMR codes calculated")
         for res in self.residues2label:
             res.translate_patterns(self.patterns_codes)
-
 
     def output_solution(self):
         filename = "{}_all_solutions.txt".format(self.jobname)
@@ -513,6 +515,7 @@ class Solution:
         self.price = 0
         self.found = False
         self.new_codes = set()
+        self.back_up_codes = []
 
     def add_label(self, pattern_code, residue):
         # task: which res, which pattern second, code value
@@ -553,11 +556,17 @@ class Solution:
                     cross_out_task[residue.name].append(code)
 
         self.codes.update(self.new_codes)
+        self.back_up_codes.append(self.new_codes)
         self.new_codes = set()
-        self.patterns.append(pattern_code)
+        self.patterns.append(copy.copy(pattern_code))
         self.residues.append(residue)
         self.price += residue.pattern_price[pattern_code]
         return True, cross_out_task
+
+    def remove_last_label(self):
+        self.patterns.pop()
+        self.residues.pop()
+        self.codes = self.codes.difference(self.back_up_codes.pop())
 
     def copy_solution_to(self, another):
         another.patterns = copy.copy(self.patterns)
