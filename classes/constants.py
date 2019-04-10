@@ -158,12 +158,12 @@ class NCS:
 
 class ELB:
 
-    def __init__(self, patterns, ncs_name, deuterated=False):
+    def __init__(self, patterns, ncs_name, deuterated=False, simplified_vec = []):
         self.patterns = patterns
         self.ncs_name = ncs_name
         self.deuterated = deuterated
         self.simplified = {}
-        self.simplified_str = ""
+        self.simple_vec = simplified_vec
         self.simplify()
 
     def __str__(self):
@@ -177,8 +177,11 @@ class ELB:
             return 0
 
     def full_str(self):
-        return "[ELB samples = {} patterns = {}]\n".format(self.samples, len(self.patterns)) \
-                 + str(self)
+        result = "[ELB samples = {} patterns = {}]\n".format(self.samples, len(self.patterns))
+        if self.simple_vec:
+           result = result + "[SV {}]\n".format(" ".join(self.simple_vec))
+        result = result + str(self)
+        return result
 
     def simplify(self, join_char=","):
         self.simplified, self.simplified_str = \
@@ -196,6 +199,9 @@ class ELB:
 
     def __hash__(self):
         return(hash(self.simplified_str))
+
+    def __lt__(self, scheme):
+        return self.simplified_str < scheme.simplified_str
 
     def sort(self):
         for i in range(len(self.patterns)-1):
@@ -369,6 +375,7 @@ class Constants:
     ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*([A-Za-z0-9_-]+)\\s*\\]')
     deuterated_re = re.compile('\\[\\s*Deuterated\\s*=\\s*([A-Za-z]+)\\s*\\]')
     elb_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
+    sv_re = re.compile('\\[\\s*SV\\s+((\\d+\\s+)+)\\s*\\]')
 
     labels_re = re.compile('\\[\\s*Labels\\s*=\\s*([A-Za-z ,]+)\\s*\\]')
     spectra_re = re.compile('\\[\\s*Spectra\\s*=\\s*([A-Za-z0-9 ,]+)\\s*\\]')

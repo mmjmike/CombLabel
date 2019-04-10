@@ -8,6 +8,7 @@ import os
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
 
+
 def clear_identical_blocks(blocks):
     iter = 0
     total_blocks = make_block_stats(blocks)["total"]

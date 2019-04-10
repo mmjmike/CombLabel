@@ -65,6 +65,12 @@ def read_blocks(block_file, logger=None, initial_blocks = {}):
                 samples_num = int(elb_match.group(1))
                 patterns_num = int(elb_match.group(2))
                 blocks_num += 1
+                sv_vec = []
+                sv_match = Constants.sv_re.match(lines[i+1])
+                if(sv_match):
+                   sv_str = sv_match.group(1)
+                   sv_vec = sv_str.split()
+                   i = i + 1
                 patterns = lines[i + 1:i + 1 + patterns_num]
                 good_block = True
                 for pattern in patterns:
@@ -89,7 +95,7 @@ def read_blocks(block_file, logger=None, initial_blocks = {}):
                             good_block = False
                             break
                 if good_block:
-                    block = ELB(patterns, ncs_name, deuterated)
+                    block = ELB(patterns, ncs_name, deuterated, sv_vec)
                     if samples_num not in blocks:
                         blocks.update({samples_num: {patterns_num: [block]}})
                     else:
@@ -211,7 +217,7 @@ def write_blocks(blocks, ncs_name, filename, deuterated, simplified = False):
         patterns_numbers = list(blocks[samples_num].keys())
         patterns_numbers.sort()
         for patterns_num in patterns_numbers:
-            for block in blocks[samples_num][patterns_num]:
+            for block in sorted(blocks[samples_num][patterns_num]):
                 if(simplified):
                    block_head = "SIMPLIFIED"
                    block.simplify(join_char = "\n")
@@ -219,9 +225,9 @@ def write_blocks(blocks, ncs_name, filename, deuterated, simplified = False):
                 else:
                    block_head = "ELB"
                    block_str = str(block)
-                output += "[{} samples = {} patterns = {}]\n".format(block_head, block.samples, len(block.patterns)) \
-                          + block_str
-                output += "\n"
+                #output += "[{} samples = {} patterns = {}]\n".format(block_head, block.samples, len(block.patterns)) \
+                #          + block_str
+                output += block.full_str()+"\n"
     with open(filename, mode="w") as f:
         f.write(output)
 
