@@ -60,11 +60,15 @@ class CLOptimizer:
             self.samples += 1
 
         out = "Search for solution finished successfully!\n"
-        out += "Calculation time: \t\t{}".format(time.strftime("%H:%M:%S",
+        out += "Calculation time: \t\t{}\n".format(time.strftime("%H:%M:%S",
                                                                time.gmtime(int(time.time() - self.t0))))
+        out += "Total iterations: {}".format(self.iteration)
         self.logger.info(out)
 
     def find_solution(self):
+        if self.samples == 5:
+            print("5 samples")
+        self.current_res = None
         self.back_up_solutions = []
         self.depth = 0
         self.generate_residues2label()
@@ -95,13 +99,19 @@ class CLOptimizer:
                 self.go_back()
                 continue
 
+            pattern_num = self.current_res.patterns_list[self.counter[-1]]
+            pattern = self.patterns_codes.get_pattern_by_number(pattern_num)
+            if self.current_res.name == "L" and pattern == "NNNNC":
+                print(self.current_res.name, pattern, "here")
+
+
             # add next label and back up current solution
             # self.back_up_solutions.append(self.solution.copy())
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
             # pattern_code = self.current_res.patterns_list[self.counter[-1]]
             # pattern = self.patterns_codes.get_pattern_by_number(pattern_code)
-            out = "Curr_solution:\n{}".format(str(self.solution))
+            out = "Curr_solution:\n{}Current residue: {}".format(str(self.solution), self.current_res.name)
             self.logger.info(out)
             # if label is not added, then use next pattern, e.g. go parallel
             if not result:
@@ -123,6 +133,7 @@ class CLOptimizer:
                         self.solution.copy_solution_to(self.best_solution)
                         self.solutions += 1
                         self.output_solution()
+                    self.go_parallel()
                     # we don't count solutions without price improvement
                 # if we don't optimize price, then after the first solution we break the cycle
                 else:
@@ -151,10 +162,7 @@ class CLOptimizer:
 
     def perform_cross_out(self, cross_out_task):
         for residue in self.residues2label:
-            for residue_after in residue.residues_after:
-                if residue_after in cross_out_task:
-                    codes = set(cross_out_task[residue_after][1:])
-                    residue.cross_out(cross_out_task[residue_after][0], codes, self.patterns_codes)
+            residue.cross_out(cross_out_task, self.patterns_codes)
 
     def restore_last_cross_outs(self):
         for residue in self.residues2label:
@@ -175,9 +183,9 @@ class CLOptimizer:
     def go_deeper(self):
         self.update_symmetry()
         self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
+        self.residues2label.remove(self.current_res)
         self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
         self.current_res.make_pattern_list()
-        self.residues2label.remove(self.current_res)
         self.counter.append(0)
         self.depth += 1
         if self.depth > self.max_depth:
@@ -213,7 +221,7 @@ class CLOptimizer:
 
     def go_parallel(self):
         # self.solution = self.back_up_solutions.pop()
-        self.solution.remove_last_label()
+        # self.solution.remove_last_label()
         self.counter[self.depth] += 1
 
     def go_back(self):
@@ -221,18 +229,20 @@ class CLOptimizer:
         self.symmetry.pop()
         self.counter.pop()
         self.counter[-1] += 1
-        self.solution.remove_last_label()
         # self.back_up_solutions.pop()
         self.current_res.restore_symmetry()
         self.residues2label.add(self.current_res)
-        self.current_res = self.solution.residues[-1]
+        for residue in self.residues2label:
+            residue.restore_last_cross_out()
+        self.current_res = self.solution.remove_last_label()
 
         # questionable
 
-        if self.depth + 1 < len(self.back_up_solutions):
-            self.solution = self.back_up_solutions.pop()
+        # if self.depth + 1 < len(self.back_up_solutions):
+        #     self.solution = self.back_up_solutions.pop()
 
     def generate_residues2label(self):
+        self.residues2label = set()
         for res_name in self.sequence.residues:
             residue_obj = self.sequence.residues[res_name]
             if residue_obj.need_label:
@@ -261,16 +271,21 @@ class CLOptimizer:
         out += "\n"
         for i in range(len(self.best_solution.residues)):
             res = self.best_solution.residues[i]
-            pattern_number = self.best_solution.patterns
+            pattern_number = self.best_solution.patterns[i]
             pattern = self.patterns_codes.get_pattern_by_number(pattern_number)
             out += Constants.TO_THREE_LETTER_CODE[res.name] + ",   "
             out += ",   ".join([char for char in pattern])
             out += "\n"
-        non_labeled_residues = [Constants.TO_THREE_LETTER_CODE(res.name)
-                                for res in self.sequence.residues if res.need_label]
+        non_labeled_residues = []
+
+        for res in self.sequence.residues:
+            res_obj = self.sequence.residues[res]
+            if not res_obj.need_label:
+                three_letter_name = Constants.TO_THREE_LETTER_CODE[res]
+                non_labeled_residues.append(three_letter_name)
 
         for res_name in non_labeled_residues:
-            out += res_name + ",  X" * self.samples
+            out += res_name + ",   X" * self.samples
         mode = "w"
         if self.solutions > 1:
             mode = "a"
@@ -324,6 +339,8 @@ class Residue2Label:
             if label in Constants.NITRO_TYPE_NAMES:
                 self.has_15n = True
                 break
+        if not self.has_15n:
+            self.include_other = False
         self.has_13c = False
         for label in label_options:
             if label in Constants.CARBON_TYPE_NAMES:
@@ -346,6 +363,7 @@ class Residue2Label:
     def translate_patterns(self, patterns_codes):
         self.pattern_codes_set = set()
         self.pattern_price = dict()
+        self.crossed_out_sets = []
         for pattern in self.patterns_set:
             pattern_code = patterns_codes.patterns.index(pattern)
             price = self.calculate_pattern_price(pattern)
@@ -389,6 +407,8 @@ class Residue2Label:
     def cross_out_N_power(self, ncs):
         if not self.has_15n:
             return
+        if "Other" in self.residues_before and not self.include_other:
+            self.residues_before.remove("Other")
         cross_out_set = set()
         for pattern in self.patterns_set:
             if not self.check_N_power(pattern, ncs):
@@ -404,15 +424,19 @@ class Residue2Label:
             max_pairs *= label_power
             if label in Constants.NITRO_TYPE_NAMES:
                 got_nitro = True
-        return got_nitro and max_pairs >= len(self.residues_after)
+        return got_nitro and max_pairs >= len(self.residues_before)
 
-    def cross_out(self, pattern_num, codes, patterns_codes):
+    def cross_out(self, task, patterns_codes):
         cross_out_set = set()
-        for pattern in self.pattern_codes_set:
-            if patterns_codes.codes[pattern][pattern_num] in codes:
-                cross_out_set.add(pattern)
+        for residue in task:
+            if residue in self.residues_after:
+                pattern_after = task[residue][0]
+                codes = set(task[residue][1:])
+                for pattern in self.pattern_codes_set:
+                    if patterns_codes.codes[pattern][pattern_after] in codes:
+                        cross_out_set.add(pattern)
         self.crossed_out_sets.append(cross_out_set)
-        self.pattern_codes_set.difference(cross_out_set)
+        self.pattern_codes_set = self.pattern_codes_set.difference(cross_out_set)
 
     @property
     def patterns_number(self):
@@ -431,15 +455,16 @@ class Residue2Label:
                     for j in range(symmetry[i] - 1):
                         if (label_num_dict[pattern[start_point + j]]
                                 > label_num_dict[pattern[start_point + j + 1]]):
-                            self.symmetry_cross_out.add(pattern)
+                            self.symmetry_cross_out.add(pattern_code)
                 start_point += symmetry[i]
         self.pattern_codes_set = self.pattern_codes_set.difference(self.symmetry_cross_out)
 
     def restore_symmetry(self):
-        self.pattern_codes_set.union(self.symmetry_cross_out)
+        self.pattern_codes_set = self.pattern_codes_set.union(self.symmetry_cross_out)
 
     def restore_last_cross_out(self):
-        self.pattern_codes_set.union(self.crossed_out_sets.pop())
+        last_cross_out = self.crossed_out_sets.pop()
+        self.pattern_codes_set = self.pattern_codes_set.union(last_cross_out)
 
     def make_pattern_list(self):
         self.patterns_list = []
@@ -524,19 +549,23 @@ class Solution:
         residue_added = False
 
         if residue.name in residue.residues_after:
-            code = self.patterns_codes.codes[pattern_code][pattern_code]
-            if code in self.codes:
+            new_code = self.patterns_codes.codes[pattern_code][pattern_code]
+            if new_code in self.codes:
                 return False, cross_out_task
-            self.new_codes.add(code)
-            cross_out_task.update({residue.name: [pattern_code, code]})
+            self.new_codes.add(new_code)
+            cross_out_task.update({residue.name: [pattern_code, new_code]})
             residue_added = True
-        if "Other" in residue.residues_before:
+        if "Other" in residue.residues_before and residue.include_other:
             other_code = self.patterns_codes.other_code
-            code = self.patterns_codes.codes[other_code][pattern_code]
+            new_code = self.patterns_codes.codes[other_code][pattern_code]
+            if new_code in self.codes or new_code in self.new_codes:
+                return False, cross_out_task
             if not residue_added:
-                cross_out_task.update({residue.name: [pattern_code, code]})
+                cross_out_task.update({residue.name: [pattern_code, new_code]})
+                residue_added = True
             else:
-                cross_out_task[residue.name].append(code)
+                cross_out_task[residue.name].append(new_code)
+            self.new_codes.add(new_code)
         for i in range(len(self.residues)):
             res = self.residues[i]
             if res.name in residue.residues_after:
@@ -551,9 +580,9 @@ class Solution:
                     return False, cross_out_task
                 self.new_codes.add(new_code)
                 if not residue_added:
-                    cross_out_task.update({residue.name: [pattern_code, code]})
+                    cross_out_task.update({residue.name: [pattern_code, new_code]})
                 else:
-                    cross_out_task[residue.name].append(code)
+                    cross_out_task[residue.name].append(new_code)
 
         self.codes.update(self.new_codes)
         self.back_up_codes.append(self.new_codes)
@@ -565,8 +594,8 @@ class Solution:
 
     def remove_last_label(self):
         self.patterns.pop()
-        self.residues.pop()
         self.codes = self.codes.difference(self.back_up_codes.pop())
+        return self.residues.pop()
 
     def copy_solution_to(self, another):
         another.patterns = copy.copy(self.patterns)
@@ -1028,6 +1057,7 @@ def add_unlabeled_residues(solution, sequence):
     for residue in res_types:
         if residue not in solution:
             solution[residue] = "X" * samples
+    solution["Other"] = "X" * samples
     return solution
 
 
@@ -1075,6 +1105,8 @@ def make_solution_output(parameters):
     if parameters["show_price"]:
         price = 0
         for res in solution:
+            if res == "Other":
+                continue
             price += calc_price(parameters["price_dict"], res, solution[res])
         output += "% Solution price  = {}".format(str(round(price, 2)))
     output += "Res"
@@ -1284,22 +1316,27 @@ def get_stock_from_solution(solution):
 
 def calc_price(prices_table, aa, pattern):
     price = 0
-    letters = list(map(chr, range(97, 123)))
-    for i in range(len(pattern)):
-        label = pattern[i]
-        try:
-            number = int(label)
-        except ValueError:
-            number = letters.index(label) + 10
-        label_type = Constants.TYPES[i]
-        if aa == "P":
-            label_type = Constants.PROLINE_SUBSTITUTE[label_type]
-        curr_price = 0
-        if number:
-            curr_price = prices_table[aa][label_type] * number
-        if curr_price < 0:
-            return -1
-        price += curr_price
+    for label in pattern:
+        price += prices_table[aa][label]
+
+    #
+    # letters = list(map(chr, range(97, 123)))
+    # for i in range(len(pattern)):
+    #     label = pattern[i]
+    #     try:
+    #         number = int(label)
+    #     except ValueError:
+    #         number = letters.index(label) + 10
+    #
+    #     label_type = Constants.TYPES[i]
+    #     if aa == "P":
+    #         label_type = Constants.PROLINE_SUBSTITUTE[label_type]
+    #     curr_price = 0
+    #     if number:
+    #         curr_price = prices_table[aa][label_type] * number
+    #     if curr_price < 0:
+    #         return -1
+    #     price += curr_price
     return price
 
 

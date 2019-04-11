@@ -19,7 +19,8 @@ class Stock:
 
     def check_consistency(self):
         if self.prices:
-            for residue, label_options in self.stock_table:
+            for residue in self.stock_table:
+                label_options = self.stock_table[residue]
                 for label in label_options:
                     msg = "ERROR. Price is not specified for available '{}' label of '{}' residue type".format(label, residue)
                     try:
@@ -813,7 +814,8 @@ class CLSequence:
 
     def get_prices(self):
         prices_dict = {}
-        for res_name, res_obj in self.residues:
+        for res_name in self.residues:
+            res_obj = self.residues[res_name]
             prices_dict[res_name] = res_obj.labeling_prices
         return prices_dict
 
