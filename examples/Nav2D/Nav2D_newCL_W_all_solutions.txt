@@ -1,0 +1,23 @@
+[solution]
+% Solution number = 1
+% Solution price  = 2498030.9319199566
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   N,   C
+Thr,   N,   N,   N,   N,   N
+Asn,   N,   N,   N,   X,   N
+Lys,   N,   N,   C,   C,   N
+Ala,   N,   C,   N,   N,   N
+Gly,   C,   N,   N,   N,   N
+Phe,   C,   C,   N,   N,   N
+Val,   N,   N,   C,   N,   N
+Ser,   N,   C,   N,   C,   N
+Asp,   C,   N,   N,   C,   C
+Met,   C,   C,   C,   C,   X
+Arg,   C,   C,   C,   X,   C
+Pro,   C,   C,   X,   C,   C
+Tyr,   N,   N,   C,   N,   C
+Glu,   X,   N,   N,   C,   N
+Ile,   N,   D,   D,   C,   C
+Gln,   N,   X,   N,   D,   X
+Trp,   N,   C,   C,   N,   N
+His,   X,   X,   X,   X,   X
