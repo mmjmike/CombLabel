@@ -99,20 +99,14 @@ class CLOptimizer:
                 self.go_back()
                 continue
 
-            pattern_num = self.current_res.patterns_list[self.counter[-1]]
-            pattern = self.patterns_codes.get_pattern_by_number(pattern_num)
-            if self.current_res.name == "L" and pattern == "NNNNC":
-                print(self.current_res.name, pattern, "here")
+            print(self.counter)
+            print(self.current_res.name, self.current_res.patterns_number, len(self.current_res.patterns_list))
 
-
-            # add next label and back up current solution
-            # self.back_up_solutions.append(self.solution.copy())
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
-            # pattern_code = self.current_res.patterns_list[self.counter[-1]]
-            # pattern = self.patterns_codes.get_pattern_by_number(pattern_code)
-            out = "Curr_solution:\n{}Current residue: {}".format(str(self.solution), self.current_res.name)
-            self.logger.info(out)
+
+            # out = "Curr_solution:\n{}Current residue: {}".format(str(self.solution), self.current_res.name)
+            # self.logger.info(out)
             # if label is not added, then use next pattern, e.g. go parallel
             if not result:
                 self.go_parallel()
@@ -133,6 +127,7 @@ class CLOptimizer:
                         self.solution.copy_solution_to(self.best_solution)
                         self.solutions += 1
                         self.output_solution()
+                    self.current_res = self.solution.remove_last_label()
                     self.go_parallel()
                     # we don't count solutions without price improvement
                 # if we don't optimize price, then after the first solution we break the cycle
@@ -220,8 +215,6 @@ class CLOptimizer:
         self.symmetry.append(new_symmetry)
 
     def go_parallel(self):
-        # self.solution = self.back_up_solutions.pop()
-        # self.solution.remove_last_label()
         self.counter[self.depth] += 1
 
     def go_back(self):
@@ -235,11 +228,6 @@ class CLOptimizer:
         for residue in self.residues2label:
             residue.restore_last_cross_out()
         self.current_res = self.solution.remove_last_label()
-
-        # questionable
-
-        # if self.depth + 1 < len(self.back_up_solutions):
-        #     self.solution = self.back_up_solutions.pop()
 
     def generate_residues2label(self):
         self.residues2label = set()
