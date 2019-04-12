@@ -5,7 +5,7 @@ import time
 import socket
 
 
-ITERATION_4_OUTPUT = 100000
+ITERATION_4_OUTPUT = 1000000
 
 
 class CLOptimizer:
@@ -66,8 +66,6 @@ class CLOptimizer:
         self.logger.info(out)
 
     def find_solution(self):
-        if self.samples == 5:
-            print("5 samples")
         self.current_res = None
         self.back_up_solutions = []
         self.depth = 0
@@ -78,7 +76,8 @@ class CLOptimizer:
             return
         self.symmetry = []
         self.symmetry.append([self.samples])
-        self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
+        self.current_res = min(self.residues2label, key=attrgetter('score'))
+
         self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
         self.current_res.make_pattern_list()
         self.residues2label.remove(self.current_res)
@@ -99,14 +98,8 @@ class CLOptimizer:
                 self.go_back()
                 continue
 
-            print(self.counter)
-            print(self.current_res.name, self.current_res.patterns_number, len(self.current_res.patterns_list))
-
             result, cross_out_task = self.solution.add_label(self.current_res.patterns_list[self.counter[-1]],
                                                              self.current_res)
-
-            # out = "Curr_solution:\n{}Current residue: {}".format(str(self.solution), self.current_res.name)
-            # self.logger.info(out)
             # if label is not added, then use next pattern, e.g. go parallel
             if not result:
                 self.go_parallel()
@@ -145,6 +138,7 @@ class CLOptimizer:
                 if self.optimize_price and self.solution_found:
                     if not self.check_price():
                         self.restore_last_cross_outs()
+                        self.current_res = self.solution.remove_last_label()
                         self.go_parallel()
                         continue
                 self.go_deeper()
@@ -170,14 +164,14 @@ class CLOptimizer:
 
             out = "UPDATE: search in {} samples; iteration {:>9}; time: {:>6d} sec; ".format(self.samples, self.iteration,
                                                              int(time.time() - self.t0))
-            out += "max depth={:<2}; solutions found= {:<6} ".format(self.max_depth + 1, self.solutions)
-            # for d in range(self.depth):
-            #     out += " {:>3}/{:<3}".format(self.counter[d], len(self.patterns[d]) - self.min_depth + 1 + d)
+            out += "max depth={:<2}; solutions found= {:<6}".format(self.max_depth + 1, self.solutions)
+            if self.optimize_price and self.solution_found:
+                out += "; best price={}".format(self.best_solution.price)
             self.logger.info(out)
 
     def go_deeper(self):
         self.update_symmetry()
-        self.current_res = min(self.residues2label, key=attrgetter('patterns_number'))
+        self.current_res = min(self.residues2label, key=attrgetter('score'))
         self.residues2label.remove(self.current_res)
         self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
         self.current_res.make_pattern_list()
@@ -251,10 +245,17 @@ class CLOptimizer:
             res.translate_patterns(self.patterns_codes)
 
     def output_solution(self):
+        msg = "New solution found! (#{})".format(self.solutions)
+        msg += ". Calculation time: {}".format(time.strftime("%H:%M:%S",
+                                                        time.gmtime(int(time.time() - self.t0))))
+        if self.optimize_price:
+            msg += ". New best price = {}".format(str(round(self.best_solution.price, 2)))
+        self.logger.info(msg)
+
         filename = "{}_all_solutions.txt".format(self.jobname)
         out = "[solution]\n"
         out += "% Solution number = {}\n".format(self.solutions)
-        out += "% Solution price  = {}\n".format(self.best_solution.price)
+        out += "% Solution price  = {}\n".format(str(round(self.best_solution.price, 2)))
         out += "Res," + ",".join([" S_" + str(n+1) for n in range(self.samples)])
         out += "\n"
         for i in range(len(self.best_solution.residues)):
@@ -274,6 +275,7 @@ class CLOptimizer:
 
         for res_name in non_labeled_residues:
             out += res_name + ",   X" * self.samples
+        out += "\n\n"
         mode = "w"
         if self.solutions > 1:
             mode = "a"
@@ -305,7 +307,7 @@ class CLOptimizer:
             "output_solution": output_solution,
             "output_dictionary": output_dictionary
         }
-        write_solution_stats(params)
+        write_solution_stats(params, cl=True)
 
 
 class Residue2Label:
@@ -430,6 +432,10 @@ class Residue2Label:
     def patterns_number(self):
         return len(self.pattern_codes_set)
 
+    @property
+    def score(self):
+        return len(self.pattern_codes_set)*1000 - ord(self.name)
+
     def cross_out_symmetry(self, symmetry, pattern_codes):
         self.symmetry_cross_out = set()
         if len(symmetry) == self.samples:
@@ -456,21 +462,14 @@ class Residue2Label:
 
     def make_pattern_list(self):
         self.patterns_list = []
-        alphabet = Constants.LABEL_SORT_ALPHABET
         self.patterns_list = sorted(self.pattern_codes_set)
 
     def find_cheapest_option(self):
-        first = True
-        lowest_price = 0
-        for pattern_code in self.pattern_codes_set:
-            curr_price = self.pattern_price[pattern_code]
-            if first:
-                lowest_price = curr_price
-                first = False
-                continue
-            if lowest_price > curr_price:
-                lowest_price = curr_price
-        return lowest_price
+        if not self.pattern_codes_set:
+            return 0
+        else:
+            patterns_prices = [self.pattern_price[pattern_code] for pattern_code in self.pattern_codes_set]
+            return min(patterns_prices)
 
 
 class PatternsCodes:
@@ -529,6 +528,7 @@ class Solution:
         self.found = False
         self.new_codes = set()
         self.back_up_codes = []
+        self.price_back_up = []
 
     def add_label(self, pattern_code, residue):
         # task: which res, which pattern second, code value
@@ -577,11 +577,13 @@ class Solution:
         self.new_codes = set()
         self.patterns.append(copy.copy(pattern_code))
         self.residues.append(residue)
+        self.price_back_up.append(copy.copy(self.price))
         self.price += residue.pattern_price[pattern_code]
         return True, cross_out_task
 
     def remove_last_label(self):
         self.patterns.pop()
+        self.price = self.price_back_up.pop()
         self.codes = self.codes.difference(self.back_up_codes.pop())
         return self.residues.pop()
 
@@ -610,16 +612,6 @@ class Solution:
             pattern = self.patterns_codes.get_pattern_by_number(self.patterns[i])
             out += "{}: {}\n".format(res_name, pattern)
         return out
-
-    def copy(self):
-        solution = Solution(self.patterns_codes)
-        solution.patterns = copy.copy(self.patterns)
-        solution.residues = copy.copy(self.residues)
-        solution.codes = copy.copy(self.codes)
-        solution.price = copy.copy(self.price)
-        solution.found = copy.copy(self.found)
-        solution.new_codes = copy.copy(self.new_codes)
-        return solution
 
 
 class PairsTable:
@@ -1049,13 +1041,13 @@ def add_unlabeled_residues(solution, sequence):
     return solution
 
 
-def write_solution_stats(parameters):
+def write_solution_stats(parameters, cl=False):
     sequence = parameters["sequence"]
     solution = parameters["solution"]
     ncs = parameters["ncs"]
 
     codes, meanings, meanings_dict = calculate_code_dictionary(solution, sequence, ncs)
-    write_code_dict(parameters, codes, meanings)
+    write_code_dict(parameters, codes, meanings, cl=cl)
 
     stats = calculate_stats(parameters, meanings_dict)
     pairs_table = parameters["pairs_table"]
@@ -1063,6 +1055,7 @@ def write_solution_stats(parameters):
     output = ""
     output += pairs_table.make_full_pairs_table()
     output += pairs_table.make_stock_pairs_table()
+    output += "\n\n"
     output += str(ncs)
     output += make_solution_output(parameters)
     output += pairs_table.make_pairs_codes(solution, ncs)
@@ -1070,10 +1063,11 @@ def write_solution_stats(parameters):
     with open(parameters["output_solution"], "w") as f:
         f.write(output)
         f.close()
-    print("Solution stats written to file '{}'".format(parameters["output_solution"]))
+    if not cl:
+        print("Solution stats written to file '{}'".format(parameters["output_solution"]))
 
 
-def write_code_dict(parameters, codes, meanings):
+def write_code_dict(parameters, codes, meanings, cl=False):
     output = "#" * 50 + "\n"
     output += "# The Spectrum codes dictionary for \'" + parameters["name"] + "\':\n"
     output += "# Spectrum code: First AA - Second AA\n\n"
@@ -1082,7 +1076,8 @@ def write_code_dict(parameters, codes, meanings):
     with open(parameters["output_dictionary"], "w") as f:
         f.write(output)
         f.close()
-    print("Code dictionary written to file '{}'".format(parameters["output_dictionary"]))
+    if not cl:
+        print("Code dictionary written to file '{}'".format(parameters["output_dictionary"]))
 
 
 def make_solution_output(parameters):
@@ -1096,7 +1091,7 @@ def make_solution_output(parameters):
             if res == "Other":
                 continue
             price += calc_price(parameters["price_dict"], res, solution[res])
-        output += "% Solution price  = {}".format(str(round(price, 2)))
+        output += "% Solution price  = {}\n".format(str(round(price, 2)))
     output += "Res"
     samples_num = len(next(iter(solution.values())))
     for i in range(samples_num):
@@ -1306,25 +1301,6 @@ def calc_price(prices_table, aa, pattern):
     price = 0
     for label in pattern:
         price += prices_table[aa][label]
-
-    #
-    # letters = list(map(chr, range(97, 123)))
-    # for i in range(len(pattern)):
-    #     label = pattern[i]
-    #     try:
-    #         number = int(label)
-    #     except ValueError:
-    #         number = letters.index(label) + 10
-    #
-    #     label_type = Constants.TYPES[i]
-    #     if aa == "P":
-    #         label_type = Constants.PROLINE_SUBSTITUTE[label_type]
-    #     curr_price = 0
-    #     if number:
-    #         curr_price = prices_table[aa][label_type] * number
-    #     if curr_price < 0:
-    #         return -1
-    #     price += curr_price
     return price
 
 

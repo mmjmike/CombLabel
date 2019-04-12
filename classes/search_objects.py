@@ -4,7 +4,7 @@ import time
 from .constants import Constants, Pattern, ELB
 from scipy.optimize import linprog
 from classes.ucsl_io import write_best_scheme, write_product_stats, write_products
-from classes.sequence_specific import Residue2Label, calc_price
+from classes.sequence_specific import Residue2Label
 
 # add logging, especially in the reading of blocks
 LOG_ITERATION = 10000
@@ -37,7 +37,6 @@ class Stock:
                 for label in label_options:
                     curr_dict[label] = 0
                 self.prices[residue] = curr_dict
-
 
 
 class Scheme:
@@ -497,7 +496,7 @@ class PriceOptimizer:
             aa_prices = []
             for j in range(len(self.patterns)):
                 pattern = self.patterns[j]
-                price = calc_price(self.prices, aa, pattern)
+                price = calc_price_uucsl(self.prices, aa, pattern)
                 aa_prices.append(price)
                 if price > 0:
                     for k in range(len(self.aa_list)):
@@ -802,8 +801,9 @@ class CLSequence:
             if not res_obj.has_13c:
                 for res2 in self.residues:
                     res_obj2 = self.residues[res2]
-                    res_obj2.residues_before.discard(res)
-                    res_obj2.residues_before.add("Other")
+                    if res in res_obj2.residues_before:
+                        res_obj2.residues_before.discard(res)
+                        res_obj2.residues_before.add("Other")
                 self.other_C.append(res)
 
         for res in self.residues:
@@ -819,4 +819,25 @@ class CLSequence:
             prices_dict[res_name] = res_obj.labeling_prices
         return prices_dict
 
+
+def calc_price_uucsl(prices_table, aa, pattern):
+    price = 0
+    letters = list(map(chr, range(97, 123)))
+    for i in range(len(pattern)):
+        label = pattern[i]
+        try:
+            number = int(label)
+        except ValueError:
+            number = letters.index(label) + 10
+
+        label_type = Constants.TYPES[i]
+        if aa == "P":
+            label_type = Constants.PROLINE_SUBSTITUTE[label_type]
+        curr_price = 0
+        if number:
+            curr_price = prices_table[aa][label_type] * number
+        if curr_price < 0:
+            return -1
+        price += curr_price
+    return price
 
