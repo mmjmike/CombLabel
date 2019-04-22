@@ -14,7 +14,7 @@ def create_logger_main(args, default_log_filename):
         except AttributeError:
             ncs_name = ""
         try:
-            seq_name = args.ncs.split(".")[0]
+            seq_name = args.sequence_file.split(".")[0]
         except AttributeError:
             seq_name = ""
         if seq_name and ncs_name:

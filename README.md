@@ -1,4 +1,4 @@
-# UUCSL Package
+# UUCSL/CombLabel Package
 
 Implemented in Python 3, **scipy** package required
 
@@ -28,7 +28,7 @@ available at https://github.com/mmjmike/UUCSL
 ---
 ## Goal of the program
 
-UUCSL is a Python 3 package that calculates universal unambiguous
+UUCSL is a Python 3 package that calculates unambiguous
 combinatorial selective labeling schemes to label proteins with stable
 13C and 15N isotopes and perform fast NMR signal assignment
 
@@ -74,7 +74,7 @@ combinatorial selective labeling schemes to label proteins with stable
 ### ncsgen.py
 
 **ncsgen.py** is run without any command line arguments and will
-inetractively ask
+interactively ask
 the user to enter particular data about NMR coding system. After
 obtaining all required information it automatically generates `*.ncs`
 file with following contents:
