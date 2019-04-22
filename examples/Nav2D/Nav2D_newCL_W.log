@@ -1,57 +1,57 @@
-2019-04-19 20:50:03,439:Reading NCS
-2019-04-19 20:50:03,440:NCS: NCD2
-2019-04-19 20:50:03,440:Reading sequence: 'nav3.aa'
-2019-04-19 20:50:03,440:Sequence length - 153 residues
-2019-04-19 20:50:03,440:Reading stock: '../../stocks/LabelStock_5_W.txt'
-2019-04-19 20:50:03,440:Stock - OK
-2019-04-19 20:50:03,440:Reading prices: '../../prices/BEST_PRICE_1H.csv'
-2019-04-19 20:50:03,441:Prices - OK
-2019-04-19 20:50:03,441:Search for Nav2D_newCL_W solution started
+2019-04-22 19:28:27,221:Reading NCS
+2019-04-22 19:28:27,221:NCS: NCD2
+2019-04-22 19:28:27,221:Reading sequence: 'nav3.aa'
+2019-04-22 19:28:27,221:Sequence length - 153 residues
+2019-04-22 19:28:27,221:Reading stock: '../../stocks/LabelStock_5_W.txt'
+2019-04-22 19:28:27,222:Stock - OK
+2019-04-22 19:28:27,222:Reading prices: '../../prices/BEST_PRICE_1H.csv'
+2019-04-22 19:28:27,222:Prices - OK
+2019-04-22 19:28:27,223:Search for Nav2D_newCL_W solution started
 Host name is:		zion
-Start clock time: 		19-04-2019 16:50:03
-2019-04-19 20:50:03,441:
+Start clock time: 		22-04-2019 19:28:27
+2019-04-22 19:28:27,223:
 Search in 1 sample(s)
-2019-04-19 20:50:03,441:Precalculating NMR codes...
-2019-04-19 20:50:03,442:NMR codes calculated
-2019-04-19 20:50:03,442:Search in 1 sample(s) finished. Max depth reached: 0. Iterations used: 1
-2019-04-19 20:50:03,442:
+2019-04-22 19:28:27,223:Precalculating NMR codes...
+2019-04-22 19:28:27,223:NMR codes calculated
+2019-04-22 19:28:27,223:Search in 1 sample(s) finished. Max depth reached: 0. Iterations used: 1
+2019-04-22 19:28:27,223:
 Search in 2 sample(s)
-2019-04-19 20:50:03,442:Precalculating NMR codes...
-2019-04-19 20:50:03,443:NMR codes calculated
-2019-04-19 20:50:03,445:Search in 2 sample(s) finished. Max depth reached: 0. Iterations used: 2
-2019-04-19 20:50:03,445:
+2019-04-22 19:28:27,223:Precalculating NMR codes...
+2019-04-22 19:28:27,224:NMR codes calculated
+2019-04-22 19:28:27,224:Search in 2 sample(s) finished. Max depth reached: 0. Iterations used: 2
+2019-04-22 19:28:27,224:
 Search in 3 sample(s)
-2019-04-19 20:50:03,446:Precalculating NMR codes...
-2019-04-19 20:50:03,451:NMR codes calculated
-2019-04-19 20:50:03,452:Search in 3 sample(s) finished. Max depth reached: 0. Iterations used: 3
-2019-04-19 20:50:03,452:
+2019-04-22 19:28:27,225:Precalculating NMR codes...
+2019-04-22 19:28:27,230:NMR codes calculated
+2019-04-22 19:28:27,230:Search in 3 sample(s) finished. Max depth reached: 0. Iterations used: 3
+2019-04-22 19:28:27,230:
 Search in 4 sample(s)
-2019-04-19 20:50:03,456:Precalculating NMR codes...
-2019-04-19 20:50:03,619:NMR codes calculated
-2019-04-19 20:50:03,621:New max depth (1) reached at 4 samples
-2019-04-19 20:50:03,622:Search in 4 sample(s) finished. Max depth reached: 1. Iterations used: 7
-2019-04-19 20:50:03,622:
+2019-04-22 19:28:27,234:Precalculating NMR codes...
+2019-04-22 19:28:27,379:NMR codes calculated
+2019-04-22 19:28:27,381:New max depth (2) reached at 4 samples
+2019-04-22 19:28:27,381:Search in 4 sample(s) finished. Max depth reached: 1. Iterations used: 7
+2019-04-22 19:28:27,381:
 Search in 5 sample(s)
-2019-04-19 20:50:03,655:Precalculating NMR codes...
-2019-04-19 20:50:08,773:NMR codes calculated
-2019-04-19 20:50:08,793:New max depth (2) reached at 5 samples
-2019-04-19 20:50:08,794:New max depth (3) reached at 5 samples
-2019-04-19 20:50:08,795:New max depth (4) reached at 5 samples
-2019-04-19 20:50:08,795:New max depth (5) reached at 5 samples
-2019-04-19 20:50:08,796:New max depth (6) reached at 5 samples
-2019-04-19 20:50:08,796:New max depth (7) reached at 5 samples
-2019-04-19 20:50:10,158:New max depth (8) reached at 5 samples
-2019-04-19 20:50:10,158:New max depth (9) reached at 5 samples
-2019-04-19 20:50:10,158:New max depth (10) reached at 5 samples
-2019-04-19 20:50:10,159:New max depth (11) reached at 5 samples
-2019-04-19 20:50:10,159:New max depth (12) reached at 5 samples
-2019-04-19 20:50:10,159:New max depth (13) reached at 5 samples
-2019-04-19 20:50:10,160:New max depth (14) reached at 5 samples
-2019-04-19 20:50:10,160:New max depth (15) reached at 5 samples
-2019-04-19 20:50:10,160:New max depth (16) reached at 5 samples
-2019-04-19 20:50:10,160:New max depth (17) reached at 5 samples
-2019-04-19 20:50:10,160:New solution found! (#1). Calculation time: 00:00:06. New best price = 12161.93
-2019-04-19 20:50:10,222:[solution]
+2019-04-22 19:28:27,396:Precalculating NMR codes...
+2019-04-22 19:28:32,419:NMR codes calculated
+2019-04-22 19:28:32,442:New max depth (3) reached at 5 samples
+2019-04-22 19:28:32,443:New max depth (4) reached at 5 samples
+2019-04-22 19:28:32,443:New max depth (5) reached at 5 samples
+2019-04-22 19:28:32,443:New max depth (6) reached at 5 samples
+2019-04-22 19:28:32,444:New max depth (7) reached at 5 samples
+2019-04-22 19:28:32,444:New max depth (8) reached at 5 samples
+2019-04-22 19:28:33,596:New max depth (9) reached at 5 samples
+2019-04-22 19:28:33,596:New max depth (10) reached at 5 samples
+2019-04-22 19:28:33,597:New max depth (11) reached at 5 samples
+2019-04-22 19:28:33,597:New max depth (12) reached at 5 samples
+2019-04-22 19:28:33,597:New max depth (13) reached at 5 samples
+2019-04-22 19:28:33,597:New max depth (14) reached at 5 samples
+2019-04-22 19:28:33,598:New max depth (15) reached at 5 samples
+2019-04-22 19:28:33,598:New max depth (16) reached at 5 samples
+2019-04-22 19:28:33,598:New max depth (17) reached at 5 samples
+2019-04-22 19:28:33,598:New max depth (18) reached at 5 samples
+2019-04-22 19:28:33,598:New solution found! (#1). Calculation time: 00:00:06. New best price = 12161.93
+2019-04-22 19:28:33,664:[solution]
 % Solution number = 1
 % Solution price  = 12161.93
 Res, S_1, S_2, S_3, S_4, S_5
@@ -76,8 +76,8 @@ Arg,   C,   C,   C,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,229:New solution found! (#2). Calculation time: 00:00:06. New best price = 11635.32
-2019-04-19 20:50:10,229:[solution]
+2019-04-22 19:28:33,670:New solution found! (#2). Calculation time: 00:00:06. New best price = 11635.32
+2019-04-22 19:28:33,670:[solution]
 % Solution number = 2
 % Solution price  = 11635.32
 Res, S_1, S_2, S_3, S_4, S_5
@@ -102,8 +102,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,234:New solution found! (#3). Calculation time: 00:00:06. New best price = 11329.13
-2019-04-19 20:50:10,235:[solution]
+2019-04-22 19:28:33,675:New solution found! (#3). Calculation time: 00:00:06. New best price = 11329.13
+2019-04-22 19:28:33,675:[solution]
 % Solution number = 3
 % Solution price  = 11329.13
 Res, S_1, S_2, S_3, S_4, S_5
@@ -128,8 +128,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,241:New solution found! (#4). Calculation time: 00:00:06. New best price = 11186.64
-2019-04-19 20:50:10,241:[solution]
+2019-04-22 19:28:33,680:New solution found! (#4). Calculation time: 00:00:06. New best price = 11186.64
+2019-04-22 19:28:33,681:[solution]
 % Solution number = 4
 % Solution price  = 11186.64
 Res, S_1, S_2, S_3, S_4, S_5
@@ -154,8 +154,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,247:New solution found! (#5). Calculation time: 00:00:06. New best price = 11022.94
-2019-04-19 20:50:10,247:[solution]
+2019-04-22 19:28:33,686:New solution found! (#5). Calculation time: 00:00:06. New best price = 11022.94
+2019-04-22 19:28:33,686:[solution]
 % Solution number = 5
 % Solution price  = 11022.94
 Res, S_1, S_2, S_3, S_4, S_5
@@ -180,8 +180,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,253:New solution found! (#6). Calculation time: 00:00:06. New best price = 10973.22
-2019-04-19 20:50:10,254:[solution]
+2019-04-22 19:28:33,691:New solution found! (#6). Calculation time: 00:00:06. New best price = 10973.22
+2019-04-22 19:28:33,691:[solution]
 % Solution number = 6
 % Solution price  = 10973.22
 Res, S_1, S_2, S_3, S_4, S_5
@@ -206,8 +206,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,260:New solution found! (#7). Calculation time: 00:00:06. New best price = 10880.45
-2019-04-19 20:50:10,260:[solution]
+2019-04-22 19:28:33,697:New solution found! (#7). Calculation time: 00:00:06. New best price = 10880.45
+2019-04-22 19:28:33,697:[solution]
 % Solution number = 7
 % Solution price  = 10880.45
 Res, S_1, S_2, S_3, S_4, S_5
@@ -232,8 +232,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,266:New solution found! (#8). Calculation time: 00:00:06. New best price = 10830.73
-2019-04-19 20:50:10,266:[solution]
+2019-04-22 19:28:33,702:New solution found! (#8). Calculation time: 00:00:06. New best price = 10830.73
+2019-04-22 19:28:33,702:[solution]
 % Solution number = 8
 % Solution price  = 10830.73
 Res, S_1, S_2, S_3, S_4, S_5
@@ -258,8 +258,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,275:New solution found! (#9). Calculation time: 00:00:06. New best price = 10820.56
-2019-04-19 20:50:10,275:[solution]
+2019-04-22 19:28:33,709:New solution found! (#9). Calculation time: 00:00:06. New best price = 10820.56
+2019-04-22 19:28:33,709:[solution]
 % Solution number = 9
 % Solution price  = 10820.56
 Res, S_1, S_2, S_3, S_4, S_5
@@ -284,8 +284,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,281:New solution found! (#10). Calculation time: 00:00:06. New best price = 10787.71
-2019-04-19 20:50:10,282:[solution]
+2019-04-22 19:28:33,715:New solution found! (#10). Calculation time: 00:00:06. New best price = 10787.71
+2019-04-22 19:28:33,715:[solution]
 % Solution number = 10
 % Solution price  = 10787.71
 Res, S_1, S_2, S_3, S_4, S_5
@@ -310,8 +310,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,288:New solution found! (#11). Calculation time: 00:00:06. New best price = 10737.99
-2019-04-19 20:50:10,288:[solution]
+2019-04-22 19:28:33,720:New solution found! (#11). Calculation time: 00:00:06. New best price = 10737.99
+2019-04-22 19:28:33,720:[solution]
 % Solution number = 11
 % Solution price  = 10737.99
 Res, S_1, S_2, S_3, S_4, S_5
@@ -336,8 +336,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,327:New solution found! (#12). Calculation time: 00:00:06. New best price = 10707.85
-2019-04-19 20:50:10,327:[solution]
+2019-04-22 19:28:33,750:New solution found! (#12). Calculation time: 00:00:06. New best price = 10707.85
+2019-04-22 19:28:33,750:[solution]
 % Solution number = 12
 % Solution price  = 10707.85
 Res, S_1, S_2, S_3, S_4, S_5
@@ -362,8 +362,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,333:New solution found! (#13). Calculation time: 00:00:06. New best price = 10615.08
-2019-04-19 20:50:10,333:[solution]
+2019-04-22 19:28:33,755:New solution found! (#13). Calculation time: 00:00:06. New best price = 10615.08
+2019-04-22 19:28:33,756:[solution]
 % Solution number = 13
 % Solution price  = 10615.08
 Res, S_1, S_2, S_3, S_4, S_5
@@ -388,8 +388,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,339:New solution found! (#14). Calculation time: 00:00:06. New best price = 10565.36
-2019-04-19 20:50:10,339:[solution]
+2019-04-22 19:28:33,761:New solution found! (#14). Calculation time: 00:00:06. New best price = 10565.36
+2019-04-22 19:28:33,761:[solution]
 % Solution number = 14
 % Solution price  = 10565.36
 Res, S_1, S_2, S_3, S_4, S_5
@@ -414,8 +414,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,347:New solution found! (#15). Calculation time: 00:00:06. New best price = 10555.19
-2019-04-19 20:50:10,347:[solution]
+2019-04-22 19:28:33,767:New solution found! (#15). Calculation time: 00:00:06. New best price = 10555.19
+2019-04-22 19:28:33,767:[solution]
 % Solution number = 15
 % Solution price  = 10555.19
 Res, S_1, S_2, S_3, S_4, S_5
@@ -440,8 +440,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,353:New solution found! (#16). Calculation time: 00:00:06. New best price = 10522.34
-2019-04-19 20:50:10,353:[solution]
+2019-04-22 19:28:33,772:New solution found! (#16). Calculation time: 00:00:06. New best price = 10522.34
+2019-04-22 19:28:33,773:[solution]
 % Solution number = 16
 % Solution price  = 10522.34
 Res, S_1, S_2, S_3, S_4, S_5
@@ -466,8 +466,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,359:New solution found! (#17). Calculation time: 00:00:06. New best price = 10472.62
-2019-04-19 20:50:10,360:[solution]
+2019-04-22 19:28:33,778:New solution found! (#17). Calculation time: 00:00:06. New best price = 10472.62
+2019-04-22 19:28:33,778:[solution]
 % Solution number = 17
 % Solution price  = 10472.62
 Res, S_1, S_2, S_3, S_4, S_5
@@ -492,8 +492,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,391:New solution found! (#18). Calculation time: 00:00:06. New best price = 10427.31
-2019-04-19 20:50:10,391:[solution]
+2019-04-22 19:28:33,803:New solution found! (#18). Calculation time: 00:00:06. New best price = 10427.31
+2019-04-22 19:28:33,803:[solution]
 % Solution number = 18
 % Solution price  = 10427.31
 Res, S_1, S_2, S_3, S_4, S_5
@@ -518,8 +518,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,413:New solution found! (#19). Calculation time: 00:00:06. New best price = 10358.4
-2019-04-19 20:50:10,414:[solution]
+2019-04-22 19:28:33,822:New solution found! (#19). Calculation time: 00:00:06. New best price = 10358.4
+2019-04-22 19:28:33,823:[solution]
 % Solution number = 19
 % Solution price  = 10358.4
 Res, S_1, S_2, S_3, S_4, S_5
@@ -544,8 +544,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,420:New solution found! (#20). Calculation time: 00:00:06. New best price = 10052.21
-2019-04-19 20:50:10,420:[solution]
+2019-04-22 19:28:33,828:New solution found! (#20). Calculation time: 00:00:06. New best price = 10052.21
+2019-04-22 19:28:33,828:[solution]
 % Solution number = 20
 % Solution price  = 10052.21
 Res, S_1, S_2, S_3, S_4, S_5
@@ -570,8 +570,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,426:New solution found! (#21). Calculation time: 00:00:06. New best price = 9909.72
-2019-04-19 20:50:10,426:[solution]
+2019-04-22 19:28:33,833:New solution found! (#21). Calculation time: 00:00:06. New best price = 9909.72
+2019-04-22 19:28:33,833:[solution]
 % Solution number = 21
 % Solution price  = 9909.72
 Res, S_1, S_2, S_3, S_4, S_5
@@ -596,8 +596,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,434:New solution found! (#22). Calculation time: 00:00:06. New best price = 9860.0
-2019-04-19 20:50:10,435:[solution]
+2019-04-22 19:28:33,838:New solution found! (#22). Calculation time: 00:00:06. New best price = 9860.0
+2019-04-22 19:28:33,838:[solution]
 % Solution number = 22
 % Solution price  = 9860.0
 Res, S_1, S_2, S_3, S_4, S_5
@@ -622,8 +622,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,442:New solution found! (#23). Calculation time: 00:00:07. New best price = 9849.83
-2019-04-19 20:50:10,442:[solution]
+2019-04-22 19:28:33,844:New solution found! (#23). Calculation time: 00:00:06. New best price = 9849.83
+2019-04-22 19:28:33,845:[solution]
 % Solution number = 23
 % Solution price  = 9849.83
 Res, S_1, S_2, S_3, S_4, S_5
@@ -648,8 +648,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,448:New solution found! (#24). Calculation time: 00:00:07. New best price = 9816.98
-2019-04-19 20:50:10,449:[solution]
+2019-04-22 19:28:33,850:New solution found! (#24). Calculation time: 00:00:06. New best price = 9816.98
+2019-04-22 19:28:33,850:[solution]
 % Solution number = 24
 % Solution price  = 9816.98
 Res, S_1, S_2, S_3, S_4, S_5
@@ -674,8 +674,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,455:New solution found! (#25). Calculation time: 00:00:07. New best price = 9767.26
-2019-04-19 20:50:10,455:[solution]
+2019-04-22 19:28:33,855:New solution found! (#25). Calculation time: 00:00:06. New best price = 9767.26
+2019-04-22 19:28:33,855:[solution]
 % Solution number = 25
 % Solution price  = 9767.26
 Res, S_1, S_2, S_3, S_4, S_5
@@ -700,8 +700,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,464:New solution found! (#26). Calculation time: 00:00:07. New best price = 9644.34
-2019-04-19 20:50:10,464:[solution]
+2019-04-22 19:28:33,862:New solution found! (#26). Calculation time: 00:00:06. New best price = 9644.34
+2019-04-22 19:28:33,863:[solution]
 % Solution number = 26
 % Solution price  = 9644.34
 Res, S_1, S_2, S_3, S_4, S_5
@@ -726,8 +726,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,470:New solution found! (#27). Calculation time: 00:00:07. New best price = 9594.62
-2019-04-19 20:50:10,470:[solution]
+2019-04-22 19:28:33,868:New solution found! (#27). Calculation time: 00:00:06. New best price = 9594.62
+2019-04-22 19:28:33,868:[solution]
 % Solution number = 27
 % Solution price  = 9594.62
 Res, S_1, S_2, S_3, S_4, S_5
@@ -752,8 +752,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,478:New solution found! (#28). Calculation time: 00:00:07. New best price = 9584.46
-2019-04-19 20:50:10,478:[solution]
+2019-04-22 19:28:33,874:New solution found! (#28). Calculation time: 00:00:06. New best price = 9584.46
+2019-04-22 19:28:33,874:[solution]
 % Solution number = 28
 % Solution price  = 9584.46
 Res, S_1, S_2, S_3, S_4, S_5
@@ -778,8 +778,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,484:New solution found! (#29). Calculation time: 00:00:07. New best price = 9551.6
-2019-04-19 20:50:10,484:[solution]
+2019-04-22 19:28:33,879:New solution found! (#29). Calculation time: 00:00:06. New best price = 9551.6
+2019-04-22 19:28:33,880:[solution]
 % Solution number = 29
 % Solution price  = 9551.6
 Res, S_1, S_2, S_3, S_4, S_5
@@ -804,8 +804,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,490:New solution found! (#30). Calculation time: 00:00:07. New best price = 9501.88
-2019-04-19 20:50:10,491:[solution]
+2019-04-22 19:28:33,885:New solution found! (#30). Calculation time: 00:00:06. New best price = 9501.88
+2019-04-22 19:28:33,885:[solution]
 % Solution number = 30
 % Solution price  = 9501.88
 Res, S_1, S_2, S_3, S_4, S_5
@@ -830,8 +830,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,728:New solution found! (#31). Calculation time: 00:00:07. New best price = 9490.52
-2019-04-19 20:50:10,729:[solution]
+2019-04-22 19:28:34,087:New solution found! (#31). Calculation time: 00:00:06. New best price = 9490.52
+2019-04-22 19:28:34,087:[solution]
 % Solution number = 31
 % Solution price  = 9490.52
 Res, S_1, S_2, S_3, S_4, S_5
@@ -856,8 +856,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,735:New solution found! (#32). Calculation time: 00:00:07. New best price = 9440.8
-2019-04-19 20:50:10,735:[solution]
+2019-04-22 19:28:34,092:New solution found! (#32). Calculation time: 00:00:06. New best price = 9440.8
+2019-04-22 19:28:34,093:[solution]
 % Solution number = 32
 % Solution price  = 9440.8
 Res, S_1, S_2, S_3, S_4, S_5
@@ -882,8 +882,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,811:New solution found! (#33). Calculation time: 00:00:07. New best price = 9395.49
-2019-04-19 20:50:10,811:[solution]
+2019-04-22 19:28:34,154:New solution found! (#33). Calculation time: 00:00:06. New best price = 9395.49
+2019-04-22 19:28:34,154:[solution]
 % Solution number = 33
 % Solution price  = 9395.49
 Res, S_1, S_2, S_3, S_4, S_5
@@ -908,8 +908,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,897:New solution found! (#34). Calculation time: 00:00:07. New best price = 9350.18
-2019-04-19 20:50:10,897:[solution]
+2019-04-22 19:28:34,227:New solution found! (#34). Calculation time: 00:00:07. New best price = 9350.18
+2019-04-22 19:28:34,227:[solution]
 % Solution number = 34
 % Solution price  = 9350.18
 Res, S_1, S_2, S_3, S_4, S_5
@@ -934,8 +934,8 @@ Arg,   C,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:10,984:New solution found! (#35). Calculation time: 00:00:07. New best price = 9293.22
-2019-04-19 20:50:10,985:[solution]
+2019-04-22 19:28:34,299:New solution found! (#35). Calculation time: 00:00:07. New best price = 9293.22
+2019-04-22 19:28:34,300:[solution]
 % Solution number = 35
 % Solution price  = 9293.22
 Res, S_1, S_2, S_3, S_4, S_5
@@ -960,8 +960,8 @@ Arg,   C,   X,   X,   X,   C
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,020:New solution found! (#36). Calculation time: 00:00:07. New best price = 9267.81
-2019-04-19 20:50:11,020:[solution]
+2019-04-22 19:28:34,327:New solution found! (#36). Calculation time: 00:00:07. New best price = 9267.81
+2019-04-22 19:28:34,328:[solution]
 % Solution number = 36
 % Solution price  = 9267.81
 Res, S_1, S_2, S_3, S_4, S_5
@@ -986,8 +986,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,027:New solution found! (#37). Calculation time: 00:00:07. New best price = 9175.07
-2019-04-19 20:50:11,027:[solution]
+2019-04-22 19:28:34,334:New solution found! (#37). Calculation time: 00:00:07. New best price = 9175.07
+2019-04-22 19:28:34,334:[solution]
 % Solution number = 37
 % Solution price  = 9175.07
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1012,8 +1012,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,041:New solution found! (#38). Calculation time: 00:00:07. New best price = 9095.18
-2019-04-19 20:50:11,041:[solution]
+2019-04-22 19:28:34,345:New solution found! (#38). Calculation time: 00:00:07. New best price = 9095.18
+2019-04-22 19:28:34,345:[solution]
 % Solution number = 38
 % Solution price  = 9095.18
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1038,8 +1038,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,047:New solution found! (#39). Calculation time: 00:00:07. New best price = 9002.44
-2019-04-19 20:50:11,048:[solution]
+2019-04-22 19:28:34,350:New solution found! (#39). Calculation time: 00:00:07. New best price = 9002.44
+2019-04-22 19:28:34,351:[solution]
 % Solution number = 39
 % Solution price  = 9002.44
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1064,8 +1064,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,054:New solution found! (#40). Calculation time: 00:00:07. New best price = 8909.7
-2019-04-19 20:50:11,054:[solution]
+2019-04-22 19:28:34,356:New solution found! (#40). Calculation time: 00:00:07. New best price = 8909.7
+2019-04-22 19:28:34,356:[solution]
 % Solution number = 40
 % Solution price  = 8909.7
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1090,8 +1090,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,099:New solution found! (#41). Calculation time: 00:00:07. New best price = 8786.46
-2019-04-19 20:50:11,099:[solution]
+2019-04-22 19:28:34,393:New solution found! (#41). Calculation time: 00:00:07. New best price = 8786.46
+2019-04-22 19:28:34,393:[solution]
 % Solution number = 41
 % Solution price  = 8786.46
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1116,8 +1116,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,106:New solution found! (#42). Calculation time: 00:00:07. New best price = 8693.72
-2019-04-19 20:50:11,106:[solution]
+2019-04-22 19:28:34,399:New solution found! (#42). Calculation time: 00:00:07. New best price = 8693.72
+2019-04-22 19:28:34,399:[solution]
 % Solution number = 42
 % Solution price  = 8693.72
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1142,8 +1142,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,252:New solution found! (#43). Calculation time: 00:00:07. New best price = 8648.41
-2019-04-19 20:50:11,252:[solution]
+2019-04-22 19:28:34,522:New solution found! (#43). Calculation time: 00:00:07. New best price = 8648.41
+2019-04-22 19:28:34,522:[solution]
 % Solution number = 43
 % Solution price  = 8648.41
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1168,8 +1168,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:11,566:New solution found! (#44). Calculation time: 00:00:08. New best price = 8632.23
-2019-04-19 20:50:11,567:[solution]
+2019-04-22 19:28:34,782:New solution found! (#44). Calculation time: 00:00:07. New best price = 8632.23
+2019-04-22 19:28:34,783:[solution]
 % Solution number = 44
 % Solution price  = 8632.23
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1194,8 +1194,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:25,380:New solution found! (#45). Calculation time: 00:00:21. New best price = 8587.38
-2019-04-19 20:50:25,380:[solution]
+2019-04-22 19:28:46,161:New solution found! (#45). Calculation time: 00:00:18. New best price = 8587.38
+2019-04-22 19:28:46,311:[solution]
 % Solution number = 45
 % Solution price  = 8587.38
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1220,8 +1220,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:25,575:New solution found! (#46). Calculation time: 00:00:22. New best price = 8542.07
-2019-04-19 20:50:25,575:[solution]
+2019-04-22 19:28:46,428:New solution found! (#46). Calculation time: 00:00:19. New best price = 8542.07
+2019-04-22 19:28:46,428:[solution]
 % Solution number = 46
 % Solution price  = 8542.07
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1246,8 +1246,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:27,367:New solution found! (#47). Calculation time: 00:00:23. New best price = 8533.06
-2019-04-19 20:50:27,367:[solution]
+2019-04-22 19:28:47,918:New solution found! (#47). Calculation time: 00:00:20. New best price = 8533.06
+2019-04-22 19:28:47,918:[solution]
 % Solution number = 47
 % Solution price  = 8533.06
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1272,8 +1272,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:27,579:New solution found! (#48). Calculation time: 00:00:24. New best price = 8464.38
-2019-04-19 20:50:27,580:[solution]
+2019-04-22 19:28:48,117:New solution found! (#48). Calculation time: 00:00:20. New best price = 8464.38
+2019-04-22 19:28:48,117:[solution]
 % Solution number = 48
 % Solution price  = 8464.38
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1298,8 +1298,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:27,714:New solution found! (#49). Calculation time: 00:00:24. New best price = 8442.9
-2019-04-19 20:50:27,714:[solution]
+2019-04-22 19:28:48,228:New solution found! (#49). Calculation time: 00:00:21. New best price = 8442.9
+2019-04-22 19:28:48,229:[solution]
 % Solution number = 49
 % Solution price  = 8442.9
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1324,8 +1324,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:30,062:New solution found! (#50). Calculation time: 00:00:26. New best price = 8415.19
-2019-04-19 20:50:30,062:[solution]
+2019-04-22 19:28:50,260:New solution found! (#50). Calculation time: 00:00:23. New best price = 8415.19
+2019-04-22 19:28:50,260:[solution]
 % Solution number = 50
 % Solution price  = 8415.19
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1350,8 +1350,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:39,575:New solution found! (#51). Calculation time: 00:00:36. New best price = 8411.61
-2019-04-19 20:50:39,575:[solution]
+2019-04-22 19:28:58,315:New solution found! (#51). Calculation time: 00:00:31. New best price = 8411.61
+2019-04-22 19:28:58,315:[solution]
 % Solution number = 51
 % Solution price  = 8411.61
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1376,8 +1376,8 @@ Arg,   X,   C,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:40,250:New solution found! (#52). Calculation time: 00:00:36. New best price = 8378.2
-2019-04-19 20:50:40,250:[solution]
+2019-04-22 19:28:58,832:New solution found! (#52). Calculation time: 00:00:31. New best price = 8378.2
+2019-04-22 19:28:58,832:[solution]
 % Solution number = 52
 % Solution price  = 8378.2
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1402,8 +1402,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:40,405:New solution found! (#53). Calculation time: 00:00:36. New best price = 8362.02
-2019-04-19 20:50:40,405:[solution]
+2019-04-22 19:28:58,970:New solution found! (#53). Calculation time: 00:00:31. New best price = 8362.02
+2019-04-22 19:28:58,970:[solution]
 % Solution number = 53
 % Solution price  = 8362.02
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1428,8 +1428,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:49,675:New solution found! (#54). Calculation time: 00:00:46. New best price = 8328.61
-2019-04-19 20:50:49,675:[solution]
+2019-04-22 19:29:06,898:New solution found! (#54). Calculation time: 00:00:39. New best price = 8328.61
+2019-04-22 19:29:06,898:[solution]
 % Solution number = 54
 % Solution price  = 8328.61
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1454,8 +1454,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:49,883:New solution found! (#55). Calculation time: 00:00:46. New best price = 8312.44
-2019-04-19 20:50:49,883:[solution]
+2019-04-22 19:29:07,081:New solution found! (#55). Calculation time: 00:00:39. New best price = 8312.44
+2019-04-22 19:29:07,081:[solution]
 % Solution number = 55
 % Solution price  = 8312.44
 Res, S_1, S_2, S_3, S_4, S_5
@@ -1480,8 +1480,8 @@ Arg,   C,   X,   X,   X,   X
 His,   X,   X,   X,   X,   X
 
 
-2019-04-19 20:50:55,838:UPDATE: search in 5 samples; iteration   1000000; time:     52 sec; max depth=18; solutions found= 55    ; best price=8312.43656
-2019-04-19 20:51:02,660:Search in 5 sample(s) finished successfully!
-2019-04-19 20:51:02,660:Search for solution finished successfully!
-Calculation time: 		00:00:59
+2019-04-22 19:29:12,383:UPDATE: search in 5 samples; iteration 1000000; time: 00:00:45; max depth=18; solutions found=55; best price=8312.44
+2019-04-22 19:29:18,452:Search in 5 sample(s) finished successfully!
+2019-04-22 19:29:18,452:Search for solution finished successfully!
+Calculation time: 		00:00:51
 Total iterations: 1088116

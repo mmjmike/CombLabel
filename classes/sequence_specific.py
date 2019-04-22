@@ -1,27 +1,9 @@
 from classes.constants import PatternClass, Constants
-from operator import attrgetter
 import copy
 import time
 import socket
-import cProfile, pstats, io
 
 
-def profile(fnc):
-    """A decorator that uses cProfile to profile a function"""
-
-    def inner(*args, **kwargs):
-        pr = cProfile.Profile()
-        pr.enable()
-        retval = fnc(*args, **kwargs)
-        pr.disable()
-        s = io.StringIO()
-        sortby = 'cumulative'
-        ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
-        ps.print_stats()
-        print(s.getvalue())
-        return retval
-
-    return inner
 
 
 ITERATION_4_OUTPUT = 1000000
@@ -59,7 +41,7 @@ class CLOptimizer:
 
         out = "Search for {} solution started\n".format(self.jobname)
         out += "Host name is:\t\t{}\n".format(socket.gethostname())
-        out += "Start clock time: \t\t{}".format(time.strftime("%d-%m-%Y %H:%M:%S", time.gmtime(self.t0)))
+        out += "Start clock time: \t\t{}".format(time.strftime("%d-%m-%Y %H:%M:%S", time.localtime(self.t0)))
         self.logger.info(out)
 
         while not self.solution_found:
@@ -90,28 +72,22 @@ class CLOptimizer:
         self.depth = 0
         self.generate_residues2label()
         self.solution = Solution(self.patterns_codes)
-        # choose the first residue to start with
         if not self.residues2label:
             return
         self.symmetry = []
         self.symmetry.append([self.samples])
 
         self.current_res = self.residues2label.pop()
-        # self.current_res = min(self.residues2label, key=attrgetter('score'))
-        # self.residues2label.remove(self.current_res)
-        #
         self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
         self.current_res.make_pattern_list()
-
         self.counter = [0]
 
         self.main_cycle()
 
-    @profile
     def main_cycle(self):
 
         while True:
-            # technical update, write data to log and other stuff
+            # technical update, write data to log and increment iterations
             self.next_iteration()
 
             # if the counter overflows, then we return to the previous depth
@@ -125,8 +101,7 @@ class CLOptimizer:
                                                              self.current_res)
             # if label is not added, then use next pattern, e.g. go parallel
             if not result:
-                # self.go_parallel()
-                self.counter[self.depth] += 1
+                self.go_parallel()
                 continue
 
             # if it is the last residue, then we found a solution!
@@ -145,9 +120,9 @@ class CLOptimizer:
                         self.solutions += 1
                         self.output_solution()
                     self.current_res = self.solution.remove_last_label()
-                    # self.go_parallel()
-                    self.counter[self.depth] += 1
+                    self.go_parallel()
                     # we don't count solutions without price improvement
+
                 # if we don't optimize price, then after the first solution we break the cycle
                 else:
                     self.solutions = 1
@@ -159,20 +134,19 @@ class CLOptimizer:
             # the case of no patterns left for the following residue is dealt with
             # in the first "if" statement in the cycle
             else:
-                # self.perform_cross_out(cross_out_task)
-                for residue in self.residues2label:
-                    residue.cross_out(cross_out_task, self.solution)
+                self.perform_cross_out(cross_out_task)
                 if self.optimize_price and self.solution_found:
                     if not self.check_price():
                         self.restore_last_cross_outs()
                         self.current_res = self.solution.remove_last_label()
-                        # self.go_parallel()
-                        self.counter[self.depth] += 1
+                        self.go_parallel()
                         continue
                 self.go_deeper()
 
     def check_price(self):
         price = 0
+        # price predict is current solution price + prices of the
+        # cheapest options of not yet labeled residues
         for residue in self.residues2label:
             price += residue.find_cheapest_option()
         return price + self.solution.price < self.best_solution.price
@@ -190,25 +164,24 @@ class CLOptimizer:
 
         if self.iteration % ITERATION_4_OUTPUT == 0:
 
-            out = "UPDATE: search in {} samples; iteration {:>9}; time: {:>6d} sec; ".format(self.samples, self.iteration,
-                                                             int(time.time() - self.t0))
-            out += "max depth={:<2}; solutions found= {:<6}".format(self.max_depth + 1, self.solutions)
+            out = "UPDATE: search in {} samples; iteration {}; ".format(self.samples, self.iteration)
+            out += "time: {}".format(time.strftime("%H:%M:%S",
+                                                               time.gmtime(int(time.time() - self.t0))))
+            out += "; max depth={:<2}; solutions found={}".format(self.max_depth + 1, self.solutions)
             if self.optimize_price and self.solution_found:
-                out += "; best price={}".format(self.best_solution.price)
+                out += "; best price={:.2f}".format(self.best_solution.price)
             self.logger.info(out)
 
     def go_deeper(self):
         self.update_symmetry()
         self.current_res = self.residues2label.pop()
-        # self.current_res = min(self.residues2label, key=attrgetter('score'))
-        # self.residues2label.remove(self.current_res)
         self.current_res.cross_out_symmetry(self.symmetry[-1], self.patterns_codes)
         self.current_res.make_pattern_list()
         self.counter.append(0)
         self.depth += 1
         if self.depth > self.max_depth:
             self.max_depth = self.depth
-            out = "New max depth ({}) reached at {} samples".format(self.max_depth, self.samples)
+            out = "New max depth ({}) reached at {} samples".format(self.max_depth + 1, self.samples)
             self.logger.info(out)
 
     def update_symmetry(self):
@@ -245,7 +218,6 @@ class CLOptimizer:
         self.symmetry.pop()
         self.counter.pop()
         self.counter[-1] += 1
-        # self.back_up_solutions.pop()
         self.current_res.restore_symmetry()
         self.residues2label.append(self.current_res)
         for residue in self.residues2label:
@@ -270,10 +242,16 @@ class CLOptimizer:
         self.logger.info("Precalculating NMR codes...")
         self.patterns_codes = PatternsCodes(patterns, self.ncs)
         self.logger.info("NMR codes calculated")
+
         for res in self.residues2label:
             res.translate_patterns(self.patterns_codes)
-        self.residues2label.sort(key=lambda res: res.score_2, reverse=False)
+
+        # sort residues by their score for predictable outcome of the calculation
+        # residues are sorted, so that ones with greater number of cells in pairs table
+        # come first (also reverse sorted by the alphabet)
+        self.residues2label.sort(key=lambda res: res.score, reverse=False)
         total_residues = len(self.residues2label)
+
         for i in range(total_residues):
             curr_res = self.residues2label[total_residues-i-1]
             for j in range(i):
@@ -282,9 +260,6 @@ class CLOptimizer:
                     curr_res.check_before.append(j)
                 if another_res.name in curr_res.residues_after:
                     curr_res.check_after.append(j)
-        #
-        # for res in self.residues2label:
-        #     print(res)
 
     def output_solution(self):
         msg = "New solution found! (#{})".format(self.solutions)
@@ -335,7 +310,6 @@ class CLOptimizer:
         pairs_table = PairsTable(self.sequence, label_options)
 
         price_dict = self.sequence.get_prices()
-
 
         params = {
             "ncs": self.ncs,
@@ -468,7 +442,6 @@ class Residue2Label:
                 got_nitro = True
         return got_nitro and max_pairs >= len(self.residues_before)
 
-    # @profile
     def cross_out(self, task, solution):
         patterns_codes = solution.patterns_codes
         cross_out_set = set()
@@ -480,19 +453,8 @@ class Residue2Label:
             for pattern in self.pattern_codes_set:
                 if patterns_codes.codes[pattern][pattern_after] in codes:
                     cross_out_set.add(pattern)
-        # for residue in task:
-        #     if residue in self.residues_after:
-        #         pattern_after = task[residue][0]
-        #         codes = set(task[residue][1:])
-        #         for pattern in self.pattern_codes_set:
-        #             if patterns_codes.codes[pattern][pattern_after] in codes:
-        #                 cross_out_set.add(pattern)
-        # self.crossed_out_sets.append(cross_out_set)
         self.crossed_out_sets.append(self.pattern_codes_set)
-        # self.crossed_out_sets.append(self.pattern_codes_set.copy())
         self.pattern_codes_set = self.pattern_codes_set.difference(cross_out_set)
-
-    # def cross_out_2(self, ):
 
     @property
     def patterns_number(self):
@@ -500,10 +462,6 @@ class Residue2Label:
 
     @property
     def score(self):
-        return len(self.pattern_codes_set)*1000 - ord(self.name)
-
-    @property
-    def score_2(self):
         score = len(self.residues_after) + len(self.residues_before)
         score *= 1000
         return score - ord(self.name)
@@ -529,16 +487,12 @@ class Residue2Label:
         self.pattern_codes_set = self.pattern_codes_set.union(self.symmetry_cross_out)
 
     def restore_last_cross_out(self):
-        # last_cross_out = self.crossed_out_sets.pop()
-        # self.pattern_codes_set = self.pattern_codes_set.union(last_cross_out)
         self.pattern_codes_set = self.crossed_out_sets.pop()
 
     def make_pattern_list(self):
-        # self.patterns_list = []
         self.patterns_list = sorted(self.pattern_codes_set)
 
     def find_cheapest_option(self):
-
         best = 0
         first = True
         for pattern_code in self.pattern_codes_set:
@@ -549,11 +503,6 @@ class Residue2Label:
             elif price < best:
                 best = price
         return best
-        # if not self.pattern_codes_set:
-        #     return 0
-        # else:
-        #     pattern = min(self.pattern_codes_set, key=lambda x: self.pattern_price[x])
-        #     return self.pattern_price[pattern]
 
     def __str__(self):
         out = self.name
@@ -562,9 +511,6 @@ class Residue2Label:
         out += str(self.residues_after)
         out += str(self.check_after)
         return out
-
-        # return "{}; res_before={}; res_after={}; score={}".format(self.name,
-        #         len(self.residues_before), len(self.residues_after), str(self.score_2))
 
 
 class PatternsCodes:
@@ -616,7 +562,6 @@ class Solution:
 
     def __init__(self, patterns_codes):
         self.patterns_codes = patterns_codes
-        # self.cell_table = cell_table
         self.patterns = []
         self.residues = []
         self.codes = set()
@@ -627,61 +572,39 @@ class Solution:
         self.price_back_up = []
 
     def add_label(self, pattern_code, residue):
-        # task: which res, which pattern second, code value
-        cross_out_task = [[] for i in range(len(self.residues)+1)]
+        # task: list of sets with codes, obtained for particular
+        # labeled residues in order they come in solution
+        cross_out_task = [set() for i in range(len(self.residues)+1)]
         self.new_codes = set()
-
-        # for cell in self.cell_table[depth]:
-        #     first_res =
-        #     second_res =
 
         if residue.self_cell:
             new_code = self.patterns_codes.codes[pattern_code][pattern_code]
             if new_code in self.codes:
                 return False, cross_out_task
             self.new_codes.add(new_code)
-            cross_out_task[-1].append(new_code)
+            cross_out_task[-1].add(new_code)
         if residue.other_cell:
             other_code = self.patterns_codes.other_code
             new_code = self.patterns_codes.codes[other_code][pattern_code]
             if new_code in self.codes or new_code in self.new_codes:
                 return False, cross_out_task
-            cross_out_task[-1].append(new_code)
+            cross_out_task[-1].add(new_code)
             self.new_codes.add(new_code)
         for res_num in residue.check_after:
             new_code = self.patterns_codes.codes[pattern_code][self.patterns[res_num]]
             if new_code in self.codes or new_code in self.new_codes:
                 return False, cross_out_task
             self.new_codes.add(new_code)
-            cross_out_task[res_num].append(new_code)
+            cross_out_task[res_num].add(new_code)
         for res_num in residue.check_before:
             new_code = self.patterns_codes.codes[self.patterns[res_num]][pattern_code]
             if new_code in self.codes or new_code in self.new_codes:
                 return False, cross_out_task
             self.new_codes.add(new_code)
-            cross_out_task[-1].append(new_code)
-
-        # for i in range(len(self.residues)):
-        #     res = self.residues[i]
-        #     if res.name in residue.residues_after:
-        #         new_code = self.patterns_codes.codes[pattern_code][self.patterns[i]]
-        #         if new_code in self.codes or new_code in self.new_codes:
-        #             return False, cross_out_task
-        #         self.new_codes.add(new_code)
-        #         cross_out_task.update({res.name: [self.patterns[i], new_code]})
-        #     if res.name in residue.residues_before:
-        #         new_code = self.patterns_codes.codes[self.patterns[i]][pattern_code]
-        #         if new_code in self.codes or new_code in self.new_codes:
-        #             return False, cross_out_task
-        #         self.new_codes.add(new_code)
-        #         if not residue_added:
-        #             cross_out_task.update({residue.name: [pattern_code, new_code]})
-        #         else:
-        #             cross_out_task[residue.name].append(new_code)
+            cross_out_task[-1].add(new_code)
 
         self.back_up_codes.append(self.codes.copy())
         self.codes.update(self.new_codes)
-        # self.back_up_codes.append(self.new_codes)
         self.new_codes = set()
         self.patterns.append(copy.copy(pattern_code))
         self.residues.append(residue)
@@ -693,7 +616,6 @@ class Solution:
         self.patterns.pop()
         self.price = self.price_back_up.pop()
         self.codes = self.back_up_codes.pop()
-        # self.codes = self.codes.difference(self.back_up_codes.pop())
         return self.residues.pop()
 
     def copy_solution_to(self, another):
@@ -724,6 +646,9 @@ class Solution:
 
 
 class PairsTable:
+
+    # Class from previous version of Comblabel, that is responsible
+    # for generation of residue pairs table in solution stats file
 
     def __init__(self, sequence, label_options):
         self.label_options = label_options
