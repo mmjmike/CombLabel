@@ -1,0 +1,721 @@
+
+Search for KdpD solution started
+Host name is                      zion.localdomain
+Start clock time:                 22-12-2017 10:00:33
+
+Search in 1 samples
+
+Max depth reached: 0
+Search in 2 samples
+
+Max depth reached: 0
+Search in 3 samples
+
+Max depth reached: 1
+Search in 4 samples
+
+Max depth reached: 1
+Search in 5 samples
+
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 1
+Best price: 11823.27
+Iterations: 60
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 2
+Best price: 11517.08
+Iterations: 61
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 3
+Best price: 11210.89
+Iterations: 63
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 4
+Best price: 10904.70
+Iterations: 67
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 5
+Best price: 10639.33
+Iterations: 85
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 6
+Best price: 9748.55
+Iterations: 98
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 7
+Best price: 9442.36
+Iterations: 99
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 8
+Best price: 9136.16
+Iterations: 101
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 9
+Best price: 8829.97
+Iterations: 105
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 10
+Best price: 8564.60
+Iterations: 123
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 11
+Best price: 8523.78
+Iterations: 498
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 12
+Best price: 8258.41
+Iterations: 532
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 13
+Best price: 8139.55
+Iterations: 666
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 14
+Best price: 8065.05
+Iterations: 818
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 15
+Best price: 7833.36
+Iterations: 1193
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 16
+Best price: 7812.61
+Iterations: 1606
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 17
+Best price: 7693.75
+Iterations: 1740
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 18
+Best price: 7619.25
+Iterations: 1891
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 19
+Best price: 7604.39
+Iterations: 2076
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 20
+Best price: 7387.56
+Iterations: 2471
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 21
+Best price: 7375.42
+Iterations: 2648
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 22
+Best price: 7158.59
+Iterations: 3011
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 23
+Best price: 6941.76
+Iterations: 3376
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 24
+Best price: 6756.28
+Iterations: 3829
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 25
+Best price: 6663.54
+Iterations: 4158
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 26
+Best price: 6600.55
+Iterations: 4719
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 27
+Best price: 6588.62
+Iterations: 5146
+
+Elapsed time:  0 days 00:00:00
+Solutions found: 28
+Best price: 6495.88
+Iterations: 5445
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 29
+Best price: 6432.89
+Iterations: 8210
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 30
+Best price: 6369.90
+Iterations: 8755
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 31
+Best price: 6333.31
+Iterations: 10828
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 32
+Best price: 6289.81
+Iterations: 12670
+
+Elapsed time:  0 days 00:00:01
+Solutions found: 33
+Best price: 6226.81
+Iterations: 13018
+
+Elapsed time:  0 days 00:00:03
+Solutions found: 34
+Best price: 6190.22
+Iterations: 20217
+
+Elapsed time:  0 days 00:00:03
+Solutions found: 35
+Best price: 6153.63
+Iterations: 21961
+
+Elapsed time:  0 days 00:00:10
+Solutions found: 36
+Best price: 6140.50
+Iterations: 52528
+
+Elapsed time:  0 days 00:00:10
+Solutions found: 37
+Best price: 6103.91
+Iterations: 53986
+
+Elapsed time:  0 days 00:00:23
+iteration: 100000; iterations/min: 258641.3
+curr best price: 6103.9136
+Current state price: 2521.01601
+Number of samples:5
+Depth:10
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNNN
+Met,CNNNC
+Tyr,CNXCN
+Asp,CCNNN
+Ser,CXXNN
+Codes calculated:1512718
+
+
+Elapsed time:  0 days 00:00:54
+iteration: 200000; iterations/min: 218835.9
+curr best price: 6103.9136
+Current state price: 2873.55579
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNNN
+Met,CCNNX
+Tyr,NNCCN
+Asp,NCXCX
+Ser,CNNCX
+Gln,NXNNX
+Codes calculated:3919299
+
+
+Elapsed time:  0 days 00:01:20
+Solutions found: 38
+Best price: 6079.02
+Iterations: 299604
+
+Elapsed time:  0 days 00:01:20
+iteration: 300000; iterations/min: 224083.2
+curr best price: 6079.016909999999
+Current state price: 3114.4039399999997
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNNN
+Met,CCNCN
+Tyr,XNCCN
+Asp,CNNNC
+Ser,CNNXX
+Gln,NXXNX
+Thr,XNNXX
+Codes calculated:5667551
+
+
+Elapsed time:  0 days 00:01:46
+iteration: 400000; iterations/min: 224742.9
+curr best price: 6079.016909999999
+Current state price: 3174.96541
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNNN
+Met,CCXNN
+Tyr,CNNCN
+Asp,CXNNC
+Ser,CNNXX
+Gln,XNNNX
+Thr,XXXNN
+Codes calculated:7517948
+
+
+Elapsed time:  0 days 00:02:14
+iteration: 500000; iterations/min: 223829.8
+curr best price: 6079.016909999999
+Current state price: 2847.1542799999997
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNNN
+Met,XCNCN
+Tyr,NNCCN
+Asp,CNCNX
+Ser,XXNCC
+Gln,NNNXX
+Codes calculated:9550710
+
+
+Elapsed time:  0 days 00:02:20
+Solutions found: 39
+Best price: 6070.30
+Iterations: 527332
+
+Elapsed time:  0 days 00:02:20
+Solutions found: 40
+Best price: 6033.71
+Iterations: 528738
+
+Elapsed time:  0 days 00:02:48
+iteration: 600000; iterations/min: 213060.1
+curr best price: 6033.70813
+Current state price: 3122.72835
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNCN
+Met,CCNNX
+Tyr,CNXNN
+Asp,XCNCN
+Ser,CNNXX
+Gln,XNNNX
+Thr,XXNNX
+Codes calculated:12334753
+
+
+Elapsed time:  0 days 00:03:24
+iteration: 700000; iterations/min: 205511.8
+curr best price: 6033.70813
+Current state price: 3325.57811
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNCN
+Met,CCXNN
+Tyr,CXNXN
+Asp,NCNCN
+Ser,CXNNX
+Gln,XNNNX
+Thr,NXXNN
+Codes calculated:15126894
+
+
+Elapsed time:  0 days 00:03:37
+Solutions found: 41
+Best price: 6018.06
+Iterations: 740373
+
+Elapsed time:  0 days 00:03:54
+iteration: 800000; iterations/min: 204306.8
+curr best price: 6018.06124
+Current state price: 2511.80357
+Number of samples:5
+Depth:10
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNXN
+Met,CNNNC
+Tyr,CNXCN
+Asp,NCNCX
+Ser,XXNCC
+Codes calculated:17393038
+
+
+Elapsed time:  0 days 00:04:27
+iteration: 900000; iterations/min: 201660.5
+curr best price: 6018.06124
+Current state price: 2615.47311
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNXN
+Met,CCNNX
+Tyr,CNCXN
+Asp,NCNCX
+Ser,CNNXX
+Gln,XNNNX
+Codes calculated:19843921
+
+
+Elapsed time:  0 days 00:04:45
+Solutions found: 42
+Best price: 6001.72
+Iterations: 969755
+
+Elapsed time:  0 days 00:04:53
+iteration: 1000000; iterations/min: 204169.1
+curr best price: 6001.724999999999
+Current state price: 3320.0837199999996
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNXN
+Met,CCNXN
+Tyr,CNXCN
+Asp,CNXXC
+Ser,CXNNX
+Gln,XNNNN
+Thr,NNXXN
+Codes calculated:21553649
+
+
+Elapsed time:  0 days 00:05:20
+iteration: 1100000; iterations/min: 206157.3
+curr best price: 6001.724999999999
+Current state price: 2839.2850599999997
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCCNN
+Ile,CNNXN
+Met,CCXNN
+Tyr,XNCCN
+Asp,XCXCN
+Ser,XNNCC
+Gln,NNNNX
+Codes calculated:23314533
+
+
+Elapsed time:  0 days 00:05:38
+Solutions found: 43
+Best price: 5993.01
+Iterations: 1164225
+
+Elapsed time:  0 days 00:05:38
+Solutions found: 44
+Best price: 5956.42
+Iterations: 1165553
+
+Elapsed time:  0 days 00:05:50
+iteration: 1200000; iterations/min: 205248.8
+curr best price: 5956.416219999999
+Current state price: 2596.3246400000003
+Number of samples:5
+Depth:10
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCXNN
+Ile,CNNNN
+Met,CCNCN
+Tyr,CNNCN
+Asp,CNNNC
+Ser,CNCXX
+Codes calculated:25670426
+
+
+Elapsed time:  0 days 00:06:32
+iteration: 1300000; iterations/min: 198820.4
+curr best price: 5956.416219999999
+Current state price: 2957.1797699999997
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,NCXNN
+Ile,CNNXN
+Met,CCNNX
+Tyr,XNCCN
+Asp,CNXXC
+Ser,CXNXN
+Gln,NNXNX
+Thr,XXNXN
+Codes calculated:29328382
+
+
+Elapsed time:  0 days 00:07:06
+iteration: 1400000; iterations/min: 197048.8
+curr best price: 5956.416219999999
+Current state price: 2627.40195
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ala,NNNCN
+Val,NNCNN
+Gly,NCNNN
+Phe,CCNNN
+Ile,CNNXN
+Met,CXCNN
+Tyr,XNCCN
+Asp,NCNCX
+Ser,XXNCC
+Gln,NNXXX
+Codes calculated:31926180
+
+
+Elapsed time:  0 days 00:07:42
+Solutions found: 45
+Best price: 5956.24
+Iterations: 1488657
+
+Elapsed time:  0 days 00:07:46
+iteration: 1500000; iterations/min: 192961.6
+curr best price: 5956.23733
+Current state price: 2735.03539
+Number of samples:5
+Depth:10
+Leu,NNNCC
+Ala,NNCNN
+Val,NNNNC
+Gly,NCNNN
+Phe,NCNNC
+Ile,CNNNN
+Met,CCNNN
+Tyr,CNCXN
+Asp,NCCNN
+Ser,CNCNN
+Codes calculated:35582037
+
+
+Elapsed time:  0 days 00:08:26
+iteration: 1600000; iterations/min: 189386.7
+curr best price: 5956.23733
+Current state price: 2759.65976
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ala,NNCNN
+Val,NNNNC
+Gly,NCNNN
+Phe,NCNCN
+Ile,CNXNN
+Met,CCNNX
+Tyr,CNCNX
+Asp,XCCNX
+Ser,CXCXN
+Gln,NNNXN
+Codes calculated:39465123
+
+
+Elapsed time:  0 days 00:08:32
+Solutions found: 46
+Best price: 5939.78
+Iterations: 1619119
+
+Elapsed time:  0 days 00:08:52
+Solutions found: 47
+Best price: 5932.70
+Iterations: 1671422
+
+Elapsed time:  0 days 00:09:01
+iteration: 1700000; iterations/min: 188271.6
+curr best price: 5932.6961599999995
+Current state price: 2613.9045199999996
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ala,NNCNN
+Val,NNNNC
+Gly,NCNNN
+Phe,NCNXN
+Ile,CNXNN
+Met,CCNNC
+Tyr,CNCNX
+Asp,NCCNC
+Ser,CXXXN
+Gln,NXXXN
+Codes calculated:42645334
+
+
+Elapsed time:  0 days 00:09:21
+Solutions found: 48
+Best price: 5928.23
+Iterations: 1754238
+
+Elapsed time:  0 days 00:09:36
+Solutions found: 49
+Best price: 5902.94
+Iterations: 1797506
+
+Elapsed time:  0 days 00:09:37
+iteration: 1800000; iterations/min: 186883.6
+curr best price: 5902.93998
+Current state price: 2799.1596099999997
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ala,NNCNN
+Val,NCNNN
+Gly,CNNNN
+Phe,NCNNC
+Ile,XNNCN
+Met,CNCCN
+Tyr,XCCNN
+Asp,CCCXN
+Ser,XNCCX
+Gln,XNNXX
+Codes calculated:46134281
+
+
+Elapsed time:  0 days 00:10:22
+iteration: 1900000; iterations/min: 183058.1
+curr best price: 5902.93998
+Current state price: 2819.2138999999997
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ala,NNCNN
+Val,NCNNN
+Gly,CNNNN
+Phe,CCNNN
+Ile,NNNNC
+Met,CNCNX
+Tyr,NCCNX
+Asp,CCXCN
+Ser,NNXXC
+Gln,NNNXX
+Codes calculated:50731738
+
+
+Elapsed time:  0 days 00:10:37
+Solutions found: 50
+Best price: 5898.88
+Iterations: 1944667
+
+Elapsed time:  0 days 00:10:38
+Solutions found: 51
+Best price: 5862.29
+Iterations: 1946173
+
+Elapsed time:  0 days 00:10:38
+Solutions found: 52
+Best price: 5849.16
+Iterations: 1946904
+
+Elapsed time:  0 days 00:10:38
+Solutions found: 53
+Best price: 5812.57
+Iterations: 1948410
+
+Elapsed time:  0 days 00:11:02
+iteration: 2000000; iterations/min: 181173.2
+curr best price: 5812.57057
+Current state price: 3139.1260899999997
+Number of samples:5
+Depth:12
+Leu,NNNCC
+Ala,NNCNN
+Val,NCNNN
+Gly,CNNNN
+Phe,CXNNN
+Ile,NNXNC
+Met,CNCNC
+Tyr,NCCXN
+Asp,CCNCN
+Ser,XNXXC
+Gln,NXNXN
+Thr,NXXXN
+Codes calculated:54611884
+
+
+Elapsed time:  0 days 00:11:08
+Solutions found: 54
+Best price: 5807.19
+Iterations: 2012525
+
+Elapsed time:  0 days 00:11:08
+Solutions found: 55
+Best price: 5770.60
+Iterations: 2012810
+
+Elapsed time:  0 days 00:11:09
+Solutions found: 56
+Best price: 5766.49
+Iterations: 2014110
+
+Elapsed time:  0 days 00:11:09
+Solutions found: 57
+Best price: 5729.90
+Iterations: 2014362
+
+Elapsed time:  0 days 00:11:09
+Solutions found: 58
+Best price: 5693.31
+Iterations: 2014647
+
+Evaluation Finished!
+Final clock time:                22-12-2017 10:11:46
+
+Final evaluation time DDHHMMSS:    0 days 00:11:12
+Final evaluation time (seconds): 672.9259150028229
+Final number of samples:         5
+Final number of iterations:      2017858
+Final number of codes evaluated: 55810574

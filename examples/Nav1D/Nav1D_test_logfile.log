@@ -1,0 +1,28 @@
+
+Search for Nav1D_test solution started
+Host name is                      zion.localdomain
+Start clock time:                 06-03-2018 13:47:48
+
+Search in 1 samples
+
+Max depth reached: 0
+Search in 2 samples
+
+Max depth reached: 0
+Search in 3 samples
+
+Max depth reached: 0
+Search in 4 samples
+
+Max depth reached: 2
+Search in 5 samples
+
+
+Evaluation Finished!
+Final clock time:                06-03-2018 13:47:50
+
+Final evaluation time DDHHMMSS:    0 days 00:00:01
+Final evaluation time (seconds): 1.8821711540222168
+Final number of samples:         0
+Final number of iterations:      2369
+Final number of codes evaluated: 350034

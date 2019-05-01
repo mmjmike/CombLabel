@@ -1,0 +1,2948 @@
+
+Search for Nav1D_NCD4 solution started
+Host name is                      zion.localdomain
+Start clock time:                 08-12-2017 11:59:03
+
+Search in 1 samples
+
+Max depth reached: 0
+Search in 2 samples
+
+Max depth reached: 0
+Search in 3 samples
+
+Max depth reached: 2
+Search in 4 samples
+
+Max depth reached: 6
+Search in 5 samples
+
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 1
+Best price: 10565.92
+Iterations: 27512
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 2
+Best price: 10473.18
+Iterations: 27513
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 3
+Best price: 10380.44
+Iterations: 27516
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 4
+Best price: 10287.70
+Iterations: 27525
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 5
+Best price: 10194.96
+Iterations: 27570
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 6
+Best price: 10166.99
+Iterations: 27685
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 7
+Best price: 10074.25
+Iterations: 27688
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 8
+Best price: 9981.51
+Iterations: 27697
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 9
+Best price: 9888.76
+Iterations: 27742
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 10
+Best price: 9860.80
+Iterations: 28201
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 11
+Best price: 9768.05
+Iterations: 28204
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 12
+Best price: 9675.31
+Iterations: 28213
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 13
+Best price: 9582.57
+Iterations: 28258
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 14
+Best price: 9554.60
+Iterations: 29062
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 15
+Best price: 9461.86
+Iterations: 29065
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 16
+Best price: 9369.12
+Iterations: 29074
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 17
+Best price: 9276.38
+Iterations: 29119
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 18
+Best price: 9203.74
+Iterations: 29839
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 19
+Best price: 9131.09
+Iterations: 31991
+
+Elapsed time:  0 days 00:00:13
+Solutions found: 20
+Best price: 9084.88
+Iterations: 35706
+
+Elapsed time:  0 days 00:00:14
+Solutions found: 21
+Best price: 9012.24
+Iterations: 37858
+
+Elapsed time:  0 days 00:00:14
+Solutions found: 22
+Best price: 8988.60
+Iterations: 41591
+
+Elapsed time:  0 days 00:00:14
+Solutions found: 23
+Best price: 8942.40
+Iterations: 45306
+
+Elapsed time:  0 days 00:00:14
+Solutions found: 24
+Best price: 8869.75
+Iterations: 47458
+
+Elapsed time:  0 days 00:00:14
+Solutions found: 25
+Best price: 8865.72
+Iterations: 54289
+
+Elapsed time:  0 days 00:00:15
+Solutions found: 26
+Best price: 8819.51
+Iterations: 57984
+
+Elapsed time:  0 days 00:00:15
+Solutions found: 27
+Best price: 8746.87
+Iterations: 60124
+
+Elapsed time:  0 days 00:00:15
+Solutions found: 28
+Best price: 8723.23
+Iterations: 63837
+
+Elapsed time:  0 days 00:00:15
+Solutions found: 29
+Best price: 8677.02
+Iterations: 67532
+
+Elapsed time:  0 days 00:00:15
+Solutions found: 30
+Best price: 8604.38
+Iterations: 69672
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 31
+Best price: 8597.10
+Iterations: 76385
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 32
+Best price: 8504.36
+Iterations: 76394
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 33
+Best price: 8411.62
+Iterations: 76439
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 34
+Best price: 8338.98
+Iterations: 76804
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 35
+Best price: 8266.33
+Iterations: 79319
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 36
+Best price: 8220.13
+Iterations: 80797
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 37
+Best price: 8147.48
+Iterations: 83312
+
+Elapsed time:  0 days 00:00:16
+Solutions found: 38
+Best price: 8097.76
+Iterations: 86360
+
+Elapsed time:  0 days 00:00:17
+Solutions found: 39
+Best price: 8073.60
+Iterations: 97898
+
+Elapsed time:  0 days 00:00:17
+iteration: 100000; iterations/min: 344744.5
+curr best price: 8073.60435
+Current state price: 8537.07296
+Number of samples:5
+Depth:17
+Leu,NNNNC
+Ser,NNNCN
+Ile,NNNDD
+Phe,NNCNN
+Val,CCNNN
+Gly,NCCNN
+Met,NCNNC
+Ala,CNNNN
+Asp,CNCNN
+Thr,NNNNN
+Glu,NCNCN
+Trp,CNXCN
+Tyr,NNCCN
+Asn,NNNXX
+Lys,XXXNX
+Pro,CXXXC
+Gln,NNDDD
+Arg,XXXXX
+His,XXXXX
+Codes calculated:2702391
+
+
+Elapsed time:  0 days 00:00:17
+Solutions found: 40
+Best price: 8000.96
+Iterations: 100050
+
+Elapsed time:  0 days 00:00:17
+Solutions found: 41
+Best price: 7954.75
+Iterations: 101524
+
+Elapsed time:  0 days 00:00:17
+Solutions found: 42
+Best price: 7882.11
+Iterations: 103676
+
+Elapsed time:  0 days 00:00:17
+Solutions found: 43
+Best price: 7832.39
+Iterations: 106716
+
+Elapsed time:  0 days 00:00:18
+Solutions found: 44
+Best price: 7808.23
+Iterations: 126790
+
+Elapsed time:  0 days 00:00:19
+Solutions found: 45
+Best price: 7735.59
+Iterations: 129284
+
+Elapsed time:  0 days 00:00:19
+Solutions found: 46
+Best price: 7689.38
+Iterations: 130042
+
+Elapsed time:  0 days 00:00:19
+Solutions found: 47
+Best price: 7616.73
+Iterations: 132536
+
+Elapsed time:  0 days 00:00:19
+Solutions found: 48
+Best price: 7567.01
+Iterations: 134144
+
+Elapsed time:  0 days 00:00:19
+Solutions found: 49
+Best price: 7550.84
+Iterations: 140180
+
+Elapsed time:  0 days 00:00:20
+Solutions found: 50
+Best price: 7517.29
+Iterations: 144927
+
+Elapsed time:  0 days 00:00:20
+Solutions found: 51
+Best price: 7501.12
+Iterations: 147169
+
+Elapsed time:  0 days 00:00:20
+Solutions found: 52
+Best price: 7473.07
+Iterations: 148686
+
+Elapsed time:  0 days 00:00:20
+Solutions found: 53
+Best price: 7400.43
+Iterations: 150482
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 54
+Best price: 7396.40
+Iterations: 156708
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 55
+Best price: 7350.19
+Iterations: 157855
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 56
+Best price: 7277.55
+Iterations: 160349
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 57
+Best price: 7253.91
+Iterations: 163104
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 58
+Best price: 7207.70
+Iterations: 164247
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 59
+Best price: 7135.06
+Iterations: 166387
+
+Elapsed time:  0 days 00:00:21
+Solutions found: 60
+Best price: 7118.88
+Iterations: 168071
+
+Elapsed time:  0 days 00:00:22
+Solutions found: 61
+Best price: 7081.81
+Iterations: 171889
+
+Elapsed time:  0 days 00:00:22
+Solutions found: 62
+Best price: 7009.17
+Iterations: 174029
+
+Elapsed time:  0 days 00:00:22
+Solutions found: 63
+Best price: 6992.99
+Iterations: 177284
+
+Elapsed time:  0 days 00:00:24
+Solutions found: 64
+Best price: 6938.96
+Iterations: 185157
+
+Elapsed time:  0 days 00:00:24
+Solutions found: 65
+Best price: 6922.79
+Iterations: 187642
+
+Elapsed time:  0 days 00:00:27
+Solutions found: 66
+Best price: 6911.74
+Iterations: 199546
+
+Elapsed time:  0 days 00:00:27
+iteration: 200000; iterations/min: 436362.7
+curr best price: 6911.74163
+Current state price: 7004.48243
+Number of samples:5
+Depth:17
+Leu,NNNNC
+Ser,NNNCN
+Ile,NNNDD
+Phe,NNCCN
+Val,CCNNN
+Gly,NCCNN
+Met,NCNNC
+Ala,NNCNN
+Asp,CNCNN
+Thr,NNNNN
+Glu,CNNNC
+Trp,CNXXX
+Tyr,NCNCN
+Asn,NXNXX
+Lys,XXXNX
+Pro,CCXXC
+Gln,DXXNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:3392268
+
+
+Elapsed time:  0 days 00:00:27
+Solutions found: 67
+Best price: 6862.02
+Iterations: 200372
+
+Elapsed time:  0 days 00:00:27
+Solutions found: 68
+Best price: 6812.30
+Iterations: 203316
+
+Elapsed time:  0 days 00:00:27
+Solutions found: 69
+Best price: 6796.13
+Iterations: 204798
+
+Elapsed time:  0 days 00:00:28
+Solutions found: 70
+Best price: 6768.41
+Iterations: 208245
+
+Elapsed time:  0 days 00:00:28
+Solutions found: 71
+Best price: 6695.76
+Iterations: 209486
+
+Elapsed time:  0 days 00:00:28
+Solutions found: 72
+Best price: 6646.04
+Iterations: 210312
+
+Elapsed time:  0 days 00:00:28
+Solutions found: 73
+Best price: 6596.32
+Iterations: 213222
+
+Elapsed time:  0 days 00:00:29
+Solutions found: 74
+Best price: 6580.15
+Iterations: 214655
+
+Elapsed time:  0 days 00:00:29
+Solutions found: 75
+Best price: 6552.43
+Iterations: 217738
+
+Elapsed time:  0 days 00:00:29
+Solutions found: 76
+Best price: 6479.78
+Iterations: 218979
+
+Elapsed time:  0 days 00:00:29
+Solutions found: 77
+Best price: 6430.06
+Iterations: 219773
+
+Elapsed time:  0 days 00:00:29
+Solutions found: 78
+Best price: 6380.34
+Iterations: 221882
+
+Elapsed time:  0 days 00:00:29
+Solutions found: 79
+Best price: 6364.17
+Iterations: 222658
+
+Elapsed time:  0 days 00:00:30
+Solutions found: 80
+Best price: 6359.86
+Iterations: 226143
+
+Elapsed time:  0 days 00:00:30
+Solutions found: 81
+Best price: 6310.14
+Iterations: 227073
+
+Elapsed time:  0 days 00:00:30
+Solutions found: 82
+Best price: 6293.96
+Iterations: 227643
+
+Elapsed time:  0 days 00:00:32
+Solutions found: 83
+Best price: 6285.08
+Iterations: 232025
+
+Elapsed time:  0 days 00:00:32
+Solutions found: 84
+Best price: 6257.36
+Iterations: 234615
+
+Elapsed time:  0 days 00:00:32
+Solutions found: 85
+Best price: 6184.72
+Iterations: 235681
+
+Elapsed time:  0 days 00:00:32
+Solutions found: 86
+Best price: 6135.00
+Iterations: 236475
+
+Elapsed time:  0 days 00:00:32
+Solutions found: 87
+Best price: 6085.28
+Iterations: 238584
+
+Elapsed time:  0 days 00:00:32
+Solutions found: 88
+Best price: 6069.10
+Iterations: 239216
+
+Elapsed time:  0 days 00:00:56
+iteration: 300000; iterations/min: 319421.8
+curr best price: 6069.104189999998
+Current state price: 1768.05422
+Number of samples:5
+Depth:8
+Leu,NNNNC
+Ser,NNNCN
+Ile,NNDCD
+Phe,NNCXN
+Val,NCNNN
+Gly,CNCNN
+Met,CCNNX
+Ala,CNNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:7030279
+
+
+Elapsed time:  0 days 00:01:33
+iteration: 400000; iterations/min: 257245.7
+curr best price: 6069.104189999998
+Current state price: 1394.3808499999998
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,NNNCN
+Ile,NCDNN
+Phe,CCNCN
+Val,XXCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:12086819
+
+
+Elapsed time:  0 days 00:02:14
+iteration: 500000; iterations/min: 222749.4
+curr best price: 6069.104189999998
+Current state price: 1628.57113
+Number of samples:5
+Depth:7
+Leu,NNNNC
+Ser,NNNCN
+Ile,NDDCN
+Phe,NNCXN
+Val,CCNNN
+Gly,NCXNN
+Met,CNNXX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:17843110
+
+
+Elapsed time:  0 days 00:02:52
+iteration: 600000; iterations/min: 209008.0
+curr best price: 6069.104189999998
+Current state price: 5751.5664
+Number of samples:5
+Depth:12
+Leu,NNNNC
+Ser,NNNCN
+Ile,NDDDD
+Phe,NNCCN
+Val,CCNNC
+Gly,CNCNN
+Met,NCNNC
+Ala,NNCNN
+Asp,NCCNN
+Thr,XNNXN
+Glu,CNXNC
+Trp,CXXCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:22975426
+
+
+Elapsed time:  0 days 00:03:40
+iteration: 700000; iterations/min: 190087.5
+curr best price: 6069.104189999998
+Current state price: 1342.8406899999998
+Number of samples:5
+Depth:6
+Leu,NNNNC
+Ser,NNNCN
+Ile,XNDDD
+Phe,CXNCN
+Val,NNCNC
+Gly,NCCXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:30066571
+
+
+Elapsed time:  0 days 00:04:24
+iteration: 800000; iterations/min: 181330.2
+curr best price: 6069.104189999998
+Current state price: 1811.41284
+Number of samples:5
+Depth:8
+Leu,NNNNC
+Ser,NNNCN
+Ile,DDDDD
+Phe,NNCNN
+Val,CCNNX
+Gly,NCCNN
+Met,CXNNN
+Ala,NCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:36268681
+
+
+Elapsed time:  0 days 00:04:56
+Solutions found: 89
+Best price: 6057.63
+Iterations: 883054
+
+Elapsed time:  0 days 00:04:57
+Solutions found: 90
+Best price: 6053.49
+Iterations: 885546
+
+Elapsed time:  0 days 00:05:05
+iteration: 900000; iterations/min: 176602.7
+curr best price: 6053.49352
+Current state price: 1578.3422
+Number of samples:5
+Depth:6
+Leu,NNNNC
+Ser,NNCCN
+Ile,NCNCD
+Phe,CXNXN
+Val,NNCNC
+Gly,NCCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:41989456
+
+
+Elapsed time:  0 days 00:05:48
+iteration: 1000000; iterations/min: 172269.2
+curr best price: 6053.49352
+Current state price: 3343.1889300000003
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDNND
+Phe,NCNNN
+Val,CNNCX
+Gly,CCNNN
+Met,CNCNC
+Ala,NXNCN
+Asp,NXCNN
+Thr,XNNXN
+Glu,CNCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:47887032
+
+
+Elapsed time:  0 days 00:05:51
+Solutions found: 91
+Best price: 6029.39
+Iterations: 1009506
+
+Elapsed time:  0 days 00:06:31
+iteration: 1100000; iterations/min: 168712.0
+curr best price: 6029.3908599999995
+Current state price: 3209.4951499999997
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDNDN
+Phe,NCNNN
+Val,NNNCC
+Gly,CCNNN
+Met,CNCNC
+Ala,NCNCN
+Asp,XNCNN
+Thr,XNNXN
+Glu,CNCNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:53843824
+
+
+Elapsed time:  0 days 00:07:06
+iteration: 1200000; iterations/min: 168745.0
+curr best price: 6029.3908599999995
+Current state price: 1452.0003199999999
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDNDN
+Phe,CNCXN
+Val,NCCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:58562935
+
+
+Elapsed time:  0 days 00:07:46
+iteration: 1300000; iterations/min: 167368.1
+curr best price: 6029.3908599999995
+Current state price: 3286.75112
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDNDD
+Phe,CNNNN
+Val,NNCNC
+Gly,CCNNN
+Met,NCCNC
+Ala,CNCNN
+Asp,NNNCN
+Thr,NXNXN
+Glu,NCCXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:63867100
+
+
+Elapsed time:  0 days 00:08:33
+iteration: 1400000; iterations/min: 163715.8
+curr best price: 6029.3908599999995
+Current state price: 2693.32549
+Number of samples:5
+Depth:10
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDXNN
+Phe,NCNNN
+Val,CNNCC
+Gly,CCNNN
+Met,CNNNC
+Ala,NXNCN
+Asp,XNCNN
+Thr,NNXXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:70619063
+
+
+Elapsed time:  0 days 00:08:39
+Solutions found: 92
+Best price: 5984.08
+Iterations: 1420160
+
+Elapsed time:  0 days 00:08:56
+Solutions found: 93
+Best price: 5952.10
+Iterations: 1466938
+
+Elapsed time:  0 days 00:09:14
+iteration: 1500000; iterations/min: 162266.8
+curr best price: 5952.09895
+Current state price: 3313.75861
+Number of samples:5
+Depth:10
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDXDN
+Phe,NCNNN
+Val,CNNCC
+Gly,CCNNN
+Met,CNCNC
+Ala,NCNCN
+Asp,XCCNN
+Thr,NNNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:76368675
+
+
+Elapsed time:  0 days 00:09:57
+iteration: 1600000; iterations/min: 160801.5
+curr best price: 5952.09895
+Current state price: 3231.66711
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDDDN
+Phe,NCNNN
+Val,CNNCC
+Gly,CCNNN
+Met,CNCNC
+Ala,NXCNN
+Asp,NXNCN
+Thr,XNNXN
+Glu,CXNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:82263497
+
+
+Elapsed time:  0 days 00:10:38
+iteration: 1700000; iterations/min: 159831.0
+curr best price: 5952.09895
+Current state price: 3438.21059
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,NDDDD
+Phe,CNNNN
+Val,NCNCX
+Gly,CCNNN
+Met,NCCNC
+Ala,NXNCN
+Asp,XNCNN
+Thr,NNXNN
+Glu,NCCXX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:87978963
+
+
+Elapsed time:  0 days 00:11:46
+iteration: 1800000; iterations/min: 152872.4
+curr best price: 5952.09895
+Current state price: 1362.0481
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,NNCCN
+Ile,XDNNN
+Phe,CCNNN
+Val,NNNCC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:98264209
+
+
+Elapsed time:  0 days 00:12:40
+iteration: 1900000; iterations/min: 149900.3
+curr best price: 5952.09895
+Current state price: 2608.61507
+Number of samples:5
+Depth:10
+Leu,NNNNC
+Ser,NNCCN
+Ile,DDNNN
+Phe,NCXNN
+Val,CNNCC
+Gly,CCNNN
+Met,CNCNC
+Ala,NCNCN
+Asp,NNNCN
+Thr,NXNXX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:106076286
+
+
+Elapsed time:  0 days 00:13:25
+iteration: 2000000; iterations/min: 148933.5
+curr best price: 5952.09895
+Current state price: 3636.07531
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,DDNDN
+Phe,NCNNN
+Val,NNCNC
+Gly,CCNNN
+Met,CNNCC
+Ala,NCCNN
+Asp,XNNCN
+Thr,NNXNN
+Glu,CXCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:112422297
+
+
+Elapsed time:  0 days 00:14:06
+iteration: 2100000; iterations/min: 148923.1
+curr best price: 5952.09895
+Current state price: 3627.09318
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,DDNDD
+Phe,NCNNN
+Val,XNCNC
+Gly,CCNNN
+Met,CNNCC
+Ala,NCCNN
+Asp,XCNCN
+Thr,NNXNN
+Glu,CNXCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:117938061
+
+
+Elapsed time:  0 days 00:14:54
+iteration: 2200000; iterations/min: 147647.2
+curr best price: 5952.09895
+Current state price: 3525.80221
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,DDXNN
+Phe,NCNCN
+Val,CNNCC
+Gly,CCNNN
+Met,CNCNC
+Ala,XNNCN
+Asp,NXCNN
+Thr,XNNNN
+Glu,NCCXC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:124771540
+
+
+Elapsed time:  0 days 00:15:42
+iteration: 2300000; iterations/min: 146460.5
+curr best price: 5952.09895
+Current state price: 3625.3637200000003
+Number of samples:5
+Depth:11
+Leu,NNNNC
+Ser,NNCCN
+Ile,DDXDD
+Phe,NCNNN
+Val,NNNCC
+Gly,CCNNN
+Met,CNCNC
+Ala,CNNCN
+Asp,NCCNN
+Thr,NNNXN
+Glu,CNCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:131598807
+
+
+Elapsed time:  0 days 00:16:32
+iteration: 2400000; iterations/min: 145055.6
+curr best price: 5952.09895
+Current state price: 1312.97589
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,XNNNN
+Ile,NNCDD
+Phe,CCCNN
+Val,NNNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:138981729
+
+
+Elapsed time:  0 days 00:17:24
+iteration: 2500000; iterations/min: 143557.0
+curr best price: 5952.09895
+Current state price: 1211.9537799999998
+Number of samples:5
+Depth:6
+Leu,NNNNC
+Ser,XNNCN
+Ile,NNDXD
+Phe,NNCXN
+Val,CCNNN
+Gly,XCNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:147125751
+
+
+Elapsed time:  0 days 00:18:23
+iteration: 2600000; iterations/min: 141367.1
+curr best price: 5952.09895
+Current state price: 1364.0739
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,XNNCN
+Ile,CNDCN
+Phe,NCNXN
+Val,NNCXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:155794969
+
+
+Elapsed time:  0 days 00:19:25
+iteration: 2700000; iterations/min: 138960.0
+curr best price: 5952.09895
+Current state price: 1276.0310699999998
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,XNNCN
+Ile,DNDND
+Phe,XCNNN
+Val,NCNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:165273751
+
+
+Elapsed time:  0 days 00:20:25
+iteration: 2800000; iterations/min: 137103.8
+curr best price: 5952.09895
+Current state price: 1311.2376699999998
+Number of samples:5
+Depth:6
+Leu,NNNNC
+Ser,XNNCN
+Ile,DDDXN
+Phe,CNCCN
+Val,CCNNX
+Gly,XCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:174057243
+
+
+Elapsed time:  0 days 00:21:41
+iteration: 2900000; iterations/min: 133672.2
+curr best price: 5952.09895
+Current state price: 1146.56404
+Number of samples:5
+Depth:5
+Leu,NNNNC
+Ser,XXNCN
+Ile,XDDXD
+Phe,NCCNN
+Val,NCNCC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:186543102
+
+
+Elapsed time:  0 days 00:22:42
+iteration: 3000000; iterations/min: 132083.1
+curr best price: 5952.09895
+Current state price: 1715.26928
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,NNDNN
+Phe,NNCNC
+Val,NCNNN
+Gly,CNCNN
+Met,CCNNN
+Ala,CNNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:196473771
+
+
+Elapsed time:  0 days 00:23:18
+iteration: 3100000; iterations/min: 133033.1
+curr best price: 5952.09895
+Current state price: 1759.36201
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,NNDND
+Phe,NCCNN
+Val,NNCCN
+Gly,CCNNN
+Met,CNCCN
+Ala,XCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:201551106
+
+
+Elapsed time:  0 days 00:23:57
+iteration: 3200000; iterations/min: 133610.5
+curr best price: 5952.09895
+Current state price: 2277.4355299999997
+Number of samples:5
+Depth:9
+Leu,NNNCC
+Ser,NNNNC
+Ile,NNDCD
+Phe,NCCNN
+Val,NNCCN
+Gly,CCNNN
+Met,CNCCN
+Ala,NCNNN
+Asp,CNNXC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:207089572
+
+
+Elapsed time:  0 days 00:24:30
+iteration: 3300000; iterations/min: 134615.6
+curr best price: 5952.09895
+Current state price: 1618.51597
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,NNDXD
+Phe,NCNCN
+Val,NCCNN
+Gly,CNNNN
+Met,CNCXN
+Ala,XNCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:211980275
+
+
+Elapsed time:  0 days 00:25:08
+iteration: 3400000; iterations/min: 135235.9
+curr best price: 5952.09895
+Current state price: 5330.66216
+Number of samples:5
+Depth:12
+Leu,NNNCC
+Ser,NNNNC
+Ile,NNDDX
+Phe,NNCNC
+Val,NCNCN
+Gly,CNCNN
+Met,CCNCN
+Ala,NCCNN
+Asp,CCCNN
+Thr,NNNXN
+Glu,CNNCC
+Trp,CNXNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:217403513
+
+
+Elapsed time:  0 days 00:25:44
+iteration: 3500000; iterations/min: 135989.9
+curr best price: 5952.09895
+Current state price: 1754.71903
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,NNDDD
+Phe,CCNNN
+Val,NCNCN
+Gly,CNCNN
+Met,NXCCN
+Ala,CXNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:222470694
+
+
+Elapsed time:  0 days 00:26:45
+iteration: 3600000; iterations/min: 134543.1
+curr best price: 5952.09895
+Current state price: 6584.963299999999
+Number of samples:5
+Depth:12
+Leu,NNNCC
+Ser,NNNNC
+Ile,NCDDN
+Phe,NNCNC
+Val,NCNCN
+Gly,NCCNN
+Met,CCNCN
+Ala,CNCNN
+Asp,CCCNN
+Thr,NXNNX
+Glu,CNCCN
+Trp,CNNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:231929921
+
+
+Elapsed time:  0 days 00:27:34
+iteration: 3700000; iterations/min: 134139.0
+curr best price: 5952.09895
+Current state price: 4855.7765
+Number of samples:5
+Depth:12
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDNN
+Phe,NNCNC
+Val,CCNCN
+Gly,NCCNN
+Met,CNNCN
+Ala,CNCNN
+Asp,CCCNN
+Thr,XXNNN
+Glu,CNXXN
+Trp,XCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:239346704
+
+
+Elapsed time:  0 days 00:28:17
+iteration: 3800000; iterations/min: 134315.4
+curr best price: 5952.09895
+Current state price: 1442.6337199999996
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDND
+Phe,NNCCN
+Val,CCCNN
+Gly,XCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:245594938
+
+
+Elapsed time:  0 days 00:28:56
+iteration: 3900000; iterations/min: 134721.7
+curr best price: 5952.09895
+Current state price: 3604.06909
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDCD
+Phe,NNCNC
+Val,CCNCN
+Gly,CNCNN
+Met,CNNCN
+Ala,NCCNN
+Asp,CCCNN
+Thr,XXNNN
+Glu,XCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:251226230
+
+
+Elapsed time:  0 days 00:29:34
+iteration: 4000000; iterations/min: 135253.8
+curr best price: 5952.09895
+Current state price: 2133.4889999999996
+Number of samples:5
+Depth:9
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDXN
+Phe,CNCNN
+Val,CCNCN
+Gly,NCCNN
+Met,NNCCN
+Ala,XCNNN
+Asp,CNXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:256571084
+
+
+Elapsed time:  0 days 00:30:08
+iteration: 4100000; iterations/min: 135997.4
+curr best price: 5952.09895
+Current state price: 3471.4618
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDDN
+Phe,NNCNN
+Val,CCNCN
+Gly,CNCNN
+Met,NCNCN
+Ala,NCCNN
+Asp,CCCNN
+Thr,XXNNN
+Glu,XNCCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:261485184
+
+
+Elapsed time:  0 days 00:30:47
+iteration: 4200000; iterations/min: 136377.3
+curr best price: 5952.09895
+Current state price: 1350.71095
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDDC
+Phe,CXNNX
+Val,XXCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:267006872
+
+
+Elapsed time:  0 days 00:31:23
+iteration: 4300000; iterations/min: 136996.8
+curr best price: 5952.09895
+Current state price: 1463.61845
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNNNC
+Ile,NDDDD
+Phe,NNCCN
+Val,CCNNN
+Gly,CXNNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:272028676
+
+
+Elapsed time:  0 days 00:32:17
+iteration: 4400000; iterations/min: 136275.6
+curr best price: 5952.09895
+Current state price: 1381.7869199999998
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNNNC
+Ile,CDDXD
+Phe,CNCNC
+Val,XCNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:280210790
+
+
+Elapsed time:  0 days 00:33:11
+iteration: 4500000; iterations/min: 135564.6
+curr best price: 5952.09895
+Current state price: 6011.97786
+Number of samples:5
+Depth:12
+Leu,NNNCC
+Ser,NNNNC
+Ile,XNDND
+Phe,CNNNC
+Val,NCNCN
+Gly,CNCNN
+Met,NCCCN
+Ala,CCNNN
+Asp,CCCNN
+Thr,XNNNN
+Glu,NCNNX
+Trp,XNCNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:288561526
+
+
+Elapsed time:  0 days 00:34:04
+iteration: 4600000; iterations/min: 135000.4
+curr best price: 5952.09895
+Current state price: 2192.64864
+Number of samples:5
+Depth:9
+Leu,NNNCC
+Ser,NNNNC
+Ile,XNDDD
+Phe,CNNNC
+Val,NCCNN
+Gly,CNCNN
+Met,NCNCN
+Ala,CCNNN
+Asp,NXCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:296643015
+
+
+Elapsed time:  0 days 00:35:02
+iteration: 4700000; iterations/min: 134121.2
+curr best price: 5952.09895
+Current state price: 1724.8373100000001
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,XDDDN
+Phe,NNCNC
+Val,CCNXN
+Gly,CNCNN
+Met,CNNCN
+Ala,NCXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:305655965
+
+
+Elapsed time:  0 days 00:35:46
+iteration: 4800000; iterations/min: 134155.7
+curr best price: 5952.09895
+Current state price: 3748.40682
+Number of samples:5
+Depth:11
+Leu,NNNCC
+Ser,NNNNC
+Ile,DDDNX
+Phe,NNCNX
+Val,NCNCN
+Gly,NCCNN
+Met,CCNCN
+Ala,CNCNN
+Asp,CCCNN
+Thr,NNNXN
+Glu,CNCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:312162797
+
+
+Elapsed time:  0 days 00:36:24
+iteration: 4900000; iterations/min: 134562.1
+curr best price: 5952.09895
+Current state price: 1813.28162
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,DDDXN
+Phe,NNCCN
+Val,CCNCN
+Gly,NCCNN
+Met,CNNNN
+Ala,CNCNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:317570392
+
+
+Elapsed time:  0 days 00:37:02
+iteration: 5000000; iterations/min: 134977.3
+curr best price: 5952.09895
+Current state price: 1736.9244899999999
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNNNC
+Ile,DDDDX
+Phe,NNCCN
+Val,CCNCN
+Gly,NCCNN
+Met,CXNNN
+Ala,NCNNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:322930385
+
+
+Elapsed time:  0 days 00:37:48
+iteration: 5100000; iterations/min: 134909.6
+curr best price: 5952.09895
+Current state price: 1294.5656900000001
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNNXN
+Ile,CDDCN
+Phe,NXCNN
+Val,CCNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:330137522
+
+
+Elapsed time:  0 days 00:38:52
+iteration: 5200000; iterations/min: 133770.2
+curr best price: 5952.09895
+Current state price: 1190.2436899999998
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCNN
+Ile,NCXXN
+Phe,CNNNC
+Val,CCNNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:340400931
+
+
+Elapsed time:  0 days 00:40:00
+iteration: 5300000; iterations/min: 132464.7
+curr best price: 5952.09895
+Current state price: 1487.8317799999998
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCNN
+Ile,NDCDD
+Phe,NCCNN
+Val,XNNNC
+Gly,CCNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:350955000
+
+
+Elapsed time:  0 days 00:41:08
+iteration: 5400000; iterations/min: 131231.9
+curr best price: 5952.09895
+Current state price: 1417.23887
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCNN
+Ile,NDDDD
+Phe,NCNNC
+Val,CNXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:361486511
+
+
+Elapsed time:  0 days 00:42:20
+iteration: 5500000; iterations/min: 129883.7
+curr best price: 5952.09895
+Current state price: 1140.3329899999999
+Number of samples:5
+Depth:4
+Leu,NNNCC
+Ser,NNCNN
+Ile,XCNND
+Phe,NNNXC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:372669172
+
+
+Elapsed time:  0 days 00:43:30
+iteration: 5600000; iterations/min: 128707.0
+curr best price: 5952.09895
+Current state price: 1810.23389
+Number of samples:5
+Depth:7
+Leu,NNNCC
+Ser,NNCNN
+Ile,DDCNC
+Phe,NCCNN
+Val,CNNCN
+Gly,CCNNN
+Met,NCXCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:383518680
+
+
+Elapsed time:  0 days 00:44:47
+iteration: 5700000; iterations/min: 127261.7
+curr best price: 5952.09895
+Current state price: 1519.6995
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCNC
+Ile,NNDDC
+Phe,NCNNC
+Val,CNNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:395558201
+
+
+Elapsed time:  0 days 00:46:26
+iteration: 5800000; iterations/min: 124882.3
+curr best price: 5952.09895
+Current state price: 1358.3874799999999
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCNC
+Ile,NDNND
+Phe,CNXNX
+Val,CCNNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:411379937
+
+
+Elapsed time:  0 days 00:48:01
+iteration: 5900000; iterations/min: 122850.0
+curr best price: 5952.09895
+Current state price: 1474.8564
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCNC
+Ile,NDCND
+Phe,NCXNN
+Val,XNNXC
+Gly,CCNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:426569298
+
+
+Elapsed time:  0 days 00:49:40
+iteration: 6000000; iterations/min: 120775.0
+curr best price: 5952.09895
+Current state price: 1314.7460399999998
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCNC
+Ile,NDXXD
+Phe,CNNNN
+Val,NCCNN
+Gly,NCNXC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:442488476
+
+
+Elapsed time:  0 days 00:51:13
+iteration: 6100000; iterations/min: 119072.4
+curr best price: 5952.09895
+Current state price: 1545.87795
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCNC
+Ile,NDDCN
+Phe,CNCNC
+Val,NCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:457255157
+
+
+Elapsed time:  0 days 00:52:54
+iteration: 6200000; iterations/min: 117191.4
+curr best price: 5952.09895
+Current state price: 1652.9252999999999
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCNC
+Ile,CDNNC
+Phe,CNCNN
+Val,NCCCN
+Gly,NCNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:473250165
+
+
+Elapsed time:  0 days 00:54:36
+iteration: 6300000; iterations/min: 115371.1
+curr best price: 5952.09895
+Current state price: 1532.3598099999997
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCNC
+Ile,CDDDN
+Phe,CXCNN
+Val,NNNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:489368230
+
+
+Elapsed time:  0 days 00:56:08
+iteration: 6400000; iterations/min: 113992.3
+curr best price: 5952.09895
+Current state price: 1797.78245
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNCNC
+Ile,XDNDD
+Phe,NCCNN
+Val,CNNNC
+Gly,NCNCN
+Met,CNCCN
+Ala,NNXCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:503929664
+
+
+Elapsed time:  0 days 00:57:40
+iteration: 6500000; iterations/min: 112689.0
+curr best price: 5952.09895
+Current state price: 1475.0036599999999
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCNC
+Ile,DDNNN
+Phe,CCXNN
+Val,NCNNC
+Gly,CNNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:518499967
+
+
+Elapsed time:  0 days 00:59:27
+iteration: 6600000; iterations/min: 111013.5
+curr best price: 5952.09895
+Current state price: 1617.0505499999997
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCNC
+Ile,DDCDN
+Phe,NCCXN
+Val,CNCCN
+Gly,CNNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:535460243
+
+
+Elapsed time:  0 days 01:01:10
+iteration: 6700000; iterations/min: 109530.2
+curr best price: 5952.09895
+Current state price: 1928.1688799999997
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NNCNC
+Ile,DDDND
+Phe,NCNCN
+Val,CCNNN
+Gly,NCCNN
+Met,CCCNN
+Ala,XNNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:551821687
+
+
+Elapsed time:  0 days 01:02:41
+iteration: 6800000; iterations/min: 108456.1
+curr best price: 5952.09895
+Current state price: 1420.6762599999997
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCXN
+Ile,NCDND
+Phe,NCNNC
+Val,CCNCN
+Gly,CXXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:566294150
+
+
+Elapsed time:  0 days 01:03:47
+iteration: 6900000; iterations/min: 108153.4
+curr best price: 5952.09895
+Current state price: 1155.70534
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCXN
+Ile,NDXNN
+Phe,NCNXN
+Val,CNNNC
+Gly,CCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:576458569
+
+
+Elapsed time:  0 days 01:04:54
+iteration: 7000000; iterations/min: 107850.9
+curr best price: 5952.09895
+Current state price: 1417.73041
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCXN
+Ile,NDDDD
+Phe,CNCNN
+Val,NCNNC
+Gly,NCCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:586680490
+
+
+Elapsed time:  0 days 01:06:04
+iteration: 7100000; iterations/min: 107464.3
+curr best price: 5952.09895
+Current state price: 1213.24738
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NNCXN
+Ile,XDNND
+Phe,NCNNN
+Val,NNNCN
+Gly,CNXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:597415606
+
+
+Elapsed time:  0 days 01:07:12
+iteration: 7200000; iterations/min: 107135.0
+curr best price: 5952.09895
+Current state price: 1326.5413199999998
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NNCXN
+Ile,DDCXD
+Phe,NCNCN
+Val,CNXCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:607901035
+
+
+Elapsed time:  0 days 01:08:28
+iteration: 7300000; iterations/min: 106600.1
+curr best price: 5952.09895
+Current state price: 1764.65943
+Number of samples:5
+Depth:7
+Leu,NNNCC
+Ser,NCCNN
+Ile,NNDND
+Phe,NNNCN
+Val,CCNNC
+Gly,NCNNC
+Met,CNNCC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:619730719
+
+
+Elapsed time:  0 days 01:09:31
+iteration: 7400000; iterations/min: 106429.3
+curr best price: 5952.09895
+Current state price: 1508.1686199999997
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NCCNN
+Ile,NNDDD
+Phe,CCXNN
+Val,CNNNC
+Gly,NCNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:628944677
+
+
+Elapsed time:  0 days 01:10:46
+iteration: 7500000; iterations/min: 105965.2
+curr best price: 5952.09895
+Current state price: 1808.9116999999999
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NCCNN
+Ile,NXDDD
+Phe,NCNNC
+Val,CNCCN
+Gly,NNCCN
+Met,CCNCN
+Ala,CNXXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:640318082
+
+
+Elapsed time:  0 days 01:11:57
+iteration: 7600000; iterations/min: 105626.4
+curr best price: 5952.09895
+Current state price: 1890.73587
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NCCNN
+Ile,CNDND
+Phe,NNCNC
+Val,XCNNN
+Gly,CNNNC
+Met,CCNCN
+Ala,NNXCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:650830748
+
+
+Elapsed time:  0 days 01:13:19
+iteration: 7700000; iterations/min: 105018.5
+curr best price: 5952.09895
+Current state price: 1335.2795099999998
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NCCNN
+Ile,XNDND
+Phe,CCXNN
+Val,CNNXC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:663362634
+
+
+Elapsed time:  0 days 01:14:33
+iteration: 7800000; iterations/min: 104605.4
+curr best price: 5952.09895
+Current state price: 1811.6364299999998
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NCCNN
+Ile,DNNXD
+Phe,NNCNC
+Val,NCNCN
+Gly,CNNCN
+Met,CNCNN
+Ala,CCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:674779832
+
+
+Elapsed time:  0 days 01:15:48
+iteration: 7900000; iterations/min: 104217.6
+curr best price: 5952.09895
+Current state price: 1570.46571
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NCCNN
+Ile,DNDNC
+Phe,NNCCN
+Val,XCNNC
+Gly,CNNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:686025666
+
+
+Elapsed time:  0 days 01:16:57
+iteration: 8000000; iterations/min: 103959.2
+curr best price: 5952.09895
+Current state price: 1700.6061699999998
+Number of samples:5
+Depth:7
+Leu,NNNCC
+Ser,NCCNN
+Ile,DNDXD
+Phe,NNCCN
+Val,NCNNX
+Gly,CNNXN
+Met,CCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:696358398
+
+
+Elapsed time:  0 days 01:18:13
+iteration: 8100000; iterations/min: 103544.8
+curr best price: 5952.09895
+Current state price: 1433.2774299999999
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,NCCNN
+Ile,DCDXN
+Phe,CXNNN
+Val,CCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:707967239
+
+
+Elapsed time:  0 days 01:19:35
+iteration: 8200000; iterations/min: 103028.8
+curr best price: 5952.09895
+Current state price: 1295.29237
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NCCNN
+Ile,DXXND
+Phe,NXNNC
+Val,CCNNN
+Gly,CNNCC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:720539230
+
+
+Elapsed time:  0 days 01:20:50
+iteration: 8300000; iterations/min: 102676.2
+curr best price: 5952.09895
+Current state price: 1987.8331899999998
+Number of samples:5
+Depth:8
+Leu,NNNCC
+Ser,NCCNN
+Ile,DDDNC
+Phe,NNCCN
+Val,CNCNC
+Gly,CNNNN
+Met,CCNNC
+Ala,XCNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:731861874
+
+
+Elapsed time:  0 days 01:22:10
+iteration: 8400000; iterations/min: 102213.7
+curr best price: 5952.09895
+Current state price: 1611.06196
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,NCCNC
+Ile,DNNND
+Phe,CNCCN
+Val,NCNXC
+Gly,CCNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:744175225
+
+
+Elapsed time:  0 days 01:24:23
+iteration: 8500000; iterations/min: 100724.9
+curr best price: 5952.09895
+Current state price: 1690.42979
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,CCCNN
+Ile,NCDND
+Phe,CNNCN
+Val,CCNNN
+Gly,XCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:766049289
+
+
+Elapsed time:  0 days 01:25:25
+iteration: 8600000; iterations/min: 100667.5
+curr best price: 5952.09895
+Current state price: 1106.61555
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNNN
+Ile,XNCND
+Phe,CNNNC
+Val,XCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:776137797
+
+
+Elapsed time:  0 days 01:26:18
+iteration: 8700000; iterations/min: 100801.6
+curr best price: 5952.09895
+Current state price: 1343.5085
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XNNNC
+Ile,NNDNC
+Phe,NNCCN
+Val,CNNXN
+Gly,NCXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:784572384
+
+
+Elapsed time:  0 days 01:27:21
+iteration: 8800000; iterations/min: 100740.7
+curr best price: 5952.09895
+Current state price: 1324.0326899999998
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNNC
+Ile,NNDDC
+Phe,XNCCN
+Val,NCNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:794372599
+
+
+Elapsed time:  0 days 01:28:34
+iteration: 8900000; iterations/min: 100487.7
+curr best price: 5952.09895
+Current state price: 1204.9229599999999
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XNNNC
+Ile,NXDDN
+Phe,NNCNX
+Val,CNNCN
+Gly,CCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:805666244
+
+
+Elapsed time:  0 days 01:29:39
+iteration: 9000000; iterations/min: 100372.3
+curr best price: 5952.09895
+Current state price: 1365.91322
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNNC
+Ile,NDDDD
+Phe,NNCCN
+Val,CNNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:815909532
+
+
+Elapsed time:  0 days 01:31:00
+iteration: 9100000; iterations/min: 99986.7
+curr best price: 5952.09895
+Current state price: 1674.86089
+Number of samples:5
+Depth:7
+Leu,NNNCC
+Ser,XNNNC
+Ile,CDDDN
+Phe,NNCCN
+Val,CCXNN
+Gly,CNCNN
+Met,NCNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:828661959
+
+
+Elapsed time:  0 days 01:32:20
+iteration: 9200000; iterations/min: 99629.1
+curr best price: 5952.09895
+Current state price: 1076.80814
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNNC
+Ile,XDDXD
+Phe,XNCXN
+Val,CCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:841363448
+
+
+Elapsed time:  0 days 01:33:30
+iteration: 9300000; iterations/min: 99458.4
+curr best price: 5952.09895
+Current state price: 1220.26271
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNNC
+Ile,DNDND
+Phe,NXCXN
+Val,CXNNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:852290604
+
+
+Elapsed time:  0 days 01:34:35
+iteration: 9400000; iterations/min: 99377.8
+curr best price: 5952.09895
+Current state price: 1409.1785899999998
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XNNNC
+Ile,DNDDD
+Phe,NCCNN
+Val,NNCCN
+Gly,NCXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:862427768
+
+
+Elapsed time:  0 days 01:35:51
+iteration: 9500000; iterations/min: 99106.2
+curr best price: 5952.09895
+Current state price: 1184.39242
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XNNNC
+Ile,DXDXN
+Phe,CNCNN
+Val,CCNCN
+Gly,NNCCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:874223294
+
+
+Elapsed time:  0 days 01:36:59
+iteration: 9600000; iterations/min: 98980.0
+curr best price: 5952.09895
+Current state price: 2082.92292
+Number of samples:5
+Depth:9
+Leu,NNNCC
+Ser,XNNNC
+Ile,DDDDX
+Phe,NNCCN
+Val,CCNNN
+Gly,NCCNN
+Met,CXCNN
+Ala,CNNNN
+Asp,XCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:884792118
+
+
+Elapsed time:  0 days 01:37:42
+iteration: 9700000; iterations/min: 99282.2
+curr best price: 5952.09895
+Current state price: 1233.9629
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNXN
+Ile,CNDCN
+Phe,NCNCN
+Val,NNCNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:891573073
+
+
+Elapsed time:  0 days 01:38:24
+iteration: 9800000; iterations/min: 99588.7
+curr best price: 5952.09895
+Current state price: 1040.62267
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNNXN
+Ile,DNDDX
+Phe,XCCNN
+Val,NCNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:898388298
+
+
+Elapsed time:  0 days 01:39:20
+iteration: 9900000; iterations/min: 99649.0
+curr best price: 5952.09895
+Current state price: 1298.5579699999998
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XNCNN
+Ile,NCDXD
+Phe,NCCXN
+Val,CNNCX
+Gly,CCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:907191277
+
+
+Elapsed time:  0 days 01:40:32
+iteration: 10000000; iterations/min: 99455.1
+curr best price: 5952.09895
+Current state price: 1161.69915
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNCNN
+Ile,NDDXN
+Phe,NCCNN
+Val,CNXNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:918261405
+
+
+Elapsed time:  0 days 01:41:47
+iteration: 10100000; iterations/min: 99228.4
+curr best price: 5952.09895
+Current state price: 1161.69915
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNCNN
+Ile,XDNND
+Phe,NCCNN
+Val,NXXNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:929961755
+
+
+Elapsed time:  0 days 01:42:57
+iteration: 10200000; iterations/min: 99065.7
+curr best price: 5952.09895
+Current state price: 1326.9891599999999
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XNCNN
+Ile,DNDDD
+Phe,XNXNC
+Val,NCNCN
+Gly,XCCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:940943090
+
+
+Elapsed time:  0 days 01:44:12
+iteration: 10300000; iterations/min: 98848.0
+curr best price: 5952.09895
+Current state price: 1491.54803
+Number of samples:5
+Depth:7
+Leu,NNNCC
+Ser,XNCNN
+Ile,DDXNN
+Phe,NCCNN
+Val,CNNXC
+Gly,NCNCN
+Met,XNNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:952374959
+
+
+Elapsed time:  0 days 01:45:58
+iteration: 10400000; iterations/min: 98142.1
+curr best price: 5952.09895
+Current state price: 1402.21119
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNCNC
+Ile,XCDDN
+Phe,NCCNN
+Val,NNNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:969401306
+
+
+Elapsed time:  0 days 01:47:52
+iteration: 10500000; iterations/min: 97338.9
+curr best price: 5952.09895
+Current state price: 1319.61293
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XNCXN
+Ile,CDNNN
+Phe,CCNNC
+Val,NCCNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:987966550
+
+
+Elapsed time:  0 days 01:49:23
+iteration: 10600000; iterations/min: 96904.7
+curr best price: 5952.09895
+Current state price: 1218.1038899999999
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XCCNN
+Ile,NXDND
+Phe,XXNCN
+Val,CNCNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1002597789
+
+
+Elapsed time:  0 days 01:50:37
+iteration: 10700000; iterations/min: 96718.7
+curr best price: 5952.09895
+Current state price: 1214.94329
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XXNNN
+Ile,NDNNC
+Phe,CCNCN
+Val,CNCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1014412116
+
+
+Elapsed time:  0 days 01:51:31
+iteration: 10800000; iterations/min: 96840.2
+curr best price: 5952.09895
+Current state price: 1158.81045
+Number of samples:5
+Depth:5
+Leu,NNNCC
+Ser,XXNNC
+Ile,NDDXN
+Phe,CCCNN
+Val,XCNNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1022999436
+
+
+Elapsed time:  0 days 01:52:46
+iteration: 10900000; iterations/min: 96646.6
+curr best price: 5952.09895
+Current state price: 1397.191
+Number of samples:5
+Depth:6
+Leu,NNNCC
+Ser,XXCNN
+Ile,NDCCD
+Phe,CNNNC
+Val,XCNXN
+Gly,CCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1035196780
+
+
+Elapsed time:  0 days 01:53:46
+iteration: 11000000; iterations/min: 96677.9
+curr best price: 5952.09895
+Current state price: 1261.76448
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,NNNNN
+Ile,DNCDD
+Phe,XXNCN
+Val,CXCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1044760624
+
+
+Elapsed time:  0 days 01:54:48
+iteration: 11100000; iterations/min: 96680.4
+curr best price: 5952.09895
+Current state price: 1302.6603499999999
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,NNNCN
+Ile,NXCDD
+Phe,CNCXN
+Val,NCNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1054304075
+
+
+Elapsed time:  0 days 01:55:54
+iteration: 11200000; iterations/min: 96623.9
+curr best price: 5952.09895
+Current state price: 1241.9671999999998
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NNNCN
+Ile,XNDND
+Phe,CCNXN
+Val,NXCNN
+Gly,NNCCC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1064444145
+
+
+Elapsed time:  0 days 01:56:59
+iteration: 11300000; iterations/min: 96592.3
+curr best price: 5952.09895
+Current state price: 1622.7889499999997
+Number of samples:5
+Depth:7
+Leu,XNNNC
+Ser,NNNCN
+Ile,DNDXD
+Phe,CNCNN
+Val,NCCNC
+Gly,XCNNN
+Met,CCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1074286151
+
+
+Elapsed time:  0 days 01:58:03
+iteration: 11400000; iterations/min: 96565.6
+curr best price: 5952.09895
+Current state price: 1551.7215899999999
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NNNCN
+Ile,DDDCD
+Phe,CNCNN
+Val,NCNNC
+Gly,NNCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1084020788
+
+
+Elapsed time:  0 days 01:59:24
+iteration: 11500000; iterations/min: 96307.6
+curr best price: 5952.09895
+Current state price: 1325.4247099999998
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NNCCN
+Ile,NDXNN
+Phe,CNCNN
+Val,NNNCX
+Gly,CCNNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1096746623
+
+
+Elapsed time:  0 days 02:00:55
+iteration: 11600000; iterations/min: 95922.2
+curr best price: 5952.09895
+Current state price: 1501.19462
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NNCCN
+Ile,DNNCD
+Phe,CNNXN
+Val,NNCNN
+Gly,NCNXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1110920060
+
+
+Elapsed time:  0 days 02:02:24
+iteration: 11700000; iterations/min: 95577.3
+curr best price: 5952.09895
+Current state price: 1488.00214
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NNCCN
+Ile,DDNCN
+Phe,CXNNN
+Val,NNCNX
+Gly,NCCCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1124950228
+
+
+Elapsed time:  0 days 02:03:51
+iteration: 11800000; iterations/min: 95275.1
+curr best price: 5952.09895
+Current state price: 1137.7006099999999
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,NXNNN
+Ile,NDNCN
+Phe,CCNXN
+Val,XXCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1138770842
+
+
+Elapsed time:  0 days 02:04:39
+iteration: 11900000; iterations/min: 95462.8
+curr best price: 5952.09895
+Current state price: 1260.6718999999998
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NXNCN
+Ile,NNNDD
+Phe,CNNNN
+Val,NCXNC
+Gly,NCCNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1146595088
+
+
+Elapsed time:  0 days 02:05:46
+iteration: 12000000; iterations/min: 95408.8
+curr best price: 5952.09895
+Current state price: 1281.88403
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NXNCN
+Ile,NDDDN
+Phe,CNNXN
+Val,NXCNC
+Gly,CCCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1156782362
+
+
+Elapsed time:  0 days 02:07:01
+iteration: 12100000; iterations/min: 95256.7
+curr best price: 5952.09895
+Current state price: 1298.76027
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,NXNCN
+Ile,DNDND
+Phe,NNCNN
+Val,XCNNN
+Gly,CCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1168065493
+
+
+Elapsed time:  0 days 02:08:09
+iteration: 12200000; iterations/min: 95194.9
+curr best price: 5952.09895
+Current state price: 1409.03946
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,NXNCN
+Ile,DDCCN
+Phe,CNNNN
+Val,NCCNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1178360760
+
+
+Elapsed time:  0 days 02:09:16
+iteration: 12300000; iterations/min: 95149.3
+curr best price: 5952.09895
+Current state price: 939.21036
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,NXXNN
+Ile,XXDDD
+Phe,CNCNN
+Val,XNNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1188854741
+
+
+Elapsed time:  0 days 02:10:09
+iteration: 12400000; iterations/min: 95272.8
+curr best price: 5952.09895
+Current state price: 1411.33799
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,CNNNN
+Ile,NCDDN
+Phe,NNNCN
+Val,NNCNX
+Gly,NNCCC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1197121232
+
+
+Elapsed time:  0 days 02:10:58
+iteration: 12500000; iterations/min: 95432.1
+curr best price: 5952.09895
+Current state price: 1240.4139999999998
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,CNNNN
+Ile,XNNDD
+Phe,CNCNN
+Val,CCNNX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1204454757
+
+
+Elapsed time:  0 days 02:11:47
+iteration: 12600000; iterations/min: 95608.7
+curr best price: 5952.09895
+Current state price: 1460.5002599999998
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,CNNNN
+Ile,DNCDD
+Phe,XNNCN
+Val,NCCNC
+Gly,NCNCX
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1211475469
+
+
+Elapsed time:  0 days 02:12:40
+iteration: 12700000; iterations/min: 95725.5
+curr best price: 5952.09895
+Current state price: 1435.44291
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,CNNCN
+Ile,NNDCN
+Phe,NNCNN
+Val,CXNNX
+Gly,XCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1219331593
+
+
+Elapsed time:  0 days 02:14:07
+iteration: 12800000; iterations/min: 95433.9
+curr best price: 5952.09895
+Current state price: 1579.47164
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,CNNCN
+Ile,CNDDD
+Phe,NCCCN
+Val,CCXNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1232899641
+
+
+Elapsed time:  0 days 02:15:40
+iteration: 12900000; iterations/min: 95082.7
+curr best price: 5952.09895
+Current state price: 1392.5128499999998
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,CNNCN
+Ile,DNDXD
+Phe,NNCCN
+Val,NCNXX
+Gly,CNCNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1247433531
+
+
+Elapsed time:  0 days 02:17:16
+iteration: 13000000; iterations/min: 94704.2
+curr best price: 5952.09895
+Current state price: 1203.2761099999998
+Number of samples:5
+Depth:4
+Leu,XNNNC
+Ser,CXNNN
+Ile,NNCDD
+Phe,CXCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1262613206
+
+
+Elapsed time:  0 days 02:18:15
+iteration: 13100000; iterations/min: 94744.5
+curr best price: 5952.09895
+Current state price: 1448.06411
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,CXNNN
+Ile,CDNDD
+Phe,CNNCN
+Val,NCNNC
+Gly,NCCNN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1271609377
+
+
+Elapsed time:  0 days 02:19:16
+iteration: 13200000; iterations/min: 94779.3
+curr best price: 5952.09895
+Current state price: 1339.37072
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,CXNNN
+Ile,DNDDD
+Phe,XNNCN
+Val,NCCNC
+Gly,XNCXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1280546824
+
+
+Elapsed time:  0 days 02:20:49
+iteration: 13300000; iterations/min: 94438.4
+curr best price: 5952.09895
+Current state price: 1171.6251399999999
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,XNNNN
+Ile,CNNDN
+Phe,NXCCN
+Val,CNXCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1295728851
+
+
+Elapsed time:  0 days 02:21:51
+iteration: 13400000; iterations/min: 94461.6
+curr best price: 5952.09895
+Current state price: 1406.0604
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,XNNCN
+Ile,NDDCD
+Phe,NNCXN
+Val,CCNNC
+Gly,NCCNC
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1305255579
+
+
+Elapsed time:  0 days 02:22:59
+iteration: 13500000; iterations/min: 94415.4
+curr best price: 5952.09895
+Current state price: 1364.7987799999999
+Number of samples:5
+Depth:6
+Leu,XNNNC
+Ser,XNNCN
+Ile,DNDDD
+Phe,NNCNN
+Val,CCNNN
+Gly,NCCXN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1315597419
+
+
+Elapsed time:  0 days 02:24:10
+iteration: 13600000; iterations/min: 94329.8
+curr best price: 5952.09895
+Current state price: 1177.3047499999998
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,XXNNN
+Ile,CDNDN
+Phe,CNNCN
+Val,XCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1326970897
+
+
+Elapsed time:  0 days 02:25:25
+iteration: 13700000; iterations/min: 94202.8
+curr best price: 5952.09895
+Current state price: 987.4351200000001
+Number of samples:5
+Depth:5
+Leu,XNNNC
+Ser,XXXNN
+Ile,XDDDN
+Phe,NNCCN
+Val,XCNCN
+Arg,XXXXX
+His,XXXXX
+Codes calculated:1339297063
+
+
+Evaluation Finished!
+Final clock time:                08-12-2017 14:24:33
+
+Final evaluation time DDHHMMSS:    0 days 02:25:30
+Final evaluation time (seconds): 8730.032002210617
+Final number of samples:         5
+Final number of iterations:      13704505
+Final number of codes evaluated: 1339998438

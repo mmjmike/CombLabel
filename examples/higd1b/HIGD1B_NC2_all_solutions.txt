@@ -1,0 +1,1752 @@
+[solution]
+% Solution number = 1
+% Solution price  = 13501.01
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   C,   C,   N
+Asn,   N,   N,   N,   N,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 2
+% Solution price  = 13382.16
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   C,   C,   N
+Asn,   N,   N,   N,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 3
+% Solution price  = 13263.31
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   C,   C,   N
+Asn,   N,   N,   X,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 4
+% Solution price  = 13144.45
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   C,   C,   N
+Asn,   N,   X,   X,   N,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 5
+% Solution price  = 13025.6
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   C,   C,   N
+Asn,   N,   X,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 6
+% Solution price  = 12463.65
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   X,   C,   N
+Asn,   N,   N,   N,   N,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 7
+% Solution price  = 12344.8
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   X,   C,   N
+Asn,   N,   N,   N,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 8
+% Solution price  = 12225.94
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   X,   C,   N
+Asn,   N,   N,   X,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 9
+% Solution price  = 12107.09
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   X,   C,   N
+Asn,   N,   X,   X,   N,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 10
+% Solution price  = 11988.24
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   N,   X,   C,   N
+Asn,   N,   X,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 11
+% Solution price  = 11960.57
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   C,   X,   N,   X
+Asn,   N,   N,   X,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 12
+% Solution price  = 11841.72
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   C,   X,   N,   X
+Asn,   N,   X,   X,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 13
+% Solution price  = 11722.87
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   C,   X,   N,   X
+Asn,   N,   X,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 14
+% Solution price  = 11695.2
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   C,   X,   X,   X
+Asn,   N,   N,   X,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 15
+% Solution price  = 11576.34
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   C,   X,   X,   X
+Asn,   N,   X,   X,   N,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 16
+% Solution price  = 11457.49
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   N,   C,   C
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 17
+% Solution price  = 11364.75
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   N,   C,   X,   C,   C
+Trp,   X,   N,   X,   C,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 18
+% Solution price  = 11334.82
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   N,   X,   X
+Asn,   N,   X,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 19
+% Solution price  = 11307.15
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   N,   N,   X,   X,   N
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 20
+% Solution price  = 11188.3
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   N,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 21
+% Solution price  = 11069.45
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 22
+% Solution price  = 10976.71
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   C
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 23
+% Solution price  = 10882.11
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   X
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   N,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 24
+% Solution price  = 10763.25
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   X
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 25
+% Solution price  = 10670.51
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   C,   C,   C,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 26
+% Solution price  = 10575.91
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   N,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 27
+% Solution price  = 10457.06
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 28
+% Solution price  = 10364.32
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 29
+% Solution price  = 10320.83
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   C
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   N,   X,   N
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 30
+% Solution price  = 10228.09
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   C
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   X,   N,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 31
+% Solution price  = 10135.35
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   C
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 32
+% Solution price  = 10104.0
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   N,   X,   N
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 33
+% Solution price  = 10011.26
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   X,   N,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 34
+% Solution price  = 9918.52
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 35
+% Solution price  = 9845.88
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   N,   X,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   X,   C,   C,   X,   C
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 36
+% Solution price  = 9757.92
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   N,   N,   C,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   C,   N,   X,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 37
+% Solution price  = 9656.63
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   N,   N,   C,   N
+Met,   C,   N,   C,   N,   C
+Cys,   C,   C,   N,   X,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   X,   X,   C,   X,   C
+Gln,   C,   N,   N,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 38
+% Solution price  = 9563.89
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   N,   N,   C,   N
+Met,   C,   N,   C,   N,   C
+Cys,   C,   C,   N,   X,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   X,   X,   C,   X,   C
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 39
+% Solution price  = 9547.6
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   N,   N
+Ile,   C,   X,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   C,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   C,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   N,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   C
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 40
+% Solution price  = 9543.61
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   X,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 41
+% Solution price  = 9470.96
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   N,   N,   C
+Lys,   C,   C,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   X,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 42
+% Solution price  = 9450.24
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   X,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   N
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 43
+% Solution price  = 9357.5
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   C,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   X,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 44
+% Solution price  = 9284.85
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   C,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   N,   X,   X
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 45
+% Solution price  = 9237.17
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   N,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   C,   N,   X,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   C,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 46
+% Solution price  = 9217.74
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   N,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   C,   N,   X,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   N,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 47
+% Solution price  = 9125.0
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   N,   C,   C,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   X,   N,   N,   N,   C
+Lys,   C,   N,   N,   N,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   C,   N,   X,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 48
+% Solution price  = 9053.46
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   N,   N,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   C,   X,   X
+Trp,   C,   N,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 49
+% Solution price  = 8991.55
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   N,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   N,   C,   N
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 50
+% Solution price  = 8898.81
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   N,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   N,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 51
+% Solution price  = 8806.07
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   N,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   C,   X,   X
+Trp,   C,   N,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 52
+% Solution price  = 8775.57
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   N,   C,   N
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 53
+% Solution price  = 8682.83
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   N,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 54
+% Solution price  = 8590.09
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   C,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   C,   X,   X
+Trp,   C,   N,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 55
+% Solution price  = 8589.24
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   X,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   N,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   X,   C,   X
+Trp,   C,   N,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 56
+% Solution price  = 8558.74
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   X,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   N,   C,   N
+Trp,   N,   X,   X,   C,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 57
+% Solution price  = 8466.0
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   X,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   N,   C,   X
+Trp,   N,   X,   X,   C,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 58
+% Solution price  = 8373.26
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   N,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   N,   C,   C,   X,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   C,   X,   C,   X,   X
+Gln,   N,   C,   X,   C,   X
+Trp,   C,   N,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 59
+% Solution price  = 8336.67
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   X,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   C,   X,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   X,   C,   C,   X,   X
+Gln,   N,   C,   X,   C,   X
+Trp,   X,   N,   X,   C,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 60
+% Solution price  = 8336.67
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   N
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   C
+Asp,   C,   N,   X,   N,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   C,   N,   N,   N
+Glu,   N,   N,   X,   N,   C
+Lys,   C,   X,   N,   X,   N
+Met,   N,   N,   C,   C,   C
+Cys,   C,   N,   C,   X,   N
+Arg,   N,   X,   X,   N,   N
+Thr,   N,   X,   X,   N,   X
+Pro,   X,   C,   C,   X,   X
+Gln,   N,   C,   X,   C,   X
+Trp,   X,   C,   N,   X,   X
+Asn,   X,   N,   X,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 61
+% Solution price  = 8305.94
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   N,   C
+Met,   N,   C,   C,   C,   N
+Cys,   C,   N,   C,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 62
+% Solution price  = 8283.14
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   N,   C
+Met,   N,   C,   C,   C,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 63
+% Solution price  = 8260.63
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   N,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   C,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 64
+% Solution price  = 8237.83
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   N,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 65
+% Solution price  = 8233.29
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   C,   N
+Cys,   C,   N,   C,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 66
+% Solution price  = 8210.49
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   C,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 67
+% Solution price  = 8187.99
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   C,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 68
+% Solution price  = 8165.18
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   N,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 69
+% Solution price  = 8160.53
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   X,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   N,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 70
+% Solution price  = 8156.0
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   X,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   C,   N
+Cys,   C,   N,   C,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 71
+% Solution price  = 8133.2
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   X,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   C,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 72
+% Solution price  = 8110.69
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   X,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   C,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   X,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+
+[solution]
+% Solution number = 73
+% Solution price  = 8087.89
+Res, S_1, S_2, S_3, S_4, S_5
+Ala,   N,   N,   N,   N,   C
+Ser,   N,   N,   N,   C,   C
+Val,   N,   N,   C,   N,   N
+Gly,   N,   C,   N,   N,   N
+Leu,   N,   N,   N,   C,   N
+Asp,   N,   C,   N,   C,   N
+Tyr,   C,   N,   N,   C,   N
+Ile,   C,   X,   N,   N,   N
+Glu,   C,   N,   C,   N,   N
+Lys,   N,   X,   N,   X,   C
+Met,   N,   C,   C,   X,   N
+Cys,   C,   N,   X,   N,   X
+Arg,   N,   X,   X,   N,   N
+Thr,   X,   X,   X,   N,   N
+Pro,   X,   X,   C,   X,   X
+Gln,   C,   N,   X,   C,   X
+Trp,   N,   C,   X,   X,   X
+Asn,   X,   X,   N,   X,   X
+His,   X,   X,   X,   X,   X
+

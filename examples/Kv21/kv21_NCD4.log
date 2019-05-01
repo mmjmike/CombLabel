@@ -1,0 +1,99 @@
+2019-05-01 21:30:52,375:Reading NCS
+2019-05-01 21:30:52,375:NCS: NCD4
+2019-05-01 21:30:52,376:Reading sequence: 'kv21.seq'
+2019-05-01 21:30:52,376:Sequence length - 168 residues
+2019-05-01 21:30:52,376:Reading stock: '../../stocks/LabelStock_3_ot_seregi.txt'
+2019-05-01 21:30:52,376:Stock - OK
+2019-05-01 21:30:52,376:Reading prices: '../../prices/BEST_PRICE_1H.csv'
+2019-05-01 21:30:52,377:Prices - OK
+2019-05-01 21:30:52,377:Search for kv21_NCD4 solution started
+Host name is:		zion
+Start clock time: 		01-05-2019 21:30:52
+2019-05-01 21:30:52,377:
+Search in 1 sample(s)
+2019-05-01 21:30:52,377:Precalculating NMR codes...
+2019-05-01 21:30:52,377:NMR codes calculated
+2019-05-01 21:30:52,378:Search in 1 sample(s) finished. Max depth reached: 0. Iterations used: 1
+2019-05-01 21:30:52,378:
+Search in 2 sample(s)
+2019-05-01 21:30:52,378:Precalculating NMR codes...
+2019-05-01 21:30:52,379:NMR codes calculated
+2019-05-01 21:30:52,379:Search in 2 sample(s) finished. Max depth reached: 0. Iterations used: 2
+2019-05-01 21:30:52,379:
+Search in 3 sample(s)
+2019-05-01 21:30:52,380:Precalculating NMR codes...
+2019-05-01 21:30:52,388:NMR codes calculated
+2019-05-01 21:30:52,389:New max depth (2) reached at 3 samples
+2019-05-01 21:30:52,389:New max depth (3) reached at 3 samples
+2019-05-01 21:30:52,389:Search in 3 sample(s) finished. Max depth reached: 2. Iterations used: 8
+2019-05-01 21:30:52,389:
+Search in 4 sample(s)
+2019-05-01 21:30:52,393:Precalculating NMR codes...
+2019-05-01 21:30:52,810:NMR codes calculated
+2019-05-01 21:30:52,814:New max depth (4) reached at 4 samples
+2019-05-01 21:30:52,814:New max depth (5) reached at 4 samples
+2019-05-01 21:30:52,815:New max depth (6) reached at 4 samples
+2019-05-01 21:30:52,815:New max depth (7) reached at 4 samples
+2019-05-01 21:30:52,991:Search in 4 sample(s) finished. Max depth reached: 6. Iterations used: 7272
+2019-05-01 21:30:52,991:
+Search in 5 sample(s)
+2019-05-01 21:30:53,004:Precalculating NMR codes...
+2019-05-01 21:31:24,145:NMR codes calculated
+2019-05-01 21:31:24,177:New max depth (8) reached at 5 samples
+2019-05-01 21:31:24,177:New max depth (9) reached at 5 samples
+2019-05-01 21:31:24,177:New max depth (10) reached at 5 samples
+2019-05-01 21:31:24,178:New max depth (11) reached at 5 samples
+2019-05-01 21:31:24,178:New max depth (12) reached at 5 samples
+2019-05-01 21:31:24,178:New max depth (13) reached at 5 samples
+2019-05-01 21:31:24,178:New max depth (14) reached at 5 samples
+2019-05-01 21:31:24,178:New max depth (15) reached at 5 samples
+2019-05-01 21:31:24,179:New max depth (16) reached at 5 samples
+2019-05-01 21:31:24,179:New max depth (17) reached at 5 samples
+2019-05-01 21:31:30,670:UPDATE: search in 5 samples; iteration 1000000; time: 00:00:38; max depth=17; solutions found=0
+2019-05-01 21:31:37,291:UPDATE: search in 5 samples; iteration 2000000; time: 00:00:44; max depth=17; solutions found=0
+2019-05-01 21:31:43,908:UPDATE: search in 5 samples; iteration 3000000; time: 00:00:51; max depth=17; solutions found=0
+2019-05-01 21:31:50,472:UPDATE: search in 5 samples; iteration 4000000; time: 00:00:58; max depth=17; solutions found=0
+2019-05-01 21:31:57,061:UPDATE: search in 5 samples; iteration 5000000; time: 00:01:04; max depth=17; solutions found=0
+2019-05-01 21:32:03,619:UPDATE: search in 5 samples; iteration 6000000; time: 00:01:11; max depth=17; solutions found=0
+2019-05-01 21:32:10,167:UPDATE: search in 5 samples; iteration 7000000; time: 00:01:17; max depth=17; solutions found=0
+2019-05-01 21:32:16,691:UPDATE: search in 5 samples; iteration 8000000; time: 00:01:24; max depth=17; solutions found=0
+2019-05-01 21:32:23,213:UPDATE: search in 5 samples; iteration 9000000; time: 00:01:30; max depth=17; solutions found=0
+2019-05-01 21:32:29,858:UPDATE: search in 5 samples; iteration 10000000; time: 00:01:37; max depth=17; solutions found=0
+2019-05-01 21:32:36,451:UPDATE: search in 5 samples; iteration 11000000; time: 00:01:44; max depth=17; solutions found=0
+2019-05-01 21:32:43,065:UPDATE: search in 5 samples; iteration 12000000; time: 00:01:50; max depth=17; solutions found=0
+2019-05-01 21:32:49,631:UPDATE: search in 5 samples; iteration 13000000; time: 00:01:57; max depth=17; solutions found=0
+2019-05-01 21:32:56,218:UPDATE: search in 5 samples; iteration 14000000; time: 00:02:03; max depth=17; solutions found=0
+2019-05-01 21:33:02,798:UPDATE: search in 5 samples; iteration 15000000; time: 00:02:10; max depth=17; solutions found=0
+2019-05-01 21:33:09,380:UPDATE: search in 5 samples; iteration 16000000; time: 00:02:17; max depth=17; solutions found=0
+2019-05-01 21:33:16,039:UPDATE: search in 5 samples; iteration 17000000; time: 00:02:23; max depth=17; solutions found=0
+2019-05-01 21:33:22,675:UPDATE: search in 5 samples; iteration 18000000; time: 00:02:30; max depth=17; solutions found=0
+2019-05-01 21:33:29,320:UPDATE: search in 5 samples; iteration 19000000; time: 00:02:36; max depth=17; solutions found=0
+2019-05-01 21:33:36,447:UPDATE: search in 5 samples; iteration 20000000; time: 00:02:44; max depth=17; solutions found=0
+2019-05-01 21:33:43,356:UPDATE: search in 5 samples; iteration 21000000; time: 00:02:50; max depth=17; solutions found=0
+2019-05-01 21:33:50,785:UPDATE: search in 5 samples; iteration 22000000; time: 00:02:58; max depth=17; solutions found=0
+2019-05-01 21:33:57,659:UPDATE: search in 5 samples; iteration 23000000; time: 00:03:05; max depth=17; solutions found=0
+2019-05-01 21:34:04,515:UPDATE: search in 5 samples; iteration 24000000; time: 00:03:12; max depth=17; solutions found=0
+2019-05-01 21:34:11,236:UPDATE: search in 5 samples; iteration 25000000; time: 00:03:18; max depth=17; solutions found=0
+2019-05-01 21:34:17,911:UPDATE: search in 5 samples; iteration 26000000; time: 00:03:25; max depth=17; solutions found=0
+2019-05-01 21:34:24,585:UPDATE: search in 5 samples; iteration 27000000; time: 00:03:32; max depth=17; solutions found=0
+2019-05-01 21:34:31,253:UPDATE: search in 5 samples; iteration 28000000; time: 00:03:38; max depth=17; solutions found=0
+2019-05-01 21:34:37,919:UPDATE: search in 5 samples; iteration 29000000; time: 00:03:45; max depth=17; solutions found=0
+2019-05-01 21:34:44,581:UPDATE: search in 5 samples; iteration 30000000; time: 00:03:52; max depth=17; solutions found=0
+2019-05-01 21:34:51,670:UPDATE: search in 5 samples; iteration 31000000; time: 00:03:59; max depth=17; solutions found=0
+2019-05-01 21:34:58,368:UPDATE: search in 5 samples; iteration 32000000; time: 00:04:05; max depth=17; solutions found=0
+2019-05-01 21:35:05,008:UPDATE: search in 5 samples; iteration 33000000; time: 00:04:12; max depth=17; solutions found=0
+2019-05-01 21:35:11,631:UPDATE: search in 5 samples; iteration 34000000; time: 00:04:19; max depth=17; solutions found=0
+2019-05-01 21:35:18,255:UPDATE: search in 5 samples; iteration 35000000; time: 00:04:25; max depth=17; solutions found=0
+2019-05-01 21:35:24,951:UPDATE: search in 5 samples; iteration 36000000; time: 00:04:32; max depth=17; solutions found=0
+2019-05-01 21:35:31,726:UPDATE: search in 5 samples; iteration 37000000; time: 00:04:39; max depth=17; solutions found=0
+2019-05-01 21:35:38,470:UPDATE: search in 5 samples; iteration 38000000; time: 00:04:46; max depth=17; solutions found=0
+2019-05-01 21:35:45,125:UPDATE: search in 5 samples; iteration 39000000; time: 00:04:52; max depth=17; solutions found=0
+2019-05-01 21:35:51,772:UPDATE: search in 5 samples; iteration 40000000; time: 00:04:59; max depth=17; solutions found=0
+2019-05-01 21:35:58,471:UPDATE: search in 5 samples; iteration 41000000; time: 00:05:06; max depth=17; solutions found=0
+2019-05-01 21:36:05,201:UPDATE: search in 5 samples; iteration 42000000; time: 00:05:12; max depth=17; solutions found=0
+2019-05-01 21:36:11,863:UPDATE: search in 5 samples; iteration 43000000; time: 00:05:19; max depth=17; solutions found=0
+2019-05-01 21:36:18,470:UPDATE: search in 5 samples; iteration 44000000; time: 00:05:26; max depth=17; solutions found=0
+2019-05-01 21:36:25,065:UPDATE: search in 5 samples; iteration 45000000; time: 00:05:32; max depth=17; solutions found=0
+2019-05-01 21:36:31,661:UPDATE: search in 5 samples; iteration 46000000; time: 00:05:39; max depth=17; solutions found=0
+2019-05-01 21:36:38,274:UPDATE: search in 5 samples; iteration 47000000; time: 00:05:45; max depth=17; solutions found=0
+2019-05-01 21:36:44,877:UPDATE: search in 5 samples; iteration 48000000; time: 00:05:52; max depth=17; solutions found=0
