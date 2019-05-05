@@ -336,7 +336,6 @@ class Residue2Label:
         self.label_options = label_options
         self.symmetry_cross_out = set()
         self.crossed_out_sets = []
-        self.include_other = True
         self.residues_after = set()
         self.residues_before = set()
         self.pattern_codes_set = set()
@@ -345,8 +344,6 @@ class Residue2Label:
             if label in Constants.NITRO_TYPE_NAMES:
                 self.has_15n = True
                 break
-        if not self.has_15n:
-            self.include_other = False
         self.has_13c = False
         for label in label_options:
             if label in Constants.CARBON_TYPE_NAMES:
@@ -357,7 +354,7 @@ class Residue2Label:
             self.need_label = True
         self.has_double_label = False
         for label in label_options:
-            if label in Constants.CARBON_TYPE_NAMES and Constants.NITRO_TYPE_NAMES:
+            if label in Constants.CARBON_TYPE_NAMES and label in Constants.NITRO_TYPE_NAMES:
                 self.has_double_label = True
                 break
         self.labeling_prices = prices
@@ -390,8 +387,19 @@ class Residue2Label:
 
     def make_patterns(self, samples, ncs):
         self.samples = samples
+        self.check_other_and_self_cells()
         self.patterns_set = self.generate_initial_set(self.samples)
         self.cross_out_N_power(ncs)
+
+    def check_other_and_self_cells(self):
+        if self.name in self.residues_before:
+            self.self_cell = True
+        if "Other" in self.residues_before and self.has_15n:
+            self.other_cell = True
+        if self.other_cell and self.self_cell and not self.has_double_label:
+            self.other_cell = False
+        if "Other" in self.residues_before and not self.other_cell:
+            self.residues_before.remove("Other")
 
     def generate_initial_set(self, samples):
         # recursive function, that generates all possible combinations
@@ -406,10 +414,8 @@ class Residue2Label:
         for item in current_set:
             for option in self.label_options:
                 new_set.add(item + option)
-        if self.name in self.residues_before:
-            self.self_cell = True
-        if "Other" in self.residues_before and self.include_other:
-            self.other_cell = True
+        # if "Other" in self.residues_before and self.include_other:
+        #     self.other_cell = True
         return new_set
 
     def add_residue_after(self, res_name):
@@ -423,8 +429,8 @@ class Residue2Label:
     def cross_out_N_power(self, ncs):
         if not self.has_15n:
             return
-        if "Other" in self.residues_before and not self.include_other:
-            self.residues_before.remove("Other")
+        # if "Other" in self.residues_before and not self.include_other:
+        #     self.residues_before.remove("Other")
         cross_out_set = set()
         for pattern in self.patterns_set:
             if not self.check_N_power(pattern, ncs):
@@ -1138,12 +1144,13 @@ def make_solution_output(parameters):
 def calculate_stats(parameters, meanings_dict):
     stats = {}
     sequence = parameters["sequence"]
+    seq = sequence.sequence
     pairs_table = parameters["pairs_table"]
 
-    N_aa = len(sequence.sequence)
+    N_aa = len(seq)
     N_pairs = len(pairs_table.unique_pairs)
     PI_p = len([pair for pair in pairs_table.unique_pairs if pair[1] == "P"])
-    PI_a = len([res for res in sequence.sequence if res == 'P'])
+    PI_a = len([res for res in seq if res == 'P'])
     PU_p = 0
     PN_a = 0
     PN_p = 0
@@ -1156,6 +1163,7 @@ def calculate_stats(parameters, meanings_dict):
                 PN_p += 1
                 PN_a += number_of_pairs
     PU_a = PU_p
+
     SI_a = 0
     SI_p = 0
     SU_p = 0
@@ -1169,7 +1177,6 @@ def calculate_stats(parameters, meanings_dict):
             res1 = pairs_table.residues_carbon[i]
             res2 = pairs_table.residues_nitro[j]
             if cell_value:
-                seq = sequence.sequence
                 if res2 == 'Other':
                     diff_pairs = len(set([seq[s + 1] for s in range(len(seq) - 1)
                                           if seq[s] == res1

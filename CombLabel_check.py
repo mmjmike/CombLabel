@@ -30,7 +30,8 @@ def get_params(args):
         exit()
     print("NCS '{}' read".format(ncs.name))
 
-    protein_sequence = read_sequence(args.sequence)
+    protein_sequence, msg = read_sequence(args.sequence)
+    print("Protein sequence: {}".format(protein_sequence))
     if len(protein_sequence) == 0:
         exit()
     if len(protein_sequence) < 3:
@@ -69,8 +70,8 @@ def get_params(args):
 
 
     name = "{}_{}".format(args.sequence.split(".")[0], new_ncs.name)
-    output_solution = name + "_solution.txt"
-    output_dictionary = name + "_dictionary.txt"
+    output_solution = name + "_solution_c.txt"
+    output_dictionary = name + "_dictionary_c.txt"
 
     params = {
         "ncs": new_ncs,

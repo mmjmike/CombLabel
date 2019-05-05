@@ -17460,3 +17460,979 @@ His,   D,   X,   D,   N,   X,   X
 2019-05-02 17:59:19,928:UPDATE: search in 6 samples; iteration 11910000000; time: 21:26:56; max depth=20; solutions found=197; best price=15323.00
 2019-05-02 18:01:20,019:UPDATE: search in 6 samples; iteration 11911000000; time: 21:28:56; max depth=20; solutions found=197; best price=15323.00
 2019-05-02 18:03:03,608:UPDATE: search in 6 samples; iteration 11912000000; time: 21:30:39; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:07:22,895:UPDATE: search in 6 samples; iteration 11913000000; time: 21:34:59; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:10:35,385:UPDATE: search in 6 samples; iteration 11914000000; time: 21:38:11; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:13:44,955:UPDATE: search in 6 samples; iteration 11915000000; time: 21:41:21; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:15:55,343:UPDATE: search in 6 samples; iteration 11916000000; time: 21:43:31; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:18:33,909:UPDATE: search in 6 samples; iteration 11917000000; time: 21:46:10; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:23:05,624:UPDATE: search in 6 samples; iteration 11918000000; time: 21:50:41; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:26:17,343:UPDATE: search in 6 samples; iteration 11919000000; time: 21:53:53; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:28:50,402:UPDATE: search in 6 samples; iteration 11920000000; time: 21:56:26; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:32:45,587:UPDATE: search in 6 samples; iteration 11921000000; time: 22:00:21; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:35:30,637:UPDATE: search in 6 samples; iteration 11922000000; time: 22:03:06; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:38:29,941:UPDATE: search in 6 samples; iteration 11923000000; time: 22:06:06; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:41:55,576:UPDATE: search in 6 samples; iteration 11924000000; time: 22:09:31; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:43:46,055:UPDATE: search in 6 samples; iteration 11925000000; time: 22:11:22; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:45:42,911:UPDATE: search in 6 samples; iteration 11926000000; time: 22:13:19; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:47:39,526:UPDATE: search in 6 samples; iteration 11927000000; time: 22:15:15; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:49:35,194:UPDATE: search in 6 samples; iteration 11928000000; time: 22:17:11; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:51:37,259:UPDATE: search in 6 samples; iteration 11929000000; time: 22:19:13; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:53:11,445:UPDATE: search in 6 samples; iteration 11930000000; time: 22:20:47; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:54:48,200:UPDATE: search in 6 samples; iteration 11931000000; time: 22:22:24; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:56:37,561:UPDATE: search in 6 samples; iteration 11932000000; time: 22:24:13; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 18:58:21,399:UPDATE: search in 6 samples; iteration 11933000000; time: 22:25:57; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:00:37,869:UPDATE: search in 6 samples; iteration 11934000000; time: 22:28:14; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:03:08,647:UPDATE: search in 6 samples; iteration 11935000000; time: 22:30:44; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:05:48,587:UPDATE: search in 6 samples; iteration 11936000000; time: 22:33:24; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:07:20,523:UPDATE: search in 6 samples; iteration 11937000000; time: 22:34:56; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:09:30,945:UPDATE: search in 6 samples; iteration 11938000000; time: 22:37:07; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:10:59,819:UPDATE: search in 6 samples; iteration 11939000000; time: 22:38:35; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:13:00,196:UPDATE: search in 6 samples; iteration 11940000000; time: 22:40:36; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:15:24,881:UPDATE: search in 6 samples; iteration 11941000000; time: 22:43:01; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:17:28,193:UPDATE: search in 6 samples; iteration 11942000000; time: 22:45:04; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:19:30,349:UPDATE: search in 6 samples; iteration 11943000000; time: 22:47:06; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:21:29,191:UPDATE: search in 6 samples; iteration 11944000000; time: 22:49:05; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:23:58,688:UPDATE: search in 6 samples; iteration 11945000000; time: 22:51:34; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:26:26,043:UPDATE: search in 6 samples; iteration 11946000000; time: 22:54:02; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:28:30,675:UPDATE: search in 6 samples; iteration 11947000000; time: 22:56:06; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:31:37,023:UPDATE: search in 6 samples; iteration 11948000000; time: 22:59:13; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:34:12,933:UPDATE: search in 6 samples; iteration 11949000000; time: 23:01:49; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:36:28,745:UPDATE: search in 6 samples; iteration 11950000000; time: 23:04:04; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:39:02,210:UPDATE: search in 6 samples; iteration 11951000000; time: 23:06:38; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:40:49,641:UPDATE: search in 6 samples; iteration 11952000000; time: 23:08:25; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:42:45,706:UPDATE: search in 6 samples; iteration 11953000000; time: 23:10:21; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:45:06,682:UPDATE: search in 6 samples; iteration 11954000000; time: 23:12:42; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:47:12,544:UPDATE: search in 6 samples; iteration 11955000000; time: 23:14:48; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:49:19,146:UPDATE: search in 6 samples; iteration 11956000000; time: 23:16:55; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:51:32,930:UPDATE: search in 6 samples; iteration 11957000000; time: 23:19:09; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:53:38,021:UPDATE: search in 6 samples; iteration 11958000000; time: 23:21:14; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:55:38,199:UPDATE: search in 6 samples; iteration 11959000000; time: 23:23:14; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 19:58:07,252:UPDATE: search in 6 samples; iteration 11960000000; time: 23:25:43; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:00:30,647:UPDATE: search in 6 samples; iteration 11961000000; time: 23:28:06; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:03:08,780:UPDATE: search in 6 samples; iteration 11962000000; time: 23:30:44; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:06:21,114:UPDATE: search in 6 samples; iteration 11963000000; time: 23:33:57; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:09:14,567:UPDATE: search in 6 samples; iteration 11964000000; time: 23:36:50; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:11:28,908:UPDATE: search in 6 samples; iteration 11965000000; time: 23:39:05; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:14:02,916:UPDATE: search in 6 samples; iteration 11966000000; time: 23:41:39; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:17:17,964:UPDATE: search in 6 samples; iteration 11967000000; time: 23:44:54; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:19:54,679:UPDATE: search in 6 samples; iteration 11968000000; time: 23:47:30; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:22:24,806:UPDATE: search in 6 samples; iteration 11969000000; time: 23:50:00; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:26:07,974:UPDATE: search in 6 samples; iteration 11970000000; time: 23:53:44; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:29:32,949:UPDATE: search in 6 samples; iteration 11971000000; time: 23:57:09; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:33:14,819:UPDATE: search in 6 samples; iteration 11972000000; time: 00:00:50; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:35:42,847:UPDATE: search in 6 samples; iteration 11973000000; time: 00:03:19; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:37:58,225:UPDATE: search in 6 samples; iteration 11974000000; time: 00:05:34; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:40:27,242:UPDATE: search in 6 samples; iteration 11975000000; time: 00:08:03; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:42:22,419:UPDATE: search in 6 samples; iteration 11976000000; time: 00:09:58; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:44:44,557:UPDATE: search in 6 samples; iteration 11977000000; time: 00:12:20; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:47:01,002:UPDATE: search in 6 samples; iteration 11978000000; time: 00:14:37; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:49:53,359:UPDATE: search in 6 samples; iteration 11979000000; time: 00:17:29; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:53:14,040:UPDATE: search in 6 samples; iteration 11980000000; time: 00:20:50; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:55:39,363:UPDATE: search in 6 samples; iteration 11981000000; time: 00:23:15; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 20:57:56,941:UPDATE: search in 6 samples; iteration 11982000000; time: 00:25:33; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:01:42,031:UPDATE: search in 6 samples; iteration 11983000000; time: 00:29:18; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:04:50,991:UPDATE: search in 6 samples; iteration 11984000000; time: 00:32:27; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:06:54,738:UPDATE: search in 6 samples; iteration 11985000000; time: 00:34:30; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:09:32,509:UPDATE: search in 6 samples; iteration 11986000000; time: 00:37:08; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:14:40,337:UPDATE: search in 6 samples; iteration 11987000000; time: 00:42:16; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:17:28,184:UPDATE: search in 6 samples; iteration 11988000000; time: 00:45:04; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:20:52,747:UPDATE: search in 6 samples; iteration 11989000000; time: 00:48:28; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:24:20,408:UPDATE: search in 6 samples; iteration 11990000000; time: 00:51:56; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:27:03,382:UPDATE: search in 6 samples; iteration 11991000000; time: 00:54:39; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:29:40,288:UPDATE: search in 6 samples; iteration 11992000000; time: 00:57:16; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:32:12,060:UPDATE: search in 6 samples; iteration 11993000000; time: 00:59:48; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:34:40,143:UPDATE: search in 6 samples; iteration 11994000000; time: 01:02:16; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:36:15,677:UPDATE: search in 6 samples; iteration 11995000000; time: 01:03:51; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:37:37,025:UPDATE: search in 6 samples; iteration 11996000000; time: 01:05:13; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:39:29,769:UPDATE: search in 6 samples; iteration 11997000000; time: 01:07:05; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:40:56,822:UPDATE: search in 6 samples; iteration 11998000000; time: 01:08:32; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:42:44,524:UPDATE: search in 6 samples; iteration 11999000000; time: 01:10:20; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:44:37,704:UPDATE: search in 6 samples; iteration 12000000000; time: 01:12:13; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:46:34,912:UPDATE: search in 6 samples; iteration 12001000000; time: 01:14:11; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:48:30,123:UPDATE: search in 6 samples; iteration 12002000000; time: 01:16:06; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:50:40,915:UPDATE: search in 6 samples; iteration 12003000000; time: 01:18:17; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:53:01,664:UPDATE: search in 6 samples; iteration 12004000000; time: 01:20:37; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:55:18,611:UPDATE: search in 6 samples; iteration 12005000000; time: 01:22:54; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:57:12,149:UPDATE: search in 6 samples; iteration 12006000000; time: 01:24:48; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 21:58:48,986:UPDATE: search in 6 samples; iteration 12007000000; time: 01:26:25; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 22:00:50,281:UPDATE: search in 6 samples; iteration 12008000000; time: 01:28:26; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 22:02:26,046:UPDATE: search in 6 samples; iteration 12009000000; time: 01:30:02; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 22:04:06,401:UPDATE: search in 6 samples; iteration 12010000000; time: 01:31:42; max depth=20; solutions found=197; best price=15323.00
+2019-05-02 22:05:08,980:New solution found! (#198). Calculation time: 01:32:45. New best price = 15273.8
+2019-05-02 22:05:08,981:[solution]
+% Solution number = 198
+% Solution price  = 15273.8
+Res, S_1, S_2, S_3, S_4, S_5, S_6
+Leu,   N,   N,   N,   N,   N,   N
+Ser,   N,   N,   N,   N,   C,   D
+Val,   N,   N,   N,   C,   N,   D
+Ile,   N,   N,   N,   D,   D,   X
+Arg,   N,   N,   C,   N,   N,   D
+Gly,   N,   N,   C,   D,   C,   N
+Phe,   N,   C,   N,   N,   N,   N
+Thr,   N,   C,   D,   N,   D,   X
+Ala,   C,   D,   C,   N,   D,   D
+Glu,   C,   D,   N,   D,   N,   D
+Lys,   N,   D,   D,   D,   X,   X
+Met,   C,   N,   N,   N,   C,   N
+Asn,   D,   X,   X,   D,   D,   D
+Gln,   D,   D,   D,   C,   N,   X
+Cys,   C,   N,   N,   N,   N,   C
+Trp,   C,   N,   N,   C,   N,   N
+Asp,   D,   D,   X,   X,   D,   D
+Tyr,   D,   C,   N,   N,   X,   N
+Pro,   C,   X,   C,   X,   X,   X
+His,   D,   X,   D,   N,   X,   X
+
+
+
+2019-05-02 22:05:56,592:UPDATE: search in 6 samples; iteration 12011000000; time: 01:33:32; max depth=20; solutions found=198; best price=15273.80
+2019-05-02 22:07:47,426:UPDATE: search in 6 samples; iteration 12012000000; time: 01:35:23; max depth=20; solutions found=198; best price=15273.80
+2019-05-02 22:09:29,696:UPDATE: search in 6 samples; iteration 12013000000; time: 01:37:05; max depth=20; solutions found=198; best price=15273.80
+2019-05-02 22:12:13,842:UPDATE: search in 6 samples; iteration 12014000000; time: 01:39:50; max depth=20; solutions found=198; best price=15273.80
+2019-05-02 22:14:35,880:UPDATE: search in 6 samples; iteration 12015000000; time: 01:42:12; max depth=20; solutions found=198; best price=15273.80
+2019-05-02 22:17:39,466:New solution found! (#199). Calculation time: 01:45:15. New best price = 15265.85
+2019-05-02 22:17:39,466:[solution]
+% Solution number = 199
+% Solution price  = 15265.85
+Res, S_1, S_2, S_3, S_4, S_5, S_6
+Leu,   N,   N,   N,   N,   N,   N
+Ser,   N,   N,   N,   N,   C,   D
+Val,   N,   N,   N,   C,   N,   D
+Ile,   N,   N,   N,   D,   D,   X
+Arg,   N,   N,   C,   N,   N,   D
+Gly,   N,   N,   C,   D,   C,   N
+Phe,   N,   C,   N,   N,   N,   N
+Thr,   N,   C,   D,   N,   D,   X
+Ala,   C,   D,   C,   N,   D,   D
+Glu,   X,   D,   D,   D,   N,   N
+Lys,   D,   D,   D,   D,   X,   X
+Met,   C,   N,   N,   N,   C,   N
+Asn,   D,   X,   X,   D,   D,   D
+Gln,   D,   D,   X,   C,   N,   D
+Cys,   C,   N,   N,   N,   N,   C
+Trp,   C,   N,   N,   C,   N,   N
+Asp,   D,   D,   X,   N,   D,   C
+Tyr,   C,   C,   N,   N,   N,   X
+Pro,   C,   X,   C,   X,   X,   X
+His,   D,   X,   D,   N,   X,   X
+
+
+
+2019-05-02 22:17:39,546:New solution found! (#200). Calculation time: 01:45:15. New best price = 15236.61
+2019-05-02 22:17:39,547:[solution]
+% Solution number = 200
+% Solution price  = 15236.61
+Res, S_1, S_2, S_3, S_4, S_5, S_6
+Leu,   N,   N,   N,   N,   N,   N
+Ser,   N,   N,   N,   N,   C,   D
+Val,   N,   N,   N,   C,   N,   D
+Ile,   N,   N,   N,   D,   D,   X
+Arg,   N,   N,   C,   N,   N,   D
+Gly,   N,   N,   C,   D,   C,   N
+Phe,   N,   C,   N,   N,   N,   N
+Thr,   N,   C,   D,   N,   D,   X
+Ala,   C,   D,   C,   N,   D,   D
+Glu,   X,   D,   D,   D,   N,   N
+Lys,   D,   D,   D,   D,   X,   X
+Met,   C,   N,   N,   N,   C,   N
+Asn,   D,   X,   X,   D,   D,   D
+Gln,   D,   D,   X,   C,   N,   D
+Cys,   C,   N,   N,   N,   N,   C
+Trp,   C,   N,   N,   C,   N,   N
+Asp,   D,   D,   X,   N,   D,   C
+Tyr,   X,   C,   N,   X,   N,   D
+Pro,   C,   X,   C,   X,   X,   X
+His,   D,   X,   D,   N,   X,   X
+
+
+
+2019-05-02 22:17:53,328:UPDATE: search in 6 samples; iteration 12016000000; time: 01:45:29; max depth=20; solutions found=200; best price=15236.61
+2019-05-02 22:20:32,383:UPDATE: search in 6 samples; iteration 12017000000; time: 01:48:08; max depth=20; solutions found=200; best price=15236.61
+2019-05-02 22:22:49,544:UPDATE: search in 6 samples; iteration 12018000000; time: 01:50:25; max depth=20; solutions found=200; best price=15236.61
+2019-05-02 22:23:39,115:New solution found! (#201). Calculation time: 01:51:15. New best price = 15207.71
+2019-05-02 22:23:39,115:[solution]
+% Solution number = 201
+% Solution price  = 15207.71
+Res, S_1, S_2, S_3, S_4, S_5, S_6
+Leu,   N,   N,   N,   N,   N,   N
+Ser,   N,   N,   N,   N,   C,   D
+Val,   N,   N,   N,   C,   N,   D
+Ile,   N,   N,   N,   D,   D,   X
+Arg,   N,   N,   C,   N,   N,   D
+Gly,   N,   N,   C,   D,   C,   N
+Phe,   N,   C,   N,   N,   N,   N
+Thr,   N,   C,   D,   N,   D,   X
+Ala,   C,   D,   C,   N,   D,   D
+Glu,   D,   C,   N,   D,   X,   D
+Lys,   X,   D,   D,   D,   N,   D
+Met,   C,   N,   N,   N,   C,   N
+Asn,   D,   X,   X,   D,   D,   D
+Gln,   D,   D,   D,   C,   N,   X
+Cys,   C,   N,   N,   N,   N,   C
+Trp,   C,   N,   N,   C,   N,   N
+Asp,   D,   D,   X,   X,   D,   D
+Tyr,   N,   C,   N,   X,   D,   D
+Pro,   C,   X,   C,   X,   X,   X
+His,   X,   X,   D,   D,   X,   X
+
+
+
+2019-05-02 22:23:39,165:New solution found! (#202). Calculation time: 01:51:15. New best price = 15094.47
+2019-05-02 22:23:39,165:[solution]
+% Solution number = 202
+% Solution price  = 15094.47
+Res, S_1, S_2, S_3, S_4, S_5, S_6
+Leu,   N,   N,   N,   N,   N,   N
+Ser,   N,   N,   N,   N,   C,   D
+Val,   N,   N,   N,   C,   N,   D
+Ile,   N,   N,   N,   D,   D,   X
+Arg,   N,   N,   C,   N,   N,   D
+Gly,   N,   N,   C,   D,   C,   N
+Phe,   N,   C,   N,   N,   N,   N
+Thr,   N,   C,   D,   N,   D,   X
+Ala,   C,   D,   C,   N,   D,   D
+Glu,   D,   C,   N,   D,   X,   D
+Lys,   X,   D,   D,   D,   N,   D
+Met,   C,   N,   N,   N,   C,   N
+Asn,   D,   X,   X,   D,   D,   D
+Gln,   D,   D,   D,   C,   N,   X
+Cys,   C,   N,   N,   N,   N,   C
+Trp,   C,   N,   N,   C,   N,   N
+Asp,   D,   D,   X,   X,   D,   D
+Tyr,   D,   C,   N,   X,   N,   N
+Pro,   C,   X,   C,   X,   X,   X
+His,   X,   X,   D,   D,   X,   X
+
+
+
+2019-05-02 22:25:54,339:UPDATE: search in 6 samples; iteration 12019000000; time: 01:53:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:30:03,378:UPDATE: search in 6 samples; iteration 12020000000; time: 01:57:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:32:39,785:UPDATE: search in 6 samples; iteration 12021000000; time: 02:00:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:36:20,430:UPDATE: search in 6 samples; iteration 12022000000; time: 02:03:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:41:04,856:UPDATE: search in 6 samples; iteration 12023000000; time: 02:08:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:44:58,719:UPDATE: search in 6 samples; iteration 12024000000; time: 02:12:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:51:03,679:UPDATE: search in 6 samples; iteration 12025000000; time: 02:18:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:53:55,079:UPDATE: search in 6 samples; iteration 12026000000; time: 02:21:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 22:57:39,073:UPDATE: search in 6 samples; iteration 12027000000; time: 02:25:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:01:33,232:UPDATE: search in 6 samples; iteration 12028000000; time: 02:29:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:06:54,170:UPDATE: search in 6 samples; iteration 12029000000; time: 02:34:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:09:46,929:UPDATE: search in 6 samples; iteration 12030000000; time: 02:37:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:14:57,315:UPDATE: search in 6 samples; iteration 12031000000; time: 02:42:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:21:19,215:UPDATE: search in 6 samples; iteration 12032000000; time: 02:48:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:25:49,723:UPDATE: search in 6 samples; iteration 12033000000; time: 02:53:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:30:15,944:UPDATE: search in 6 samples; iteration 12034000000; time: 02:57:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:33:10,386:UPDATE: search in 6 samples; iteration 12035000000; time: 03:00:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:36:48,514:UPDATE: search in 6 samples; iteration 12036000000; time: 03:04:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:39:56,251:UPDATE: search in 6 samples; iteration 12037000000; time: 03:07:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:43:29,438:UPDATE: search in 6 samples; iteration 12038000000; time: 03:11:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:47:29,906:UPDATE: search in 6 samples; iteration 12039000000; time: 03:15:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:52:12,676:UPDATE: search in 6 samples; iteration 12040000000; time: 03:19:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-02 23:55:58,220:UPDATE: search in 6 samples; iteration 12041000000; time: 03:23:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:00:57,617:UPDATE: search in 6 samples; iteration 12042000000; time: 03:28:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:06:20,134:UPDATE: search in 6 samples; iteration 12043000000; time: 03:33:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:10:56,683:UPDATE: search in 6 samples; iteration 12044000000; time: 03:38:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:14:33,197:UPDATE: search in 6 samples; iteration 12045000000; time: 03:42:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:17:08,760:UPDATE: search in 6 samples; iteration 12046000000; time: 03:44:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:19:33,292:UPDATE: search in 6 samples; iteration 12047000000; time: 03:47:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:21:29,107:UPDATE: search in 6 samples; iteration 12048000000; time: 03:49:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:23:53,761:UPDATE: search in 6 samples; iteration 12049000000; time: 03:51:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:26:31,345:UPDATE: search in 6 samples; iteration 12050000000; time: 03:54:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:29:19,772:UPDATE: search in 6 samples; iteration 12051000000; time: 03:56:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:31:46,849:UPDATE: search in 6 samples; iteration 12052000000; time: 03:59:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:33:44,847:UPDATE: search in 6 samples; iteration 12053000000; time: 04:01:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:36:27,471:UPDATE: search in 6 samples; iteration 12054000000; time: 04:04:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:39:11,984:UPDATE: search in 6 samples; iteration 12055000000; time: 04:06:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:41:52,101:UPDATE: search in 6 samples; iteration 12056000000; time: 04:09:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:43:59,493:UPDATE: search in 6 samples; iteration 12057000000; time: 04:11:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:46:43,112:UPDATE: search in 6 samples; iteration 12058000000; time: 04:14:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:51:20,114:UPDATE: search in 6 samples; iteration 12059000000; time: 04:18:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:54:12,222:UPDATE: search in 6 samples; iteration 12060000000; time: 04:21:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 00:58:14,504:UPDATE: search in 6 samples; iteration 12061000000; time: 04:25:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:01:45,385:UPDATE: search in 6 samples; iteration 12062000000; time: 04:29:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:04:47,251:UPDATE: search in 6 samples; iteration 12063000000; time: 04:32:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:07:33,273:UPDATE: search in 6 samples; iteration 12064000000; time: 04:35:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:09:31,505:UPDATE: search in 6 samples; iteration 12065000000; time: 04:37:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:11:33,591:UPDATE: search in 6 samples; iteration 12066000000; time: 04:39:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:13:57,282:UPDATE: search in 6 samples; iteration 12067000000; time: 04:41:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:16:09,390:UPDATE: search in 6 samples; iteration 12068000000; time: 04:43:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:18:15,413:UPDATE: search in 6 samples; iteration 12069000000; time: 04:45:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:20:40,570:UPDATE: search in 6 samples; iteration 12070000000; time: 04:48:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:23:09,559:UPDATE: search in 6 samples; iteration 12071000000; time: 04:50:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:25:03,639:UPDATE: search in 6 samples; iteration 12072000000; time: 04:52:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:27:22,310:UPDATE: search in 6 samples; iteration 12073000000; time: 04:54:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:29:26,241:UPDATE: search in 6 samples; iteration 12074000000; time: 04:57:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:31:28,271:UPDATE: search in 6 samples; iteration 12075000000; time: 04:59:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:34:11,684:UPDATE: search in 6 samples; iteration 12076000000; time: 05:01:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:36:24,862:UPDATE: search in 6 samples; iteration 12077000000; time: 05:04:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:38:25,895:UPDATE: search in 6 samples; iteration 12078000000; time: 05:06:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:41:24,723:UPDATE: search in 6 samples; iteration 12079000000; time: 05:09:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:44:26,100:UPDATE: search in 6 samples; iteration 12080000000; time: 05:12:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:46:05,788:UPDATE: search in 6 samples; iteration 12081000000; time: 05:13:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:48:10,679:UPDATE: search in 6 samples; iteration 12082000000; time: 05:15:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:50:49,525:UPDATE: search in 6 samples; iteration 12083000000; time: 05:18:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:52:59,047:UPDATE: search in 6 samples; iteration 12084000000; time: 05:20:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:55:02,056:UPDATE: search in 6 samples; iteration 12085000000; time: 05:22:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:56:52,252:UPDATE: search in 6 samples; iteration 12086000000; time: 05:24:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 01:59:06,999:UPDATE: search in 6 samples; iteration 12087000000; time: 05:26:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:03:14,513:UPDATE: search in 6 samples; iteration 12088000000; time: 05:30:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:05:57,620:UPDATE: search in 6 samples; iteration 12089000000; time: 05:33:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:09:51,474:UPDATE: search in 6 samples; iteration 12090000000; time: 05:37:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:15:19,374:UPDATE: search in 6 samples; iteration 12091000000; time: 05:42:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:19:16,214:UPDATE: search in 6 samples; iteration 12092000000; time: 05:46:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:22:29,185:UPDATE: search in 6 samples; iteration 12093000000; time: 05:50:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:26:21,003:UPDATE: search in 6 samples; iteration 12094000000; time: 05:53:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:29:28,648:UPDATE: search in 6 samples; iteration 12095000000; time: 05:57:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:32:56,027:UPDATE: search in 6 samples; iteration 12096000000; time: 06:00:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:37:07,899:UPDATE: search in 6 samples; iteration 12097000000; time: 06:04:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:42:44,814:UPDATE: search in 6 samples; iteration 12098000000; time: 06:10:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:47:28,256:UPDATE: search in 6 samples; iteration 12099000000; time: 06:15:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:51:49,658:UPDATE: search in 6 samples; iteration 12100000000; time: 06:19:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 02:57:16,951:UPDATE: search in 6 samples; iteration 12101000000; time: 06:24:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:01:51,373:UPDATE: search in 6 samples; iteration 12102000000; time: 06:29:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:07:18,346:UPDATE: search in 6 samples; iteration 12103000000; time: 06:34:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:10:55,286:UPDATE: search in 6 samples; iteration 12104000000; time: 06:38:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:14:11,014:UPDATE: search in 6 samples; iteration 12105000000; time: 06:41:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:16:43,563:UPDATE: search in 6 samples; iteration 12106000000; time: 06:44:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:19:21,845:UPDATE: search in 6 samples; iteration 12107000000; time: 06:46:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:22:08,579:UPDATE: search in 6 samples; iteration 12108000000; time: 06:49:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:25:31,822:UPDATE: search in 6 samples; iteration 12109000000; time: 06:53:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:29:32,202:UPDATE: search in 6 samples; iteration 12110000000; time: 06:57:08; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:32:25,299:UPDATE: search in 6 samples; iteration 12111000000; time: 07:00:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:37:02,513:UPDATE: search in 6 samples; iteration 12112000000; time: 07:04:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:40:26,994:UPDATE: search in 6 samples; iteration 12113000000; time: 07:08:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:43:50,425:UPDATE: search in 6 samples; iteration 12114000000; time: 07:11:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:49:02,576:UPDATE: search in 6 samples; iteration 12115000000; time: 07:16:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:52:23,894:UPDATE: search in 6 samples; iteration 12116000000; time: 07:20:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 03:58:18,600:UPDATE: search in 6 samples; iteration 12117000000; time: 07:25:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:04:24,885:UPDATE: search in 6 samples; iteration 12118000000; time: 07:32:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:09:14,588:UPDATE: search in 6 samples; iteration 12119000000; time: 07:36:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:15:47,102:UPDATE: search in 6 samples; iteration 12120000000; time: 07:43:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:23:33,761:UPDATE: search in 6 samples; iteration 12121000000; time: 07:51:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:28:11,706:UPDATE: search in 6 samples; iteration 12122000000; time: 07:55:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:33:14,847:UPDATE: search in 6 samples; iteration 12123000000; time: 08:00:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:36:47,401:UPDATE: search in 6 samples; iteration 12124000000; time: 08:04:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:40:26,051:UPDATE: search in 6 samples; iteration 12125000000; time: 08:08:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:46:14,642:UPDATE: search in 6 samples; iteration 12126000000; time: 08:13:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:50:58,746:UPDATE: search in 6 samples; iteration 12127000000; time: 08:18:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 04:56:55,629:UPDATE: search in 6 samples; iteration 12128000000; time: 08:24:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:02:31,169:UPDATE: search in 6 samples; iteration 12129000000; time: 08:30:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:07:07,808:UPDATE: search in 6 samples; iteration 12130000000; time: 08:34:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:10:02,845:UPDATE: search in 6 samples; iteration 12131000000; time: 08:37:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:12:25,460:UPDATE: search in 6 samples; iteration 12132000000; time: 08:40:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:15:11,249:UPDATE: search in 6 samples; iteration 12133000000; time: 08:42:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:18:23,124:UPDATE: search in 6 samples; iteration 12134000000; time: 08:45:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:21:15,065:UPDATE: search in 6 samples; iteration 12135000000; time: 08:48:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:23:39,067:UPDATE: search in 6 samples; iteration 12136000000; time: 08:51:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:26:14,667:UPDATE: search in 6 samples; iteration 12137000000; time: 08:53:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:28:46,568:UPDATE: search in 6 samples; iteration 12138000000; time: 08:56:22; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:31:54,168:UPDATE: search in 6 samples; iteration 12139000000; time: 08:59:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:36:53,782:UPDATE: search in 6 samples; iteration 12140000000; time: 09:04:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:41:16,534:UPDATE: search in 6 samples; iteration 12141000000; time: 09:08:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:45:00,523:UPDATE: search in 6 samples; iteration 12142000000; time: 09:12:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:50:16,921:UPDATE: search in 6 samples; iteration 12143000000; time: 09:17:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:55:54,313:UPDATE: search in 6 samples; iteration 12144000000; time: 09:23:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 05:59:41,675:UPDATE: search in 6 samples; iteration 12145000000; time: 09:27:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:03:06,938:UPDATE: search in 6 samples; iteration 12146000000; time: 09:30:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:06:33,744:UPDATE: search in 6 samples; iteration 12147000000; time: 09:34:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:08:28,801:UPDATE: search in 6 samples; iteration 12148000000; time: 09:36:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:10:36,419:UPDATE: search in 6 samples; iteration 12149000000; time: 09:38:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:13:00,363:UPDATE: search in 6 samples; iteration 12150000000; time: 09:40:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:15:17,851:UPDATE: search in 6 samples; iteration 12151000000; time: 09:42:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:17:54,748:UPDATE: search in 6 samples; iteration 12152000000; time: 09:45:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:20:31,473:UPDATE: search in 6 samples; iteration 12153000000; time: 09:48:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:22:34,397:UPDATE: search in 6 samples; iteration 12154000000; time: 09:50:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:24:47,968:UPDATE: search in 6 samples; iteration 12155000000; time: 09:52:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:26:57,085:UPDATE: search in 6 samples; iteration 12156000000; time: 09:54:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:29:35,350:UPDATE: search in 6 samples; iteration 12157000000; time: 09:57:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:31:45,655:UPDATE: search in 6 samples; iteration 12158000000; time: 09:59:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:34:07,750:UPDATE: search in 6 samples; iteration 12159000000; time: 10:01:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:38:36,089:UPDATE: search in 6 samples; iteration 12160000000; time: 10:06:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:40:38,907:UPDATE: search in 6 samples; iteration 12161000000; time: 10:08:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:42:48,911:UPDATE: search in 6 samples; iteration 12162000000; time: 10:10:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:45:26,460:UPDATE: search in 6 samples; iteration 12163000000; time: 10:13:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:47:46,141:UPDATE: search in 6 samples; iteration 12164000000; time: 10:15:22; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:49:50,135:UPDATE: search in 6 samples; iteration 12165000000; time: 10:17:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:52:02,399:UPDATE: search in 6 samples; iteration 12166000000; time: 10:19:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:56:07,834:UPDATE: search in 6 samples; iteration 12167000000; time: 10:23:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 06:59:35,759:UPDATE: search in 6 samples; iteration 12168000000; time: 10:27:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:02:32,360:UPDATE: search in 6 samples; iteration 12169000000; time: 10:30:08; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:06:33,753:UPDATE: search in 6 samples; iteration 12170000000; time: 10:34:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:12:07,576:UPDATE: search in 6 samples; iteration 12171000000; time: 10:39:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:16:26,097:UPDATE: search in 6 samples; iteration 12172000000; time: 10:44:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:18:52,311:UPDATE: search in 6 samples; iteration 12173000000; time: 10:46:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:21:17,680:UPDATE: search in 6 samples; iteration 12174000000; time: 10:48:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:23:50,181:UPDATE: search in 6 samples; iteration 12175000000; time: 10:51:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:27:12,782:UPDATE: search in 6 samples; iteration 12176000000; time: 10:54:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:30:28,612:UPDATE: search in 6 samples; iteration 12177000000; time: 10:58:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:33:42,458:UPDATE: search in 6 samples; iteration 12178000000; time: 11:01:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:37:07,478:UPDATE: search in 6 samples; iteration 12179000000; time: 11:04:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:40:00,172:UPDATE: search in 6 samples; iteration 12180000000; time: 11:07:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:44:15,160:UPDATE: search in 6 samples; iteration 12181000000; time: 11:11:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:48:27,146:UPDATE: search in 6 samples; iteration 12182000000; time: 11:16:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:52:26,407:UPDATE: search in 6 samples; iteration 12183000000; time: 11:20:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:56:26,373:UPDATE: search in 6 samples; iteration 12184000000; time: 11:24:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 07:59:25,916:UPDATE: search in 6 samples; iteration 12185000000; time: 11:27:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:02:54,364:UPDATE: search in 6 samples; iteration 12186000000; time: 11:30:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:07:33,027:UPDATE: search in 6 samples; iteration 12187000000; time: 11:35:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:12:33,461:UPDATE: search in 6 samples; iteration 12188000000; time: 11:40:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:17:13,401:UPDATE: search in 6 samples; iteration 12189000000; time: 11:44:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:22:06,804:UPDATE: search in 6 samples; iteration 12190000000; time: 11:49:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:26:37,555:UPDATE: search in 6 samples; iteration 12191000000; time: 11:54:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:31:36,888:UPDATE: search in 6 samples; iteration 12192000000; time: 11:59:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:34:28,267:UPDATE: search in 6 samples; iteration 12193000000; time: 12:02:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:38:18,474:UPDATE: search in 6 samples; iteration 12194000000; time: 12:05:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:41:52,111:UPDATE: search in 6 samples; iteration 12195000000; time: 12:09:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:44:48,100:UPDATE: search in 6 samples; iteration 12196000000; time: 12:12:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:48:51,280:UPDATE: search in 6 samples; iteration 12197000000; time: 12:16:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:52:07,591:UPDATE: search in 6 samples; iteration 12198000000; time: 12:19:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:55:04,972:UPDATE: search in 6 samples; iteration 12199000000; time: 12:22:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 08:58:10,553:UPDATE: search in 6 samples; iteration 12200000000; time: 12:25:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:03:00,696:UPDATE: search in 6 samples; iteration 12201000000; time: 12:30:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:07:14,805:UPDATE: search in 6 samples; iteration 12202000000; time: 12:34:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:11:19,822:UPDATE: search in 6 samples; iteration 12203000000; time: 12:38:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:15:57,306:UPDATE: search in 6 samples; iteration 12204000000; time: 12:43:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:19:18,333:UPDATE: search in 6 samples; iteration 12205000000; time: 12:46:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:22:28,530:UPDATE: search in 6 samples; iteration 12206000000; time: 12:50:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:25:42,569:UPDATE: search in 6 samples; iteration 12207000000; time: 12:53:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:30:25,844:UPDATE: search in 6 samples; iteration 12208000000; time: 12:58:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:35:35,562:UPDATE: search in 6 samples; iteration 12209000000; time: 13:03:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:40:23,500:UPDATE: search in 6 samples; iteration 12210000000; time: 13:07:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:45:54,509:UPDATE: search in 6 samples; iteration 12211000000; time: 13:13:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:51:20,320:UPDATE: search in 6 samples; iteration 12212000000; time: 13:18:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 09:56:13,155:UPDATE: search in 6 samples; iteration 12213000000; time: 13:23:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:00:38,739:UPDATE: search in 6 samples; iteration 12214000000; time: 13:28:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:04:57,980:UPDATE: search in 6 samples; iteration 12215000000; time: 13:32:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:10:18,272:UPDATE: search in 6 samples; iteration 12216000000; time: 13:37:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:13:22,404:UPDATE: search in 6 samples; iteration 12217000000; time: 13:40:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:17:41,855:UPDATE: search in 6 samples; iteration 12218000000; time: 13:45:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:21:22,932:UPDATE: search in 6 samples; iteration 12219000000; time: 13:48:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:24:06,890:UPDATE: search in 6 samples; iteration 12220000000; time: 13:51:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:26:06,421:UPDATE: search in 6 samples; iteration 12221000000; time: 13:53:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:27:50,755:UPDATE: search in 6 samples; iteration 12222000000; time: 13:55:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:29:50,422:UPDATE: search in 6 samples; iteration 12223000000; time: 13:57:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:32:01,193:UPDATE: search in 6 samples; iteration 12224000000; time: 13:59:37; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:34:18,015:UPDATE: search in 6 samples; iteration 12225000000; time: 14:01:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:36:36,247:UPDATE: search in 6 samples; iteration 12226000000; time: 14:04:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:39:22,669:UPDATE: search in 6 samples; iteration 12227000000; time: 14:06:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:41:41,695:UPDATE: search in 6 samples; iteration 12228000000; time: 14:09:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:44:06,917:UPDATE: search in 6 samples; iteration 12229000000; time: 14:11:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:45:51,106:UPDATE: search in 6 samples; iteration 12230000000; time: 14:13:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:48:18,471:UPDATE: search in 6 samples; iteration 12231000000; time: 14:15:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:51:38,423:UPDATE: search in 6 samples; iteration 12232000000; time: 14:19:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:53:41,062:UPDATE: search in 6 samples; iteration 12233000000; time: 14:21:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:57:19,013:UPDATE: search in 6 samples; iteration 12234000000; time: 14:24:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 10:59:26,701:UPDATE: search in 6 samples; iteration 12235000000; time: 14:27:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:02:54,608:UPDATE: search in 6 samples; iteration 12236000000; time: 14:30:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:05:48,102:UPDATE: search in 6 samples; iteration 12237000000; time: 14:33:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:08:20,320:UPDATE: search in 6 samples; iteration 12238000000; time: 14:35:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:11:43,895:UPDATE: search in 6 samples; iteration 12239000000; time: 14:39:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:14:14,597:UPDATE: search in 6 samples; iteration 12240000000; time: 14:41:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:16:24,314:UPDATE: search in 6 samples; iteration 12241000000; time: 14:44:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:18:29,849:UPDATE: search in 6 samples; iteration 12242000000; time: 14:46:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:21:35,285:UPDATE: search in 6 samples; iteration 12243000000; time: 14:49:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:24:15,807:UPDATE: search in 6 samples; iteration 12244000000; time: 14:51:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:28:27,006:UPDATE: search in 6 samples; iteration 12245000000; time: 14:56:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:31:19,809:UPDATE: search in 6 samples; iteration 12246000000; time: 14:58:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:34:42,324:UPDATE: search in 6 samples; iteration 12247000000; time: 15:02:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:37:32,706:UPDATE: search in 6 samples; iteration 12248000000; time: 15:05:08; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:42:18,243:UPDATE: search in 6 samples; iteration 12249000000; time: 15:09:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:48:47,787:UPDATE: search in 6 samples; iteration 12250000000; time: 15:16:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 11:57:05,050:UPDATE: search in 6 samples; iteration 12251000000; time: 15:24:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:05:12,639:UPDATE: search in 6 samples; iteration 12252000000; time: 15:32:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:10:56,858:UPDATE: search in 6 samples; iteration 12253000000; time: 15:38:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:18:31,198:UPDATE: search in 6 samples; iteration 12254000000; time: 15:46:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:26:42,330:UPDATE: search in 6 samples; iteration 12255000000; time: 15:54:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:31:51,967:UPDATE: search in 6 samples; iteration 12256000000; time: 15:59:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:34:05,397:UPDATE: search in 6 samples; iteration 12257000000; time: 16:01:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:36:18,421:UPDATE: search in 6 samples; iteration 12258000000; time: 16:03:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:38:43,215:UPDATE: search in 6 samples; iteration 12259000000; time: 16:06:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:42:03,137:UPDATE: search in 6 samples; iteration 12260000000; time: 16:09:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:47:02,290:UPDATE: search in 6 samples; iteration 12261000000; time: 16:14:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 12:52:57,571:UPDATE: search in 6 samples; iteration 12262000000; time: 16:20:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:00:54,383:UPDATE: search in 6 samples; iteration 12263000000; time: 16:28:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:09:58,389:UPDATE: search in 6 samples; iteration 12264000000; time: 16:37:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:19:31,045:UPDATE: search in 6 samples; iteration 12265000000; time: 16:47:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:27:07,272:UPDATE: search in 6 samples; iteration 12266000000; time: 16:54:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:30:54,306:UPDATE: search in 6 samples; iteration 12267000000; time: 16:58:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:33:41,789:UPDATE: search in 6 samples; iteration 12268000000; time: 17:01:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:36:28,735:UPDATE: search in 6 samples; iteration 12269000000; time: 17:04:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:39:21,416:UPDATE: search in 6 samples; iteration 12270000000; time: 17:06:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:45:44,508:UPDATE: search in 6 samples; iteration 12271000000; time: 17:13:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:53:31,264:UPDATE: search in 6 samples; iteration 12272000000; time: 17:21:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 13:59:02,462:UPDATE: search in 6 samples; iteration 12273000000; time: 17:26:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:04:03,119:UPDATE: search in 6 samples; iteration 12274000000; time: 17:31:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:06:27,968:UPDATE: search in 6 samples; iteration 12275000000; time: 17:34:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:09:16,617:UPDATE: search in 6 samples; iteration 12276000000; time: 17:36:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:12:50,588:UPDATE: search in 6 samples; iteration 12277000000; time: 17:40:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:16:53,690:UPDATE: search in 6 samples; iteration 12278000000; time: 17:44:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:20:42,547:UPDATE: search in 6 samples; iteration 12279000000; time: 17:48:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:25:00,459:UPDATE: search in 6 samples; iteration 12280000000; time: 17:52:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:27:50,176:UPDATE: search in 6 samples; iteration 12281000000; time: 17:55:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:32:54,674:UPDATE: search in 6 samples; iteration 12282000000; time: 18:00:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:36:13,964:UPDATE: search in 6 samples; iteration 12283000000; time: 18:03:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:41:23,028:UPDATE: search in 6 samples; iteration 12284000000; time: 18:08:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:45:42,019:UPDATE: search in 6 samples; iteration 12285000000; time: 18:13:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:49:36,293:UPDATE: search in 6 samples; iteration 12286000000; time: 18:17:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:54:36,586:UPDATE: search in 6 samples; iteration 12287000000; time: 18:22:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 14:58:53,044:UPDATE: search in 6 samples; iteration 12288000000; time: 18:26:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:01:20,168:UPDATE: search in 6 samples; iteration 12289000000; time: 18:28:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:03:47,856:UPDATE: search in 6 samples; iteration 12290000000; time: 18:31:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:06:17,226:UPDATE: search in 6 samples; iteration 12291000000; time: 18:33:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:09:23,507:UPDATE: search in 6 samples; iteration 12292000000; time: 18:36:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:12:05,369:UPDATE: search in 6 samples; iteration 12293000000; time: 18:39:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:16:05,999:UPDATE: search in 6 samples; iteration 12294000000; time: 18:43:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:19:47,908:UPDATE: search in 6 samples; iteration 12295000000; time: 18:47:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:24:01,845:UPDATE: search in 6 samples; iteration 12296000000; time: 18:51:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:27:38,531:UPDATE: search in 6 samples; iteration 12297000000; time: 18:55:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:31:05,550:UPDATE: search in 6 samples; iteration 12298000000; time: 18:58:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:34:19,172:UPDATE: search in 6 samples; iteration 12299000000; time: 19:01:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:37:34,164:UPDATE: search in 6 samples; iteration 12300000000; time: 19:05:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:42:31,496:UPDATE: search in 6 samples; iteration 12301000000; time: 19:10:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:46:12,701:UPDATE: search in 6 samples; iteration 12302000000; time: 19:13:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:50:21,726:UPDATE: search in 6 samples; iteration 12303000000; time: 19:17:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:55:48,348:UPDATE: search in 6 samples; iteration 12304000000; time: 19:23:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 15:59:55,415:UPDATE: search in 6 samples; iteration 12305000000; time: 19:27:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:04:43,623:UPDATE: search in 6 samples; iteration 12306000000; time: 19:32:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:09:23,006:UPDATE: search in 6 samples; iteration 12307000000; time: 19:36:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:14:54,711:UPDATE: search in 6 samples; iteration 12308000000; time: 19:42:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:19:30,410:UPDATE: search in 6 samples; iteration 12309000000; time: 19:47:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:23:20,530:UPDATE: search in 6 samples; iteration 12310000000; time: 19:50:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:27:13,743:UPDATE: search in 6 samples; iteration 12311000000; time: 19:54:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:31:27,597:UPDATE: search in 6 samples; iteration 12312000000; time: 19:59:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:35:27,420:UPDATE: search in 6 samples; iteration 12313000000; time: 20:03:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:40:19,859:UPDATE: search in 6 samples; iteration 12314000000; time: 20:07:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:47:23,278:UPDATE: search in 6 samples; iteration 12315000000; time: 20:14:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:52:47,386:UPDATE: search in 6 samples; iteration 12316000000; time: 20:20:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 16:59:45,439:UPDATE: search in 6 samples; iteration 12317000000; time: 20:27:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:06:08,306:UPDATE: search in 6 samples; iteration 12318000000; time: 20:33:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:12:17,532:UPDATE: search in 6 samples; iteration 12319000000; time: 20:39:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:18:37,545:UPDATE: search in 6 samples; iteration 12320000000; time: 20:46:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:25:43,626:UPDATE: search in 6 samples; iteration 12321000000; time: 20:53:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:30:25,407:UPDATE: search in 6 samples; iteration 12322000000; time: 20:58:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:34:21,848:UPDATE: search in 6 samples; iteration 12323000000; time: 21:01:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:38:16,854:UPDATE: search in 6 samples; iteration 12324000000; time: 21:05:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:41:55,965:UPDATE: search in 6 samples; iteration 12325000000; time: 21:09:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:44:07,907:UPDATE: search in 6 samples; iteration 12326000000; time: 21:11:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:46:21,589:UPDATE: search in 6 samples; iteration 12327000000; time: 21:13:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:49:52,247:UPDATE: search in 6 samples; iteration 12328000000; time: 21:17:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:52:30,202:UPDATE: search in 6 samples; iteration 12329000000; time: 21:20:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:54:49,258:UPDATE: search in 6 samples; iteration 12330000000; time: 21:22:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 17:57:31,083:UPDATE: search in 6 samples; iteration 12331000000; time: 21:25:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:00:09,713:UPDATE: search in 6 samples; iteration 12332000000; time: 21:27:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:02:40,146:UPDATE: search in 6 samples; iteration 12333000000; time: 21:30:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:04:52,391:UPDATE: search in 6 samples; iteration 12334000000; time: 21:32:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:06:53,151:UPDATE: search in 6 samples; iteration 12335000000; time: 21:34:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:09:27,604:UPDATE: search in 6 samples; iteration 12336000000; time: 21:37:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:12:40,362:UPDATE: search in 6 samples; iteration 12337000000; time: 21:40:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:16:48,420:UPDATE: search in 6 samples; iteration 12338000000; time: 21:44:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:20:18,307:UPDATE: search in 6 samples; iteration 12339000000; time: 21:47:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:23:33,831:UPDATE: search in 6 samples; iteration 12340000000; time: 21:51:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:26:47,902:UPDATE: search in 6 samples; iteration 12341000000; time: 21:54:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:29:59,893:UPDATE: search in 6 samples; iteration 12342000000; time: 21:57:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:34:31,580:UPDATE: search in 6 samples; iteration 12343000000; time: 22:02:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:38:26,146:UPDATE: search in 6 samples; iteration 12344000000; time: 22:06:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:41:04,905:UPDATE: search in 6 samples; iteration 12345000000; time: 22:08:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:43:13,092:UPDATE: search in 6 samples; iteration 12346000000; time: 22:10:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:45:15,907:UPDATE: search in 6 samples; iteration 12347000000; time: 22:12:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:47:26,555:UPDATE: search in 6 samples; iteration 12348000000; time: 22:15:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:49:27,858:UPDATE: search in 6 samples; iteration 12349000000; time: 22:17:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:51:35,065:UPDATE: search in 6 samples; iteration 12350000000; time: 22:19:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:53:55,364:UPDATE: search in 6 samples; iteration 12351000000; time: 22:21:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:56:38,334:UPDATE: search in 6 samples; iteration 12352000000; time: 22:24:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 18:59:13,295:UPDATE: search in 6 samples; iteration 12353000000; time: 22:26:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:01:45,094:UPDATE: search in 6 samples; iteration 12354000000; time: 22:29:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:04:26,498:UPDATE: search in 6 samples; iteration 12355000000; time: 22:32:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:07:02,495:UPDATE: search in 6 samples; iteration 12356000000; time: 22:34:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:09:21,338:UPDATE: search in 6 samples; iteration 12357000000; time: 22:36:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:11:44,325:UPDATE: search in 6 samples; iteration 12358000000; time: 22:39:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:14:41,841:UPDATE: search in 6 samples; iteration 12359000000; time: 22:42:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:16:58,366:UPDATE: search in 6 samples; iteration 12360000000; time: 22:44:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:20:31,860:UPDATE: search in 6 samples; iteration 12361000000; time: 22:48:08; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:22:55,491:UPDATE: search in 6 samples; iteration 12362000000; time: 22:50:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:25:38,017:UPDATE: search in 6 samples; iteration 12363000000; time: 22:53:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:28:06,765:UPDATE: search in 6 samples; iteration 12364000000; time: 22:55:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:30:58,239:UPDATE: search in 6 samples; iteration 12365000000; time: 22:58:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:33:28,418:UPDATE: search in 6 samples; iteration 12366000000; time: 23:01:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:35:54,684:UPDATE: search in 6 samples; iteration 12367000000; time: 23:03:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:37:44,383:UPDATE: search in 6 samples; iteration 12368000000; time: 23:05:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:40:27,212:UPDATE: search in 6 samples; iteration 12369000000; time: 23:08:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:42:23,755:UPDATE: search in 6 samples; iteration 12370000000; time: 23:09:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:46:05,270:UPDATE: search in 6 samples; iteration 12371000000; time: 23:13:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:49:30,710:UPDATE: search in 6 samples; iteration 12372000000; time: 23:17:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:52:53,820:UPDATE: search in 6 samples; iteration 12373000000; time: 23:20:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:55:53,930:UPDATE: search in 6 samples; iteration 12374000000; time: 23:23:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 19:58:49,928:UPDATE: search in 6 samples; iteration 12375000000; time: 23:26:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:05:26,860:UPDATE: search in 6 samples; iteration 12376000000; time: 23:33:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:13:15,071:UPDATE: search in 6 samples; iteration 12377000000; time: 23:40:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:20:02,364:UPDATE: search in 6 samples; iteration 12378000000; time: 23:47:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:26:21,466:UPDATE: search in 6 samples; iteration 12379000000; time: 23:53:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:32:33,938:UPDATE: search in 6 samples; iteration 12380000000; time: 00:00:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:43:39,730:UPDATE: search in 6 samples; iteration 12381000000; time: 00:11:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:50:13,283:UPDATE: search in 6 samples; iteration 12382000000; time: 00:17:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 20:56:06,104:UPDATE: search in 6 samples; iteration 12383000000; time: 00:23:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:01:02,054:UPDATE: search in 6 samples; iteration 12384000000; time: 00:28:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:05:25,760:UPDATE: search in 6 samples; iteration 12385000000; time: 00:33:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:10:02,978:UPDATE: search in 6 samples; iteration 12386000000; time: 00:37:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:14:56,843:UPDATE: search in 6 samples; iteration 12387000000; time: 00:42:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:19:26,697:UPDATE: search in 6 samples; iteration 12388000000; time: 00:47:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:23:55,385:UPDATE: search in 6 samples; iteration 12389000000; time: 00:51:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:29:16,943:UPDATE: search in 6 samples; iteration 12390000000; time: 00:56:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:34:46,822:UPDATE: search in 6 samples; iteration 12391000000; time: 01:02:22; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:41:33,495:UPDATE: search in 6 samples; iteration 12392000000; time: 01:09:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:50:42,393:UPDATE: search in 6 samples; iteration 12393000000; time: 01:18:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 21:59:37,247:UPDATE: search in 6 samples; iteration 12394000000; time: 01:27:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:11:25,042:UPDATE: search in 6 samples; iteration 12395000000; time: 01:39:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:19:11,034:UPDATE: search in 6 samples; iteration 12396000000; time: 01:46:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:28:18,332:UPDATE: search in 6 samples; iteration 12397000000; time: 01:55:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:38:43,124:UPDATE: search in 6 samples; iteration 12398000000; time: 02:06:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:45:30,035:UPDATE: search in 6 samples; iteration 12399000000; time: 02:13:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:51:41,659:UPDATE: search in 6 samples; iteration 12400000000; time: 02:19:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:54:44,716:UPDATE: search in 6 samples; iteration 12401000000; time: 02:22:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 22:57:42,672:UPDATE: search in 6 samples; iteration 12402000000; time: 02:25:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:00:38,373:UPDATE: search in 6 samples; iteration 12403000000; time: 02:28:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:04:05,450:UPDATE: search in 6 samples; iteration 12404000000; time: 02:31:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:08:47,458:UPDATE: search in 6 samples; iteration 12405000000; time: 02:36:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:14:02,711:UPDATE: search in 6 samples; iteration 12406000000; time: 02:41:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:19:36,663:UPDATE: search in 6 samples; iteration 12407000000; time: 02:47:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:25:24,446:UPDATE: search in 6 samples; iteration 12408000000; time: 02:53:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:29:06,066:UPDATE: search in 6 samples; iteration 12409000000; time: 02:56:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:34:16,554:UPDATE: search in 6 samples; iteration 12410000000; time: 03:01:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:38:41,709:UPDATE: search in 6 samples; iteration 12411000000; time: 03:06:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:42:17,883:UPDATE: search in 6 samples; iteration 12412000000; time: 03:09:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:45:19,533:UPDATE: search in 6 samples; iteration 12413000000; time: 03:12:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:48:36,995:UPDATE: search in 6 samples; iteration 12414000000; time: 03:16:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:54:51,220:UPDATE: search in 6 samples; iteration 12415000000; time: 03:22:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-03 23:59:05,140:UPDATE: search in 6 samples; iteration 12416000000; time: 03:26:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:04:17,609:UPDATE: search in 6 samples; iteration 12417000000; time: 03:31:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:09:59,145:UPDATE: search in 6 samples; iteration 12418000000; time: 03:37:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:14:11,272:UPDATE: search in 6 samples; iteration 12419000000; time: 03:41:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:17:26,059:UPDATE: search in 6 samples; iteration 12420000000; time: 03:45:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:20:23,223:UPDATE: search in 6 samples; iteration 12421000000; time: 03:47:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:23:35,616:UPDATE: search in 6 samples; iteration 12422000000; time: 03:51:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:27:07,187:UPDATE: search in 6 samples; iteration 12423000000; time: 03:54:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:30:37,129:UPDATE: search in 6 samples; iteration 12424000000; time: 03:58:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:35:31,715:UPDATE: search in 6 samples; iteration 12425000000; time: 04:03:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:39:37,436:UPDATE: search in 6 samples; iteration 12426000000; time: 04:07:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:44:59,783:UPDATE: search in 6 samples; iteration 12427000000; time: 04:12:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:49:42,212:UPDATE: search in 6 samples; iteration 12428000000; time: 04:17:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:53:25,473:UPDATE: search in 6 samples; iteration 12429000000; time: 04:21:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 00:57:34,534:UPDATE: search in 6 samples; iteration 12430000000; time: 04:25:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:01:42,895:UPDATE: search in 6 samples; iteration 12431000000; time: 04:29:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:06:34,600:UPDATE: search in 6 samples; iteration 12432000000; time: 04:34:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:11:16,862:UPDATE: search in 6 samples; iteration 12433000000; time: 04:38:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:17:14,957:UPDATE: search in 6 samples; iteration 12434000000; time: 04:44:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:24:57,719:UPDATE: search in 6 samples; iteration 12435000000; time: 04:52:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:31:27,787:UPDATE: search in 6 samples; iteration 12436000000; time: 04:59:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:38:06,946:UPDATE: search in 6 samples; iteration 12437000000; time: 05:05:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:46:40,652:UPDATE: search in 6 samples; iteration 12438000000; time: 05:14:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 01:53:35,600:UPDATE: search in 6 samples; iteration 12439000000; time: 05:21:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:00:07,172:UPDATE: search in 6 samples; iteration 12440000000; time: 05:27:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:06:09,314:UPDATE: search in 6 samples; iteration 12441000000; time: 05:33:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:11:56,212:UPDATE: search in 6 samples; iteration 12442000000; time: 05:39:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:22:26,221:UPDATE: search in 6 samples; iteration 12443000000; time: 05:50:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:31:35,024:UPDATE: search in 6 samples; iteration 12444000000; time: 05:59:11; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:40:06,393:UPDATE: search in 6 samples; iteration 12445000000; time: 06:07:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:48:58,249:UPDATE: search in 6 samples; iteration 12446000000; time: 06:16:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 02:56:19,291:UPDATE: search in 6 samples; iteration 12447000000; time: 06:23:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:04:54,843:UPDATE: search in 6 samples; iteration 12448000000; time: 06:32:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:12:25,534:UPDATE: search in 6 samples; iteration 12449000000; time: 06:40:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:20:19,346:UPDATE: search in 6 samples; iteration 12450000000; time: 06:47:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:27:41,511:UPDATE: search in 6 samples; iteration 12451000000; time: 06:55:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:34:03,362:UPDATE: search in 6 samples; iteration 12452000000; time: 07:01:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:42:25,351:UPDATE: search in 6 samples; iteration 12453000000; time: 07:10:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:49:31,304:UPDATE: search in 6 samples; iteration 12454000000; time: 07:17:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 03:58:47,584:UPDATE: search in 6 samples; iteration 12455000000; time: 07:26:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:03:22,037:UPDATE: search in 6 samples; iteration 12456000000; time: 07:30:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:09:47,042:UPDATE: search in 6 samples; iteration 12457000000; time: 07:37:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:17:27,969:UPDATE: search in 6 samples; iteration 12458000000; time: 07:45:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:23:48,344:UPDATE: search in 6 samples; iteration 12459000000; time: 07:51:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:31:58,665:UPDATE: search in 6 samples; iteration 12460000000; time: 07:59:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:39:45,561:UPDATE: search in 6 samples; iteration 12461000000; time: 08:07:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:48:15,527:UPDATE: search in 6 samples; iteration 12462000000; time: 08:15:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 04:56:01,091:UPDATE: search in 6 samples; iteration 12463000000; time: 08:23:37; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:04:20,066:UPDATE: search in 6 samples; iteration 12464000000; time: 08:31:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:12:32,961:UPDATE: search in 6 samples; iteration 12465000000; time: 08:40:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:20:59,268:UPDATE: search in 6 samples; iteration 12466000000; time: 08:48:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:28:48,845:UPDATE: search in 6 samples; iteration 12467000000; time: 08:56:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:35:52,778:UPDATE: search in 6 samples; iteration 12468000000; time: 09:03:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:44:04,708:UPDATE: search in 6 samples; iteration 12469000000; time: 09:11:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 05:52:38,389:UPDATE: search in 6 samples; iteration 12470000000; time: 09:20:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:01:16,014:UPDATE: search in 6 samples; iteration 12471000000; time: 09:28:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:08:22,202:UPDATE: search in 6 samples; iteration 12472000000; time: 09:35:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:15:14,850:UPDATE: search in 6 samples; iteration 12473000000; time: 09:42:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:21:54,674:UPDATE: search in 6 samples; iteration 12474000000; time: 09:49:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:29:10,012:UPDATE: search in 6 samples; iteration 12475000000; time: 09:56:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:36:42,841:UPDATE: search in 6 samples; iteration 12476000000; time: 10:04:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:45:25,145:UPDATE: search in 6 samples; iteration 12477000000; time: 10:13:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 06:52:57,666:UPDATE: search in 6 samples; iteration 12478000000; time: 10:20:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:01:44,130:UPDATE: search in 6 samples; iteration 12479000000; time: 10:29:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:09:47,409:UPDATE: search in 6 samples; iteration 12480000000; time: 10:37:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:17:04,822:UPDATE: search in 6 samples; iteration 12481000000; time: 10:44:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:25:03,118:UPDATE: search in 6 samples; iteration 12482000000; time: 10:52:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:32:07,911:UPDATE: search in 6 samples; iteration 12483000000; time: 10:59:44; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:39:03,527:UPDATE: search in 6 samples; iteration 12484000000; time: 11:06:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:45:33,757:UPDATE: search in 6 samples; iteration 12485000000; time: 11:13:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 07:53:51,036:UPDATE: search in 6 samples; iteration 12486000000; time: 11:21:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:00:14,245:UPDATE: search in 6 samples; iteration 12487000000; time: 11:27:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:09:26,456:UPDATE: search in 6 samples; iteration 12488000000; time: 11:37:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:17:18,166:UPDATE: search in 6 samples; iteration 12489000000; time: 11:44:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:26:27,168:UPDATE: search in 6 samples; iteration 12490000000; time: 11:54:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:32:27,283:UPDATE: search in 6 samples; iteration 12491000000; time: 12:00:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:37:09,835:UPDATE: search in 6 samples; iteration 12492000000; time: 12:04:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:43:20,591:UPDATE: search in 6 samples; iteration 12493000000; time: 12:10:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:50:38,020:UPDATE: search in 6 samples; iteration 12494000000; time: 12:18:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 08:56:34,663:UPDATE: search in 6 samples; iteration 12495000000; time: 12:24:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:02:50,253:UPDATE: search in 6 samples; iteration 12496000000; time: 12:30:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:09:28,077:UPDATE: search in 6 samples; iteration 12497000000; time: 12:37:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:17:00,213:UPDATE: search in 6 samples; iteration 12498000000; time: 12:44:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:24:00,563:UPDATE: search in 6 samples; iteration 12499000000; time: 12:51:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:30:48,317:UPDATE: search in 6 samples; iteration 12500000000; time: 12:58:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:38:40,727:UPDATE: search in 6 samples; iteration 12501000000; time: 13:06:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:45:41,847:UPDATE: search in 6 samples; iteration 12502000000; time: 13:13:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 09:54:06,939:UPDATE: search in 6 samples; iteration 12503000000; time: 13:21:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:00:05,187:UPDATE: search in 6 samples; iteration 12504000000; time: 13:27:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:07:01,974:UPDATE: search in 6 samples; iteration 12505000000; time: 13:34:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:14:37,819:UPDATE: search in 6 samples; iteration 12506000000; time: 13:42:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:22:27,811:UPDATE: search in 6 samples; iteration 12507000000; time: 13:50:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:28:34,706:UPDATE: search in 6 samples; iteration 12508000000; time: 13:56:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:35:36,605:UPDATE: search in 6 samples; iteration 12509000000; time: 14:03:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:42:37,128:UPDATE: search in 6 samples; iteration 12510000000; time: 14:10:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:50:46,510:UPDATE: search in 6 samples; iteration 12511000000; time: 14:18:22; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 10:56:42,133:UPDATE: search in 6 samples; iteration 12512000000; time: 14:24:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:05:00,713:UPDATE: search in 6 samples; iteration 12513000000; time: 14:32:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:12:07,249:UPDATE: search in 6 samples; iteration 12514000000; time: 14:39:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:19:05,609:UPDATE: search in 6 samples; iteration 12515000000; time: 14:46:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:26:03,301:UPDATE: search in 6 samples; iteration 12516000000; time: 14:53:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:34:19,852:UPDATE: search in 6 samples; iteration 12517000000; time: 15:01:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:41:09,227:UPDATE: search in 6 samples; iteration 12518000000; time: 15:08:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:48:48,821:UPDATE: search in 6 samples; iteration 12519000000; time: 15:16:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 11:56:03,673:UPDATE: search in 6 samples; iteration 12520000000; time: 15:23:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:04:18,861:UPDATE: search in 6 samples; iteration 12521000000; time: 15:31:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:11:31,654:UPDATE: search in 6 samples; iteration 12522000000; time: 15:39:07; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:20:01,101:UPDATE: search in 6 samples; iteration 12523000000; time: 15:47:37; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:26:37,412:UPDATE: search in 6 samples; iteration 12524000000; time: 15:54:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:33:57,563:UPDATE: search in 6 samples; iteration 12525000000; time: 16:01:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:40:26,996:UPDATE: search in 6 samples; iteration 12526000000; time: 16:08:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:47:11,753:UPDATE: search in 6 samples; iteration 12527000000; time: 16:14:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 12:55:18,729:UPDATE: search in 6 samples; iteration 12528000000; time: 16:22:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:02:25,571:UPDATE: search in 6 samples; iteration 12529000000; time: 16:30:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:09:37,168:UPDATE: search in 6 samples; iteration 12530000000; time: 16:37:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:16:57,524:UPDATE: search in 6 samples; iteration 12531000000; time: 16:44:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:25:33,343:UPDATE: search in 6 samples; iteration 12532000000; time: 16:53:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:32:27,738:UPDATE: search in 6 samples; iteration 12533000000; time: 17:00:03; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:40:09,079:UPDATE: search in 6 samples; iteration 12534000000; time: 17:07:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:45:54,889:UPDATE: search in 6 samples; iteration 12535000000; time: 17:13:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 13:52:07,042:UPDATE: search in 6 samples; iteration 12536000000; time: 17:19:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:00:38,291:UPDATE: search in 6 samples; iteration 12537000000; time: 17:28:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:07:19,769:UPDATE: search in 6 samples; iteration 12538000000; time: 17:34:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:14:21,546:UPDATE: search in 6 samples; iteration 12539000000; time: 17:41:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:20:20,858:UPDATE: search in 6 samples; iteration 12540000000; time: 17:47:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:27:26,672:UPDATE: search in 6 samples; iteration 12541000000; time: 17:55:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:33:42,786:UPDATE: search in 6 samples; iteration 12542000000; time: 18:01:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:40:57,804:UPDATE: search in 6 samples; iteration 12543000000; time: 18:08:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:47:57,150:UPDATE: search in 6 samples; iteration 12544000000; time: 18:15:33; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 14:54:39,020:UPDATE: search in 6 samples; iteration 12545000000; time: 18:22:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:00:34,634:UPDATE: search in 6 samples; iteration 12546000000; time: 18:28:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:07:55,914:UPDATE: search in 6 samples; iteration 12547000000; time: 18:35:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:15:40,087:UPDATE: search in 6 samples; iteration 12548000000; time: 18:43:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:20:59,374:UPDATE: search in 6 samples; iteration 12549000000; time: 18:48:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:28:17,559:UPDATE: search in 6 samples; iteration 12550000000; time: 18:55:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:34:58,368:UPDATE: search in 6 samples; iteration 12551000000; time: 19:02:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:41:17,297:UPDATE: search in 6 samples; iteration 12552000000; time: 19:08:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:48:04,383:UPDATE: search in 6 samples; iteration 12553000000; time: 19:15:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 15:55:05,343:UPDATE: search in 6 samples; iteration 12554000000; time: 19:22:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:01:43,958:UPDATE: search in 6 samples; iteration 12555000000; time: 19:29:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:09:15,069:UPDATE: search in 6 samples; iteration 12556000000; time: 19:36:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:16:11,697:UPDATE: search in 6 samples; iteration 12557000000; time: 19:43:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:20:29,643:UPDATE: search in 6 samples; iteration 12558000000; time: 19:48:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:25:34,569:UPDATE: search in 6 samples; iteration 12559000000; time: 19:53:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:31:32,616:UPDATE: search in 6 samples; iteration 12560000000; time: 19:59:08; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:37:53,213:UPDATE: search in 6 samples; iteration 12561000000; time: 20:05:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:45:01,259:UPDATE: search in 6 samples; iteration 12562000000; time: 20:12:37; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:52:42,178:UPDATE: search in 6 samples; iteration 12563000000; time: 20:20:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 16:59:14,744:UPDATE: search in 6 samples; iteration 12564000000; time: 20:26:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:06:50,693:UPDATE: search in 6 samples; iteration 12565000000; time: 20:34:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:15:05,198:UPDATE: search in 6 samples; iteration 12566000000; time: 20:42:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:22:20,893:UPDATE: search in 6 samples; iteration 12567000000; time: 20:49:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:29:26,302:UPDATE: search in 6 samples; iteration 12568000000; time: 20:57:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:36:53,756:UPDATE: search in 6 samples; iteration 12569000000; time: 21:04:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:44:16,002:UPDATE: search in 6 samples; iteration 12570000000; time: 21:11:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:50:21,419:UPDATE: search in 6 samples; iteration 12571000000; time: 21:17:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 17:56:52,114:UPDATE: search in 6 samples; iteration 12572000000; time: 21:24:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:05:12,830:UPDATE: search in 6 samples; iteration 12573000000; time: 21:32:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:12:43,281:UPDATE: search in 6 samples; iteration 12574000000; time: 21:40:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:18:23,701:UPDATE: search in 6 samples; iteration 12575000000; time: 21:45:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:24:25,838:UPDATE: search in 6 samples; iteration 12576000000; time: 21:52:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:32:24,007:UPDATE: search in 6 samples; iteration 12577000000; time: 22:00:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:38:25,844:UPDATE: search in 6 samples; iteration 12578000000; time: 22:06:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:46:34,546:UPDATE: search in 6 samples; iteration 12579000000; time: 22:14:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 18:54:42,716:UPDATE: search in 6 samples; iteration 12580000000; time: 22:22:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:01:39,073:UPDATE: search in 6 samples; iteration 12581000000; time: 22:29:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:08:45,627:UPDATE: search in 6 samples; iteration 12582000000; time: 22:36:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:15:39,131:UPDATE: search in 6 samples; iteration 12583000000; time: 22:43:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:22:10,705:UPDATE: search in 6 samples; iteration 12584000000; time: 22:49:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:29:39,507:UPDATE: search in 6 samples; iteration 12585000000; time: 22:57:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:36:47,423:UPDATE: search in 6 samples; iteration 12586000000; time: 23:04:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:43:16,034:UPDATE: search in 6 samples; iteration 12587000000; time: 23:10:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:49:36,918:UPDATE: search in 6 samples; iteration 12588000000; time: 23:17:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 19:56:54,007:UPDATE: search in 6 samples; iteration 12589000000; time: 23:24:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:04:07,017:UPDATE: search in 6 samples; iteration 12590000000; time: 23:31:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:09:23,120:UPDATE: search in 6 samples; iteration 12591000000; time: 23:36:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:16:02,032:UPDATE: search in 6 samples; iteration 12592000000; time: 23:43:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:23:58,530:UPDATE: search in 6 samples; iteration 12593000000; time: 23:51:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:30:02,150:UPDATE: search in 6 samples; iteration 12594000000; time: 23:57:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:35:52,426:UPDATE: search in 6 samples; iteration 12595000000; time: 00:03:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:42:14,707:UPDATE: search in 6 samples; iteration 12596000000; time: 00:09:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:48:38,856:UPDATE: search in 6 samples; iteration 12597000000; time: 00:16:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 20:55:11,695:UPDATE: search in 6 samples; iteration 12598000000; time: 00:22:47; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:02:53,626:UPDATE: search in 6 samples; iteration 12599000000; time: 00:30:29; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:10:45,224:UPDATE: search in 6 samples; iteration 12600000000; time: 00:38:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:18:23,912:UPDATE: search in 6 samples; iteration 12601000000; time: 00:46:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:25:06,156:UPDATE: search in 6 samples; iteration 12602000000; time: 00:52:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:32:19,636:UPDATE: search in 6 samples; iteration 12603000000; time: 00:59:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:39:34,587:UPDATE: search in 6 samples; iteration 12604000000; time: 01:07:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:46:20,528:UPDATE: search in 6 samples; iteration 12605000000; time: 01:13:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 21:54:33,585:UPDATE: search in 6 samples; iteration 12606000000; time: 01:22:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:00:37,557:UPDATE: search in 6 samples; iteration 12607000000; time: 01:28:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:08:12,089:UPDATE: search in 6 samples; iteration 12608000000; time: 01:35:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:13:52,742:UPDATE: search in 6 samples; iteration 12609000000; time: 01:41:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:20:05,837:UPDATE: search in 6 samples; iteration 12610000000; time: 01:47:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:27:37,528:UPDATE: search in 6 samples; iteration 12611000000; time: 01:55:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:33:38,359:UPDATE: search in 6 samples; iteration 12612000000; time: 02:01:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:39:47,239:UPDATE: search in 6 samples; iteration 12613000000; time: 02:07:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:46:30,116:UPDATE: search in 6 samples; iteration 12614000000; time: 02:14:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 22:52:56,301:UPDATE: search in 6 samples; iteration 12615000000; time: 02:20:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:00:51,516:UPDATE: search in 6 samples; iteration 12616000000; time: 02:28:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:07:52,403:UPDATE: search in 6 samples; iteration 12617000000; time: 02:35:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:14:52,221:UPDATE: search in 6 samples; iteration 12618000000; time: 02:42:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:21:18,569:UPDATE: search in 6 samples; iteration 12619000000; time: 02:48:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:27:30,110:UPDATE: search in 6 samples; iteration 12620000000; time: 02:55:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:32:55,220:UPDATE: search in 6 samples; iteration 12621000000; time: 03:00:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:39:40,210:UPDATE: search in 6 samples; iteration 12622000000; time: 03:07:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:45:09,142:UPDATE: search in 6 samples; iteration 12623000000; time: 03:12:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:51:51,260:UPDATE: search in 6 samples; iteration 12624000000; time: 03:19:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-04 23:59:32,215:UPDATE: search in 6 samples; iteration 12625000000; time: 03:27:08; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:07:40,763:UPDATE: search in 6 samples; iteration 12626000000; time: 03:35:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:14:12,612:UPDATE: search in 6 samples; iteration 12627000000; time: 03:41:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:21:59,511:UPDATE: search in 6 samples; iteration 12628000000; time: 03:49:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:30:40,385:UPDATE: search in 6 samples; iteration 12629000000; time: 03:58:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:38:04,537:UPDATE: search in 6 samples; iteration 12630000000; time: 04:05:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:46:29,776:UPDATE: search in 6 samples; iteration 12631000000; time: 04:14:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:52:26,757:UPDATE: search in 6 samples; iteration 12632000000; time: 04:20:02; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 00:58:52,345:UPDATE: search in 6 samples; iteration 12633000000; time: 04:26:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:06:00,309:UPDATE: search in 6 samples; iteration 12634000000; time: 04:33:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:13:50,980:UPDATE: search in 6 samples; iteration 12635000000; time: 04:41:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:19:53,956:UPDATE: search in 6 samples; iteration 12636000000; time: 04:47:30; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:27:51,157:UPDATE: search in 6 samples; iteration 12637000000; time: 04:55:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:35:51,820:UPDATE: search in 6 samples; iteration 12638000000; time: 05:03:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:43:16,617:UPDATE: search in 6 samples; iteration 12639000000; time: 05:10:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:50:41,383:UPDATE: search in 6 samples; iteration 12640000000; time: 05:18:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 01:57:58,460:UPDATE: search in 6 samples; iteration 12641000000; time: 05:25:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 02:08:51,685:UPDATE: search in 6 samples; iteration 12642000000; time: 05:36:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 02:15:21,361:UPDATE: search in 6 samples; iteration 12643000000; time: 05:42:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 02:24:23,175:UPDATE: search in 6 samples; iteration 12644000000; time: 05:51:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 02:33:30,471:UPDATE: search in 6 samples; iteration 12645000000; time: 06:01:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 02:44:12,602:UPDATE: search in 6 samples; iteration 12646000000; time: 06:11:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 02:52:48,944:UPDATE: search in 6 samples; iteration 12647000000; time: 06:20:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 03:02:49,540:UPDATE: search in 6 samples; iteration 12648000000; time: 06:30:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 03:13:52,554:UPDATE: search in 6 samples; iteration 12649000000; time: 06:41:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 03:24:25,750:UPDATE: search in 6 samples; iteration 12650000000; time: 06:52:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 03:35:16,751:UPDATE: search in 6 samples; iteration 12651000000; time: 07:02:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 03:43:50,388:UPDATE: search in 6 samples; iteration 12652000000; time: 07:11:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 03:54:52,638:UPDATE: search in 6 samples; iteration 12653000000; time: 07:22:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:04:19,010:UPDATE: search in 6 samples; iteration 12654000000; time: 07:31:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:09:40,889:UPDATE: search in 6 samples; iteration 12655000000; time: 07:37:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:17:15,920:UPDATE: search in 6 samples; iteration 12656000000; time: 07:44:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:23:56,797:UPDATE: search in 6 samples; iteration 12657000000; time: 07:51:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:30:29,949:UPDATE: search in 6 samples; iteration 12658000000; time: 07:58:06; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:38:49,174:UPDATE: search in 6 samples; iteration 12659000000; time: 08:06:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:47:39,119:UPDATE: search in 6 samples; iteration 12660000000; time: 08:15:15; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 04:58:06,153:UPDATE: search in 6 samples; iteration 12661000000; time: 08:25:42; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:06:49,379:UPDATE: search in 6 samples; iteration 12662000000; time: 08:34:25; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:17:16,881:UPDATE: search in 6 samples; iteration 12663000000; time: 08:44:53; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:25:19,675:UPDATE: search in 6 samples; iteration 12664000000; time: 08:52:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:32:41,114:UPDATE: search in 6 samples; iteration 12665000000; time: 09:00:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:41:47,190:UPDATE: search in 6 samples; iteration 12666000000; time: 09:09:23; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:47:02,234:UPDATE: search in 6 samples; iteration 12667000000; time: 09:14:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 05:54:38,245:UPDATE: search in 6 samples; iteration 12668000000; time: 09:22:14; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 06:04:03,575:UPDATE: search in 6 samples; iteration 12669000000; time: 09:31:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 06:14:56,053:UPDATE: search in 6 samples; iteration 12670000000; time: 09:42:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 06:26:28,916:UPDATE: search in 6 samples; iteration 12671000000; time: 09:54:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 06:34:55,258:UPDATE: search in 6 samples; iteration 12672000000; time: 10:02:31; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 06:43:09,147:UPDATE: search in 6 samples; iteration 12673000000; time: 10:10:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 06:50:50,035:UPDATE: search in 6 samples; iteration 12674000000; time: 10:18:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:00:28,858:UPDATE: search in 6 samples; iteration 12675000000; time: 10:28:05; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:10:13,730:UPDATE: search in 6 samples; iteration 12676000000; time: 10:37:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:19:33,985:UPDATE: search in 6 samples; iteration 12677000000; time: 10:47:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:28:16,238:UPDATE: search in 6 samples; iteration 12678000000; time: 10:55:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:36:14,732:UPDATE: search in 6 samples; iteration 12679000000; time: 11:03:50; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:44:12,467:UPDATE: search in 6 samples; iteration 12680000000; time: 11:11:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 07:52:24,294:UPDATE: search in 6 samples; iteration 12681000000; time: 11:20:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:00:41,253:UPDATE: search in 6 samples; iteration 12682000000; time: 11:28:17; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:06:33,727:UPDATE: search in 6 samples; iteration 12683000000; time: 11:34:09; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:13:13,650:UPDATE: search in 6 samples; iteration 12684000000; time: 11:40:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:20:23,643:UPDATE: search in 6 samples; iteration 12685000000; time: 11:47:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:26:01,140:UPDATE: search in 6 samples; iteration 12686000000; time: 11:53:37; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:33:59,377:UPDATE: search in 6 samples; iteration 12687000000; time: 12:01:35; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:42:23,751:UPDATE: search in 6 samples; iteration 12688000000; time: 12:09:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:51:21,018:UPDATE: search in 6 samples; iteration 12689000000; time: 12:18:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 08:59:22,826:UPDATE: search in 6 samples; iteration 12690000000; time: 12:26:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:07:58,736:UPDATE: search in 6 samples; iteration 12691000000; time: 12:35:34; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:17:37,369:UPDATE: search in 6 samples; iteration 12692000000; time: 12:45:13; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:24:45,590:UPDATE: search in 6 samples; iteration 12693000000; time: 12:52:21; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:32:27,968:UPDATE: search in 6 samples; iteration 12694000000; time: 13:00:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:41:33,924:UPDATE: search in 6 samples; iteration 12695000000; time: 13:09:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:49:44,002:UPDATE: search in 6 samples; iteration 12696000000; time: 13:17:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 09:54:50,360:UPDATE: search in 6 samples; iteration 12697000000; time: 13:22:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:01:16,308:UPDATE: search in 6 samples; iteration 12698000000; time: 13:28:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:07:52,805:UPDATE: search in 6 samples; iteration 12699000000; time: 13:35:28; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:14:04,662:UPDATE: search in 6 samples; iteration 12700000000; time: 13:41:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:22:09,321:UPDATE: search in 6 samples; iteration 12701000000; time: 13:49:45; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:29:04,146:UPDATE: search in 6 samples; iteration 12702000000; time: 13:56:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:37:44,091:UPDATE: search in 6 samples; iteration 12703000000; time: 14:05:20; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:45:23,115:UPDATE: search in 6 samples; iteration 12704000000; time: 14:12:59; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 10:54:22,346:UPDATE: search in 6 samples; iteration 12705000000; time: 14:21:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:03:07,740:UPDATE: search in 6 samples; iteration 12706000000; time: 14:30:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:11:28,171:UPDATE: search in 6 samples; iteration 12707000000; time: 14:39:04; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:18:04,199:UPDATE: search in 6 samples; iteration 12708000000; time: 14:45:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:24:13,809:UPDATE: search in 6 samples; iteration 12709000000; time: 14:51:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:29:42,859:UPDATE: search in 6 samples; iteration 12710000000; time: 14:57:19; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:36:34,246:UPDATE: search in 6 samples; iteration 12711000000; time: 15:04:10; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:44:02,855:UPDATE: search in 6 samples; iteration 12712000000; time: 15:11:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:48:12,750:UPDATE: search in 6 samples; iteration 12713000000; time: 15:15:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:52:03,772:UPDATE: search in 6 samples; iteration 12714000000; time: 15:19:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 11:58:03,581:UPDATE: search in 6 samples; iteration 12715000000; time: 15:25:39; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:04:20,790:UPDATE: search in 6 samples; iteration 12716000000; time: 15:31:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:10:22,731:UPDATE: search in 6 samples; iteration 12717000000; time: 15:37:58; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:16:36,571:UPDATE: search in 6 samples; iteration 12718000000; time: 15:44:12; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:23:42,523:UPDATE: search in 6 samples; iteration 12719000000; time: 15:51:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:30:18,314:UPDATE: search in 6 samples; iteration 12720000000; time: 15:57:54; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:37:05,213:UPDATE: search in 6 samples; iteration 12721000000; time: 16:04:41; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:45:04,737:UPDATE: search in 6 samples; iteration 12722000000; time: 16:12:40; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 12:52:56,635:UPDATE: search in 6 samples; iteration 12723000000; time: 16:20:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:01:12,942:UPDATE: search in 6 samples; iteration 12724000000; time: 16:28:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:08:48,303:UPDATE: search in 6 samples; iteration 12725000000; time: 16:36:24; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:15:16,365:UPDATE: search in 6 samples; iteration 12726000000; time: 16:42:52; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:19:49,947:UPDATE: search in 6 samples; iteration 12727000000; time: 16:47:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:26:13,389:UPDATE: search in 6 samples; iteration 12728000000; time: 16:53:49; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:32:19,961:UPDATE: search in 6 samples; iteration 12729000000; time: 16:59:56; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:38:24,289:UPDATE: search in 6 samples; iteration 12730000000; time: 17:06:00; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:45:25,119:UPDATE: search in 6 samples; iteration 12731000000; time: 17:13:01; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:52:42,738:UPDATE: search in 6 samples; iteration 12732000000; time: 17:20:18; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 13:59:19,717:UPDATE: search in 6 samples; iteration 12733000000; time: 17:26:55; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:04:10,671:UPDATE: search in 6 samples; iteration 12734000000; time: 17:31:46; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:10:00,596:UPDATE: search in 6 samples; iteration 12735000000; time: 17:37:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:18:12,571:UPDATE: search in 6 samples; iteration 12736000000; time: 17:45:48; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:27:40,576:UPDATE: search in 6 samples; iteration 12737000000; time: 17:55:16; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:36:15,748:UPDATE: search in 6 samples; iteration 12738000000; time: 18:03:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:46:06,957:UPDATE: search in 6 samples; iteration 12739000000; time: 18:13:43; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 14:54:51,602:UPDATE: search in 6 samples; iteration 12740000000; time: 18:22:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:04:02,163:UPDATE: search in 6 samples; iteration 12741000000; time: 18:31:38; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:14:00,480:UPDATE: search in 6 samples; iteration 12742000000; time: 18:41:36; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:23:21,156:UPDATE: search in 6 samples; iteration 12743000000; time: 18:50:57; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:33:51,529:UPDATE: search in 6 samples; iteration 12744000000; time: 19:01:27; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:43:15,542:UPDATE: search in 6 samples; iteration 12745000000; time: 19:10:51; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:52:56,520:UPDATE: search in 6 samples; iteration 12746000000; time: 19:20:32; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 15:59:50,641:UPDATE: search in 6 samples; iteration 12747000000; time: 19:27:26; max depth=20; solutions found=202; best price=15094.47
+2019-05-05 16:09:09,787:UPDATE: search in 6 samples; iteration 12748000000; time: 19:36:45; max depth=20; solutions found=202; best price=15094.47

@@ -86,23 +86,23 @@ Code,   HSQC,   HNCO
 
 [solution]
 % Soluiton number = 0
-% Solution price  = 6428.81
+% Solution price  = 6601.98
 Res,S1,S2,S3,S4,S5
-Leu, N, N, N, C, C
-Ser, N, N, C, N, N
-Ile, N, D, X, X, D
-Phe, N, C, C, N, N
+Leu, N, N, N, N, C
+Ser, N, C, N, N, N
+Ile, N, N, X, D, N
+Phe, C, N, N, N, X
 Ala, C, C, N, N, N
-Val, C, D, D, C, N
+Val, N, N, D, N, D
 Gln, D, X, D, X, D
-Asn, X, X, D, X, D
-Gly, C, N, N, N, X
-Lys, N, X, N, N, N
-Trp, N, X, X, D, X
-Thr, X, N, X, N, N
-Asp, X, X, X, N, N
-Glu, X, N, X, N, X
-Met, X, N, X, X, X
+Asn, X, D, D, X, N
+Gly, N, N, C, C, N
+Lys, N, N, N, X, N
+Trp, X, D, X, X, N
+Thr, N, N, N, X, X
+Asp, X, N, X, N, N
+Glu, X, N, N, N, N
+Met, X, X, X, N, X
 Tyr, N, X, X, X, X
 Arg, X, X, X, X, X
 Pro, X, X, X, X, X
@@ -119,18 +119,18 @@ His, X, X, X, X, X
 
 [pairs_codes]
       ,     ,  Leu,  Ser,  Ile,  Phe,  Ala,  Val,  Gln,  Asn,  Gly,  Lys,  Trp,  Thr,  Asp,  Glu,  Met,  Tyr,OtherN
-      ,     ,NNNCC,NNCNN,NDXXD,NCCNN,CCNNN,CDDCN,DXDXD,XXDXD,CNNNX,NXNNN,NXXDX,XNXNN,XXXNN,XNXNX,XNXXX,NXXXX,XXXXX
-   Leu,NNNCC,11100,11022,     ,     ,00122,     ,10102,00102,01120,10122,10020,01022,00022,01020,     ,     ,00000
-   Ser,NNCNN,11200,11011,11001,     ,     ,01201,     ,00201,01210,     ,     ,01011,     ,     ,     ,     ,00000
-   Ile,NDXXD,12100,12012,12002,10012,00112,02102,     ,     ,     ,     ,     ,     ,00012,     ,02000,     ,00000
-   Phe,NCCNN,12200,     ,12001,10011,     ,     ,10201,     ,02210,10211,     ,02011,     ,     ,     ,     ,00000
-   Ala,CCNNN,22100,     ,22001,     ,00111,02101,     ,     ,     ,20111,20010,     ,     ,02010,     ,     ,00000
-   Val,CDDCN,22200,22021,     ,     ,00221,02201,20201,     ,     ,     ,     ,02021,     ,02020,     ,     ,00000
-   Gln,DXDXD,21200,21012,21002,20012,     ,     ,     ,00202,     ,     ,     ,     ,     ,     ,     ,     ,00000
-   Asn,XXDXD,     ,11012,     ,     ,00212,01202,     ,     ,     ,10212,     ,01012,     ,     ,     ,     ,00000
-   Gly,CNNNX,21100,21011,     ,20011,     ,     ,20101,     ,     ,     ,     ,     ,     ,     ,     ,     ,00000
-   Trp,NXXDX,     ,     ,     ,10021,     ,     ,     ,     ,     ,10121,     ,     ,00021,     ,     ,     ,00000
-OtherC,XXXXX,11100,11011,11001,10011,00111,01101,10101,00101,01110,10111,10010,     ,00011,01010,01000,10000,00000
+      ,     ,NNNNC,NCNNN,NNXDN,CNNNX,CCNNN,NNDND,DXDXD,XDDXN,NNCCN,NNNXN,XDXXN,NNNXX,XNXNN,XNNNN,XXXNX,NXXXX,XXXXX
+   Leu,NNNNC,11110,10112,     ,     ,00112,     ,10102,01102,11002,11102,01002,11100,01012,01112,     ,     ,00000
+   Ser,NCNNN,12110,10111,12011,     ,     ,12111,     ,02101,12001,     ,     ,12100,     ,     ,     ,     ,00000
+   Ile,NNXDN,11120,10121,11021,01120,00121,11121,     ,     ,     ,     ,     ,     ,01021,     ,00020,     ,00000
+   Phe,CNNNX,21110,     ,21011,01110,     ,     ,20101,     ,21001,21101,     ,21100,     ,     ,     ,     ,00000
+   Ala,CCNNN,22110,     ,22011,     ,00111,22111,     ,     ,     ,22101,02001,     ,     ,02111,     ,     ,00000
+   Val,NNDND,11210,10212,     ,     ,00212,11212,10202,     ,     ,     ,     ,11200,     ,01212,     ,     ,00000
+   Gln,DXDXD,21210,20212,21012,01210,     ,     ,     ,01202,     ,     ,     ,     ,     ,     ,     ,     ,00000
+   Asn,XDDXN,     ,10211,     ,     ,00211,12211,     ,     ,     ,12201,     ,12200,     ,     ,     ,     ,00000
+   Gly,NNCCN,11220,10221,     ,01220,     ,     ,10201,     ,     ,     ,     ,     ,     ,     ,     ,     ,00000
+   Trp,XDXXN,     ,     ,     ,02110,     ,     ,     ,     ,     ,12101,     ,     ,02011,     ,     ,     ,00000
+OtherC,XXXXX,11110,10111,11011,01110,00111,11111,10101,01101,11001,11101,01001,     ,01011,01111,00010,10000,00000
 
 OtherN: Arg,Pro,His
 OtherC: Lys,Glu,Arg,Pro,Thr,Asp,Met,His,Tyr
@@ -177,6 +177,6 @@ Par, Description,     Residues, Pairs
 N,   Total number,         168,   121
 LI,  Invisible,             24,    16
 LU,  Unique code,           47,    47
-LN2, AA type of both,       42,    16
-LN1, AA type of last,       54,    42
+LN2, AA type of both,       44,    17
+LN1, AA type of last,       52,    41
 LA,  Ambiguous code,         0,     0
