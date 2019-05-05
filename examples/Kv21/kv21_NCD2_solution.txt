@@ -86,23 +86,23 @@ Code,   HSQC,   HNCO
 
 [solution]
 % Soluiton number = 0
-% Solution price  = 6601.98
+% Solution price  = 6462.2
 Res,S1,S2,S3,S4,S5
-Leu, N, N, N, N, C
-Ser, N, C, N, N, N
-Ile, N, N, X, D, N
-Phe, C, N, N, N, X
-Ala, C, C, N, N, N
-Val, N, N, D, N, D
-Gln, D, X, D, X, D
-Asn, X, D, D, X, N
-Gly, N, N, C, C, N
-Lys, N, N, N, X, N
-Trp, X, D, X, X, N
-Thr, N, N, N, X, X
-Asp, X, N, X, N, N
-Glu, X, N, N, N, N
-Met, X, X, X, N, X
+Leu, N, N, N, C, C
+Ser, C, N, N, N, N
+Ile, N, X, D, X, D
+Phe, C, N, C, N, N
+Ala, N, C, C, N, N
+Val, D, C, D, D, N
+Gln, D, D, X, X, D
+Asn, D, X, X, X, D
+Gly, N, C, N, N, X
+Lys, N, N, X, N, N
+Trp, X, N, X, D, X
+Thr, X, X, N, N, N
+Asp, X, X, X, N, N
+Glu, X, X, N, N, X
+Met, X, X, N, X, X
 Tyr, N, X, X, X, X
 Arg, X, X, X, X, X
 Pro, X, X, X, X, X
@@ -119,18 +119,18 @@ His, X, X, X, X, X
 
 [pairs_codes]
       ,     ,  Leu,  Ser,  Ile,  Phe,  Ala,  Val,  Gln,  Asn,  Gly,  Lys,  Trp,  Thr,  Asp,  Glu,  Met,  Tyr,OtherN
-      ,     ,NNNNC,NCNNN,NNXDN,CNNNX,CCNNN,NNDND,DXDXD,XDDXN,NNCCN,NNNXN,XDXXN,NNNXX,XNXNN,XNNNN,XXXNX,NXXXX,XXXXX
-   Leu,NNNNC,11110,10112,     ,     ,00112,     ,10102,01102,11002,11102,01002,11100,01012,01112,     ,     ,00000
-   Ser,NCNNN,12110,10111,12011,     ,     ,12111,     ,02101,12001,     ,     ,12100,     ,     ,     ,     ,00000
-   Ile,NNXDN,11120,10121,11021,01120,00121,11121,     ,     ,     ,     ,     ,     ,01021,     ,00020,     ,00000
-   Phe,CNNNX,21110,     ,21011,01110,     ,     ,20101,     ,21001,21101,     ,21100,     ,     ,     ,     ,00000
-   Ala,CCNNN,22110,     ,22011,     ,00111,22111,     ,     ,     ,22101,02001,     ,     ,02111,     ,     ,00000
-   Val,NNDND,11210,10212,     ,     ,00212,11212,10202,     ,     ,     ,     ,11200,     ,01212,     ,     ,00000
-   Gln,DXDXD,21210,20212,21012,01210,     ,     ,     ,01202,     ,     ,     ,     ,     ,     ,     ,     ,00000
-   Asn,XDDXN,     ,10211,     ,     ,00211,12211,     ,     ,     ,12201,     ,12200,     ,     ,     ,     ,00000
-   Gly,NNCCN,11220,10221,     ,01220,     ,     ,10201,     ,     ,     ,     ,     ,     ,     ,     ,     ,00000
-   Trp,XDXXN,     ,     ,     ,02110,     ,     ,     ,     ,     ,12101,     ,     ,02011,     ,     ,     ,00000
-OtherC,XXXXX,11110,10111,11011,01110,00111,11111,10101,01101,11001,11101,01001,     ,01011,01111,00010,10000,00000
+      ,     ,NNNCC,CNNNN,NXDXD,CNCNN,NCCNN,DCDDN,DDXXD,DXXXD,NCNNX,NNXNN,XNXDX,XXNNN,XXXNN,XXNNX,XXNXX,NXXXX,XXXXX
+   Leu,NNNCC,11100,01122,     ,     ,10022,     ,11002,10002,10120,11022,01020,00122,00022,00120,     ,     ,00000
+   Ser,CNNNN,21100,01111,20101,     ,     ,20111,     ,20001,20110,     ,     ,00111,     ,     ,     ,     ,00000
+   Ile,NXDXD,11200,01212,10202,01012,10012,10212,     ,     ,     ,     ,     ,     ,00012,     ,00200,     ,00000
+   Phe,CNCNN,21200,     ,20201,01011,     ,     ,21001,     ,20210,21011,     ,00211,     ,     ,     ,     ,00000
+   Ala,NCCNN,12200,     ,10201,     ,10011,10211,     ,     ,     ,12011,02010,     ,     ,00210,     ,     ,00000
+   Val,DCDDN,22200,02221,     ,     ,20021,20221,22001,     ,     ,     ,     ,00221,     ,00220,     ,     ,00000
+   Gln,DDXXD,22100,02112,20102,02012,     ,     ,     ,20002,     ,     ,     ,     ,     ,     ,     ,     ,00000
+   Asn,DXXXD,     ,01112,     ,     ,20012,20112,     ,     ,     ,21012,     ,00112,     ,     ,     ,     ,00000
+   Gly,NCNNX,12100,02111,     ,02011,     ,     ,12001,     ,     ,     ,     ,     ,     ,     ,     ,     ,00000
+   Trp,XNXDX,     ,     ,     ,01021,     ,     ,     ,     ,     ,11021,     ,     ,00021,     ,     ,     ,00000
+OtherC,XXXXX,11100,01111,10101,01011,10011,10111,11001,10001,10110,11011,01010,     ,00011,00110,00100,10000,00000
 
 OtherN: Arg,Pro,His
 OtherC: Lys,Glu,Arg,Pro,Thr,Asp,Met,His,Tyr

@@ -164,10 +164,16 @@ class CLOptimizer:
 
         if self.iteration % ITERATION_4_OUTPUT == 0:
 
-            out = "UPDATE: search in {} samples; iteration {}; ".format(self.samples, self.iteration)
-            out += "time: {}".format(time.strftime("%H:%M:%S",
-                                                               time.gmtime(int(time.time() - self.t0))))
-            out += "; max depth={:<2}; solutions found={}".format(self.max_depth + 1, self.solutions)
+            out = "UPDATE: search in {} samples; iteration {}; time: ".format(self.samples, self.iteration)
+            curr_time = time.gmtime(int(time.time() - self.t0))
+            days = curr_time.tm_yday - 1
+            if days > 0:
+                out += "{}d ".format(days)
+            out += time.strftime("%H:%M:%S", curr_time)
+            if not self.solution_found:
+                out += "; max depth={}".format(self.max_depth + 1)
+            else:
+                out += "; solutions found={}".format(self.solutions)
             if self.optimize_price and self.solution_found:
                 out += "; best price={:.2f}".format(self.best_solution.price)
             self.logger.info(out)
@@ -262,9 +268,13 @@ class CLOptimizer:
                     curr_res.check_after.append(j)
 
     def output_solution(self):
-        msg = "New solution found! (#{})".format(self.solutions)
-        msg += ". Calculation time: {}".format(time.strftime("%H:%M:%S",
-                                                        time.gmtime(int(time.time() - self.t0))))
+        msg = "New solution found! (#{}). Calculation time: ".format(self.solutions)
+        curr_time = time.gmtime(int(time.time() - self.t0))
+        days = curr_time.tm_yday - 1
+        if days > 0:
+            msg += "{}d ".format(days)
+        msg += time.strftime("%H:%M:%S", curr_time)
+
         if self.optimize_price:
             msg += ". New best price = {}".format(str(round(self.best_solution.price, 2)))
         self.logger.info(msg)

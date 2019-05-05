@@ -54,6 +54,10 @@ def read_parameters(args, logger):
             exit()
     else:
         logger.error("Error! Sequence file '{}' not found".format(args.sequence_file))
+
+    if len(sequence) < 3:
+        print("Sequence length ({}) is too short".format(len(sequence)))
+        exit()
     logger.info("Sequence length - {} residues".format(len(sequence)))
 
 

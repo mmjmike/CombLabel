@@ -752,3 +752,367 @@ Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,
 2019-05-05 16:09:59,436:UPDATE: search in 5 samples; iteration 6000000; time: 00:02:30; max depth=16; solutions found=29; best price=6601.04
 2019-05-05 16:10:26,934:UPDATE: search in 5 samples; iteration 7000000; time: 00:02:58; max depth=16; solutions found=29; best price=6601.04
 2019-05-05 16:10:58,884:UPDATE: search in 5 samples; iteration 8000000; time: 00:03:30; max depth=16; solutions found=29; best price=6601.04
+2019-05-05 16:11:17,499:New solution found! (#30). Calculation time: 00:03:48. New best price = 6592.99
+2019-05-05 16:11:17,499:[solution]
+% Solution number = 30
+% Solution price  = 6592.99
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   N,   C
+Ile,   N,   X,   D,   D,   X
+Ser,   N,   N,   N,   C,   N
+Val,   D,   C,   N,   N,   D
+Ala,   C,   N,   N,   C,   N
+Phe,   C,   N,   N,   N,   X
+Gln,   D,   X,   D,   X,   D
+Asn,   X,   X,   D,   D,   D
+Gly,   N,   C,   C,   N,   N
+Lys,   N,   N,   X,   N,   N
+Trp,   X,   X,   X,   D,   N
+Thr,   X,   N,   X,   N,   N
+Asp,   X,   N,   N,   N,   N
+Glu,   N,   X,   X,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:11:23,748:UPDATE: search in 5 samples; iteration 9000000; time: 00:03:54; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:12:00,911:UPDATE: search in 5 samples; iteration 10000000; time: 00:04:32; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:12:31,977:UPDATE: search in 5 samples; iteration 11000000; time: 00:05:03; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:13:01,606:UPDATE: search in 5 samples; iteration 12000000; time: 00:05:32; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:13:29,630:UPDATE: search in 5 samples; iteration 13000000; time: 00:06:00; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:13:54,638:UPDATE: search in 5 samples; iteration 14000000; time: 00:06:25; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:14:22,193:UPDATE: search in 5 samples; iteration 15000000; time: 00:06:53; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:14:49,805:UPDATE: search in 5 samples; iteration 16000000; time: 00:07:20; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:15:19,300:UPDATE: search in 5 samples; iteration 17000000; time: 00:07:50; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:15:53,205:UPDATE: search in 5 samples; iteration 18000000; time: 00:08:24; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:16:23,055:UPDATE: search in 5 samples; iteration 19000000; time: 00:08:54; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:16:52,805:UPDATE: search in 5 samples; iteration 20000000; time: 00:09:23; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:17:24,886:UPDATE: search in 5 samples; iteration 21000000; time: 00:09:56; max depth=16; solutions found=30; best price=6592.99
+2019-05-05 16:17:43,280:New solution found! (#31). Calculation time: 00:10:14. New best price = 6589.96
+2019-05-05 16:17:43,281:[solution]
+% Solution number = 31
+% Solution price  = 6589.96
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   N,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   C,   N
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   X,   D,   X,   X,   D
+Gly,   C,   N,   N,   N,   N
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   X,   X,   N,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:17:43,311:New solution found! (#32). Calculation time: 00:10:14. New best price = 6582.46
+2019-05-05 16:17:43,312:[solution]
+% Solution number = 32
+% Solution price  = 6582.46
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   N,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   C,   N
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   X,   D,   X,   X,   D
+Gly,   C,   N,   N,   N,   X
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   X,   X,   N,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:02,227:UPDATE: search in 5 samples; iteration 22000000; time: 00:10:33; max depth=16; solutions found=32; best price=6582.46
+2019-05-05 16:18:09,904:New solution found! (#33). Calculation time: 00:10:41. New best price = 6570.48
+2019-05-05 16:18:09,905:[solution]
+% Solution number = 33
+% Solution price  = 6570.48
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   N,   D
+Ala,   N,   C,   C,   N,   N
+Phe,   C,   N,   N,   C,   N
+Gln,   D,   D,   X,   D,   X
+Asn,   X,   N,   X,   D,   X
+Gly,   C,   N,   C,   N,   N
+Lys,   N,   N,   X,   N,   N
+Trp,   X,   N,   X,   X,   D
+Thr,   N,   N,   X,   X,   N
+Asp,   X,   X,   N,   N,   N
+Glu,   X,   X,   N,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:10,080:New solution found! (#34). Calculation time: 00:10:41. New best price = 6563.28
+2019-05-05 16:18:10,081:[solution]
+% Solution number = 34
+% Solution price  = 6563.28
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   N,   D
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   D,   X
+Asn,   X,   D,   X,   D,   X
+Gly,   C,   N,   N,   N,   C
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   N,   X,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:10,087:New solution found! (#35). Calculation time: 00:10:41. New best price = 6547.11
+2019-05-05 16:18:10,088:[solution]
+% Solution number = 35
+% Solution price  = 6547.11
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   N,   D
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   D,   X
+Asn,   X,   D,   X,   D,   X
+Gly,   C,   N,   N,   N,   C
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   X,   X,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:10,097:New solution found! (#36). Calculation time: 00:10:41. New best price = 6538.55
+2019-05-05 16:18:10,097:[solution]
+% Solution number = 36
+% Solution price  = 6538.55
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   N,   D
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   D,   X
+Asn,   X,   D,   X,   D,   X
+Gly,   C,   N,   N,   N,   X
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   X,   X,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:10,159:New solution found! (#37). Calculation time: 00:10:41. New best price = 6528.84
+2019-05-05 16:18:10,159:[solution]
+% Solution number = 37
+% Solution price  = 6528.84
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   C,   N
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   X,   D,   X,   X,   D
+Gly,   C,   N,   N,   N,   N
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   N,   X,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:10,166:New solution found! (#38). Calculation time: 00:10:41. New best price = 6512.67
+2019-05-05 16:18:10,166:[solution]
+% Solution number = 38
+% Solution price  = 6512.67
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   C,   N
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   X,   D,   X,   X,   D
+Gly,   C,   N,   N,   N,   N
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   X,   X,   N,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:10,231:New solution found! (#39). Calculation time: 00:10:41. New best price = 6505.17
+2019-05-05 16:18:10,231:[solution]
+% Solution number = 39
+% Solution price  = 6505.17
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   N,   D,   X,   D
+Ser,   N,   C,   N,   N,   N
+Val,   C,   D,   D,   C,   N
+Ala,   C,   N,   C,   N,   N
+Phe,   N,   C,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   X,   D,   X,   X,   D
+Gly,   C,   N,   N,   N,   X
+Lys,   N,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   X,   X,   N,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:18:55,888:UPDATE: search in 5 samples; iteration 23000000; time: 00:11:27; max depth=16; solutions found=39; best price=6505.17
+2019-05-05 16:19:01,890:New solution found! (#40). Calculation time: 00:11:33. New best price = 6503.9
+2019-05-05 16:19:01,891:[solution]
+% Solution number = 40
+% Solution price  = 6503.9
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   X,   D,   X,   D
+Ser,   N,   C,   C,   N,   N
+Val,   C,   D,   D,   X,   D
+Ala,   C,   N,   N,   N,   C
+Phe,   N,   C,   N,   N,   C
+Gln,   D,   D,   X,   D,   X
+Asn,   X,   D,   X,   D,   X
+Gly,   C,   N,   C,   X,   N
+Lys,   X,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   N,   N,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:19:01,940:New solution found! (#41). Calculation time: 00:11:33. New best price = 6487.72
+2019-05-05 16:19:01,940:[solution]
+% Solution number = 41
+% Solution price  = 6487.72
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   X,   D,   X,   D
+Ser,   N,   C,   C,   N,   N
+Val,   C,   D,   D,   X,   D
+Ala,   C,   N,   N,   N,   C
+Phe,   N,   C,   N,   N,   C
+Gln,   D,   D,   X,   D,   X
+Asn,   X,   D,   X,   D,   X
+Gly,   C,   N,   C,   X,   N
+Lys,   X,   N,   X,   N,   N
+Trp,   N,   X,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   N,   X,   X,   N
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:19:03,977:New solution found! (#42). Calculation time: 00:11:35. New best price = 6477.44
+2019-05-05 16:19:03,978:[solution]
+% Solution number = 42
+% Solution price  = 6477.44
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   X,   D,   X,   D
+Ser,   C,   N,   N,   N,   N
+Val,   D,   C,   D,   D,   N
+Ala,   N,   C,   C,   N,   N
+Phe,   C,   N,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   D,   X,   X,   X,   D
+Gly,   N,   C,   N,   N,   X
+Lys,   N,   N,   X,   N,   N
+Trp,   X,   N,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   N,   N,   X,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:19:04,019:New solution found! (#43). Calculation time: 00:11:35. New best price = 6461.26
+2019-05-05 16:19:04,019:[solution]
+% Solution number = 43
+% Solution price  = 6461.26
+Res, S_1, S_2, S_3, S_4, S_5
+Leu,   N,   N,   N,   C,   C
+Ile,   N,   X,   D,   X,   D
+Ser,   C,   N,   N,   N,   N
+Val,   D,   C,   D,   D,   N
+Ala,   N,   C,   C,   N,   N
+Phe,   C,   N,   C,   N,   N
+Gln,   D,   D,   X,   X,   D
+Asn,   D,   X,   X,   X,   D
+Gly,   N,   C,   N,   N,   X
+Lys,   N,   N,   X,   N,   N
+Trp,   X,   N,   X,   D,   X
+Thr,   X,   X,   N,   N,   N
+Asp,   X,   X,   X,   N,   N
+Glu,   X,   X,   N,   N,   X
+Met,   X,   X,   N,   X,   X
+Tyr,   N,   X,   X,   X,   X
+Arg,   X,   X,   X,   X,   XPro,   X,   X,   X,   X,   XHis,   X,   X,   X,   X,   X
+
+
+2019-05-05 16:19:46,946:UPDATE: search in 5 samples; iteration 24000000; time: 00:12:18; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:20:33,575:UPDATE: search in 5 samples; iteration 25000000; time: 00:13:04; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:21:15,361:UPDATE: search in 5 samples; iteration 26000000; time: 00:13:46; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:22:05,356:UPDATE: search in 5 samples; iteration 27000000; time: 00:14:36; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:22:57,211:UPDATE: search in 5 samples; iteration 28000000; time: 00:15:28; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:23:50,831:UPDATE: search in 5 samples; iteration 29000000; time: 00:16:21; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:24:36,913:UPDATE: search in 5 samples; iteration 30000000; time: 00:17:08; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:25:23,564:UPDATE: search in 5 samples; iteration 31000000; time: 00:17:54; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:26:15,513:UPDATE: search in 5 samples; iteration 32000000; time: 00:18:46; max depth=16; solutions found=43; best price=6461.26
+2019-05-05 16:26:55,738:Search in 5 sample(s) finished successfully!
+2019-05-05 16:26:55,738:Search for solution finished successfully!
+Calculation time: 		00:19:26
+Total iterations: 32916853

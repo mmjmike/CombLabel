@@ -86,21 +86,21 @@ Code,   HSQC,   HNCO,   HNCA, HNCOCA, DQHNCA
 
 [solution]
 % Soluiton number = 0
-% Solution price  = 1960.93
+% Solution price  = 2078.64
 Res,S1,S2,S3,S4
-Leu, N, C, C, D
-Val, D, C, X, N
-Tyr, C, N, X, N
-Gly, C, C, N, C
-Ile, X, X, D, X
-Asp, N, X, N, C
-Glu, N, N, N, X
-Arg, N, N, X, X
-Ala, N, X, N, N
-Lys, N, X, X, N
-Met, X, N, X, X
-Phe, X, X, X, N
-Thr, N, X, X, X
+Leu, N, N, C, D
+Val, N, D, X, D
+Tyr, N, C, X, N
+Gly, X, N, N, C
+Ile, X, D, X, N
+Asp, C, X, N, N
+Glu, N, N, X, N
+Arg, X, N, X, N
+Ala, N, N, N, X
+Lys, N, N, X, X
+Met, X, X, X, N
+Phe, X, X, N, X
+Thr, X, N, X, X
 Ser, X, X, X, X
 Pro, X, X, X, X
 His, X, X, X, X
@@ -119,14 +119,14 @@ Asn, X, X, X, X
 
 [pairs_codes]
       ,    , Leu, Val, Tyr, Gly, Ile, Asp, Glu, Arg, Ala, Lys, Met, Phe, Thr,OtherN
-      ,    ,NCCD,DCXN,CNXN,CCNC,XXDX,NXNC,NNNX,NNXX,NXNN,NXXN,XNXX,XXXN,NXXX,XXXX
-   Leu,NCCD,1006,4003,0203,0020,0050,    ,1220,1200,1023,    ,    ,0003,    ,0000
-   Val,DCXN,    ,6001,    ,    ,0040,3010,3210,3200,    ,3001,0200,    ,    ,0000
-   Tyr,CNXN,2004,5001,    ,    ,    ,    ,2110,2100,2011,2001,    ,    ,2000,0000
-   Gly,CCNC,2005,5002,0202,0010,    ,2010,2210,2200,    ,    ,    ,    ,    ,0000
-   Ile,XXDX,1004,4001,    ,0030,0060,    ,1130,    ,1031,    ,    ,    ,    ,0000
-   Asp,NXNC,1005,4002,0102,    ,    ,    ,    ,    ,1012,1002,    ,    ,    ,0000
-OtherC,XXXX,1004,4001,0101,0010,0040,1010,1110,1100,1011,1001,0100,0001,1000,0000
+      ,    ,NNCD,NDXD,NCXN,XNNC,XDXN,CXNN,NNXN,XNXN,NNNX,NNXX,XXXN,XXNX,XNXX,XXXX
+   Leu,NNCD,1106,1406,1003,0120,0403,    ,1103,0103,1120,    ,    ,0020,    ,0000
+   Val,NDXD,    ,1606,    ,    ,0603,0013,1303,0303,    ,1300,0003,    ,    ,0000
+   Tyr,NCXN,1204,1504,    ,    ,    ,    ,1201,0201,1210,1200,    ,    ,0200,0000
+   Gly,XNNC,1105,1405,1002,0110,    ,0012,1102,0102,    ,    ,    ,    ,    ,0000
+   Ile,XDXN,1304,1604,    ,0310,0601,    ,1301,    ,1310,    ,    ,    ,    ,0000
+   Asp,CXNN,2104,2404,2001,    ,    ,    ,    ,    ,2110,2100,    ,    ,    ,0000
+OtherC,XXXX,1104,1404,1001,0110,0401,0011,1101,0101,1110,1100,0001,0010,0100,0000
 
 OtherN: Ser,Pro,His,Gln,Trp,Asn
 OtherC: Ala,Arg,Ser,Glu,Lys,Pro,Met,Phe,His,Thr,Gln,Trp,Asn
@@ -172,7 +172,7 @@ SN1, AA type of last,       66,    42
 Par, Description,     Residues, Pairs
 N,   Total number,         149,    96
 LI,  Invisible,             17,    14
-LU,  Unique code,           24,    24
-LN2, AA type of both,       44,    16
-LN1, AA type of last,       63,    42
+LU,  Unique code,           25,    25
+LN2, AA type of both,       49,    18
+LN1, AA type of last,       57,    39
 LA,  Ambiguous code,         0,     0

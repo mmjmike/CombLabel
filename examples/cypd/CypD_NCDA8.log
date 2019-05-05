@@ -1,59 +1,59 @@
-2019-04-22 20:40:10,622:Reading NCS
-2019-04-22 20:40:10,623:NCS: NCDA8
-2019-04-22 20:40:10,623:Reading sequence: 'CypD.seq'
-2019-04-22 20:40:10,623:Sequence length - 165 residues
-2019-04-22 20:40:10,623:Reading stock: '../../stocks/LabelStock_Hein.txt'
-2019-04-22 20:40:10,623:Stock - OK
-2019-04-22 20:40:10,623:Reading prices: '../../prices/BEST_PRICE_1H.csv'
-2019-04-22 20:40:10,624:Prices - OK
-2019-04-22 20:40:10,624:Search for CypD_NCDA8 solution started
+2019-05-05 16:39:50,531:Reading NCS
+2019-05-05 16:39:50,532:NCS: NCDA8
+2019-05-05 16:39:50,532:Reading sequence: 'CypD.seq'
+2019-05-05 16:39:50,532:Sequence length - 165 residues
+2019-05-05 16:39:50,532:Reading stock: '../../stocks/LabelStock_Hein.txt'
+2019-05-05 16:39:50,548:Stock - OK
+2019-05-05 16:39:50,548:Reading prices: '../../prices/BEST_PRICE_1H.csv'
+2019-05-05 16:39:50,549:Prices - OK
+2019-05-05 16:39:50,549:Search for CypD_NCDA8 solution started
 Host name is:		zion
-Start clock time: 		22-04-2019 20:40:10
-2019-04-22 20:40:10,624:
+Start clock time: 		05-05-2019 16:39:50
+2019-05-05 16:39:50,549:
 Search in 1 sample(s)
-2019-04-22 20:40:10,624:Precalculating NMR codes...
-2019-04-22 20:40:10,625:NMR codes calculated
-2019-04-22 20:40:10,625:Search in 1 sample(s) finished. Max depth reached: 0. Iterations used: 1
-2019-04-22 20:40:10,625:
+2019-05-05 16:39:50,550:Precalculating NMR codes...
+2019-05-05 16:39:50,550:NMR codes calculated
+2019-05-05 16:39:50,550:Search in 1 sample(s) finished. Max depth reached: 0. Iterations used: 1
+2019-05-05 16:39:50,550:
 Search in 2 sample(s)
-2019-04-22 20:40:10,625:Precalculating NMR codes...
-2019-04-22 20:40:10,627:NMR codes calculated
-2019-04-22 20:40:10,627:New max depth (2) reached at 2 samples
-2019-04-22 20:40:10,628:New max depth (3) reached at 2 samples
-2019-04-22 20:40:10,628:New max depth (4) reached at 2 samples
-2019-04-22 20:40:10,628:New max depth (5) reached at 2 samples
-2019-04-22 20:40:10,629:Search in 2 sample(s) finished. Max depth reached: 4. Iterations used: 49
-2019-04-22 20:40:10,629:
+2019-05-05 16:39:50,551:Precalculating NMR codes...
+2019-05-05 16:39:50,552:NMR codes calculated
+2019-05-05 16:39:50,553:New max depth (2) reached at 2 samples
+2019-05-05 16:39:50,553:New max depth (3) reached at 2 samples
+2019-05-05 16:39:50,553:New max depth (4) reached at 2 samples
+2019-05-05 16:39:50,553:Search in 2 sample(s) finished. Max depth reached: 3. Iterations used: 19
+2019-05-05 16:39:50,554:
 Search in 3 sample(s)
-2019-04-22 20:40:10,631:Precalculating NMR codes...
-2019-04-22 20:40:10,723:NMR codes calculated
-2019-04-22 20:40:10,728:New max depth (6) reached at 3 samples
-2019-04-22 20:40:10,729:New max depth (7) reached at 3 samples
-2019-04-22 20:40:10,729:New max depth (8) reached at 3 samples
-2019-04-22 20:40:10,730:New max depth (9) reached at 3 samples
-2019-04-22 20:40:10,750:New max depth (10) reached at 3 samples
-2019-04-22 20:40:10,750:New max depth (11) reached at 3 samples
-2019-04-22 20:40:10,751:New max depth (12) reached at 3 samples
-2019-04-22 20:40:10,751:New max depth (13) reached at 3 samples
-2019-04-22 20:40:10,751:New max depth (14) reached at 3 samples
-2019-04-22 20:40:10,828:New max depth (15) reached at 3 samples
-2019-04-22 20:40:10,830:New max depth (16) reached at 3 samples
-2019-04-22 20:40:11,361:New max depth (17) reached at 3 samples
-2019-04-22 20:40:11,362:New max depth (18) reached at 3 samples
-2019-04-22 20:40:11,362:New max depth (19) reached at 3 samples
-2019-04-22 20:40:11,363:New max depth (20) reached at 3 samples
-2019-04-22 20:40:11,363:New solution found! (#1). Calculation time: 00:00:00. New best price = 9964.54
-2019-04-22 20:40:11,413:[solution]
+2019-05-05 16:39:50,555:Precalculating NMR codes...
+2019-05-05 16:39:50,622:NMR codes calculated
+2019-05-05 16:39:50,623:New max depth (5) reached at 3 samples
+2019-05-05 16:39:50,624:New max depth (6) reached at 3 samples
+2019-05-05 16:39:50,624:New max depth (7) reached at 3 samples
+2019-05-05 16:39:50,624:New max depth (8) reached at 3 samples
+2019-05-05 16:39:50,625:New max depth (9) reached at 3 samples
+2019-05-05 16:39:50,628:New max depth (10) reached at 3 samples
+2019-05-05 16:39:50,629:New max depth (11) reached at 3 samples
+2019-05-05 16:39:50,658:New max depth (12) reached at 3 samples
+2019-05-05 16:39:50,660:New max depth (13) reached at 3 samples
+2019-05-05 16:39:50,660:New max depth (14) reached at 3 samples
+2019-05-05 16:39:50,661:New max depth (15) reached at 3 samples
+2019-05-05 16:39:50,661:New max depth (16) reached at 3 samples
+2019-05-05 16:39:50,670:New max depth (17) reached at 3 samples
+2019-05-05 16:39:50,671:New max depth (18) reached at 3 samples
+2019-05-05 16:39:50,671:New max depth (19) reached at 3 samples
+2019-05-05 16:39:50,672:New max depth (20) reached at 3 samples
+2019-05-05 16:39:50,672:New solution found! (#1). Calculation time: 00:00:00. New best price = 9964.54
+2019-05-05 16:39:50,719:[solution]
 % Solution number = 1
 % Solution price  = 9964.54
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -70,18 +70,18 @@ Trp,   C,   N,   N
 
 
 
-2019-04-22 20:40:11,419:New solution found! (#2). Calculation time: 00:00:00. New best price = 9699.17
-2019-04-22 20:40:11,419:[solution]
+2019-05-05 16:39:50,725:New solution found! (#2). Calculation time: 00:00:00. New best price = 9699.17
+2019-05-05 16:39:50,725:[solution]
 % Solution number = 2
 % Solution price  = 9699.17
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -98,18 +98,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,425:New solution found! (#3). Calculation time: 00:00:00. New best price = 9690.14
-2019-04-22 20:40:11,425:[solution]
+2019-05-05 16:39:50,730:New solution found! (#3). Calculation time: 00:00:00. New best price = 9690.14
+2019-05-05 16:39:50,731:[solution]
 % Solution number = 3
 % Solution price  = 9690.14
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -126,18 +126,18 @@ Trp,   C,   N,   N
 
 
 
-2019-04-22 20:40:11,438:New solution found! (#4). Calculation time: 00:00:00. New best price = 9424.77
-2019-04-22 20:40:11,442:[solution]
+2019-05-05 16:39:50,741:New solution found! (#4). Calculation time: 00:00:00. New best price = 9424.77
+2019-05-05 16:39:50,741:[solution]
 % Solution number = 4
 % Solution price  = 9424.77
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -154,18 +154,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,449:New solution found! (#5). Calculation time: 00:00:00. New best price = 9354.57
-2019-04-22 20:40:11,450:[solution]
+2019-05-05 16:39:50,747:New solution found! (#5). Calculation time: 00:00:00. New best price = 9354.57
+2019-05-05 16:39:50,747:[solution]
 % Solution number = 5
 % Solution price  = 9354.57
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -182,18 +182,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,462:New solution found! (#6). Calculation time: 00:00:00. New best price = 9207.95
-2019-04-22 20:40:11,462:[solution]
+2019-05-05 16:39:50,755:New solution found! (#6). Calculation time: 00:00:00. New best price = 9207.95
+2019-05-05 16:39:50,755:[solution]
 % Solution number = 6
 % Solution price  = 9207.95
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -210,18 +210,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,486:New solution found! (#7). Calculation time: 00:00:00. New best price = 9137.74
-2019-04-22 20:40:11,486:[solution]
+2019-05-05 16:39:50,761:New solution found! (#7). Calculation time: 00:00:00. New best price = 9137.74
+2019-05-05 16:39:50,761:[solution]
 % Solution number = 7
 % Solution price  = 9137.74
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -238,18 +238,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,502:New solution found! (#8). Calculation time: 00:00:00. New best price = 9025.98
-2019-04-22 20:40:11,502:[solution]
+2019-05-05 16:39:50,771:New solution found! (#8). Calculation time: 00:00:00. New best price = 9025.98
+2019-05-05 16:39:50,771:[solution]
 % Solution number = 8
 % Solution price  = 9025.98
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -266,18 +266,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,517:New solution found! (#9). Calculation time: 00:00:00. New best price = 8955.77
-2019-04-22 20:40:11,517:[solution]
+2019-05-05 16:39:50,777:New solution found! (#9). Calculation time: 00:00:00. New best price = 8955.77
+2019-05-05 16:39:50,777:[solution]
 % Solution number = 9
 % Solution price  = 8955.77
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   N,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -294,18 +294,18 @@ Trp,   C,   N,   X
 
 
 
-2019-04-22 20:40:11,564:New solution found! (#10). Calculation time: 00:00:00. New best price = 8745.2
-2019-04-22 20:40:11,565:[solution]
+2019-05-05 16:39:50,806:New solution found! (#10). Calculation time: 00:00:00. New best price = 8745.2
+2019-05-05 16:39:50,806:[solution]
 % Solution number = 10
 % Solution price  = 8745.2
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   D,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -322,18 +322,18 @@ Trp,   C,   N,   N
 
 
 
-2019-04-22 20:40:11,582:New solution found! (#11). Calculation time: 00:00:00. New best price = 8563.23
-2019-04-22 20:40:11,583:[solution]
+2019-05-05 16:39:50,814:New solution found! (#11). Calculation time: 00:00:00. New best price = 8563.23
+2019-05-05 16:39:50,814:[solution]
 % Solution number = 11
 % Solution price  = 8563.23
 Res, S_1, S_2, S_3
 Gly,   N,   N,   D
 Lys,   N,   D,   N
 Thr,   N,   D,   D
+Phe,   D,   N,   N
 Leu,   D,   N,   A
 Val,   D,   D,   N
 Asp,   N,   N,   C
-Phe,   D,   N,   N
 Ser,   A,   D,   D
 Ala,   A,   D,   N
 Glu,   N,   C,   N
@@ -350,10 +350,8 @@ Trp,   C,   N,   N
 
 
 
-2019-04-22 20:40:33,958:UPDATE: search in 3 samples; iteration 1000000; time: 00:00:23; max depth=20; solutions found=11; best price=8563.23
-2019-04-22 20:40:57,828:UPDATE: search in 3 samples; iteration 2000000; time: 00:00:47; max depth=20; solutions found=11; best price=8563.23
-2019-04-22 20:41:21,703:UPDATE: search in 3 samples; iteration 3000000; time: 00:01:11; max depth=20; solutions found=11; best price=8563.23
-2019-04-22 20:41:25,821:Search in 3 sample(s) finished successfully!
-2019-04-22 20:41:25,822:Search for solution finished successfully!
-Calculation time: 		00:01:15
-Total iterations: 3167138
+2019-05-05 16:40:18,445:UPDATE: search in 3 samples; iteration 1000000; time: 00:00:27; max depth=20; solutions found=11; best price=8563.23
+2019-05-05 16:40:33,358:Search in 3 sample(s) finished successfully!
+2019-05-05 16:40:33,358:Search for solution finished successfully!
+Calculation time: 		00:00:42
+Total iterations: 1517280
