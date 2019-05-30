@@ -17,6 +17,15 @@ class Stock:
         self.prices = prices_dict
         self.check_consistency()
 
+    @property
+    def label_options(self):
+        label_options = {}
+        for residue in self.stock_table:
+            letter_options = self.stock_table[residue]
+            curr_label_options = [label for label in Constants.BASIC_TYPES if label.name in letter_options]
+            label_options[residue] = curr_label_options
+        return label_options
+
     def check_consistency(self):
         if self.prices:
             for residue in self.stock_table:

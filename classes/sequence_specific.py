@@ -316,7 +316,7 @@ class CLOptimizer:
         solution = add_unlabeled_residues(solution, self.sequence)
         output_solution = self.jobname + "_solution.txt"
         output_dictionary = self.jobname + "_dictionary.txt"
-        label_options = get_stock_from_solution(solution)
+        label_options = self.sequence.stock.stock_table
         pairs_table = PairsTable(self.sequence, label_options)
 
         price_dict = self.sequence.get_prices()
@@ -1094,7 +1094,7 @@ def write_solution_stats(parameters, cl=False):
     codes, meanings, meanings_dict = calculate_code_dictionary(solution, sequence, ncs)
     write_code_dict(parameters, codes, meanings, cl=cl)
 
-    stats = calculate_stats(parameters, meanings_dict)
+    stats = calculate_stats(parameters["pairs_table"], meanings_dict)
     pairs_table = parameters["pairs_table"]
 
     output = ""
@@ -1110,6 +1110,16 @@ def write_solution_stats(parameters, cl=False):
         f.close()
     if not cl:
         print("Solution stats written to file '{}'".format(parameters["output_solution"]))
+
+
+def make_short_solution_stats(pairs_table):
+    stats = calculate_short_stats(pairs_table)
+    output = "\n"
+    output += pairs_table.make_full_pairs_table()
+    output += pairs_table.make_stock_pairs_table()
+    output += "\n\n"
+    output += stats_to_text(stats, short=True)
+    return output
 
 
 def write_code_dict(parameters, codes, meanings, cl=False):
@@ -1151,12 +1161,30 @@ def make_solution_output(parameters):
     return output
 
 
-def calculate_stats(parameters, meanings_dict):
+def calculate_stats(pairs_table, meanings_dict):
     stats = {}
-    sequence = parameters["sequence"]
-    seq = sequence.sequence
-    pairs_table = parameters["pairs_table"]
 
+    sequence_stats = calculate_sequence_stats(pairs_table)
+    stock_stats = calculate_stock_stats(pairs_table)
+    solution_stats = calculate_solution_stats(meanings_dict)
+    stats.update(sequence_stats)
+    stats.update(stock_stats)
+    stats.update(solution_stats)
+    return stats
+
+
+def calculate_short_stats(pairs_table):
+    stats = {}
+    sequence_stats = calculate_sequence_stats(pairs_table)
+    stock_stats = calculate_stock_stats(pairs_table)
+    stats.update(sequence_stats)
+    stats.update(stock_stats)
+    return stats
+
+
+def calculate_sequence_stats(pairs_table):
+    stats = {}
+    seq = pairs_table.sequence
     N_aa = len(seq)
     N_pairs = len(pairs_table.unique_pairs)
     PI_p = len([pair for pair in pairs_table.unique_pairs if pair[1] == "P"])
@@ -1173,7 +1201,22 @@ def calculate_stats(parameters, meanings_dict):
                 PN_p += 1
                 PN_a += number_of_pairs
     PU_a = PU_p
+    stats.update({
+        "Na": N_aa,
+        "Np": N_pairs,
+        "PIa": PI_a,
+        "PIp": PI_p,
+        "PUa": PU_a,
+        "PUp": PU_p,
+        "PNa": PN_a,
+        "PNp": PN_p
+    })
+    return stats
 
+
+def calculate_stock_stats(pairs_table):
+    stats = {}
+    seq = pairs_table.sequence
     SI_a = 0
     SI_p = 0
     SU_p = 0
@@ -1222,6 +1265,7 @@ def calculate_stats(parameters, meanings_dict):
                     SN2_p += 1
                     SN2_a += cell_value
     SU_a = SU_p
+
     stats.update({
         "SIa": SI_a,
         "SIp": SI_p,
@@ -1230,17 +1274,13 @@ def calculate_stats(parameters, meanings_dict):
         "SN1a": SN1_a,
         "SN1p": SN1_p,
         "SN2a": SN2_a,
-        "SN2p": SN2_p,
-        "Na": N_aa,
-        "Np": N_pairs,
-        "PIa": PI_a,
-        "PIp": PI_p,
-        "PUa": PU_a,
-        "PUp": PU_p,
-        "PNa": PN_a,
-        "PNp": PN_p
+        "SN2p": SN2_p
     })
+    return stats
 
+
+def calculate_solution_stats(meanings_dict):
+    stats = {}
     LI_a = 0
     LI_p = 0
     LN1_a = 0
@@ -1284,7 +1324,7 @@ def calculate_stats(parameters, meanings_dict):
     return stats
 
 
-def stats_to_text(stats):
+def stats_to_text(stats, short=False):
     output = "\n\n" + "#" * 50 + "\n"
     output += "# Calculation statistics\n"
     output += "# \n\n"
@@ -1316,18 +1356,19 @@ def stats_to_text(stats):
     output += "SN2, AA type of both, {:>8}, {:>5}\n".format(stats["SN2a"], stats["SN2p"])
     output += "SN1, AA type of last, {:>8}, {:>5}\n".format(stats["SN1a"], stats["SN1p"])
     output += "\n"
-    output += "# Statistics for LABELING CODES\n"
-    output += "# The pairs are distinguishable, if their labeling codes are different\n"
-    output += "# Both sequence, stock, NMR spectra and particular labeling scheme is accounted here\n"
-    output += "\n"
-    output += "[stats,labeling]\n"
-    output += "Par, Description,     Residues, Pairs\n"
-    output += "N,   Total number,    {:>8}, {:>5}\n".format(stats["Na"], stats["Np"])
-    output += "LI,  Invisible,       {:>8}, {:>5}\n".format(stats["LIa"], stats["LIp"])
-    output += "LU,  Unique code,     {:>8}, {:>5}\n".format(stats["LUa"], stats["LUp"])
-    output += "LN2, AA type of both, {:>8}, {:>5}\n".format(stats["LN2a"], stats["LN2p"])
-    output += "LN1, AA type of last, {:>8}, {:>5}\n".format(stats["LN1a"], stats["LN1p"])
-    output += "LA,  Ambiguous code,  {:>8}, {:>5}\n".format(stats["LAa"], stats["LAp"])
+    if not short:
+        output += "# Statistics for LABELING CODES\n"
+        output += "# The pairs are distinguishable, if their labeling codes are different\n"
+        output += "# Both sequence, stock, NMR spectra and particular labeling scheme is accounted here\n"
+        output += "\n"
+        output += "[stats,labeling]\n"
+        output += "Par, Description,     Residues, Pairs\n"
+        output += "N,   Total number,    {:>8}, {:>5}\n".format(stats["Na"], stats["Np"])
+        output += "LI,  Invisible,       {:>8}, {:>5}\n".format(stats["LIa"], stats["LIp"])
+        output += "LU,  Unique code,     {:>8}, {:>5}\n".format(stats["LUa"], stats["LUp"])
+        output += "LN2, AA type of both, {:>8}, {:>5}\n".format(stats["LN2a"], stats["LN2p"])
+        output += "LN1, AA type of last, {:>8}, {:>5}\n".format(stats["LN1a"], stats["LN1p"])
+        output += "LA,  Ambiguous code,  {:>8}, {:>5}\n".format(stats["LAa"], stats["LAp"])
     return output
 
 

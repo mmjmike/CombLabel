@@ -3,7 +3,7 @@
 from classes.ucsl_io import find_ncs, read_prices, read_sequence, read_stock, read_assignment
 from classes.logger import create_logger_main
 from classes.search_objects import CLSequence, Stock
-from classes.sequence_specific import CLOptimizer
+from classes.sequence_specific import CLOptimizer, PairsTable, make_short_solution_stats
 import argparse
 import os
 
@@ -139,6 +139,9 @@ def find_solution(parameters, logger):
     sequence = CLSequence(parameters["sequence"])
     stock = Stock(parameters["stock"], parameters["prices"])
     sequence.sequence_stats(stock, assignment=parameters["assignment"])
+    pairs_table = PairsTable(sequence, stock.label_options)
+    sequence_stats = make_short_solution_stats(pairs_table)
+    logger.info(sequence_stats)
     scheme_optimizer = CLOptimizer(parameters, logger, sequence)
     scheme_optimizer.run()
     # scheme_optimizer.write_results()
