@@ -1,8 +1,9 @@
 import os
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
+from CombLabel import run
 
-UPLOAD_FOLDER = '/uploads'
+UPLOAD_FOLDER = './uploads'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -29,6 +30,10 @@ def upload_file():
             flash('No sequence selected file')
             return redirect(request.url)
         ncs = request.form['ncs']
+
+        # TODO: Save file and get filenames and call run function
+        # run(ncs, sequenceFileName, stockFileName)
+
         return '''
         {}
         '''.format(ncs)

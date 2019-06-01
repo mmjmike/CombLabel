@@ -146,6 +146,12 @@ def find_solution(parameters, logger):
     scheme_optimizer.run()
     # scheme_optimizer.write_results()
 
+def run(ncs, sequenceFileName, stockFileName):
+    args = CombLabel_args(ncs, sequenceFileName, stockFileName)
+    logger = create_logger_main(args, DEFAULT_LOG_FILENAME)
+    parameters = read_parameters(args, logger)
+    find_solution(parameters, logger)
+    return
 
 def main():
     args = read_args()
