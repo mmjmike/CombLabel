@@ -10,7 +10,7 @@ import os
 
 DEFAULT_LOG_FILENAME = "CombLabel.log"
 
-script_path = os.path.split(os.path.realpath(__file__))[0]
+script_path = os.path.dirname(os.path.dirname(__file__))
 
 
 def read_args():
