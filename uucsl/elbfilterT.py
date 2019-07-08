@@ -1,10 +1,11 @@
 #!/usr/bin/python3 -u
 
-from classes.ucsl_io import make_block_stats, add_to_file_name, write_blocks, read_blocks
-from elbclean import clear_empty_block_types
-from classes.constants import Constants, Pattern
 import argparse
 import os
+
+from UUCSL.elbclean import clear_empty_block_types
+from classes.constants import Constants, Pattern
+from classes.ucsl_io import make_block_stats, add_to_file_name, write_blocks, read_blocks
 
 LOG_ITERATION = 100000
 index_of_typeT = Pattern.index_of_type(Constants.typeT)
