@@ -162,26 +162,66 @@ class Constants:
         "S": "C"
     }
 
-    NC2 = NCS("NC2", [HSQC, HNCO],
-              [typeX, typeN, typeC])
-    NCD2 = NCS("NCD2", [HSQC, HNCO],
-               [typeX, typeN, typeC, typeD])
-    NCD4 = NCS("NCD4", [HSQC, HNCO, HNCA],
-               [typeX, typeN, typeC, typeD])
-    NCD6 = NCS("NCD6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
-               [typeX, typeN, typeC, typeD])
-    NCDA8 = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
-                [typeX, typeN, typeC, typeD, typeA])
-    TSF12 = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
-                [typeX, typeN, typeC, typeD, typeA, typeT, typeS, typeF])
-    TF12 =  NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
-                [typeX, typeN, typeC, typeD, typeA, typeT, typeF])
-    XND2 = NCS("XND2", [HSQC, HNCO],
-               [typeX, typeN, typeD])
-    XND4 = NCS("XND4", [HSQC, HNCO, HNCA],
-               [typeX, typeN, typeD])
+    NC2       = NCS("NC2", [HSQC, HNCO],
+                    [typeX, typeN, typeC])
+    NC2nox    = NCS("NC2nox", [HSQC, HNCO],
+                    [       typeN, typeC])
+    NCD2      = NCS("NCD2", [HSQC, HNCO],
+                    [typeX, typeN, typeC, typeD])
+    NCD2nox   = NCS("NCD2nox", [HSQC, HNCO],
+                    [       typeN, typeC, typeD])
+    ND3       = NCS("ND3" , [HSQC, HNCO, HNCA],
+                    [typeX, typeN,        typeD])
+    ND3nox    = NCS("ND3nox", [HSQC, HNCO, HNCA],
+                    [       typeN,        typeD])
+    NCD4      = NCS("NCD4", [HSQC, HNCO, HNCA],
+                    [typeX, typeN, typeC, typeD])
+    NCD4nox   = NCS("NCD4nox", [HSQC, HNCO, HNCA],
+                    [       typeN, typeC, typeD])
+    NCD6      = NCS("NCD6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [typeX, typeN, typeC, typeD])
+    NCD6nox   = NCS("NCD6nox", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [       typeN, typeC, typeD])
+    NCDF6      = NCS("NCDF6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [typeX, typeN, typeC, typeD, typeF])
+    NCDF6nox   = NCS("NCDF6nox", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [       typeN, typeC, typeD, typeF])
+    NCDAF6     = NCS("NCDAF6", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [typeX, typeN, typeC, typeD, typeF, typeA])
+    NCDAF6nox  = NCS("NCDAF6nox", [HSQC, HNCO, HNCA, HNCOCA, DQHNCA],
+                    [       typeN, typeC, typeD, typeF, typeA])
+    NCDA8     = NCS("NCDA8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
+                    [typeX, typeN, typeC, typeD,        typeA])
+    NCDA8nox  = NCS("NCDA8nox", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
+                    [       typeN, typeC, typeD,        typeA])
+    NCDAF8     = NCS("NCDAF8", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
+                    [typeX, typeN, typeC, typeD, typeF, typeA])
+    NCDAF8nox  = NCS("NCDAF8nox", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA],
+                    [       typeN, typeC, typeD, typeF, typeA])
+    TSF12     = NCS("TSF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+                    [typeX, typeN, typeC, typeD, typeF, typeA, typeT, typeS])
+    TSF12nox  = NCS("TSF12nox", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+                    [       typeN, typeC, typeD, typeF, typeA, typeT, typeS])
+    TF12      = NCS("TF12", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+                    [typeX, typeN, typeC, typeD, typeF, typeA, typeT,      ])
+    TSF12noxs = NCS("TSF12noxs", [HSQC, HNCO, HNCA, HNCOCA, COHNCA, DQHNCA, HNCACO],
+                    [       typeN, typeC, typeD, typeF, typeA, typeT,      ])
+    XND2      = NCS("XND2", [HSQC, HNCO],
+                    [typeX, typeN, typeD])
+    XND4      = NCS("XND4", [HSQC, HNCO, HNCA],
+                    [typeX, typeN, typeD])
 
-    LIST_OF_NCS = [NC2, NCD2, NCD4, NCD6, NCDA8, TSF12, TF12, XND2, XND4]
+    LIST_OF_NCS = [NC2,    NC2nox, 
+                   NCD2,   NCD2nox, 
+                   ND3,    ND3nox, 
+                   NCD4,   NCD4nox,
+                   NCD6,   NCD6nox,
+                   NCDF6,  NCDF6nox,
+                   NCDAF6, NCDAF6nox,
+                   NCDA8,  NCDA8nox,
+                   NCDAF8, NCDAF8nox,
+                   TSF12,  TSF12nox, TF12, TSF12noxs,
+                   XND2, XND4]
 
     NCS_NAMES = [ncs.name for ncs in LIST_OF_NCS]
 
