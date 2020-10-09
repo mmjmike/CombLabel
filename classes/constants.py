@@ -374,8 +374,8 @@ class Constants:
 
     ncs_re = re.compile('\\[\\s*NCS\\s*=\\s*([A-Za-z0-9_-]+)\\s*\\]')
     deuterated_re = re.compile('\\[\\s*Deuterated\\s*=\\s*([A-Za-z]+)\\s*\\]')
-    elb_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(\\d+)\\s+patterns\\s*=\\s*(\\d+)\\s*\\]')
-    sv_re = re.compile('\\[\\s*SV\\s+((\\d+\\s+)+)\\s*\\]')
+    elb_re = re.compile('\\[\\s*ELB\\s+samples\\s*=\\s*(?P<samples>\\d+)\\s+patterns\\s*=\\s*(?P<patterns>\\d+)\\s*\\]')
+    sv_re = re.compile('\\[\\s*SV\\s*(?P<sv>(\\s+\\d+)+)\\s*\\]')
 
     labels_re = re.compile('\\[\\s*Labels\\s*=\\s*([A-Za-z ,]+)\\s*\\]')
     spectra_re = re.compile('\\[\\s*Spectra\\s*=\\s*([A-Za-z0-9 ,]+)\\s*\\]')
