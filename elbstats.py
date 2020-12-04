@@ -1,19 +1,10 @@
 #!/usr/bin/python3 -u
 
 import argparse, os
-from classes.ucsl_io import make_block_stats
+from classes.ucsl_io import make_block_stats, add_block
 from classes.constants import Constants
 
 
-def add_block(blocks, samples, patterns):
-    if samples not in blocks:
-        blocks.update({samples: {patterns: [True]}})
-    else:
-        if patterns not in blocks[samples]:
-            blocks[samples].update({patterns: [True]})
-        else:
-            blocks[samples][patterns].append(True)
-    return blocks
 
 
 def main():

@@ -108,6 +108,17 @@ def read_blocks(block_file, logger=None, initial_blocks = {}):
     return result, blocks, ncs_name, deuterated
 
 
+def add_block(blocks, samples, patterns):
+    if samples not in blocks:
+        blocks.update({samples: {patterns: [True]}})
+    else:
+        if patterns not in blocks[samples]:
+            blocks[samples].update({patterns: [True]})
+        else:
+            blocks[samples][patterns].append(True)
+    return blocks
+
+
 def read_lines(filename):
     try:
         with open(filename, 'r', encoding='UTF-8') as f:

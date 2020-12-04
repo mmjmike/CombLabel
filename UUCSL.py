@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 -u
 
 from classes.search_objects import SchemeOptimizer
 from classes.ucsl_io import read_blocks, find_ncs, read_prices
