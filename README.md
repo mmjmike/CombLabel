@@ -254,12 +254,12 @@ DND
 
 It has 3 positional command-line arguments:
 * `ncs` - the name of NMR coding system (NCS). Typical NCSs are collected
- in `NCS` folder of the package
+ in `NCS` folder of the package.
 * `sequence_file` - file, containing amino acid sequence of the protein of
 interest in one-letter code. `*.fasta` files can be used.
-* `stock_file` - file with prices (prices of commercially available in
-2016 amino acids with various labeling types are collected in `csv`
-prices-files in `prices` folder of the package)
+* `stock_file` - file with presence/absence of amino-acid labeling types in 
+ the wet lab: 0 - absent, 1 - present. Examples of stock-files may be found 
+ in `stocks` folder.
 
 Optional command line arguments:
 * `--price, -p` - file with prices (prices of commercially available in
