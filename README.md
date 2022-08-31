@@ -335,5 +335,4 @@ to be added
 When using this package for scientific use, please cite the following
 paper:
 
-[1] M.Dubinnyi, M.Myshkin, Z.Shenkarev: "UUCSL: Universal unambiguous
-combinatorial selective labeling schemes" JBNMR, 2019
+[1] Myshkin, M.Y., Dubinnyi, M.A., Kulbatskii, D.S. et al. CombLabel: rational design of optimized sequence-specific combinatorial labeling schemes. Application to backbone assignment of membrane proteins with low stability. J Biomol NMR 73, 531–544 (2019). https://doi.org/10.1007/s10858-019-00259-z
