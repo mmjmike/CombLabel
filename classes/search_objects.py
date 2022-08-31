@@ -751,6 +751,7 @@ class CLSequence:
         self.residues = dict()
         self.other_N = []
         self.other_C = []
+        self.stock = None
 
     @property
     def residue_types_used(self):
@@ -765,6 +766,7 @@ class CLSequence:
         self.residues = dict()
         self.other_N = []
         self.other_C = []
+        self.stock = stock
 
         for i in range(len(self.sequence) - 1):
             if (i + 1) in self.assignment:
